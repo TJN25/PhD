@@ -1,0 +1,186 @@
+Array 1 2360914-2361061 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LN810019-Shewanella algae strain MARS 14, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+   2360914	    29	  96.6	    23	.......................G.....	CCTAGGCTTGAATGGAGCCTTTG               	
+   2360966	    29	 100.0	    38	.............................	GGGCAAAATGGGGACACCCATAATTCTTGGCGACACCC	
+   2361033	    29	 100.0	     0	.............................	|                                     	
+==========	======	======	======	=============================	======================================	==================
+         3	    29	  98.9	    31	ATAATTCTTGGCAGGTTTCTCTCACCTTG	                                      	       
+
+# Left flank :   CTTTAATCTCTCGGCCATTACGGCAGCGATTTGCATGGGTAAAGAGACAGACCCTAACCCCGCAAGCCGTTACTGGGCGGCGGTGTGGGGCGGAGTATTTTATTTGATAACTGGTCTACTCGGCGCAACAGTCGTTGGGCTATTCGCCGCATTTCCGAAGGAATTGGTGCTCGCGATTGCAGGATTGGCGCTGCTTGGCACCATAGGTAACAGTCTAACCGCAGCGCTTGCGGATAACGACGAACATGACGTGGTGGTAATTACGTTTCTCGTCACCGCATCTGGCGTGAGTGTATTGGGGATCGGCAGCGCCTTCTGGGGATTATTGCTCGGGTTTTTAATGCATTACTGGCACAAGCATCGCGCGTTAACCACAACTTAAACAGGCAAAAGCTTAGCTGTGGTTAGGTCTAGATTGCAGTTCGCCACCTTAGTTGGAAATAAAAACACGAAAATTGGAAATAAGAGGCAAATTGCAAAATGGCAAAATGGGGACACCC
+# Right flank :  GTCTAGGCTTGAATGGAGCCTTTGAAAAGGAAAGGATGCCATGCCGAGGCCAAGATATGCTCAAGTCAGTCTTGAGGACACCCCCTTCTATCACTGCATCTCCCGCTGTGTACGCCGCGCCTTTCTATGTGGCGTTGATGACTATTCGGGCAAGAGCTATGAACATCGCCGCGATTGGGTTGAATCCCGTCTATTGGAACTGGCGACAGTGTTCGCCATTGACTTGTGTGCCTATGCAGTCATGTCCAATCATCTGCATTTGGTGCTCAGAGTTGACTTGAAAACCGCCTCAGAATGGACATTGGAGCAGGTTTTACAGCGTTGGCACCTGCTTTACAGTGGAACCCTGTTATCCCAGCGTTTTCTGCGCGGTGAAACACTTTCTGATATTGAATATCTCACCCTGCAACAAACCACTGAAGTCTATCGCCAACGTTTGATGGATATCAGTTGGTTTATGCGGGCGCTCAATGAACCTATTGCCAGACAAGCCAATCGGG
+
+# Questionable array : NO	 Score: 3.00
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:-0.04, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATAATTCTTGGCAGGTTTCTCTCACCTTG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:58.62%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [120,40] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Csy3:WP_052658199 [4000428-4001444]; 
+# Array family : NA
+# Sequence source strain : MARS 14
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella algae
+//
+
+
+Array 2 2410690-2411507 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LN810019-Shewanella algae strain MARS 14, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                              	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=============================================================================	====================================	==================
+   2410690	    77	 100.0	    18	.............................................................................	TACAGATTGAGCATTCAG                  	Deletion [2410785]
+   2410785	    77	 100.0	    27	.............................................................................	CTGAATGTTTTAGTCTATCTTTCCTGA         	
+   2410889	    77	  98.7	    34	............................................................................G	CAGGAAGATCTACCTTTTGCAGCACGCTGAGAAA  	
+   2411000	    77	 100.0	    28	.............................................................................	TCTGGGTGTCACCCTATTCTCAAGCAAG        	
+   2411105	    77	 100.0	    36	.............................................................................	CGGATATACTGCCAGATTGTTTGATTTGGATTGCGA	
+   2411218	    77	  98.7	    34	............................................................................G	ACATTGACTGCCGAGGCAGACCGCAATAAATCAG  	
+   2411329	    77	 100.0	    25	.............................................................................	CTAAAAGGTTTACGAAACATGAAGT           	
+   2411431	    77	 100.0	     0	.............................................................................	|                                   	
+==========	======	======	======	=============================================================================	====================================	==================
+         8	    77	  99.7	    29	TGGTGGGTCGTGAAGGATTCGAACCTTCGACCAATTGGTTAAAAGCCAACTGCTCTACCGACTGAGCTAACGACCCA	                                    	       
+
+# Left flank :   TTGAAGTTAAAACGGGTTTCCCGCGCCTGGAAGTCGGTCACCTGATTGCCGTTGCCATCTACCCCATAGATGGCGCCGGGCACATAGAACTGGCGTGAGACGTTGTTGGAGTCGGGCGCGCCATTACTGTAATCGCTGAACATGATATCGGCCTTGAGATAGCCACCAAACTGCACGTCAGTCTTGTCCAATACCGATGCCTGAGCCGTCCCCAAACCACCCAGAGCCAGAAGGGTTGCAGCGCACACCCCGGTGAGTCTTGCTTGTTTCATCTTGGATTGTCTCCTTGTTGTTATGCCAATCCATCCGGCAAAAAACACAACGGCCAAGACAGATTGAGAAAGCAAGAAGCACTATCCGATGTTTAACAGAATTGAAACATTGGCAATAGGTCTATGAGACAAAAGTAGAAAAGTATTGGCTAAATTAGCTTGGATATCAAAGCGAATCGACTGAAGCTGGATATTGGTGAGCTTGGTGTTTTCAAGTGGAGTTCTGGA
+# Right flank :  ATTCAAGTTTCGCCTCAGCAGGCCATGCCGTGCTGAGGGCGCCTATAATACCGCTTTGTGATTCTCATGCAAGTGTAAATTCCCGATTTTTTGTTGTTTGCATGAAAAACAAACTGGGCGGATGTTTTTTAGTTAAATCATGGTTTAATTGCCGCCAATTGCTGCTGTGCAATCCTTGCTGCAGCGCTGTTTGCGTACTGTTTCACCACTTGCTGATAGTAGTTCTTTGCCGCCGTTTTATCGCCGGTTTTTTCGGCAATCAGCCCAAGTTTAACCAGACTGTCGGCCCGCTTACCCGATTCTTTGAAGTTATCGACCACATTGGCAAAAGCGGTTTTGGCTTCGGCAAATTCATTCTTATTATAGAGCAGTTGGCCGAGCCAATAGTTGGCGTTATCGGCAAAGCCCGAATTGGGGTACTGCTTGATAAAGTCACGAAATGCCGGAATTGCTGCGTCGTACTGGCGCTCTTTCAGTACCAGATCGACCGCCCTTTGATA
+
+# Questionable array : YES	 Score: 2.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.99, 5:0, 6:-1, 7:0.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGGTGGGTCGTGAAGGATTCGAACCTTCGACCAATTGGTTAAAAGCCAACTGCTCTACCGACTGAGCTAACGACCCA
+# Alternate repeat :   TGGTGGGTCGTGAAGGATTCGAACCTTCGACCAATTGGTTAAAAGCCAACTGCTCTACCGACTGAGCTAACGACCCG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [21,17] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-19.60,-19.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [55.0-45.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [230,137] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_052658199 [4000428-4001444]; 
+# Array family : NA
+# Sequence source strain : MARS 14
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella algae
+//
+
+
+Array 3 3999628-3995461 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LN810019-Shewanella algae strain MARS 14, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3999627	    28	 100.0	    32	............................	ATCTTGTGATGATTGGCTCAACTCGATAGCGT	
+   3999567	    28	 100.0	    32	............................	TTCCAGGTCATAAGTTACACCCGCGGCTGTTA	
+   3999507	    28	 100.0	    32	............................	TTTATTTGGCCACTCTTGATGGCATCGAACAC	
+   3999447	    28	 100.0	    32	............................	TCTGGATCCTTCTCGCGCCAATGCAGGCCGTA	
+   3999387	    28	 100.0	    32	............................	ATAAAGCAGTGGCACAGGGTGCCCGGCTGACG	
+   3999327	    28	 100.0	    32	............................	AATCCAACATATCAGCCTCCGAATATTATGGC	
+   3999267	    28	 100.0	    32	............................	GTCGAGTCCTGTTCCTGCAGGACAGCCAGCCA	
+   3999207	    28	 100.0	    31	............................	GCATGTCTACCAAGGTCGGGTTGGGTGTGGG 	
+   3999148	    28	 100.0	    32	............................	TGCGGCAAGTCAATTCTGTGGCTGCGCTCGTA	
+   3999088	    28	 100.0	    32	............................	TGTCTGTTGCGCCCGAAGCATTTTTGCGGATT	
+   3999028	    28	 100.0	    32	............................	AACACTGTCAGACGGGCCCAGGTTAAGCAGTG	
+   3998968	    28	 100.0	    32	............................	TGTCTGAGCCCTCACGGTCCGACTTGTCTCGG	
+   3998908	    28	 100.0	    32	............................	CCCGCTCGCTTCTTGGCCTCTTCGATCTTCTC	
+   3998848	    28	 100.0	    32	............................	TCGCACCATATGCCGAACGACTTGGCCTCAGT	
+   3998788	    28	 100.0	    32	............................	AATGACGGCTTTTGGCCGGACTTGTCGGTGAG	
+   3998728	    28	 100.0	    32	............................	GATAGGCACCGCAGGCCCTAACGAATTTAACG	
+   3998668	    28	 100.0	    32	............................	TCAAACCGTTTGAGAAACCACTGCTCAGCGGC	
+   3998608	    28	 100.0	    32	............................	TCAAGCGTAACGAGTGCCCGCCGTATGTTGTT	
+   3998548	    28	 100.0	    32	............................	TACCTGCTCGATGGCGAAGTGTCGGCGCTCAC	
+   3998488	    28	 100.0	    32	............................	AAACCAAATCCACATAGGCCGCTTACGGCCAA	
+   3998428	    28	  96.4	    32	..................T.........	GGTGATCTGTATCTCTACGCTGATAACCTGGA	
+   3998368	    28	 100.0	    32	............................	GCGACCGCTACGGCTTGAACACGGTTCGCGAA	
+   3998308	    28	 100.0	    32	............................	GCCCATTTAAATAAGGGGAGAAATTAAGTTGC	
+   3998248	    28	 100.0	    32	............................	ATACCCCTTTCAATGGGAGGTTGCGCAAAACT	
+   3998188	    28	 100.0	    32	............................	GAACTTGCGGAAAATATCGACTTGCCCACCGC	
+   3998128	    28	 100.0	    32	............................	TAGATGATCGCAATCAAGCGCATAGCTACTCG	
+   3998068	    28	 100.0	    32	............................	TTCTGTGCTTCCAATAATAGGGTAACGTCACC	
+   3998008	    28	 100.0	    32	............................	GAATTGAATGTAAGTAATGGTGTTGCAACAGC	
+   3997948	    28	 100.0	    32	............................	TTCTCGATAACACAATCACTTGGCAGCGGCGC	
+   3997888	    28	 100.0	    32	............................	AGTTTGGTGCCCAACATACTCAACTGCGCTTA	
+   3997828	    28	 100.0	    32	............................	AATAACCCGGCGTCTCTGCGTATGATGTTCCT	
+   3997768	    28	 100.0	    32	............................	TTCTAGGAATTCCAAATCCATGAAATAGGCAT	
+   3997708	    28	 100.0	    32	............................	ATAAAAGGAACATCAAAATGGAATATCCGAAT	
+   3997648	    28	 100.0	    32	............................	AGTTTGGTGCCCAACATACTCAACTGCGCTTA	
+   3997588	    28	 100.0	    32	............................	AATAACCCGGCGTCTCTGCGTATGATGTTCCT	
+   3997528	    28	 100.0	    32	............................	TCAGGGGTGGTCAATGACCTCTTCGGGGATGT	
+   3997468	    28	 100.0	    32	............................	ACCATCTGATGAATCCTGTACTATTCAGCAAA	
+   3997408	    28	 100.0	    32	............................	TATTGCATCATCATGACAGGCATGACCGTGAT	
+   3997348	    28	 100.0	    32	............................	TGATAGTCCGAGCCATAACGCATCGCAATACG	
+   3997288	    28	 100.0	    32	............................	TCCTGACCATTGGTGACAATAATCTCAGCCTT	
+   3997228	    28	 100.0	    32	............................	TGAGGCACCTGGAACTGATTAGGGAGATTAAA	
+   3997168	    28	 100.0	    32	............................	TGATAACCTCTTGCGGGGTCAACGGGGCTGGC	
+   3997108	    28	 100.0	    32	............................	TGATAACCTCTTGCGGGGTCAACGGGGCTGGC	
+   3997048	    28	 100.0	    32	............................	AACTGCAGGAGTTTATGGGGTATTCAATGGTG	
+   3996988	    28	 100.0	    32	............................	AACTGCAGGAGTTTATGGGGTATTCAATGGTG	
+   3996928	    28	 100.0	    32	............................	GCCGCTAAGGTGATGGGCTACTCGGTAAAAGA	
+   3996868	    28	 100.0	    32	............................	GTTGAACTCATAAAATATCTTCTCGCAGCACA	
+   3996808	    28	 100.0	    32	............................	AGCAGATGACATACCTATGCCAGCAGATAGCA	
+   3996748	    28	 100.0	    32	............................	GCTGGGGAAGAATGCGAATACAAATTGTGGAG	
+   3996688	    28	 100.0	    32	............................	TTATTACCCTCGCCTGGATGGCTTTTGCCATT	
+   3996628	    28	 100.0	    32	............................	AGTCAGGCGTTGTCACATCAGCTCAGCTTGAC	
+   3996568	    28	 100.0	    32	............................	ACTTCCGGCGCCTAAAGGTGTCAGGCGACGAG	
+   3996508	    28	 100.0	    32	............................	ATCACAGATTGAGTATGTCTCGAATGCTTTCA	
+   3996448	    28	 100.0	    32	............................	TGCAGAGAATGAGCGCTCAACCGCCTCATAAG	
+   3996388	    28	 100.0	    32	............................	TTCACGAAGAACTGCCGGAGGAGCTTAAATGC	
+   3996328	    28	 100.0	    32	............................	TTTTGGACGACCGGCACCCTTTCTTGCTCCAC	
+   3996268	    28	 100.0	    32	............................	AGACTGGCAAGCGAAGAAGGTTTGAGTGAAAA	
+   3996208	    28	 100.0	    32	............................	TCGGGGGTGCAGCATGACAGAGCAACAGTTTA	
+   3996148	    28	 100.0	    32	............................	AAGTTGAATGAACGACTGCATGGCTTTTGAGT	
+   3996088	    28	 100.0	    32	............................	AGTTTACGGGATACCGATTTGCTTAAGTGGGC	
+   3996028	    28	 100.0	    32	............................	AGTTAGCACCGCCATCATCTGAATAAACCATT	
+   3995968	    28	 100.0	    32	............................	TAGACTCAGGTGAGCTTCATCGACAACGAACA	
+   3995908	    28	 100.0	    32	............................	AGTGAAATCCTGTTGTTCGTTTACCGCAAAAA	
+   3995848	    28	 100.0	    32	............................	TATGTGAACCGTGACGAGCTCAGCTAACGTTT	
+   3995788	    28	 100.0	    32	............................	GTTTAGTTAAACCAACGCCCAAGATCCGATTT	
+   3995728	    28	 100.0	    32	............................	AGCTGAGTGATTTCAGTGTTGGACACCGGCAT	
+   3995668	    28	  96.4	    32	..................T.........	TTTATCCAAGCGTTCAGAGCGGATGGCTGAAT	
+   3995608	    28	 100.0	    32	............................	GGCATGGAAATGAACGGCGGCAAAACGGTCGC	
+   3995548	    28	 100.0	    32	............................	AGGATGACAAATTGATAGCAGGAGTTAATTAT	
+   3995488	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+        70	    28	  99.9	    32	GTTCACTGCCGCCCAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   CGAGTGATGTTTCCTACGTGAGCTTTGTACGCAAACAGGTGAAATCGCCTGAGCGGATTGAGCGGGCTATGCAGCAAAAGGCGGCATTATGGGCTGCAAAGTCGGGCAAGCCGCTGGCCGAGTGCTTAACCGATCTTGAAAAAGGCAAACCGACTGGGCAGTGTGATTTGCCATTTATCTTCTTGCACAGCCAGCAAACGAAACAACGTTCGCCGGACAAAAACAGCAAGTTCCCGCTGTTTATCGAAAGATATCCGCAAAGTACACCTGTGGATGGGCAGTTCGATTGCTACGGGCTAAGTCGTAAAGTTAATGGTATTGCATCGCTTGGAACAGTACCGCACTTTTAAGCATCAAAGGGTGAGTTTTACCCTTTATTTTTGCTCTTTAAAAATAAGCTTTATATACAATCAGTTACAACAGGTGGTATTCAACAGGGTAAAAATAGCTTTTTTATCCTAACCACCTGTTGTGACTTTCTTTTATTGATTTATTCTATT
+# Right flank :  GTTCTTCTGGTGATGACCTTTCCCCCGAATTTATCACTCGGCCCCAGCAAAATCCGAACGTCTTGCATTTGTGGGGCTGAAGAGGCCGAAACTGAGGTGATCTAAATAGCGGCCCGGCTCAAGGCAGCATGTCTACTCGAAGTAGTCTGCTGGCGCTGCGGCCTTTGTCGTCGCTGACCGATAACTGGAAGCGTCCTGCTCTGGGCGGGCGCCATTCCAGGGTTTGGCCCGGCAGGCTCTGCCCGAGCAGGCTGTTACCGGCAAACCAGTAGAGTATTTGGCTGTCGGAGGCGGCGTCGGCCTTGAGGGCGATGTGTTCATTGGCCACGCTTTGGCGCAGGCTGTAGGTGACGCCTTTCAAGGGGGAGCGGATAAGCGGGGCCGAGTAGCTGACCGCGACTCTTTGGCTGCAGGCGGCCGGAAGCTCCGGCGGCCTCCTGCGGGGTAAACCTGCCTGCTCGAACAGGGCCGCCAAGTCTGACGGCCAGAAGGCAAACACC
+
+# Questionable array : NO	 Score: 8.01
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.01, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCCCAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [48.3-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [120,151] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.51   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_052658199 [4000428-4001444]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : MARS 14
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella algae
+//
+
+

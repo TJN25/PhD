@@ -1,0 +1,41 @@
+Array 1 23716-24049 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL538328-Faecalibacterium cf. prausnitzii KLE1255 Scfld369, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+     23716	    28	 100.0	    34	............................	TTTCTTAAAAAGGCTCAGAAGGGCATACAAATCA	
+     23778	    28	 100.0	    33	............................	TACTTTGCACCGCCTACTGCTTTATTCCTTGTT 	
+     23839	    28	 100.0	    33	............................	CATCTCGAGCGGATAGCGTTTCTTGATTTTGTA 	
+     23900	    28	 100.0	    33	............................	GTACGCGGCAAAGCCTGCTGACTACATCGTACC 	
+     23961	    28	  92.9	    33	............T.C.............	TGCGTGCCCGGGCATGCATACGCTGCCGCTGGA 	
+     24022	    28	  75.0	     0	............T.C......C.T.CAA	|                                 	
+==========	======	======	======	============================	==================================	==================
+         6	    28	  94.6	    33	CTTTTCCCCGCACATGCGGGGGTGATCC	                                  	       
+
+# Left flank :   AGAAGAGGGTGATGAAACATCGTAGTTCTCACCATGACGAACTGCCCGCCAAAACTGCGCGGGGATCTGTCCATGCTGGTCCGCGTGGAAGAAAACGTTCCGGCAGAGATCACAGCCCTGACAGGACTCAGCGCTGCGGAATTGCAGCAGGGAACAGAACCACGGGAAGCGCTGAATAGCTTTTTGTTGTTTATTGGCAAAGACCCACTGGTGGGACATAATATTGCCTTTGATCTGGAGTTTCTGCGCATGACCTGCAAACGATATGGCTTTCCGGCACCGACCAACCGCCAGATCGACCTTGCACAACTTGCCCGCCGAAACCTTACAAGGATCGCAAATTATAAGCTGGTGACGCTGGCACAGCATTTTCAGCTGGCAGAAAAAGTGGAGCATCGCGCCCTGCCGGACTGCCGTCTGATACAACAGGTTTATTGCAAACTGAAGGAAACAGCGGTACAATAGCAACAGGAGGCACGGTGCTACGGGATCTTTTTAGT
+# Right flank :  AAAAAGAACCACGGGCGCAACGGAAAGTGAAATGATATTTCTGGAAAGGAGAACTCTGCAATTTTATCGCCCGCCCAGGCTGCGATCAAGAATCCCCGCAAGTGATCGCGTAAGGGCTTGAACCGATACAAATAACACAAATAAAGCATAACAAATACCCCTCGGTTTCCTGCTGCGGGAGCCGAGGGGTATTTTGCGTATTAAGGGTGGAACGAATGCGCACTGTGATTTTATTCTGCCTTCAGGCGGAGCAAGGTGCCGGACTTTTCAATGCGGTAAAAGCCTGCGCTGCCGTCCACGCCGAAGTGCAGCTGCAGCTTGAGCGAAGAGTGCGACAGCGCGCGCACCGAAGGCGCGATCCAGTGCACCAGTGCCAGCAGCAGCGGCAGGGTGACGACCAGCTCAGTGGCATCCTGCAGTACGGCCCAGTACTTCACAGTAGAGCAGCTGGTCCAGATCGATGCGGGAGATGCCGGTCTTGCAGCGCAGGATCAGGCTGC
+
+# Questionable array : NO	 Score: 7.26
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.73, 5:0, 6:1, 7:0.53, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTCCCCGCACATGCGGGGGTGATCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [37,230] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas6e:WP_044953773 [21656-22288]; Helicase/endonuclease Cas3:WP_005942565 [14934-17690]; 
+# Array family : NA
+# Sequence source strain : KLE1255
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae;Faecalibacterium.; Faecalibacterium cf. prausnitzii KLE1255
+//
+
+

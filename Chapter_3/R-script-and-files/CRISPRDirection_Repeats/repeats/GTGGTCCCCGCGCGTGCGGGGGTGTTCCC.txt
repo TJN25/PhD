@@ -1,0 +1,201 @@
+Array 1 4137471-4138537 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010572-Streptomyces griseus subsp. griseus NBRC 13350 DNA, complete		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   4137471	    29	 100.0	    32	.............................	CCGTTGGCTGACCAGCACGGTTCGCGCGCGAT	
+   4137532	    29	 100.0	    32	.............................	ATCAGCGGCCCTGGAGGGTCTTGGCCACGCGG	
+   4137593	    29	 100.0	    32	.............................	ATTGCTACAACCCCCCAGAGTTGAACATGCGC	
+   4137654	    29	 100.0	    32	.............................	AGATCGGGACCGTTGGCCGTGGGCACGTTCTC	
+   4137715	    29	 100.0	    32	.............................	GTCGCCGAAGCAGTTCGCATCATTCGACCGGA	
+   4137776	    29	 100.0	    32	.............................	CGCCAGCGACAAGTTGATGTCCCGCTCTGCAA	
+   4137837	    29	 100.0	    32	.............................	CTTACGTCACTTGCATGCCGCGCGGGAGGATT	
+   4137898	    29	 100.0	    32	.............................	CAGAGGCACGGTGATGGCAGCGTGGGTGGAGG	
+   4137959	    29	 100.0	    32	.............................	TGCACTCCGTCCGCGACGCCCACGGCCGGGTC	
+   4138020	    29	 100.0	    32	.............................	GACTGCGGCTCCGTGACCATCGGCACGACGAC	
+   4138081	    29	 100.0	    32	.............................	GATGTCGGCGACGGCATCCGGTCCGTGGCGTC	
+   4138142	    29	 100.0	    32	.............................	CACTGCGACGCCAGCTCACTCGATGACCCGAT	
+   4138203	    29	 100.0	    32	.............................	GGACCGCCGTCGGTGATCACGGCCGCCACCAG	
+   4138264	    29	 100.0	    32	.............................	GCGGCAGCTACCAGTTCCGTGGCGTCGACTCT	
+   4138325	    29	 100.0	    32	.............................	CGGCAGGGCCCCAGGAATTCGACAATCGCCAG	
+   4138386	    29	  96.6	    32	........................C....	GGAGCCGCGAGACGGCCGGCCGCACCCACCGC	
+   4138447	    29	 100.0	    32	.............................	GAGCACGACCGTTCTGCGCTGTCGTGAGTCTC	
+   4138508	    28	  82.8	     0	..................TCC...-C...	|                               	T,G [4138526,4138536]
+==========	======	======	======	=============================	================================	==================
+        18	    29	  98.9	    32	GTGGTCCCCGCGCGTGCGGGGGTGTTCCC	                                	       
+
+# Left flank :   TACAGAAACCCCCTTGATCCGCGGAGACGCGATCAAGGGGGTTTCTGCGTTGGGTACCTGCTCCATGGCCCGAAGGCCATGGCTGACTAGCGGCCCTGCCCATGGCGGGACCATGCGCACGTGCGGCGTCCGCGTACGCGCCTGCGGACGAGACCACCGCAAGGAAGTCCGCCGTATCGGACGCGCTCACGAACCACCTGTCACGCCCCCTCTCTCGGCTGACCGTCATTTCCCCAACCGAGATCGCCGCCGCCGACGCGTCGAAGCCGCTGAGATGCGAGCCTGGACGGCCACCAAGCGTCCTGGCCGCGCTCGCGGTTGCCACGGTGACCACCACTCTCTTTTCAGGAGGCTGCTCTTATGGACTGAAGAGAGGCAGAATGACTGCTGCCGCACAGCGCTCTGCGAGTACGATCACCTTCGAGGTGGGCGATATGTCTCTTTCTGAAGAAGTAAGTAAATTCAGCTCCGTCACCTCATAAAACCGCAGGTCACGAAGT
+# Right flank :  CGTGATCGTTGCGTAGACGCGCGGGGTCCACCTCAAGAGCGTCCGCGACCGCTTTGAGCACCTCGTCGCTGGACCGTCGGACACCTCGCTCGATGGCACGAACCATGGCATAGGAAACGTGGGGGGCGCCGCGAGTTCGGTTTGTGTGAGCCGGCGACAGGCGGCGATTCGCCTGCCGATTTCCTGCGGACTACCGAAAGACACCCGCTGACCGTACGCACACGAAGAGTTTCCGGCGGTAGATTCCTCTACTTCTGTGCGATCTCGATGAGTTACGTCAGTGACTGGATCACCCAGTCGGCAGTTGCGTGCACTTGGTGGTCACCGCCCCATAGTGCCCCCATGGGCCGCGGCGGATAGGGGCCATGCGCAGCCCGGCCTGGCGGCGGGGAATGCGTCGTTCACCGGGTGATCACCGACGTACACGGTTCCTCCCGCCGGAGCACCGGACGTGTCGAGGATCCGTTCGAAGAACTGCGCCGACGGTTTGGCACAGTCCC
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGTCCCCGCGCGTGCGGGGGTGTTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [56.7-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [684,334] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cse1:WP_012379969 [4142883-4147562]; 
+# Array family : NA
+# Sequence source strain : NBRC 13350
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces griseus subsp. griseus NBRC 13350
+//
+
+
+Array 2 4141681-4142747 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010572-Streptomyces griseus subsp. griseus NBRC 13350 DNA, complete		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=============================	====================================	==================
+   4141681	    29	 100.0	    32	.............................	GTCACCGCCGTCGACATGAGCGACGACCTGAC    	
+   4141742	    29	 100.0	    32	.............................	CACCGGTTGGACCGACAGCGCCGGCCGCGCCT    	
+   4141803	    29	 100.0	    36	.............................	ACCGGGCAGGACGTCCTGACCCGGGTGCGCGCCGAC	
+   4141868	    29	 100.0	    32	.............................	ATCGCCGAGGCCGACACCTACGGGCCCGCCAC    	
+   4141929	    29	  96.6	    32	............................G	TGCTTGAGCAGCCCGAGCAACGTTGTCGCCGA    	
+   4141990	    29	  96.6	    32	...........C.................	TCGGGCGGGCGGAGCGGGCGCGCAGCACCCGG    	
+   4142051	    29	 100.0	    32	.............................	CGCGACCTGAACCGCATCCTCGGATGGCCCGA    	
+   4142112	    29	 100.0	    32	.............................	TCTCGCCCCGCCCCGCCGGGCCCCGACCGCAT    	
+   4142173	    29	 100.0	    32	.............................	GGGCGGGGACTGCGTATGGCGGGCCCCCTCCA    	
+   4142234	    29	 100.0	    30	.............................	GGCGCGCAGTCCCATGGCCGCGCCCCTCTA      	
+   4142293	    29	 100.0	    32	.............................	GCGACACCGCCCCTGACCACTGGAACAACACC    	
+   4142354	    29	  96.6	    32	..............C..............	CCGCCGCCGGTGAGCCAGCCGAGGGGGATCTC    	
+   4142415	    29	 100.0	    32	.............................	CGCCGACCGACTGCTCAAGGCCCTGCGCGACG    	
+   4142476	    29	 100.0	    32	.............................	TCGGCGTGACCGGACCTCAGATGATGGGGGCC    	
+   4142537	    29	 100.0	    32	.............................	TGACGCTGACGCAACGAGCCCAGCAGCGCCCA    	
+   4142598	    29	 100.0	    32	.............................	AACACCCTGTTGTAAGAGGTTGATGTGAGCGA    	
+   4142659	    29	 100.0	    32	.............................	GACGACGAGAGGTCGTGGTCGTAGGCGAGCAT    	
+   4142720	    28	  93.1	     0	.....................C.-.....	|                                   	
+==========	======	======	======	=============================	====================================	==================
+        18	    29	  99.0	    32	GTGGTCCCCGCGCGTGCGGGGGTGTTCCC	                                    	       
+
+# Left flank :   CCCCGCGCCTTCCTCCATCACCGCCTCACCCACAAAATCCCACCCCGGCTCACCACCGACCATGCACAACCCCCCGCCCCCACCCGCCGCATCCTCATGGAATGCACCGACTGCGGACGCCCCGGCCCACCGGAAGCCCTCCCCGACGGCCTCTGTCACCCCTGCCGCACAACCCACACCGCAGACCCCGAAAACACACCCCACCCCGCCGACATCGCCGACATCAGGGCCCACATGAGCAACCTCCGCAGCCTCCTCAAACCCGTCTGAGCTCAACAACCCGCCTGCCTCACAGCCCCGGCACGGACAGGCCTCAGCGAGGTGCACCGACGTCCTCCTTCAAGAGGCCGCCTCTCGCCGCCTTGGAAGGGCAGAATCACTCCCGACACGCTTAAAGCTTCGAGCAGGCCTATGCACACCAACCAGAGGGCGATATGTCCATTTCTCGGGAAGTTGTCAAAAAGCACCACGCGCCTGAGTAAACCCGCAGGTCACGGACT
+# Right flank :  CATCCGGTCGACGGGGTAGAAAGACGCCCCCCTTTGCATGGGCCCGACGCGCAGGGGCGCTCCCCCACAGCACACTCGATCAAATACGCGCACTTGTATTCACTCTCGGTCATCGCGACCGTGCGGGACGTCGACGATGTCCAATACGCCCATGAGCCGCGATCATCCGGAAAGCCTTTCGGCATACGCCCGCCTGTCCCCCGTATCCCGCACCGCCTGGGGCAAGCACGATCGGCAGACCGAGCAGTGGCTCCCCCTCTGGCGGCACATGGCGGACAGCGCCGCTGTCGCGGAGCGGCTCTGGGACCAATGGGTGCCCGACAACGTCAAGGCGCTCATCGCGGACGCGTTCCCGCAAGGCGCTCAGGACGCCCGGCGAGTGGCCGTCTTCCTCGCCTGCGTCCATGACATCGGAAAGGCCACACCCGCCTTCGCCTGCCAGGTGGACGGGCTCGCCGACCGGATGCGGGCAGCCGGGCTCTCCATGCCGTATCTGAAGC
+
+# Questionable array : NO	 Score: 7.98
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.03, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGTCCCCGCGCGTGCGGGGGTGTTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [46.7-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [232,136] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cse1:WP_012379969 [4142883-4147562]; 
+# Array family : NA
+# Sequence source strain : NBRC 13350
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces griseus subsp. griseus NBRC 13350
+//
+
+
+Array 3 4154038-4152730 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010572-Streptomyces griseus subsp. griseus NBRC 13350 DNA, complete		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+   4154037	    29	  93.1	    32	CA...........................	GGGCTCGTCGAGGACTACTGCGGCCGGGACCT 	
+   4153976	    29	  93.1	    33	.......C.......T.............	CGGCCGCACCAAGTCCCGCGCGTCCGTCCTCGG	
+   4153914	    29	  86.2	    29	....T..............G..A...G..	GCGTCGGCGTACGGGAACAGGCTGCCCCC    	C [4153890]
+   4153855	    29	 100.0	    32	.............................	ATGACGGTGCGGGCCTGGTCGGCGCCGGAGAA 	
+   4153794	    29	 100.0	    32	.............................	CTGCTCCGGCCGCGTAACGCAGGCATCAGCCA 	
+   4153733	    29	 100.0	    32	.............................	CTGCTCCGGCCGCGTAACGCAGGCATCAGCCA 	
+   4153672	    29	 100.0	    32	.............................	CTGCTCCGGCCGCGTAACGCAGGCATCAGCCA 	
+   4153611	    29	 100.0	    32	.............................	GGGACGGTCCACGAGCCCGCGATCTGCCGCAG 	
+   4153550	    29	 100.0	    31	.............................	GGATCACGAAACAAGAGGCCCACAAGGGCCT  	
+   4153490	    29	 100.0	    32	.............................	CTCACGCCGATGTCCCCCCTGCTGAGCGTCCA 	
+   4153429	    29	 100.0	    32	.............................	CAGTCCCAAGCGGCTGTAGTCCAGCCGATGAT 	
+   4153368	    29	  96.6	    32	C............................	TCCCCGGAGATCTGGCAGTACGTGTCCGGCCG 	
+   4153307	    29	 100.0	    32	.............................	CTCGACGAACAAGGCGTCGAGCCCGAGTGGAC 	
+   4153246	    29	 100.0	    32	.............................	TGGCAGAAACATGGGCGCCTGACACAGGCCGA 	
+   4153185	    29	 100.0	    32	.............................	CGGGCCGAGTGGATGCCGTACGAGCGCCGCGG 	
+   4153124	    29	  96.6	    32	A............................	TCGTAGACCCGGCACATAGGCGCTTGGGGCAT 	
+   4153063	    29	 100.0	    32	.............................	ATGCACGGGCCCCCGATCAACACCCCCGCCGA 	
+   4153002	    29	  96.6	    32	A............................	GGGGCGACAGGGCAGCCCGGGGGTCAGGGGGT 	
+   4152941	    29	 100.0	    32	.............................	CTTGGGAGAGGCCGAGGAGGATTCCGGCGAGG 	
+   4152880	    29	  96.6	    32	A............................	TGTCACCCATGGCGGGCCTCCGTGTGTGCGTG 	
+   4152819	    29	 100.0	    32	.............................	CGGCTTGATCGGGTACGGGCTGCGGGCGTAGT 	
+   4152758	    29	 100.0	     0	.............................	|                                	
+==========	======	======	======	=============================	=================================	==================
+        22	    29	  98.1	    32	GGGAACAACCCCGCACGCGCGGGGACCAC	                                 	       
+
+# Left flank :   GATCACTGATGCGTCTTTTAGGGACCTACGTCCCCACCATCGAGGCCTTTCGCCCGACCACACGGCTCCCGCCGCCCGGCAGGATGGAGAGCGAGCCCAACGGGACCAGGCAGGACCCGGAGGGCCCGGAACAGGGCCTCTCTGTGGGGTCACCGCCGCGCGATCCCCCCTGACCGCGGCGGAGGACCAGCAGGCCCTGTTCTCACCGGGGGAAGCGGCTTGTCCCCCCGATGCCGCTTCCCCCGACCTGAACCGTGAACCGGAGCGCCCGGCCGCCGTACCTTCTCTGTACGGCGGCCGGGCGCTCTGCCGTTCCGCCGTACGCCGACCGCAGCGCGACGGGCGGCGGCGACCGCGATCGAAGGCAGGGCGACGACCGGCGCAGGCTTCCCGCCGTGAGCCCCCTGGGCGTCCAGCGGGAGAGCGGGAGCCGCCCGACCAGAGAGCGACCTCGCACCTGAGGAGACGGAGAGCACGCACACGGGCCTGACCGTCTGCGG
+# Right flank :  ACTCGCTGACCTGGTGTTCTATGTACACGGAGTCCTGTTTTTACTCACTTCTCCGAATTCCGGCATATCCGTCCTTGTGTCCTCTATCGGACATCGGTCCATCCCTGCCCTCGCACCCCCGGCTACCTCCCGCCCCCGAACCGCCGTCGCTTCGACGCCTTGCTCCAGCCCTGGCGGGGTACATCGACCGTCGGGCTCCCCGGGCTCCCCGGGCTTTCCGCGCGTGGGACGCGGGCGGTCGGGCGGTGGATGAGTGTCAGGCCTTCGTGGTCGGTCGGGTGCCAGGTGTGGTCGTGGGTTTCGAAGGCGTAGCCCTGCTCGCTGTCCGTCTGGTAGGCGAGCAGGGCACGGCCCTGGCCGGCGTACGTGCGTACCTCGGTCCACAGAAGGTCACGGATGCGGGTGGACGGGGCTCCGAGGAAGACGCCCGGGGAGATCTCCAGCAGCCAGCGGGTGAGGAAACCCCTCAGGCCCAGCGGGCAATTGGTGAGGACGATGAC
+
+# Questionable array : NO	 Score: 7.83
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGAACAACCCCGCACGCGCGGGGACCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [124,754] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.68,0.92   Confidence: LOW] 
+
+# Identified Cas genes:  Cse1:WP_012379969 [4142883-4147562]; 
+# Array family : NA
+# Sequence source strain : NBRC 13350
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces griseus subsp. griseus NBRC 13350
+//
+
+
+Array 4 4995319-4995188 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010572-Streptomyces griseus subsp. griseus NBRC 13350 DNA, complete		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence         	Insertion/Deletion
+==========	======	======	======	============================	========================	==================
+   4995318	    28	 100.0	    24	............................	GAGGCCGGGCAGGCAGCGCGGCAC	
+   4995266	    28	  89.3	    23	....A...........A..G........	AAGGCCCCACGAGCAGGGCACGG 	
+   4995215	    28	 100.0	     0	............................	|                       	
+==========	======	======	======	============================	========================	==================
+         3	    28	  96.4	    24	GGACGCGGGCGGGGGCGGGACGCGCACC	                        	       
+
+# Left flank :   ACCGGCCAACTGGGCGGCCCAGAAGGCGATCTGCCACTCGGGATGGTTCCGCATCGCGATGACGGCCCGGTCGCCGGAGCGCAGCCCGTACCGCTCCCGCAGGCGTACGGCGAGGGCGGAGGCGGCGGCGAAGAACTCCCCGTAGGAGTAGGTCCGTTCCCCCGCGATCAGGAACGGCGCCTCGCCGTAGGCCCACGTGGTCTCCACGAACTCCCGGAGCGTACGCGGCCCGTCGGCGTACTCCGGCGTCCCCTGCTCGCCGATGACCACGGCGAAGGGCGCGCCGGGCGCGGTGAGGGACGCCTCGATGCGCGCGGCGCGCCGGGCGCGTTCGGCGGGGACCCCGTCGTCCTCGGGAGCCGGGGGCGGGGAGGGGTGGGTGTGCGGCACGGACGGCCTCTCTCGCGCTGACGCTGGCTGCTGACTGCTGACTGCTGACTGCTACGCGAGACGCTATGCGGGCGGGGGCGCCGCGCCAAGGCCGGACGGGCAGCGCGCGG
+# Right flank :  ACGGGCGTACGAGCAGCGCGCACGGACACGGGCAGGAAGGGGGCAGGGTTCCCGCCCGGGCGGAGAGGAGGCCGGGACGGGCGCGGGAGGAGGGGTCAGGTCCCTGCGGAAGGTGCGGCCGGAGCCCCGGCCCGGTCGCCGCCCGGAGCCGAGCCCGCCGGGCGCTGCTTGAGGGCGTCGACGACGGCCCGGCCCGTCACCGCGGTATGCCCCCTGACCGTGCCCGCCCTGATGCCCTCCGCGTCACGCGTCTGCACGGTGCGCTCCCCCAGATACGCGAACGTCTCGCGGTCGAAGATCCACTCGGTGCGCGAGCCGTCCGACTCGTCGGTGCGGGCGATGGCGATCCCGTGGCGACCGGCCGCGTCGACGGAGTCGTCGACGAGGACCACCCCGGGGATCCGCGCCGCGGCACGGTAGAGGCCGGCGGCCAGCTTCGGCGGCACCACCTGTTCCCTCAACAGGTCGCCGATGGTGCCGAAGGCCTGCTGATCGGGGCC
+
+# Questionable array : NO	 Score: 2.01
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.82, 5:0, 6:1, 7:-0.90, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGACGCGGGCGGGGGCGGGACGCGCACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.20,-2.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [23.3-18.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [97,111] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  Cse1:WP_012379969 [4142883-4147562]; 
+# Array family : NA
+# Sequence source strain : NBRC 13350
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces griseus subsp. griseus NBRC 13350
+//
+
+

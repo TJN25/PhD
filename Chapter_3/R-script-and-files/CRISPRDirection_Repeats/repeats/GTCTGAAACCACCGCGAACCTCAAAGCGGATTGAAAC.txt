@@ -1,0 +1,40 @@
+Array 1 86219-85894 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BCWS01000002-Propionibacterium propionicum NBRC 14587, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+     86218	    37	 100.0	    35	.....................................	AGAAACTCTTGATGCCACTGATACCTCATTCCCAC  	
+     86146	    37	 100.0	    37	.....................................	TCCACCAGCACCGGGTAGCTGGCCAACAGTGCGGTGA	
+     86072	    37	  97.3	    33	.......G.............................	CCCCAATTAGGCCCAGCCCTACTACCAGGGCAA    	
+     86002	    37	 100.0	    35	.....................................	GTCCTGTGTCTACCAGGTAAGCCGCATACACAGGC  	
+     85930	    37	  83.8	     0	....................C.......A....GGTA	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+         5	    37	  96.2	    35	GTCTGAAACCACCGCGAACCTCAAAGCGGATTGAAAC	                                     	       
+
+# Left flank :   GCCTACGGGGACCGCATCCAGTACTCCGTGTTCCTGCTCGGCATCACCCCGGAGGAACTGGTGGAGATCCAGAGCCGGGCAGCCGGCATCATCGACGAAAACACGGACTCGCTGTGGATCGTGAGGCAGTGCGCGGCCTGCTGGGAGGAGGCCCGGACCCTGGGTCAGGCCCATCCACCGGCCCGGGTGCTGCACTACACGGTGATGTGAAGAATCCTGCCGGATCCGCCGACGCCTGGCAGGGCGGGCCGGGAGGCGGCATGAGGGTAGGGTTGAAGGAAGCCGGCAATCCCGGCTGCCCGCAGCCGGGGGTTTTGGAGACACCCTCGGACAGGGGTGGTTGGAGAACGACCAAAAACAGCCTCAGGTGTGTATGCCACTTGACTAGGGGTTTTACCCAATTTAGGACAGGTTCTGTCCGCTTGCTGGAGGGGGTGAGGAGGGGTGGTGTGTAAAACCGCCGCAACAGGGCTTGTCAGGACAGCGTGTCAAGGGGTAGG
+# Right flank :  AGATTTGGCACCAGTGGCGGCATTTTTGCTGTCATTGATGTCTTCCGCAACTGAGGGTTATTGAACCGATTTGTGGGTTTGGGTGAGTGGGGTGCGTCAAGGTCAGCTTGTGGAATGCTGAGTGGGTAGCCGGTCCGTCAGCCGGGTGTAATCGGGTGCCTTTATCTTGAATCGTGTCCGGATGTTTTGAGTGCCATTCCGTAATTCGTCCACTGAGTCGTCGGCGATGGGTGATGAACTCGGGGCGGCCGTGACATCGCGACAAGGCGGGGTGCGCAGGGCCCTGGCTGTGCATCTCCGGGCGAACGTTCGTGGGGTGGGGGTCCCCGTCGCCCGGCGGTGGTGGTTCGTCGCGACGAGGACGTTTCCCCGGTTTGTGTAAGTGGTTAGATAACGAAAGTTAAGGTGGGCGGGTCGGGGCTTGTCATCCGAATGGCTGGCATTTCGCGGAAACTGACGGCGTCCAGTGTCCGTAGGGCGCGGAAAATCGTGGTTTTGGG
+
+# Questionable array : NO	 Score: 8.48
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.81, 5:0, 6:1, 7:0.87, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTGAAACCACCGCGAACCTCAAAGCGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [5,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-6.00,-6.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-40.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [618,291] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,5.28   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_073969987 [86509-88362]; RAMP Unclassified_Cas_protein:WP_061787329 [214737-216692]; 
+# Array family : NA
+# Sequence source strain : NBRC 14587
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Propionibacteriales;Propionibacteriaceae; Pseudopropionibacterium.; Propionibacterium propionicum NBRC 14587
+//
+
+

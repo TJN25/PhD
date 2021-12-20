@@ -1,0 +1,82 @@
+Array 1 432-33 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADGP01000016-Megasphaera genomosp. type_1 str. 28L contig00026, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+       431	    27	  89.3	    33	.A..-.....T.................	TTTGTTAAACTGTTAGCCTGCTCTTGCGTGGCG	TAAAA [419]
+       366	    28	 100.0	    33	............................	CCAATTTCAGCTTGGCTATAAAGGCTTGATTGA	
+       305	    28	 100.0	    33	............................	TGCCTTGGTTGTGTAGCCCCGCAAATGATTCCG	C [287]
+       243	    28	 100.0	    33	............................	TTTTCCCATGTACTCTCACCACTTTCATGATAA	
+       182	    28	 100.0	    33	............................	CCTGCAGCACACTACCCGATCCGCATGTCCGTG	
+       121	    28	 100.0	    33	............................	GTTCTTACGAGCAAGATACGAGCGGGCTATTGA	
+        60	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         7	    28	  98.5	    33	GGATCACCCCCGCGTGTGCGGGAAGAAC	                                 	       
+
+# Left flank :   ATTTATTGCCATTGCCATCGCCACCTTTATTACCAACAAAGTCGTTATCGGCATGAAACAACGAAAATCCGTCATTATTATCTCCAACCGCGCCGAAGAAATCGCCAATATTCTCATGCGCTACATCGGACACGGCGCCACCTATATTTACGGGCAAGGCGCCTATACAATGCAGGACAAACGCATCATTTATGCCGTTATTAAATTAACGGAAATCTCTAAAATAAAAGATATTATCAACAAAGTAGACCCCTCCGCCTTTATGATTATCAGCGATGCCTCCGAAGTAGTCGGGCGCGGTTTCACCGGCCCTGCCGTACACTACCATACCTATCCCGGTGCGGATATGGTTATGCCGCACACCAAAAACACCCGCCCTCCTGAATATTAATAGTACATCTTACAAAAAAAGAGCCGCTTTCCTACCATTCTTGCATAGGAAAGCAGCTCCTCTTTTTTTCGCTTCCCCCCACCATCTCCCCGGACAAAGTCCGAAAGCA
+# Right flank :  CTCTCCGTTTGTGCTTCACGGCTTTTTCCCAGA
+
+# Questionable array : NO	 Score: 7.53
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.53, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATCACCCCCGCGTGTGCGGGAAGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.90,-9.80] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [26.7-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [34,175] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 28L
+# Taxonomy hierarchy : Bacteria; Firmicutes; Negativicutes; Veillonellales;Veillonellaceae; Megasphaera.; Megasphaera genomosp. type_1 str. 28L
+//
+
+
+Array 1 40-312 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADGP01000020-Megasphaera genomosp. type_1 str. 28L contig00013, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+        40	    28	 100.0	    33	............................	CCCTCTGCCCTTCTTTCGCGTCTTTCTTATCAA 	
+       101	    28	 100.0	    34	............................	CATGCTTCTTGCCACATTTTGACCATGCGTCCGG	
+       163	    28	 100.0	    33	............................	CATACGCATTGCCAAGATTGAATCAAGCACCAA 	
+       224	    28	 100.0	    33	............................	GGCATTACAGGCAAAGGCTATGAATTAGCACGA 	
+       285	    28	 100.0	     0	............................	|                                 	
+==========	======	======	======	============================	==================================	==================
+         5	    28	 100.0	    34	GGATCACCCCCGCGTGTGCGGGAAGAAC	                                  	       
+
+# Left flank :   AAGAACGGCGGCAGCGAACAGCGATTTGCCTTTGACGCGG
+# Right flank :  CAGTAAAAAAATCCCCTTTTTATGCCTTTTCCTTCTCCAGACGTTTCATAAATCCATTCACTTTTGTTGCGAGCTCACTTAAAATTTCCACCTTCGTTTTGCTACGTTGTTCTGTCTTGTCTCCTATTCCATAAGCTTTACACACGTTCTTTAAGCTATAATCCATAAGCACTTTTTCTCGTTTGACATATTTTTCCAAACTATACATGGTACGAATGATAGTTTCTCTGCGGGCCTTTTCTTCTTGTTTCATATAATTCATCAGTTGCCCGTCATCATAAACAACGATTGGTTCTTTTTTTGTAAATCGCAAAAACTTTTTCCATACATCTCCTTCTTTATTTTCGGCACCGACTTTTTCTTTCCATTGCTCACCGCATACGAAAGCTTTTCTTTCCGGCTGCCATTTAATTATCAACGCTTCAATTTCTTGAATATGAAGCTCCTTTGCTTCCTTTTCTTGAAAGCGACAGTCCGCAACAATAAAAACGAGATTCTTG
+
+# Questionable array : NO	 Score: 7.37
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.57, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATCACCCCCGCGTGTGCGGGAAGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.80,-9.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [26.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [41,19] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_009369775 [6937-9711]; 
+# Array family : NA
+# Sequence source strain : 28L
+# Taxonomy hierarchy : Bacteria; Firmicutes; Negativicutes; Veillonellales;Veillonellaceae; Megasphaera.; Megasphaera genomosp. type_1 str. 28L
+//
+
+

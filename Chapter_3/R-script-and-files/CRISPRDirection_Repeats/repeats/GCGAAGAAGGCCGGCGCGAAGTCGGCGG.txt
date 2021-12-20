@@ -1,0 +1,587 @@
+Array 1 276471-275915 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                      	Insertion/Deletion
+==========	======	======	======	==================================	=====================================================	==================
+    276470	    34	  79.4	    53	T...T........GC.GGG...............	CACGCCCCAGCGCGTGAAGGAGCTGGCGGACGCGGGCTACGCGAAGCTTTCGT	
+    276383	    34	  70.6	    53	G......C..CA..GC.A.GAA............	CACGCCCGCCTTCGTAAAGGAGATGAAGGAGCTGGGCTTCAAGGACGTGGGTC	
+    276296	    33	  73.5	    53	.C..-..A..C...TCGC.G..............	CAGCGCGGACTTCGCCCGGCAGATGCGTGAGCTGGGCTTCCAGGACCTCGCGG	A [276288]
+    276209	    34	  91.2	    53	.C...AC...........................	CACGACGGACTTCGTGAAGGAGATGCGCCAGCTGGGCTTCCAGGACCTGGGCC	
+    276122	    34	 100.0	    53	..................................	GAAGCCCGCCTTCGTGAAGGAGATGCGCGAGCTGGGCTTCGCGAAGCTCACGT	
+    276035	    34	  97.1	    53	................T.................	CACGGCGGACTTCGTGAAGAAGCTGCGCGACGCGGGCTACACGAACATCACGC	
+    275948	    34	  79.4	     0	....G........GCG.C.G............A.	|                                                    	
+==========	======	======	======	==================================	=====================================================	==================
+         7	    34	  84.5	    53	CGGACGAGCTGGTCAACTTCCGCATCCACGGCGT	                                                     	       
+
+# Left flank :   CAGCGCCGCGTCCGCCGCGAGCGAGCTGCGCGGGACGTGGAGCGCGTCCACGCACGAGAAGTCCCCCGACAAGCTCCACCTCAACCTGAGCCACCCCGAGGACGGGCGGAAGGGACGGGGGCAGCTGGGCTTCACCGAGTCCCGCGCCTCCTTCCAGGGCCTGCCGACCGGTGACGGCCCGGCCACCTTCACCCTGCCGCGCGAGGCGGGCACGTTCGCCTTCACCGGCAGCTTCCAGGACTCGGAGGGCGCGGGCCACTACCGCTTCACCCCCAGCGATTCCTATATCAAGGCCATGGCCTCGCTCGGTTACGCCTCGCTGACTCCGAACCAGCAGTTCCAGCTCGCCGCCACGGGCGTCACCACCCAGCGCATCAAGGACCTGGGGGCCGCGGGCTACAAGGACATCCCCGTCGAGAAGCTGCTGATGGTGGGCATCTTCGACATCACGCCCGAGTACGTGAAGGAGCTGTCGAAGCTGGGCTACGACAAGCTGGACC
+# Right flank :  CGACGAGACGTTCATGCGCGCCATGTCCAAGGGCGACAAGGCGAAGGGCGGAAAGTAGACGGCGCCCGGTTCTGGAAGGACCAGGGGGCGCCGGGGCCGGGGCGCTCGGGCGGGCGGGGGCCCGTCGCCAGGGCGTGAGAGCGTCGACTGGACGACGGAACGCGGGGGGAAGGCCGTGCACGCGCCGGACGCCGGCCACACCTTCGCCGCGGGTGGCGTGGAGGAGGTGGGTGCAATGGTGTCACTGCGAATCGCGTGTGTCGGGTTGCTGGCGCTTTCGGCGTGTTCCTCGTCGAGACCCTCGGTGGTGAGGGCCCCCCGGCAGGAGGCCGCGCCCATCGCGACCTTCCCGGACGAGGGAGGCACCTACGGCTACCGCGCGGAGGACCCGGTGCGGGTGGGCTGGGGCAACCCGGGCATCATGGCCTTCTTCGAGCTGCTGCGCGGCCCCCAGGGACAGCGTGTGGCGTGGAAGCGACTCGGACCGTGCTGCGACGCGG
+
+# Questionable array : YES	 Score: 0.73
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.23, 5:-1.5, 6:0.26, 7:-0.60, 8:1, 9:0.34,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGACGAGCTGGTCAACTTCCGCATCCACGGCGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.10,-2.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [8-30] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [38.3-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [267,716] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 2 504412-504642 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                                             	Insertion/Deletion
+==========	======	======	======	=====================================	============================================================	==================
+    504412	    37	 100.0	    60	.....................................	CCGGCATGTCCCGCCGCCAGGCCCATCAGCTTCGAGGCGCTTGCGGCTGGTGAGTCAGAG	
+    504509	    37	 100.0	    60	.....................................	TTGGTGAGTCAGCGCCCGCCGCCAGGTTCATCAGCTTCGAGGCGCTCGCGGCCGGCATGT	
+    504606	    37	  91.9	     0	..G......................G..........C	|                                                           	
+==========	======	======	======	=====================================	============================================================	==================
+         3	    37	  97.3	    60	CCCGCCGCCAGGTCCATCGACTCCGAGGCGCTCGCGG	                                                            	       
+
+# Left flank :   TGCCGAACGTGGGGTTGTCGTCATTCACCGCCACCCGGAGCGGCTCCTGGATGGCGATGGGGACTCCGCCCAACGTGGGCGTGGGCTGTCCCTGGGCGGCGAGCCATCGCTCTGCCTCCGGGAGTACCCGCGCGCGTCCGCTGACGCGGATGCGGAGGTTGTCCAGGTCCACCGACTCGGCGTCCTCGGTCTGGAAGCCAGGGTCGGGGGCGGGGCCCCCGGAGCCACAAGCGGACGACGCGAGCCCGAGCAGTACACAAGAGGTCAGAAGAAAAGGGCGCTTCATCGCTCGCCAACATTTCCATGCCCTCTTCGCACGGCAATCCACCGCCGGGCTCTCCGTCCCCTGTTCGACGACTCGCCCCCACCCCGGAAAGCAGACACCGGGCCGCCCACCCGTCCGAGAGGGACGAGGGACGTGGCCCGGTGTCTTGAATCCATCAACTCCGAGCCTCGGAAGTGAATCCAACAACCTCCGAGGTGCGCTGGGTGAGTCAGCG
+# Right flank :  CCCGCGGAATCAGCGCCAGCCGCCGCCGCTGCTCTTGGAGCCGGAGGAACCGGAGCGACCGCTCGGCGCCGAGGAACCACCGCCGGAGCTGCGACCGCCACCGCTGCTCGAGCCGCTGCTGCCGCGCCCGCCACCGGTGTTCCAGCCGCCGCCACTGCTCCCACCACTGCTGCTGCCGCTGCTCGAGCCGCTGCTGCCGCGCCCACCACCGGTGCTCCAGCCACCACCGCTGCTGCCGCTGCTCCCGCCGCTGTTGCTGCTGCCGCTGCTCGAGCCGCTGCTGCCGCGTCCGCCACCGGTGTTCCAACCGCCGCCGCTGTTCCCGCGCCCGCTGCTGTTCCCACGGTCGTTGTCGCGGTCATCGTCCCGGTCGTTGTCGCGGTTGCCACGGCCATAACCACCGCCCGAGTTGCCACCGCTCGGAGGCGTGCCGCCGCCGCTGTTGCCGTACCCACCGCCGGAGTTGCCACCACCGCTCGGAGGCGTGCCACCGCCGTTGT
+
+# Questionable array : NO	 Score: 1.55
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:1, 7:-2.40, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCGCCGCCAGGTCCATCGACTCCGAGGCGCTCGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.30,-9.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-25.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [216,99] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 3 1958335-1959003 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                                                                                                	Insertion/Deletion
+==========	======	======	======	=================================	===============================================================================================================	==================
+   1958335	    33	  72.7	   111	G...A.C..C..GC.T..T.............T	TGCGTCCGCGGAAGTCGCGCCCGGCAACGCCTCGGCTCCTCGTGCGGAGAGGGCTCTTCCACCCAGCAGTGGTGTGCCCGCCAGCGCGTCTCGTACGGAGAAGGGTTCAGC	
+   1958479	    33	  84.8	    69	......C........T...C..........T.T	TCCCTCCGCGGGTGCAGTACCCGGCGGAGCGCCTCGCAATGAGAGGTCCGTTCCATCTACAGGCGCCGC                                          	
+   1958581	    33	  93.9	    18	G.....C..........................	GTCCTCAGCAGGTTCCGC                                                                                             	
+   1958632	    33	 100.0	    18	.................................	TGCGTCTACGGGGGCCGT                                                                                             	
+   1958683	    33	  78.8	    18	......C..C...C.C...A.......T..T..	TGCGTCTACGGGAGCCGT                                                                                             	
+   1958734	    33	  87.9	    18	...T.....C.....T..............T..	TGCATCCGCAGGTGCATC                                                                                             	
+   1958785	    33	  87.9	    18	.G....C......C.T.................	CGCGTCCGCAGGTGCAGC                                                                                             	
+   1958836	    33	  84.8	    14	......C..C...C.T...A.............	GCCGTCCTCGACGC                                                                                                 	Deletion [1958883]
+   1958887	    33	  78.8	    53	G.....C..C.....T....GA.....C.....	GCCCCGCGCAGCGAAGCCCGCGCCCCCCGGCGCACGCACCGAGAAGCCCTCGC                                                          	
+   1958973	    31	  66.7	     0	C...A..CC.CGC.....T.--..C........	|                                                                                                              	
+==========	======	======	======	=================================	===============================================================================================================	==================
+        10	    33	  83.6	    40	ACCCGGTAATGCATCGCGCGCGGAGAAGCCCGC	                                                                                                               	       
+
+# Left flank :   CCGCCTCGCAGCGCGACGCCTCGTCGCGAGTCCAGTGGGCCGAGGTCTCCCTTGGCTCCCTCGCCCGCGAAGTCGACGTCGCTCGTGGCGGCGGGCGGAGACCTGTCCGAGGAGATCACCTCGAGCTCCGACCCCAATGTCCCCGCGGGACCGGGGGGCGTCGAGGCGACGAGCACCGCGCCTCTTCGCGGTGACAGGGCGACGGGTCCATCGGCGAGTGGTGTGTCTGGGGCCTCCGCTTCGCGCGCCGAGCCGCATGCGGGCGCACAGGGTCTGCGAGGAGAGAGGTCCGCACTTCCCCCGGGGGCGAGCAGCCCGAGTGCCAGGGAGGAGAAGGGCGCACCAGGCAATGTCGCGACGCCGTCGAGTGCGAACAGCCCGGGCCCGCGAGCTGGGAAGGCCGCGCCGCCCGCCGACGCTTCATCTCCGCGCACGGAGCGGGCTCCTCCGGCCACCAGCGCGCCTCGTACGGAGAAAGCTCCTTCATCCGCGGGTGCCGC
+# Right flank :  CGCACCGCGAGGACAGTCTCGCCGCGCTCGGTCCGGAGCTGGAGCGTCCCGCTCCCTCGGGCTCCACGGTCGTCTTCGGCGAGAACGCCCCCGCGCCTCGCGCGGACCCACCGCCCCGCGCCCCCCGAGGCGAGAAGCCGCGTCCTCCGAGCCCCGCGCGTCCCCCGGAGCCCCAGCCGCGAGGTGGCAAGGCCATCGACCTCATGACCGGCGGCGCCATGGACCTCGACGCCCCGGCCGTGCCGGAGACACGCATCATCTCCTGGGAAGCCCCGCCGGGCCGCATGGACCCCGTGCGTCGCGTCCACCGCCCCAACCGCCCCGAGGGCACCGCCGCCGGCCCCGCGCCGGGCCGCACCTTCATCGCGAAGCCCCCCCGCCCGCCGCCCCGCTCGTCGGCGCCGCCGAGACGCGCGAGAACCCCATCGTCGTCCCCGTGCCCGCCCCCGCCTCGGACACCGAGCCCGAGGTCTTCCGCCAGCTCCGCGAGCGCCCGCTCG
+
+# Questionable array : YES	 Score: 0.19
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.24, 5:-1.5, 6:0.31, 7:-1.15, 8:1, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACCCGGTAATGCATCGCGCGCGGAGAAGCCCGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.70,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [9-33] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-23.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [611,436] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 4 2955703-2956129 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence           	Insertion/Deletion
+==========	======	======	======	==================================	==========================	==================
+   2955703	    34	  97.1	    20	..........................A.......	CGTCCTGGGGAGCGGCGCCG      	
+   2955757	    34	  88.2	    23	...............C.C.T..........T...	GGTCGGCCTGAGGGGCACCGCCG   	
+   2955814	    34	 100.0	    23	..................................	CGTCCGCCTGAGGCGCGGCGCCA   	
+   2955871	    34	  79.4	    23	...........C..CC.CC.A.........T...	GGTCCGCCTGGGGCGCGGCGCCA   	
+   2955928	    34	  67.6	    26	..............CT...GAC.CGCA..C.T..	CGATGGCACCCGAGGGAGCGGCGCCG	
+   2955988	    34	  67.6	    17	..............AC..C..CT.A..G.ATCC.	CCTGGGGCGCGCTGCCG         	Deletion [2956039]
+   2956039	    34	  91.2	    23	..G............C.................C	CGCCCGACTGGGGCGCGGCGCCG   	
+   2956096	    34	  76.5	     0	..............CT.....CT.AC...C.T..	|                         	
+==========	======	======	======	==================================	==========================	==================
+         8	    34	  83.5	    22	GGCAGCGGAATGGCGGCGGCGTCGTAGCCGAAGG	                          	       
+
+# Left flank :   CGTTGACGGGGGGCTGCGAGTACGCGGGAGGCGGAGGCAGCGCGAACGGGTTCGCCTCGACGGGAGCGCTGGCGTGTCCGGGCGCGGGCGTCGGGGGCAGGGCGAAGGCGGTGGCCTCGCCGCTCGGCGACTCGACGTCGAAGGCGAACGGGTCCGCCTCCGGCTGGGGCTGCGCGGGGACGGGCAGCGAGTCGTCGGAGAAGTCGAAGTCGCGCGCGGTGCCGAGCGTGTCGGGCTGGCTGAAGGACGAGGACGAGTCCAGGTCCACGGGCGGCGCCAGCGCGTCGTCGGAGAAGTCGAAGTCGCGCGTGCCGTTGGGCCGGGCGGGCGGGGCGGCCTGCTCCGGGAACGCGGCGTTGGGCATCGGAATGGCCACGACGCGCGTCACGTCGCGGTCCTGGCGTGCCGGCGGCTCCACGTCGTCGAAGCCCGTGGCGAACGCATCCTCCTGGGGCGCGGCGCCGGGCAGGGGGATGGCATCAACGGCCGAGGTAGCACCG
+# Right flank :  GCGCCGGAGGGCGCTGCGCCAGGGAGGGGAATGGCGGCGGGCGCACTGGCCTGTCCCGGGAGGGGAATGGCGGCGGCGGGCGCCGGAGCGCTCACGGCCTCGGCTTTGATGGGGAAGGTGGTCTGGCACCGGGCGCATTTGAGCTTCGCGCCACCCGGGGGGATCCGCTTGTCATCGATGTTGTAATTCGTCTGGCAAGACGGGCAGGAGACTTTCATGGGGTTCCTTCGACAGGACCGGCGCGGCGCAGGCTAGCAGAGGCGTTTCCAGCCCGGAAAGAACGCGCAAGCCCGCACTGAGGGCGTTGTTCCGCCCCCGCCTCCCCAGGCGAGCATCCGAGGGCCCGTTGACCCCGCGTTCCCGGCACCGCGCGTTCGGCTCCCTCCTCACCGGGAGGAGGTGGTAGGACCGACCCGGCATGGAACCCATCGTCATCCTCGGAGCGGGGCTCGCGGGCCTGTCCACCGCCCACTTCCTCCAGAAGCCCTGGCGCCTCATCG
+
+# Questionable array : YES	 Score: 0.34
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.17, 5:-1.5, 6:0.26, 7:-0.68, 8:0.8, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCAGCGGAATGGCGGCGGCGTCGTAGCCGAAGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.20,-5.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [5-33] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-20.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [4042,418] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.33,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 5 2984411-2984671 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                                                                     	Insertion/Deletion
+==========	======	======	======	================================	====================================================================================	==================
+   2984411	    32	 100.0	    81	................................	AGTGGATGGGCTCGCACCAGAGCGGCAAGCTGGCGCACCTATCGATGGACAAGTGCGGAGCGCACAAACGCTACGGCACGT   	
+   2984524	    32	  90.6	    84	..............G..G......G.......	CGCGGATGGGCTCGCACAGGGGGCATCAAGCTGCCCCACCTGTCGATGGACAGGTGCGGAGGGCACAGGCTCGTGTCAGCGTGC	
+   2984640	    32	  90.6	     0	.............AG.T...............	|                                                                                   	
+==========	======	======	======	================================	====================================================================================	==================
+         3	    32	  93.7	    83	GGGCGCGGTGGCGCACATGCCCCATTGCGTCC	                                                                                    	       
+
+# Left flank :   TGATTGGGGCCTCGTGGGAGCGCCTGCGCGGACACTCGGCGCGGCGATGGGTGAGCGAGGCGCTCGAGGAGGCCCGGCGGGCCGTGAAACTCTATCCCTATGACGAGGCCCACCTGGAGCTGGCGCGTGCGAGCTGGTGGATGGCGTCGGAGGCACAGACCTCATCGCCCCTCACCGAAGGGCTGGCGCAGGCCGACCTCGCCCTCGGACTCAATCCCCGGCTCGCTGCTGCTCATGCGGTTCGAGGTGCCCTCCTGCTCACGCGGTCACAGGGCGCGACCTCGGCGGAGCGCGAACCGCTGAGAGCGCAGGCTCGCGCCTCGTTGGAGCGGGCCTTGGCGCTCGATGCCTTCCTCCGCGAGGAGTACGCCCGGCCGCTGCGCGAGCTGGGTGTGCTCACGAACGAGCGCGGACCACATCACGCGGGACGCTGAGTCGTCGCTCCACGGGCGCAGTCCCTTGGACACGCTCGGGTCATGGGCCCGAACGTGGTGCATCGC
+# Right flank :  CAGTGGATGGGCTCGCAGCGGGGCAGCAAGCTGACCCACCTGGGGTCGACGAGCTCGGGACGACGGAAGTTCTCCGGGATGATGCACTCCGCGCCACGCGGGCTCCACAGGGCCTCCAGGCGGGGCAGGGTCTCCAGGTCGCTGCTCTGCTCCAGCCCCACGGCGAACTCGTCGCGCCTGCGGATGCGCGTGTTGTTGGCGGTGTAGCTCTTGAGGTTGTTGAACCGGACGAAGTACGCGGCGCGCTTCGCCTGCAGACACGAGGCGTAGAGGAACGCGCGATTCGCGTCGAGTCGCCCCTGCTTGTCCCAGGGCGTGTAGCCCCAGTCGAGGCAGGTGGCGATGGCGCCCTTGTCACACGCGAGGGTGACGGACCTCGGTTGGCTGCTGACGCCCGCGGTGAGGCTGTCGACGGCGAAGTCGGGCAGCACGGCCATCGAGGCGTCGGGCCGGGCCGGGACGTCCCTCACGCCCGAGCAGGGATTGACCCAGGACATGCT
+
+# Questionable array : YES	 Score: 0.79
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.69, 5:0, 6:0.7, 7:-3, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGCGCGGTGGCGCACATGCCCCATTGCGTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-30.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [68,1422] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 6 3048536-3048865 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                           	Spacer_Sequence                                                	Insertion/Deletion
+==========	======	======	======	==========================================	===============================================================	==================
+   3048536	    42	 100.0	    42	..........................................	CAGTGCCGCTCGCCGCAGCCGGAGCCGGGCCAGACGTGCATG                     	
+   3048620	    42	  95.2	    63	.......................T.............G....	TACTGCCGTCCTCCGCAGCCTCCGCCTCCGCCTCCCGACGCGGGCCCGGGCACGTATTGCTCC	
+   3048725	    42	  97.6	    57	.......................T..................	GCCTGCCGTGCGCCCACGCCGCCGCCTCCCGACGCGGGCTCCAGCAACGTCTGCCGC      	
+   3048824	    42	  71.4	     0	...........G.....GGAGAA...CACG......G.....	|                                                              	
+==========	======	======	======	==========================================	===============================================================	==================
+         4	    42	  91.0	    54	GCCAACTGCGACTGCCCCTCCGGCCAGGTCTGCACCAACGGC	                                                               	       
+
+# Left flank :   TCTGTGCCCAGCCCTGTGTCCGCAACGGCGAGTGCCAGAGCGGCCGCTGCGAGGGCGGCTTCTGCACGCCTTCCTCCACGCCGCGCCCCGACGCGGGGAGCGATGGCGGGATTCCTCGTCCGGATGGCGGTCCGCGTCCCGACGGCGGCTCTCGCCCTGACGGCGGCATCGACGGAGGTCCCGCGCTGGACGCGGGCCCCGGCCCCGCGTGCTGGATGAACGCGGACTGCGGCGCGGGCAACTACTGCATCAACAACCAGTGCGTGCGCGGCTGCTCGACGGACTCCAACTGTTCCGGCGACGAGGCGTGCATCTCCGGCGTGTGCCGCCCGCGGCCGCCGGACCCGAACGCGTGCCGCTGGGCGTACGACTGCTCGGACGGCAAGGACTGCGTGGACGGCCAGTGCCGGGCGCAGTGCGAGTCCACCACGCAGTGCCCCGAGGACTACTCGTGCCAGATCGGCTACTGCCTGCCCATTCCCCACGGTGGTGAGTGCCGC
+# Right flank :  CGTGTGCAAGCCCGTCAACCGCGGCAGCGGCAAGCCCTGCGTGGCCAACTGCGAGTGCCCCGCGGGCGAGCGCTGCGTCGAGAACGCGTGCTGGCTGTAGTGGGGTGACGTCCCGGGTGGCGCCCTCGCTTCGTCAGGGCGCCACCATCCGCCAGCAGCGGTGGATGTCCTTGCGCTGGAAGTCCTCGGGGATGGAGCCGGGCGTGAGCTCCTCCACGGACTTCCAGCCGCGCGTCGCCTTGGCGTCCAACTGGAAGCCGAGGAAGTTGTTGGAGAAGTAGAGGACGCCTCCGGGGGACAGCAGCGCCCGGAGCGCGTCCAGCATGCGCACGTGGTCGCGCTGCACGTTGAACGAGCCCGTCATCTTCTTCGAGGTGGAGAAGGAGGGCGGGTCGCAGACGATGAGGTCGTAGCGCTCGGAGCCTCGCGCCTGGGCCTCGACCCACGCCTTCGCATCCCCGCGGACCAGCTCGTGGCGCGCGTCCGCGAGGCCGTTGAGG
+
+# Questionable array : YES	 Score: 0.44
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.55, 5:-1.5, 6:0.25, 7:-1.15, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCAACTGCGACTGCCCCTCCGGCCAGGTCTGCACCAACGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.80,-11.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-28.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [924,133] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 7 4058226-4058071 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence          	Insertion/Deletion
+==========	======	======	======	===================================	=========================	==================
+   4058225	    35	  94.3	    25	....T...............C..............	CTCGGAGGTCTCCACGTCCACCGAG	
+   4058165	    35	 100.0	    25	...................................	CTGCGAGGCCTCCTCGTCCAGGGGC	
+   4058105	    35	  94.3	     0	....G..................G...........	|                        	
+==========	======	======	======	===================================	=========================	==================
+         3	    35	  96.2	    26	GACACGCGCCGCATGGGCGTGGTCAGCGACACCGA	                         	       
+
+# Left flank :   CGATGCCCGCGGCGGGTGGCGCGGCGGCCACGGCGACGGGCGCGGCGGGCGGCGGGTTCGCGGAGCGCACCGGCACCGTGACGGCCGACGGCTTCTCCTCGAGCGCCTTCTGGGAGAGGTCTCGCGGAGGGATGGACAGGGGCGTGGGGCCCTTGAGCCGGGTGTAGAGGCCCCAGCACACCAGGCTCAACAGCACCAGCAGGAGCAGCCCGCCGACGACGACCAGCACCAGCCCTCGCGGACCGGTGCGCGCGGGGGTCGCGCTCGTGTCGGGGTAGTCGTAGCCACCGCCGTACCCCATGGTGGACTCGTCGTCCTCGCCATCGCGCAGCGAGGCCGTGGGGCTGGTGAGCGCGCCCGACAGGCTGGAGTCGGTGTGGAAGTGGTCGTCGTCGTCCCCCACGGCCACGGCGCGCGCCGCGGGCATCATCGGCCGGGAGGCGGCGCGGTGGCTCACCGTCGCCGGGGTGATGGACACCGACGGCTCCAGCTCCACCGAG
+# Right flank :  GGCCTCCGCGTCCACCACCGACTGGCGACGGATGGGCATCGTCATGTCGCCTGGGCCGTCGTCCAGGTCCCGAGGAACCGGCGTGGGCGAGCGGCGCGGCGGCGTGGCCACGGGCGGGGAGGACAGGCGGCGCGCGCGGGCATCCGTGGGCGTGCGGGGCGCGGGGCCCTCCGCGAGCGCCGCCGCGCGAGGCGAGGGAGGAGGCTCCAGCGGCGCGACGGCGCGAGGCGGAGGCTCCACCGGCAGCGGCCCCGACGCCGCGCGCCTGGCGGGCGTGGGCGGCGCGGTGAGCGGCTCCGGGGTGATGGGGCCTCGCTGTGAGGAGGCCACCTCCGAGTGCGTGCTGGAGCGTCGAACGGGGGGCGGCGGCGTGCGGCCCCGGCTGCGCTGGGGGATGGTGGACTCGCCGTCACCGGCGTCCTCCTCCTCCTCGTCCCGCAGCTGCGACAGCACCGAGTACCCCGTGGGCGCCGTGCGCACGGCGGTGGACATCTCCGAGT
+
+# Questionable array : NO	 Score: 3.00
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.81, 5:0, 6:0.39, 7:-0.60, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACACGCGCCGCATGGGCGTGGTCAGCGACACCGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.60,-8.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [2-2] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-25.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1967,968] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.74   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 8 4356492-4356342 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence                                  	Insertion/Deletion
+==========	======	======	======	===================	=================================================	==================
+   4356491	    19	 100.0	    44	...................	ACACTCGCGATGGTCTCGCACCTCGCCGCAACCGCAGAGGTCCC     	
+   4356428	    19	 100.0	    49	...................	ACACTCGCGCCCTCCACGCGCGCATCTTCGCCGCGTTCAAACCTGTCGT	
+   4356360	    19	  89.5	     0	..T..A.............	|                                                	
+==========	======	======	======	===================	=================================================	==================
+         3	    19	  96.5	    47	GCATCGGGAGGTCGCGTGA	                                                 	       
+
+# Left flank :   GCTGGGCAACGCGGTGGAGGGGCGCTTCCCGTTCCTCGACACGTCGGTGATGGAGCTGGCGGCGCGCATCCCCGAGCGCATGCGACTCAAGGGGCTGGACGAGAAGCACGTGCTCAAGCGCTACGCGAAGGGCCGAGTCCCCGCGTCCATCCTGGAGCGCAGCAAGTTCCCCTACCGCGCGCCCATCGCCGGAGCGCTGGTGGGACCGGAGGCGCCCACGTGGGCGAGGGAGCTGCTCGCGCCCGAGGCCGTTGCGAAGGTGGGGGTGTTCGACGCGCGCAAGGCGGAGCGGCTCGTGGCCAAGCTGCGCGCACCCAACGCGGCGGAGAGCGAGGCGGACACCATGGCGCTGTTCGCCATCGCGTCGACGCAGTTGCTCGCGCACCACTTCCTCACGCCGCGCGCGCCGCCGCAGGCGGACCTCGACGCCGTGGTGCTGGAGGCGGCATGAGCGGCAGTGATGATCACGTGCGGAGCGCTGGTGCGTCCGCACATGTCCT
+# Right flank :  GCGCGACGGACTCCGCTCCCGCGTGGGTCTTGGCCCACGCGCAGCGCACCCCCTCGGCCTCGGCGGTGGACTCGCCGTGGACACGGCTCACGTACTCGCAGCTCGCGGAGCGGATGACGGCGCTCGCGGGACACCTGCGTTCCTCGGGCGTCTCCGCCGGAGACAAAGTGCTCATCGCCCTGCCCCTCGGCTCGGCGGGCGCGGTGGCCGGGCTCGCGGTGCAGGCCCTGGGCGCGTGCGCGGTGGAGCTCGACCGTGAGACGGGCGCGACATCCGTGGAGGCCATCCTCGCGCAGACAGGCGCGCGACATGCCTTCGTCTTCGGACAGGACGCGCGCAAGTGGACCGGCAAGCCGGGCCTGATGCACGTGTATGTGATTCACGCCACGCGTCCACCGGAGCGGATGCTCCAGGCGCTCGCGCCCGCGACCTGCACGTGGGTGCAAGAGGACGGCGCGGTGGACCCCGAGGCCAAGGCTTCACCCCTGGACGCCCTGCCC
+
+# Questionable array : NO	 Score: 1.88
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.82, 5:0, 6:-1, 7:-0.03, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCATCGGGAGGTCGCGTGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [21.7-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1598,50] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.68   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 9 7002748-7002339 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                      	Insertion/Deletion
+==========	======	======	======	============================	=====================================================	==================
+   7002747	    28	  82.1	    31	..................G.CGT....C	TCCGGGCGCGGAGCTCGTGGTGAAGGCCCCG                      	
+   7002687	    28	  82.1	    33	...........TCC.......C.C....	AAGGCTCCCGCGAAGCCCGCGGACACGGCTCCG                    	
+   7002648	    28	 100.0	    50	............................	GCAAGGCTCCGGCCAAGAAGGCTGGCGCGAAGTCCACAGGCAAGGCCGCC   	
+   7002570	    28	  92.9	    35	.......................CA...	GCAAGGCCGCCAAGAAGGCGACGGGCAAGGCCGCC                  	
+   7002507	    28	  82.1	    53	..........G..C.A.......C..C.	GCAAGGCCTCCGCGAAGAAGGCCGTGGGCAAGGCCGCGAAGAAGGGCGCCACG	AAGCGG [7002485]
+   7002420	    28	  92.9	    26	............CC..............	GCAAGAAGACGGGTGGCAAGGCCACC                           	Deletion [7002367]
+   7002366	    28	  67.9	     0	.T.........TTC...CCG.AA.....	|                                                    	
+==========	======	======	======	============================	=====================================================	==================
+         7	    28	  85.7	    38	GCGAAGAAGGCCGGCGCGAAGTCGGCGG	                                                     	       
+
+# Left flank :   TGCCGTCCGAGAGCACCACGAGTCCTGACGAGGAGAGTGCCTCCCCCTCCGAGCCGGCCCAGGTGAAGGTCGCCCCGTCGAAGCAAGAGACGGGCGGCGTCGACCTGGGCCAGGAACTGAAGGGTGAGATGGAGGGTGACGAGGGGCAGGTGCCCCAGACGGACCCCCAGGTCCAGGACGCGCTCGCCAAGCTGCGCGAGGGGACGAAGGAGGGGCTGTCTCCCTCGGACCACCACGACCTGGGCGTCGCGTACATGAGCATGGGGCTCGTGGACGACGCGATGCGCGAGTTCGGCAAGGCGAAGGAGGGCGGCGATGGCCGCGAGGCTCCCGCCGATGCTCCCAAGGCCGAGAAGAAGCCCAAGAAGGCCAAGGCGCAGGCCGACGACGGGGCTCCCAGCGCGACCACGTTCCCGCCTCCGACGGAGGCCCCTGTCGCCAAGAAGGCTCCGGCGAAGAAGCCCGCCGCGCCCAAGCCCCCGCCTCCGGGTGGAGTGTCG
+# Right flank :  CGGCCAAGAAGGTCACCCGGGCGAAGCCCTCGGCACGGGCGAAGGCCCGGCGGTAGCAGGAGGAGACGTGCAGCAGGATTACCTGGATCGGCTCATCGACCTCGCCCTCGACGAAGACCTGGGGGCGGCGGGAGACGTCACCTCGCAAGCGCTCATCCCTCCCGACGCGGAGGGAAGCGCTGAGCTGGTCGCCAAGGAGCAGTTGGTCCTCGCGGGCTTGGAGGCCTTCACGCGCGTCTTCCACAAGGTCGACCCGGACGTCGAGGTGGAGCTGGTCCGCCAGGACGGCCAGGAGATCAAACCCAAGGTCGTGGCCGCCCGGTGTCACGGGCGGCTGCGCTCCCTGCTCGCCGCCGAGCGCACCGCGCTCAACCTCGTGCAGCGCGCCGCCGGCATCGCCACCCTGGCTCAGCAGGCGATGACGTCGGTGCGTGGCTCGAAGATGCAGGTGCTGGATACGCGCAAGACGCCGCCGGGCATGCGCGTGCTGGCCAAGGATG
+
+# Questionable array : NO	 Score: 2.18
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.29, 5:-1.5, 6:1, 7:0.05, 8:1, 9:0.34,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGAAGAAGGCCGGCGCGAAGTCGGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.30,-1.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [11-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-26.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [96,3390] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.92   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 10 9790565-9790795 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                                                            	Insertion/Deletion
+==========	======	======	======	===========================	===========================================================================	==================
+   9790565	    27	 100.0	    75	...........................	ACCGAGCAGAACGGCACCTGCGTCGTCGCCCCAGAGCCGGGCCCCGACTGTGGCGAGCACGGACACGCGCACGGG	
+   9790667	    27	  96.3	    75	....................A......	GAGGAGAAGGAAGGCACCTGCGTGCCCCAGACGGAGCCAGTGCTCGACTGTGGTGAGCACGGACACAGCCACGGA	
+   9790769	    27	  96.3	     0	...................C.......	|                                                                          	
+==========	======	======	======	===========================	===========================================================================	==================
+         3	    27	  97.5	    76	GACCACTGCCACTGCGACGAGGGCTAC	                                                                           	       
+
+# Left flank :   ACCAGCGCCAGCGACCCCGCGATTCTCCACGACTTCATGATGTCTCCTCTCGAGTGGATACGACGCGTCACTCCCGGCAGCCTCTTCGACTCGATTGACTCGGGCAATGACTTGATTCCTGACCAATTCGAACATCGATGACAAACAGGCCAAAACCGAACAGGAGGCCAATATGCAACACGGTTGCATCAACAATCCTCACATGACATAACGCCCGCACCTCGAAGGCGCGTGAGCGCTCCGCCCTTCGCACCTCCCCGGGAACAGTCATGCATCCAAGACCCCTCCATCTGGCATTCCTGGCCGTCACGGCCCTCCTCATGGTGAGCTGTGGCTCATCGGACGAGCCCGCCCCCGACGAGACCGCTGAGTGCAGCGGCCACGGCCACCTGCACGGCGACCATTGTCACTGCGACGAGGGCTATGTCGCGGACGGCCTCACATGTGTCGTCGCCGAGGAGCCCGTCATCGAGTGCGGAGGCCACGGCCATCTGCACGGC
+# Right flank :  CGTGGAGGTGAACGGCACCTGCGTCCCGGAGACGGAGCCAGTGCTCGACTGCGGCGAGCACGGACACAGCCACGGAGACCACTGCCACTGTGACGCGGGCTACGTGGAGGTGAACGGCACCTGCGTCCCGCAAACGCAGCCGACCCCGGCGCGGCCCACGTACACCCTCGGCCCCACCCTGTAGCCGCACCCGGCGCCTCGCCCGACGGGATACGCCGGGCGGGGCACCTGTTCATCAGAGCGCGTCAGCCACCGGCGCGATGCGCGCGAGCACGCCCGGCCATCCGGGCTTCATCCCCTCGAAGGCGCGGCGGCCCATCGGCGAGTCCAGGTCGAAGCCCTCGTGCGTCAGCTCCAGCCGCGTCCCCGTCCCCTCCGACACCAGCGTCCAGGTGATGGTGGTGTTCAGCGCGAACTGGATGCGCAGCAGCCGCTCGGGCTCCACCGCGAGCACCTCGCAGCGCTGCCTGCCCCACGGGCCCATGTCCATGTCGAAGCGG
+
+# Questionable array : YES	 Score: 0.56
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.88, 5:0, 6:0.28, 7:-3, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACCACTGCCACTGCGACGAGGGCTAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.50,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-30.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [464,235] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 11 10351942-10347586 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+  10351941	    37	 100.0	    35	.....................................	ACGTCCGAGGCCGACGCCTGGAAGCAGTAGACACC  	
+  10351869	    37	 100.0	    33	.....................................	GTCAACTTGGCCGACTGGTCAAGGGCGAATGCC    	
+  10351799	    37	 100.0	    36	.....................................	GTCGCGGCTCCGAGGGCTGGACGTAGGCGACGAGGC 	
+  10351726	    37	 100.0	    32	.....................................	AGCATCACCTGGGACACCAAGAGCTCGGCGTT     	
+  10351657	    37	 100.0	    34	.....................................	ATCACGCTGGGTCCACGATGTGCCAGCAGCGAGC   	
+  10351586	    37	 100.0	    33	.....................................	ATGAATGCCAACCTGGACGCCCTGCGTCGCAGT    	
+  10351516	    37	 100.0	    35	.....................................	CTGCTGCCTCTGTCCGTGCGCACGCGCCTCTATAT  	
+  10351444	    37	 100.0	    35	.....................................	GTCGCCTTCTCCATGGACGTCGCGGGGGCCGACAG  	
+  10351372	    37	 100.0	    33	.....................................	TGCGGTTCGCTCTGCGACGTGCTGGAGATCCCG    	
+  10351302	    37	 100.0	    33	.....................................	AGTGCCTGCGCTGGGAGATGACGTCCGTCTGCG    	
+  10351232	    37	 100.0	    35	.....................................	CGCAGACGTTTGATGTGGACGTCTTGCCGGATGAT  	
+  10351160	    37	 100.0	    32	.....................................	CTCGGAGACAGCACCACGGCACGTTTGCCTTG     	
+  10351091	    37	 100.0	    35	.....................................	ACTACGTACACTGTGTCAAATCCACATCGACGCAC  	
+  10351019	    37	 100.0	    35	.....................................	TCTGTCCATCCTCGCAGCACACGGAGACGCCACAT  	
+  10350947	    37	 100.0	    32	.....................................	ATTCTCAAGGCGACGCTGACGCGCAGGGGGAA     	
+  10350878	    37	 100.0	    35	.....................................	TGACTCATACTCGTGTGCCGCATCACGCTCCTTCC  	
+  10350806	    37	 100.0	    31	.....................................	TGCGCGAAGATTCGCACAGGACTCTTGACAC      	
+  10350738	    37	 100.0	    33	.....................................	GACGCTGCTCCGGAAGCTCCGCGCCGGGGCCCC    	
+  10350668	    37	 100.0	    34	.....................................	CTCTCGGGTGTTTATTGGCAACATGGAGACAGTA   	
+  10350597	    37	 100.0	    34	.....................................	ACCGAGATGTACGGTTTCGAGACGAAGGACGGGC   	
+  10350526	    37	 100.0	    33	.....................................	TTCTCCAGCTCTTTCGCCAGGCGCTGGGCCGTC    	
+  10350456	    37	 100.0	    37	.....................................	AATCAAGCGATTCGCGCCGCAGGCGAGGCCATGAAGT	
+  10350382	    37	 100.0	    33	.....................................	GAGGTTGGCGAGGCCGAGCTGGCGGGATGTCAT    	
+  10350312	    37	 100.0	    35	.....................................	TTGCACGCCTCGTAGTTGGCGGGACGCGTCGCGGC  	
+  10350240	    37	 100.0	    33	.....................................	ATATCGGCCTCTTGTGTGCTTCGCCGCGCTGCT    	
+  10350170	    37	 100.0	    33	.....................................	TCGTCGTTGCGGACGTACACCGCCGAGCGACTC    	
+  10350100	    37	 100.0	    31	.....................................	ACGTATCGGGGGTGGGCCATCTTCGGCCCTC      	
+  10350032	    37	 100.0	    34	.....................................	AGGGCCAGCAGCGGGTGCCACTCCAGCGGCGCCT   	
+  10349961	    37	 100.0	    35	.....................................	GCGGACGGTAATGAGTGCCTGACTCCGTGGAATAG  	
+  10349889	    37	  97.3	    33	A....................................	GCGTAGGCCGTAATCGTCACGACTCCGAGCGCC    	
+  10349819	    37	 100.0	    36	.....................................	CACAAGCCAACGCCTGCCGTGCCCGAGGGGCGCGAA 	
+  10349746	    37	 100.0	    34	.....................................	GAAGCCATTCGCATGACGGAGGAGCAGGGTTACA   	
+  10349675	    37	 100.0	    32	.....................................	ATCACGGACGCGGGTAACGAAATCCTGGTCAA     	
+  10349606	    37	 100.0	    33	.....................................	CAGCAGCAGGCCGGCACCATCCGCCAGTCCAAG    	
+  10349536	    37	 100.0	    33	.....................................	CCCGCTGGCGCTGGAAGCGAAACCCGAGTTGTG    	
+  10349466	    37	  97.3	    33	....................................T	ATCTTGTTCGAGGGGCTACCCAAGACATGTGCT    	
+  10349396	    37	 100.0	    35	.....................................	ATGGATGAGCACACGGACATCGACTGGGACAGCGT  	
+  10349324	    37	 100.0	    33	.....................................	CGGTCAGCAGCGAGCGACACGACAACTTCTAGA    	
+  10349254	    37	  97.3	    34	...............G.....................	AACATGATGACGGCTGACGGGCAGGCGGCCATGT   	
+  10349183	    37	 100.0	    33	.....................................	TGACATAGTCCGGACTGAACGCAACATTGGACA    	
+  10349113	    37	 100.0	    34	.....................................	GTCGGTGAGGAAGTAGATGTCACCGAGTTCGTCG   	
+  10349042	    37	 100.0	    33	.....................................	TTCGTGCCAAAGACTGGCGCCATGCCGAGGTTG    	
+  10348972	    37	 100.0	    32	.....................................	TGCTGACTCCGCTGGTTGCGCCTGTCCACGTT     	
+  10348903	    37	 100.0	    35	.....................................	CTCTGACGCGGCATTGGCCTCTCGCTGCTCGTCTC  	
+  10348831	    37	 100.0	    34	.....................................	TTGGACTCACCGTCCGAGGCCCAAATGCCGGGAT   	
+  10348760	    37	 100.0	    35	.....................................	ATGTGCTCGTGGAGGCGGGAGACATCCGCCACCCC  	
+  10348688	    37	 100.0	    33	.....................................	AAGCGCGGGATGTCGAGCCCCTTGATGCACACG    	
+  10348618	    37	  97.3	    32	.................C...................	GTCGCTGCCTTGCGCTCGTCGCGCTCGGCCTG     	
+  10348549	    37	  97.3	    33	.................C...................	CGTGTTCTGGTAGGCCATGTGCGTGTCTCCTCG    	
+  10348479	    37	  94.6	    32	..T..............C...................	ATGGGCGAGTGGCGGTTAGCCGGTTGGATTTG     	
+  10348410	    37	  97.3	    37	.................C...................	TGCTACACGTTTGCGTGCGTGTCCTGCCTGGTGGACG	
+  10348336	    37	  94.6	    34	.............C...C...................	TCTCCGGCCCGGCGGCGACCCCTCTTTCTCGCAG   	
+  10348265	    37	  97.3	    34	.................C...................	AGATGGTCCAGGCCTACGCCGCGCGGCTGGAGCC   	
+  10348194	    37	  97.3	    34	.................C...................	TGCTCGGACTCAACTGGGGAGGCGAGGCGCGCGA   	
+  10348123	    37	  97.3	    34	.................C...................	AGTGCGCCCATCGCCGCGCCAGTGCGGACGGCCT   	
+  10348052	    37	  97.3	    32	.................C...................	TCGGCGTACCAGGGCGACTGGGTCGCCGGCAC     	
+  10347983	    37	  97.3	    36	.................C...................	TCGACGGCTAAGGAGAGCATGACCATCGGGCGCGTA 	
+  10347910	    37	  91.9	    34	..T..............C....G..............	GTCGTGGTGCGGGGGGACATATGAGCGCCGAGAC   	
+  10347839	    37	  94.6	    36	.................C....G..............	CGAGCGCCGCAGCGGCGAGCTTCGCGGCCCCTTCGA 	
+  10347766	    37	  94.6	    36	.................C....G..............	AGGTCGGTGTTGGTCTGCCGAAAATCCTGAATCAGG 	
+  10347693	    37	  94.6	    34	.................C....G..............	ACGACGGCACCAGTCCATGGGGCGGAGAGCGGAA   	
+  10347622	    37	  94.6	     0	.................C..................T	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+        62	    37	  98.9	    34	GTCGCTCCTCGTGACCGTGAGGAGCGTGGGTTGAAAC	                                     	       
+
+# Left flank :   CGGAAGGTCACCGTGCTCGTCTGCTACGACGTCCAGGTGAGTGACCCGACGGGACCCAAGCGGCTCCGGCGGATTGCTCGGATGTGCAAGGACCATGGGGTTCGGGTCCAGTACTCGGTGTTCGAGTGTGTGCTGGAGCCGAAGGACTGGGTCGTGCTGCGTGCACGGCTGCTCTCGGAATTGGATGCGGAGAGCGACAGTCTGCGGTTCTACTTCTTGAGTGAAGATGTCGCTCGGAAGACGGAGCACCATGGCACGCGGGTTCCATTGGATGTCGAGGGGCCGCTCATCCTGTGAGCGGCTTGCCTGCTCTGACTGGAGCGCCCGAACCTGTCCCGGTGCGTGCTCCGTCGGAGGTTCGCGCTCTTTGAAATCTCCAATAGTCGTAGGGAGTTACGTCACGTGGACTGGGGATGCGGGCTGGGCGGACTGCCCTGTGGACCCAGGTTCGCGCGAGCGGGCCAGATTCCCGAGCGATCATGGTAGCTTGGATGGGCACA
+# Right flank :  CAGCACGCTGGGCAGATGAACTGATCAAGAAGCTCGCTTTGGGCAATAGCGAGATGTGTGGATTGAAATGACGGTGTCCTCAAGTCGCTCAATGGGCGCTGAGCGTTCCTCGTGACAGGGAGGCGCTTGAAGCCAATCCAGTTTCTGCGCGAGGGGTAGGATATGTAATACCCCAGGCATTGCCCGCACCCGACGCGACGACAGACCGGAGTGATAGGCCTCGAGGTCTATGCCAACACTTCGTGCCTTCTGGCTTTCGCTGTTCGTCGTGTCCTGGATGGGTTGCTCGACCCACGGAAAACCTCCCATGCAGCTGGCATGGGAGACCGCTGAGGTGGAATGCGAAGACCCTCGGGAGGACGGATGCGTCGTCCTTCTCTGCGCCGAGGATGCCTGCGGTTTCTTTCCCTGCGAGGACAGCCCACGGACTGTCGAACTGGCACGATTTCCACCCGCAAGACCGCCTGCGGCCGCCGCTGCTCCCGGTGGGGGACCTCGGA
+
+# Questionable array : NO	 Score: 8.57
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.62, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCTCCTCGTGACCGTGAGGAGCGTGGGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.40,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [46.7-36.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [231,204] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 12 10869331-10869491 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence      	Spacer_Sequence                                    	Insertion/Deletion
+==========	======	======	======	=====================	===================================================	==================
+  10869331	    21	 100.0	    47	.....................	CCTTCTTGCTTCTGTCCCTCGGTACCGCATCAAGAATGGGGCTCGGG    	
+  10869399	    21	  90.5	    51	............A.....A..	TCCCGCTGCCTCCCTTAAAGAGAGGCGCTCCCACAAGAAAAGGCTCCCGAA	
+  10869471	    21	  81.0	     0	.............A.T...AG	|                                                  	
+==========	======	======	======	=====================	===================================================	==================
+         3	    21	  90.5	    50	CCATCCCCCAACGGTCCGGGC	                                                   	       
+
+# Left flank :   CTCACGCGCCAGGCGGTGCCCACGCTGGACCGCACGAAGTACGGCGCGGCCTCCGGCGTGGCCAAGGGCGGCTACGTGCTGGCGGACGCGGCGGGCGGCAAGCCCGAGGTGGTGCTCATCGGCACGGGCAGCGAGGTGCAGCTGTGCCTGGACGCGCACGACAAGCTCACCGCCGAGGGCGTCGCCTCGCGCGTGGTGAGCCTGCCTTCGTGGGAGCTGTTCGAGAGCCAGTCGCAGGAGTACCGCGACAGCGTGCTGCCGCCAAACGTGCGCGCTCGCGTCGCCGTGGAGAAGGGCGCCGCCTTCGGATGGGAGCGCTGGGTGGGCTTCCAGGGCGGCATCGTCGCCATGCGCAGCTTCGGCGCGTCCGCGCCCATCAAGGCGCTCCAGCAGAAGTTCGGCTTCACCGTCGACAACGTGGTGAAGGTGGCCAAGGACACGCTCGCCAAGAACAAGGCGTGAGCCTCCGCGCGCACCCCTGAAGAAACGAAGGGCCCGGA
+# Right flank :  GAGCCCGAGGGCTGGCTCCCCCTATGTCGGAGCCGCCCACTTCAAAGTCATCGCCAGTCCGCGGGCCCCCCACCGAGCCCCCCGGCTCCGGTTGCTCCCGCGTCCCAGCTCAAGTGCCTCCCCCATCCCCCGTGTGGCCGTCGTGCCACGCTTGCACTGACGCGCTGGCTTCACTGCATCGTGCGTGCCGACTTGTTGTCTCGCGCTTCATCCCTGCTTCGACTCCTCGCGCCGCCTTCCGGTTCCATGTCCCGGAGGTGGTGGCCCGCCGCGAGCCCTCCGTCCCCTCACGGAGGGAGGCTCGCGGCGAGTCCTCTTGCGACACCCGGCCCCCACCGGGTGGTGCTTCGTGCTTCGTGAATCAGGCGGCGATGATGCGCGGCGGGAGGGCGGGCGTGCTGGCGCGCTCCATCTCCTTGAGCATCTTCTGGAACTCGGTGTTCGCGATGCCCGTCTCGCCCTTGGCCAGCGCGTCCGAGGCGTACTTCCCGTAGAGGTCC
+
+# Questionable array : YES	 Score: 0.66
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.53, 5:-1.5, 6:-0.5, 7:-0.27, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCATCCCCCAACGGTCCGGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [40,361] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+
+Array 13 11021763-11023288 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006003-Myxococcus fulvus 124B02, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                                                                                                          	Insertion/Deletion
+==========	======	======	======	==================================	=========================================================================================================================================	==================
+  11021763	    33	  82.4	    48	......T................G-..G....CT	CAACGTTCGAATCCAGGTGACGACCTGCGCGAGCACCACCGCGTGACG                                                                                         	C,T [11021791,11021793]
+  11021846	    34	  82.4	   135	.T...C.A...............GT..G......	CATCGAAGCCTTCATGGATGTGGTGGGGGACAGCGTTCGCCGAGATGGCATCCGGACCTCGCTCCACGCGGAACTCGGCACGACCCTCCACACGCGAACCCAGCTGACAGCATGCCTGAGCACGCCTTCTCGATG  	
+  11022015	    34	 100.0	   135	..................................	CATCGAAGCCTTCATGGATGTGGTGAGGGACAGCGTTCGCCGAGATGGCATCCGGACCTCGCTCCACGCGGAACTCGGCACGACCCTCCACACGCGAACCCAGCTGACGACACGCCTGAGCACGCCTTCTCGATG  	
+  11022184	    34	 100.0	    51	..................................	CATCGAAGCCTTCATGGATGTGGCGCGGGGCAGCGTTCGAGAGGATGGCAT                                                                                      	
+  11022269	    33	  67.6	    50	.TAGAC.T................-..GTT.G..	CTTCATGGTTCGAACCCAGGTGACACCTGCGCGAACACCCGCTCGTGCTG                                                                                       	
+  11022353	    34	  73.5	    40	.G...C.A................CG..G.G.GT	CACCTGCTTCTCGTGATGAGCGCGCACCCGCTACCAGGAG                                                                                                 	C [11022381]
+  11022428	    34	  82.4	    45	.....C.A................CG....G..T	CCACCTGCTTCTCGTGATGAGCGCGCACGTACCTGCTTGCGGGAA                                                                                            	C [11022456]
+  11022508	    33	  76.5	    51	.T...C.A................-...GC.AG.	TCCACCTGCTTCCCGCACCTCTTCACATCGATACGGGCGGCGCCTGTGCAG                                                                                      	
+  11022593	    34	  70.6	    43	..TC.C.A................A.A.G.GAT.	CCGACTGCTTCTCGTGATGAGCGCGCGTGCCCGCTGGCTTGCG                                                                                              	ACG [11022616]
+  11022672	    33	  82.4	    47	.....C.T................-....C.GG.	CGTCGGCCTGCTCATCGTAGTGAGCGCGCGTTGCCCACTGGCTTGAG                                                                                          	
+  11022751	    33	  79.4	    51	.....C.T...............-...C.C.AG.	TCAGCCTGCTTCCCGCGCCTCTTCACATCGGTACGGGCGGCACCTGTGGAG                                                                                      	
+  11022836	    34	  73.5	    60	.TTC.C.A.................T..G.T.G.	CCGCATCCGTCGTCGTGCTTCGTGGCGATGCGACCTCGAACGCGATGCCATCTTCTCCGG                                                                             	C [11022860]
+  11022930	    34	  73.5	   137	A....C.A...............G..ATC...TT	CACAGGTCTCCATCCACGTGCACCTTCCGCCGTTCCTCGCGTGGCCGCGCCTCGCTCAACCGTGGGCCCGGACGAAACCCCTGCCCTTCTTCCTGGTTCGTGCTGAAGCCTCGGCAGTCACTCGCACCTTCACGGCC	T [11022953]
+  11023102	    34	  70.6	    30	TG...C.A...............T.TC.GA...T	CGGCATCCTTCATCGGCCTTCTTCGCGGTG                                                                                                           	Deletion [11023166]
+  11023166	    34	  73.5	    53	.T...C.T...............C.GC.G...CT	GGTGCGGACCGCTTCACCTCATGGCGACAAGGCAAGGGGAGTGCCCGCGCGCG                                                                                    	A,T [11023187,11023193]
+  11023255	    33	  79.4	     0	........................-..GC.TGGT	|                                                                                                                                        	G [11023257]
+==========	======	======	======	==================================	=========================================================================================================================================	==================
+        16	    34	  79.2	    65	CCCATGCGCGTTCCACGTGGAACAGCGAAGCCAC	                                                                                                                                         	       
+
+# Left flank :   ATCGGCCCCCATCACCACTTCGCGCCGATGCCGTTCGGGCACCGCGCGCCTCCATGTCCCGCCTCCACGTTGAACGGTCAGACCAACCGTTGGCGTGTCGTGCCGCGCATCACCGATGCGACGTCGTCATCCACCCACCTCGCGGTGCGCATCCAGGTTCCACGTGGAACGCGTCCCGGCATCGCCAGCTTCTGGCGTGCTGATGGCCGGGGCGTGCGCGGACTCATCTCGTGGCGTTCCACGTGGAACGTGGTTCGGACTTCCGCCGCTTCGCGAACCACTCCGCGCCGATGCCACCACCCCGCCCGCGACGGCTTCGCGACGTCCCTGCGTGTTCCACGTGGAACGGTGGAGTCGCATCGGCGCCTTCTCGCCAGCCTCATCGCCGCGTTCGAGCAGGACATGCATGGGGGCCTCCGCTCCGCATTCCGCGTGGACCACGGCACCGTCCTCCACGCTCGAACCCAGGTGACGACATGCCTGAGCACGCCTTCTTGATG
+# Right flank :  TCTTGGTGCGGACCGCTTCCCCTTCATGACTGCGCGAAGCGCGCGACGACGGCACGCGCCGCATGTGGATGTGCGGTTCGACCTGGAACACGGCGTGGCCTCGATACGGACGTCTCCAGCTTCGTGGCGGTGAGGCCCGCGAAGCGCCAGCACTCGCCACATGCGGATGCACGGTTCCAAGTGGAACAGGACATGGCCCCGGGGCGGACCTCTTCACCTTCGTGGCGGTGAGGCCCGCGAAGCGCGGGCACTCGCCACATGTGGATGCACGGTTCCAAGTGGAACAGGACGTGGCCCCAGGGCGGGCCTCTTCAGCTTCGTGGCGGTGAGCCCCGCGAAGCGCCGGCACACGCCACATGCGGATGCATGGTTCCACGTGGAACAGGACATGGCCCCGGGGCGGGCCTCTTCACCTTCGTGGCGGTGAGGCCCGCGAGGCGCCGGCACACGCCACATGTGGATGCACGGTTCCACGTGGAACAGGACGTGGCTCCGGGGCG
+
+# Questionable array : YES	 Score: 0.62
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.00, 5:0, 6:0.26, 7:-1.93, 8:1, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCATGCGCGTTCCACGTGGAACAGCGAAGCCAC
+# Alternate repeat :   CATCCACGTTCCACGTGGAACA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.20,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [8-16] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1900,2689] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:WP_046716802 [10352145-10352444]; Cas4:WP_046716804 [10353469-10354128]; Helicase/endonuclease Cas3:WP_052771488 [10357492-10359717]; 
+# Array family : NA
+# Sequence source strain : 124B02
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus 124B02
+//
+
+

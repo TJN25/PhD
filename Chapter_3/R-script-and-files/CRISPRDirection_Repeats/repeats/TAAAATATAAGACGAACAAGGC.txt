@@ -1,0 +1,85 @@
+Array 1 41831-41603 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALPT02000003-Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604 strain AV1934		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	======================	==============================	==================
+     41830	    22	 100.0	    30	......................	GGGGTTCGGCGTAAAAAAGGAGAGTTGGCA	
+     41778	    22	 100.0	    29	......................	TGGGTTCGGCGTAAAAGGGAGAGTTGTCG 	
+     41727	    22	  95.5	    30	A.....................	TGAGTTCGGCGTAAAAGGAAGAGTTGCGAT	
+     41675	    22	  86.4	    29	....T......C.A........	CGAACTCAGCGTAAAAGGGAGAGCAGCCG 	
+     41624	    22	  95.5	     0	A.....................	|                             	
+==========	======	======	======	======================	==============================	==================
+         5	    22	  95.5	    30	TAAAATATAAGACGAACAAGGC	                              	       
+
+# Left flank :   TTTCTTTCTTAAGCTGAGGGTGAGCTAAAAAGAGAGCATTTATTAAAAAATAAAGAGTTCATAACCTTTTATTTGTTATAATGAAGATGATTTTGGCGATAAAAGGGGACGATTTTTTGTTATTATTTATTATATTGGTCATTTTAACGGCGCTTGTTATGGGCTGGATTAGAACGATAAAAATAAATTCAGAAAAACAAGTGGAACAAAATGAAAGAATCATTGCAAACTTAAAAGGAATAAAAGATAAGTTAACAGAGTCTCAATATAAATAGCTAAATGTACTAGGAATAGGGTATGTCTCAAAAAATCTTAAATAAAAAACAGTTCGTTGAAGGGTTGGGCTTCTCGAACTGTTTTTCAGTGAGTATGGATATATAATCTGTTTCCGTGTGTGGTAGGTAAGCTCAAGCTTCAAGTTAAGTGTAAACTTTGAAAAAGAAGTTGCATTTGAGGAAGAAGATAATATCGAGTCGTAATTTGAATTGGGAGAGTTGGCA
+# Right flank :  GGAACTCGGCACAAAAAGAAGAGCTGTTCTCTAAAAAGTCATATGTTTGACCATTTGGGAACTTCCTTTATGATTTTACGTAGGGGGTCAACTTGCGAGTGGCAGTCGATCTTCTATTAAATTTGAATCTTCTGTAAATCATCTTGACCTTAGAGTATACTCCAATGTTAGCCTAATGGTAAGGAGGAGAAAACATGTATATTAAAGAATTTGCTAATAAGTTTCATTTAAGTAGTGATGCCGTTCGTTATTATGAAAAACAAGGTTTGCTCAGTCCTATTCGATCAGAAAATGGGTATCGATTTTATGATGAAAAATCTGAAATGCAGATGAAGTTAATACTAGTCTTAAAGCAGTTAGGATTTTCATTGCAAGAAATTGATTTTATTCTGACTCTTGAGCAAAAGCCTCCTTCAATTGAATGTATGGAAGAATCGTCAAAGGTTTTTAAGAAAAAGATAGTAGAAATTGAAAATCAAATGGAATTTCTTCAACTTTCT
+
+# Questionable array : NO	 Score: 2.26
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.78, 5:0, 6:-0.25, 7:0.21, 8:0.6, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TAAAATATAAGACGAACAAGGC
+# Alternate repeat :   AAAAATATAAGACGAACAAGGC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.18%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [196,522] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.59   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : AV1934
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604
+//
+
+
+Array 2 81318-80687 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALPT02000003-Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604 strain AV1934		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+     81317	    32	 100.0	    35	................................	TACAAAACAATCAATCAAACGAGACAAGCAAGCAA 	
+     81250	    32	 100.0	    34	................................	TTAACGGTTTTATTCTTCTCGTTTTTTTCAATTT  	
+     81184	    32	 100.0	    35	................................	CCATATTTAAGGTCAATAACGTCAATCGTTTCGTC 	
+     81117	    32	 100.0	    34	................................	TCTAATGTTGAGTATGATTTCAGCCACATTTACG  	
+     81051	    32	 100.0	    33	................................	AATCACCGCGTCAGCCTTGCCTATCGCATCATA   	
+     80986	    32	 100.0	    36	................................	ACCGATACAAAATTTAATAACTAATGGTGACTTTAG	
+     80918	    32	 100.0	    34	................................	ACAATCACCATTAGGAGTGCTAGTACTGAAAATA  	
+     80852	    32	 100.0	    34	................................	CATTAAAAAACCTCCTTATCGATTTAATATTAAC  	
+     80786	    32	 100.0	    34	................................	ATTTAAGAAGTCGTCTAGTCGTTTATTAGCTACA  	
+     80720	    32	  84.4	     0	........T...........T..CC......C	|                                   	A,C [80692,80703]
+==========	======	======	======	================================	====================================	==================
+        10	    32	  98.4	    34	GTCGCACTCTATATGGGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   AGAAGTGAAATGGTCAAAACCAAGTTATGCACAAGGTGGACTTGTTTGTTACTTAGCACCTGCCAAAAACCATGTAAACCTTGGCCTTTACCAAGGTTCAAAACTTAATGACAAGGAAGGGGTACTTCAAGGAACGGGAAAAGATATGCGTCATATCCAGGTGAAAAAAGTAGAGGATATAAGAGCGGATTTGTATAATTCTCTCATTCAAGAAGCGATAGAACTGAATAAATAATGACAAGTTAATGGGCTTCAGGTACAGGGTCACTAATATTTTTATAATTATAGTCTGTTCTCTGTGTAACTTAAAGAGTCTTTTATTTTTGACAGCGGTGCGAACCTATAGCAAACATAAAATACCTAGTAGATTCGCACTGAAAAAAGACAGTATTATGTGAAAATATGTGCGTAATCGAGTGGGGAATTGCTGTATTGTAGTAATAAGAGAAAGTTTTTTATATATTTGAGTGGTTTTGAGCGTTATTTAGTCAAAAATCGTA
+# Right flank :  TTCTGTCGCATTATATATAGGAGGTGAGTAACTTATGGAAAAAATCTTGGAACAAAATCGTGAAGAAAAAGAATGGACGCTTATCATCGTTACTTTAATTTCATTCCTGACCTTTAAAAAAGTGAACAAAGTAGAGCGAATGAAAGAGAAGTTAAAAGCTGAATTAAATAGGAAGTAAATTCGACAGGTGACAGTTGATCTTGTCGAAATTTCACGGCTCTGATTCGCTGGCTTTTGGCTTCATTGCGGCTCTATGATTCTCTTTGCCCCTCCCAATTCTCTCGCTTTGGCTTCAATGACTTCCAAAATCCACTCCTGCCCCTCTCCACCCGCAAAAAAAGAGGTAGTTCGACAAGTGCCCCTATCGAATTCTGAAAATGAATCGAATATTTATTCATTTCTCTTTACTCTCCTTCGTTTTGTGAGAAAATAAAGGGAGTTTGAAGATGGGAGATTCTTTTATGAACCGTAAAATAATCATTATATTTATATATTTATTA
+
+# Questionable array : NO	 Score: 10.26
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.92, 5:0, 6:0.7, 7:0.64, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTATATGGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-75.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [463,266] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.28   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : AV1934
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604
+//
+
+

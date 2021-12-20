@@ -1,0 +1,38 @@
+Array 1 80-296 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BACQ01000035-Lactobacillus zeae DSM 20178 = KCTC 3804, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                  	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=================================================	===================================	==================
+        80	    49	 100.0	    35	.................................................	GCCCACTCGTTACCTGATTAGAGCCAGTTGCTAGT	
+       164	    49	  91.8	    35	..........................T.....C..C..C..........	ATCCACTCGTCACTTGATTGGATCCGGATGCTAAC	
+       248	    49	  95.9	     0	........G..G.....................................	|                                  	
+==========	======	======	======	=================================================	===================================	==================
+         3	    49	  95.9	    36	TGACCGACACCAGAGCTAAGGGTTCCGGTTTTGGATTGTAAGGTTCCCA	                                   	       
+
+# Left flank :   GGTCCCGTTAGCCAGTTGGCCTGATTCGGTTTGCAGGGTTCCCAGTCCACTCGTTACCTGATTAGAGCCGGTTGCTAACT
+# Right flank :  AAGCCATTGGTGACCTGGTTTGACCCGTTGGCTAATTGGCCCACACCACTAGCTAATTGGCTTGTGCTGCCATTGAGGGTTTGCAAGCCGCTTGCGACTTGATTAGCGCCGCTTGCGAGTTGGGGAATCTGTGAAGACATCGGCGAGACTTTAACCTTCATGGTCTGAACCCCGTCATTGACCTGTGAAACGGCAACGGTGTACTGATCAATCCCATCGTCAAGCTTGACTTGGCCTTCGTCGATTTGCGTGGCAGCACTAGCGGCGGTTTTCATGCCTTTGCCAATGGTTTTGATTTGATCAAAAACCGCACTGGCGTAAGCATTGGTCACATTTGCCCGAATCTCGCTGTTTAAGGCATTCAGACCGATTCCTGAGATGACTTGACCGATGTAATTTAGCGAATCATTGGTTTGATATTTAAGATCCATTTTTCGGGGATGCTCGTCCAGAATGGTGGCGGCATTTTTCGAAAAATCTTTAGGTAGGGTAATGACCGT
+
+# Questionable array : NO	 Score: 3.10
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.80, 5:0, 6:-0.5, 7:1.40, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGACCGACACCAGAGCTAAGGGTTCCGGTTTTGGATTGTAAGGTTCCCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [11,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.70,-6.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [81,810] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : KCTC 3804
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus zeae DSM 20178 = KCTC 3804
+//
+
+

@@ -1,0 +1,40 @@
+Array 1 256002-255731 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS483482-Faecalibacterium prausnitzii M21/2 Scfld_02_3, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+    256001	    28	 100.0	    33	............................	TTGCGGTTCGTTTTGTACGATTAGCGTTCGCGC 	
+    255940	    28	 100.0	    33	............................	CATGTGATAGTGTGGTCTTGCTGTCTGCTCTCC 	
+    255879	    28	  96.4	    34	.....................T......	TATGCATATGGCTGACTGCAAGCGTCAGGTGGCC	
+    255817	    28	  96.4	    32	....C.......................	CACAACACAGGGGTAGAATGCCATGGTGTCGC  	
+    255757	    27	  82.1	     0	GC...................C.T.-..	|                                 	
+==========	======	======	======	============================	==================================	==================
+         5	    28	  95.0	    33	CTTTTCCCCGCATACGCGGGGGTGATCC	                                  	       
+
+# Left flank :   AAGACACCCAAAACCCCGCAGCGCGGGGAACCGTGGCCGCACATTGCACAACACAGTACCAGAAGCAGTGGCTGTTGGAGCGCGCCGCAAAGCGCGGCTTTGCCCTGCGGGAGGAGGGATTTACCGTGACCCGGGTGCAGTGGCAGCATTTTGCCAAGCACGGCACCCGGCCGGTGACCCTGTTGGCAGTGACCTATGAGGGCGTTTTGCAGGTGACCGATGCAGAGCAGTTCCGGGCACTGCTGTGTCAGGGCATGGGGCGCGGCAAGGCCTATGGCCTTGGGCTGATGACCGTTATGCGCGCAGGAAACTGAGAGGAACGAGATGCCGGGCATGATCCTGCCGGACCTGCAGGCGCTGCCGCAGCATTTTCAGCTGGCAGAAAAAGTGGGGCATCGCGCCCTGCCGGACTGCCATTTGATACAACAGGTTTATTGCAAACTGAAGGAAACAGCGGTACAATAGCAACGGGAGGCACGGTGCTACGGGATCTTTTTAGT
+# Right flank :  AAAAGACCCCTCGCAAGGTTTTGCGTGAGCGCCTGAAAAAGCACCCCTAAAGCAAACGAACCGCCCCGGTTTCCGTGATGGAAGCCGGGGCGGTTTTGTATGCAGGAGGCGGGAGCAAGGGCAGTTCCTCCGACCTTGCGCTTTCTGGCGTTTCAGGGAAAAATGCGCAAACAAAAAGCAGGCAGTGTCGTGGAAAGGAGGAGGAAAGCGACACTGCCTGCTGTATAGGAACCCCTGAACATTGCGGCTTGGTCAGGAGGGATTTGGTAGTCTGTCCGCCGTTCTGGCTATTGCCTCGCATAGAAACGGGAGACAGTTTTTTATGGGCCTGCGGTGCGCCGCTGCTGCGGCCGCACCCGCAGGGAAATGTGCCTGCATGGGCTTTTGCGGGGAGAACCTTTCGGAGGTTATGGGGGATGTCCGTTCCGTTCTCCCTGAGTGCACCCTTATTATGCCAGACAATCGTGGCAATTCTTTGTGGTAATTTTGAACAGTTTGCA
+
+# Questionable array : NO	 Score: 7.24
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.75, 5:0, 6:1, 7:0.77, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTCCCCGCATACGCGGGGGTGATCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [50.0-50.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [580,187] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas6e:WP_015537473 [256188-256820]; Helicase/endonuclease Cas3:WP_005920822 [260786-263542]; 
+# Array family : NA
+# Sequence source strain : M21/2
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae;Faecalibacterium.; Faecalibacterium prausnitzii M21/2
+//
+
+

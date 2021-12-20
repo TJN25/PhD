@@ -1,0 +1,41 @@
+Array 1 152750-153064 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JMER01000006-Rhodococcus fascians GIC36 contig7, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	======================	=======================================	==================
+    152750	    21	  95.5	    39	....-.................	TCAACCCGCTCGCAGCCCAGGTGAGCGCTTTGTTGACGT	
+    152810	    22	  95.5	    39	..............A.......	TCAACCTCCGAGCAGTGCGGCCAACGCGTCTACCTCTGA	
+    152871	    22	 100.0	    39	......................	TCAACCCGCGTCCTTGACGGTGAGTGCGTGGCCTTTGTG	
+    152932	    22	 100.0	    39	......................	TCAGCCCTGGCTGGTGGACAACGGTTTTGGCGACGCACC	
+    152993	    22	  95.5	    27	..............T.......	CTATCGGACGGGATTGAACTCTGTTCG            	Deletion [153042]
+    153042	    22	  81.8	     0	A...........A.T.T.....	|                                      	T [153050]
+==========	======	======	======	======================	=======================================	==================
+         6	    22	  94.7	    37	GTCCGCCCCGCACACGCGGGGA	                                       	       
+
+# Left flank :   CCGGTGTACTTCACACCAGCATCGACCAACGCCGCCGAAATCCACCGCTGGCGGGGACTGTCGCATTTCAGCTCACTGCCGCCCCGACCAAATCGGTTCCCTCCGCCCCACGTACCGACACCGCGCCCCGCGCACGGGGCAAGAAGATCCCCCTCCCCAGTGCGGAACGCGATGCCTGGGGACGAAAGATGCTGGCGGCCGGCGGACTCGACGTCGAAAGCCTCACCGTCCACGCGGGACCGCGACTCGACAGCGCCATCAAATCCTTACCCCGAGCCCACAGGGCAACACCGAAGGCCGTGTTCGCACACACCACCGTTGTGTACACAGGTACAGCGCACATCATGGACGCAGAACCCCACATCGCTGCGCTCACCCACGGCGTGGGATCCGCGAAGGCCTACGGGTGCGGACTCTTGCTCACCAGATCGGTATGACACGGCATTCGGGTACCGAACGAACCGCGAACCCATCTCCTGCAACTCGCCTGGTCAGAAAGT
+# Right flank :  ACAGAATCCAGTGCTCTCTGCTTGGCGATGTCGAGTCCCGGCCGCAGCCGGCTCTCGCCGTTCCGGGAACCGGGCACATCAGCGGCACAGCCGCTGCCAGGAACGCTTACGGCAGTACCAGCACGACCTCCCCTGACCGGCAGCTGCCCTCTCCTTTCTCGCCGGCTGACCCTTCGCCTACGAACAGGTCCCTCATGACACACAACTCACGTACAACCGCGCCTTCTCTACGCCGCGACCTTGTCGCCATCAACCTCGCCTTGATCGTCGCGGCTCTCGTCTTCGGCGTCGGCCACATACCTGGCGTGGTGAACTCAGCGACCCTGATCGCGGTCGGATCGAGCCTGTGGGCTGCATTCAAACTGGTCTCCGTCGTCCGCCGGCTACTGAACCCCATCGCAACCCCGGCCGAGACGGAACCGATCGACATCGTCCGCACGTCCACGCCGCACAGGATTCCAGCAATCCGGTTGGTCGCTGACGTATCTCGTCACGCCAGC
+
+# Questionable array : NO	 Score: 5.45
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.74, 5:0, 6:-0.25, 7:0.27, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCGCCCCGCACACGCGGGGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.40,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [41.7-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [65,195] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : GIC36
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Rhodococcus.; Rhodococcus fascians GIC36
+//
+
+

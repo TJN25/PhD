@@ -1,0 +1,40 @@
+Array 1 279-1 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNAD01000167-Streptomyces fradiae strain ATCC 19609 contig0167, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+       278	    30	 100.0	    31	..............................	GTCCGCCGCGTTTCGCAGCCCGGCGGGCGGC	
+       217	    30	  96.7	    31	C.............................	CCGCCACGGCGGCCGCTCCCTTCGCTTCCTC	
+       156	    30	 100.0	    31	..............................	TCCAGCATGTCCAGCAGCAGCGGCGAGACTT	
+        95	    30	  96.7	    31	C.............................	GTCGTCGGCGTTGTCGAGGACGACGCGGAGG	TCGC [80]
+        30	    30	 100.0	     0	..............................	|                              	
+==========	======	======	======	==============================	===============================	==================
+         5	    30	  98.7	    31	GCGGGTCACCTCCGCTCGCGCGGAGAGCAC	                               	       
+
+# Left flank :   GCCGTCACTGGACGCGACAGG
+# Right flank :  C
+
+# Questionable array : NO	 Score: 6.80
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.07, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGGTCACCTCCGCTCGCGCGGAGAGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.70,-10.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-11.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.05   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 19609
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces fradiae
+//
+
+

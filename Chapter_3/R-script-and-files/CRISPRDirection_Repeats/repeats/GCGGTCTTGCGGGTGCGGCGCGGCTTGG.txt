@@ -1,0 +1,46 @@
+Array 1 22-881 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LJBR01000514-Streptomyces sp. NRRL B-24085 contig_514, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================================================	==================
+        22	    28	  82.1	    67	....C..........GT.......GG..	CTTGGCCTCGGTGGCCTCGGCCGTGTCCACGGCGACCTCGGCGGCCGTCGTGGTCGTGGCCTTTGCC    	C [42]
+       118	    28	  92.9	    47	...........A...............A	CCTCCGCGGTCTCCGCCGTGTCAGCCGGGGTCTCCACCGGGGCCGCC                        	
+       193	    28	 100.0	    71	............................	TGACCGTGCCCTCCGCGGTGTCCACGGCCGCCTCGGCAGCCTTCTCGGCGCCCGCAGTCTTCGCGGTGCTC	
+       292	    28	  82.1	    65	..C.....C..C..A.....G.......	CCGCGTCTGCCGTCTCCTCCGCCGCGACCGGCTGGGCCGGGATGTCGGCGGTCACGGCGGGCTCG      	
+       385	    28	  92.9	    61	....C...............G.......	CCTCGGTGGCCTCGGCCGTGTCCACGGCGACCTCGGCGGCCGTCGTGGTCGTGGCCTTTGC          	GTGCGC [400]
+       481	    28	 100.0	    47	............................	CTTCGACGGTCTCCGCCGTGTCAGCCGGGGTTTCCACCGGGGCCGCC                        	
+       556	    28	 100.0	    53	............................	TGACCGTGCCCTCCGCGGCGTCCAGGGCGGCCTCGGCTGCGGGGGCCGCGGCG                  	
+       637	    28	  89.3	    50	..T.C.........C.............	CCTCGGTGGCCTCAGCCGTGTCCACGGCGGCCTCGGCGGGGGCCGCGGCA                     	
+       715	    28	  89.3	    23	..C...........A...........C.	TGGCCGGGGCCTCCGCCGCCGGA                                                	Deletion [766]
+       766	    27	  75.0	    60	.......C.-.T.AC...A........T	GTGACCGTCTCCGTGGCCGGTGCGGTCTCGACGACCGTCTCCACCGCGGCCGGCGTCTCC           	
+       853	    28	  85.7	     0	....A.........C.........GA..	|                                                                      	G [872]
+==========	======	======	======	============================	=======================================================================	==================
+        11	    28	  89.9	    54	GCGGTCTTGCGGGTGCGGCGCGGCTTGG	                                                                       	       
+
+# Left flank :   TCGGCGGTCACGGCGGGCTCGG
+# Right flank :  GCTTGGCCGGGGCCTCGGTGTCGAGGGCCGGGCCCTCCGCCGTGGCGACGGCGGACTCCGCGGTCTCGGACACGGCCGGCTCGACCGGCGCCGCTGCCGTGACCGCCTCGGCGGTGGCCGGTGCCGAGTCGGACGCCCCGCCGCGGGTACGGCGACGGCGGCGCGGGGTGCGCGTCGCGGTGGCGTCCTCGACAGCGGTGGTCTCCGAGGGGGCGACCGCCTCGGCGGGGGCGCTGGCGTCCAGCGGGGTTCCGCTGCGGGTACGACGGCGACGGCGCGGCGTACGCTCCGAACGCTCGCGGTCGGCGGAGCGGGACTCGTCCCGGCCACCTCGTCCGCGGCCCCGGTCACGGTCGCCGCGGCCGCGCGCACCGCGTCCGCCCGGTTCGCCCAGGTCCTCGAGCTCCTCCGCGTCGAGCCCGGCGCGGGTGCGCTCGGTCCGCGGCAGGACACCCTTGGTGCCCGCGGGGATGCCCAGGTCCTCGTAGAAGTGCGGGGAG
+
+# Questionable array : NO	 Score: 2.09
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.54, 5:0, 6:1, 7:-0.96, 8:1, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGTCTTGCGGGTGCGGCGCGGCTTGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.10,-2.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [7-18] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-18.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [119,2058] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-24085
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. NRRL B-24085
+//
+
+

@@ -1,0 +1,1158 @@
+Array 1 212574-212381 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================	==================
+    212573	    36	 100.0	    43	....................................	GTAGCGCCCGCATTTCAAAGCTAAAGAACAGGCAAAGGCGCTC	
+    212494	    36	  97.2	    42	...................T................	CTATTAGCACATTTCGACTCTAAGGAACATTCACAGCCTGTT 	
+    212416	    36	  91.7	     0	..T..T................G.............	|                                          	
+==========	======	======	======	====================================	===========================================	==================
+         3	    36	  96.3	    43	AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG	                                           	       
+
+# Left flank :   GAGATAGAGAAACTATAGAAATGGCTTTAAGAGCAGCTGAAACCGGACACTTGGTATTTGGAACGCTTCATACAAATACAGCTATATCCACTATAAACAGAATTGTAGATGTATTTAGCGCTGAAGAAAAGGATCAAATAAGGACGCAGCTCTCTATCTCTTTACAAGGTATCATATCTCAAAGGCTTTTGCCTAAAATAGGCGGGGGCAGAGTGTTAGCTTACGAGCTTTTAATACCAAACGCAGGTATAAGAAACTTAATAAAAGAAAATAAGCTACCACAAATTTATGCATTGATGCAATCAGGTCAAGCTCAAACAGGTATGCAAACTATGAACCAACACTTAAGAAAACTATACGGTATGGGGCTTATAACAAAAGAAGATGCTCTAAAATACAGTCCAGATCCAAAAGAATTGGCAAGGTTAATGGGTGTAGCTTACGAAGAGATATAAAGCGGTAGAATCGCGTTTCAAAGCTAATGAATATGACAGGCGCTC
+# Right flank :  ATAGAATCGCATTTCAATTCTAAAGACCAGGCATAGCCACTTCCTTGCTCTGAGAACGGCTTACAGCACACTATTCCCTTTTTTCTATGCTTTCTTCCAAAGATAGATCGTCCACATACTCTATTAGAGTGCCAAATTGAATAGCTGTGGCTATGCGGGTTATCTTTACATTGTATTGTTTTAATACTTTTATAAGATAATTGGCGGTAGCTTCGCCTTCAGGGTTTGGATTTGTAGCTATTATTATCTCCTTCGGATTGTATTTTCTTATTCTTTCTTTTAAAAGCTCTATACTCAAATCTTCTGGTGCTATACCCTCCAGTGGACTTATACGACCACCTAAAATGTGATAAACACCTTTAAAACGCTCCAATTTTTCTATTTTGTAGGCATCTTGAGACTCTTCTACTACAGCTATATACTTTTTGCTTCTTTTTGGATTAGAACATATAGCACATATCTCTTGGTCTGTAAGTATGTTACACTCTTTACATGTAGTT
+
+# Questionable array : NO	 Score: 2.91
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.81, 5:-1.5, 6:1, 7:0.20, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [3-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [72,46] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 2 340554-340849 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    340554	    29	  89.7	    38	.....G.T...G.................	CAAGATTCTAACCCTGGGAACATCTCACTAAGTTTTAG	
+    340621	    29	  89.7	    37	.....G.T...G.................	CCGCTAGTGACAACAAACTGTAGTGCATGACCAATAA 	
+    340687	    29	 100.0	    38	.............................	CGCACGCACAAAAACTGCACAAAAACTGCTAAAAAATG	
+    340754	    29	 100.0	    38	.............................	CTATAGTGAATAACATCATTTTTACATTTTGCAATGAG	
+    340821	    29	 100.0	     0	.............................	|                                     	
+==========	======	======	======	=============================	======================================	==================
+         5	    29	  95.9	    38	GTTTTTTGTGTACCTATAGGGGATTGAAA	                                      	       
+
+# Left flank :   GAGCTTAAAAGTATCTCTTCTTATATAACAGAAAAGTTAAAGGCTTTGGATTTGAAAGAAGATATACAAACGCTTATGCAGACCGAAGGCGATGTAAGGAAAACCTATTATCAGGCTTTTAACAGTATACTAAAAGATATGGAATTTGAAAAAAGAACCAAAAGACCACCGGAAGACCCTTTAAACGCCATGATATCTTTTGGCAATTCACTACTTTATACTACAGTGCTTAGTGAGATATATAAAACGCATTTGGACCCGCGCATAGGATACCTTCACGAAACAAACCAAAGAAGCTTCACTTTAAACCTTGATATTGCAGAAGTTTTTAAGCCGGTGATTGTGGACAGAGTAATTTTTCAGCTTTTAAATAAAAATCAAATAACTGAAAAGCATTTTGACAAAGATATAAGTTTTGCTTACCTAAACGAATCAGGGCGAGAGATATTTGTAAGAAGTTTTGAAGAAAAGCTAAATACAACAATAAAATACAAAAATAT
+# Right flank :  AAGAGTTTTTGTTAGGTTATAGAATAATTGCTGAGATATATAAGAATGTCATGGTTTATGCGTTCACAATGTAGTGAATTTGTAAAATACATTGACAAAATGCATAAGTTGTCATATAATATACTATAATATGAAAATATAAATTAAGATATTTAAGGAGACTTGTCAATAATTTTGTGTCTCATAACAAAATCTCCTGTTGAATATTTGTAAAACTTCATATGAGGACCCTTTTAATGCAGGAACTGGCTTACTCCACTTATTGTTCTTTAAAATATCTCTCTGGACAAGGATATTTATTTCAAGAATCTCAGCAGATTGGAAATAGCCTCCTAAGTTTATCCTTGCTTTTTCAATCATGCTATTTATACTTTCTACGGGATTGGTAGTATAAATATGCTTTCTTAGATTTTCTGGATATTTCAAGAAGCATAAGTACCTTTCTTTGTTAGCTTTTATCCTTTTTATGAAGCTTGGATAAATAGACTTAAATCTCTCAC
+
+# Questionable array : NO	 Score: 8.32
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.80, 5:0, 6:1, 7:0.72, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTTTGTGTACCTATAGGGGATTGAAA
+# Alternate repeat :   GTTTTGTTTGTGCCTATAGGGGATTGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.50,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [889,165] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 3 346962-347123 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    346962	    30	 100.0	    35	..............................	ACAACACCTTTGCCGTTTACAAGCACGTTTGAAGA  	
+    347027	    30	 100.0	    37	..............................	TGATTTGACAGCATCAAATACAGTTGCAATAATCTGA	
+    347094	    30	  93.3	     0	............................AA	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         3	    30	  97.8	    36	GTTTCATCTGAACCGTGTGGGTTAAGAAGC	                                     	       
+
+# Left flank :   ACTTGTGAATCGTGGCATACTTGTCTTTATAGGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGCACTTCAATAGCTGAATAAGCGTAGAGAGTGTTGGTATGCTTGTGTTGAACCCCACGGCATTTTTAACTTTTTTAGTTAGGGTTTTTAGTAGGTTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAAAGCCGTAATTACATAAAACCGTAAAGCCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATTATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGGGGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTGGG
+# Right flank :  AAGAAAACGTATTGTATAAGTTCAGATAGACTGAACATAGAGTGCCTGAGCATGTTTCAGATGCCTGTCTTCTTAAAAGACACTAATCTCATGATGTAAAAAATGCCCTTGGCACACTAGTGCGTGAGCATGTTTCAGATAAGCATGTTCTTAGAATACACTTATCACACGACAAGTATGCCACACAATAGTAAGAAATGCCTTTGGCACACTAGACTCTTGAAGAAGTACATAGAAAATACAACTTTGTAAGATCTACAAATCTACCACGGTTTATGTGTTCACGATGTAGTGAACTTATACACTATAGTATGCCAACGATACTCCTTACATCGTAAGTAAAAAGTTTGTTAAAAATATAAAAGCATTTAAAACATGCTTACAGCATTCTATTTATATCCTATCCAAACTCATTCACTTTGTAGGCTAATTTTACCTATATCAGAATATGCTATATCTCCGGCTATTACATAAGATTTATTTTGATATTTAAAAGCCAG
+
+# Questionable array : NO	 Score: 8.45
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:0.99, 7:1.48, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.70,-1.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [658,410] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 4 591419-592105 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================	==================
+    591419	    28	 100.0	    38	............................	TAACAAAAGCAGAATCATAGGGCTTCCAGCGAACCCTG 	
+    591485	    28	 100.0	    38	............................	TATAAGTATGAAGCGTATGAATATATTATACCTGATAC 	
+    591551	    28	 100.0	    39	............................	TAGTCTCTTCCTCTTGTTGTTTGAAGCTGATTGAAGCCA	
+    591618	    28	 100.0	    38	............................	TGAATACAGAGTTTGGGTTGCTAAGGATTTGCTTTCGG 	
+    591684	    28	 100.0	    38	............................	GTATTGACCTGGATTCTTTTCAAATGTGGTGAGTATGG 	
+    591750	    28	 100.0	    38	............................	GTGCTTTCTTGGATCCAATGTTACTTCAAAATTAAATT 	
+    591816	    28	 100.0	    37	............................	GTATAGTAATTCTTCAGAGTTTGAAATTTTCTCTGAC  	
+    591881	    28	 100.0	    38	............................	GTTCAATTTTTGGTGTAGTTACTGATGCTTTAAACTTT 	
+    591947	    28	 100.0	    38	............................	GTCGCTTTGTGATTTTTGTATTCCTGCGATATCTCCAT 	
+    592013	    28	 100.0	    37	............................	GGATTTTGGATCTGATGTATGGCAATTTATAGATCAG  	
+    592078	    28	 100.0	     0	............................	|                                      	
+==========	======	======	======	============================	=======================================	==================
+        11	    28	 100.0	    38	GTTTCATCTGAACCGTGTGGGATATAAA	                                       	       
+
+# Left flank :   TGTTATAATTTTTTTGTATGTATGTGTTCACGATGTAGTGAACTTGTACAACTTATACAATTCGGATTAAAATATGCTATAATATTTACATAGCCATTAGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATAAGTGTAGAGAGTTTTTACATACTTTTGATAACCCCACGGCATTTTTAACTTTTTTAATTAGGGGTTTTAGTGAATTGTTTATACAAAAATAAGTTTTATTATCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAATTACATAAAACCGTAAAACCGTAATTACGGCAAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACGAAACCATTGATACACTATATAATTTTAGGAGTAGTGATTTCTG
+# Right flank :  ATTATATATACCTCCCAAACTTGCGTTTATATTTAAAATACTACAACACAATTAACTTGACAATGCTTTTTATAAGTTCAATATATCGTGAACACATAAACCTTGCTTATAAAACGTGGCATGCTCGTCATATGATAAGTATTTGTTAAAAAGATAGGTATCTGAAAAGTGGTAAACCACTCTGCATTCATAGTCTATCTGAACTTATACATACTGTTTGATTAGCTTTTATGGTTTTTATTATAGTCAAATAAATTATTCACGTTACTATTAGTAAAATGGGGGATCTATAAAATGAGGGTAAGAATAGTGCTTAAAACAGATGAAATGCCACTTTTATATAGGCATAGGATTATATCTTTAATTAAAGAGGCACTTATGAGGTCCGATAAGGATTATAAGGAATTTTTGTACGATGGTAAGATAACAAAACCCTTTACCTTTAGCTTGATGTTTCCTAGAACAAAAGAATTTGTAAATAAAAAGGTTATTATAAATAG
+
+# Questionable array : NO	 Score: 8.56
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGATATAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [494,294] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 5 929111-927965 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+    929110	    29	 100.0	    35	.............................	TTGGCATCTACAAATTTAAACTGTATCTTTGGAAG       	
+    929046	    29	 100.0	    38	.............................	CCTCTATCAGGCTTGAAATCTTCATTTTTTAATATCGC    	
+    928979	    29	 100.0	    36	.............................	TTTTACAATATTGACTCTAATCTATAAAAATGATAT      	
+    928914	    29	 100.0	    42	.............................	CCATATCATAAAAAAATACTCTATTTCTTGATACAAATCATA	
+    928843	    29	 100.0	    36	.............................	TTAAATTAGGGAATGGTGTTTGAAATTCAAAACTTG      	
+    928778	    29	 100.0	    37	.............................	TCCAGAGTTTATGCTTTGGTGTAGAGTGTATAAGTGT     	
+    928712	    29	 100.0	    36	.............................	TCTTGTATATCAAATGCAAACAATCCTAATGATTCT      	
+    928647	    29	 100.0	    37	.............................	GCTTGTTCTAAGAGTTTGAAAATCCTAATCCACAGCT     	
+    928581	    29	 100.0	    37	.............................	ATCATGGACGCTGCGATTGAACTACTTGCTTACAACG     	
+    928515	    29	 100.0	    35	.............................	CCTTTTAAGATTTTCTTCATTTTCTTTTCTCGCAA       	
+    928451	    29	 100.0	    37	.............................	ATGGCTTGGCATATTAGACCCTGTCAAACTAAACACA     	
+    928385	    29	 100.0	    34	.............................	ACACATTTTAGCGTCACAGACAATGATGGACTGA        	
+    928322	    29	 100.0	    38	.............................	TACTTCTTTTACATTGTTAATGTTCCTTTCAACAAAGT    	
+    928255	    29	 100.0	    37	.............................	AGTCAATCAAGCAGTGCAAGACTTTATAAATTGGACT     	
+    928189	    29	 100.0	    37	.............................	CTATCTACTACGCTAAATCTTTAACGTGGGATGGACA     	
+    928123	    29	 100.0	    36	.............................	CTTTACGAAAGATTGAAGCCAAAGAGAAAGAAATTT      	
+    928058	    29	 100.0	    36	.............................	TTGCTTTAAATGTGTTGTGGAAGGTGTGTAATAATA      	
+    927993	    29	  96.6	     0	............................A	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        18	    29	  99.8	    37	GTTTCATCTGAACCGTGTGGGTTAAGAAG	                                          	       
+
+# Left flank :   TGTCTTATAACATGTCTCTGTTAAAAAGACAGGCATATAAGACGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCCTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATATGTGTAGAGAGTTTTTACATACTTTTGATAACCCCCACGGCATTTTTAACTTTTTTAGTTAGGGGTTTTAGTGGATTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTAACAAGCGATTAATTTTGCCGTAAAACCGTAAGTACATAAAACCATAAAACCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTG
+# Right flank :  AAGAAAACGTATCCTTTAAATACTGTATGAGTTCAGATAGAGTGTGAGCGCACACCTTGTTAAAAGTATGTGTTCACGATGTAGTAAACTTGTGCATTGATATTGACTTTTACTTTATATATGGTATAATAATAGGCTATTAAGTTTTATAAAATGGAGGCAATATGGATAGCGTGAAGACTATAAGGCCAAAACCACAGGATATTAAAAGAGAGTATTGGATAATAGACGCTAAGGATATGGTGTTAGGAAGACTTGCAGCTAAATGCGCCAGCATCTTAAGGGGTAAGCACAAGCCTATATATCAACCAGATGTAGATTGTGGTGATTTTGTAATAGTTATAAACTCTAAACTGGTAAAAACCACAGGTAATAAGCTAAGAGATAAAGTCTATAAGTTTCATACAAACCATCCAGGCGGTCTCAAAGAGAAGTCTCTTGGTTTCATGTTGGAAACCAATCCAAACCAAGTTATTATGTTGGCGGTAAAGAGGATGCTA
+
+# Questionable array : NO	 Score: 8.78
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.79, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [166,587] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 6 930705-931129 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+    930705	    29	 100.0	    36	.............................	TGATTATGAGTTATTGACAAATGATACGGTACAATG   	
+    930770	    29	 100.0	    37	.............................	TTTTGGTGTGTTTTATAAAGCCAACAAGAACGATAAA  	
+    930836	    29	 100.0	    39	.............................	TGTGTAAGAGTGTAGGATAATGATGCCCAATCATATGAT	
+    930904	    29	  96.6	    37	............A................	GAATTGAAAAAGGTACCACACAAGTGGTACCTCATTG  	
+    930970	    29	 100.0	    36	.............................	AAGAGGATAACTCTTTCCAGCAATCCACACTACCGT   	
+    931035	    29	 100.0	    37	.............................	TCTTACCTACTATTTGACCTTCATACATAATAAAGCG  	
+    931101	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         7	    29	  99.5	    37	CTTCTTAACCCACACGGTTCAGATGAAAC	                                       	       
+
+# Left flank :   CGATTTAAATCTATAAGTATATAGTTTAGCTTAGATGCGTATTTTTCTAATTTGGTATTTTTAACAATAGGTAAAGATGTGGGTACGTTCCATTCACCTTTTCCATGATAAAAAACAATGTTGATAATAGGAGGGTAATAATCTTTTTCTTTTATAGCTTCTTCCCAGATAGCGGCGTTGTAGTATAGAAGCTGAATAGGTAATTCTTTATCAAGATAAGATTTGTGTTCAAGTACAATCCTTATATAAGCATCTTGATCTTCTACCTTGCAGCTAAAAAGTAAATCAAGCATAAACTTTTGAGATTTAGAAGAAAACTTTTCTGTATTAACAGGTGTTATAGAGTGTATCTCTTGCCCTATATCTTTAGCAAAGATATCAAGAAGCAATTTTACCCTCTTAGGGTCAGAAAATATCTGCTTAAAAAATGAATCATGGGGCTGTATATCCATAGATCTATTTTACTACAAATTAAAAGTATTTAGAGGATACGTTTTCTT
+# Right flank :  CAACAAGCCTTTTACAAATTTGCCGTAATTACGGTTTTGCGGTTTTATGTAATTACGGCTTTACGGTTTTACGGTAAAATTAATTGATTGTCAGACAATAAGCTGGAAGGCTAATAAAACTTATTTTTGTATAAACAATCTAATAAAACCCCTAACTAAAAAAGTTAAAAATGCCGTGGGGGTTATCAAAAGTATGTAAAAACTCTCTACACATATTCAGCTATTGAAGTACGGCCAGCTCTTAAGAAAAACTTAAGAAGCTCAATAAGCCCCAATGTAGATAGTATAACATATTTTAATCCGAAGGTGTATAAGTTGAGTGAGCACCTATAAAGACAAGTATGCCACGATTCACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTATGCCACGGTTTGGTACCTATACTTCCCTTCATGGTACCCACCACACTTAACTCCTTGTAAAATTTTAAGGAATATTTTAACAAGGT
+
+# Questionable array : NO	 Score: 8.90
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCTTAACCCACACGGTTCAGATGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [50,519] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 7 1024385-1023888 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+   1024384	    30	 100.0	    38	..............................	AGTTTGTTTTTTATCACAAAGCCCCAATTTTTAATCTT 	
+   1024316	    30	 100.0	    37	..............................	TCCATAATCGGCACTTTATTAGTTTTGATGTCAATGT  	
+   1024249	    30	  96.7	    37	...............G..............	AATGATACCACACAAGAAAGCGACACACAAGAAGGAA  	
+   1024182	    30	 100.0	    34	..............................	TATTTTAATATTTGATTCATTATTTCCCTAATTT     	
+   1024118	    30	 100.0	    39	..............................	TTTGATTAAAGAGTTTGACTTTACACCATCATTGTTTAA	
+   1024049	    30	  96.7	    36	......C.......................	TCCTCCTCGAATATCGGCGTGACGCCGACTTGAAGA   	
+   1023983	    30	  96.7	    36	......C.......................	AATCTTCTATATCGTCTAATATACGCTCTATCAATA   	
+   1023917	    30	  86.7	     0	.........................T.CTT	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+         8	    30	  97.1	    37	GTTTTGTTTGTACCTATAGGGGATTGAAAC	                                       	       
+
+# Left flank :   GACACCTGCGCTGGGGAGTTTAGGGCTTATACGCCTTATTATTACTCCTCTTGGGAATATCCATACTATAAAATCGGGCAAGAAGAAGCTATTTTTGACAACGACTAAATTTTGCATAAGTCCAAAAACTACTGCCAAAGATAGACATAAATAAACCATCTCATAAAGATTTTATTTCCTAATTTTATTTTCTAAAAGCCTAAAAATGTTAATATAATTTCTAAATTATTAACATCAAAATCCCCAAAATCATTGTCTATCAACGATCTGTCGATCGGCAAAAAATTATTAAAAAACGCCTTGTTTTCAAACAAAAAAATACCTCATTTTTGGCATCTCAGCTATATCTGACAAAGAATTGTCGATCTCCTATGATTTTGCTCCTATTGACGATCGACGGGAAATATGTTATATTATAAGCTGTTGATAGGTTGATGGGGTACCTCAAAAACCTTGCCGGCGAAGGGTTTTAGGGTAGTTCACAATTTTTTCATTTTGGT
+# Right flank :  TTGTAAATAATGTTAGTAGTAGCAATTTCTGGTTTCATCTGAGCCGTCTGGGTTAAGAAGCTGTGAAATCATATCCTTTAAATACTTTTGATTTGTAGTAAAATAGATCTATGGATATACAACCTCACGATACATTTTTCAAGCAGATATTTTCAGATCCCAAAAGATTAAAGATGCTTCTTGATATCTTTGCAGAGGATATAGCACAGGATATACATTCTATAACACCCGTTAATACAGAAAAGTTTTCTTCTAAATCTCAAAAGTTCATGCTTGATTTACTTTTTAGCTGCAAAGTAGAAGATCAAGATGCATATATACGGGTAGTACTTGAGCACAAATCTTATCTTGATAAAGAACTACCTATTCAGCTTTCATACTACAACAGTGCTATCTGGGAAGAAGCCATAAAAGAAAAAGAGTATTACCCTCCTATTATCAACATCGTTTTTTATCATGGAAAAGGTGAATGGAATATGCCAACATGTTTACCTATTGTT
+
+# Questionable array : NO	 Score: 11.62
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.85, 5:0, 6:0.99, 7:0.80, 8:1, 9:0.98,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGTTTGTACCTATAGGGGATTGAAAC
+# Alternate repeat :   GTTTTGCTTGTACCTATAGGGGATTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [112,393] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 8 1088763-1092095 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_015557-Hydrogenobaculum sp. 3684, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+   1088763	    29	 100.0	    39	.............................	ACTTATGCAAAAGTATCTATTACATTAGAACTATCAAAC   	
+   1088831	    29	 100.0	    40	.............................	CCTGACAAAAATGAGAGCATAACACTTCCTACTTTTGCAA  	
+   1088900	    29	 100.0	    36	.............................	TTATCACACGTGCAAGTGTTTTGTGTTTTGATATGA      	
+   1088965	    29	 100.0	    35	.............................	TTGTCTCGTAACATTAAAATTCGTTGGAGTTGTAT       	
+   1089029	    29	 100.0	    38	.............................	TCTTCAAAGCATACGTCAATAGTCTGCCAGCTTTGAGA    	
+   1089096	    29	 100.0	    37	.............................	CTAAATTTTGAAAGTGTGGAGGATATGAAATCTTTTT     	
+   1089162	    29	 100.0	    37	.............................	ATTTCTTGAGATAATTTGATGATAGAAATATTTTTCT     	
+   1089228	    29	 100.0	    36	.............................	GTTAAAGAATCGTTTGAAAAACAGCAAATAGCAGAA      	
+   1089293	    29	 100.0	    35	.............................	ATCTCCTACAGCACTCCATTGATAATATGTTATTT       	
+   1089357	    29	 100.0	    36	.............................	TTTGCAGTTAGCTTCTTCAATAGATTGATGTTTATA      	
+   1089422	    29	 100.0	    36	.............................	TTACAAGTTTGTAAAACATCTCTTAAAAGCTTGTTT      	
+   1089487	    29	 100.0	    38	.............................	TCGCACAGCTAAACAGCAACAGACTACTTGCTAAAATA    	
+   1089554	    29	 100.0	    39	.............................	AACTCAACATCATGCAAATCTGGGACTGCTTCTTTTTGC   	
+   1089622	    29	 100.0	    40	.............................	CCAAAATATACTTGATAAAAACGATAAACAAGCACATTCG  	
+   1089691	    29	 100.0	    37	.............................	TTATCTCATCTTTTTGTAGGTATCTCAATACTCCTTG     	
+   1089757	    29	 100.0	    38	.............................	TTTTTTAGCATCACTTTTTAACGATGCATTAGGTTTAA    	
+   1089824	    29	 100.0	    36	.............................	TTGTTGGATAAGTGATTTTTACTTTGTACTTCATGG      	
+   1089889	    29	 100.0	    37	.............................	GAAGCTGTCAATCTAAACACTACTTTGTAATTATTTG     	
+   1089955	    29	 100.0	    36	.............................	TTTTGCATCAAGCGTATCAGGAACCAAAACTTTCGC      	
+   1090020	    29	 100.0	    39	.............................	GCACTTGCAAGTGCCACTTTGCGAGCCAATGCGAATAGA   	
+   1090088	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1090153	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1090219	    29	 100.0	    36	.............................	TTCCTTGGCGCTCTTTCTACTCTTGATATCACAGAA      	
+   1090284	    29	 100.0	    37	.............................	TTTAGAAGAGCTTCAAGATTAAGTTGCTTTTCCATCT     	
+   1090350	    29	 100.0	    36	.............................	AAATAGCAGCCCAGCTCCAACCCCACTGTCTTTCAG      	
+   1090415	    29	 100.0	    36	.............................	ATGTCAACATGTATTGGTCAAAAGCTGAAGGAAGGC      	
+   1090480	    29	 100.0	    37	.............................	TGAGCCATATTCTCAGAGATTGGCTGGTGTAATAGCA     	
+   1090546	    29	 100.0	    36	.............................	GACGGTGTGCGTGGTCTTACGGGGGATGTCATTTTA      	
+   1090611	    29	 100.0	    38	.............................	GACAAAGACTTGATTGAAGATTTGCACTCAGTCAAAAA    	
+   1090678	    29	 100.0	    37	.............................	CGTTGAGTTGTGAGTATCACTTTGATATTTTGCATGA     	
+   1090744	    29	 100.0	    36	.............................	TATTCTATTTGCAATCTCTTCAGGCTTGAGGGCTCT      	
+   1090809	    29	 100.0	    36	.............................	CTTAATCACTTCAAGCCGCAGATGTGTATCTCCTTG      	
+   1090874	    29	 100.0	    36	.............................	TAGAGCATTTGCACTCATAGATGCTCCAGTAGGACT      	
+   1090939	    29	 100.0	    37	.............................	TAAGTTTTTGCTTAAAACTTCTTCTAAAGAAGCTGCA     	
+   1091005	    29	 100.0	    36	.............................	AACACAGACGCAAACCTTTTAAACGCAAACGGTGTA      	
+   1091070	    29	 100.0	    42	.............................	ACGTTTTTCACACGACCTAACGCATCTATGTGTTTCATCTGA	
+   1091141	    29	 100.0	    37	.............................	ACAATTGCTGAAAAAGTGGACGATGACAAGAAGAAGA     	
+   1091207	    29	 100.0	    36	.............................	GAAGTAAACAAAGCTCTGTTGCTTCTGGCGGCTTCT      	
+   1091272	    29	 100.0	    36	.............................	CTACCAATCGCATCTACGCCTATCACCTTCCAACCA      	
+   1091337	    29	 100.0	    37	.............................	TTGATTACAAACATTATCAACGCACTTGTAAAACAAA     	
+   1091403	    29	 100.0	    37	.............................	GAGTAAGCGTTTTTTTAACAGAATGGAGGTCTTCTAT     	
+   1091469	    29	 100.0	    37	.............................	TAGAGCATTTGCATTAATAGATGCTCCTGTGGGACTT     	
+   1091535	    29	 100.0	    37	.............................	GCGTTTGAAAATAGTATTTCTTTTGTGTAAAAATAGG     	
+   1091601	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1091666	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1091732	    29	 100.0	    41	.............................	ATATGATACTTTTAGCACTTGCCCGAGCCAGTAGCTAATGG 	
+   1091802	    29	 100.0	    36	.............................	ATTACTGAAAAATTGCAACAATTATTAAACTACATG      	
+   1091867	    29	 100.0	    39	.............................	CTTCTAAGGTTTGATGTAGTCTTTCAATCATTTGAGGCA   	
+   1091935	    29	 100.0	    36	.............................	AGCATCGGGGCGTTTATAAATACCGATGCAAAAACT      	
+   1092000	    29	 100.0	    38	.............................	ACAACAAGCGTTTGATAAACGTTAGCGGGAGTTGTTGA    	
+   1092067	    29	 100.0	     0	.............................	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        51	    29	 100.0	    37	GTTTCTAATTAACCGTGTGGAGTTGAAAG	                                          	       
+
+# Left flank :   ATAAATAACTTCAATGATTAAGGGCTTTATAAAAGCCCTGTGAACTTCAACAGCTGAATATGGCGTTAGAGTTTCTAATGAAGATATTCTTCCGCTTTAACAACTCCGCCGTATTTTTCTTTATATTCTTCTAACTCATTTAGCTTTTGGACTATCAGATCTCCCATAGATATTTTCTTGGTTATAGCCTCTATGCGCAAAGCCCGGTGAACATCGGAAGGTAATAAAACTGTTGTTTTAACCAATTTCTTGCCTTTTTTCCTCATAGATTTAAATATATAATCTTGCCGTAAAACCGCAATGCCGTAATTACATAAAACCGTAAAACCGTAATTACGGCGAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAGTGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGGAAATTACCTTCATTTGCGATGGGTACCCCCTTGACAAAACCATTGATACACTATATAATTTTAAATATAGTGATTTCTGG
+# Right flank :  GTTTCATTCTACTTTGTAATAAAGGGTTATCTCTTTGTTGTCCCTTATGATTTTTACGCTGAAGCTTTGGCTGTTTCTTAATGTACCTAATATTCTAAAAGCATCTTCTGGAGAGTTTAGGCTTTCGTTGTTTATAGAAAGAAGTATATCACCTGGTTTTATACCCATCTGGGCAAAAAGCGATCCTGGTTTTACGCTTTTAAACATAAAACCTTTTGGAGTAGGTACAAGGTCTATATCGCTAAACATCTTGTAGGGGTTTGATGTAATTTCAAGAAGCTCGTTTCTATTTACTGTATAAGTATTTTGATTTAAACTACCGCTTAAAAGCTCTTTCAAAGAAGGAAGACCGCTTGGTGTATTGGCACTGTTTATCTTAGCACCTTTTGAAAGTTTTAGAGTAAGGGTTTTGCCGTCGTTGCTTGCTATTATATAAAAAGGTTTTATCTCTTCTATTGTAAAACCGCAAAAACTATCTCCTACCATAAGCACTTTTTTAC
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCTAATTAACCGTGTGGAGTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.07%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.30,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [236,3] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339169-339666]; Cas5:WP_015419281 [595892-596563]; Endonuclease Cas2:WP_015419762 [1087242-1087523]; Endoribonuclease Cas6:NA [1087531-1088248]; Exonuclease Cas4:WP_015419760 [1085787-1086299]; Helicase/endonuclease Cas3:WP_015419759 [1083578-1085785]; RAMP Unclassified_Cas_protein:WP_015419028 [342275-343594]; 
+# Array family : NA
+# Sequence source strain : 3684
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. 3684
+//
+
+
+Array 1 212609-212416 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================	==================
+    212608	    36	 100.0	    43	....................................	GTAGCGCCCGCATTTCAAAGCTAAAGAACAGGCAAAGGCGCTC	
+    212529	    36	  97.2	    42	...................T................	CTATTAGCACATTTCGACTCTAAGGAACATTCACAGCCTGTT 	
+    212451	    36	  91.7	     0	..T..T................G.............	|                                          	
+==========	======	======	======	====================================	===========================================	==================
+         3	    36	  96.3	    43	AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG	                                           	       
+
+# Left flank :   GAGATAGAGAAACTATAGAAATGGCTTTAAGAGCAGCTGAAACCGGACACTTGGTATTTGGAACGCTTCATACAAATACAGCTATATCCACTATAAACAGAATTGTAGATGTATTTAGCGCTGAAGAAAAGGATCAAATAAGGACGCAGCTCTCTATCTCTTTACAAGGTATCATATCTCAAAGGCTTTTGCCTAAAATAGGCGGGGGCAGAGTGTTAGCTTACGAGCTTTTAATACCAAACGCAGGTATAAGAAACTTAATAAAAGAAAATAAGCTACCACAAATTTATGCATTGATGCAATCAGGTCAAGCTCAAACAGGTATGCAAACTATGAACCAACACTTAAGAAAACTATACGGTATGGGGCTTATAACAAAAGAAGATGCTCTAAAATACAGTCCAGATCCAAAAGAATTGGCAAGGTTAATGGGTGTAGCTTACGAAGAGATATAAAGCGGTAGAATCGCGTTTCAAAGCTAATGAATATGACAGGCGCTC
+# Right flank :  ATAGAATCGCATTTCAATTCTAAAGACCAGGCATAGCCACTTCCTTGCTCTGAGAACGGCTTACAGCACACTATTCCCTTTTTTCTATGCTTTCTTCCAAAGATAGATCGTCCACATACTCTATTAGAGTGCCAAATTGAATAGCTGTGGCTATGCGGGTTATCTTTACATTGTATTGTTTTAATACTTTTATAAGATAATTGGCGGTAGCTTCGCCTTCAGGGTTTGGATTTGTAGCTATTATTATCTCCTTCGGATTGTATTTTCTTATTCTTTCTTTTAAAAGCTCTATACTCAAATCTTCTGGTGCTATACCCTCCAGTGGACTTATACGACCACCTAAAATGTGATAAACACCTTTAAAACGCTCCAATTTTTCTATTTTGTAGGCATCTTGAGACTCTTCTACTACAGCTATATACTTTTTGCTTCTTTTTGGATTAGAACATATAGCACATATCTCTTGGTCTGTAAGTATGTTACACTCTTTACATGTAGTT
+
+# Questionable array : NO	 Score: 2.91
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.81, 5:-1.5, 6:1, 7:0.20, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [3-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [72,46] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 2 340591-340881 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	========================	===========================================	==================
+    340591	    24	  91.7	    43	.T...G..................	AAGATTCTAACCCTGGGAACATCTCACTAAGTTTTAGGTTTTG	
+    340658	    24	  91.7	    42	.T...G..................	CGCTAGTGACAACAAACTGTAGTGCATGACCAATAAGTTTTT 	
+    340724	    24	 100.0	    43	........................	GCACGCACAAAAACTGCACAAAAACTGCTAAAAAATGGTTTTT	
+    340791	    24	 100.0	    43	........................	TATAGTGAATAACATCATTTTTACATTTTGCAATGAGGTTTTT	
+    340858	    24	  95.8	     0	.......................A	|                                          	
+==========	======	======	======	========================	===========================================	==================
+         5	    24	  95.8	    43	TGTGTACCTATAGGGGATTGAAAC	                                           	       
+
+# Left flank :   AAAAGTATCTCTTCTTATATAACAGAAAAGTTAAAGGCTTTGGATTTGAAAGAAGATATACAAACGCTTATGCAGACCGAAGGCGATGTAAGGAAAACCTATTATCAGGCTTTTAACAGTATACTAAAAGATATGGAATTTGAAAAAAGAACCAAAAGACCACCGGAAGACCCTTTAAACGCCATGATATCTTTTGGCAATTCACTACTTTATACTACAGTGCTTAGTGAGATATATAAAACGCATTTGGACCCGCGCATAGGATACCTTCACGAAACAAACCAAAGAAGCTTCACTTTAAACCTTGATATTGCAGAAGTTTTTAAGCCGGTGATTGTGGACAGAGTAATTTTTCAGCTTTTAAATAAAAATCAAATAACTGAAAAGCATTTTGACAAAGATATAAGTTTTGCTTACCTAAACGAATCAGGGCGAGAGATATTTGTAAGAAGTTTTGAAGAAAAGCTAAATACAACAATAAAATACAAAAATATGTTTTG
+# Right flank :  AGAGTTTTTGTTAGGTTATAGAATAATTGCTGAGATATATAAGAATGTCATGGTTTATGCGTTCACAATGTAGTGAATTTGTAAAATACATTGACAAAATGCATAAGTTGTCATATAATATACTATAATATGAAAATATAAATTAAGATATTTAAGGAGACTTGTCAATAATTTTGTGTCTCATAACAAAATCTCCTGTTGAATATTTGTAAAACTTCATATGAGGACCCTTTTAATGCAGGAACTGGCTTACTCCACTTATTGTTCTTTAAAATATCTCTCTGGACAAGGATATTTATTTCAAGAATCTCAGCAGATTGGAAATAGCCTCCTAAGTTTATCCTTGCTTTTTCAATCATGCTATTTATACTTTCTACGGGATTGGTAGTATAAATATGCTTTCTTAGATTTTCTGGATATTTCAAGAAGCATAAGTACCTTTCTTTGTTAGCTTTTATCCTTTTTATGAAGCTTGGATAAATAGACTTAAATCTCTCACA
+
+# Questionable array : NO	 Score: 9.89
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.79, 5:0, 6:0.25, 7:0.13, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTGTACCTATAGGGGATTGAAAC
+# Alternate repeat :   TTTGTGCCTATAGGGGATTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:58.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.50,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [80.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [895,164] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.73,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 3 346993-347154 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    346993	    30	 100.0	    35	..............................	ACAACACCTTTGCCGTTTACAAGCACGTTTGAAGA  	
+    347058	    30	 100.0	    37	..............................	TGATTTGACAGCATCAAATACAGTTGCAATAATCTGA	
+    347125	    30	  93.3	     0	............................AA	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         3	    30	  97.8	    36	GTTTCATCTGAACCGTGTGGGTTAAGAAGC	                                     	       
+
+# Left flank :   ACTTGTGAATCGTGGCATACTTGTCTTTATAGGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGCACTTCAATAGCTGAATAAGCGTAGAGAGTGTTGGTATGCTTGTGTTGAACCCCACGGCATTTTTAACTTTTTTAGTTAGGGTTTTTAGTAGGTTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAAAGCCGTAATTACATAAAACCGTAAAGCCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATTATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGGGGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTGGG
+# Right flank :  AAGAAAACGTATTGTATAAGTTCAGATAGACTGAACATAGAGTGCCTGAGCATGTTTCAGATGCCTGTCTTCTTAAAAGACACTAATCTCATGATGTAAAAAATGCCCTTGGCACACTAGTGCGTGAGCATGTTTCAGATAAGCATGTTCTTAGAATACACTTATCACACGACAAGTATGCCACACAATAGTAAGAAATGCCTTTGGCACACTAGACTCTTGAAGAAGTACATAGAAAATACAACTTTGTAAGATCTACAAATCTACCACGGTTTATGTGTTCACGATGTAGTGAACTTATACACTATAGTATGCCAACGATACTCCTTACATCGTAAGTAAAAAGTTTGTTAAAAATATAAAAGCATTTAAAACATGCTTACAGCATTCTATTTATATCCTATCCAAACTCATTCACTTTGTAGGCTAATTTTACCTATATCAGAATATGCTATATCTCCGGCTATTACATAAGATTTATTTTGATATTTAAAAGCCAG
+
+# Questionable array : NO	 Score: 8.45
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:0.99, 7:1.48, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.70,-1.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [658,410] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 4 591447-592133 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================	==================
+    591447	    28	 100.0	    38	............................	TAACAAAAGCAGAATCATAGGGCTTCCAGCGAACCCTG 	
+    591513	    28	 100.0	    38	............................	TATAAGTATGAAGCGTATGAATATATTATACCTGATAC 	
+    591579	    28	 100.0	    39	............................	TAGTCTCTTCCTCTTGTTGTTTGAAGCTGATTGAAGCCA	
+    591646	    28	 100.0	    38	............................	TGAATACAGAGTTTGGGTTGCTAAGGATTTGCTTTCGG 	
+    591712	    28	 100.0	    38	............................	GTATTGACCTGGATTCTTTTCAAATGTGGTGAGTATGG 	
+    591778	    28	 100.0	    38	............................	GTGCTTTCTTGGATCCAATGTTACTTCAAAATTAAATT 	
+    591844	    28	 100.0	    37	............................	GTATAGTAATTCTTCAGAGTTTGAAATTTTCTCTGAC  	
+    591909	    28	 100.0	    38	............................	GTTCAATTTTTGGTGTAGTTACTGATGCTTTAAACTTT 	
+    591975	    28	 100.0	    38	............................	GTCGCTTTGTGATTTTTGTATTCCTGCGATATCTCCAT 	
+    592041	    28	 100.0	    37	............................	GGATTTTGGATCTGATGTATGGCAATTTATAGATCAG  	
+    592106	    28	 100.0	     0	............................	|                                      	
+==========	======	======	======	============================	=======================================	==================
+        11	    28	 100.0	    38	GTTTCATCTGAACCGTGTGGGATATAAA	                                       	       
+
+# Left flank :   TGTTATAATTTTTTTGTATGTATGTGTTCACGATGTAGTGAACTTGTACAACTTATACAATTCGGATTAAAATATGCTATAATATTTACATAGCCATTAGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATAAGTGTAGAGAGTTTTTACATACTTTTGATAACCCCACGGCATTTTTAACTTTTTTAATTAGGGGTTTTAGTGAATTGTTTATACAAAAATAAGTTTTATTATCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAATTACATAAAACCGTAAAACCGTAATTACGGCAAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACGAAACCATTGATACACTATATAATTTTAGGAGTAGTGATTTCTG
+# Right flank :  ATTATATATACCTCCCAAACTTGCGTTTATATTTAAAATACTACAACACAATTAACTTGACAATGCTTTTTATAAGTTCAATATATCGTGAACACATAAACCTTGCTTATAAAACGTGGCATGCTCGTCATATGATAAGTATTTGTTAAAAAGATAGGTATCTGAAAAGTGGTAAACCACTCTGCATTCATAGTCTATCTGAACTTATACATACTGTTTGATTAGCTTTTATGGTTTTTATTATAGTCAAATAAATTATTCACGTTACTATTAGTAAAATGGGGGATCTATAAAATGAGGGTAAGAATAGTGCTTAAAACAGATGAAATGCCACTTTTATATAGGCATAGGATTATATCTTTAATTAAAGAGGCACTTATGAGGTCCGATAAGGATTATAAGGAATTTTTGTACGATGGTAAGATAACAAAACCCTTTACCTTTAGCTTGATGTTTCCTAGAACAAAAGAATTTGTAAATAAAAAGGTTATTATAAATAG
+
+# Questionable array : NO	 Score: 8.56
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGATATAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [494,294] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 5 929301-928155 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+    929300	    29	 100.0	    35	.............................	TTGGCATCTACAAATTTAAACTGTATCTTTGGAAG       	
+    929236	    29	 100.0	    38	.............................	CCTCTATCAGGCTTGAAATCTTCATTTTTTAATATCGC    	
+    929169	    29	 100.0	    36	.............................	TTTTACAATATTGACTCTAATCTATAAAAATGATAT      	
+    929104	    29	 100.0	    42	.............................	CCATATCATAAAAAAATACTCTATTTCTTGATACAAATCATA	
+    929033	    29	 100.0	    36	.............................	TTAAATTAGGGAATGGTGTTTGAAATTCAAAACTTG      	
+    928968	    29	 100.0	    37	.............................	TCCAGAGTTTATGCTTTGGTGTAGAGTGTATAAGTGT     	
+    928902	    29	 100.0	    36	.............................	TCTTGTATATCAAATGCAAACAATCCTAATGATTCT      	
+    928837	    29	 100.0	    37	.............................	GCTTGTTCTAAGAGTTTGAAAATCCTAATCCACAGCT     	
+    928771	    29	 100.0	    37	.............................	ATCATGGACGCTGCGATTGAACTACTTGCTTACAACG     	
+    928705	    29	 100.0	    35	.............................	CCTTTTAAGATTTTCTTCATTTTCTTTTCTCGCAA       	
+    928641	    29	 100.0	    37	.............................	ATGGCTTGGCATATTAGACCCTGTCAAACTAAACACA     	
+    928575	    29	 100.0	    34	.............................	ACACATTTTAGCGTCACAGACAATGATGGACTGA        	
+    928512	    29	 100.0	    38	.............................	TACTTCTTTTACATTGTTAATGTTCCTTTCAACAAAGT    	
+    928445	    29	 100.0	    37	.............................	AGTCAATCAAGCAGTGCAAGACTTTATAAATTGGACT     	
+    928379	    29	 100.0	    37	.............................	CTATCTACTACGCTAAATCTTTAACGTGGGATGGACA     	
+    928313	    29	 100.0	    36	.............................	CTTTACGAAAGATTGAAGCCAAAGAGAAAGAAATTT      	
+    928248	    29	 100.0	    36	.............................	TTGCTTTAAATGTGTTGTGGAAGGTGTGTAATAATA      	
+    928183	    29	  96.6	     0	............................A	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        18	    29	  99.8	    37	GTTTCATCTGAACCGTGTGGGTTAAGAAG	                                          	       
+
+# Left flank :   TGTCTTATAACATGTCTCTGTTAAAAAGACAGGCATATAAGACGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCCTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATATGTGTAGAGAGTTTTTACATACTTTTGATAACCCCCACGGCATTTTTAACTTTTTTAGTTAGGGGTTTTAGTGGATTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTAACAAGCGATTAATTTTGCCGTAAAACCGTAAGTACATAAAACCATAAAACCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTG
+# Right flank :  AAGAAAACGTATCCTTTAAATACTGTATGAGTTCAGATAGAGTGTGAGCGCACACCTTGTTAAAAGTATGTGTTCACGATGTAGTAAACTTGTGCATTGATATTGACTTTTACTTTATATATGGTATAATAATAGGCTATTAAGTTTTATAAAATGGAGGCAATATGGATAGCGTGAAGACTATAAGGCCAAAACCACAGGATATTAAAAGAGAGTATTGGATAATAGACGCTAAGGATATGGTGTTAGGAAGACTTGCAGCTAAATGCGCCAGCATCTTAAGGGGTAAGCACAAGCCTATATATCAACCAGATGTAGATTGTGGTGATTTTGTAATAGTTATAAACTCTAAACTGGTAAAAACCACAGGTAATAAGCTAAGAGATAAAGTCTATAAGTTTCATACAAACCATCCAGGCGGTCTCAAAGAGAAGTCTCTTGGTTTCATGTTGGAAACCAATCCAAACCAAGTTATTATGTTGGCGGTAAAGAGGATGCTA
+
+# Questionable array : NO	 Score: 8.78
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.79, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [166,587] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 6 930895-931319 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+    930895	    29	 100.0	    36	.............................	TGATTATGAGTTATTGACAAATGATACGGTACAATG   	
+    930960	    29	 100.0	    37	.............................	TTTTGGTGTGTTTTATAAAGCCAACAAGAACGATAAA  	
+    931026	    29	 100.0	    39	.............................	TGTGTAAGAGTGTAGGATAATGATGCCCAATCATATGAT	
+    931094	    29	  96.6	    37	............A................	GAATTGAAAAAGGTACCACACAAGTGGTACCTCATTG  	
+    931160	    29	 100.0	    36	.............................	AAGAGGATAACTCTTTCCAGCAATCCACACTACCGT   	
+    931225	    29	 100.0	    37	.............................	TCTTACCTACTATTTGACCTTCATACATAATAAAGCG  	
+    931291	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         7	    29	  99.5	    37	CTTCTTAACCCACACGGTTCAGATGAAAC	                                       	       
+
+# Left flank :   CGATTTAAATCTATAAGTATATAGTTTAGCTTAGATGCGTATTTTTCTAATTTGGTATTTTTAACAATAGGTAAAGATGTGGGTACGTTCCATTCACCTTTTCCATGATAAAAAACAATGTTGATAATAGGAGGGTAATAATCTTTTTCTTTTATAGCTTCTTCCCAGATAGCGGCGTTGTAGTATAGAAGCTGAATAGGTAATTCTTTATCAAGATAAGATTTGTGTTCAAGTACAATCCTTATATAAGCATCTTGATCTTCTACCTTGCAGCTAAAAAGTAAATCAAGCATAAACTTTTGAGATTTAGAAGAAAACTTTTCTGTATTAACAGGTGTTATAGAGTGTATCTCTTGCCCTATATCTTTAGCAAAGATATCAAGAAGCAATTTTACCCTCTTAGGGTCAGAAAATATCTGCTTAAAAAATGAATCATGGGGCTGTATATCCATAGATCTATTTTACTACAAATTAAAAGTATTTAGAGGATACGTTTTCTT
+# Right flank :  CAACAAGCCTTTTACAAATTTGCCGTAATTACGGTTTTGCGGTTTTATGTAATTACGGCTTTACGGTTTTACGGTAAAATTAATTGATTGTCAGACAATAAGCTGGAAGGCTAATAAAACTTATTTTTGTATAAACAATCTAATAAAACCCCTAACTAAAAAAGTTAAAAATGCCGTGGGGGTTATCAAAAGTATGTAAAAACTCTCTACACATATTCAGCTATTGAAGTACGGCCAGCTCTTAAGAAAAACTTAAGAAGCTCAATAAGCCCCAATGTAGATAGTATAACATATTTTAATCCGAAGGTGTATAAGTTGAGTGAGCACCTATAAAGACAAGTATGCCACGATTCACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTATGCCACGGTTTGGTACCTATACTTCCCTTCATGGTACCCACCACACTTAACTCCTTGTAAAATTTTAAGGAATATTTTAACAAGGT
+
+# Questionable array : NO	 Score: 8.90
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCTTAACCCACACGGTTCAGATGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [50,519] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 7 1024574-1024077 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+   1024573	    30	 100.0	    38	..............................	AGTTTGTTTTTTATCACAAAGCCCCAATTTTTAATCTT 	
+   1024505	    30	 100.0	    37	..............................	TCCATAATCGGCACTTTATTAGTTTTGATGTCAATGT  	
+   1024438	    30	  96.7	    37	...............G..............	AATGATACCACACAAGAAAGCGACACACAAGAAGGAA  	
+   1024371	    30	 100.0	    34	..............................	TATTTTAATATTTGATTCATTATTTCCCTAATTT     	
+   1024307	    30	 100.0	    39	..............................	TTTGATTAAAGAGTTTGACTTTACACCATCATTGTTTAA	
+   1024238	    30	  96.7	    36	......C.......................	TCCTCCTCGAATATCGGCGTGACGCCGACTTGAAGA   	
+   1024172	    30	  96.7	    36	......C.......................	AATCTTCTATATCGTCTAATATACGCTCTATCAATA   	
+   1024106	    30	  86.7	     0	.........................T.CTT	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+         8	    30	  97.1	    37	GTTTTGTTTGTACCTATAGGGGATTGAAAC	                                       	       
+
+# Left flank :   GACACCTGCGCTGGGGAGTTTAGGGCTTATACGCCTTATTATTACTCCTCTTGGGAATATCCATACTATAAAATCGGGCAAGAAGAAGCTATTTTTGACAACGACTAAATTTTGCATAAGTCCAAAAACTACTGCCAAAGATAGACATAAATAAACCATCTCATAAAGATTTTATTTCCTAATTTTATTTTCTAAAAGCCTAAAAATGTTAATATAATTTCTAAATTATTAACATCAAAATCCCCAAAATCATTGTCTATCAACGATCTGTCGATCGGCAAAAAATTATTAAAAAACGCCTTGTTTTCAAACAAAAAAATACCTCATTTTTGGCATCTCAGCTATATCTGACAAAGAATTGTCGATCTCCTATGATTTTGCTCCTATTGACGATCGACGGGAAATATGTTATATTATAAGCTGTTGATAGGTTGATGGGGTACCTCAAAAACCTTGCCGGCGAAGGGTTTTAGGGTAGTTCACAATTTTTTCATTTTGGT
+# Right flank :  TTGTAAATAATGTTAGTAGTAGCAATTTCTGGTTTCATCTGAGCCGTCTGGGTTAAGAAGCTGTGAAATCATATCCTTTAAATACTTTTGATTTGTAGTAAAATAGATCTATGGATATACAACCTCACGATACATTTTTCAAGCAGATATTTTCAGATCCCAAAAGATTAAAGATGCTTCTTGATATCTTTGCAGAGGATATAGCACAGGATATACATTCTATAACACCCGTTAATACAGAAAAGTTTTCTTCTAAATCTCAAAAGTTCATGCTTGATTTACTTTTTAGCTGCAAAGTAGAAGATCAAGATGCATATATACGGGTAGTACTTGAGCACAAATCTTATCTTGATAAAGAACTACCTATTCAGCTTTCATACTACAACAGTGCTATCTGGGAAGAAGCCATAAAAGAAAAAGAGTATTACCCTCCTATTATCAACATCGTTTTTTATCATGGAAAAGGTGAATGGAATATGCCAACATGTTTACCTATTGTT
+
+# Questionable array : NO	 Score: 11.62
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.85, 5:0, 6:0.99, 7:0.80, 8:1, 9:0.98,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGTTTGTACCTATAGGGGATTGAAAC
+# Alternate repeat :   GTTTTGCTTGTACCTATAGGGGATTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [112,393] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 8 1088952-1092284 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020411-Hydrogenobaculum sp. HO, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+   1088952	    29	 100.0	    39	.............................	ACTTATGCAAAAGTATCTATTACATTAGAACTATCAAAC   	
+   1089020	    29	 100.0	    40	.............................	CCTGACAAAAATGAGAGCATAACACTTCCTACTTTTGCAA  	
+   1089089	    29	 100.0	    36	.............................	TTATCACACGTGCAAGTGTTTTGTGTTTTGATATGA      	
+   1089154	    29	 100.0	    35	.............................	TTGTCTCGTAACATTAAAATTCGTTGGAGTTGTAT       	
+   1089218	    29	 100.0	    38	.............................	TCTTCAAAGCATACGTCAATAGTCTGCCAGCTTTGAGA    	
+   1089285	    29	 100.0	    37	.............................	CTAAATTTTGAAAGTGTGGAGGATATGAAATCTTTTT     	
+   1089351	    29	 100.0	    37	.............................	ATTTCTTGAGATAATTTGATGATAGAAATATTTTTCT     	
+   1089417	    29	 100.0	    36	.............................	GTTAAAGAATCGTTTGAAAAACAGCAAATAGCAGAA      	
+   1089482	    29	 100.0	    35	.............................	ATCTCCTACAGCACTCCATTGATAATATGTTATTT       	
+   1089546	    29	 100.0	    36	.............................	TTTGCAGTTAGCTTCTTCAATAGATTGATGTTTATA      	
+   1089611	    29	 100.0	    36	.............................	TTACAAGTTTGTAAAACATCTCTTAAAAGCTTGTTT      	
+   1089676	    29	 100.0	    38	.............................	TCGCACAGCTAAACAGCAACAGACTACTTGCTAAAATA    	
+   1089743	    29	 100.0	    39	.............................	AACTCAACATCATGCAAATCTGGGACTGCTTCTTTTTGC   	
+   1089811	    29	 100.0	    40	.............................	CCAAAATATACTTGATAAAAACGATAAACAAGCACATTCG  	
+   1089880	    29	 100.0	    37	.............................	TTATCTCATCTTTTTGTAGGTATCTCAATACTCCTTG     	
+   1089946	    29	 100.0	    38	.............................	TTTTTTAGCATCACTTTTTAACGATGCATTAGGTTTAA    	
+   1090013	    29	 100.0	    36	.............................	TTGTTGGATAAGTGATTTTTACTTTGTACTTCATGG      	
+   1090078	    29	 100.0	    37	.............................	GAAGCTGTCAATCTAAACACTACTTTGTAATTATTTG     	
+   1090144	    29	 100.0	    36	.............................	TTTTGCATCAAGCGTATCAGGAACCAAAACTTTCGC      	
+   1090209	    29	 100.0	    39	.............................	GCACTTGCAAGTGCCACTTTGCGAGCCAATGCGAATAGA   	
+   1090277	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1090342	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1090408	    29	 100.0	    36	.............................	TTCCTTGGCGCTCTTTCTACTCTTGATATCACAGAA      	
+   1090473	    29	 100.0	    37	.............................	TTTAGAAGAGCTTCAAGATTAAGTTGCTTTTCCATCT     	
+   1090539	    29	 100.0	    36	.............................	AAATAGCAGCCCAGCTCCAACCCCACTGTCTTTCAG      	
+   1090604	    29	 100.0	    36	.............................	ATGTCAACATGTATTGGTCAAAAGCTGAAGGAAGGC      	
+   1090669	    29	 100.0	    37	.............................	TGAGCCATATTCTCAGAGATTGGCTGGTGTAATAGCA     	
+   1090735	    29	 100.0	    36	.............................	GACGGTGTGCGTGGTCTTACGGGGGATGTCATTTTA      	
+   1090800	    29	 100.0	    38	.............................	GACAAAGACTTGATTGAAGATTTGCACTCAGTCAAAAA    	
+   1090867	    29	 100.0	    37	.............................	CGTTGAGTTGTGAGTATCACTTTGATATTTTGCATGA     	
+   1090933	    29	 100.0	    36	.............................	TATTCTATTTGCAATCTCTTCAGGCTTGAGGGCTCT      	
+   1090998	    29	 100.0	    36	.............................	CTTAATCACTTCAAGCCGCAGATGTGTATCTCCTTG      	
+   1091063	    29	 100.0	    36	.............................	TAGAGCATTTGCACTCATAGATGCTCCAGTAGGACT      	
+   1091128	    29	 100.0	    37	.............................	TAAGTTTTTGCTTAAAACTTCTTCTAAAGAAGCTGCA     	
+   1091194	    29	 100.0	    36	.............................	AACACAGACGCAAACCTTTTAAACGCAAACGGTGTA      	
+   1091259	    29	 100.0	    42	.............................	ACGTTTTTCACACGACCTAACGCATCTATGTGTTTCATCTGA	
+   1091330	    29	 100.0	    37	.............................	ACAATTGCTGAAAAAGTGGACGATGACAAGAAGAAGA     	
+   1091396	    29	 100.0	    36	.............................	GAAGTAAACAAAGCTCTGTTGCTTCTGGCGGCTTCT      	
+   1091461	    29	 100.0	    36	.............................	CTACCAATCGCATCTACGCCTATCACCTTCCAACCA      	
+   1091526	    29	 100.0	    37	.............................	TTGATTACAAACATTATCAACGCACTTGTAAAACAAA     	
+   1091592	    29	 100.0	    37	.............................	GAGTAAGCGTTTTTTTAACAGAATGGAGGTCTTCTAT     	
+   1091658	    29	 100.0	    37	.............................	TAGAGCATTTGCATTAATAGATGCTCCTGTGGGACTT     	
+   1091724	    29	 100.0	    37	.............................	GCGTTTGAAAATAGTATTTCTTTTGTGTAAAAATAGG     	
+   1091790	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1091855	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1091921	    29	 100.0	    41	.............................	ATATGATACTTTTAGCACTTGCCCGAGCCAGTAGCTAATGG 	
+   1091991	    29	 100.0	    36	.............................	ATTACTGAAAAATTGCAACAATTATTAAACTACATG      	
+   1092056	    29	 100.0	    39	.............................	CTTCTAAGGTTTGATGTAGTCTTTCAATCATTTGAGGCA   	
+   1092124	    29	 100.0	    36	.............................	AGCATCGGGGCGTTTATAAATACCGATGCAAAAACT      	
+   1092189	    29	 100.0	    38	.............................	ACAACAAGCGTTTGATAAACGTTAGCGGGAGTTGTTGA    	
+   1092256	    29	 100.0	     0	.............................	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        51	    29	 100.0	    37	GTTTCTAATTAACCGTGTGGAGTTGAAAG	                                          	       
+
+# Left flank :   ATAAATAACTTCAATGATTAAGGGCTTTATAAAAGCCCTGTGAACTTCAACAGCTGAATATGGCGTTAGAGTTTCTAATGAAGATATTCTTCCGCTTTAACAACTCCGCCGTATTTTTCTTTATATTCTTCTAACTCATTTAGCTTTTGGACTATCAGATCTCCCATAGATATTTTCTTGGTTATAGCCTCTATGCGCAAAGCCCGGTGAACATCGGAAGGTAATAAAACTGTTGTTTTAACCAATTTCTTGCCTTTTTTCCTCATAGATTTAAATATATAATCTTGCCGTAAAACCGCAATGCCGTAATTACATAAAACCGTAAAACCGTAATTACGGCGAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAGTGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGGAAATTACCTTCATTTGCGATGGGTACCCCCTTGACAAAACCATTGATACACTATATAATTTTAAATATAGTGATTTCTGG
+# Right flank :  GTTTCATTCTACTTTGTAATAAAGGGTTATCTCTTTGTTGTCCCTTATGATTTTTACGCTGAAGCTTTGGCTGTTTCTTAATGTACCTAATATTCTAAAAGCATCTTCTGGAGAGTTTAGGCTTTCGTTGTTTATAGAAAGAAGTATATCACCTGGTTTTATACCCATCTGGGCAAAAAGCGATCCTGGTTTTACGCTTTTAAACATAAAACCTTTTGGAGTAGGTACAAGGTCTATATCGCTAAACATCTTGTAGGGGTTTGATGTAATTTCAAGAAGCTCGTTTCTATTTACTGTATAAGTATTTTGATTTAAACTACCGCTTAAAAGCTCTTTCAAAGAAGGAAGACCGCTTGGTGTATTGGCACTGTTTATCTTAGCACCTTTTGAAAGTTTTAGAGTAAGGGTTTTGCCGTCGTTGCTTGCTATTATATAAAAAGGTTTTATCTCTTCTATTGTAAAACCGCAAAAACTATCTCCTACCATAAGCACTTTTTTAC
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCTAATTAACCGTGTGGAGTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.07%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.30,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [236,3] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339200-339697]; Cas5:WP_015419281 [595920-596591]; Endonuclease Cas2:WP_015419762 [1087431-1087712]; Endoribonuclease Cas6:NA [1087720-1088437]; Exonuclease Cas4:WP_015419760 [1085976-1086488]; Helicase/endonuclease Cas3:WP_015419759 [1083767-1085974]; RAMP Unclassified_Cas_protein:WP_015419028 [342306-343625]; 
+# Array family : NA
+# Sequence source strain : HO
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. HO
+//
+
+
+Array 1 212571-212378 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================	==================
+    212570	    36	 100.0	    43	....................................	GTAGCGCCCGCATTTCAAAGCTAAAGAACAGGCAAAGGCGCTC	
+    212491	    36	  97.2	    42	...................T................	CTATTAGCACATTTCGACTCTAAGGAACATTCACAGCCTGTT 	
+    212413	    36	  91.7	     0	..T..T................G.............	|                                          	
+==========	======	======	======	====================================	===========================================	==================
+         3	    36	  96.3	    43	AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG	                                           	       
+
+# Left flank :   GAGATAGAGAAACTATAGAAATGGCTTTAAGAGCAGCTGAAACCGGACACTTGGTATTTGGAACGCTTCATACAAATACAGCTATATCCACTATAAACAGAATTGTAGATGTATTTAGCGCTGAAGAAAAGGATCAAATAAGGACGCAGCTCTCTATCTCTTTACAAGGTATCATATCTCAAAGGCTTTTGCCTAAAATAGGCGGGGGCAGAGTGTTAGCTTACGAGCTTTTAATACCAAACGCAGGTATAAGAAACTTAATAAAAGAAAATAAGCTACCACAAATTTATGCATTGATGCAATCAGGTCAAGCTCAAACAGGTATGCAAACTATGAACCAACACTTAAGAAAACTATACGGTATGGGGCTTATAACAAAAGAAGATGCTCTAAAATACAGTCCAGATCCAAAAGAATTGGCAAGGTTAATGGGTGTAGCTTACGAAGAGATATAAAGCGGTAGAATCGCGTTTCAAAGCTAATGAATATGACAGGCGCTC
+# Right flank :  ATAGAATCGCATTTCAATTCTAAAGACCAGGCATAGCCACTTCCTTGCTCTGAGAACGGCTTACAGCACACTATTCCCTTTTTTCTATGCTTTCTTCCAAAGATAGATCGTCCACATACTCTATTAGAGTGCCAAATTGAATAGCTGTGGCTATGCGGGTTATCTTTACATTGTATTGTTTTAATACTTTTATAAGATAATTGGCGGTAGCTTCGCCTTCAGGGTTTGGATTTGTAGCTATTATTATCTCCTTCGGATTGTATTTTCTTATTCTTTCTTTTAAAAGCTCTATACTCAAATCTTCTGGTGCTATACCCTCCAGTGGACTTATACGACCACCTAAAATGTGATAAACACCTTTAAAACGCTCCAATTTTTCTATTTTGTAGGCATCTTGAGACTCTTCTACTACAGCTATATACTTTTTGCTTCTTTTTGGATTAGAACATATAGCACATATCTCTTGGTCTGTAAGTATGTTACACTCTTTACATGTAGTT
+
+# Questionable array : NO	 Score: 2.91
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.81, 5:-1.5, 6:1, 7:0.20, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAAAGCTCAGAGAACGGCCGTTAGCACACTAGAGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [3-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [72,46] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 2 340549-340844 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    340549	    29	  89.7	    38	.....G.T...G.................	CAAGATTCTAACCCTGGGAACATCTCACTAAGTTTTAG	
+    340616	    29	  89.7	    37	.....G.T...G.................	CCGCTAGTGACAACAAACTGTAGTGCATGACCAATAA 	
+    340682	    29	 100.0	    38	.............................	CGCACGCACAAAAACTGCACAAAAACTGCTAAAAAATG	
+    340749	    29	 100.0	    38	.............................	CTATAGTGAATAACATCATTTTTACATTTTGCAATGAG	
+    340816	    29	 100.0	     0	.............................	|                                     	
+==========	======	======	======	=============================	======================================	==================
+         5	    29	  95.9	    38	GTTTTTTGTGTACCTATAGGGGATTGAAA	                                      	       
+
+# Left flank :   GAGCTTAAAAGTATCTCTTCTTATATAACAGAAAAGTTAAAGGCTTTGGATTTGAAAGAAGATATACAAACGCTTATGCAGACCGAAGGCGATGTAAGGAAAACCTATTATCAGGCTTTTAACAGTATACTAAAAGATATGGAATTTGAAAAAAGAACCAAAAGACCACCGGAAGACCCTTTAAACGCCATGATATCTTTTGGCAATTCACTACTTTATACTACAGTGCTTAGTGAGATATATAAAACGCATTTGGACCCGCGCATAGGATACCTTCACGAAACAAACCAAAGAAGCTTCACTTTAAACCTTGATATTGCAGAAGTTTTTAAGCCGGTGATTGTGGACAGAGTAATTTTTCAGCTTTTAAATAAAAATCAAATAACTGAAAAGCATTTTGACAAAGATATAAGTTTTGCTTACCTAAACGAATCAGGGCGAGAGATATTTGTAAGAAGTTTTGAAGAAAAGCTAAATACAACAATAAAATACAAAAATAT
+# Right flank :  AAGAGTTTTTGTTAGGTTATAGAATAATTGCTGAGATATATAAGAATGTCATGGTTTATGCGTTCACAATGTAGTGAATTTGTAAAATACATTGACAAAATGCATAAGTTGTCATATAATATACTATAATATGAAAATATAAATTAAGATATTTAAGGAGACTTGTCAATAATTTTGTGTCTCATAACAAAATCTCCTGTTGAATATTTGTAAAACTTCATATGAGGACCCTTTTAATGCAGGAACTGGCTTACTCCACTTATTGTTCTTTAAAATATCTCTCTGGACAAGGATATTTATTTCAAGAATCTCAGCAGATTGGAAATAGCCTCCTAAGTTTATCCTTGCTTTTTCAATCATGCTATTTATACTTTCTACGGGATTGGTAGTATAAATATGCTTTCTTAGATTTTCTGGATATTTCAAGAAGCATAAGTACCTTTCTTTGTTAGCTTTTATCCTTTTTATGAAGCTTGGATAAATAGACTTAAATCTCTCAC
+
+# Questionable array : NO	 Score: 8.32
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.80, 5:0, 6:1, 7:0.72, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTTTGTGTACCTATAGGGGATTGAAA
+# Alternate repeat :   GTTTTGTTTGTGCCTATAGGGGATTGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.50,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [889,165] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 3 346956-347117 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    346956	    30	 100.0	    35	..............................	ACAACACCTTTGCCGTTTACAAGCACGTTTGAAGA  	
+    347021	    30	 100.0	    37	..............................	TGATTTGACAGCATCAAATACAGTTGCAATAATCTGA	
+    347088	    30	  93.3	     0	............................AA	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         3	    30	  97.8	    36	GTTTCATCTGAACCGTGTGGGTTAAGAAGC	                                     	       
+
+# Left flank :   ACTTGTGAATCGTGGCATACTTGTCTTTATAGGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGCACTTCAATAGCTGAATAAGCGTAGAGAGTGTTGGTATGCTTGTGTTGAACCCCACGGCATTTTTAACTTTTTTAGTTAGGGTTTTTAGTAGGTTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAAAGCCGTAATTACATAAAACCGTAAAGCCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATTATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGGGGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTGGG
+# Right flank :  AAGAAAACGTATTGTATAAGTTCAGATAGACTGAACATAGAGTGCCTGAGCATGTTTCAGATGCCTGTCTTCTTAAAAGACACTAATCTCATGATGTAAAAAATGCCCTTGGCACACTAGTGCGTGAGCATGTTTCAGATAAGCATGTTCTTAGAATACACTTATCACACGACAAGTATGCCACACAATAGTAAGAAATGCCTTTGGCACACTAGACTCTTGAAGAAGTACATAGAAAATACAACTTTGTAAGATCTACAAATCTACCACGGTTTATGTGTTCACGATGTAGTGAACTTATACACTATAGTATGCCAACGATACTCCTTACATCGTAAGTAAAAAGTTTGTTAAAAATATAAAAGCATTTAAAACATGCTTACAGCATTCTATTTATATCCTATCCAAACTCATTCACTTTGTAGGCTAATTTTACCTATATCAGAATATGCTATATCTCCGGCTATTACATAAGATTTATTTTGATATTTAAAAGCCAG
+
+# Questionable array : NO	 Score: 8.45
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:0.99, 7:1.48, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.70,-1.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [658,410] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 4 591414-592100 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================	==================
+    591414	    28	 100.0	    38	............................	TAACAAAAGCAGAATCATAGGGCTTCCAGCGAACCCTG 	
+    591480	    28	 100.0	    38	............................	TATAAGTATGAAGCGTATGAATATATTATACCTGATAC 	
+    591546	    28	 100.0	    39	............................	TAGTCTCTTCCTCTTGTTGTTTGAAGCTGATTGAAGCCA	
+    591613	    28	 100.0	    38	............................	TGAATACAGAGTTTGGGTTGCTAAGGATTTGCTTTCGG 	
+    591679	    28	 100.0	    38	............................	GTATTGACCTGGATTCTTTTCAAATGTGGTGAGTATGG 	
+    591745	    28	 100.0	    38	............................	GTGCTTTCTTGGATCCAATGTTACTTCAAAATTAAATT 	
+    591811	    28	 100.0	    37	............................	GTATAGTAATTCTTCAGAGTTTGAAATTTTCTCTGAC  	
+    591876	    28	 100.0	    38	............................	GTTCAATTTTTGGTGTAGTTACTGATGCTTTAAACTTT 	
+    591942	    28	 100.0	    38	............................	GTCGCTTTGTGATTTTTGTATTCCTGCGATATCTCCAT 	
+    592008	    28	 100.0	    37	............................	GGATTTTGGATCTGATGTATGGCAATTTATAGATCAG  	
+    592073	    28	 100.0	     0	............................	|                                      	
+==========	======	======	======	============================	=======================================	==================
+        11	    28	 100.0	    38	GTTTCATCTGAACCGTGTGGGATATAAA	                                       	       
+
+# Left flank :   TGTTATAATTTTTTTGTATGTATGTGTTCACGATGTAGTGAACTTGTACAACTTATACAATTCGGATTAAAATATGCTATAATATTTACATAGCCATTAGGGCTTATTGAGCTTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATAAGTGTAGAGAGTTTTTACATACTTTTGATAACCCCACGGCATTTTTAACTTTTTTAATTAGGGGTTTTAGTGAATTGTTTATACAAAAATAAGTTTTATTATCCTTCCAACTTATTGTCTGACAAGCAATTAATTTTGCCGTAAAACCGTAATTACATAAAACCGTAAAACCGTAATTACGGCAAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACGAAACCATTGATACACTATATAATTTTAGGAGTAGTGATTTCTG
+# Right flank :  ATTATATATACCTCCCAAACTTGCGTTTATATTTAAAATACTACAACACAATTAACTTGACAATGCTTTTTATAAGTTCAATATATCGTGAACACATAAACCTTGCTTATAAAACGTGGCATGCTCGTCATATGATAAGTATTTGTTAAAAAGATAGGTATCTGAAAAGTGGTAAACCACTCTGCATTCATAGTCTATCTGAACTTATACATACTGTTTGATTAGCTTTTATGGTTTTTATTATAGTCAAATAAATTATTCACGTTACTATTAGTAAAATGGGGGATCTATAAAATGAGGGTAAGAATAGTGCTTAAAACAGATGAAATGCCACTTTTATATAGGCATAGGATTATATCTTTAATTAAAGAGGCACTTATGAGGTCCGATAAGGATTATAAGGAATTTTTGTACGATGGTAAGATAACAAAACCCTTTACCTTTAGCTTGATGTTTCCTAGAACAAAAGAATTTGTAAATAAAAAGGTTATTATAAATAG
+
+# Questionable array : NO	 Score: 8.56
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGATATAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [494,294] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 5 929268-928122 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+    929267	    29	 100.0	    35	.............................	TTGGCATCTACAAATTTAAACTGTATCTTTGGAAG       	
+    929203	    29	 100.0	    38	.............................	CCTCTATCAGGCTTGAAATCTTCATTTTTTAATATCGC    	
+    929136	    29	 100.0	    36	.............................	TTTTACAATATTGACTCTAATCTATAAAAATGATAT      	
+    929071	    29	 100.0	    42	.............................	CCATATCATAAAAAAATACTCTATTTCTTGATACAAATCATA	
+    929000	    29	 100.0	    36	.............................	TTAAATTAGGGAATGGTGTTTGAAATTCAAAACTTG      	
+    928935	    29	 100.0	    37	.............................	TCCAGAGTTTATGCTTTGGTGTAGAGTGTATAAGTGT     	
+    928869	    29	 100.0	    36	.............................	TCTTGTATATCAAATGCAAACAATCCTAATGATTCT      	
+    928804	    29	 100.0	    37	.............................	GCTTGTTCTAAGAGTTTGAAAATCCTAATCCACAGCT     	
+    928738	    29	 100.0	    37	.............................	ATCATGGACGCTGCGATTGAACTACTTGCTTACAACG     	
+    928672	    29	 100.0	    35	.............................	CCTTTTAAGATTTTCTTCATTTTCTTTTCTCGCAA       	
+    928608	    29	 100.0	    37	.............................	ATGGCTTGGCATATTAGACCCTGTCAAACTAAACACA     	
+    928542	    29	 100.0	    34	.............................	ACACATTTTAGCGTCACAGACAATGATGGACTGA        	
+    928479	    29	 100.0	    38	.............................	TACTTCTTTTACATTGTTAATGTTCCTTTCAACAAAGT    	
+    928412	    29	 100.0	    37	.............................	AGTCAATCAAGCAGTGCAAGACTTTATAAATTGGACT     	
+    928346	    29	 100.0	    37	.............................	CTATCTACTACGCTAAATCTTTAACGTGGGATGGACA     	
+    928280	    29	 100.0	    36	.............................	CTTTACGAAAGATTGAAGCCAAAGAGAAAGAAATTT      	
+    928215	    29	 100.0	    36	.............................	TTGCTTTAAATGTGTTGTGGAAGGTGTGTAATAATA      	
+    928150	    29	  96.6	     0	............................A	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        18	    29	  99.8	    37	GTTTCATCTGAACCGTGTGGGTTAAGAAG	                                          	       
+
+# Left flank :   TGTCTTATAACATGTCTCTGTTAAAAAGACAGGCATATAAGACGTGCTCACTCAACTTATACACCTTCGGATTAAAATATGTTATACTATCTACATTGGGGCTTATTGAGCCTCTTAAGTTTTTCTTAAGAGCTGGCCGTACTTCAATAGCTGAATATGTGTAGAGAGTTTTTACATACTTTTGATAACCCCCACGGCATTTTTAACTTTTTTAGTTAGGGGTTTTAGTGGATTGTTTATACAAAAATAAGTTTTATTAGCCTTCCAACTTATTGTCTAACAAGCGATTAATTTTGCCGTAAAACCGTAAGTACATAAAACCATAAAACCGTAATTACGGCGAATTTGTAAAAAGCTTGTTAGACAATGATTTAAACTTGATAACGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGAAAATTACCTTCATTTGCGAGGGGTACCCCCTTGACAAAACCATTGATACACTATATAATATTAGGAGTAGTGATTTCTG
+# Right flank :  AAGAAAACGTATCCTTTAAATACTGTATGAGTTCAGATAGAGTGTGAGCGCACACCTTGTTAAAAGTATGTGTTCACGATGTAGTAAACTTGTGCATTGATATTGACTTTTACTTTATATATGGTATAATAATAGGCTATTAAGTTTTATAAAATGGAGGCAATATGGATAGCGTGAAGACTATAAGGCCAAAACCACAGGATATTAAAAGAGAGTATTGGATAATAGACGCTAAGGATATGGTGTTAGGAAGACTTGCAGCTAAATGCGCCAGCATCTTAAGGGGTAAGCACAAGCCTATATATCAACCAGATGTAGATTGTGGTGATTTTGTAATAGTTATAAACTCTAAACTGGTAAAAACCACAGGTAATAAGCTAAGAGATAAAGTCTATAAGTTTCATACAAACCATCCAGGCGGTCTCAAAGAGAAGTCTCTTGGTTTCATGTTGGAAACCAATCCAAACCAAGTTATTATGTTGGCGGTAAAGAGGATGCTA
+
+# Questionable array : NO	 Score: 8.78
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.79, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCATCTGAACCGTGTGGGTTAAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [166,587] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 6 930862-931286 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+    930862	    29	 100.0	    36	.............................	TGATTATGAGTTATTGACAAATGATACGGTACAATG   	
+    930927	    29	 100.0	    37	.............................	TTTTGGTGTGTTTTATAAAGCCAACAAGAACGATAAA  	
+    930993	    29	 100.0	    39	.............................	TGTGTAAGAGTGTAGGATAATGATGCCCAATCATATGAT	
+    931061	    29	  96.6	    37	............A................	GAATTGAAAAAGGTACCACACAAGTGGTACCTCATTG  	
+    931127	    29	 100.0	    36	.............................	AAGAGGATAACTCTTTCCAGCAATCCACACTACCGT   	
+    931192	    29	 100.0	    37	.............................	TCTTACCTACTATTTGACCTTCATACATAATAAAGCG  	
+    931258	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         7	    29	  99.5	    37	CTTCTTAACCCACACGGTTCAGATGAAAC	                                       	       
+
+# Left flank :   CGATTTAAATCTATAAGTATATAGTTTAGCTTAGATGCGTATTTTTCTAATTTGGTATTTTTAACAATAGGTAAAGATGTGGGTACGTTCCATTCACCTTTTCCATGATAAAAAACAATGTTGATAATAGGAGGGTAATAATCTTTTTCTTTTATAGCTTCTTCCCAGATAGCGGCGTTGTAGTATAGAAGCTGAATAGGTAATTCTTTATCAAGATAAGATTTGTGTTCAAGTACAATCCTTATATAAGCATCTTGATCTTCTACCTTGCAGCTAAAAAGTAAATCAAGCATAAACTTTTGAGATTTAGAAGAAAACTTTTCTGTATTAACAGGTGTTATAGAGTGTATCTCTTGCCCTATATCTTTAGCAAAGATATCAAGAAGCAATTTTACCCTCTTAGGGTCAGAAAATATCTGCTTAAAAAATGAATCATGGGGCTGTATATCCATAGATCTATTTTACTACAAATTAAAAGTATTTAGAGGATACGTTTTCTT
+# Right flank :  CAACAAGCCTTTTACAAATTTGCCGTAATTACGGTTTTGCGGTTTTATGTAATTACGGCTTTACGGTTTTACGGTAAAATTAATTGATTGTCAGACAATAAGCTGGAAGGCTAATAAAACTTATTTTTGTATAAACAATCTAATAAAACCCCTAACTAAAAAAGTTAAAAATGCCGTGGGGGTTATCAAAAGTATGTAAAAACTCTCTACACATATTCAGCTATTGAAGTACGGCCAGCTCTTAAGAAAAACTTAAGAAGCTCAATAAGCCCCAATGTAGATAGTATAACATATTTTAATCCGAAGGTGTATAAGTTGAGTGAGCACCTATAAAGACAAGTATGCCACGATTCACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTCTGCCACACCCTACAAGTATGCCACGGTTTGGTACCTATACTTCCCTTCATGGTACCCACCACACTTAACTCCTTGTAAAATTTTAAGGAATATTTTAACAAGGT
+
+# Questionable array : NO	 Score: 8.90
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCTTAACCCACACGGTTCAGATGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [50,519] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 7 1024542-1024045 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+   1024541	    30	 100.0	    38	..............................	AGTTTGTTTTTTATCACAAAGCCCCAATTTTTAATCTT 	
+   1024473	    30	 100.0	    37	..............................	TCCATAATCGGCACTTTATTAGTTTTGATGTCAATGT  	
+   1024406	    30	  96.7	    37	...............G..............	AATGATACCACACAAGAAAGCGACACACAAGAAGGAA  	
+   1024339	    30	 100.0	    34	..............................	TATTTTAATATTTGATTCATTATTTCCCTAATTT     	
+   1024275	    30	 100.0	    39	..............................	TTTGATTAAAGAGTTTGACTTTACACCATCATTGTTTAA	
+   1024206	    30	  96.7	    36	......C.......................	TCCTCCTCGAATATCGGCGTGACGCCGACTTGAAGA   	
+   1024140	    30	  96.7	    36	......C.......................	AATCTTCTATATCGTCTAATATACGCTCTATCAATA   	
+   1024074	    30	  86.7	     0	.........................T.CTT	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+         8	    30	  97.1	    37	GTTTTGTTTGTACCTATAGGGGATTGAAAC	                                       	       
+
+# Left flank :   GACACCTGCGCTGGGGAGTTTAGGGCTTATACGCCTTATTATTACTCCTCTTGGGAATATCCATACTATAAAATCGGGCAAGAAGAAGCTATTTTTGACAACGACTAAATTTTGCATAAGTCCAAAAACTACTGCCAAAGATAGACATAAATAAACCATCTCATAAAGATTTTATTTCCTAATTTTATTTTCTAAAAGCCTAAAAATGTTAATATAATTTCTAAATTATTAACATCAAAATCCCCAAAATCATTGTCTATCAACGATCTGTCGATCGGCAAAAAATTATTAAAAAACGCCTTGTTTTCAAACAAAAAAATACCTCATTTTTGGCATCTCAGCTATATCTGACAAAGAATTGTCGATCTCCTATGATTTTGCTCCTATTGACGATCGACGGGAAATATGTTATATTATAAGCTGTTGATAGGTTGATGGGGTACCTCAAAAACCTTGCCGGCGAAGGGTTTTAGGGTAGTTCACAATTTTTTCATTTTGGT
+# Right flank :  TTGTAAATAATGTTAGTAGTAGCAATTTCTGGTTTCATCTGAGCCGTCTGGGTTAAGAAGCTGTGAAATCATATCCTTTAAATACTTTTGATTTGTAGTAAAATAGATCTATGGATATACAACCTCACGATACATTTTTCAAGCAGATATTTTCAGATCCCAAAAGATTAAAGATGCTTCTTGATATCTTTGCAGAGGATATAGCACAGGATATACATTCTATAACACCCGTTAATACAGAAAAGTTTTCTTCTAAATCTCAAAAGTTCATGCTTGATTTACTTTTTAGCTGCAAAGTAGAAGATCAAGATGCATATATACGGGTAGTACTTGAGCACAAATCTTATCTTGATAAAGAACTACCTATTCAGCTTTCATACTACAACAGTGCTATCTGGGAAGAAGCCATAAAAGAAAAAGAGTATTACCCTCCTATTATCAACATCGTTTTTTATCATGGAAAAGGTGAATGGAATATGCCAACATGTTTACCTATTGTT
+
+# Questionable array : NO	 Score: 11.62
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.85, 5:0, 6:0.99, 7:0.80, 8:1, 9:0.98,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGTTTGTACCTATAGGGGATTGAAAC
+# Alternate repeat :   GTTTTGCTTGTACCTATAGGGGATTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [112,393] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+
+Array 8 1088919-1092251 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020814-Hydrogenobaculum sp. SN, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================	==================
+   1088919	    29	 100.0	    39	.............................	ACTTATGCAAAAGTATCTATTACATTAGAACTATCAAAC   	
+   1088987	    29	 100.0	    40	.............................	CCTGACAAAAATGAGAGCATAACACTTCCTACTTTTGCAA  	
+   1089056	    29	 100.0	    36	.............................	TTATCACACGTGCAAGTGTTTTGTGTTTTGATATGA      	
+   1089121	    29	 100.0	    35	.............................	TTGTCTCGTAACATTAAAATTCGTTGGAGTTGTAT       	
+   1089185	    29	 100.0	    38	.............................	TCTTCAAAGCATACGTCAATAGTCTGCCAGCTTTGAGA    	
+   1089252	    29	 100.0	    37	.............................	CTAAATTTTGAAAGTGTGGAGGATATGAAATCTTTTT     	
+   1089318	    29	 100.0	    37	.............................	ATTTCTTGAGATAATTTGATGATAGAAATATTTTTCT     	
+   1089384	    29	 100.0	    36	.............................	GTTAAAGAATCGTTTGAAAAACAGCAAATAGCAGAA      	
+   1089449	    29	 100.0	    35	.............................	ATCTCCTACAGCACTCCATTGATAATATGTTATTT       	
+   1089513	    29	 100.0	    36	.............................	TTTGCAGTTAGCTTCTTCAATAGATTGATGTTTATA      	
+   1089578	    29	 100.0	    36	.............................	TTACAAGTTTGTAAAACATCTCTTAAAAGCTTGTTT      	
+   1089643	    29	 100.0	    38	.............................	TCGCACAGCTAAACAGCAACAGACTACTTGCTAAAATA    	
+   1089710	    29	 100.0	    39	.............................	AACTCAACATCATGCAAATCTGGGACTGCTTCTTTTTGC   	
+   1089778	    29	 100.0	    40	.............................	CCAAAATATACTTGATAAAAACGATAAACAAGCACATTCG  	
+   1089847	    29	 100.0	    37	.............................	TTATCTCATCTTTTTGTAGGTATCTCAATACTCCTTG     	
+   1089913	    29	 100.0	    38	.............................	TTTTTTAGCATCACTTTTTAACGATGCATTAGGTTTAA    	
+   1089980	    29	 100.0	    36	.............................	TTGTTGGATAAGTGATTTTTACTTTGTACTTCATGG      	
+   1090045	    29	 100.0	    37	.............................	GAAGCTGTCAATCTAAACACTACTTTGTAATTATTTG     	
+   1090111	    29	 100.0	    36	.............................	TTTTGCATCAAGCGTATCAGGAACCAAAACTTTCGC      	
+   1090176	    29	 100.0	    39	.............................	GCACTTGCAAGTGCCACTTTGCGAGCCAATGCGAATAGA   	
+   1090244	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1090309	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1090375	    29	 100.0	    36	.............................	TTCCTTGGCGCTCTTTCTACTCTTGATATCACAGAA      	
+   1090440	    29	 100.0	    37	.............................	TTTAGAAGAGCTTCAAGATTAAGTTGCTTTTCCATCT     	
+   1090506	    29	 100.0	    36	.............................	AAATAGCAGCCCAGCTCCAACCCCACTGTCTTTCAG      	
+   1090571	    29	 100.0	    36	.............................	ATGTCAACATGTATTGGTCAAAAGCTGAAGGAAGGC      	
+   1090636	    29	 100.0	    37	.............................	TGAGCCATATTCTCAGAGATTGGCTGGTGTAATAGCA     	
+   1090702	    29	 100.0	    36	.............................	GACGGTGTGCGTGGTCTTACGGGGGATGTCATTTTA      	
+   1090767	    29	 100.0	    38	.............................	GACAAAGACTTGATTGAAGATTTGCACTCAGTCAAAAA    	
+   1090834	    29	 100.0	    37	.............................	CGTTGAGTTGTGAGTATCACTTTGATATTTTGCATGA     	
+   1090900	    29	 100.0	    36	.............................	TATTCTATTTGCAATCTCTTCAGGCTTGAGGGCTCT      	
+   1090965	    29	 100.0	    36	.............................	CTTAATCACTTCAAGCCGCAGATGTGTATCTCCTTG      	
+   1091030	    29	 100.0	    36	.............................	TAGAGCATTTGCACTCATAGATGCTCCAGTAGGACT      	
+   1091095	    29	 100.0	    37	.............................	TAAGTTTTTGCTTAAAACTTCTTCTAAAGAAGCTGCA     	
+   1091161	    29	 100.0	    36	.............................	AACACAGACGCAAACCTTTTAAACGCAAACGGTGTA      	
+   1091226	    29	 100.0	    42	.............................	ACGTTTTTCACACGACCTAACGCATCTATGTGTTTCATCTGA	
+   1091297	    29	 100.0	    37	.............................	ACAATTGCTGAAAAAGTGGACGATGACAAGAAGAAGA     	
+   1091363	    29	 100.0	    36	.............................	GAAGTAAACAAAGCTCTGTTGCTTCTGGCGGCTTCT      	
+   1091428	    29	 100.0	    36	.............................	CTACCAATCGCATCTACGCCTATCACCTTCCAACCA      	
+   1091493	    29	 100.0	    37	.............................	TTGATTACAAACATTATCAACGCACTTGTAAAACAAA     	
+   1091559	    29	 100.0	    37	.............................	GAGTAAGCGTTTTTTTAACAGAATGGAGGTCTTCTAT     	
+   1091625	    29	 100.0	    37	.............................	TAGAGCATTTGCATTAATAGATGCTCCTGTGGGACTT     	
+   1091691	    29	 100.0	    37	.............................	GCGTTTGAAAATAGTATTTCTTTTGTGTAAAAATAGG     	
+   1091757	    29	 100.0	    36	.............................	TTTAAAATGGCGGAAAGTTCTTGCGATCTGTCTAGT      	
+   1091822	    29	 100.0	    37	.............................	ATTAGAGCTTTGTCTTTTTTCAAGAAAGACTCTATTC     	
+   1091888	    29	 100.0	    41	.............................	ATATGATACTTTTAGCACTTGCCCGAGCCAGTAGCTAATGG 	
+   1091958	    29	 100.0	    36	.............................	ATTACTGAAAAATTGCAACAATTATTAAACTACATG      	
+   1092023	    29	 100.0	    39	.............................	CTTCTAAGGTTTGATGTAGTCTTTCAATCATTTGAGGCA   	
+   1092091	    29	 100.0	    36	.............................	AGCATCGGGGCGTTTATAAATACCGATGCAAAAACT      	
+   1092156	    29	 100.0	    38	.............................	ACAACAAGCGTTTGATAAACGTTAGCGGGAGTTGTTGA    	
+   1092223	    29	 100.0	     0	.............................	|                                         	
+==========	======	======	======	=============================	==========================================	==================
+        51	    29	 100.0	    37	GTTTCTAATTAACCGTGTGGAGTTGAAAG	                                          	       
+
+# Left flank :   ATAAATAACTTCAATGATTAAGGGCTTTATAAAAGCCCTGTGAACTTCAACAGCTGAATATGGCGTTAGAGTTTCTAATGAAGATATTCTTCCGCTTTAACAACTCCGCCGTATTTTTCTTTATATTCTTCTAACTCATTTAGCTTTTGGACTATCAGATCTCCCATAGATATTTTCTTGGTTATAGCCTCTATGCGCAAAGCCCGGTGAACATCGGAAGGTAATAAAACTGTTGTTTTAACCAATTTCTTGCCTTTTTTCCTCATAGATTTAAATATATAATCTTGCCGTAAAACCGCAATGCCGTAATTACATAAAACCGTAAAACCGTAATTACGGCGAATTTGTCAAAGGCTTGTTAGACAATGATTTAAACTTGATAGTGGTACACTAAACTTTGCAGAATCTGGCATTTTCGGGAAATTACCTTCATTTGCGATGGGTACCCCCTTGACAAAACCATTGATACACTATATAATTTTAAATATAGTGATTTCTGG
+# Right flank :  GTTTCATTCTACTTTGTAATAAAGGGTTATCTCTTTGTTGTCCCTTATGATTTTTACGCTGAAGCTTTGGCTGTTTCTTAATGTACCTAATATTCTAAAAGCATCTTCTGGAGAGTTTAGGCTTTCGTTGTTTATAGAAAGAAGTATATCACCTGGTTTTATACCCATCTGGGCAAAAAGCGATCCTGGTTTTACGCTTTTAAACATAAAACCTTTTGGAGTAGGTACAAGGTCTATATCGCTAAACATCTTGTAGGGGTTTGATGTAATTTCAAGAAGCTCGTTTCTATTTACTGTATAAGTATTTTGATTTAAACTACCGCTTAAAAGCTCTTTCAAAGAAGGAAGACCGCTTGGTGTATTGGCACTGTTTATCTTAGCACCTTTTGAAAGTTTTAGAGTAAGGGTTTTGCCGTCGTTGCTTGCTATTATATAAAAAGGTTTTATCTCTTCTATTGTAAAACCGCAAAAACTATCTCCTACCATAAGCACTTTTTTAC
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCTAATTAACCGTGTGGAGTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.07%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.30,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [236,3] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_015419026 [339164-339661]; Cas5:WP_015419281 [595887-596558]; Endonuclease Cas2:WP_015419762 [1087398-1087679]; Endoribonuclease Cas6:NA [1087687-1088404]; Exonuclease Cas4:WP_015419760 [1085943-1086455]; Helicase/endonuclease Cas3:WP_015419759 [1083734-1085941]; RAMP Unclassified_Cas_protein:WP_015419028 [342269-343588]; 
+# Array family : NA
+# Sequence source strain : SN
+# Taxonomy hierarchy : Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobaculum.; Hydrogenobaculum sp. SN
+//
+
+

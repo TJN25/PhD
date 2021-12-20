@@ -1,0 +1,91 @@
+Array 1 357-20 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BAOQ01000012-Gordonia paraffinivorans NBRC 108238, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                              	Insertion/Deletion
+==========	======	======	======	====================================	=============================================	==================
+       356	    36	  75.0	    36	.....GCC....T...C..A..T....T....A...	GCTGGCCGCCGTCAGGACTTCCAGTTCGGATCGCTC         	
+       284	    36	  88.9	    45	.......C............T.T.........A...	GCGGTCCACGATCGGCACCGTCATGTACTCGGTCAGTTCGTCGGC	
+       203	    36	 100.0	    38	....................................	AAGTACAGGTCGGATGGTTCTCAGTGGACGTTCGATCT       	
+       129	    36	 100.0	    38	....................................	CAGTAGACGCCACCGTCGAGCGACTGCGCCACGTAGGC       	
+        55	    36	 100.0	     0	....................................	|                                            	
+==========	======	======	======	====================================	=============================================	==================
+         5	    36	  92.8	    40	GCCTCAATGGAACCCGGTCGCGAAGACCGGGAGCAC	                                             	       
+
+# Left flank :   GGCCTCACCATCAACGGCGCCAACGTGCTCGCCTTCGACCCGACGCTCTCCTACGACGTCAAGCGGGTGCAGGGCGCCGGCGCGCTGGGCAACGCCGGCATGTTCAACTGCGTCTTCACCGGCCGGGGGCGCATCGCGATCACCACCGACGGCTCACCCGTGGTCCTCAACGTCGATGCCGCGACCTACGCCGATCCGCAGGCCGCGGTCGCCTGGTCGTCGAGCCTGCGCACCTCGATCAAGACCAACGACTCGTTCAACCTGGGCACACTGATCGGCCGCAGCACGGGCGAACGATTCACCCTCGCCTTCTCCGGCCAGGGCTTCGTCGTCGTCCAACCGTCGGAACTGCCGCCGGGCGGCTTCATCGGAGGCACCGGAGGAGGCGGCGACGCCGGCGTCGGCGGGATGCTGGGCGGGTTCCTGGGGCGGTGAGACAGAGCGCCGACGGTGATGCCCTAACACCGCCCACAGAAACTCCTGCGAAATGCGTACTTCTG
+# Right flank :  CCGGTCACGTCGGTGTCTAA
+
+# Questionable array : NO	 Score: 4.10
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.64, 5:0, 6:1, 7:0.66, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTCAATGGAACCCGGTCGCGAAGACCGGGAGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-13.30,-14.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [13.3-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [21,66] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,1.01   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NBRC 108238
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Gordoniaceae;Gordonia.; Gordonia paraffinivorans NBRC 108238
+//
+
+
+Array 1 28-1176 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BAOQ01000039-Gordonia paraffinivorans NBRC 108238, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	====================================	=========================================	==================
+        28	    36	 100.0	    37	....................................	AGCTGTACAGCGTGTGGTCGAGCTGCACAACATGCAG    	
+       101	    36	 100.0	    38	....................................	CAGCCCTCCCACTCGTCGGGGTCGAGTGGGTCGTTGGG   	
+       175	    36	 100.0	    38	....................................	AAGTACAGGTCGGATGGTTCTCAGTGGACGTTCGATCT   	
+       249	    36	 100.0	    38	....................................	CAGTAGACGCCACCGTCGAGCGACTGCGCCACGTAGGC   	
+       323	    36	 100.0	    39	....................................	ACGGCAAACAAACCACCACATTCAAACCCGAAGGGTGGT  	
+       398	    36	 100.0	    38	....................................	AGTACCATGCGACAAGATGCCGAAGAGAAAGCGATGAG   	
+       472	    36	 100.0	    38	....................................	GAAAAAAAAGACTTGCATTAGTGTCGGCGGTCCCGTAT   	
+       546	    36	 100.0	    38	....................................	TCCGGCAGATGGCTCTGAGCGCGATCGAGCGCATTCGC   	
+       620	    36	 100.0	    37	....................................	CTGCCGGTCCGGTCATCAACGAGATCGACGCCGAATA    	
+       693	    36	 100.0	    37	....................................	CTGGCACTGATCGTCGGTCCCGTAAACGCGCCCAGCA    	
+       766	    36	 100.0	    41	....................................	ACGTGGGAGCGGGTGCGGGCGATCCTCACCGACCCGGCGCG	
+       843	    36	 100.0	    38	....................................	GCGCTACACAAGATGTATCTGCCGTGGGTATTCAGCCC   	
+       917	    36	 100.0	    38	....................................	GAAAAAAAAGACTTGCATTAGTGTCGGCGGTCCCGTAT   	
+       991	    36	 100.0	    40	....................................	CTGGTACCGTCTCCAAGCCACACGCCAAGGGTGTACGGAT 	
+      1067	    36	 100.0	    38	....................................	CAAAGGCAGGAAGAGAAGCGAAGAGAGCGGGAATCCAG   	
+      1141	    36	 100.0	     0	....................................	|                                        	
+==========	======	======	======	====================================	=========================================	==================
+        16	    36	 100.0	    38	GCCTCAATGGAACCCGGTCGCGAAGACCGGGAGCAC	                                         	       
+
+# Left flank :   CGAGGCTAACCAGTCGTTGCCTGCGGTG
+# Right flank :  CCGCTCGCACAGATTACAGGCTTTGACCTGCCAGAATTCAGGCGGTTGCGAGAGGTGCCGAGCAACACATCCCTCTTGGCACAGATCTTCACATCTGAAGTTCTCAAAGAACGCACCGACCAGCATGCGAGCAGTCCCCTGGGTTGCTGCCGTCAAGTCACCACTCGCAAGCCGCTCATATGATGGCCGGCCCGGATTTCGGCAGGTCACGGGGACGTCCCAGCTGTGTTACGGATGCGGCCGCCCCTTCTGGCCCGAGGTCGATCATCACGACAGAATCCTCACCGTAATCGATGACCTCATGAACATCCGCCCTCCAGCGCACCAACTCTAGCTTCGACAGATCGCACAGGAACACGGAGTACTGCAGTCGCTGACCGTACGCTTCCATAACCCTGCACACCCGTCTAAGGCGGGCCGGGTCCGCAATGTCGTATGCGATGAGATACCGCCGCCTCGCCACCGCGAATCACCTCGTCATCATGGGTGTATAGGTCGGC
+
+# Questionable array : NO	 Score: 5.51
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTCAATGGAACCCGGTCGCGAAGACCGGGAGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-14.60,-13.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [16.7-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [29,175] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_006901918 [1351-1638]; Endonuclease Fused_Cas1_Cas4:WP_006901919 [1645-3300]; Helicase/endonuclease Cas3:WP_006901923 [8074-10461]; 
+# Array family : NA
+# Sequence source strain : NBRC 108238
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Gordoniaceae;Gordonia.; Gordonia paraffinivorans NBRC 108238
+//
+
+

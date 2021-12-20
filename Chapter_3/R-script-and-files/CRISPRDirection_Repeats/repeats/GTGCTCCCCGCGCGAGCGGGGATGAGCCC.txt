@@ -1,0 +1,213 @@
+Array 1 29450-29097 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP018082-Nocardia soli strain Y48, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                             	Spacer_Sequence                                              	Insertion/Deletion
+==========	======	======	======	============================================	=============================================================	==================
+     29449	    44	  97.7	    55	.......................................C....	AGTCAGCAGCCGGGGTACGGCCAGCAGGGCTACGCCGAGCCCGGGTACGACCAGC      	
+     29350	    44	  93.2	    61	.......G.....G....................G.........	GCCGACCCGCAGCAAGGCTACGGCCAGCAGCCCGGTTACGGCGCCCAGCCCGGCTACGCCG	
+     29245	    44	 100.0	    61	............................................	GCCGACCCGCAGCAAGGCTACGGCCAGCAGCCCGGTTACGGCGCCCAGCCCGGCTACGCCG	
+     29140	    44	  97.7	     0	........................C...................	|                                                            	
+==========	======	======	======	============================================	=============================================================	==================
+         4	    44	  97.1	    59	AGCCCGGCTACGACCAGCAGGGCGGCTACGGCCAACAGGGCTAC	                                                             	       
+
+# Left flank :   CGACCTCACCACCAAGGCGTTCGCCAAACACCTGCAGGATTACATCCGCGAGCAGGGCTGGCAGACCTACGGCGAAGTGCACGTGGCGTTCGAGGCATCACCTACGCTGCACACCGGAATGTTCAGAGCGAGCGGCCGCGTCGACCCCGACGCCGGTCGCGGGACCGCCCCACCTCGCCCCGAACCGCCACAACGACCCGCACACCCGCAACCAGGAGCTGGCCCCATGACGCACAACTCAGGCTACGAGCCAAGCCGAGAGCCCGCGGAGTCCGATCCACGCAACCGCGGGTACGCGCCGCCGCCCGCCGGACGCGGTGCCGCGCCGGGTGGTTCCTACCCGGACGAGTACGGTCGCGCGGGCGGCGGCTACGGCGTGCCGGAGGCGCAGCCGGGTTACGACCCTGCCTACGGCCAGCAGGGTGGCGAGTACCAGAACGGGTACGACCCCGCCGCGCCCGCCCAGCCCGGCTACGGCCAGCAGCCCGGGTACGGCGCCC
+# Right flank :  GCCGACCCGCAACAGGGCTACGCCGACCCGCAACAGGGCTACGCCGACCCGCAGGCAGGCTACGGCCAGGCCGGGGGGGGCTACGGCGCCGCGCAGGCCAGCTACTCGGCCACCCTGCAACTCGACGACGGGAGCGGGCGCACCTATCAGCTGCGCGAGGGTTCCAACATCATCGGTCGCGGGCAGGACGCCCACTTCCGGCTGCCCGACACGGGGGTGTCGCGCCGCCACATCGAGGTGCGCTGGGACGGCCAGACGGCCATGCTCTCGGACCTGGGTTCCACCAACGGCACCCTCGTGAACGGTTCGCCGGTGCAAGATTGGCAGCTCGCCGACGGCGACGTCATCCGGGCCGGGCATTCCGAGATCCTGATCCGGATCGTCTGATCCCGTAAGCTGCGCGGTGCACGTCACGAGTCGACGCTGTCGGCCCTATGATGCTGCCATTACACGCACGGCCCCGACCTCGGGGCCCGCAAGCCAGCACGCTGGTGGGGGTG
+
+# Questionable array : YES	 Score: 0.54
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.85, 5:0, 6:0.25, 7:-1.65, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGCCCGGCTACGACCAGCAGGGCGGCTACGGCCAACAGGGCTAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-8.00,-8.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-16.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [557,1132] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Y48
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Nocardia.; Nocardia soli
+//
+
+
+Array 2 2589071-2588742 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP018082-Nocardia soli strain Y48, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	===================	============================================	==================
+   2589070	    19	 100.0	    31	...................	TGCTGTCCCCATTGCTGCTGCGGCGGCTGGC             	
+   2589019	    19	  84.2	    44	C...............G.C	ATTCGCACCCTGGGCATTCCAGTCCTGCGGCGGCGGCTGGGTCT	
+   2588956	    19	 100.0	    38	...................	TCCGGTGGGCTGCGGCGGCACGCCCTGCGGCGGCTGCT      	
+   2588899	    19	  84.2	    17	.G.........G.....T.	TCCGGGCTGCTGCGGCT                           	Deletion [2588864]
+   2588863	    19	  89.5	    36	.T............G....	GCTGCGCGTTCGGATCACCCCAGTGCTGGGTGGGCT        	
+   2588806	    19	  68.4	    26	..G..TG....G..G..T.	GCCCCCTTGTGGCGGCTGCGCCGCAC                  	
+   2588761	    19	  73.7	     0	CT.....G........G.A	|                                           	G [2588747]
+==========	======	======	======	===================	============================================	==================
+         7	    19	  85.7	    32	GACCCCACTGCTGCTGCGG	                                            	       
+
+# Left flank :   CACCCCGGCCGACCCGCAACGCCTGCTCGCGCTGGCCGCCGCCTACAACGCCGAGAGCCCGATCACCCGCCTGGTCACCGCGCTGACGGCGGTCCACACCGGGTGAACCGGACCGGGCCGCCCGCGCGAACGCGGACGGCCCGGAAATCGCGGTACGACAGCCTAGTTCGGGCGGCCGACCTCGTAGGTCCCGTCGTCCTTGGTGACCTTGATGGTGACCTGCTTGTCTTCGCCGCTGACCTTCAGATCGCAGGTGAAAGTCGCGTCGACCTTCACCTCCTGACCGGAGGGGCAGCTCACGTCGGAGACGTCGGCGATGCCGTAGGACTCCACCAACACCCGCGAAACGCCGTCCTGCACGGCGGACTGGTCGAGCTCGTCGGAGGCGAACAGGACGAGCAGCAGGCCGATGATCGCGGCGACCACGAGCACACCGGCCACGACGAGGCCGATCACCAGGCCTTTGCCCTTACCGCCGGACGGCTGCGGCTGCAGCTGCT
+# Right flank :  CCGGCGCCGCCGGCCCCCTGCTGACCTCCCCAGTGTTGGGTGGGATCGTTGCTTCCCTCCCCTGGGCCGTTCGGTCCGTACGGGCCGCTCATCCACTCGCCTCCACTCGCATCGTTGTACATACGGTAGCCCCCCGCGCCAGGCCAGCCGCTTTCGCACGACTCCGCCATCACGGTCGGTACGCGAAGAAATCAAATCACAGACGTATCGACTACGCGGCGTCCACCGCAACGACACCCCGCCGAACCGCGCGCACCGCCTTGGCCGCGGTGGCCGCGATCTCGGTGTCGTCGGCGGTGTTGTGGATCTGGTCGAGCAGATCGATCACCTGCCTGCACCAGCGCACGAAATCGCCCGCCGACAGCGGCGTTCCCTGGTCGCCGCTGGCCAGCAACGACTCGGCCAATGCGTCGCCGCGCGCCCATTTGTAGACGCCGGTGACGAAGCCGAGATCGGGTTCGCGCGTCGGTGGCAGCTTGTGCCGCGACTCGTCGGCCCGC
+
+# Questionable array : YES	 Score: 0.91
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.29, 5:0, 6:-1, 7:0.06, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACCCCACTGCTGCTGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [13-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [26.7-30.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [213,395] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Y48
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Nocardia.; Nocardia soli
+//
+
+
+Array 3 2937415-2938992 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP018082-Nocardia soli strain Y48, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                          	Insertion/Deletion
+==========	======	======	======	=============================	=========================================================	==================
+   2937415	    29	 100.0	    32	.............................	TGGTAGCCGCCCTCGACCTTGTCCCACAGGCG                         	
+   2937476	    29	 100.0	    32	.............................	ATTTGTGGCACTACTGGTTTCGAACTCACTAC                         	
+   2937537	    29	 100.0	    32	.............................	GTCAGCGGCATGTCCAGGGGTAACCGCGCCCT                         	
+   2937598	    29	 100.0	    32	.............................	CGTCGAGCACTCCGGCAGATCTAGCCATCCGA                         	
+   2937659	    29	 100.0	    32	.............................	CCCGAACCACCACGGCCGTATGGGCTTTCGAG                         	
+   2937720	    29	 100.0	    32	.............................	TGCTGGACGACCCCGAGGCGCGCTCGGAAGTG                         	
+   2937781	    29	  96.6	    32	............................T	TCTTCGGGCGCGAACTCCTTGTAGAAACTGTT                         	
+   2937842	    29	 100.0	    32	.............................	AGGACTGGTTCGCCGCGTTCATGGAGGACTGT                         	
+   2937903	    29	 100.0	    32	.............................	AAGAAGCCCACCGAGGGCGAGCCTGGCTGGTA                         	
+   2937964	    29	 100.0	    32	.............................	GCCAGCAGCTCGCTGGTGTTCATCGGAGACTC                         	
+   2938025	    29	 100.0	    32	.............................	GCGTTGAAATCGCTCTCGGTGTTGAAGTAGCG                         	
+   2938086	    29	 100.0	    32	.............................	ACCTGCTGACCGGGATCGTGCGATGCGGCGTG                         	
+   2938147	    29	 100.0	    32	.............................	CGGACGAGGCCGAGCTCCTCGATCAGCAGCCC                         	
+   2938208	    29	 100.0	    32	.............................	CTCGCGAACGCCTTGATCTCGCGTGGCGACAG                         	
+   2938269	    29	 100.0	    32	.............................	AGCAAGCGTTGTGGATCAACGAACAGTGCGAC                         	
+   2938330	    29	 100.0	    32	.............................	GCGTCCTGCCAGTCGTAAACGAACTGGATGAC                         	
+   2938391	    29	 100.0	    32	.............................	GGAGCGATGGCGTCGAACGTAGCTCCCTCGGG                         	
+   2938452	    29	  96.6	    32	...T.........................	CGGGACGTGCTGGGGCACCTGCGAGACGAAGT                         	
+   2938513	    29	 100.0	    32	.............................	GGGCGCCCGCTGCGCGGACCGAAGGCGACCCG                         	
+   2938574	    29	 100.0	    32	.............................	GAGGCCCAATCCAAGAGCTGGGACGCAGCGCT                         	
+   2938635	    29	 100.0	    32	.............................	CCCGCCGGGGCGCTGATGTGGCACATCGACCA                         	
+   2938696	    29	  93.1	    31	...................A........T	CAGGCCAGGAACTGATCGACTACGCCGACAC                          	
+   2938756	    29	  96.6	    32	..........................T..	TGGATCTGGCGAACCTCCATCATCGGCAGGAA                         	
+   2938817	    29	  96.6	    32	.............T...............	CAGCCCGACGCCCTGCTCACTGCACCACTCCG                         	
+   2938878	    29	 100.0	    57	.............................	TCGGGCCACGCCTGCACGTCGGCGACGGTCGGGTGCTCCCCGCGACGCGCGCCCCTA	
+   2938964	    29	  79.3	     0	CAT.A..G....................T	|                                                        	
+==========	======	======	======	=============================	=========================================================	==================
+        26	    29	  98.4	    33	GTGCTCCCCGCGCGAGCGGGGATGAGCCC	                                                         	       
+
+# Left flank :   ATCGATGCCGCAGAACACGGCGTATGCCTGTGTCACTTCGTGTTTCCTCGTCGAGTGAGAAGCCGCTGGCGGAAACGGTCACCGATCGAAGCGTCAACGCCCGGCACCCACGTTACGAAGAGACCTATGTAGCGGCCCTGTCCCCATCAGATCAGATCCATACCTCGTCATAGCCGCTTGCCAGCGCGAACACCGTACGTTGACGGCATTGGCATTGAACCTGGGTCGGTGCACATCTCCAAGGAAGCGGGAAATCGCATGGGATGGGAACCGGGTCGTCGAGTTGGTCGCCTACGATGACGGGATGCGGGCCTGCCGCGGTTGCGACCCTGCGTGCTTGTGGGGGGTGCAGGGGTTCGACTGGCTTCGGGCTGGCCTCTGGGCGAGTCCTGAACGTCGCGCTCGGCGTCGGGGTGACGGTGGAAGCCGAGAGGGCGAGGACGGGATCGAAAGTGAATGAGAATCGGTTGGTTGCGCTATAAAGGTGCTGGTCAATTGGT
+# Right flank :  TACCAACCGCCACCGGGGCGCGCGGCTTCCAATGCTCGGCATCCTTGGGTCTAGGTGGGTTGACTATCAGAACTCGGTGCGGATGGACACACTGCTGCCGCGAAATTGGACCCGGTGAAGCGTTGGCGGAGAGCTGTGACTTCCGAGTCGAGAGGTGCTCAAACTGGGCTTCTTGTGAGCTCGCGCCGTGATGGTGGTTTGAGTAAGGCCGTTCAGAGCAAGGCCTGGTCGCCTGCTCATGAGCAGGTTTGTGGTAGCAGGAGTTCGGTCGAGTTTTGAAGGGGGAGTGTAGTTGTCGGTGGGTATGGGTAGGGTCGGCTCTCGCGTTGATCGGACGGTTAGCGAAGGGGGCGTGATGGTTTCGTCGGCGGTGTTGTCGGCGTGGGCGAAGAGTGATCGGGCGGGTGGCAGTTTGTCGCTGTTTCGGCATTCTGCTGATTCGGCGGCGGTAGCTGGTCTGGTGTGGGATCACTGGTTGCCAGGCCATGTCCGGTCGTTGT
+
+# Questionable array : NO	 Score: 7.97
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.01, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCGAGCGGGGATGAGCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-23.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [466,390] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Y48
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Nocardia.; Nocardia soli
+//
+
+
+Array 4 2949005-2951337 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP018082-Nocardia soli strain Y48, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                                                                         	Insertion/Deletion
+==========	======	======	======	=============================	========================================================================================================================================================================================================	==================
+   2949005	    28	  75.9	    33	CC.T......-..ATC.............	TGCTGGATCATCGGTCGAGGGCGTGAGCATGTC                                                                                                                                                                       	
+   2949066	    29	  89.7	   200	C......................A....A	GCAACGTCGCAAACGCTCAAAAGGCGTGAAGTGCTCCTTACGTCAGCGAGGGAGCACTTCGGCTTCTCCGCAGCTTTGGCGAGGCCTGCGACGAGCCGGATTGAACTGGTCATGGTCGGCGATCGGAGTGTCGTGAGGGTCTTGTTTGAAAGTGAATGTGATTTGGAGGTTTGCTCTTGTGAATATGCAGGTCAGTTAGT	T [2949090]
+   2949296	    29	 100.0	    32	.............................	GCGCCGCCAAGCTGACCTCGATGTTGCGCGAG                                                                                                                                                                        	
+   2949357	    29	 100.0	    32	.............................	GGTCCGGGCCGGTGGCGTATCGGTGACCCGCT                                                                                                                                                                        	
+   2949418	    29	 100.0	    32	.............................	CCGGGTGCGGCAAGGAGATCGACCGCGGTCTG                                                                                                                                                                        	
+   2949479	    29	 100.0	    32	.............................	TACACAGAGGAGATGGTGTGGACTGGATTCCA                                                                                                                                                                        	
+   2949540	    29	 100.0	    32	.............................	GTTTCACCCGATGCAATGAAATCGTCTACGAA                                                                                                                                                                        	
+   2949601	    29	  96.6	    32	............................G	TTCTCAAACTGCTAGGTAGCGAGAGCTTTCCT                                                                                                                                                                        	
+   2949662	    29	 100.0	    32	.............................	CCGCACGTCCCTTCGGGGATCGATGATCTGGC                                                                                                                                                                        	
+   2949723	    29	 100.0	    32	.............................	CCGATGATGTGGCGGGTACCGATATCGCCTAT                                                                                                                                                                        	
+   2949784	    29	 100.0	    32	.............................	TGAAGCCGGACGCGACGCCCGAGGCCCCGGAG                                                                                                                                                                        	
+   2949845	    29	 100.0	    32	.............................	GCCGTCTCGACGTGGGCGCGTGTTCTCGCCGA                                                                                                                                                                        	
+   2949906	    29	 100.0	    32	.............................	GCCAGGAAGACGTCGTCGAGGATGCCGTCGAG                                                                                                                                                                        	
+   2949967	    29	 100.0	    32	.............................	CGAGTGCGAACCCCACACCCATACCGGCCAGG                                                                                                                                                                        	
+   2950028	    29	 100.0	    32	.............................	CATCGCGCCTACCTGACCGCGATTGGCGTCAC                                                                                                                                                                        	
+   2950089	    29	 100.0	    32	.............................	GCGTCGATCAGTTCCGGGTCGGACGGCGCACC                                                                                                                                                                        	
+   2950150	    29	 100.0	    32	.............................	CCGTACCACCAGATCGGGACGTCGCCGCGGTT                                                                                                                                                                        	
+   2950211	    29	 100.0	    32	.............................	CGTGTATGAGACACGATCATGGAGCGCAGGTG                                                                                                                                                                        	
+   2950272	    29	 100.0	    32	.............................	CGTGTATGAGACACGATCATGGAGCGCAGGTG                                                                                                                                                                        	
+   2950333	    29	 100.0	    32	.............................	CGCGCGTTGCGCCGCACCAAACTCGATGAGCA                                                                                                                                                                        	
+   2950394	    29	 100.0	    32	.............................	TACTTCGATCCGGACGTTCTCGACGAGGTGTT                                                                                                                                                                        	
+   2950455	    29	 100.0	    32	.............................	AACGACATGCGGATCCTGTTCACCAACGGGTC                                                                                                                                                                        	
+   2950516	    29	 100.0	    32	.............................	TGTGCGGTGCCGATGAACGGCCATCCGTTGCA                                                                                                                                                                        	
+   2950577	    29	  96.6	    33	............................A	TGGCGGGCACGATGTGGTTCGCGGCGTCGCCGA                                                                                                                                                                       	
+   2950639	    29	 100.0	    33	.............................	GTCTCCAAGTCCAACGTGCTGTTGGCGAGATTG                                                                                                                                                                       	
+   2950701	    29	 100.0	    32	.............................	ATCCACAGGAACCGCTGGCGCGGGTTGTCCGG                                                                                                                                                                        	
+   2950762	    29	 100.0	    32	.............................	TCTGTTACGGGGTAGTGAGGTTGGTGGGCCCT                                                                                                                                                                        	
+   2950823	    29	 100.0	    32	.............................	TGTTGAAGTAGGCGATAAAGACCGGAGGGAAC                                                                                                                                                                        	
+   2950884	    29	 100.0	    32	.............................	TCCGCGGCTGCTGCCCGGTGTGCGAGAAGGAC                                                                                                                                                                        	
+   2950945	    28	  86.2	    32	...............C....A.-.G....	GTCTGCGAGCTGGTGTCGAAGCCGAACGTGCT                                                                                                                                                                        	
+   2951005	    29	 100.0	    32	.............................	TACATCAACGGCGAGAAGCTCTCCAACGATCA                                                                                                                                                                        	G [2951026]
+   2951067	    29	 100.0	    32	.............................	GGGCCGGCCTCGAGCAGGACAGTCGGTGTCCA                                                                                                                                                                        	
+   2951128	    28	  96.6	    33	.....-.......................	TCCAGCAAACTACACCGGCGCACGCGACAGGTC                                                                                                                                                                       	
+   2951189	    29	 100.0	    32	.............................	AGCTGGATCGTGCGGACGTGATCGCGCCCGGC                                                                                                                                                                        	
+   2951250	    27	  86.2	    33	.....-...........-.........TT	GGCTCACGGAAGGTCATCGGCGGCATTTCGGCC                                                                                                                                                                       	
+   2951310	    28	  79.3	     0	.....G..T....A...T....-.C....	|                                                                                                                                                                                                       	
+==========	======	======	======	=============================	========================================================================================================================================================================================================	==================
+        36	    29	  97.4	    37	GTGCTCCCCGCGCGAGCGGGGATGAGCCC	                                                                                                                                                                                                        	       
+
+# Left flank :   ACCCACCACTCGGGCGTGGGCCCTCGGTTCTGAGAGGGTCCCTGATCTCGCCACCCATCTATGCGCGCCGACTTGTGCTGAATCTCGCGGCGTCAGCTGGGTGCCTTCTCGTTTCAGCGGGTGTGTGGATGCTTTCCGGCTCTGGGCGAGCTAATGGTTCTTGGCACGAATTGCTGGTGAATCCCCTCTCGATGTGGGTGATTGGCAGCGCACTGTGGCTGTGTTGCATCGCCGGGCAAGTCGCTGGACGAGAGGCTGTCTACGGGATTCGGTGCCTCGTCATCTCGCTCGTTCTCGATGGACTTGCTATGCCACAGGACGTTGATGAGTGAGCTGTCACCAGGTTCGAAATTGCGAGGACGGTCGCTTGTTCGACTCGGAACAGGGGCGGGAGCGAACCCGCCGACACCGCCGAACTCGCAAGGTGTTGACGAACCGCGGGCCGGGATGGGCTCGACCCATGCCTAGCGGTACTTTGAAGCGGGGTCGTACAGCGAGTC
+# Right flank :  CCACAGAAACTCCACACTTTTGACCGGAATCAATGCGAAATTACGAGAATCGTTCAGAAGTGTCGGTTCGTGAAAAAGCCTGGTGCTGAGTACTATTGGGCATTAGTGGGCGAGGTCTGGGCAACCGGAACGCGCGCCAGGTGGTCGCAGGTTCAAATCCTGTCAGCCCGACAGAAGGAAACCCCCTCTGACCTTGGTCGGAGGGGGTTTTCTCACTCTCCCACTACCCGGAGAGCGGGACCAGAACGGGACCGTAGGTGGTTCGACAGCTTGTCGCCCGCCCCGGTGACCTCGCGCTGATCCGGGTGGAGGTAGCGCTCGGTGGTCCGGCTGTCAGCGTGGCCCGCGATCTTCTGGAGCAGGTGGAAGCTCACCCCGGCGTCTGCCGGTCATCGGTATATCGCGCTAGCGCCGCAGCGTGGTCGCGGGCTGCCGCCGCGCTGTCTGGGTGTTCCGAAACTTCTGGAAGCCGGTCATAGTGTCGACGCATCGTTTCGCGA
+
+# Questionable array : NO	 Score: 7.35
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.87, 5:0, 6:1, 7:0.48, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCGAGCGGGGATGAGCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [12-23] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [35.0-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [781,1368] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Y48
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Nocardia.; Nocardia soli
+//
+
+

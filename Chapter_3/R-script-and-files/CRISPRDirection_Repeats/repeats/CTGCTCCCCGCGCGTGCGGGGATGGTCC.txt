@@ -1,0 +1,39 @@
+Array 1 32-242 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADXB01000589-Streptomyces sp. SA3_actF contig01429, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+        32	    28	 100.0	    33	............................	CGGAGTGTCTGCACGTGCAGACAACCTTGCGAT	
+        93	    28	  96.4	    33	........G...................	CCAGGTACGGCGCGGCCGTCAGTGGTACCCCAC	
+       154	    28	  92.9	    33	.........A...............C..	CTCGGCGAGCCCGCGCGGCCCGCGCTCGCCGCG	
+       215	    28	  85.7	     0	...........AT.C...........T.	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	  93.8	    33	CTGCTCCCCGCGCGTGCGGGGATGGTCC	                                 	       
+
+# Left flank :   GTGCGTCCGCCCGAGCCCGCAACGGCATCGGC
+# Right flank :  CCACTGCGGCACGGCGCCGCAGGGCGGGTCTACGCCGATCCGGGCCGTTTCAGCAGCAGTTCGTCCCCTGCGCGGAAGCGCTCGATGCCACCCTCCTCCCACGTCACCACCACGAACAGGCCACCCATCGCTCCGATGTCTGTCTTCGCCGTCTTCACCGTGCGCCACCGCCCCTCGTAGCCGATCCGGTCTCCCGGGCCGATGAGAGCGGCCACCCTGGTCGGCGTCACCGCTCCGGCTCCTCGACCCGCACGATCCGCTCCAGTGGTACGTCCCACTCGATGCCGCCGCCCGGCGGGCGCAGGAACGCCTGGCTGGCGACCAACCGGTTCTCCCTCTTGGTGCGCTCCTCCAGGACCCAGGTCAGGTATCCCGTGCGCTCCGAGATCTTGTCCCTCACCAGCGTGCCGGCCGGGTACGGCAGCGGTCCTTCGCACAGCATCGTTTCCCCGTTGCCGCTCACTCCCGACCGCCCTTGCGCAGAGCGTCGGCCAGCCGCG
+
+# Questionable array : NO	 Score: 5.11
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.69, 5:-1.5, 6:1, 7:0.63, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCGTGCGGGGATGGTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [11.7-28.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [33,29] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : SA3_actF
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. SA3_actF
+//
+
+

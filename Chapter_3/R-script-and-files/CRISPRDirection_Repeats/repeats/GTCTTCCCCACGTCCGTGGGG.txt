@@ -1,0 +1,39 @@
+Array 1 3667473-3667270 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP011364-Edwardsiella sp. EA181011, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence      	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=====================	========================================	==================
+   3667472	    21	 100.0	    39	.....................	TGTTTCTGTTATCTTTCTCCATCTCAAACGCCTGCGTTA 	
+   3667412	    21	 100.0	    40	.....................	GTGTTTCTAAATTAGCAGTATTAAAGCAAGCGCAGGTATT	
+   3667351	    21	 100.0	    40	.....................	GTGTTTCTCTCACACCTATCTGTCCGGCAACATCGAGTGC	
+   3667290	    21	  95.2	     0	................A....	|                                       	
+==========	======	======	======	=====================	========================================	==================
+         4	    21	  98.8	    40	GTCTTCCCCACGTCCGTGGGG	                                        	       
+
+# Left flank :   GAACCTCTGTATCGATCTTGCCTTCTCCCTGACGCGTGAGATGGCGGGTCGTTATGAGAAGGCTCTGGTTTCATCTCGTTTTCGAGAGCGGGTGATAGAACTGAATTTGCTCGCGAGTGTAGCCAGAGATATACCACAGCTACTTGGAGGGGCAAATATTGATGCTGATAGTGCTAGCTAACGATTTACCTCCAGCAGTTCGAGGACGAATGAAACTTTGGTTTATTGAACCGCGGCCAAATACCTTCGTTTCCGGTATCAAGGATTCGGTTGCTGACACAGTGATCGAATACCTTTATCAACACTGCTCACCGGCAGCGGGTGTGGTGATATTTAAAAGCATTGCTAGAACACCGGGATATCAGATCCATACCATAGGATCACCGACTAAGACGCTCTGTGAGATCAATGGCCTGCAGTTGGTGATAGAAAAGCGACTCGAGCAGTAAGTTAACCACAATATGTAGTTGGTTTAGTATGCTCTTTAACAATATAATGGG
+# Right flank :  TGTTTCCAAAAGTCAGCCAGTGAACCGTCTCGGTTTTGTGGGAGAGCGTTAAGTCCGGGAGTTCAGGCTGCCATAGCCTCGTTCCCGATGGGAGCGTAATACACTTTTTCTGCCTCAGCGGGTGGGATGTGACCCAGCCGCTCAAGCAACCGACGATTGTTGTACCAGTCCACCCACGCCAGTGTGGCCAGCGCCACTTCCTGCCAGTTTCTCCAGCTCTGTCGGTGTTTTGTACAGACCGTTGATACTTTCGGCCATGGCATTATCATAAGAGTCACCCGTACTGCCCGTTGAAGCTAGAAGCTCCGCCTCCTGTAGCCGCTGTGTGTACGCCAGCGATACGTACTATGAGCCTTTGTCGCTGTGATGAAGGGGGGCTGATGGCCGACGGGCCCACAGCGCCAGCTCCAGCGCGTCCAGTACGAACGCTGTCTCTTGGTCAGTGAAGCCTGGATCGCCAGTGGGGGTTCCGCCGGTGTCAGAAGCATCGCCACGATGGT
+
+# Questionable array : NO	 Score: 5.41
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:-0.5, 7:0.37, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTTCCCCACGTCCGTGGGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [48.3-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [64,52] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.68   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase Cas3:NA [3673087-3675731]; 
+# Array family : NA
+# Sequence source strain : EA181011
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Hafniaceae; Edwardsiella.; Edwardsiella sp. EA181011
+//
+
+

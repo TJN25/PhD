@@ -1,0 +1,100 @@
+Array 1 79532-79203 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896388-Salinispora arenicola CNY011 C576DRAFT_scaffold00011.11, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	========================	======================================	==================
+     79531	    24	 100.0	    37	........................	CAGCGACCGAACGTGGGCCGCGTCAAGTGGGCACTGT 	
+     79470	    24	  95.8	    36	....................C...	CGGGCCGGACGGCCGATACGAGCTGCACCCCCGCTG  	
+     79410	    24	 100.0	    37	........................	CACACCGAGCCACACATCCACCCCACCACCGACCTGT 	
+     79349	    24	 100.0	    38	........................	TGAGGGCACCGACATGCCGTCTCTTACCGATTCCCTGT	
+     79287	    24	 100.0	    37	........................	CGGGCCCCACCGCGAGCACGACCGCCCCGGCGACTGT 	
+     79226	    24	  95.8	     0	....................C...	|                                     	
+==========	======	======	======	========================	======================================	==================
+         6	    24	  98.6	    37	TCCCCGCGCAGGCGGGGGTGATCC	                                      	       
+
+# Left flank :   TACGACGAATTCGGCCACGCCGGCGACCTGCCTGTTCCCCGCGCAGGCGGGGGTGATCCGTTAGATCGTGGAAAGTACGGCACCGTCAGCAACTGTTCCCCGCGCAGGCGGGGGTGATCCCGGCGATCCCGGCGAGGTGGAGAAGGCCAAACTCTGTTCCCCGCGCAGGCGGGGGTGATCCCACACCCAGGGCGCGGCTCTTGCCCGATCCGGACCTGTTCCCCGCGCAGGCGGGGGTGATCCCGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGT
+# Right flank :  CGCGTCGACACCGTTCGGGATCATGGCTGGGGTTGAGGTTGAGACGGCGTGTGTAGTGGGCTCGTCGGGTTCGGGCGTGATGGCGGCGTCGCCATCCTGACCAGTGCAGACGGTGGGCCCGTCGGCAGCATCCATACGGTCACCGCATCGACCGGTGTGGCGTCGACGCGTCCTGTGGGGGCGCGAGTTGGGTCTGCCGCGGTACATCCCGTCCAGACCGAGGCGGACGCGTGGTTCGCGACCAGGCCGTCGTGCGGACACACCTGGCCACCCGAGATCGAACCGAGCTGCGCCTGTCTGCGCTGCGGCCGGCACTACGACGAGTACGCCGAATAGGTCCACACGTAGCGAACAGCCGAGCATTCGACCCGGTGGGCTTCCGGATACGGTCCGGCCACCCGTGAAGCGCAGGGGCCGCGCAGTCGATGTCCAATGCGTCGAGCCGCGCGGCTTCGGTGACCGCGCGGCCCTGCTCGATCGACGCCGGGGCCAGGGCCGAA
+
+# Questionable array : NO	 Score: 7.13
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.93, 5:0, 6:0.25, 7:0.95, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCCCCGCGCAGGCGGGGGTGATCC
+# Alternate repeat :   TCCCCGCGCAGGCGGGGGTGCTCC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [36.7-3.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [50,2114] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.96   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNY011
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNY011
+//
+
+
+Array 2 81228-79789 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896388-Salinispora arenicola CNY011 C576DRAFT_scaffold00011.11, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+     81227	    28	 100.0	    34	............................	CTGCCTCACCTACGCCCTGCAATGGCGCACAAAC	
+     81165	    28	 100.0	    34	............................	CGTGATCACCTGCGGTCTGGCCGCGTGCGGAGAC	
+     81103	    28	 100.0	    33	............................	CTGTTCGACTATCAGACGCTCGCCGAGCGATAC 	
+     81042	    28	 100.0	    33	............................	CTGTTCGACTATCAGACGCTCGCCGAGCGATAC 	
+     80981	    28	 100.0	    34	............................	CGCGGCGGTGATGGCGTCCAGCTCGGCCGCCGTG	
+     80919	    28	 100.0	    33	............................	CCCGCCCGCGATAACGACCGCTTTGGCCATCAC 	
+     80858	    28	 100.0	    33	............................	CTCCCGTATGCCAGAGACGGACATGACGGTAGC 	
+     80797	    28	 100.0	    33	............................	GGCGTACGCCGAGGCAGTGAACAGCCGCATGCG 	
+     80736	    28	 100.0	    33	............................	CCGCGCGGCAACGCCGCGACAACCTGACCGGTG 	
+     80675	    28	 100.0	    34	............................	CTCGGCGACGCCGTGCACCATCTCGGCGACCCAC	
+     80613	    28	 100.0	    33	............................	CCGGCGTCCATTGGCACAGTACGTCGCGTCGAT 	
+     80552	    28	 100.0	    33	............................	CGCGTCGAGCAGCTACTCGCCGAGCCTGAGCCC 	
+     80491	    28	 100.0	    34	............................	CGTGGCCACCGTCAACGACCGGCTGTGGATGGCC	
+     80429	    28	 100.0	    33	............................	CGTGGATGATCGGCCCCGGACGCCGGGCTGGTG 	
+     80368	    28	 100.0	    33	............................	CCGGGGAAAACGCGCCCCGGACGACCGCGTGGC 	
+     80307	    28	 100.0	    33	............................	CTCGGTGTTCTCGACGACATCGCGTCGTTTCTG 	
+     80246	    28	 100.0	    33	............................	GTCTCGTGCCGGCCGCCGCTCCATCGGCCTGCC 	
+     80185	    28	 100.0	    34	............................	CATGCCGCCGGTCCGGCTTGCCATCGTCCTTGAC	
+     80123	    28	 100.0	    33	............................	TGGGTGTGTGGTGCGGGTTCGAGACGTGGTTCA 	
+     80062	    28	 100.0	    34	............................	AGCTACGACGAATTCGGCCACGCCGGCGACCTGC	
+     80000	    28	 100.0	    33	............................	GTTAGATCGTGGAAAGTACGGCACCGTCAGCAA 	
+     79939	    28	 100.0	    33	............................	CGGCGATCCCGGCGAGGTGGAGAAGGCCAAACT 	
+     79878	    28	 100.0	    34	............................	CACACCCAGGGCGCGGCTCTTGCCCGATCCGGAC	
+     79816	    28	 100.0	     0	............................	|                                 	
+==========	======	======	======	============================	==================================	==================
+        24	    28	 100.0	    33	CTGTTCCCCGCGCAGGCGGGGGTGATCC	                                  	       
+
+# Left flank :   AGCGCCGTTTGCAGCACATCCGTCGCCTTGGGCCCGTTGACAAGCAAACTCATCAACGCCCGCGACGAGAGGTGGACGGTCATCGGTTCAGCCCCTTCTGCAGTGCATCCGTACACAGATCATTGTCGTCCAGTGTGGATGAAGTCGTTGAGGCCGACCCGTGGATAGCCGCTACAGCTGCAACTCACCTGCAGTTCGGCCAGCCGCTGCATGGTCGACCGTTGCGATGACCACTCGAATCCGCTCCCCGGAACCCCGGCGGACAGAGGCTCAAGGTTGAGCTGTCATTGATACAGTGGACTGCCAACCGCCAGCCGTCCGTTGCCAGCGATGTTCTGCCGGCCTCCACAGCTCTGCCAGCCACTCGGCTTGGGCCTCACTAACTATGCTGCAGCCGAGAACGCTAGCCTGCCATGTCAACTGCTACGGGAAGGACGATCTTGCGGGCCCTAGTGAATGAAATCCGGAAGATTGATCTCTAGCGTCGCAGGTGAAGAAGT
+# Right flank :  CGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGTTCCCCGCGCAGGCGGGGGTGATCCCAGCGACCGAACGTGGGCCGCGTCAAGTGGGCACTGTTCCCCGCGCAGGCGGGGGTGCTCCCGGGCCGGACGGCCGATACGAGCTGCACCCCCGCTGTCCCCGCGCAGGCGGGGGTGATCCCACACCGAGCCACACATCCACCCCACCACCGACCTGTTCCCCGCGCAGGCGGGGGTGATCCTGAGGGCACCGACATGCCGTCTCTTACCGATTCCCTG
+
+# Questionable array : NO	 Score: 7.45
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.45, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGTTCCCCGCGCAGGCGGGGGTGATCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-11.90,-13.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [636,418] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNY011
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNY011
+//
+
+

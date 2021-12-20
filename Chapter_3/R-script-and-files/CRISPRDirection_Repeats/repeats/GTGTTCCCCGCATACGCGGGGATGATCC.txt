@@ -1,0 +1,44 @@
+Array 1 77885-78401 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ABXY01000009-Bifidobacterium catenulatum DSM 16992 = JCM 1194 = LMG 11043 strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+     77885	    28	 100.0	    33	............................	CGGACGTATGGTGTGTGTTTGCGGTAGTCTTTT	
+     77946	    28	 100.0	    33	............................	CAATCGGAAAACCCACACTCCCGACAACGGTTA	
+     78007	    28	 100.0	    33	............................	TTGAGCCTGTGCGTAAGCATTGTTAATGCCCAT	
+     78068	    28	 100.0	    33	............................	TAGGTGTTTTATCACCATGTCTCAGATATGCCA	
+     78129	    28	 100.0	    33	............................	CCGTACCTTAGCCATACTTCTCCGATGGCTTGC	
+     78190	    28	 100.0	    33	............................	CGGTATTTTACGACGGTTCAGCCGTTTTCGTAC	
+     78251	    28	 100.0	    33	............................	CGCGCACACGCACGCCAACACGCTACGCCACAT	
+     78312	    28	 100.0	    33	............................	TATACGGGACCTCAAGCCGCCTCTGATGATTGG	C [78321]
+     78374	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         9	    28	 100.0	    33	GTGTTCCCCGCATACGCGGGGATGATCC	                                 	       
+
+# Left flank :   AGGATCATGTCGGCCTGTGGGATGAACGGTTGGGAGAAGTGTCTGCAGGGAAATCCTATGCCGATGATGAGTGGGGATATGAGGAATGGTAGTTATTGTTTTAACGGCATGCCCGGTGGGTTTGCGCGGTGACCTTACTCGGTGGCTATTGGAAATATCGCCAGGTGTGTTTGTGGGACATTTGGATGCACGTGTTCGTGAAAAACTGTGGGAGCGAATCGTTGAACTTTCAAAAAACGGTCGTGCCATTATGGTTTATTCGGCTCGAAATGAGCAACATCTTGCTTTTAAAGTGCATGGAGCTGAATGGTCTCCGACAGACTGTGAAGGCTTAGAGCTTGTAAAACGTCCTTCTGGCCCAAAGGAAGTGTCGTTTGGTGGTGCTCTTCACCGTGGATGGAGTAATGCCAGTAAGTATCGGCAGGCGAAGAAGTATTCAAACTAAATGAAAAACGAATGACATGAATTCAAAAACCGCGAAATTATGCTAGTCTCTTAGA
+# Right flank :  CGGTCAACAGTGTTGTAAAACTCGCTGAAGCTGG
+
+# Questionable array : NO	 Score: 7.48
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.48, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGCATACGCGGGGATGATCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-28.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [57,35] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_003834169 [68087-71224]; 
+# Array family : NA
+# Sequence source strain : DSM 16992
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium catenulatum DSM 16992 = JCM 1194 = LMG 11043
+//
+
+

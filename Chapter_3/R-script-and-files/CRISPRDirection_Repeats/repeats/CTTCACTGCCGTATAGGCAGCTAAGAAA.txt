@@ -1,0 +1,86 @@
+Array 1 540388-540775 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KL647096-Pseudomonas sp. AAC Scaffold3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    540388	    28	  96.4	    32	.........T..................	CAGTAGCTCGGAAAAAGCCAGGGCGTTGAGGA	
+    540448	    28	  96.4	    32	.........T..................	AAGCAGCTGCTGGGCGAGGACAGTGTCGAGGA	
+    540508	    28	  96.4	    32	.........T..................	ACCTTGCCGCCGGGCCGCCCAGAGTCGAACAC	
+    540568	    28	 100.0	    32	............................	TTGTGCGGCAGTATTCGAAATTGCAGTAGCTC	
+    540628	    28	 100.0	    32	............................	GCATAACCCAACCCCATTCCACCATCGCCGGC	
+    540688	    28	 100.0	    32	............................	ATCACCATCGACCTGACCAAGGCCGCCCAAGT	
+    540748	    28	  92.9	     0	............G........G......	|                               	
+==========	======	======	======	============================	================================	==================
+         7	    28	  97.4	    32	CTTCACTGCCGTATAGGCAGCTAAGAAA	                                	       
+
+# Left flank :   GCGCCAGCAACTCGCCGACGCCGTCGAACACCCGGTTCTCGTACAACCCGGTGTCCTTGAAGCGCATCCGGTAATGGTTCACCGCCTCCCAGGCCCGCGCCTCGTCGAAGCCATAGGTGCTCATGAAGCACTGCAGCAGCGGCGGGCCGATGAAGTGTTCGAGCCGGCGCAGGTCCGGCTCGTCGATGCCCAACTGCGCCAGGGCATACTGGATCGAACGGGTGATGCCCTCGCGCGGGTCGGTGAGGGTGCCGTCGAGGTCGAAGAGGATGTTCTGGTAGTGCATGGGCAAGGCTGCGACAGGAAGAATCGAACCGGAAGCATACAACTGGCCTCCGTACCGACCAAACGCCCATGCAATGACTTCCTGCCCTTTTTCTGGAGCCTCTTGCGAGTCCCATGAAAATCAATGGTTTGGAGAGGCCCCTGAAAAAAGGGTTATGCGTGTGTATAGGGTGCTTTCTCGTGGGAAGTCAGGGGGGTGAGGAGTAACATCTCTA
+# Right flank :  ATGCGAGGGCGGACTAAATGACCGCCAAGGCCCCTTCACTGCCATATAGGCAGTTCTTCCCATGCCAGGCAGTCAAGCAAACCTCCATCATTCCCTTCCCCCGCATGCAGCAGTAGCATCGCGCAATCATCCCGCTTCGGCACCCGCGACCATGGACGAGTTCGCCCCTTCCGACCTGAAGACCATTCTCCATTCCAAGCGCGCCAACCTGTACTACCTCCAGCACTGCCGGGTACTGGTCAAGGGGGGCCGGGTGGAGTACGTCACCGATGAAGGCAAGCGTTCGCTGTACTGGAACATCCCTATCGCCAACACCACCTGCCTGCTGCTCGGCACCGGCACCTCGGTCACCCAGGCCGCCATGCGTGAGTTGGCCAGGGCCGGTGTCATGGTCGGCTTCTGCGGTGGAGGCGGGACGCCCCTGTTCAGCGCCAACGAGATGGAAGTGGAGGTCGCCTGGTTTCCGCCGCAGAGCGAATACCGACCCACGGAATACCTGC
+
+# Questionable array : NO	 Score: 7.93
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.87, 5:0, 6:1, 7:1.21, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCACTGCCGTATAGGCAGCTAAGAAA
+# Alternate repeat :   CTTCACTGCTGTATAGGCAGCTAAGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTGTAGGCAGCTAAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [48.3-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [216,151] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.28,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_043269893 [547727-548755]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : AAC
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas sp. AAC
+//
+
+
+Array 2 549453-549960 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KL647096-Pseudomonas sp. AAC Scaffold3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    549453	    28	  96.4	    32	.....A......................	CTGATGCCGTACTGGTTCGCCGCCAGCGGCCG 	
+    549513	    28	  96.4	    32	.....A......................	TGGGAGGGAAGGTCCTAGTCAGCGCCGCATCG 	
+    549573	    28	  96.4	    32	............A...............	TACTACTGGTCGAGCACGCAGCGCTCCGCCAA 	
+    549633	    28	  96.4	    32	............A...............	TTGCGCGCCTGGATATCGGCGTAGGCCTCGAT 	
+    549693	    28	 100.0	    33	............................	CAGTAGTCGAACGGTAGGTCAGCCCCGTCCTGG	
+    549754	    28	 100.0	    32	............................	ATCAGCCAGATACAGCGCAGAGTCAATTCGTT 	
+    549814	    28	 100.0	    32	............................	AACCTGCGCGGCGCCTACCTGGGCGGCGCCAA 	
+    549874	    28	  89.3	    32	............A.....C........G	TTCGCGCTCAAAAAGTACCGCGGCGGGATCGA 	
+    549934	    27	  96.4	     0	........................-...	|                                	
+==========	======	======	======	============================	=================================	==================
+         9	    28	  96.8	    32	CTTCACTGCCGTGTAGGCAGCTAAGAAA	                                 	       
+
+# Left flank :   CGCGCTGGATTCGTTGATGGCTCAACCCTGGTTATCCGGCATGCGCGACCACCTGCGCCTGGGCGAACTGCTGCCGGTTCCCGAGGGGGCGCAGCATCGCCAGGTCCGCCGCGTGCAGGCCAAGAGCAACCCGGAGCGCCTGCGGCGGCGGCAGATGCGCCGCCATGGTTTCAGCGAAGAAGAAGCCAGGCAACGCATTCCCGACAGCGCCGCCCGCCGGCTCGACTTGCCCTACGTCCGGTTGCGCAGTCAGAGCAGTGGGCAGCACTTTCGTCTGTTCATCCACCACGGCCCTTTGCAGAGCCAACCGGTGGCCGGGCACATCAACCGCTATGGGCTGAGCGATGGGTGTACTGTTCCCTGGTTCTGACCCTTTTTTCCGGGGCATTCTGTACATCTTGGAAAATCAGTCACTTACAAGGGCCGTCGAAAAAAGGGATAGATGAGCTTAATGGCTGGTTTTCCTTTTAGCCACAACGAGTTGGGAGCTTGAGCCTCTA
+# Right flank :  AGCACCGGACACTCGGAAGAGCATTCCTGCGCGCCTCATTGCCGTACAAACAGACCGGCGCCCAGTCGTCTCCGCGCCGCCTGTTGCCTTATTCGGCATAGCCCTCGGCGATGTGCTGGTCCTTCAGCTTCACGTAGTTGCCGGCCGTATAGGCGAAGAAGGACCTTTCCTTGTCGCTCAGCGGGCGGGCCTTCTTCGCCGGGCTGCCGACGTAGAGGAAGCCGCTCTCCAGCACCTTGCCCGGCGGCACCAGGCTGCCGGCGCCGAGGATGACTTCGTCCTCTATCACCGCGCCGTCCATGACGATGCAGCCCATGCCCACCAGCACGCGGTTGCCGACGCTGCAGCCGTGCAGCAGGACCTTGTGGCCGACGGTCACTTCGTCGCCGATGGTCAGCGGGAAGCCGTCGGGGTTGTAGGGGCCGGCGTGGGTGATGTGCAGCACGCTGCCGTCCTGGATGCTGGTCCGGTTGCCGATGCGGATGCGGTGCATGTCGCCG
+
+# Questionable array : NO	 Score: 7.50
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.84, 5:0, 6:1, 7:1.07, 8:1, 9:0.59,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCACTGCCGTGTAGGCAGCTAAGAAA
+# Alternate repeat :   CTTCACTGCCGTATAGGCAGCTAAGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTGTAGGCAGCTAAGAAA with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-36.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [132,88] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.92,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_043269893 [547727-548755]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : AAC
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas sp. AAC
+//
+
+

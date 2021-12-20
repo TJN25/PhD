@@ -1,0 +1,317 @@
+Array 1 8901-9043 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence      	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=====================	========================================	==================
+      8901	    21	 100.0	    40	.....................	CGGTCCTCGAGCAGCCCGGCGATCCGGGCGTCCGAAGCAC	
+      8962	    21	 100.0	    40	.....................	GTCGCGGAAGACGGGTACGCCGAAGGTGAGGCCGGAACAC	
+      9023	    21	  90.5	     0	..T..T...............	|                                       	
+==========	======	======	======	=====================	========================================	==================
+         3	    21	  96.8	    40	CCCCGCGTCGGCGGGGAGGAC	                                        	       
+
+# Left flank :   CAGGCGACGGCCTGGCGCTGGCCGGTGAGGCGGGCGAGATGGGCCTCGCGCAGTTCCTCCCACGGCGTGCAGGTCTCCACCGCCGGCAGCCCGTGAGCGGCGATGTCTTCCAGGACGGCGGCAAACCGATCGGCGTCGGCACGCGTCTTGGCCGCATAGGCACGCACTGCTTCGGCGGCCGCGGGCTCCAGCTGCTGCCGGGCGGTGTCGACGGTGTTCGGCTGTTCGCTCACCAGGGCCTCCACTGGCATGCCAGGTCGTCTTGAACACCACGGTATCGCCGGGCAGGCCTGGCAGGGACCGCTCCAGCGGAATCTACGCCACGTCTGAGTGAGGCTTCTGAGGACCGCCGCCTCGCCGCCGAACTCCCCGCCTACGCCGCCTCCACCCCCACCGTGCCCGACCGCAGGCCGACCCTCCAAGATCCGGCAGAAGAGAGCTGGCACCGGCACTACCCGTTCCCGCGAATGCTTTCGGCGGCAGCCGGCTTGGGCGAAGCA
+# Right flank :  CCCGCCCGGCCGCAGCAACCACAACATGAACGTCGGAACACCCCCGCGGACGCGGGGGTGTTCCGGCGAACATCGGCGCCATCGATGACGCGCTGGCGTCCTCCCCGCCGACACGGGGGTGTTCCGATCCGACGGTTGTTCGGGTCGAGGAAGTGATCGTCCTCCCCGCCGACGCGACGGTGTTCCGCCGCCGGTGAGGATGTCGACGCGCCCGTACTTTGTCCTCCCCGCCGACGCGGGGATCTTCCTTAAGGGTGCCCCGTCACGTGGTGCCTCGGAACGACGCCCTCCCCTGGAAGCCGGTGGCCCGGGTCGATTCAGGCGGCAGATAGGAGCGGAAGTCCGGGTGGGGTCAGGAGGCGCGGCGGAAGACGGTCGCCGGGCCGATGACGCGAGAGCCGAACTTGTCGCGGACGCGGTCGACGGCGGCTAATCCGACGGCCCCACGCCGCCACAGCGCCCCTGCCGCCGGAAGGACACCGCCGATGCACCCCGCTCCC
+
+# Questionable array : NO	 Score: 4.87
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.84, 5:0, 6:-0.5, 7:0.44, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCCGCGTCGGCGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [2,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-28.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [269,696] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+
+Array 2 9281-9140 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence   	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	==================	============================================	==================
+      9280	    18	 100.0	    44	..................	AAAGTACGGGCGCGTCGACATCCTCACCGGCGGCGGAACACCGT	
+      9218	    18	 100.0	    43	..................	GATCACTTCCTCGACCCGAACAACCGTCGGATCGGAACACCCC 	
+      9157	    18	  94.4	     0	..T...............	|                                           	
+==========	======	======	======	==================	============================================	==================
+         3	    18	  98.1	    44	CGCGTCGGCGGGGAGGAC	                                            	       
+
+# Left flank :   CTCGCACCAGCCGAGGCAGTGAGTCGAGTTGTTCTTGAGCACGGGTCCCTCCGGGCGCCTGCGGCTGGTCCGGTTGACCAGCTTCCCCCTGCAAGTGCCGGTGAAGGGCCTGGTTGTTCGGTCCCCCTCCGAAGAATCTTGAAGAAGTTCCACCGGCGGCCCCGACGCCAGCCCGCGCGCCGTCGCCCCGGCCGGCGCTGTCTGCCGCGAGTGAACTCCGTCAGCGCTTCGGTGGCAGGGGAGCGGGGTGCATCGGCGGTGTCCTTCCGGCGGCAGGGGCGCTGTGGCGGCGTGGGGCCGTCGGATTAGCCGCCGTCGACCGCGTCCGCGACAAGTTCGGCTCTCGCGTCATCGGCCCGGCGACCGTCTTCCGCCGCGCCTCCTGACCCCACCCGGACTTCCGCTCCTATCTGCCGCCTGAATCGACCCGGGCCACCGGCTTCCAGGGGAGGGCGTCGTTCCGAGGCACCACGTGACGGGGCACCCTTAAGGAAGATCCC
+# Right flank :  GCCAGCGCGTCATCGATGGCGCCGATGTTCGCCGGAACACCCCCGCGTCCGCGGGGGTGTTCCGACGTTCATGTTGTGGTTGCTGCGGCCGGGCGGGTCCTCCCCGCCGACACGAGGGTGTTCCGGCCTCACCTTCGGCGTACCCGTCTTCCGCGACGTCCTCCCCGCCGACGCGGGGGTGCTTCGGACGCCCGGATCGCCGGGCTGCTCGAGGACCGGTCCTCCCCGCCGACGCGGGGTGCTTCGCCCAAGCCGGCTGCCGCCGAAAGCATTCGCGGGAACGGGTAGTGCCGGTGCCAGCTCTCTTCTGCCGGATCTTGGAGGGTCGGCCTGCGGTCGGGCACGGTGGGGGTGGAGGCGGCGTAGGCGGGGAGTTCGGCGGCGAGGCGGCGGTCCTCAGAAGCCTCACTCAGACGTGGCGTAGATTCCGCTGGAGCGGTCCCTGCCAGGCCTGCCCGGCGATACCGTGGTGTTCAAGACGACCTGGCATGCCAGTGGAG
+
+# Questionable array : YES	 Score: 1.15
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.90, 5:0, 6:-1, 7:0.16, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGCGTCGGCGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [26.7-35.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [508,459] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+
+Array 3 61744-60171 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                                                 	Insertion/Deletion
+==========	======	======	======	=============================	================================================================================================================================================================================	==================
+     61743	    28	  75.9	   176	..CA.......-......AC..A.A....	GCCGTCCCCCGAAACGAGCCGACCAACCACGGCTCCTTCCGGATGGAGCAAGGCGGCCAAACGGCGACGCTTCGGAAAGGCATGAAGGAGATCAGGGCGGTTTGGGCTGAATAACGGATTCTGAGAAAGTGCTCTGTAATCCAGCACTTCCGAGGTAAGAGACCAGGTCAAGCAGT	A [61737]
+     61538	    29	 100.0	    31	.............................	CCCCCTCCGGGGGTGCGGGGTCCGGGGACCG                                                                                                                                                 	
+     61478	    29	 100.0	    32	.............................	GACGCCATTCGCGTCTGCCTCCGCATAGGGTC                                                                                                                                                	
+     61417	    29	 100.0	    32	.............................	GCAGCGATGCGTCTCGTCGACCGGGCGCCCGT                                                                                                                                                	
+     61356	    29	 100.0	    32	.............................	GGCAGCAGGTAGGCCTCGCCCGCGGGCCCGCC                                                                                                                                                	
+     61295	    29	 100.0	    32	.............................	CGCTCCAGGACCGTGCGCCGCTTCACGGCCGA                                                                                                                                                	
+     61234	    29	 100.0	    32	.............................	TCCGCGGCGGTGACGTTCGCCGCGGACGGCCC                                                                                                                                                	
+     61173	    29	 100.0	    32	.............................	GCGCCCGTGAAGCCGTGGATGCGCGTCAGGGC                                                                                                                                                	
+     61112	    29	 100.0	    32	.............................	CAGCGCACGGCCCCGGTCGCGGAGTTCGGCGC                                                                                                                                                	
+     61051	    29	 100.0	    32	.............................	TTCTGCGGGCTGATCGCGAACGCCACCGTGCA                                                                                                                                                	
+     60990	    29	 100.0	    32	.............................	CAGGCTGGGGGGCCGTCCCCTTGCCCTGCGAA                                                                                                                                                	
+     60929	    29	 100.0	    32	.............................	ACGCGCTCGGCCGGCGGAATGAGAGACCAGTC                                                                                                                                                	
+     60868	    29	 100.0	    32	.............................	CGTCGTCATACAGGTCCCCCTGTCTTCCGGAG                                                                                                                                                	
+     60807	    29	 100.0	    32	.............................	TGCTCGGGGAACGACTTGCGGGTCGCGTCGTT                                                                                                                                                	
+     60746	    29	 100.0	    32	.............................	TACATCCCGTCCTGGACCGGGCCGGCCTCGGC                                                                                                                                                	
+     60685	    28	  93.1	    32	........A-...................	TTGGCGGCGAGGGCGCGACCTGCCTCCGTGAT                                                                                                                                                	
+     60625	    29	 100.0	    32	.............................	ATGCGCCGGCCGCGTCCATGCAGCTGCGCGAG                                                                                                                                                	
+     60564	    29	  96.6	    32	............................G	CCACCGGCCGTCCCTGCCGGACCGGCACAGAC                                                                                                                                                	
+     60503	    29	 100.0	    32	.............................	ATGCGGCGCGAGGCCGAGAAGGCCACCGCCCG                                                                                                                                                	
+     60442	    29	 100.0	    32	.............................	AGGGAGGCGTTGTAGCCGCGCGCCCTCTTGCC                                                                                                                                                	
+     60381	    28	  93.1	    32	.........A..........-........	TCACCGACATCGAAGAGACAGCAGAGTCGCTG                                                                                                                                                	
+     60321	    29	  96.6	    32	............T................	CCGCAACGGGAGCCCAAGGCCGAGGAGATCCA                                                                                                                                                	
+     60260	    29	 100.0	    32	.............................	CGCCGTCGTTGTACTGCACAGGGTTGGCCGCG                                                                                                                                                	
+     60199	    29	  86.2	     0	......................CAC.T..	|                                                                                                                                                                               	
+==========	======	======	======	=============================	================================================================================================================================================================================	==================
+        24	    29	  97.6	    38	CTGCTCCCCGCGCCCGCGGGGATGGTCCC	                                                                                                                                                                                	       
+
+# Left flank :   TTCGACGTCGCCGCGCAGGACGAGGAGGACGCCGGCCCCCGTACCCGCCGCGCTCTGCGGGACCGCATCAACGAAACGTCCCTGCTGGAACGCTGTGTCGACGACATCAAGCACCTGTTGCTTGCAGGAACCAGCTCAGCCGACCCCGGCAGCGACCAGGACGTGGTCCGACTTCAGAGCGACGGTGGCCGCGAAGTCCCCGCAGGCTATAACCATGACAACACCAGCGACTACGAACAGGTGAACTGGTGACCGTCATTGTCCTCACCAACTGCCCGGCAGGACTTCGTGGCTTCCTCACACGCTGGCTGCTGGAAATCTCCGCAGGCGTGTTCGTGGGCAACCCTTCCGCCCGGATCCGTGACGCACTCTGGCACGAAGTCCAGCAGTACGCCGACCAAGGACGCGCCCTGCTAACCCACACCACCAACAATGAACAAGGCTTCACCTTTCGCACCCACGACCACGCATGGCACCCCATCGACCACGAAGGCGTCACC
+# Right flank :  ATCGGCGTGGGGTGCCGGGTCAGCGCTCGGGCTTGGCGGGGCGCTGCATCAGCGCGGCCGCGGCCTCGTTGAGGGTGACTTTCGCGTGCAGCAGGTCGGAGATCACTTGCGTGATCGGCATCTCGATGTCGTGTACCTGGGCCAGGGCGAGGATCGCCTGTGCGGATTTGACGCCCTCGGCGGTCTGACGGGTGAGGGCCGTCGCCTCCGCGACGCTCAGGCCCCGGCCGAGATGGGTGCCGAAGGTGCGATTGCGGGAGAGCGGAGATGAGCAGGTGGCCACCAGATCGCCCAGGCCGGACAAGCCGGCGAGGGTAGCCGGGTGGGCGCCCATGACGACCCCCAGCCTGGTGGTCTCGGCCAGCCCGCGAGTGATGAGCAGGGCCGTGGCGTTGTCGCCCAGGCCCATGCCCGCGGCGATGCCGACCGCGAGGGCGATGACGTTTTTCACCGCGCCGCCCAGCTCGCAGCCGGTCACGTCGGTGCTGGTGTAGGGGCGG
+
+# Questionable array : NO	 Score: 7.26
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.88, 5:0, 6:1, 7:0.38, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCCCGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [8-8] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [21.7-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [21,250] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+
+Array 4 71203-74654 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================================================================	==================
+     71203	    29	 100.0	    32	.............................	TGATGCCGGATCGCATCCGCTTTCGTGTCGTA                                                       	
+     71264	    29	 100.0	    32	.............................	TCACCGTGCACGGCGAAAACGCGGCCGGAAAA                                                       	
+     71325	    29	 100.0	    32	.............................	GCCCCGCGCCCGGAGCTCACCGGCATCGCCAA                                                       	
+     71386	    29	 100.0	    32	.............................	TCCGTGGAGGCAGCACCCATGGCAGCACCCAA                                                       	
+     71447	    29	 100.0	    32	.............................	TTCAACTGCCGCAGCAAGATGTTCGACACCGG                                                       	
+     71508	    29	 100.0	    32	.............................	GGCGGCAAACCCACGGCACGCGGCGCACACCG                                                       	
+     71569	    29	 100.0	    32	.............................	ATGGGCATGGAGGCGCTGGGGCTCAAGAACGA                                                       	
+     71630	    29	 100.0	    32	.............................	GGCCACCGGGTCGGCGCCGGCACCCGCGAGCG                                                       	
+     71691	    29	 100.0	    32	.............................	TCGCCCCGCATCAGGTCGGACTGAACCTTGAT                                                       	
+     71752	    29	 100.0	    32	.............................	GAGCCGCCGACGACCCAGAACAGATTCCAGCT                                                       	
+     71813	    29	 100.0	    32	.............................	CGCCCATTGTCGGCCCGTCGGAATTCCCTCCG                                                       	
+     71874	    29	 100.0	    32	.............................	CCGGCCATCGCCAACGGCGGCGCGGCGGTTTT                                                       	
+     71935	    29	 100.0	    32	.............................	GGTCGCCGTGGTCATCCAGTGCTCCATTCGGT                                                       	
+     71996	    29	 100.0	    32	.............................	GGCTCGGCTCCCCCGGTCTTCCCTCCGCCAGC                                                       	
+     72057	    29	 100.0	    32	.............................	CCTGCCGTGCTGCATCCGCGACCGTCCCGTTC                                                       	
+     72118	    29	 100.0	    32	.............................	GCCGCCACCCCCGGACCCTGGGGCCAGTACGA                                                       	
+     72179	    29	 100.0	    33	.............................	AGAACCGTCTTCTCCAGCCCCGGAACAGGCAGG                                                      	
+     72241	    29	 100.0	    32	.............................	GACTTCATGACCAGCCCGGAGCAGTCGTAGGC                                                       	
+     72302	    29	 100.0	    32	.............................	TGCTGTACCAGCCGGGCCGGGTCTTCCACATC                                                       	
+     72363	    29	 100.0	    32	.............................	ATGGGCTCGATGATGCCGAGCGCGCCGGGCCC                                                       	
+     72424	    29	 100.0	    32	.............................	TTTACCGCTTTCTAGTCCCAATCCAAAGGGAG                                                       	
+     72485	    29	 100.0	    32	.............................	CCCGTGTTCTGGACGAACAAGAAGTACAAGAA                                                       	
+     72546	    29	 100.0	    32	.............................	GTGGCCGATATCGAGATTAACGAAGAGATAAA                                                       	
+     72607	    29	 100.0	    32	.............................	GGCAGGCGCTCCCTTGCGCTGCCAGATCGGGC                                                       	
+     72668	    29	 100.0	    32	.............................	ACCGGGTTGAGCTTCTTCAGCGTGGCCATGCT                                                       	
+     72729	    29	 100.0	    32	.............................	GACGCGCCGTTCGGCCCGGTGGTGGCGATCTC                                                       	
+     72790	    29	 100.0	    32	.............................	AACATTGCCGTCAGCACGCAGTGGCAGGACTG                                                       	
+     72851	    29	 100.0	    32	.............................	AGGGGGCACCGCATGGCCAACCACAGAACCGC                                                       	
+     72912	    29	 100.0	    32	.............................	GACGGGCCGGTCACGCTCGGCGGCAAGGACCT                                                       	
+     72973	    29	 100.0	    32	.............................	AGACTGACCAGCGCCGGGACGAGGGTGGCCGC                                                       	
+     73034	    29	 100.0	    32	.............................	GGTTCGCTCACGTCGGACGACGTCCGCGACCT                                                       	
+     73095	    29	 100.0	    32	.............................	GCGCTGTGGCACCACGCCGCCCCCTCCTCGTA                                                       	
+     73156	    28	  96.6	    32	.....-.......................	CCACGGCGACCGCGACCTCTTCCGCTCCCGTC                                                       	
+     73216	    29	 100.0	    33	.............................	GTCGTCCTGCGCAACGTGACGATCCGGAAGATG                                                      	
+     73278	    29	 100.0	    32	.............................	TGATGTCGTTCGACCGGGCCTGCTGCAGCATG                                                       	
+     73339	    29	 100.0	    38	.............................	GGGCCCGGGCCCGGGTCCTTGGACACCAGGGAGATTCC                                                 	
+     73406	    29	 100.0	    32	.............................	CCCGGACATGGTCTCGGCCGCTGCCGGGTTCT                                                       	
+     73467	    29	  96.6	    32	............C................	GCGCTTGCGATCGATGAGCACCAGGCGGTGGT                                                       	
+     73528	    29	  96.6	    32	............C................	GGCTGCAGGTTCGCGACGAAAGAACGGATCGG                                                       	
+     73589	    29	  96.6	    32	............C................	GGTGGCGGACCCGGTAACGCGTCTGCCACTCT                                                       	
+     73650	    29	  96.6	    32	............C................	TGTCCGAGCTGGTCCGTGAGGGGGTCGTAGAG                                                       	
+     73711	    29	  96.6	    29	............C................	GCCCCGGCCATCGGCTCGGGGCGGCGGGG                                                          	
+     73769	    29	  93.1	    32	.G..........C................	CGGTTCGGCGGCGACCTCATGGAGGTCAACGT                                                       	
+     73830	    29	  96.6	    32	............C................	TACTGCTGGGCCTTGCACGACAAGACGGGCGG                                                       	
+     73891	    29	  96.6	    32	............C................	GCGGGCATCAAGGCGTCCATGGCCGGTACCGC                                                       	
+     73952	    29	  96.6	    32	............C................	GGCGACTTCGGCGACCCGAACGCCGAGGTCAA                                                       	
+     74013	    28	  96.6	    31	............-................	CCGCCCCCTGGCCATCCCGACCGCACTCGAG                                                        	
+     74072	    29	  72.4	    14	............C.....CC.CC.ACG..	GTGGCCCTCATGGC                                                                         	ACAA [74088] Deletion [74115]
+     74119	    29	  96.6	    32	............C................	GCCGCCGTCACCGGCTGGCATGTGCAGTCCGA                                                       	
+     74180	    29	  89.7	    33	............A.....A........T.	GTCTACCCTGGGCCTGCCGATCCGCTCGCCCAG                                                      	
+     74242	    29	  86.2	    32	......T..C..C..........A.....	GGTCCGGTGGGCGGGCCGGCCTTCTTGTGCCA                                                       	
+     74303	    29	  86.2	    87	...........GG.........G.....A	CAGCTCAAGCTGCCCCGAGCGCAGGGAAGTTGGCCGCTCCCGCGGGGGTGGTCCCCCGGACGTCACCATGGTTTCGACCGTCCTGGC	T [74318]
+     74420	    28	  89.7	    57	............CT...........-...	CTCGAAGTCGACGCGCTCGGCCTCCTCGCTCAACTGCTCCCGCACCCGCACCCGCAC                              	
+     74505	    28	  79.3	    32	.C..-A......C....AC..........	CCGTACCGCGTCCAGCCGTCGGACGTGTCCCT                                                       	
+     74565	    29	  96.6	    32	............C................	GCCATCATCGATGCGGCTGGCCTCTGCGTCGT                                                       	
+     74626	    29	  93.1	     0	...T........C................	|                                                                                      	
+==========	======	======	======	=============================	=======================================================================================	==================
+        56	    29	  97.3	    33	CTGCTCCCCGCATCCGCGGGGATGGTCCC	                                                                                       	       
+
+# Left flank :   CGCCTTACCGATGTCATGTCCACCCGCAAGCCACACGACGAGCCTGCGCCCATCCACCTCGCCACCAGGCAGGACCTCGGCAATCAACTGCCGCATCCCGAAAGGCAGCCACTCATCCCACAGAAGGCCAGCGACGGCGGCACTGTCCTCCATGTGCCGCCACAACGGCAACCATCCATCAGCATCACGATCATGCTTCGCCCACACCGACCGCGCCGCAGCCCCCAGCCGCGCCAGCAGACCATCACGGCAGTCTCCCCCGCTCGTCATACAGACTGCCTACACGCAAACCGGCCTCCAGCAGGCCAAATCGAAGAAAGAAACTCGATCTCTAACCGATCTAGGCCATCCAGCCACCCTTGAGCACACTTGCGTCGTATGGTGACCCGCTTAAACGCCACCACCAAGACAACCAAGAGAGCGAAATGTGCAACTTGCCGGAATTAGCGAAAGTGTGGGAAAACCTCCACCACAAGCTATAGACGCGCAGGTCAGGCAGT
+# Right flank :  CCTCACGTTGTAGAGCCGAGACAGGTGGTCCGGCTGCTCCCCGCAGGGGGACTGAGGACCAGGACGGGGCCGGCCAGAGGGGTGCACCGTGCCACAGGGGCGGGGTGTGCAGCACACGTTGCTGCACACCCCGTGCTGCACGGTGCAGCGGGTTGGGCTTCGCGGGCGCTGTGGCCGACGAAGCGGTGCCCGGTTCAGCGGTCGCCGGCGACGCCAAGGGCAGCCAGGACCCCGGCACCGGTCAGGATGGCGGTCGGCGGCTGCGTGAGGCGCGGGACGCGGTAGACGGCGTAGGCGAGCGCGCCGAGGAGCAGCAGGCAGCAAGGCGCTGCGTGCCTGGCGTGCTGGTGGAGAAGGTGAAGCGGCCCCTCCCCTGCAGTTGCACGACACTGCGGGCGGATACCGGGGCGGGCGACGTCGGTATGCCCCGGACGTCACCATGGTCTCTACCGTCCTGGCCTGCTCCCCGCACCCGCGAGAATGGTCCCAGCGTGGTGGTG
+
+# Questionable array : NO	 Score: 7.64
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:0.78, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCATCCGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-48] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [48.3-33.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [232,1973] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+
+Array 5 75752-75113 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     75751	    29	 100.0	    32	.............................	CCGACATGCGCCCGCACGAGTTCCGTGAGCGC	
+     75690	    29	 100.0	    32	.............................	GCGTACCGCGTCGAGATGGGCGGCGACGCCCT	
+     75629	    29	 100.0	    32	.............................	TGAGGAGGCCGGGGACGGTGAGGACGGTGCCC	
+     75568	    29	 100.0	    32	.............................	ATGTACGGCCTGGACGTCACGAGCGGCGTGCC	
+     75507	    29	 100.0	    32	.............................	TTCTCCGGATCTGACAGGATCTTCGCCAGGGC	
+     75446	    29	 100.0	    32	.............................	AAGCGCGCTACGCAAGACCACTTGGCGCACCC	
+     75385	    29	  82.8	    32	...G....G......A.....A.....G.	GAACCCCTGGGGTGTGCATCCGGCGGCCGGGC	
+     75324	    29	  93.1	    32	....T....................A...	GGCGGATTCGGGAACGGCCTGAACTACCTGCC	
+     75263	    29	  96.6	    32	....T........................	AAGGTGGCCGACGGCCGCACGCCGTGGGAGCT	
+     75202	    29	 100.0	    32	.............................	GTCGTCTTCTACAGCCTACTCACCACCACGCT	
+     75141	    29	  93.1	     0	........T.T..................	|                               	
+==========	======	======	======	=============================	================================	==================
+        11	    29	  96.9	    32	GGGACCATCCCCGCGGGTGCGGGGAGCAG	                                	       
+
+# Left flank :   CGGGTGCTGGGAGCAGACGCCGTTCTCGCACGGTACCCCCTGGCCCGGGACCCTCTCCGCGGGTGCGGGAAGCAGCCGCCTGGAACGGACGTTCGCCGACTACGGCCAGGGGAGCATCCCCGCGGGTGCGGGAGCAGGGTTCCCCGGCGGTGCCGTAGTGATGACCGCGGGACCATCCCCGCGGGTGCGGGGAGCAGCGTCTCTGCCCATCGGACTCTGGCCTCTGCCCGGGACCATCCCCGCGGTGCGGGGAGCAGAATCGCGAGGAGTCGGGCTGTGGCCTGACGGAGGGACCGTCCACGTGGGTGCGGGGAGCAGCAGCCGGTCGCGCCCGCCGCTCCCGCGCAAGGGACCATTCCCGCGGGTGTGGGAAACAGGTCGACTTCCACGCGATGCGTCGGCTGACCTCANNNNNNNNNNNNNNNNNNNNAGTCACCCACTTCGCGCGGGTGGCCGGGTCGCAGGNAGTCACCCACTTCGCGCGGGTGGCCGGGTCGCAG
+# Right flank :  GCCAGGACGGTAGAGACCATGGTGACGTCCGGGGCATACCGACGTCGCCCGCCCCGGTATCCGCCCGCAGTGTCGTGCAACTGCAGGGGAGGGGCCGCTTCACCTTCTCCACCAGCACGCCAGGCACGCAGCGCCTTGCTGCCTGCTGCTCCTCGGCGCGCTCGCCTACGCCGTCTACCGCGTCCCGCGCCTCACGCAGCCGCCGACCGCCATCCTGACCGGTGCCGGGGTCCTGGCTGCCCTTGGCGTCGCCGGCGACCGCTGAACCGGGCACCGCTTCGTCGGCCACAGCGCCCGCGAAGCCCAACCCGCTGCACCGTGCAGCACGGGGTGTGCAGCAACGTGTGCTGCACACCCCGCCCCTGTGGCACGGTGCACCCCTCTGGCCGGCCCCGTCCTGGTCCTCAGTCCCCCTGCGGGGAGCAGCCGGACCACCTGTCTCGGCTCTACAACGTGAGGGGACCATCCCCGCGGGTGCGGGGAACAGACGACGCAGAGGC
+
+# Questionable array : NO	 Score: 7.97
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:1.12, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGACCATCCCCGCGGGTGCGGGGAGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-23.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [176,876] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+
+Array 6 76469-75875 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMIZ01000014-Streptomyces sp. Root264 contig_21, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                 	Insertion/Deletion
+==========	======	======	======	========================	================================================================	==================
+     76468	    23	  91.7	    64	..........A.......-.....	GCTGCCCTCATGAACCAGGAGATCCGAAGAGCACGGTGTGCTCGCGCACCCAGGGGGGTGGGGC	
+     76381	    24	  91.7	    37	T..G....................	CGCGCCCTGGACAACGGCGCCATGAGCATCGCGGGAC                           	
+     76320	    24	  95.8	    37	..................T.....	AATATCGAGGTCCTGAACCGGGTGCCGGCGGAGGGAT                           	
+     76259	    24	  91.7	    35	......T........T........	ACGCCGTTCTCGCACGGTACCCCCTGGCCCGGGAC                             	
+     76200	    24	  87.5	    39	.C..T.............A.....	CCGCCTGGAACGGACGTTCGCCGACTACGGCCAGGGGAG                         	
+     76137	    23	  95.8	    36	..................-.....	GGTTCCCCGGCGGTGCCGTAGTGATGACCGCGGGAC                            	
+     76078	    24	 100.0	    37	........................	CGTCTCTGCCCATCGGACTCTGGCCTCTGCCCGGGAC                           	
+     76017	    23	  95.8	    37	.........-..............	AATCGCGAGGAGTCGGGCTGTGGCCTGACGGAGGGAC                           	
+     75957	    24	  87.5	    35	.G...A..T...............	CAGCCGGTCGCGCCCGCCGCTCCCGCGCAAGGGAC                             	
+     75898	    24	  83.3	     0	...T..........T...A.A...	|                                                               	
+==========	======	======	======	========================	================================================================	==================
+        10	    24	  92.1	    40	CATCCCCGCGGGTGCGGGGAGCAG	                                                                	       
+
+# Left flank :   ATCCCCGTCGTCGGGCCCCACCCGCCCTACGACGACTGCCACTTCGACGCCTCCGTCCCCACCGTCCTACGCATACTCAGCACCCTCCACACACCGGACCCGCACCGCCCCTCCCGCCGCGCCGACGTCATCACCACCTACGTCGCCAACGCCGTCACCCGCGGCTACGCCCGCCATCCCGGTGTGGAGATCCCCGTGCCCGGACCACGCTTCGCAGACCGCGTCACCTACATCCTCACCGCCACCCCACCCGCCACCCGCCGACCACCCAAGAAGCCCCAACCGACCCTGCCCAGCCGACCAGAACGGGTGCCCGACCAGCGACTGCGAAGAGGACGCTGAGCGCCGCCACCATGCCAACCGCCGCGCCCGCGCGGGCGATCTCCAGCGAGTCGTGCCCGGGCGGCGACAGCGAACCCCCAACGCAGAGAGTGCCCGGACCAGTCACCGGAAAGGCGGGCCGCGAGAGCCGACCGCTCCCGAGATCTCAGCGAAGGGAT
+# Right flank :  GTCGACTTCCACGCGATGCGTCGGCTGACCTCANNNNNNNNNNNNNNNNNNNNAGTCACCCACTTCGCGCGGGTGGCCGGGTCGCAGGNAGTCACCCACTTCGCGCGGGTGGCCGGGTCGCAGGGGACCATCCCCGCGGGTGCGGGGAGCAGCCGACATGCGCCCGCACGAGTTCCGTGAGCGCGGGACCATCCCCGCGGGTGCGGGGAGCAGGCGTACCGCGTCGAGATGGGCGGCGACGCCCTGGGACCATCCCCGCGGGTGCGGGGAGCAGTGAGGAGGCCGGGGACGGTGAGGACGGTGCCCGGGACCATCCCCGCGGGTGCGGGGAGCAGATGTACGGCCTGGACGTCACGAGCGGCGTGCCGGGACCATCCCCGCGGGTGCGGGGAGCAGTTCTCCGGATCTGACAGGATCTTCGCCAGGGCGGGACCATCCCCGCGGGTGCGGGGAGCAGAAGCGCGCTACGCAAGACCACTTGGCGCACCCGGGGCCATGCC
+
+# Questionable array : NO	 Score: 4.10
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.60, 5:-1.5, 6:0.25, 7:0.53, 8:1, 9:0.22,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CATCCCCGCGGGTGCGGGGAGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.70,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [938,159] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_079041226 [68045-70972]; 
+# Array family : NA
+# Sequence source strain : Root264
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. Root264
+//
+
+

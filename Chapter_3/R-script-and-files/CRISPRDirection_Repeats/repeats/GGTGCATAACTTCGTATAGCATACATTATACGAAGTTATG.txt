@@ -1,0 +1,229 @@
+Array 1 1873454-1873747 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB911579-Salinispora pacifica DSM 45547 SALPAC4DRAFT_scaffold1.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                         	Spacer_Sequence                                           	Insertion/Deletion
+==========	======	======	======	========================================	==========================================================	==================
+   1873454	    40	  92.5	    58	...CG..................................C	GACCTAGATCGGAAGAGGGTCGATAACTTCGTATAATGTATGCTATACGAAGTTATGC	
+   1873552	    40	 100.0	    22	........................................	TGAACGTGTGCTCTTCCGATCT                                    	Deletion [1873614]
+   1873614	    40	 100.0	    54	........................................	CACCTAGGTAGATCGGAAGAGCTCTGAACTCCAGTCACATAACTTCGTATAATG    	
+   1873708	    40	  75.0	     0	TA....AT..GAA..TAT......................	|                                                         	
+==========	======	======	======	========================================	==========================================================	==================
+         4	    40	  91.9	    45	GGTGCATAACTTCGTATAGCATACATTATACGAAGTTATG	                                                          	       
+
+# Left flank :   GTCGGCCGACGCGTCCGGGTTGGGGTTCGGCGAGGGTGGGTTGGGTCATCCATGCCGGCAGGCTCGCTGGGCGGTCAGGCCCGCTTCCCCGGTACGGCCTGTTTTCCCGGTACGGCCTACTTCCCCGGTGTGGTCCGCTTGCCCGGTACGGCGCGTTGCTGCGGGGTGATCTGCCTGCCCGGTGTGCTCCGCCCGCTCGGTGCGCCCCGCCTGCGCGGTACGGCGCGTTCGTCTCGTGCGGGCGGGGCGGCGCGGTGTTCCTCCGACGCCAACCAAACCAGCGAATTCGCATCTGGACCTCCTTGATGTTGGTGGAGGACCGCCCCCACTGACNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGCCGTTGGAGATGTCAATATCCAGGTCAGTCTCTTGGCCGCCGACGGCGGCGTGGTGACCTGGATA
+# Right flank :  GTGACTGGCGTTCGATCGGTGCGCCCCGATTGGCGGCTTGTTCCTCCGGCGGCGGCTGAACCAACGGATCTTCACAACTACCTCCTGGTGTCCTTGGACAGGGCCCCACCCGCTCTTGCCGGATGCGGGCGGGGCCCTGGGCAGGACCCATCCCAGCTACGCTCGGCGAGGAACAGGTCCGCATGAGTGACAGTCTCGATAGGACCGGCCTGGTTTCGATACCTGCTCACGCTGATCGAGCAGATCTTGGGCCTGATTGGGCAGCGATGGGCAGCCGTGAGGAGACGCGCGAAAAACCGAGCAGAAAGTGGGCAGCGATGGGCAGTGTCATGGACTACGTGCTGATGGAGCTTCGCTTACTTCGCCAAACCCTGGGCCTCAGCCAGGAGGACTTCGGGCGCAGCATCGGCTACTCGGCCTCGCACGTGAGCGCCGTCGAGACCGGCGGGCGTCCACTCACGCCGGACTACGCGATCGCGGTCGACCGGACCCACGACCCC
+
+# Questionable array : NO	 Score: 2.35
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.60, 5:0, 6:0.25, 7:-1.10, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGTGCATAACTTCGTATAGCATACATTATACGAAGTTATG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.10,-9.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [169,317] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_019871766 [4224773-4226365]; Endonuclease Cas2:WP_019871765 [4224474-4224776]; Helicase/endonuclease Cas3:WP_033665015 [4280305-4283085]; 
+# Array family : NA
+# Sequence source strain : DSM 45547
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica DSM 45547
+//
+
+
+Array 2 4223808-4224288 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB911579-Salinispora pacifica DSM 45547 SALPAC4DRAFT_scaffold1.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	====================================	========================================	==================
+   4223808	    36	  91.7	    40	......................C........A..A.	CGCGCCCACGTCCCTGGTGGGCGTCGTGTGCGCATCCGGC	
+   4223884	    36	  94.4	    39	.T....................C.............	CAGCAGCACGTCATGCGCGGACGCCTGGTGCTCGTGGGT 	
+   4223959	    36	 100.0	    39	....................................	CGCTGCCGCACGATCCGTCGCCGCGCGATGGGTGCTCGA 	
+   4224034	    36	  94.4	    37	....................T.C.............	GCAAAGACCTAGCCGTGTTCGTGCGACTCATCGACGA   	
+   4224107	    36	  97.2	    36	..T.................................	CGGGGTCTGGCCGGGAGGTACCCCGACGTGAACACC    	
+   4224179	    36	 100.0	    38	....................................	GCCGGCGCGTTCCTGGATGCGATCGGTGATGACGACCT  	
+   4224253	    36	 100.0	     0	....................................	|                                       	
+==========	======	======	======	====================================	========================================	==================
+         7	    36	  96.8	    38	GCCTCAATGAAGGGCAGCTCCGTTGGGAGCTGCGGC	                                        	       
+
+# Left flank :   CAGACGAGCTACCCGACCCGACCATGCCCTACACCGCCGAGGTGATCCGCCTCCACCAAGAGAAACAACGCTTCTCCTTGCACGACTGGTGGGGGATCGGTCACTGAAGTGACACCGGGATGCCCTCGCTACCACTAATACCCCGCGAGGTCGACGGTGCGGCGCCTGACCGGGCTTATCCTTGCACGGGCTGGTCCCCGCAACTGGCGTATCGCTGCGGGGACCAGCTTGTCGGTGGCCTGCGGCCAAGGCTGCTCCACCTGCGCGTGGCCGTGGCCAGCAGCCGAGCGGTGACCTCGTCGACCTGTTCAGGTTCGCCGCAGGCCCGACCGCTCGCCAGCGCCGGTCCTGCGCTGTCGGATATCTCCGATGCTTGTGGATGATCCCCTGATCATGGCCGGATTCGCTAGCCCTCGTATCACCAGCAGCGCGGACGCAGGGGCGGGCCGTAGAAGGGAACACACTCGTATGGCACCAAGAGCAAGGTGTGGACGTTTGAA
+# Right flank :  CTGGGTCAGAATTATAGCCGCTCTGACCTGCACCTGAACCGGTCTGCTGCGAAGGGTGCGCTTCCTGCGAGGCGGAGTAGCGCTCAAGGCCGCGTACCCGCAGACCTACCCGGCATGTGAGCTGGGCTGACACCCTGGCGACGGGTCCGCGCTTGGCGGCGAGACGACGCAGGCTTCGCCGGTGGTTCAGAGGATCGCTGGTCCGTGGTTGGTGATGGTGCGGCTGCAGCCGATCACGTCGAGCGATCGACGGTTGTTCTCGCGAAGGGTACCCAGGTTGCAGAAGATGACGGAGTCTCTTTCCTCGTCGATCATTTCGGTGAGTTGGGTGCGGAGCCGTAGGAACTTGGCTGGCCGGGTGTCCACGATGAACACGCTGTGCTGTATGCGGTCGCCGTATGATTCGAGTTTCTTGGTGACCTTCGTTCGGCGGATGTCGTCGGATATGTCGTACGCGATGAGGTAGCGTCGCACGTCGTCAAGGTTCATCGGGTTTTGAT
+
+# Questionable array : NO	 Score: 5.30
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.84, 5:0, 6:1, 7:0.61, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTCAATGAAGGGCAGCTCCGTTGGGAGCTGCGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.20,-9.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [395,186] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_019871766 [4224773-4226365]; Endonuclease Cas2:WP_019871765 [4224474-4224776]; Helicase/endonuclease Cas3:WP_033665015 [4280305-4283085]; 
+# Array family : NA
+# Sequence source strain : DSM 45547
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica DSM 45547
+//
+
+
+Array 3 4277425-4280196 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB911579-Salinispora pacifica DSM 45547 SALPAC4DRAFT_scaffold1.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+   4277425	    28	  93.1	    32	.......-...........C.........	AACTCAAACAAGATCCAAAACATTACTAATGC 	
+   4277485	    29	 100.0	    32	.............................	GGGTTGAGCGCGACGTTGAGGCTCAGCTCAGG 	CA [4277496]
+   4277548	    29	  96.6	    32	..................A..........	CGGTCCCCGCCGTCGTTGTACCGGTCGTCGTA 	
+   4277609	    29	 100.0	    32	.............................	CAGCGCGGCGTAGTACATGCACCCGAAGAACG 	
+   4277670	    29	 100.0	    32	.............................	GCGCAGGACGTGGTTGCCGCGCCATCGTCCGG 	
+   4277731	    29	 100.0	    32	.............................	CGATCCCCACGCAGGTACCGGCGGAGATCATG 	
+   4277792	    29	 100.0	    32	.............................	ATGACCACCACCACACAGCCCGAGGCGGACGA 	
+   4277853	    29	 100.0	    32	.............................	CGCCTCGCCGTCCTCTCCCCAGAAGGCGGCAT 	
+   4277914	    29	 100.0	    32	.............................	CAGCGCGGCGTAGTACATGCACCCGAAGAACG 	
+   4277975	    29	 100.0	    32	.............................	CGCAGCATCCGGGCCCGACCACTCGTGCACCG 	
+   4278036	    29	  96.6	    32	T............................	CTCTTCTGATACGCGCGCACACTCGAATCAGT 	
+   4278097	    29	 100.0	    32	.............................	GGGTGTGCTGAGCGTTTGGGAGTCATGCAGCG 	
+   4278158	    29	 100.0	    32	.............................	CTGTCAAACCAGGCCGCGGTGACACGCGCCGG 	
+   4278219	    29	 100.0	    32	.............................	GCGTCAGCGACGACATCCACATGACCGACAGG 	
+   4278280	    29	 100.0	    32	.............................	CGACCGAGCGGGACGGCTCGACACACCCTCTG 	
+   4278341	    29	 100.0	    32	.............................	AGCCCGCCGCGTTCCCCGACGGTGTTACCCAG 	
+   4278402	    29	 100.0	    32	.............................	ACCAACGCGACCGGATCCGGGACATCCATCAA 	
+   4278463	    28	  96.6	    32	...........-.................	AGCGGCCGACTGATGCGGGGCGGTGGACTTGG 	
+   4278523	    29	  96.6	    32	G............................	CTCAACGCGGCGATGACCGCGAACCCCATTGG 	
+   4278584	    29	 100.0	    32	.............................	GTCGCCATCGGACCGCCTGGCGCCACCCGCGT 	
+   4278645	    29	 100.0	    32	.............................	GATCAGCGGCGGCCACTGCATGCCGTCGGAGG 	
+   4278706	    29	 100.0	    32	.............................	CCCGACCCCGATACCCCGCAGGCCGTCGTCTA 	
+   4278767	    29	 100.0	    32	.............................	CGCCCGTAACGCCACCGCCAGGGCCTCGGATG 	
+   4278828	    29	 100.0	    32	.............................	ACCGCGACCGCCCGACGCAGATCGTCGTACTG 	
+   4278889	    28	  96.6	    32	...........-.................	GCGACTGGGCGGTGCCCACGGGTCACTCTTGG 	
+   4278949	    29	 100.0	    32	.............................	CAACGCGCGCTCGCCGAACGGGCCTTCTACAA 	
+   4279010	    29	 100.0	    32	.............................	GGGTGCCTGCTCTACCCCGGCCGGGTGCACAC 	
+   4279071	    29	  96.6	    32	............................T	CGAAGGAAGCGTGCACGATCGGCTACGACCTA 	
+   4279132	    29	 100.0	    32	.............................	AGGACCCACCGGCCCCGGGCTGTACGGATCAG 	
+   4279193	    29	  96.6	    32	.....T.......................	CACCGCCGAGTACGCCCACGACCAGGACACGA 	
+   4279254	    29	  96.6	    32	T............................	AATGCGTTGGAGTCGACCACGTAGTCGATCTG 	
+   4279315	    29	 100.0	    32	.............................	CTGGTCCTGGGTTCCGGCGCGTACTCGGAAGG 	
+   4279376	    29	 100.0	    32	.............................	GGGTCCTTGATCGACAGTAGGCCGGTCGTGAT 	
+   4279437	    27	  93.1	    32	..........--.................	AACGTTGGTTGGCCCAACGTTGGCTGATCGGA 	
+   4279496	    29	 100.0	    32	.............................	GGTGACAGGGTTAACGGCCGGAAATGACTACA 	
+   4279557	    29	  96.6	    32	A............................	TGCACTACGCCGCCACCACCCCACACCAGCTA 	
+   4279618	    29	 100.0	    32	.............................	TGGTCGTGCTGGTCTCTGCCGCCGGCTACGGC 	
+   4279679	    29	 100.0	    32	.............................	GGTGATGCTGCCTGGATGGCTCGGACCCAAGC 	
+   4279740	    29	 100.0	    32	.............................	GTACCTCGACAGGATGCCGTGCTTGAAAACCG 	
+   4279801	    29	 100.0	    32	.............................	ACTGTCGAACGGGCCGCGCTCCTCGGCGAGTA 	
+   4279862	    29	 100.0	    32	.............................	CCTCGCACGACGATGCCCCGGGCCAAGATGGT 	
+   4279923	    29	 100.0	    32	.............................	CTCGACACATCACAAAAAGAGGCGATGTCCAA 	
+   4279984	    29	 100.0	    32	.............................	ACGAGCCGCGCGTGTCGGAGGTCACCGTCCAG 	
+   4280045	    29	 100.0	    32	.............................	ACCTGTGCGACTAACTGCGGGATGTTGTACTG 	
+   4280106	    29	 100.0	    33	.............................	GGAGCGGGGGTCGAGCCGCGTGCAAGTCGGTGC	
+   4280168	    29	 100.0	     0	.............................	|                                	
+==========	======	======	======	=============================	=================================	==================
+        46	    29	  99.0	    32	CGGAGCACCCCCACGTGCGTGGGGAGGAC	                                 	       
+
+# Left flank :   TCCTGCACGCGGCACGCCACCGAGTCGTCCGGACCCTCACTCCCGACGAACGCGCCGCCCACCGCCTACCGGCAGCAGAGTAGCTACAAGACCTGCTCTACCTCACGGACCTGCTCACCCACCAGGAACTCCGCCGGATTCACCCCCAACCGCTCCCGCTGCGGCGACGCCCAATAGTCCGCGTTAGCCTCCGCGAACGACCGACCCCCCTCGTAGGAAAGCACCCAAATATGGGCGTTCGCGTCCCGGTCCACCCACGAACCGTGCACCTCAAAACCGAACTCCCGCCGCAACGGAACAATCAACCTCCGCCACGCATCAACCCACTCATCCAACCGACCCACCCGCACCAGATACGTACGAACCTGAACTGTCCTCACCGCGCCCACACCCCTCCCAGCACGACAACCTGCCAATCACAACGCCGCTTACTGTATGGCCAGGACTTTCAGAAACGGCCAGGCCGACGCTGGTGTAACCGGCGCGGACAGCGTCGAGGA
+# Right flank :  CACTTCGTGACCTGCGCTTCTATCAGCCGTGGGCGCGGTTTTGCGTCGGTCGAGTCGTGGTGTCGTACGGCTGTGGTTGCATGCTGATGCCCTTGCCGAGCGGGTACGAATGGAGGGGGTCGAATTGGGGGTCGACCATGACGGGGTCGATGCTGGGATCTGGGGCAAGTCTAACCATCTCCCGAGACCGTATCCATTGCTCTGGCATTTGATTGATACCGCGGCCGTTGCTGGTGCGTTGTGGGATCGCTATTTGGCCCCGAACCAACGGAGGGTCATCGCGGAGGGGCTGGCCACCGACGACAGCCACGCTAAATCGTTGATCATGTTTTGGGCGGGGTTACACGATGTCGGCAAGGCAACCCCGGGGTTTCAGAAGAAGGACGGGAGCGCGTTCGATGCGCTGCGGAGTGCTGGTTCATATGAGGATGTTGTAGGCGATGGCTCGCTGAGGCATGACACCGCTGGTCAGCTGGCTTTGCCGGGTCTTCTTGCTCCTT
+
+# Questionable array : NO	 Score: 8.97
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [6-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-38.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [113,109] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_019871766 [4224773-4226365]; Endonuclease Cas2:WP_019871765 [4224474-4224776]; Helicase/endonuclease Cas3:WP_033665015 [4280305-4283085]; 
+# Array family : NA
+# Sequence source strain : DSM 45547
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica DSM 45547
+//
+
+
+Array 4 4291098-4289176 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB911579-Salinispora pacifica DSM 45547 SALPAC4DRAFT_scaffold1.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   4291097	    28	  96.4	    32	....A.......................	GTGGGCAGCGGTGAGGGCCTGGTCCCGCTCGG 	GG,C [4291077,4291086]
+   4291034	    28	  96.4	    32	....A.......................	TGCACCGCCGTTGCGTAGGCCCCGCATACGCC 	
+   4290974	    28	  89.3	    32	..A.A............A..........	GGACGCTCTCGGCGAACCCGAGCCGGGCGACG 	C [4290963]
+   4290913	    28	  96.4	    33	......C.....................	TGTCCACCGCGCCGCCCTGGCGTACGGCCACTC	
+   4290852	    28	 100.0	    32	............................	ACATTCGGCCTGGACGCTCCGCGCTCGGAAAT 	
+   4290792	    28	 100.0	    33	............................	GGATGGTGAGCCCCGGCTAGTTCCGGGAGGTGC	C [4290781]
+   4290730	    28	 100.0	    32	............................	GGCGAGTAAGGCGGCGGTGGTCTTTGAGCGGC 	C [4290719]
+   4290669	    28	  96.4	    32	.....................T......	GCGGCACCGGTGCCCGCCAGCGCCCCGCCGGA 	C [4290658]
+   4290608	    28	 100.0	    32	............................	GAGCAGCTCCAGGAGGACGGCCTTAATGCCGT 	C [4290597]
+   4290547	    28	 100.0	    32	............................	GTGGCGGCTGTGGCCGGGTCCGGCGCGTTCGG 	C [4290536]
+   4290486	    28	 100.0	    32	............................	GACGCCAGCACGGCCCGCTCAAACTCCCACCG 	C [4290475]
+   4290425	    28	 100.0	    32	............................	ATATCCACCGGGAAGCTGATGGCCTTCGGGTC 	C [4290414]
+   4290364	    28	 100.0	    32	............................	GAGGAGACGACGGTGGAGGCGTAGCCGATGGC 	C [4290353]
+   4290303	    28	  96.4	    32	.......................G....	GCGAAGCCAGCTTCCGAGCGGCACGAAGCCGG 	G,C [4290276,4290292]
+   4290241	    28	 100.0	    32	............................	TTCGACACCGACGCCCTCGCCGCCGCGTTCCC 	C [4290230]
+   4290180	    28	 100.0	    32	............................	TTCTGATGGTTGGTTGGTGCGGGTGTCGAGCC 	C [4290169]
+   4290119	    28	  96.4	    32	..........................G.	ACATACGCGCCGACGAGCGTCATCCCCCGGAT 	C [4290108]
+   4290058	    28	 100.0	    32	............................	GAGCGCGGCGCGTCGACCTGGCTGGACCAGCA 	C [4290047]
+   4289997	    28	 100.0	    32	............................	ACCGCGGCTACGGGTGCCGCGAAGGCACACAC 	C [4289986]
+   4289936	    28	 100.0	    32	............................	TTGGGCACCCACACTCGGCACACCGCGCCCGA 	C [4289925]
+   4289875	    28	 100.0	    32	............................	ACCCGCAACGCCTTCGGTGCGTTGGCATCGAG 	C [4289864]
+   4289814	    28	 100.0	    32	............................	ACGCGCGGGTCGTCGGGCTGCGGGTAGCGGGG 	C [4289803]
+   4289753	    28	  96.4	    32	.......................G....	CCGTTCCTACGGGCCGCCCAACTGTGGGTTTC 	C [4289742]
+   4289692	    28	 100.0	    32	............................	GTGGACTTGTGGGCTGTCAGGCCCGGTCGATG 	C [4289681]
+   4289631	    28	 100.0	    32	............................	ACGGTCGCCCCGTCACCCGTGGTCCTGATGAC 	C [4289620]
+   4289570	    28	 100.0	    32	............................	GGACTGTTTGCCCCGTGCTGCCCACGCGGCGT 	C [4289559]
+   4289509	    28	 100.0	    32	............................	GTTGGACATCGCCTCTTTTTGTGATGTGTCGA 	C [4289498]
+   4289448	    28	  96.4	    32	G...........................	GTCGCAGTCCTCCAGCGCGCCGGCGAGGCCGG 	C [4289437]
+   4289387	    28	 100.0	    32	............................	TCCGTACGGTTGGCCAAGACAAGTAGCAGTAG 	C [4289376]
+   4289326	    28	 100.0	    32	............................	CGGCATGCAGCAGCCGGTACTCTGGCGCTCGC 	C [4289315]
+   4289265	    28	 100.0	    32	............................	TCCTTGGCGTCGGCGAGGCCGCCGAGGATCAG 	C [4289254]
+   4289204	    28	 100.0	     0	............................	|                                	C [4289193]
+==========	======	======	======	============================	=================================	==================
+        32	    28	  98.8	    32	CGGAGCACCCCACGTGCGTGGGGAGGAC	                                 	       
+
+# Left flank :   ATCGCCCTGCACATCGCCTTCCGGCGCGGCCTGTTGGACATTCCGTACTGCCTGCACCCGGACACTCAGGGCCGGACCAGGAGCCGGGTCGGCCCCGACGGACGGCTGGAGTGGGCCCATGTCGGCTCCCTACCGATCGACGGGCCACGTCCGGCCGGGCATGCGGTCGGCGCACAGGAGCTGACCAGCATGCTGAACTACGTGGCGGACCGCTTCGACTCGACTGTGGCCGTTCGCTGATCGGTGGCAGGACCAAGCACCACCGCGGACCTGCCACCGATAAGGTGAGCGATTCAGGCGAGTCCGATCCGGCGGTGGCTGGACCGCGGGTGCAGAAGTCCGCAGAGCCATCGGCGCGGCGGCCAGGGCGTGGGAGCCCAGCGACGGCATGCTCTCACCCGCCGGCGCCCAGCAGATCTGCACAGGCTCGATCATGTGTCGCCTCCAGAAACCCTGTGTGGGGAGGACGGCCATCAAGTCTGCGGCCTTCACCGTGAACG
+# Right flank :  ACTTCCTGACCTGCGGTTTTACCAGCCGTCCGGCCAGATTCTCTCGTCCGGGGTGGGAGGGTTGCCTTGGTGCTCTTGGGGGCTCATCGCGACCAGGGTAAGGCCGTCGAAGTCGACCGGGCGGCGTCTGCGTTCTCCTGCGGTCCGTAGGGAGAAGCCTTGTTCGGTGTCGTCTGGGTGGATGAGGACGGCGGCGCCGTCGCCGACGACGCTGCTTGCTGCGTTCCATAGCTCGTCGCGGACTTTGGCTGAGAGGGTTCCGACGAACATGCCGGGTGTCACTTCGATCATCCAGCGGCTGAGTGCACCGCGTAGACGATCGGGTACGGCCGTTGTTGCCAGGACGACAAGGGAAGCCATGCTAGTCCCAGGGGTCTGAGCTGTAGTTGACTCCGGACGGCATCGCTCCCATCTCCGGATCCCAGAGGGAGGTGATATCGGCCGCAGGTTGCCGCTGTTTGGGTGTGCTGTCGGGGTCGAGTAGGCGCTGAATGTCGGTG
+
+# Questionable array : NO	 Score: 8.94
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:1.00, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGAGCACCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [12-15] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [36.7-25.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [20,324] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.68,0.92   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_019871766 [4224773-4226365]; Endonuclease Cas2:WP_019871765 [4224474-4224776]; Helicase/endonuclease Cas3:WP_033665015 [4280305-4283085]; 
+# Array family : NA
+# Sequence source strain : DSM 45547
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica DSM 45547
+//
+
+

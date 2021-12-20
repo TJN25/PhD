@@ -1,0 +1,42 @@
+Array 1 98503-98840 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MXLE01000006-Salmonella enterica subsp. houtenae serovar 48:g,z51:- strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                   	Insertion/Deletion
+==========	======	======	======	=============================	==================================================	==================
+     98503	    29	  82.8	    34	.A.......A.TGT...............	GGGAGCTGGAGGTCACTCATAACCAGATGACCAG                	
+     98563	    29	  89.7	    34	.A........T.G................	AGAGTCTGTTTGCCACTAATAACCCACAGCTGGC                	
+     98626	    29	  86.2	    34	.A........T.G......T.........	AGGATCTGCAGGTCTGTGATAACCCACAGATGAC                	
+     98689	    29	  86.2	    31	.A.........TG......T.........	AGATACTGTGGGCCGATAATAATCGGCTGGC                   	
+     98749	    29	  89.7	    34	.A..........GT...............	GGGAGCTGGAGATCGCTGGTAACCGACAGCTGAT                	
+     98812	    29	 100.0	    27	.............................	GGAGATCGCTGGTAACCGACAGCTGAT                       	Deletion [98868]
+     98812	    29	 100.0	     0	.............................	|                                                 	
+==========	======	======	======	=============================	==================================================	==================
+         7	    29	  90.7	    41	CCGCCTGCCGGCACTGCCGCCAGGACTAC	                                                  	       
+
+# Left flank :   ACGACGCGGGAGGATGTGGTCAGCAGATTTGAACAGCTCAGGACGCTCGCGTATGCCGGATGCGAGGAAAACATTCAGTCCGGCCAGCACGGGGAAAGCCACTTCTGTATCCTGGATACAGACAGCCAGGAGATATTGTCAGCCACCCTTGATGACGCCGGCAACTATACCGTGAATTGTCAGGGGCATAGTGAAACACATCACTTCATCATGGATACAGAACAGGGAGAGGAATGCACAGAATTTGCGGAAGGGGCATCCCTCCTCCCTGCCACAACGACACCACCGATGGCAGAAGAATATGATTCTGTCTGGTCAGAATGGGAAAGGGATGCACCAGCAGGAGAGTCACCCGGCCGCGCAGCAGTGGTACAGAAAATGCGTGACTGCCTGAATAGTGGCAATCCAGTTCTTAACGTGGAAGAATCAGGTCTTACCACCTTACCAGACCGTTTACCACTGCATATTACAACACTGATTATTCCTGATAATAATCTGAC
+# Right flank :  CGGGTGCTGGATGCCTCTCTTAACCAGCTGACCCGCCTGCCGGAAAGTCTCACAGGTCTGTCCTCACAGGCAACCGTACATCTGGAACGGAATCCACTGTCTGAACGCACTCTGCAGATTCTGCGGGACATCACCAGCGCGCCTGGCTATTCAGGCCCTACGATATACTTCGATATGGCGGGTCCTTCCGTCCTCCGGGAAGCCCGGGCACTGCACCTGTCGGTTGCTGACTGGCTGATGTCTGCACAGGAGGAGGAACAAGCCCCTGCAGACAGATGGCATACGTTCGGACAGGAAGATAACGCCGTCGCCTTCAGCCTCGTCCTGGACAGACTAAGTGAGACGGAAAACTTCGAAAAAGACACGGGCTTTAAGGCACAGATATCGTCCTGGCTGACACAACTGGCTGAAGATGATGTGCTGAGAGCAAAAACCTTTGCCATGGCAGTAGAGGCAACATCAAGCTGCGAGGACCGGGTCACACTTGCCTTGCACCAGAT
+
+# Questionable array : NO	 Score: 3.45
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.54, 5:0, 6:1, 7:0.35, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGCCTGCCGGCACTGCCGCCAGGACTAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.80,-8.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [8-8] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-40.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1216,1298] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 343-86
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. houtenae serovar 48:g,z51:-
+//
+
+

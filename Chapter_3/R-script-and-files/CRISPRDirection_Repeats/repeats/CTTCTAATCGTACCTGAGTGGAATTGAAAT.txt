@@ -1,0 +1,95 @@
+Array 1 20-1243 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MVEC01000001-Spirosoma sp. 209 contig1, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	==============================	============================================	==================
+        20	    30	 100.0	    37	..............................	TTTGAAGTAGTTCAGGCAATCACCACTAGGCACTCGT       	
+        87	    30	 100.0	    35	..............................	TGATCGCGGTAATCGACGGTTTCAAAGACATACTC         	
+       152	    30	 100.0	    36	..............................	GAAAGGACTGAGCAAAACAAGTCAGGACGGACTGGC        	
+       218	    30	 100.0	    44	..............................	TTTGAAGTAGTTCAGGCAATCACCACTAGGCACTCGTCTTCAAA	
+       292	    30	  73.3	    37	AAAAA..AAA....................	TTTGAAGTAGTTCAGGCAATCACCACTAGGCACTCGT       	
+       359	    30	 100.0	    35	..............................	TGATCGCGGTAATCGACGGTTTCAAAGACATACTC         	
+       424	    30	 100.0	    34	..............................	GGCTATCTCGGTGACAAGCATACCTTTACGTCCG          	
+       488	    30	 100.0	    36	..............................	TTGATGTCCTTCTACGCATTAAGCACAGCGAAAACT        	
+       554	    30	 100.0	    36	..............................	GGGAGCTCCTGGCCTCGTTTCGCACGACAGCAGCCA        	
+       620	    30	  96.7	    36	...A..........................	TATTTCAGGATAAAATCAAGCGTATTTGTCAGCTTT        	
+       686	    30	  96.7	    37	...A..........................	GGCGCAGCTGACGCTGGACACCGAACAGGTATTCACT       	
+       753	    30	 100.0	    36	..............................	GCAATTTGTCGATATGAAATACGAACAGGCGATGGC        	
+       819	    30	 100.0	    36	..............................	TGTTCAACCCGTTGAGCGTCGTTCGCAGGCTTTCCA        	
+       885	    30	  96.7	    36	T.............................	GCTGAAAACTATTAACCTGGTGAACGTCTCGGCCGA        	
+       951	    30	 100.0	    34	..............................	CTGGAGAAATACTATACAGGGAGCACGTTGGTGA          	
+      1015	    30	 100.0	    37	..............................	CAAAGAACCAGGTCCGACCGGCCTCCGAGCTCGCTAC       	
+      1082	    30	 100.0	    35	..............................	TTAATAGCCTCCGGGGTGTTCTTAACGGTCTGGTT         	
+      1147	    30	 100.0	    37	..............................	TCGACGTCAACAGCAAGGATAACGACGGCTAGGAAGA       	
+      1214	    30	  93.3	     0	..........C.................G.	|                                           	
+==========	======	======	======	==============================	============================================	==================
+        19	    30	  97.7	    36	CTTCTAATCGTACCTGAGTGGAATTGAAAT	                                            	       
+
+# Left flank :   CAAGTCAGGACGGACTGGCC
+# Right flank :  TGGGCGGGGAGTTGGTTGAGTTACGGCGGTTGGTCCGTTAGGATTTGGGGGGTTGGTTCTTTGGTTGATGAAGGTACTCCATAATGCCTGATGCTAACTATGAAATCATACCTCATTGCGCTGGCTACAGCGGTCGTGCTGGCGGGCTGCTCCGGCGCTAACACCACCCAACAGGCCAATGGCTGGACCAGCCTCTTCGATGGAAAAACCCTCACCGGCTGGCGGGCCGCCGAAAACCCGGCCACCTTTAGCGTACAGGATGGGGCCATTGTAGTCTTCGGCCCACGGGCGCACCTGTTCTACGACGGGCCCGTCAACAACCATTCGTTCAAGAACTTCGAGTGGAAAGCGCAGGTGAAAACGATGCCCGGCGCCAACTCCGGCATGTTCATCCATACCACCTACCAGGATACCGGCTGGCCCGTCAACGGCTACGAAATTCAGGTGAACCAGACCCATACCGACTGGCGAAAAACCGGCAGCGTGTACTCGTTTCAGGA
+
+# Questionable array : NO	 Score: 7.71
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.89, 5:0, 6:0.99, 7:0.83, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCTAATCGTACCTGAGTGGAATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.80,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [8-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [11.7-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [21,90] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.5,0.86   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 209
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cytophagaceae;Spirosoma.; Spirosoma sp. 209
+//
+
+
+Array 2 671630-671284 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MVEC01000001-Spirosoma sp. 209 contig1, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                         	Spacer_Sequence      	Insertion/Deletion
+==========	======	======	======	========================================	=====================	==================
+    671629	    40	  92.5	    21	..........A.......AT....................	TGATGGGCGCCTGTCGATTCT	
+    671568	    40	  92.5	    21	..........A......T.G....................	GATCTGGGTACCCGACGGGGC	
+    671507	    40	 100.0	    21	........................................	GATCTGGGTACCCGACGGGGC	
+    671446	    40	 100.0	    21	........................................	GATCTGGGTACCCGACGGGGC	
+    671385	    40	 100.0	    21	........................................	GATCTTGACAACGGATGATGC	
+    671324	    40	  75.0	     0	C...C.......A....T.....A.A.......TT..CT.	|                    	A [671292]
+==========	======	======	======	========================================	=====================	==================
+         6	    40	  93.3	    21	TACCGACGCTGCGCTGTGTAGGCCCTGACGGGCCAGGGAT	                     	       
+
+# Left flank :   CCGGCGCCTGCTCGGTCGAGTGCCCCAAGTCGATTTCGCTCGACCATATCGCCCGCATGAACCGGGAATATCTGGGTGCCAAGCTGACCTCCGACAACGTTCAGGGATAAGCAGCGTAAGCACATCATACAAGCGGGCTCTTTCAGCGAAAGAGCCCGCTTTTTTTGTTCCTTTCTCTACCGATGCTGCGCTGTTAAGGCCCTAACGGGCCAGCGCATTGGTAGCATCGTTCAGGATCGCCCCTGACCCGTCAGGGTAAGAGCAGCGTAGCGTCGTCGGTGGCATCATCCGTTGTCAAGATCATCCCTGGCCCGTTAGGGCCCAAACAGCGCAGCGTCGGTAGCGAAGCGGGGTCAGCAAACACAATGTGCCGTCAGGTACATCACAGCGCAGCGTGGGTAGCATCATGGGAGCGGACCCCGATAAAAGCCATATACCGTCAGGGACATAACAGGTTAGGTACCTGACGGCACCTGGTTCCCACCTGGAGGGATGTTTTC
+# Right flank :  TTGCCGGAGTTCACGTTAATCCAGAGTGATTTAAACTGGCAAAAAAGCCGTCTGTGTAAAAGGCAGGGATAACGGTTGAGGTTTACAGTACCTTTTAATCGCTAATTCACAGTGAGTTGGCAGTGGTCATTCACCCGGAGACGGTAATCGTATCATGTTTACAAAGAAAACAAAGGCTGGAAAACCGGCCAGCTCACCCAAATCTGCGCTCCGCGAATGGGCCGATTCGATCCTGTTTGCCGTGGTGGCCGCTACGCTGATCCGATTCCTGACCTTCGAAGCGTATGCCATTCCGACGCCATCCATGGAGCAAAGCCTGTTCGTGGGCGATTATCTGTTTGTGAGCAAACTGCACTACGGAGCCCGCACACCTAAAACGCCGTTGCAGATACCACTTACCCACCAGAAAATCTGGGGTACCGACCTGCCGGCTTTCAGTACCGCGATTCAACTGCCTTCGTTCCGGCTGCCGGGCTTTTCGCACGTAAAAAGGGGCGATG
+
+# Questionable array : NO	 Score: 1.63
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.66, 5:0, 6:0.25, 7:-0.88, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TACCGACGCTGCGCTGTGTAGGCCCTGACGGGCCAGGGAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-11.20,-13.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [11-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [58.3-45.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [156,391] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.96   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 209
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cytophagaceae;Spirosoma.; Spirosoma sp. 209
+//
+
+

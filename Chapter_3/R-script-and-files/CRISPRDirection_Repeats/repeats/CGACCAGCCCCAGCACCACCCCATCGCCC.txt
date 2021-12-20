@@ -1,0 +1,40 @@
+Array 1 18378-18121 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AUKU01000041-Salinispora pacifica CNY239 H304DRAFT_scaffold00038.38_C, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	=============================	===============================	==================
+     18377	    28	  75.9	    25	......C...G...-.G..A..G..C...	TCGGTCACGAGCACCCCGTCGCCCT      	A [18366]
+     18323	    29	 100.0	    31	.............................	TCGACCAGCCCCAGCACCACGCCGTCGCCGT	
+     18263	    29	 100.0	    31	.............................	TCGACCTCGCCAACCAGCCCCCCGCCCCCCA	
+     18203	    29	  93.1	    22	......................G..C...	ACCGCCTCGCCCTCGCCGTCTC         	
+     18152	    29	  79.3	     0	............C.G.....A.C..AT..	|                              	C,AT [18133,18144]
+==========	======	======	======	=============================	===============================	==================
+         5	    29	  89.7	    28	CGACCAGCCCCAGCACCACCCCATCGCCC	                               	       
+
+# Left flank :   GGAGCGTCAGCAGGAGGCGGCGGAGCAGGCGCTCGGCGCGCAGTGGGTCGCCGACGAAACAGCGAACGGGCTCGCGGCGCACCCCACCGCCCGCGCGGCGGTCGGCTACGCGCTGGATCAGCTCGGTGATCCGTACCTCTGGGCGGCCGAGGGACCGGATCGGTTCGACTGCTCGGGCCTGATCTGGGCTGCCTACCGCTCGGCCGGCGACCGCAGCCTGCCCCGGGTCTCCCGCGACCAGTACTACGCGACCCGAAACCGCACCGTTCCCCGGACCGGCCTACTCCCCGGTGACCTTCTCTTCTTCGCCTCCGGGTCGAGCTGGACCACCATCCATCACATCGGCATGTACATCGGCGGCGGGCGGATGGTCCACGCCCCGAGCAGCGGCGACGTGGTCAAGATCTCAACTGTGACCTGGTCGCGCCTCTACGCGGCGACACGAGTGGTCGACGGGGTCCCCGCGCCCACGTCAACCCCGACGCCCACGCCGACCGCCT
+# Right flank :  TCGGCACCCCCGTCCCCCACCGTCTCGTCCTCAGCGGTACCGACCGACAGCTCATTCCTGCTGGGCTACGACAGCTCATTCCGGCTGAGCTTCGGCGCCTTCCTGCCGTAGCCGGCGCGACCGCGCCGACCAGCCGGCCCGACGGTCAGCGCCACATCCGTAGCCGGGACACCTGGGGTGGCCCGGCAGACGTCCGGTAGCCCTGCTCCGGCTGTGCTACCTGGACGGAATGTGGCACGGTGAGACCAGGCATTCCCGGCTCGGGTGGCACGAGTCCGGGTGCGAGCACGGCGCGGAGGGCGAACATGGCCGAACAGAACGACCCGGTGGACCCATCCGCCACGGACACGACGGTTATTCGGCCGGCGACGGGGCAGGCCTGGGTCTACCACCAGGCTGGCCCCAGAGAGCCCGAGCCGGTGCAACCACCCGAGCCCATGCAACCACCCGAGCCAGTGCAGCCGCCCGAGCCGGTGCAACCACCCGAGCCGGTGCAACCA
+
+# Questionable array : NO	 Score: 3.11
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.61, 5:0, 6:1, 7:-0.10, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGACCAGCCCCAGCACCACCCCATCGCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.30,-0.30] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-23.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [201,1504] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNY239
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica CNY239
+//
+
+

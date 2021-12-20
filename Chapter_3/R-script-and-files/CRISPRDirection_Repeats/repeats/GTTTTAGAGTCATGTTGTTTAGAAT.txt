@@ -1,0 +1,79 @@
+Array 1 79490-79060 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL454738-Enterococcus faecalis TX0031 Scfld14, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                                                                                                              	Insertion/Deletion
+==========	======	======	======	=========================	=============================================================================================================================	==================
+     79489	    25	 100.0	    69	.........................	GNNNNNNNNNNGTCATGTTGTTTAGAATGGTACCAAAACGCACACACACGCTACTCACAGGCATTATAG                                                        	
+     79395	    25	 100.0	    70	.........................	GGTNNNNNNNNNNTCATGTTGTTTAGAATGGTACCAAAACTCATAGCAGACCAACCTGCTCCATCGCTTG                                                       	
+     79300	    25	 100.0	    41	.........................	GGTACCAAAACCAATGTAAATGCTCATTATGATTTACATAT                                                                                    	
+     79234	    25	  92.0	   125	......................TT.	TCGCAGATACGATTTGATTGATGTAAAAATATCGTTAATATGTATAAATATGGTTATTATATAAAAAATATAAGTAATAAATTGAAGCTTTGCTAAAGCAAGTGATGCGATTACGAAATTATTTA	
+     79084	    25	  76.0	     0	A...........C...A....TT.C	|                                                                                                                            	
+==========	======	======	======	=========================	=============================================================================================================================	==================
+         5	    25	  93.6	    76	GTTTTAGAGTCATGTTGTTTAGAAT	                                                                                                                             	       
+
+# Left flank :   TGAGTTATGAAAAAGCTTAAATTGTTACTGATTAGTGGTTCATTCTAAACTGAAATCTAGCTATGGATAAGTGATGCGAGTACGGAACTTTGGAAAAAAATAATTCTCCGAGGTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAACGTGCAACAAAAGAATATTGTTGTCAATGGTGTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAACTGGCTTGTTGTTACGTGTATTACAGACGGGGTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAACCGAAGCACGATTGATATTAGCGCAACTATCGTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAACGTACATGTGACAGCAGTTCTACTTACATTCGTTTTAGAGTCATGTTGTTTAGAATGGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTCATGTTGTTTAGAATGGTACCAAAACATCAGTTGTCGGGAAATTGCCGGAGCGTGG
+# Right flank :  TTTACGAATAGAGAATACGATTATCTATAAATCAAGAATTAATCCCCAATTTATTGAAAATGACACTCCCTGTTTTATTAATATTTCATGCTTTTGTTGTACTATTTGATGATACAAAAAAGTAAAACTGAGGCCCCAATTAAAGTCAAGTTAACCACATTGAAAGATAGAACTTTCAATGTGGTTAAAGATGCTTAATGAGATTCATGAAACATAGAAAGCGGATTAATTTCCTATGCTCTTTATTTGTATATTTTCTTGGGAATCATTATTGATTGTGGATTAAAAAGATAATCCGCTCCCCGTTTCACCACAGGCATATTCGTAATAGCTAAAATGAAGAGGGCTAAGAAGAAAAGTGCCAGGATTCGGAAAGTAAACCATTCTTTAAAGAGTGTGTCTAATTGCAAACCACTTTCCAACAGAATAATTAAGGGCATATGCAAGAGATAAGGGTAGAGGGTATCTTTTCCGAGGGCGCTTAAAGGTAACTTTCGTTT
+
+# Questionable array : NO	 Score: 3.82
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.68, 5:0, 6:0.34, 7:-3, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGTCATGTTGTTTAGAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:72.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [244,481] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002392661 [80630-80959]; 
+# Array family : NA
+# Sequence source strain : TX0031
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis TX0031
+//
+
+
+Array 2 79644-79877 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL454738-Enterococcus faecalis TX0031 Scfld14, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     79644	    36	 100.0	    30	....................................	GATAGTTGCGCTAATATCAATCGTGCTTCG	
+     79710	    36	 100.0	    30	....................................	CCCGTCTGTAATACACGTAACAACAAGCCA	
+     79776	    36	 100.0	    30	....................................	ACCATTGACAACAATATTCTTTTGTTGCAC	
+     79842	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         4	    36	 100.0	    33	GTTTTGGTACCATTCTAAACAACATGACTCTAAAAC	                              	       
+
+# Left flank :   TTTTATATAATAACCATATTTATACATATTAACGATATTTTTACATCAATCAAATCGTATCTGCGAAAACTAAACAACATGACTCTAAAACATATGTAAATCATAATGAGCATTTACATTGGTTTTGGTACCATTCTAAACAACATGACTCTAAAACCAAGCGATGGAGCAGGTTGGTCTGCTATGAGTTTTGGTACCATTCTAAACAACATGANNNNNNNNNNACCATTCTAAACAACATGACTCTAAAACCTATAATGCCTGTGAGTAGCGTGTGTGTGCGTTTTGGTACCATTCTAAACAACATGACNNNNNNNNNNCATTCTAAACAACATGACTCTAAAACCCACGCTCCGGCAATTTCCCGACAACTGATGTTTTGGTACCATTCTAAACAACATGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCATTCTAAACAACATGACTCTAAAACGAATGTAAGTAGAACTGCTGTCACATGTAC
+# Right flank :  CCTCGGAGAATTATTTTTTTCCAAAGTTCCGTACTCGCATCACTTATCCATAGCTAGATTTCAGTTTAGAATGAACCACTAATCAGTAACAATTTAAGCTTTTTCATAACTCAAATAAAAGTTTTCGTCCAAAATATATTGGAATCTGTTCTGGACCACCCTTTGTTCTAAAAACAGGACATCCACATTATTTAAAGAGATATATTCTACCACTTGTTGCACTTCATCCTCTGTCAAATACGTACACGCATTAATAAAAATCAATAATTTTTTCTTTGATAAATAACGATGTACTTGTGTAATTTCCATAACTTTTTCAAAAATCGTATCACTCGTTGTTTCGATTTTGATTCCAAGAGCTTTGAAAAGTTCCTGCACAGTGATGCCATCTTCTTCCAAATCCATTTCATGTTCCAACAATTCATAGCCAATTAATTGACTAATTGTTCCAGTTAACTTCTCAATCATTGATTTGACTTCTGGTTTATCATTTAATTGTG
+
+# Questionable array : NO	 Score: 8.01
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.41, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGTACCATTCTAAACAACATGACTCTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [828,93] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002392661 [80630-80959]; 
+# Array family : NA
+# Sequence source strain : TX0031
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis TX0031
+//
+
+

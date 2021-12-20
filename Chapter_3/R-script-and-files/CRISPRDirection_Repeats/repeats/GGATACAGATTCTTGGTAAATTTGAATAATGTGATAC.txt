@@ -1,0 +1,40 @@
+Array 1 64-366 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LJRV01000061-Streptobacillus notomytis strain AHL 370-1		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	=====================================	===============================	==================
+        64	    37	  97.3	    29	.....A...............................	TTTCAGTTTTTGATGAATAGTAGGCACTT  	
+       130	    37	  97.3	    31	...........A.........................	GTTAGTAGATGAACAAATAGAAGATGAAATG	
+       198	    37	 100.0	    29	.....................................	TTGAAAGATACCAAATAGATTATGGAATA  	
+       264	    37	 100.0	    29	.....................................	TTAAATTTTCTCATATTATTATAGTGTTA  	
+       330	    37	  81.1	     0	T.C........A......T..AAT.............	|                              	
+==========	======	======	======	=====================================	===============================	==================
+         5	    37	  95.1	    30	GGATACAGATTCTTGGTAAATTTGAATAATGTGATAC	                               	       
+
+# Left flank :   TACAGATTCTTGGTAAATTTTAATACTGTAACACCAAATGTATAAGGTACAGTAGATGAAAATG
+# Right flank :  TAAATAATGATAA
+
+# Questionable array : NO	 Score: 6.53
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.75, 5:0, 6:1, 7:0.06, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATACAGATTCTTGGTAAATTTGAATAATGTGATAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.27%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.30,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [73.3-20.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : AHL 370-1
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Leptotrichiaceae;Streptobacillus.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromLJRV01000061.FEATURES             Location/Qualifierssource          1..379/organism="Streptobacillus notomytis"/mol_type="genomic DNA"/strain="AHL 370-1"/host="Notomys alexis (Spinifex hopping mouse)"; Streptobacillus notomytis
+//
+
+

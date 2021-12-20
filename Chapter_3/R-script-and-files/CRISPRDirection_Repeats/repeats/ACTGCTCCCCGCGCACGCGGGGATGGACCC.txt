@@ -1,0 +1,137 @@
+Array 1 70429-70702 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI911510-Streptomyces sp. CNT371 B105DRAFT_scaffold_2.3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+     70429	    30	 100.0	    31	..............................	TCCATGAGCTGTCCGCCGGCCTGCTGCCATA	
+     70490	    30	  96.7	    31	G.............................	ACGCCCGGCGACATCACCCGCCGCGGCCTCG	
+     70551	    30	 100.0	    31	..............................	GCCCCGGATCCCGCGCAGCTTGTGCCTGTGC	
+     70612	    30	 100.0	    31	..............................	GCCCCGGATCCCGCGCAGCTTGTGCCTGTGC	
+     70673	    30	  96.7	     0	...........T..................	|                              	
+==========	======	======	======	==============================	===============================	==================
+         5	    30	  98.7	    31	ACTGCTCCCCGCGCACGCGGGGATGGACCC	                               	       
+
+# Left flank :   GGCGAAGGTCGCCGCGGCGCTGCGCGCGGGGGCGGGGGAGCTGCTGGAGTCGGTGCGGCTGTTCGACGTCTTCACCGGCGAGCAGGTGGGCGAGGGCCGCAAGTCACTCGCGTACGCGCTGCGCTTCCGCGCCGCCGACCGCACGCTGACGGCCGAGGAGGCCGGCGCCGCGCGGGACGCCGCGGTGGCCAGGGCCGCCGAGGAGGCGGGCGCGGTGCTGCGCGGGGCGTGACCCGACGCGGCGGTACGGGGCCGGCCACCGGCCCCGTACCGCGGAATCTCCCCGCCGCCGGGCCCGGCGGCCGCCGCCGTGGCTGCTTGAGTTCGGCGTGCGGTCCCGCCCATACGGTTGAAGCTGAACTCGTAGCATTGCGTGAAGAGTTGGACTTCGCACGCCACGATGCACGCAGACTCCTCGCCGGACGGAAGGTGGAAATGTCCGAACCTTCACTTGTTGCTCAGAACGGCATCCCCTCTCGATAATCACCCAGGTCAGCGAG
+# Right flank :  CCACACGTTCACGATCGCGTCGTACGACCCTGCCTGCTCCCCGTGCACGCGGGGATGGACCCTCCTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGCCTGCTCCCCGTGCACGCGGGGATGGACCCTCCTCGTCGCCGAGGCGGTCCGGGACTTCGATCTGCTCCCCGTGCACGCGGGGATGGACCCCGGTGGATCCGCCGCCGTTCCGCCTTGTTTCGCTGCTCCCCGTGCACGCGGGGATGGACCCAGGTCCGTGGTGTAGCCGTAGCGCAGGGGCTCCTGCTCCCCGTGCACGCGGGGATGGACCCCCGAAGCTCGCCGCGCTGGGCACCGAGAACGTCTGCTCCCCGCGCACGCGGGGATGGACCCCCCTCCAGCGGCGCCTACGGCATCCCGCAAAGCTGCTCCCCGCGCACGCGGGGATGGACCCCACGCCAAGCTGTGGGGCCGCAACAGCACGAGCTGCTCCCCGCGCACGCGGGGAT
+
+# Questionable array : NO	 Score: 6.60
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.07, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACTGCTCCCCGCGCACGCGGGGATGGACCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-14.10,-14.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [45.0-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [270,989] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_078560354 [81624-84578]; 
+# Array family : NA
+# Sequence source strain : CNT371
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNT371
+//
+
+
+Array 2 70874-71575 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI911510-Streptomyces sp. CNT371 B105DRAFT_scaffold_2.3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+     70874	    29	  96.6	    32	..........T..................	CGGTGGATCCGCCGCCGTTCCGCCTTGTTTCG 	
+     70935	    29	  96.6	    32	..........T..................	AGGTCCGTGGTGTAGCCGTAGCGCAGGGGCTC 	
+     70996	    29	  96.6	    32	..........T..................	CCGAAGCTCGCCGCGCTGGGCACCGAGAACGT 	
+     71057	    29	 100.0	    32	.............................	CCCTCCAGCGGCGCCTACGGCATCCCGCAAAG 	
+     71118	    29	 100.0	    32	.............................	CACGCCAAGCTGTGGGGCCGCAACAGCACGAG 	
+     71179	    29	 100.0	    32	.............................	TACCTCCTGGCCCGCATCTCGGATGCGGCAGA 	
+     71240	    29	 100.0	    32	.............................	ACGTGCGAGCCGTGCAAGAAGAACGACGGGAA 	
+     71301	    29	  96.6	    32	...T.........................	CCGGCGTCGGCGGACGCGATCCGGTCCTCCGA 	
+     71362	    29	  96.6	    32	........T....................	AAGGAGCAGGCCGAGGGCGACGATCACGGACA 	
+     71423	    29	 100.0	    32	.............................	GACCTCGGCGACGGTCGCAGCTTGGCCGCGGT 	
+     71484	    29	 100.0	    33	.............................	GGGGAGGCCGGCGATCAGCTCCGACAGCGGCGC	
+     71546	    29	  93.1	     0	........T...............A....	|                                	T [71573]
+==========	======	======	======	=============================	=================================	==================
+        12	    29	  98.0	    32	CTGCTCCCCGCGCACGCGGGGATGGACCC	                                 	       
+
+# Left flank :   CTTCACTTGTTGCTCAGAACGGCATCCCCTCTCGATAATCACCCAGGTCAGCGAGACTGCTCCCCGCGCACGCGGGGATGGACCCTCCATGAGCTGTCCGCCGGCCTGCTGCCATAGCTGCTCCCCGCGCACGCGGGGATGGACCCACGCCCGGCGACATCACCCGCCGCGGCCTCGACTGCTCCCCGCGCACGCGGGGATGGACCCGCCCCGGATCCCGCGCAGCTTGTGCCTGTGCACTGCTCCCCGCGCACGCGGGGATGGACCCGCCCCGGATCCCGCGCAGCTTGTGCCTGTGCACTGCTCCCCGTGCACGCGGGGATGGACCCCACACGTTCACGATCGCGTCGTACGACCCTGCCTGCTCCCCGTGCACGCGGGGATGGACCCTCCTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGCCTGCTCCCCGTGCACGCGGGGATGGACCCTCCTCGTCGCCGAGGCGGTCCGGGACTTCGAT
+# Right flank :  CTCGGCACTGGCGACGATCCGCGGCCGGCCGGCGCCGGAATGGTGCCCTGTGCTGACACGACAGCGGCCCCCGCCGCGTGGCGAGGGCCGGTTACAGGGGGTCTGTTGTAAAGGGCTCAGGCGGGGAACTCTCCGCCCTTGACGGCGGCGACGAATGAAACCCAGCCATCCGCCGAGAAGATGAGCGCCGGACCGTCCGGGTCCTTCGAGTCCCGTACCGGCGTGATGCCGGGGAAGCTGTCGGAGACCTCAACACAGGTCGCGTCGCCCCCGTTGCTGTAGCTGCTCTTGCGCCACTGAGCGGCGCCGAGGTTGGCGGTACTCATGATGCCGTGTCCTCCAATACGGTTCTGATGAAGTCGAGCGAGGCTGACGGCGGAAGGGCCGCGTCTCGTAACTGATCGTATGACAGCCGGTATTGAGCCACCTCTGCCGCTTCCTCCACCAGGTCCCCGGACTTGCTGCCCTCCAGGTAGGCAACGCCCGTCCCGTCCGCTTGC
+
+# Questionable array : NO	 Score: 7.83
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:1.05, 8:1, 9:0.88,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCACGCGGGGATGGACCC
+# Alternate repeat :   CTGCTCCCCGTGCACGCGGGGATGGACCC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-25.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [715,117] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_078560354 [81624-84578]; 
+# Array family : NA
+# Sequence source strain : CNT371
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNT371
+//
+
+
+Array 3 84879-85763 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI911510-Streptomyces sp. CNT371 B105DRAFT_scaffold_2.3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+     84879	    29	 100.0	    32	.............................	ACCGGCGGCGCGGGCTGGATCGTGGAAGCCAA 	
+     84940	    29	 100.0	    32	.............................	GAGTCCGAGGCGTACGACGAGATGCCCGTGCA 	
+     85001	    29	 100.0	    32	.............................	ACCGGCGGCGCGGGCTGGATCGTGGAAGCCAA 	
+     85062	    29	 100.0	    32	.............................	GAGTCCGAGGCGTACGACGAGATGCCCGTGCA 	
+     85123	    29	 100.0	    32	.............................	GTGACGCTGCTGGCGGGGCCGGTGATGGTCCA 	
+     85184	    29	 100.0	    33	.............................	GATCGATGTACATGCCAGTCACTCACTCGTTCG	
+     85246	    29	 100.0	    32	.............................	CGCGAGGTGCCACGGGCCTGTTCGACCAGCTC 	
+     85307	    29	 100.0	    32	.............................	TCCCCACCGGCACCTTCGGCGGACCCATACCC 	
+     85368	    29	 100.0	    32	.............................	GGAATCCTGCCCGGTTTCGGGCGCCGACTGGG 	
+     85429	    29	 100.0	    32	.............................	GCCGAAGCGGACAAGATCATCGAAGAGGGTTG 	
+     85490	    29	 100.0	    32	.............................	AAGCAGTACATGAAGATCGCCGCCCGTCGCGA 	
+     85551	    29	 100.0	    32	.............................	AACCCCTTCTTCTCCATGGAACGCTGGCAGGA 	
+     85612	    29	  93.1	    32	.............G..........A....	AAGACCGCAAACGCCTATGTCCAGCTACTGGA 	
+     85673	    29	  96.6	    32	..............G..............	GTCCAGTGCACCGGCAGTGCATGACCCGTGCA 	
+     85734	    29	  93.1	     0	.C.............A.............	|                                	G [85743]
+==========	======	======	======	=============================	=================================	==================
+        15	    29	  98.9	    32	CTGCTCCCCGCGCACGCGGGGATGGACCC	                                 	       
+
+# Left flank :   ACAGACCGCCGCACCTGACGGGGCATCCAGTCGTCCCAGAGCCGCCCGGCCACGGCACCGCTGTCCGCCATATGCCGCCACAGCGGCAACCACGCACCGCTCCTGCCGCCCTCGCGCTGGTCGGATTTCGCCCACACCGCTCGGGCGGGCGAGGACAATTGCTCACCGATACGTGCCGCATCCGGCGGCCTGCCGTTCATGCCGTGCATTAGACCCCGTGACGAGACGATGCATAGCGTCGTTGAGTGATTCTGTCTGTTAATTCATGCTAGTGATTGACATTTTGTAGTTTTGCTCGTTCGCAACTGTTGCTCCCCTCCTACCGTGCCCGGCAGCCACTAGCTCTTCTGGCTTGCCCGGGCAGGAGCCCCCATGGACGTACGCTGAGTTGTACCTGAGGCGATACATGCTGTCCGGCTAACCGAATGGCGGAAATGTCTGAATCTCCGTTGATTGCTCAGAACGGCCCCACCTTGCGGTAAACACCCAGGTCAGTGAGA
+# Right flank :  CCCCTGGTCTCCAGGGGGTGGATCGGTCCAATCCAAGACTGGCGGCCGTGAGCCGGCCGCCGTGTGCGGTAGCTCCGTACGGAGTCCTGTAGTACGAACCAACTAATAGGCGTAGAACCCGGCGCCCGACTTCCGGCCCAGGCGTCCGGCCTCGACCATCCGCGCCAGCAGCGGCGGCGTCGCGTACAGCTGCTCCTTGTACTCCTCGTACATCGACTCGGCCACCGAGACGACGACGTCGAGGCCGATGAGGTCCGCGAGTTTCAGCGGCCCCATCGGGTGGGCGCAGCCCAGCTCCATCCCGTTGTCGATGTCCTCGCGCGTCGCGATGCCCGACTCGAACATCCGGACGGCGGACAGCAGGTAGGGGATCAGCAGCGCGTTGACCACGAACCCGGAGCGGTCCTGGGCCCGGATGGCGTGCTTGCCGAGCACGTCGCGGGCCAGCGCCTCGGTCCGCTTGAGCGTCTCGTCGCTGGTCGTCAGCGCCGGGATCAGCT
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.04, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCACGCGGGGATGGACCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [45.0-28.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [302,103] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_078560354 [81624-84578]; 
+# Array family : NA
+# Sequence source strain : CNT371
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNT371
+//
+
+

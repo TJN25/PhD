@@ -1,0 +1,90 @@
+Array 1 213-60 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AOIN01000004-Natrialba chahannaoensis JCM 10990 contig_5, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+       212	    21	  70.0	    37	---------.....................	GGGCACCGACCAAGACGAGCGAGATCAGCACGCAACC	
+       154	    30	 100.0	    35	..............................	CCGTATGGAGTGTTTTGTGGGTCCTCTACACCAAG  	
+        89	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         3	    30	  90.0	    36	GCTTCGAGCCCACAAGGGTAGTACTGGAAC	                                     	       
+
+# Left flank :   |
+# Right flank :  CCATCCCGACATCTCGGCCCTTGGGGCTTAAACATACGTTCTCTGAGCCACTGATTCCGT
+
+# Questionable array : NO	 Score: 4.07
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.50, 5:0, 6:1, 7:1.48, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTTCGAGCCCACAAGGGTAGTACTGGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.20,-5.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [45.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.68,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JCM 10990
+# Taxonomy hierarchy : Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae;Natrialba.; Natrialba chahannaoensis JCM 10990
+//
+
+
+Array 1 721-1808 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AOIN01000081-Natrialba chahannaoensis JCM 10990 contig_82, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+       721	    30	  73.3	    37	AT..TT...A.....A.T....T.......	AGCCTCCCCACTGTGTGACGACCTGGACGCAATCCTC 	
+       788	    30	  93.3	    37	..........T.................G.	CGGTTGATGAGAAGCGTGCAGCAGTGGTGCTCTCGGA 	
+       855	    30	  96.7	    36	..........T...................	GATGAGCGTCGGGATCTGGACGATCGCAGTATCGGT  	
+       921	    30	  96.7	    37	..........T...................	CATCGCCGAGGCCGTCGCCAAGAAATAGGCCCTCCTC 	
+       988	    30	  96.7	    36	..........T...................	AATGTCGAACAGTTGCCCCAACATCCCGATACCGAC  	
+      1054	    30	 100.0	    38	..............................	TTTGCCTCGTCGGCGTCTGTCGTTACCGAGTAGTCAGT	
+      1122	    30	 100.0	    37	..............................	GCGCGGACGTCGACGAGACGCCGCTGACGATCGACCA 	
+      1189	    30	 100.0	    36	..............................	CCACCATGGAATAGTAGGTGTTCAATGATGTCGTCG  	
+      1255	    30	  96.7	    36	............T.................	TGGCATGTCGAGTGTGACGTTGACGCTCGGATCCGT  	
+      1321	    30	 100.0	    36	..............................	AAGGCGCTCATGTCGGCCTTCCCTGGCACCGTGAAG  	
+      1387	    30	 100.0	    35	..............................	TGCTCGCAGCAATCACGCCAGCAGGCAGAGTACTC   	
+      1452	    30	 100.0	    35	..............................	CGCCGCCGTTGTCGTCGCTCATGTCTGTCTCTGTA   	
+      1517	    30	 100.0	    35	..............................	CATCCTGCTGCTGTTCCGCGAGAGAGTCTAAGCCG   	
+      1582	    30	 100.0	    37	..............................	CCTGGCCGACGTAGTCGATCTGTTCGAGTTGGTTCTG 	
+      1649	    30	 100.0	    36	..............................	CGTAAGTGGGGGCCATGTTCTCCTCCGTCATATCCG  	
+      1715	    30	 100.0	    34	..............................	CAGTTCATAGTTCCCCCACACCGTCGGCGTCGGT    	
+      1779	    30	 100.0	     0	..............................	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        17	    30	  97.3	    36	GCTTCGAGCCCACAAGGGTAGTACTGGAAC	                                      	       
+
+# Left flank :   ACGGCCAGACGATCCGCATCGATGCCGATGTCAAGCCTCGTGGCGAGTACACGCAGCCGGACATCGAGAACGAAGAGGACGCACGGACAGTCGTCGAGGACATCCCCGGCCTCGCGAGCCAGCAGATGTGCGACCAGGTTGCGTTGTATCTCGTCGAGGAAACTGGCCAGTCGATCGTCGAGGCCTCGGTGACAGTGCCACACGACGCGGTCGAGTGGTCGGTGATCGACGCAATCGACCCCGACGCATTGCCCGGTGATGGTCCGTACCAGGTGCGCGAAGTCCAGAGCGACTCGAGTCAGACCGAAATCCAGCTGGGCCAGGGGCAGACGGCTGCCGAGGCCGTCAACGAGATTCGTGACCGGACCTCGCGAACCGAAGAGCGGGTCTGACTACTATCGTGCTCGGACTAAGAGGTCTCCGGTAGGTTAAGCCGTCATGACGACGTGCATATCGAGGATGGCATCAGCATAGTCGGGAGAGACATCGAGTGTGCGTCG
+# Right flank :  CCATCCCGACATCTCGGCCCTTGGGGCTTAAACATACGTTCTCTGAGCCACTGATTCCGTCGACCTCCAATAACCGCTCAGACATGGGGGGTCGATGGAACACATTCTTCCCCCGACTGAGGTGAGAATTTACCTATGGCCTCGAACCTTCTGTTGATCACCTCAAAATGAGGTCTGGTCGGGAATGTCCCCTATTCGCAATCCAGATGCCGTTTCCAGCGCATATCTTGATGGAGAGTCAGTCGCGTCAACGTAATAGTACCTACCGTCAGTTATCGAATTGATCGCTTGATGTGACACATTTGTGTCGCGTAGTGGGAGCGATATCGTCCTCGAAGATAGATGACGCTGGATAGCGGTGCTCCAGTCGTGGTACCCTTCACTGAGAGCTTGCTTGTACATCGTCACGAGCTTGAGGTCGATGGCATCGACGCAAACAACGACATCGGCCGTGCGATAGTTCTCGCTGATGAGCGACTCTTTGGATAACGATCCAAACC
+
+# Questionable array : NO	 Score: 4.72
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.86, 5:0, 6:1, 7:0.86, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTTCGAGCCCACAAGGGTAGTACTGGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.50,-4.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [110,162] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JCM 10990
+# Taxonomy hierarchy : Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae;Natrialba.; Natrialba chahannaoensis JCM 10990
+//
+
+

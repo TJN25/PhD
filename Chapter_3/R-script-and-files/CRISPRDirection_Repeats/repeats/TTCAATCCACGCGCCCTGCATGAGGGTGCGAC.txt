@@ -1,0 +1,39 @@
+Array 1 65680-65918 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL622581-Eggerthella sp. 1_3_56FAA supercont1.3, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	================================	======================================	==================
+     65680	    32	  87.5	    38	........C...A..T.T..............	CGTCGGCATGGCTGTGGCGCAGTGACTTCGATACCAAT	
+     65750	    32	 100.0	    36	................................	CGCCGGACGCCTTGACCGGCTCGATCCCGTAGAGAC  	
+     65818	    32	  93.8	    37	...G..................G.........	TTCAAGCTTCGGGTCTGCCGCCTTGAGCCAATCGAAT 	
+     65887	    32	  93.8	     0	........C................A......	|                                     	
+==========	======	======	======	================================	======================================	==================
+         4	    32	  93.8	    37	TTCAATCCACGCGCCCTGCATGAGGGTGCGAC	                                      	       
+
+# Left flank :   GCTGTCGCAGCTGCGCGAGGGATGGCGGGGAGGCGCTGCGTCGACGGGTTGGCGGGTTGGCGGGCGGTTGGCGGGTTGGACGCGAAACGGCTCCTATGACAGTTTCGGCGGTCGAGTCGGGTATCGACGGTCGCACGTGGATTTCGTCACCTGGGATCATACGACCGCATGAGGCGATAAGGCGCGTCAAAGCAGGTCGAAGCCGCCTTGCGATTGTCATGGGAGCCGTTTCGCGCCCAACCCGCCCCCACAGCTGCCTGAAAAATGCCCCGCCGCACGTTTTCACAAGGCGATGTGCAGCAAAAACGAGGTTTTGGCACGAGGAGTCCTCGCACCCGAGACGGCACCGCGGCAAAACCCCAGATGACACTCGACCGCGCCCCGGAAACACGGCACCCGACCTCGAAAACACGTCGTCCCAAGCGGTCAAGACTGCCAAAACCTCGTTTTTGCTGCACACGAAGAGCGGAAGGGGCGGAGCGGAGTGGCCCGAAACCGAT
+# Right flank :  CCGCAACGATCATGGCATAGAGAAGGAATCGAGCACAATATCCTGCATTCCGTGCAAGCAGCCAACCGCACTGTCTCAACCTCGACGATCGAATCGATCCCGCATCGGGTGCGAACCTCCCGCATCGATCATGTTCGCCTTTGATTCGCACTCAGTCGAATTTGCAGCATCCTCCGCCGCCGCTTTTCGCAAAGAAGGCCCTGCCGTCATCATGACTGCAACGAAAAGGGCGTCTCCTGAACAAAAATCGCCGACGTTGGATGCTTTGCTCGACCATCGCCCCAGCCAAAGCCTCCCCCGCAATCAACGTGCAGGGAAAACGCCGACGAACAAGCGGGCAAGAAGAAGCGCGAGCGTTCACAACATCGAACGTCGACGCTTTTTGTGCAAATTCGGCCGATGACAAGCCGCCCGATACGGCAAGCAGCGCGCACATGGCCGCCGCGGAATCCTGGTATGATCAGGCCGATATGGCTATCCTCACTCAAGAATATAGCAGT
+
+# Questionable array : NO	 Score: 5.30
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.69, 5:-1.5, 6:0.7, 7:1.12, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCAATCCACGCGCCCTGCATGAGGGTGCGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.10,-6.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [4-4] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [38.3-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [692,713] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 1_3_56FAA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales;Eggerthellaceae; Eggerthella.; Eggerthella sp. 1_3_56FAA
+//
+
+

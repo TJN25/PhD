@@ -1,0 +1,239 @@
+Array 1 524599-523873 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI392031-Oxalobacter formigenes HOxBLS supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                                                                                                                              	Insertion/Deletion
+==========	======	======	======	=================================	=============================================================================================================================================	==================
+    524598	    33	  93.9	    24	..T..G...........................	GTCAGCACCATCGTTGACGACACA                                                                                                                     	
+    524541	    33	  84.8	    24	..T.T......................A.G..G	ACCGGCACCACTGTCAACAGCGGA                                                                                                                     	
+    524484	    33	  75.8	    24	...GT....C.T.....T..T......AT....	AGCGGTACCATCGTTAACAGCTCC                                                                                                                     	
+    524427	    33	 100.0	    24	.................................	GTCAGCACCACCGTTGACGACACC                                                                                                                     	
+    524370	    33	  84.8	   141	.....G........A............A.G..G	ACCGATACCGTCCTGAAAAGCGGAGGCGTGCAGAACGTCAGCGGCAGCAGAGCCATCGTCGATGACCTCACCTTCGACGGAGGCGGCGTCCAGAACGTCAATAGCGGCGCGACAGTCAGCGGCATCACCGTCAACAGCTCG	
+    524196	    33	  93.9	    27	..T..G...........................	GTCGGCACCATCGTTAGTAGCAACACC                                                                                                                  	
+    524136	    32	  84.8	    84	A....-........G............A....G	ACCGGTACCCTCCTCTATTTGGGAGGCGTCCAGAACGTCAACGGCAGCGGAGCCGTCGTCGATAGCATTACCTTCGACGGAGGC                                                         	T [524132]
+    524019	    33	  78.8	    24	............A.....AGT....C.A...T.	AGCGGCCTCTCTATCGACAACTTT                                                                                                                     	
+    523962	    33	  81.8	    24	....GG...C........A..A.....A.....	ATCAGCACTACTGTCAACAGTAAT                                                                                                                     	
+    523905	    32	  78.8	     0	A....-...C.......T..T.....AA.....	|                                                                                                                                            	T [523903]
+==========	======	======	======	=================================	=============================================================================================================================================	==================
+        10	    33	  85.7	    44	GGCACCCAGAACGTCAACGACGGCGGGTCAGCC	                                                                                                                                             	       
+
+# Left flank :   CCCAACACATCTCCAACAATGGGATAGCCAGCGGCACTATCCTTAACAGCGGAAGTGAGCAGACCGTCGACGATGGCGGAAGAGTTGTCAGCACCATTTTCAATAACGGCAGCCAAACCATCTGGGGAGGGACAGTCAGCGACACTACCCTTAACAGCGGAAGTGAGCAGATCGTCTACAGCGGCGGAATAGTTGTCGGCACCATTCTCAACAGCAGCGTCCAGAACATTCAAGTCAATGCGAGAGTCAGCAACACCATTCTCAACAGCAGCGTCCAGAATATCAGCGCCATTGGATCCGCCATCAGCACCGTCCTCCACAGTGGAAGCGTCCAGAATATCAGCGCCAATGGATCCGCCATCAGTACCGTCCTCCACAGCGGAAGCGTCCAGAACGTCAGCGGCTACCACGCCATCGTCGACGGCCTCACCTTCAGCGGCGGAGGTGTCCAGAATATCCTCGATTCTGCGACAGTCAGCGGCATCACCGTCAACAGCTCG
+# Right flank :  AACGGTACCACCATCAACTACTATGCCGTGCAGGTCATCAGCAACGGCGGGATAGCCATCGGAGCCACCGTCAACAGCGGGGGTCAGCAAAACATCAACGGCGGGTCGGCTGTCGGTACCATCGTCAACAGTGGAGGCAGGCAGTATGTCTCCATCTCCGGAACAGCCATCAGCGCGACCATCCACAGCGGCGGCAGACAGACCATCTTCAGCGGCAACGTGTCAGCCATCGACACCATCCTGAACGATGGAGGCACCCAGTACATCAGCGGTGGAGGGACAGCCGTCAGCACCACCATCTACGGCGGAGGCACCCAAGAAATCGACAACAACGGAATCGCCATCGACACCATCCTGAACGATGGAAGTGTCCAGAACATCAGCGCTAACGGAACCGCCATCAGCACCACCATCCACGGCGGAGGCCTGCAAACCATCAGCGCCGGCGGGTCAGCCATCGACACCATCCTCGACAGCGGCGGCACCCAGAATGTCAGCAC
+
+# Questionable array : YES	 Score: 0.93
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.43, 5:-1.5, 6:0.31, 7:-0.60, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCACCCAGAACGTCAACGACGGCGGGTCAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-4.00,-4.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [8-7] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [33.3-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [2920,1340] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.64   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005876726 [940036-940662]; Endonuclease Cas2:WP_005876723 [941682-941972]; Helicase/endonuclease Cas3:WP_005876730 [934006-936474]; 
+# Array family : NA
+# Sequence source strain : HOxBLS
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Oxalobacteraceae; Oxalobacter.; Oxalobacter formigenes HOxBLS
+//
+
+
+Array 2 525603-525404 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI392031-Oxalobacter formigenes HOxBLS supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence           	Insertion/Deletion
+==========	======	======	======	===============================	==========================	==================
+    525602	    31	  77.4	    26	.........T...G........GGT.A.C..	CACCATCAACAGTTCGGGCGTCCAGA	
+    525545	    31	  83.9	    26	.......T..T......G..A.......C..	CATCGTCAGCAGAGGAGGTACCCAGA	
+    525488	    31	  93.5	    23	.......T..........C............	TGTCCTCAGCAGAAGTACCCAGT   	
+    525434	    31	 100.0	     0	...............................	|                         	
+==========	======	======	======	===============================	==========================	==================
+         4	    31	  88.7	    25	ATGTCAACGACGGCGGGATAGCCAGCGGTAC	                          	       
+
+# Left flank :   AAAGACTACTTCTGGTGTCCGAGACACAAAGGGACAGACCGGCAATTTGAATGCACCCGCCTGATCACAGGACAACAGGTCATCGGGCACATCAAAAGACTGATGAACGACCGGGGCCTTTCGGGGAAGGAAGTGAAAAAAGAAGCGAACAAGGAAGGGCAATAGGAAAAAGCCCGAACGAAAGAAAAAGGCGAAAGCCGGAGAAAAAAGGAAAAGACAAAAAACAGGGAAAGAAAGAGGGAAAGCCATGAACAGGAACTACAGAACCGTCTATAACGAAAAGACAAAAACCTGGAGCGCGGTATCGGAACTGGCGAAAGGGCACGCGAAAACGGGAGAAGACAGCGCGGGTCTGAAAGAGAGAGTCAAAAAGGCCATAGTCCTGTTGACGCTGACGGCGGTACTGGCGCCGAATATCGTGCCGCCTGCGATGGCGGCTACGTATGACGTGTCAAACTCGACGGTGTCCGGTCAAACGCTCAATTCGGGCGATACCCAGA
+# Right flank :  CACCATCTACAGCGGAAGCTTGCAGATAGTCAGCAGCGGAGGAACCGACGTCAGCACTACCATCTCCGGCGGCGGCGTTCAGTACGTTTTCACCGAAGGATCGGCCATCAGCACCATTATCAATGGAGGCCGTCAGAACGTCAGCGGAGGGACAGCTACCAGCACCGTCATCAATCGCACCTCCAACTATATTGGCTACCAGTCCGTCTCCGACAACGGGTCGGCAGTCGATACCATTATCAATGGAGGCGGCCAAAGCGTCGACCGCGGAGCGGTGGCAATCAACACCGTTATCAGTGGAGGTACCCAACACATCTCCAACAATGGGATAGCCAGCGGCACTATCCTTAACAGCGGAAGTGAGCAGACCGTCGACGATGGCGGAAGAGTTGTCAGCACCATTTTCAATAACGGCAGCCAAACCATCTGGGGAGGGACAGTCAGCGACACTACCCTTAACAGCGGAAGTGAGCAGATCGTCTACAGCGGCGGAATAGTTG
+
+# Questionable array : YES	 Score: 1.12
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.44, 5:-1.5, 6:0.34, 7:-0.45, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATGTCAACGACGGCGGGATAGCCAGCGGTAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.40,-5.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [3929,336] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_005876726 [940036-940662]; Endonuclease Cas2:WP_005876723 [941682-941972]; Helicase/endonuclease Cas3:WP_005876730 [934006-936474]; 
+# Array family : NA
+# Sequence source strain : HOxBLS
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Oxalobacteraceae; Oxalobacter.; Oxalobacter formigenes HOxBLS
+//
+
+
+Array 3 620389-620039 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI392031-Oxalobacter formigenes HOxBLS supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	======================================	========================================	==================
+    620388	    38	  94.7	    40	................................AG....	AACAACACTGTCTATGGCGGGTGGAGTATGTTCGGCACCT	
+    620310	    38	 100.0	    40	......................................	GGCAACGCTGTCTATGGCGGGTTCAGTCAGTCAAACGCTG	
+    620232	    38	  94.7	    40	........................G.......A.....	ACTGGCAATGTCCATGGCGGGAGCAGTTATCAAGGAGAAG	
+    620154	    38	  89.5	    40	.........................G.AT...A.....	GGCGGCAATGTCTATGGCGGGAGAAGTGCTTACGCCCATG	
+    620076	    37	  89.5	     0	..............A.....A.-.........A.....	|                                       	G [620052]
+==========	======	======	======	======================================	========================================	==================
+         5	    38	  93.7	    40	CCACCGGCAACACCGTCACCGTGACCGGCGGGGCAATC	                                        	       
+
+# Left flank :   TCTATCAAAAACAAGGAAAAACATCAACGCCGCCGGTTTCCCCCTCCGGTTTTTTTCAGGAAGCCTCATCAGGACAAAAAAAAGAAAAGCCATTCAAATCAACAAGTTGCGCCTTCCAAATGTCCGCTAACAGGTATTAGCGGACATTGGGAAGAGACAGGCGGAAAAAGAGCGGAACACGAAAAAGGGAGAGCGACAGGGATGGAACAGGGGCAATGGCAAGGTGAGACAAAATCAGGGCAAACAGGAAAGGCGATTCAGGCAAAGCCTTTTGGCATCGGCCATCGCCCTTGCCCTGCTGCCGGTGGTACCGCCGGTCATGGCGGACGACATAAACGGCAACGGCAGTGAAGGGAAAATCACCGTAGATCATGACGTTAACGGTAATGTCTATGGCTGGTATTACGATGATGCGACGCCGGCCAATGGCGGGGAAGTCACCATGAACGGCGGGACGGTCAGCCAAGGTATCTATGGCGGGTACAGTTATCGAGGAGAAG
+# Right flank :  ACCGGCGCTATCTATGGCGGGTTCAGTGCTGATACAGGCGCTGCCACCGGCAACACCGTCATCCTGGAAGGCCATCCGGATCATCTGAACCTGAACGACGTGTACGGCGGGTACAGTGACGGACAAGGCACACAGGGGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGACAGCGACCTGAGAGACAGCAGCGGAAAAAGAGGAAGCTACGACAAAAAAGCGAACTACTACGGAGCGGGCATCGAACTCGGCTACACCCTTGGCGTGACAGAAACAGCCGAACTGGACATCAGCGCAGGCTACCAGTGGACAAGACTGGAAGGCTACCATACCCGCATAGCGGGAGACCCGTACCGGTTCGACGACATCGACAGCCACCGTAGCAAAGTGGGCGCCAAACTGAAATACAAAGCCGACAGGCAGTACACC
+
+# Questionable array : NO	 Score: 2.08
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.69, 5:-1.5, 6:0.29, 7:0.29, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCACCGGCAACACCGTCACCGTGACCGGCGGGGCAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.00,-6.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [250,707] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005876726 [940036-940662]; Endonuclease Cas2:WP_005876723 [941682-941972]; Helicase/endonuclease Cas3:WP_005876730 [934006-936474]; 
+# Array family : NA
+# Sequence source strain : HOxBLS
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Oxalobacteraceae; Oxalobacter.; Oxalobacter formigenes HOxBLS
+//
+
+
+Array 4 729054-726862 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI392031-Oxalobacter formigenes HOxBLS supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	===============================	=======================================	==================
+    729053	    31	 100.0	    34	...............................	ATCGTCAGGTCGTTTGCGTCCTGCTGGTCAAATC     	
+    728988	    31	 100.0	    33	...............................	GCCGCCGATACCATAGTATCCTGTACTTGCCCC      	
+    728924	    31	 100.0	    36	...............................	AATAGATGATGTGTTTGGGGATGTCGATGCAAACGG   	
+    728857	    31	 100.0	    35	...............................	ACGCTGGCTGGGTGTATGAAACGCCCACCACATCA    	
+    728791	    31	 100.0	    36	...............................	ATCGGATTGTGGAATTTTTGCGACGATGGCGGCAAC   	
+    728724	    31	 100.0	    34	...............................	AGGCGCGGTTCGTAATTTTCAATCAGCCATTCTG     	
+    728659	    31	 100.0	    34	...............................	CGTCTTTCGCCCGAATTGTGAACTCTTTTACTGC     	
+    728594	    31	 100.0	    33	...............................	ACGGTTAATATCAAGCAGCTTTTGTAATGTCGG      	
+    728530	    31	 100.0	    35	...............................	TATAATGCATACATCGCGTCCATCTTGTGGAATTG    	
+    728464	    31	 100.0	    34	...............................	ATTGTGCTTTCCTGCTCCACGCTCCACCCGTCCC     	
+    728399	    31	 100.0	    34	...............................	TTCGCGGCGCGTGGTCATGCGGTCAAGCTCCTGC     	
+    728334	    31	 100.0	    34	...............................	CTTCGCGGCGCGTGGTCATGCGGTCAAGCTCCTG     	
+    728269	    31	 100.0	    34	...............................	TTGTTGCGCCAAGAATAATAATCGTCTGTCCGGG     	
+    728204	    31	 100.0	    34	...............................	CCAACCCCATCATGTTAAATACGGATGGAAATAT     	
+    728139	    31	 100.0	    34	...............................	CGCTCCTTGCACGCGCTGAATTTTTGTTTTTCTG     	
+    728074	    31	 100.0	    35	...............................	TCCGACGGGTCTGCTTTATAATCGACAGAGATCAA    	
+    728008	    31	 100.0	    34	...............................	CGTTTTCCAGCGTAAAACTAATCCACGCGGGCCA     	
+    727943	    31	 100.0	    39	...............................	CCCGTTCTTCCCCCAGCCGACAACCTCATACTCCAGCCG	
+    727873	    31	 100.0	    34	...............................	CTGAAATCCTTGAGGTATTCTTCGACGTAATTAT     	
+    727808	    31	 100.0	    35	...............................	TTTTCTGAACGAACTATCTATAACAACGTCCAGAA    	
+    727742	    31	 100.0	    35	...............................	AGCCTCGACATTTTCCGCCTCCTCAAGTGTGTTAA    	
+    727676	    31	 100.0	    33	...............................	ATCGCCATAGCCGAAGCCTTTTTGATGTCCATT      	
+    727612	    31	 100.0	    34	...............................	CCGCTCCCACAAATATGCGCATGCCGATAGCGTC     	
+    727547	    31	 100.0	    35	...............................	AAAATAACCCCAATATCGAGCTGGTTTTAGATATT    	
+    727481	    31	 100.0	    33	...............................	ATCCGGATTCCGTCGCAAATTTCTGCCTGTATC      	
+    727417	    31	 100.0	    36	...............................	CGCGTTAGCGGTTGCCAAAGAGGCGGTATCTTCCGG   	
+    727350	    31	 100.0	    33	...............................	GTCTCCGATAACGTATCGTATTGGCATGGATGC      	
+    727286	    31	 100.0	    35	...............................	ATTGATCAGGCTCACCAGCGTGGTTGCAAGATCCA    	
+    727220	    31	 100.0	    35	...............................	CGGGATCTCGATAAAACACCCGGCAGGGTTTGCTG    	
+    727154	    31	 100.0	    34	...............................	CACATCATTGTGTTTTTGTCCGCGTGCCACATAT     	
+    727089	    31	 100.0	    34	...............................	TCAGTTTTTCAATCGCCGCCAGAATCGCCTTTCG     	
+    727024	    31	 100.0	    35	...............................	TCGATGATGCTTACGGCCTCATTTATCGCGTATGC    	
+    726958	    31	 100.0	    35	...............................	CTTGCGTTGTACAGCACTTCGTTGGTCAGTCCGTC    	
+    726892	    31	  74.2	     0	..........T..C......C.A.C..GCG.	|                                      	
+==========	======	======	======	===============================	=======================================	==================
+        34	    31	  99.2	    35	GTCGCACCCTCACGGGTGCGTGGATTGAAAC	                                       	       
+
+# Left flank :   CCTCACCATCGACCACTTCATGCGGATCAATGCGGAAAAAGACACCGATGGACGCCTGCGCGAACTGGCGTTTGCCACCGGATTCGACAACGCCTGTTCCATGGCCGACGCCATCTCCGAACTCAAATACCGCACCGGCCTGAAAACCAGCCTTGCCGGATACGACCTGACCGACGACCAACTGGAAAAACTGGTTCAGGCCAGCCTCCACCCGAACCTGCAAAACAACCCGGTCCCCATTACCGAAGCCATGCTGCGCGATCTCTACCGCGACCTGCGTTAAATCGCCGCCATCCGGACGCCCGCCCCGGAAAACCGGAAAACGCGGGAACCTGAGGCTCACAGCCTCTCCCCGGTGCGGTGCTCGCACTGGCAAACCCTTGAAAAAACACGTAAAATCGGAACCGGTCGGGAAAACCGTCCCGTTTCGCGTCAAAAACGGGGAGGTTCCCGCATTCTGCCCCTGAAAAGCCCGGTCCATCAGGCTTTCCAAGGGCACA
+# Right flank :  GTGGAGTAAAACCCCGGCTGTCTGTCGCGAACCGCCGGGAGTACGGCGGCTGCGCCACAACAGGTGCGCTGGCGGAAACGCCAAACTGTCCCGACTGGTCAGCGCTCAGGCGTTCGCCGCGTTTTACAGCCACACGGATTGAAATTCTTCCGGACAGCCTGTAGAGTACATCCTGTACCGCTACACGCGCCGTGCGCGGACGGATTCGCCGCCGGCGTCCCGCCATTGTCTCCGCGTGAAAGCGCCGGCTTTCCGGGCGCCAGTCCCTCTGAAGCGGAAAATGAAAAACCCCCGGCATGGCAGCGAAAGCACGCTTTGCACGACCCGTTCCGGCCGCCCCGGACGCAGAAAAAGGAAGGAAACGCAATTGGAAAACGAATCTGAAGAGTTAAGCAAGAAAACCCGGATTATCATCATGGTGGCCGTTGCCATAGTCATCGGGCTCATCCATCTGTTATACATCAGGCCGCGTTACGGCGATTCCCTTCCAATGATCCTCT
+
+# Questionable array : NO	 Score: 10.89
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.96, 5:0, 6:0.34, 7:0.59, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCTCACGGGTGCGTGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.60,-5.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-38.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [182,218] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,4.91   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_005876726 [940036-940662]; Endonuclease Cas2:WP_005876723 [941682-941972]; Helicase/endonuclease Cas3:WP_005876730 [934006-936474]; 
+# Array family : NA
+# Sequence source strain : HOxBLS
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Oxalobacteraceae; Oxalobacter.; Oxalobacter formigenes HOxBLS
+//
+
+
+Array 5 942207-942903 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI392031-Oxalobacter formigenes HOxBLS supercont2.2, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+    942207	    32	 100.0	    34	................................	CAAAATAGGCGGTAGGTTATGAAACAGACAACTA  	
+    942273	    32	 100.0	    34	................................	GTATCGGCTCCATCGTCACCAGTACCGGCACCGG  	
+    942339	    32	 100.0	    35	................................	TTTGCCAATTATGCCCGCCTGTTCCAGTCTGTCCG 	
+    942406	    32	 100.0	    36	................................	TCGCGCTGAATATACAGGCTCCGGCGCTCTTGTCTC	
+    942474	    32	 100.0	    36	................................	GCGGACTGTATCGCCATTTACGAACAGTCGTACCGC	
+    942542	    32	 100.0	    33	................................	AATTTCCGAGCAAAGGCATTGATGCTCAATCCC   	
+    942607	    32	 100.0	    34	................................	TCTGACGATGACCAGGAGGCCGTACTGGACGCCG  	
+    942673	    32	 100.0	    36	................................	ACCGATTAGAAGCCCGACTATGCAATAAATCAACTG	
+    942741	    32	 100.0	    34	................................	TCCGGCCAAAGACCTTGAGCGGACGCTAAACCGG  	
+    942807	    32	 100.0	    34	................................	GTCCCCGCACCGGATGCTGGAGACGAGGAGAAAG  	
+    942873	    31	  84.4	     0	.....................C..GG.-..C.	|                                   	
+==========	======	======	======	================================	====================================	==================
+        11	    32	  98.6	    35	GTCGCACCCCTCGCGGGTGCGTGGATTGAAAC	                                    	       
+
+# Left flank :   TCAACACGGAAGACCGGCAGGGACAGAAACGGCTCCGGAAAATAGCGAAGCTCTGCGAAAACTGGGGACAGCGCGTCCAGTATTCGGTTTTCGAATGTCTTGTCGAACCGGCGCAATGGACAGCCCTGCGTGCCGCTTTAATCAATTGCATGGATGAGGAAAAGGACAGCCTGCGCTTTTATTTTCTGGGCGCCAACTGGAAAAACCGGCTGGAACATGTGGGGGCGAAAGCCGCCATTGATCCCGAAGGGCCGCTCGTTTTCTGAAAACCGCGGCATTGAAAACCCGCTTGAGACAAAGGAGACCGCTTACGAAAAAACAAACGCGAGAACCAGAGGTTCACAGACTCTTCCCGGAGAGATGCTCGCACGCCCAAGTCTTTGAAAATAGGGCGAAAACGGTTTCCCTCATAAAAAAAGGCCGTAACGGGCCAGAAAAAAGGGGAGGTTCTCGCATTTTGCCTTGCAAAAGCCCTGTTCATCAGGTTTTCAAAAGGCACA
+# Right flank :  CTCCATTTTCCGTCCTGTCGTCAATACCCGTTTATGAACTGCCCCGATTGCCCATGAGCCAATCGGAAGCGCCATTTCTCCGGACAGACCGTACAGGAAGCCACGCTGTTCTTTTTTGCACGCGAATGGAATCGCCTTTTTTCCGGAAAGCGCCTGCCGTTTCCGATTGCCACCTTGCCCGGGCAGGGACGGCTTTGCCGGCAAGGGTGGCCAGCGGCGAAAGCGGCGGCAGCGGTTTTTTCCCTGCTGACAGCCTGTTTTCGCCTTGCCATTTCTTTGAAAAAGGACTTGAAAAATATCAACGGGAACCCATTTTACAAACAGGGACGGGATTTTCCATCAGGTGAAAATCCCGGTTTCGGAACCTCTTTCCAATACAAAAAGGAAGGGGAGACGATATGACAGACACCTGAAAGGCCAATCCGTTTGGATGGCTTGACATAATGGAGGAATAGACTATGTTACCCAGCGTTTTTGGTGAAAAACTGTTCGACGACATG
+
+# Questionable array : NO	 Score: 11.34
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.93, 5:0, 6:0.7, 7:0.71, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCCTCGCGGGTGCGTGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [5,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.60,-7.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-48.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [236,125] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0.74   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_005876726 [940036-940662]; Endonuclease Cas2:WP_005876723 [941682-941972]; Helicase/endonuclease Cas3:WP_005876730 [934006-936474]; 
+# Array family : NA
+# Sequence source strain : HOxBLS
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Oxalobacteraceae; Oxalobacter.; Oxalobacter formigenes HOxBLS
+//
+
+

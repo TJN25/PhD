@@ -1,0 +1,84 @@
+Array 1 27609-27861 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NFLV01000009-Eubacterium sp. An11 An11_contig_9, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                                         	Insertion/Deletion
+==========	======	======	======	======================	========================================================	==================
+     27609	    22	 100.0	    55	......................	TTCGTTGGCTTCTGAAAAATCCTCTCTATAATTTCAGCACAAACATTTTCCCGTA 	
+     27686	    22	  90.9	    56	................A..T..	TTCGCTGGACTTTGAAAAAATCTTCTCAAAATTTTCAAGTCTGATATTTTCCCGCG	
+     27764	    22	  86.4	    54	................A..T.C	TCACTTGTCTTCGGAAAAACTTTTCAAAATTTTCCACACGGATGTCTTTCCGTG  	
+     27840	    22	  90.9	     0	................A.C...	|                                                       	
+==========	======	======	======	======================	========================================================	==================
+         4	    22	  92.1	    55	TACTGAATTTCAGTACGTTCTT	                                                        	       
+
+# Left flank :   TAAATGTTTTTGTTTTTTTATCATAAGCTGCCTGGAGGATTGTTCCCGCCGCATCATCAAGCTGGAGAAAAAAATTTGCCGTTCCATCGGCGTCTTCTTTATCATCTTCTATTTTTCCCAGCGCCAATACCGTTGTGGCGGTCAAATGGTTATTTGCAATAAATGCCGCCACCTGGTTTTTGAAATCCGTTGTATCCAGCGGGAGATAATAAATCTTCCCCAGATTTAAAAACGTAAGTTCACTTTCGATTTCTTCCGTAGCGGCTTCCGGTGCTGTGGCGGCTTCTGTCATCTCTTCTTCCGTATCTGTCTGTGTTGTTCCTGTTGTTATCTCCATCCTGTCTGTTTCCCCATTGCCATCCTGCCGCAACAAAAAAAGCCCCAGACAGATGCACAGGGCGGCAAGGAGAAAGGCGGCCAGAAGTCCAAACAGGAGCGCTTTTTTTCTCATCGGATTCTCACTTCCTCTCTGATTTTTTTATTGCAGATGTTCTCCTGCG
+# Right flank :  TCTATGCCGTCAGTCATCAAAAAAGTTCTTCTGCAGGTTGACGGCTTTCACAACAGTCGTGTTTGCCCACTCCGGATGATACCTGGTGATGCTCTTTCCGGAGCCATACCATAACGCTTTGTTGACGCAAAATTCCACGACACAGTGGCCGTATTCATGGCCCCAGGTATTACAGTCAGGATCATCAAAACTTTTGTATTCTCCGATAATGGCATGGATGACCTTTCCATTGCCCAGGACAAAATCTACTTCATCCCCGATTTCCCCAAAGGTAGAAGTACAGGCGATCACATACCGGCCGTTGATGACACCAAATCCATTCCGGTCATAGGGTTCCCCGCTCTGAATACGCAGCTCATACTGCCTTGTCCCGCGATAGGTGATCATCTCCCATCCCATATAGGAATACACATCACCCAATCCCTTGGGCAGATTGATCGTCTTACCGGAACCGTAGGAATCCTGATCTTTCAATCGAAGGACAGTTGTAAGTTCTGTCC
+
+# Questionable array : YES	 Score: 0.09
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.60, 5:-1.5, 6:-0.25, 7:-1.05, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TACTGAATTTCAGTACGTTCTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.18%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [51,9] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_087314275 [106305-106622]; 
+# Array family : NA
+# Sequence source strain : An11
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae;Eubacterium.; Eubacterium sp. An11
+//
+
+
+Array 2 106182-105550 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NFLV01000009-Eubacterium sp. An11 An11_contig_9, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	===================================	=================================	==================
+    106181	    35	 100.0	    31	...................................	TTCTTTGTTTTCTGTTAGAGATTCTTTTTCT  	
+    106115	    35	 100.0	    33	...................................	AAAACACGTGAAAACAATTGCAACATTTTTACT	
+    106047	    35	 100.0	    30	...................................	GTTGGTAGACCATCTACAGAAAGACTTTCT   	
+    105982	    35	 100.0	    30	...................................	AAATGATTTCTGCTAAAGAAATTATTTCCC   	
+    105917	    35	 100.0	    32	...................................	TTCACATCGTTGCTCTCTTCCACTATAGATAA 	
+    105850	    35	 100.0	    32	...................................	CCTACATCTATACCCTTTGAAACACCAATGCC 	
+    105783	    35	 100.0	    31	...................................	TCAGGAGTTGCTCCTTTCATAACATCAAGCT  	
+    105717	    35	 100.0	    31	...................................	TTAAAGTATGCTCTTAAACCATCAAATTTTT  	
+    105651	    35	 100.0	    32	...................................	TTAATTGTGCGCGCCATTGCCACACACAAAAC 	
+    105584	    35	  97.1	     0	............................G......	|                                	
+==========	======	======	======	===================================	=================================	==================
+        10	    35	  99.7	    31	GAACTACACCCTGGCTGAAAGTCAGGGTCTAAAAC	                                 	       
+
+# Left flank :   TGTAAAGGACGTGGCAAAAGGAATGAGTATGTCACGTTATCATGTAGAGGAGATACAGTTTGCATAGACGCAGAGCAGTTGTTTTGGTAATGTATGATTTACCTGTAAAAACGGGTGAAAATAAAAAAGAAAGTGATAAATTTCGGAGATATTTAATTCATCATGGATATGTTTTTATTCAAAAATCTATATATGCAAAGTTACTTAGGAATAAGGCAACACTACGGCATGAAGTTTCATTATTGAAAAAAGAGGCGCCTAAGGGGGGAATCATAAATATTTTGCCGTTATGTATTGATGATTTTCGTAAGATGGAATCAGTATCTGAATCACCGTTCAATATATCAATGTTCGCTGATGATATGATTATTGTTTGACGAAATGTGCAGAAAGAAGGAATATTTTTTAAAATTGGAATAAAACTGTTCGTTTCGTTTGACATTCAGGAGTGTAAAAAGTATAATAAAAACAAGCTCTATACAAAGCTCATTTGTATAGAG
+# Right flank :  ACAATAGTGGAGACTTACTATGGAGTTCGACAAACAGGTTTATAAGAAGAAAAAGGATTAACATATTTAAGAAATTTTGGGAAAAGTACATTGGAAAAATTAGAAGTGTTCAGAGTTTATAAAGAATAGCGAATGGAAGACGATATGATACTGTTGATGATGAAATTGAATTTGGATTGACAAGTATTGACACCTATCACATTAGCGATAAAGTTCTTATCAGAATTGGTTGCATTAATCAGGATGATATTCATCCCATGACAGATATATATATTATCTGGAAGAAAATGATAATTAGAGCCATACCAAGTTTTAGAATTTTGAGAAACGGAAAACACGGGTATACAAAAAATATTGGAAAGTCTTACAATATGATATATGTCGTTTTTGGGATGAGTATTATTATATCTGTCATGATGAAAGAAAACTGCGTCATATCTGAATAGAACTCAAAGGACAAACAGGATGACTATACGTAGACGATAAGTATGTACCCGCAC
+
+# Questionable array : NO	 Score: 4.90
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:0.39, 7:0.52, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAACTACACCCTGGCTGAAAGTCAGGGTCTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.43%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.40,-13.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [259,124] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_087314275 [106305-106622]; 
+# Array family : NA
+# Sequence source strain : An11
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae;Eubacterium.; Eubacterium sp. An11
+//
+
+

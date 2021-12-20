@@ -1,0 +1,91 @@
+Array 1 67936-67664 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV789046-Aerococcus sp. HMSC06H08 Scaffold843, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+     67935	    28	 100.0	    33	............................	CTTAAGAAGGAGAAATAGCGATGAGAAAACTAG	
+     67874	    28	 100.0	    33	............................	TGTGCGGACTATCGTAGAGCAGTACCCTTCAGC	
+     67813	    28	 100.0	    33	............................	CAATCGTTTGGATTCTCAAACTGCCACTCTTAC	
+     67752	    28	 100.0	    33	............................	TCTTTGGGCAACTACCGCTCAACGGATAAGGTG	
+     67691	    28	  96.4	     0	............T...............	|                                	
+==========	======	======	======	============================	=================================	==================
+         5	    28	  99.3	    33	CTTCTTCCCGCACACGCGGGGGTGATCC	                                 	       
+
+# Left flank :   TTTTGGCTTGATCGGTGTCATCGCGACGATGATCGACTTTGCCTTGTTAACTGCCCTCACCGAGTGGGGCCATGTCCACTACCTGCTATCAGCCGGGATTGCTTTCGTGGTCGCCACGATCTTTAATTATTTGGCCTCCATGCGCTATGTTTTCGTGAGCCGGTTTTCCAAGGAAGAGCGAATCCAGGAATTAGTCTTGTTTGTGACCTTGTCAGTTGTCGGGCTCATCCTCAACCAGGTCTTTATGTGGGCCTTCGTTGAGAAACTAGGCCTCTTCTACCTCCTAGCCAAAGTCCTTGCGACTGTCCTCGTGATGGCCTGGAACTTTATCTCCCGAAAATTGTGGATCGAATAAGACGCTAGGAAATCAGTCACTAGGCATGGCTTATCTTGGATAAAAGTGGGGAAATGCCTTATAGTAAGTGTAGGGGAAATGATAAAGTGAATGAAAACGGTCCAGGGATCGAATAAAAAATTTGATTTTATCAACTTCTTTTAGT
+# Right flank :  TAACCAGCTAACAAAGTGTGGAAAATTTTTGCCAGCTTCTTCCCTCTTTACCGGCTATATGTATTAAATTTGACCCTGTAAGTTTAAGAAGGGAGCCCATATGTTACGAGCCTATCCTGCCTTGTTTTACTATAGTCCTGATGAAAGCAATATTCCCTTTTCAATTGTATTTCCCGATATTCCCAGAGCGATCACTCAAGGGGCGGATATTCCTGATGCGCTCTATATGGCGAGCGACTGCCTGGGCCTTCATTTAGTAGATTATTTAGATCGTGGGCAAGCTTTACCTGAGCCGACTTCAATCAATACCTTATCCTTAGAAGCCTTCTTGCCTGACGACGAGGGCTTTCGCTTTGATCCTGACCGCTCCTTTGTCTCCATGGTTTTGGTCGACCTCGATGACTACAGGAGCTAAGAGAGGATTTCTTCTCGGAAGTGAAGAGCTTTTATTTTAAAGCGGTCCAAGTTTTGATACAATAAGATTAAAATAAGTAAGTGAA
+
+# Questionable array : NO	 Score: 7.32
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:0.56, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCTTCCCGCACACGCGGGGGTGATCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.80,-9.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [102,146] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.68   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC06H08
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus sp. HMSC06H08
+//
+
+
+Array 2 82972-83910 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV789046-Aerococcus sp. HMSC06H08 Scaffold843, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     82972	    29	  72.4	    32	CTA.GAT.....A........A.......	GACAGGATCTTCGTAATCTTGAAAAATGCTTG	
+     83033	    29	  96.6	    32	.........................A...	ATCATGGGGCAACTTGGAAAGCTCAACAAACC	
+     83094	    29	  96.6	    32	........T....................	GCTGATGAGCTTTCGCTTGCTAAAGCGGATGT	
+     83155	    29	 100.0	    32	.............................	AATAATATTTTATCCATTCAGTGCCGCCTGCA	
+     83216	    29	 100.0	    32	.............................	CACACAATAGATGTGCGTCTTTTGCATATCCT	
+     83277	    29	 100.0	    32	.............................	ACGATAGCCTTCTCCGTACAGGTCATATATTG	
+     83338	    29	 100.0	    32	.............................	CTAGTGACTAAAGTATTAGTCGCACACTTAGA	
+     83399	    29	 100.0	    32	.............................	TTTCGTGTATTTTTTTATTGAAACACTTAATA	
+     83460	    29	 100.0	    32	.............................	CTGAGCGCTTCCACTGGCCATCACGAAACTCC	
+     83521	    29	 100.0	    32	.............................	ACCAAGCTTGAAAAGCTTGTCGGCAAGTCCAA	
+     83582	    29	 100.0	    27	.............................	ACTANNNNNNNNNNNNNNNNNNNNATA     	
+     83638	    29	 100.0	    32	.............................	ATCTATGACAGAAATGCAAAAACACGTCTTAG	
+     83699	    29	  96.6	    32	G............................	AAGAAGTACGAAAAAGGTAAAGGGCAGCTCAG	
+     83760	    29	  96.6	    32	G............................	TTCTTTGGATAAGCTGATTCGACCATGCTCCC	
+     83821	    29	 100.0	    32	.............................	CTCGCACGATAAACATTTCCTTGTGGTCAATA	
+     83882	    29	  96.6	     0	............................N	|                               	
+==========	======	======	======	=============================	================================	==================
+        16	    29	  97.2	    32	AGGATCACCCCCGCGTATGCGGGAAGAAG	                                	       
+
+# Left flank :   TCATTTCTCTTTTTTCGTGTTCTCGTATTGCTGAATGATATTCTTTTCTTGGAGTCTTCCCCGCTTGCGTGGGAAGAAGCTTGAACTTGTATCTGATCTTGTGCGCCTTGTGAGATCACCCGCGTATGCGGGAAGAAACCTGACGTCATATTTTCAACTTTACATTCTCTATTGGCAAGACGATTGATCAGAGCGGAGTAGCACCGATATTCTTCCCAATGCTAAATCCCATATTAGAGACGATAATGAATGGCAGGACTAAGATAAAGTTATTTTCTTCCATATTTCTTTTCATCTCTAATTGTTGAGTAAACGGTTAATCCTAAACCGACAACAGTAGCTAAAACCAATAATGCGAGTAAGACAATTGTAACTGCTGACATAATTTGAACCTCCTATGAATGTGCTATAATAGAAGTACCGAGGGGAGCTGTTACCTCCCCTGGTACAGAAGAAGCTTTAATCGTTGGATTGGGCTTCTTTTTCTTTTTGGTCGTTAT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNATCACCCCCGCGTATGCGGGAAGAAGACTAAAAAAAGCTGATTAAATCAAGCTTCTTATTCGATCCCTCGGCCGTTTTCATTCACTTTGAAATAATTTGCTTGCTACAATCACTATAAATGATTCTTATCATTTTATCTAGGAAAAACCCTCAAAAAAACTCCTCAGTGCTTGCGACTCAGGAGCTTCGATTAATTTATTATTTATCATCAAAGATACTACCAGGTAGGACTTCGACGAGTTGGGTGTTATCTTGTGATTTGACGACTTGCATGAGGGATTGGTAGTCGAAGGGCACTTGTCGCTCAGGGTTTTGAACTTCAGCTAGGACACAAATGCCCACACAGGTCGCATTGAATTCTCTGGTCATGCTCAACATGCCTGTGATTGTCCCGCCACCATTCAAGAAATCATCAATAATTAAGACTTTCTCTCCTTCGCCTAAGCTGTTCTTAGTGAGTTCCATTTTCTCAACCCGGCT
+
+# Questionable array : NO	 Score: 7.86
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:1.00, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGATCACCCCCGCGTATGCGGGAAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.80,-9.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [10-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1037,218] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.82,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC06H08
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus sp. HMSC06H08
+//
+
+

@@ -1,0 +1,212 @@
+Array 1 4534951-4535246 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020895-Streptomyces hygroscopicus subsp. jinggangensis TL01, complete		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=======================	=======================================	==================
+   4534951	    23	  91.3	     0	.....T..A..............	-                                      	Deletion [4534974]
+   4534972	    23	  87.0	    19	GC...........G.........	AACCCACCCACACACACCC                    	
+   4535014	    23	 100.0	    19	.......................	AACCCACCCACACACACCC                    	
+   4535056	    23	  87.0	     0	.............G..A..T...	-                                      	Deletion [4535079]
+   4535075	    23	 100.0	    19	.......................	CGAACCCACCCACACAGAC                    	
+   4535119	    23	  78.3	    39	......TC.......C.G....C	ACACCGCCGACGCAGGCCGCGACCCCGCCGCCCCACCTC	
+   4535182	    23	  82.6	    19	.......G...G...C.C.....	GCACCGCCACCCCGACACC                    	
+   4535224	    23	  87.0	     0	.......G.......C.C.....	|                                      	
+==========	======	======	======	=======================	=======================================	==================
+         8	    23	  89.2	    17	CGGCACCACCGACACGGACCCCG	                                       	       
+
+# Left flank :   GTGGGCCGCCTCTGCCGGCAGAAGGGTCAGGACGTCCTGCTGCGCGCCTGGCAGGACGTCCTCGGCGTGCTGCCCCGGGCAAGGCTGGTGCTGGTCGGCGATGGCCCGGACCGGGAGGGCTTACGCCAACAGGCGCCCCCCTCGGTGCAGTTCACCGGCGCCGTGGCCGACCCCGTGCCCTGGTACCGGGCCGCCGACCTGGTGGTGCTCCCCTCGCGCTGGGAAGGCATGGCGCTCGCCCCGCTGGAGGCGCTGGGCTGCGGCACCCCCGTCGTCGTCACCGACGTCGACGGCGCCCGCGAGAGCCTGCCGCCGGCACTCGCCGCGCACTGCCTGGTACCGCCGGAGGACCCCGCGGCGCTGGCCGGCGCGATCACCGCGCTGCTGTCCGACCCACCGCTGCGCGCGGGGCTCGGCGACCAGGGCCGCCGGCACATCCTCTCCGCGCACGACGTACGGCACACCGCCGAACGGATCGCCTCCCTCTACGGCGAACTCCT
+# Right flank :  GGTCCCGCCGCCCCCGGTCCCGCCGACCCGTCCGGGGCCGGTGACGCAGCCCAGCCCGTGTCCTCCGAGTGCAGGGAGTCCATCCACTCGTGACTGCGGAAAGCACCGTCCCCTCCCCCGGCTCGCAGCCATGGGACCACGGATTCTCGCCCGTCTCGGTGCTGCCGGCCCGCACCGCCGGCGGCTTCCGGTTCCCGGTGCGGCGCCCACCCGCGCGGCCCGCCTCCTCGCTGCCGCTGCTCGCCGCCGACCTGCTCGCCGCGCTGGTGGGCGCGGTCGCGCTGGACGAGGCCGCCCGCCGGCCGGTGCTCGTCGCCGCGCTGGTGTCCGGCGCGCTGCTGCTGCGCCCGCACTCCGCACGGCCGGTGCCCGGTGTGCTCGACGAACTCCCCTTGGTGTGCGGGCGCATCGCGGTGGCCTGGCTGGGCCTCGCCGCGCTGCTCGCCGCGTACGACCCCGAGCGCGCCCTCACCGTCCGGACCCTGCTGCTGGGCTGCGCG
+
+# Questionable array : YES	 Score: 0.33
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.46, 5:0, 6:0.25, 7:-1.45, 8:0.6, 9:0.47,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCACCACCGACACGGACCCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.40,-1.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [5-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [31.7-16.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1192,158] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.6,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. jinggangensis TL01
+//
+
+
+Array 2 6583787-6584156 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020895-Streptomyces hygroscopicus subsp. jinggangensis TL01, complete		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=========================	========================================	==================
+   6583787	    25	  96.0	    40	.....................T...	GGCCCCGAAGGGGCGCGGGGAACTGCGCGACCAGCCACAG	
+   6583852	    25	  96.0	    37	......G..................	AGGTCCCGAGCCGCACGCCGCATGCCGCAAGCGCACC   	
+   6583914	    25	  96.0	    39	.....................T...	GGCCCCGAAGGGCGCGGGGAACTGCGCGACCAACCACAG 	
+   6583978	    25	 100.0	    36	.........................	AGGTCCCGAGCCGCACGCCGCAAGCCACCACGCACC    	
+   6584039	    25	 100.0	    29	.........................	GCCCCCCGAGCCGCATGCCGCAAGCCGCA           	
+   6584094	    25	  72.0	    12	......G..G.AGC...C..C....	CCACCTGATCGC                            	G [6584098] Deletion [6584132]
+   6584132	    25	  68.0	     0	.....T.A.....CCA...CA...A	|                                       	
+==========	======	======	======	=========================	========================================	==================
+         7	    25	  89.7	    32	CGCACCCGCACCCGGCAACGGCCCG	                                        	       
+
+# Left flank :   TGGGCGGCGGGTTCGAGCTGGCGCTGTCCTGCGACCTGATCGTGGCGGACCGCACGGCCGTGGTGGGGCTGCCGGAGGTGTCCGTGGGCGTGATCCCGGGCGGCGGCGGCACCCAGCTGCTGCCCCGGCGGGTCGGCGCGGCCCGCGCGGCGGAGCTGATCTTCTCGGCGCGGCGCGTGGAGGCGGCGGAGGCGGCCGAGCTGGGGCTGGTGGACCGGCTGGTGGAGCCCGGCCGGGACCGCGAGGAGGCACTGGCGCTGGCCGAGCGGATCGCCGGGAACTCGCCGGTGGGACTGCGGGCGGCGAAGCGGGCGCTGCGCTTGGGCCACGGGCTGGACCTGCGGGCCGGGCTGGAGGTGGAGGACGCGGCCTGGCGCTCGGTGGCCTTCTCGGGCGACCGGGCGGAAGGAGTGGCAGCCTTCAACGAAAAGCGCAAGCCGGAGTGGCCGGGGGAGTAAGAGCCCCCGAAGAGCCGCGGGGAACTGCACGACCAGCCACAG
+# Right flank :  ATTCCTCCCTAACCTGGAGTAATGGGTGAGGACAAGCGGCTGACCGCAGTCGTGGCGCTGGCGCAGGGCATGGCGGCGGCGCACACCCCGCGGGAGTGCTGGCAGGCCGCCGCCCTCGGCGCCTGCCACGCGCTGGACGGCAGCTTCGCCGCGCTGTCGGTGTGGGAACGCGAACTCGGCCGGCTCCGGGTCCTCGTGAACGTGGGCGACCGCGCCCCGGACGAAGAGGAGTTCCCGGAGGCCGAGACCTACCCGGTGCACCAGTTCCCGGAGATCACCGAGTTCCTGCACGAGCGGTGGGCCGGCGGCGGCGGTCCCAACGCCTGGGTGGAGACGGCCGAGGGCACGGCGAAGGGCACCCCCGGCTACTTCCACCAGCGCGTCGCCGCCCTGCGCCGCCGCGGCCGCGGCTGCTGCGTGGTCGCGCCCGTCGTCCTGCACGGCCGGGCCTGGGGCGAACTGTATGTGGCGCGGCCGGTCGGCGAGCCCCTCTTCGCACG
+
+# Questionable array : NO	 Score: 2.88
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.66, 5:0, 6:0.34, 7:0.59, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGCACCCGCACCCGGCAACGGCCCG
+# Alternate repeat :   CGCACCCGCACCCGGCAACGGTCCG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.30,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [30.0-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [44,59] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. jinggangensis TL01
+//
+
+
+Array 3 6824146-6825466 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020895-Streptomyces hygroscopicus subsp. jinggangensis TL01, complete		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                                                                                                                                                                                           	Insertion/Deletion
+==========	======	======	======	==================================	==========================================================================================================================================================================================================================	==================
+   6824146	    34	  85.3	    37	.T..C...A....................G...T	CTCGACGCTCTCACCGGCCGCCTCGGCAGCGGACGCC                                                                                                                                                                                     	G [6824172]
+   6824218	    34	 100.0	    46	..................................	CCGGCTCCTCGGTGGCCTGTGCCGGAATCTCCGGAACAGCCGCCTC                                                                                                                                                                            	
+   6824302	    34	  73.5	    38	A...C...A........T..T.C...C..AG...	TGACCGCCTCCCCGTCGACCGCGTCCACGGCCGCGGTG                                                                                                                                                                                    	
+   6824374	    34	  97.1	    26	..C...............................	CCTCGGGGGCTTCCGGCGCGGCTGCG                                                                                                                                                                                                	
+   6824434	    34	  94.1	    32	..............G..C................	CCTCCGGTTCGGTGGCCTCGGGTGCCGTGGCG                                                                                                                                                                                          	
+   6824500	    34	 100.0	    29	..................................	TGGCTTCCGCGGTGTCCACGGCGGCTGCG                                                                                                                                                                                             	
+   6824563	    34	  79.4	    38	.T..C...C..C..A..............T..C.	TGCCCTCGGCCGTGTCGGCAGCGGCCTCGGCGGCTGCG                                                                                                                                                                                    	
+   6824635	    34	  97.1	    32	..............G...................	CCTCCGGTTCGGTGGCCTCGGGTGCGGCAGCC                                                                                                                                                                                          	
+   6824701	    34	 100.0	    26	..................................	CCTCGGCCGTCTCGGGCTCGGCGACC                                                                                                                                                                                                	
+   6824761	    34	  91.2	    38	.T..C...A.........................	TCGCTTCCGCGGTGTCCACGGCGGCCTCGGCGGCAGCG                                                                                                                                                                                    	
+   6824833	    34	  88.2	    35	........C.....G..A..G.............	CCTCGGCCTCAGGGGCGTCGGTCGTGACCGGCTCC                                                                                                                                                                                       	
+   6824902	    34	  73.5	    38	..T.C....T....G..T..G.......TT..C.	TGCCCTCGGCGGTGTCCACGGCGGCCTCAGCGGCAGCC                                                                                                                                                                                    	
+   6824974	    34	  91.2	    29	........C.........A.G.............	TGGCCTCGGCCGTCTCCGGCTCGGCAGCC                                                                                                                                                                                             	
+   6825037	    34	  94.1	    26	........C...........G.............	CCTCGGGGGCCTCCGGCGCGGCTGCG                                                                                                                                                                                                	
+   6825097	    34	  88.2	    47	........C..C..G...........C.......	TGGCCTCCGCCGTGTCCAGTGCCGTCTCCGCCGGGGTCGCGGCCTCG                                                                                                                                                                           	
+   6825178	    34	  94.1	   218	..C.........................T.....	TGGCCGGGGCGGCCTCGGCGGCGGGCTCCGCCACCGGGCTGTCCGCGCTCACGGGTGCGGCGACGGGCTCGGCCACCGGGGGCTCGGCCTGAGCCGGGGCCACGGCGGACTCGGTCACCGGGGTCTCGGTCGCGGCCGACCGACGGGTGCGGCGGCGGCGCGGCTTCTCCGGGGTGTCGAGGGCAGCGGGGTCCTCGGCGATGGTCACCGTCTCGACG	G,GG [6825192,6825194]
+   6825433	    33	  76.5	     0	....C..C.-...G...T......G....GG...	|                                                                                                                                                                                                                         	T [6825453]
+==========	======	======	======	==================================	==========================================================================================================================================================================================================================	==================
+        17	    34	  89.6	    46	GCGGTCTTGCGGGTCCGGCGCGGCTTGGCCTCGG	                                                                                                                                                                                                                          	       
+
+# Left flank :   GCAGATGCACCGGGCCGCCGATCGCCTCCACCTGCGCGAGCACGTCCCGCGCCAACTCCTGCTGCGCGTAGGCGGACTCGTCCGTCGCCGGTCCGTCCGACTCGAACTGGCCCCGCCCGTCCACGGCGACGGTCCGGTATCCGCGCCGGGCGAGCGGCACGTGCAGCGGATTGAAGTCCTCCTTGCTGCCGGTGAACCCCGGCAGCAGCAGCGCGACGCCCTTCGGCTCGACACCGGCGGCCACGGGCGCGTCGACCACGGCGAATTCACCGCGCGCCGTCCGAAGGGGGTACGCGCGGGCGCCGGGGGGCGCGACGAAGGTGGGGGGCCTGCTCATGGGGAGAGGTTATCGGGAGGCGGCGGAACCGGCTGGGCGGGCGCCAAGTGCCTCTGAAAACGCCGATGGCCGGGTCCACTGTCGTGAACCCGGCCATCGGACCGGCACTTACGCTGCCGCACACACGGGGTGCGGTCAGGCCTCCGGAGCCTCCACGGCCGCC
+# Right flank :  GCCGTCACCGGCTCCGCCGACGCTCCGCCGCGCGTACGGCGACGGCGGCGCGGGGTGCGGGTCGCGGCCGGCGCCTCCTCGGTACCGGAGGTCTCCGCGGCCGGCGCGGCCGGGGAGGCGTCCAGCGGGGTGCCACCGCGCGTGCGGCGACGGCGGCGCGGCGTACGAGCCGGACGCTCACGCTCGGCCGGGGCCGGCTCGGCACGGCCACCGCGGCCACCACGGCCGCGACCGCCCCGTCCGCCGGTCTCGCCCAGGTCCTCCAGCTCCTCCGCGTCCAGCCCGGCACGGGTCCGCGCGGAGCGGGGCAGGGTGCCCTTGGTGCCCTCGGGGATGCCGAGGTCGGAGAACAGGTGCGGGGAGCTCGAATACGTCTCCACCGGGTCGTTGAAGTCCAGCTCCAGCGCCTTGTTGATCAGCTGCCAGCGCGGGATGTCGTCCCAGTCGACGAACGTGATCGCCGTACCCTTGGCGCCCGCGCGGCCGGTGCGGCCGATGCG
+
+# Questionable array : NO	 Score: 2.37
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.51, 5:0, 6:0.26, 7:0.31, 8:1, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGTCTTGCGGGTCCGGCGCGGCTTGGCCTCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.30,-3.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [18-30] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [25.0-15.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [243,2186] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. jinggangensis TL01
+//
+
+
+Array 4 7172621-7172312 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020895-Streptomyces hygroscopicus subsp. jinggangensis TL01, complete		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence     	Spacer_Sequence                                                    	Insertion/Deletion
+==========	======	======	======	====================	===================================================================	==================
+   7172620	    20	 100.0	    55	....................	TCCTTCTCGGAAGCCGGCTCCTTCTCGGAAGCCGCCTCCTTCTCGGAAGCCGTCT            	
+   7172545	    20	 100.0	    55	....................	TCCTTCTCGGAAGCCGGCTTCTCCTCGGAAACCGCCGGCTTCTCTTCGGAAGCCA            	
+   7172470	    20	  90.0	    31	..G...C.............	GCTCCGGCGGCAGCCGTCTCCTCCGCAGCCG                                    	
+   7172419	    20	  70.0	    67	T.....CC.CG....G....	TTGTCCGACGCCGGTTCCTTCTCTGCCGCGCCCTCGGAGAGCACCGCGTCCGGCACCAGCTCCGACG	
+   7172332	    20	  75.0	     0	.......C.CC....T...A	|                                                                  	A [7172314]
+==========	======	======	======	====================	===================================================================	==================
+         5	    20	  87.0	    52	CCTCCTTGGAAGCCGCCGCC	                                                                   	       
+
+# Left flank :   TGGCGACAGCCCCCAGACGTGCCGAACGGGAGAGTGCCATGTGTCGTCCCTTTCGAGCGTGCCGATCAGTGGTCGGGCACGGACGACTCTGCACTCCCCCGTTCGGGCATGTACATGACTTTACCTAGTTGTCATGTGCTACTTGTCGGTTGACTCCTGGGAGTCGGCGCCGGACGCCTTGCCGGTGGCCTCGGCCTCGCGGCCGGTCTCCTCGGCGACGGCCTCGGTGTCACCCGAGCCCTCCGCCGGAGCGTCGGCCGCGGCGCCGGTGGCGGTGGCGGGCTCCTCGGCGGGGGCGTCGGCCGCGGGCGCGGCCTTGCCTGCCGAGACCTTCGCACCGGGACCGGTCTTCACAGCGGAGGCCGGCTCCTCTTCGGCAGCCGCCACCTCTTCGGAAGCCGCCTTGGCCTCGGAAGCGTCTTCGTCAGAAGCCTCTTCTTCGGAAGCGTCTTCTTCGGAAGCCGTCTTGCCGGAAGCCGTCTCCTCCTTGGAAGCCGTCT
+# Right flank :  GGACCGTGTCCTGCGGGGCCTGGTCGGCGAAGTTCTCGGGGTGGTGGCAGGCGACCCGCTGGCCCGGCCGCAGCTCCACGAGCTGGGGCTCGGTGGTCTTGCAGATCTGCGTCGCCTTCCAGCACCGGGTGTGGAAGCGGCAGCCGGAGGGCGGGGCGATCGGCGAGGGCACATCGCCGCGCAGCAGGATGCGCTCGCTCTTCTGGCCCCGGCGCTTCGGGTCCGGCACGGGCACGGCCGACATCAGCGCCTTGGTGTACGGGTGCATCGGCGACTCGTACAGCGAGGTGCGGTCGGCGAGTTCCACGATCTTGCCGAGGTACATCACCGCGATGCGGTCCGAGACGTGCCGGACGACCGAGAGGTCGTGCGCGATGATCACGTAGGTCAGGCCCAGCTCCTGCTGGAGGTCGTCCATGAGGTTCACGACCTGCGCCTGGATCGACACGTCCAGCGCGGAGACCGGCTCGTCGGCCACGACCAGCTTCGGCTTCAGGGCG
+
+# Questionable array : YES	 Score: 0.24
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.35, 5:0, 6:-0.75, 7:-1.08, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCTCCTTGGAAGCCGCCGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [12-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [26.7-38.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1076,461] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.68   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. jinggangensis TL01
+//
+
+
+Array 5 7429073-7428806 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_020895-Streptomyces hygroscopicus subsp. jinggangensis TL01, complete		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	====================================	===========================	==================
+   7429072	    36	  94.4	    21	..................C.....C...........	CGGCACCCCGGCGCCCGGCGC      	
+   7429015	    36	  88.9	    27	.........A...G.G..C.................	CCCGGCGCCCCAGCCACACTCCAACGG	CCCGACCCG [7428994]
+   7428943	    36	 100.0	    15	....................................	GGGCGCGGTCAACCC            	
+   7428892	    36	  75.0	    15	...TG.G.A...CG.T........C.....T.....	GGGGAATCCCGACCC            	
+   7428841	    36	  77.8	     0	G.AGG.G.A..A.G......................	|                          	
+==========	======	======	======	====================================	===========================	==================
+         5	    36	  87.2	    20	CCCCACCCCGCCGAGCGGTTACGGATTCCCGCAGCC	                           	       
+
+# Left flank :   GCCCCCGGCCAGCCCGGCGGATACGGCTTCCCCCAGCCGGACGCCGCCCACCCCGGCGCCCAGCCCCACGCGGCTCAGCCCGCTCCCGGCGCCCCCTACGGCGCCGTACCGCCCGCTCCCCCGGCCCCGCAGGGCGCCCAGCCCGGCTGGACGCCGCCCGCGCCGCAGAACGGGCTGCCCCCGCTGCCGCCCTCGTACCAGCCCGCCGCCCCGGCTGCCGCCGCCCAGTGGCCCGCACAGCCCGGGCAGCAGCCGGCCGCCGCCCCGCCGCAGCCCGGTCCGATGCCCGGCCGGCAGCCGCAGGCGACCGGCGGTCAGGGTCCCGCCGGCATGCCCGGCCAGCAGCCGCCGTTCCAGCCGCAGGCGCCGCAGCCCGCGCCCGCCGCGTGGCACCAGCCGAACCAAACCGGCCAGGCCGCCCCCGCCCACCAACCGGGTCAGCCGGGCCAGCCGGGCGCGCCCGGCGCTCCGGCGCCCGGCCCGCAGCCGGCCCCCAACGG
+# Right flank :  GCCTCAGCACCCGGACGGCGCCCCCGGCGCTCCGCACGCCCCGGTCGACCCCCGCTCCGGTGCCGCGTGGCCGCAGCCCCTTCAGCATGATCAGCGGCAGCCGACCAACCCCGGTGCCGCGCCGCTCGGTTACACCGCCGCCGTGGAGCTGTCCTCGGACCGGCTGCTCAACAACAAGAAGCAGAAGGCGAAGAGCGGGCGGCCCGCGGCGGCGGGCGGCCGGTTCAAGCTCGGCGGCAAGAAGGAGGAGGCCGAGCGGCAGCGCAAGCTGGAGCTGATCCGCACGCCGGTGCTCTCCTGCTACCGGATCGCGGTCATCAGCCTCAAGGGCGGTGTCGGGAAGACCACGACCACCACCGCGCTCGGCTCCACCCTCGCCACCGAGCGGCAGGACAAGATCCTCGCCATCGACGCCAACCCGGACGCCGGTACGCTCGGGCGGCGGGTGCGCCGGGAGACCGGGGCCACCATCCGTGACCTCGTCCAGGCCATCCCGTACC
+
+# Questionable array : YES	 Score: 0.04
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.36, 5:-1.5, 6:1, 7:-1.13, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCCACCCCGCCGAGCGGTTACGGATTCCCGCAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-7.60,-7.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [17-15] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [15.0-8.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1561,2122] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. jinggangensis TL01
+//
+
+

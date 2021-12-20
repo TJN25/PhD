@@ -1,0 +1,87 @@
+Array 1 967-1463 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MJWQ01000069-Campylobacter sp. BCW_6871 PROKKA_contig000069, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                                     	Insertion/Deletion
+==========	======	======	======	====================================	====================================================================================================	==================
+       967	    36	  94.4	    29	......C...G.........................	AACTTCTTTGAACATAAAAAACTCCTTTT                                                                       	
+      1032	    36	  94.4	    29	......C...G.........................	ACAAAAGGTCGACCGCGCAAAGAATACTA                                                                       	
+      1097	    36	 100.0	    30	....................................	TGTATGTTCTAAATTATCTGAATTTTACCA                                                                      	
+      1163	    36	  91.7	    29	......CT...........................A	ATAGCTAATAATGATAAGATTATGAGTTT                                                                       	
+      1228	    36	 100.0	    30	....................................	ATTTTGCTTGATTTTACTCAAAAAAATGCC                                                                      	
+      1294	    36	 100.0	   100	....................................	TTCAAACATATTGCATAATATTTTATATTTATTTTTTTATGCAAATATTTAATAAAGTATTATTTAAAAATATAATATTTTTTTAAGTAAAAGAATATTA	
+      1430	    34	  83.3	     0	CAA..-.....-.......................T	|                                                                                                   	
+==========	======	======	======	====================================	====================================================================================================	==================
+         7	    36	  94.8	    41	ATTTTATCATATAAACAATTAATAATAGGCTAAAAC	                                                                                                    	       
+
+# Left flank :   ATATTCAAAAAAATGAAATATTAATTCCAAAAAGAGTATTATTTGATGAAAAAACATTAAAAATGATAGAAATGATGATTCCTACTTACAAAGATGAAATTTCTAATGCAAATAAAGAAAATGAGAAAATTAATCAAATGATTAAGCTTGCTATAGAAAAAATGTTTAAAAATGATTTTTTGAATAAAATAAATAATTTTTAATTAGGTTTTTTTATGAATAATGTTTTGTTGCACAGAATAACTGAGAAAGGAAACATTCGCTATTATAGCATAGAAATTATTGCCACTCTATTTGAGGAATATATGGTTGAGAGAGTTTACGGAAATGTGCGTTTTAAAAGTTGCACAGGAAGAAAAAATAATGTATTTCCAAGTTTTAATGAGGCACAAATTTTTTTTGAGAAGTTAAAGAAACAAAAAATGAAAAAAGGGTATGCGTAGGTTTTTGCTCAAAAAATAAGAAAAAACATTGATAAAATAGGCTTTTGAGATAAGTCT
+# Right flank :  TAAAGGTTTAGCACTTCACCTGAGCGTTTATTCGTTAAAAAGTGCGTTTTCTACAATTTAATTTTATTACAATCCTTTCTAAAGACTAACTTTATCAGGGCTTGAAACTCTCTTATAAGATTTTCATCTAGCCTTTTTGGAAAATCAGACAAAATCAGTTCATCTCCTACCTTTTCCATCTCTTGCGGTAGTCCTGCAATCTCTAAAGTGTTTAAATTTGCTACATAGCCTTTATATTTGATTAAATTCATATCATGGCTAAATTCAAATTTATTACCATCTATTGTATGTTCTATCAAGTTTATAAAATAATTATCGATGATGATATTTTTTAAATCTATTATATTTGCTAAAATTTTTTTAGAACTTGCTTTAGAAACATTATCCAAAATGCACTCGTATTGAGTTTCTATCAATTTTCCTAACTCATCATAATTAAAAATTCTGCCATTTTCACAAACTGCTAAATTATCTCGTATTAGCCAGAATTTATTACCAAA
+
+# Questionable array : NO	 Score: 2.68
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.74, 5:0, 6:1, 7:-0.91, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTTATCATATAAACAATTAATAATAGGCTAAAAC
+# Alternate repeat :   ATTTTACCATGTAAACAATTAATAATAGGCTAAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:83.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [59,50] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BCW_6871
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;Campylobacteraceae; Campylobacter.; Campylobacter sp. BCW_6871
+//
+
+
+Array 2 33187-33792 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MJWQ01000069-Campylobacter sp. BCW_6871 PROKKA_contig000069, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+     33187	    28	  92.9	    38	......................C..G..	ACTAAAACTTCAGAGCAAGAATATGCGAACTGGATTAA	
+     33253	    28	  89.3	    38	......T...............C..G..	ACTAAAACTCGCTTCTTTCATTTTGAAACCTTTATGCT	
+     33319	    28	  89.3	    38	......T...............C..G..	ACTAAAACCTTTCAAAATCAATTTTACAAACTTTAAAA	
+     33385	    28	 100.0	    23	............................	GCTAAAACGCGATATGAGACTTT               	Deletion [33436]
+     33436	    27	  82.1	    38	...A..-A.....GT.............	GCTAAAACACAACAATGTTTGATTACTATGGATTGGAT	
+     33501	    28	 100.0	    38	............................	GCTAAAACCTTATAAGCTTTCTAATGACAGCGCTTTGA	
+     33567	    28	  96.4	    38	..........G.................	GCTAAAACTATTCTACCCAAATACGCATTAAACTCATC	
+     33633	    28	  89.3	    38	.....G....GC................	GCTAAAACCAAATCCAAAGAGTGTGAAATGGAAAATTA	
+     33699	    28	  96.4	    38	..........G.................	GCTAAAACCTTTCAAAATCAATTTTGCAAACTTTAAAA	
+     33765	    28	  85.7	     0	......T.....GG.T............	|                                     	
+==========	======	======	======	============================	======================================	==================
+        10	    28	  92.1	    36	ATTTTACCATATAAACAATTAATAATAG	                                      	       
+
+# Left flank :   GTAAGAACTGATTTATTTGTAGATAAAGAAAATAAATTCCATGCAGTGTCTATTTATAAAGCAGATTTTTCTACAAAAAAACTTCCAAATAAAACCCCTGCAACTACATCAAATGGAGAAACCAAAGAAGGCATTGAAATGAATGAAAATTATAACTTTTGCATGTCATTGTATAAAAATACTCCAATTAGCGTAAAAATAAAGGGTATGAAAGAGCCTATCATTTGTTATTATCATGGTTTTAATACTTCAGGAAGTAAAATTATCTATAAAAAACACGACAACAATTATCACAACCTTAGTGAAGATGAAATGGTTGTTTTTAGAAAAAATGATAAAGAATCTATAGTGGTAGGAAAAATACTTGAAATTAAAAAATACAGTATAAGTCCTTCAGGTGAATTAAGTTTAATTGAAAACGAAGAGCGTAAATGGTTTTAGATATTTTTGCTCAAAAAATAAGAAAAAACATTGATAAAATAGGCTTTTTAGATAAGTCT
+# Right flank :  GGCTAAAAATAGCTTTTAAATATTTAAATTCATAAGAAAATATTTCTTAATCTACTTTCATCACAACTTTTCAAAAAATCATAGATTTTCTTTCTATAAGTTGATTTATCCTTTTTCCAAGTATTTAGCGTTGGCAATGGAATCGTTGTAATTTTGGCAATTTTAGAATCACTTAAGCCTGTATTAGAAGAATTAATAGAATTTGAAAATATTTCTTTTAATTCTTCTTGATTAGTGTTTTTTAAAAAAAGATATATTTTTTCCCTCCAATTATCTTTTTTTTGTTTCCAGTCTCTAATAGTGAAATAAGGGATATTAGTAATTTGTGAAATTTGGACATCATTGTTCATCAGGCTTGAAACCACTATCTAAAATTATTTTTGTCATTACACCCTTAAGTTTATCAAAATGATTTAAAGCTTGCACATTGCTAACTCTAAGCAATCTTATTTTCCCATCTTTTTTATAAAACACCTGAAAAACTTCATCGCTTTGTTTGC
+
+# Questionable array : NO	 Score: 3.36
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.60, 5:0, 6:1, 7:0.40, 8:1, 9:0.36,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTTACCATATAAACAATTAATAATAG
+# Alternate repeat :   ATTTTATCATATAAACAATTAACAAGAG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:85.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-83.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [61,29] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BCW_6871
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;Campylobacteraceae; Campylobacter.; Campylobacter sp. BCW_6871
+//
+
+

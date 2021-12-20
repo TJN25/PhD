@@ -1,0 +1,39 @@
+Array 1 222-10 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNWL01000156-Streptomyces bikiniensis strain NRRL B-1049 contig156.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       221	    29	 100.0	    32	.............................	GTTGCTGGTGATGGTGCCGGTCATGGTGCCGC	
+       160	    29	 100.0	    32	.............................	GCCGTCGACGAAGTCGTCGCGGCCACCGAGCA	
+        99	    29	 100.0	    32	.............................	CTGTCGAGGGCCTCGACTGCGTCTTTGAGGGG	
+        38	    29	  96.6	     0	............................G	|                               	
+==========	======	======	======	=============================	================================	==================
+         4	    29	  99.2	    32	GTCGTCCCCGCGCCCGCGGGGGTTGCTCC	                                	       
+
+# Left flank :   GCCAGACA
+# Right flank :  GCCTGTGGAC
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCCCCGCGCCCGCGGGGGTTGCTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [5.0-5.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-1049
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces bikiniensis
+//
+
+

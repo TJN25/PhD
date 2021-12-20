@@ -1,0 +1,84 @@
+Array 1 293978-294651 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AKYI02000006-Myxococcus xanthus DZ2 contig_000006, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=====================================	====================================	==================
+    293978	    37	  94.6	    33	.................T............A......	CGCCCACCCGTCCACCACCCGGTGCGCCTCGCG   	
+    294048	    37	 100.0	    35	.....................................	TGGCCCAGGTACGCGAGGTCCACGGAGTCAGCGGT 	
+    294120	    37	  97.3	    31	..........................T..........	CCCTCCGGTACTCCCCCACGTTGCTGGGTGA     	
+    294188	    37	  94.6	    34	............AT.......................	ACCTCGAAAACAGCACGCCGGCGGCGGCGTTCAG  	
+    294259	    37	  94.6	    36	.................T...............T...	TATCCGGTCGGGCAAAGACTGGTTTGAGACTGCACG	
+    294332	    37	  97.3	    34	..............................A......	GCTGTGGCGCCAGGCCGTTGCGGTGCGCACTGAC  	
+    294403	    37	 100.0	    35	.....................................	CCGCTGGCGGCCGGGTCCTTGTCCACGAGCATCAT 	
+    294475	    37	  97.3	    32	............................G........	GACAAGGCCCAGAAGGCCGGCGAGGCGAATGA    	
+    294544	    37	  97.3	    34	.........T...........................	GAAGCCGCCCGAAGCAGACTTGGTGATCTGCGAC  	
+    294615	    37	  97.3	     0	.............T.......................	|                                   	
+==========	======	======	======	=====================================	====================================	==================
+        10	    37	  97.0	    34	GTTTCAACCCACGCTCCCCGCGTTCACGAGGAGCGAC	                                    	       
+
+# Left flank :   GAGGAGACGGAGGTGTTCCTCCAACCCTGGGGCGCCCGGGGTCCTCGTGCTCAAAGCTCGATGCCGTAAGCGGCAGCCACCTGCGGCATGAAGCGGAGGATGTCGGGCGGCGTGTCGCTGTCCAACGTCAGACGCGTGCGCCGACCGTCCACGGTGGATTCGAACATCGTCACCTGCCGGTCATGTGCGACGGGAGGAGGGCGCTGTGATCTTCCTTGTATTCGTCCAACCGGCGCGCGGCGATGAGCAGCATCGTGAGCCGATGGGCGTCGGCCGCGTTCGCTTTGGATAGAGACGAGCCGTTGCGCTTGGAACGGCCATCCCCGAAAACCTCGAGCCAGAAGTGCCGTGGATTGGGTATGCCCGGCGACTTCTGGAGCCTGAGCATGAGCGAGTCCTCGTGATCTGCTCCCCAATTTTCGGACCCGTTGAAGAGAGAGAGTACTCGCGTTCATGAGGAACGAGCAGGACGCGGCACCGGGACTCCAGTGCTCTGGGTG
+# Right flank :  TGCGCTCGCCG
+
+# Questionable array : NO	 Score: 6.86
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.65, 8:1, 9:0.36,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACCCACGCTCCCCGCGTTCACGAGGAGCGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.80,-9.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [36.7-3.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [114,12] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DZ2
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus xanthus DZ2
+//
+
+
+Array 1 294293-294539 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AOBT01000012-Myxococcus xanthus DZF1 contig_000012, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=====================================	===================================	==================
+    294293	    37	  94.6	    33	.................T............A......	CGCCCACCCGTCCACCACCCGGTGCGCCTCGCG  	
+    294363	    37	 100.0	    35	.....................................	TGGCCCAGGTACGCGAGGTCCACGGAGTCAGCGGT	
+    294435	    37	  97.3	    31	..........................T..........	CCCTCCGGTACTCCCCCACGTTGCTGGGTGA    	
+    294503	    37	  94.6	     0	............AT.......................	|                                  	
+==========	======	======	======	=====================================	===================================	==================
+         4	    37	  96.6	    33	GTTTCAACCCACGCTCCCCGCGTTCACGAGGAGCGAC	                                   	       
+
+# Left flank :   GAGGAGACGGAGGTGTTCCTCCAACCCTGGGGCGCCCGGGGTCCTCGTGCTCAAAGCTCGATGCCGTAAGCGGCAGCCACCTGCGGCATGAAGCGGAGGATGTCGGGCGGCGTGTCGCTGTCCAACGTCAGACGCGTGCGCCGACCGTCCACGGTGGATTCGAACATCGTCACCTGCCGGTCATGTGCGACGGGAGGAGGGCGCTGTGATCTTCCTTGTATTCGTCCAACCGGCGCGCGGCGATGAGCAGCATCGTGAGCCGATGGGCGTCGGCCGCGTTCGCTTTGGATAGAGACGAGCCGTTGCGCTTGGAACGGCCATCCCCGAAAACCTCGAGCCAGAAGTGCCGTGGATTGGGTATGCCCGGCGACTTCTGGAGCCTGAGCATGAGCGAGTCCTCGTGATCTGCTCCCCAATTTTCGGACCCGTTGAAGAGAGAGAGTACTCGCGTTCATGAGGAACGAGCAGGACGCGGCACCGGGACTCCAGTGCTCTGGGTG
+# Right flank :  ACCTCGAAAACAGCACGCCGGCGGCGGCGTTCAGGTTTCAACCCACGCTCCTCGCGTTCACGAGGAG
+
+# Questionable array : NO	 Score: 5.20
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.83, 5:-1.5, 6:1, 7:0.58, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACCCACGCTCCCCGCGTTCACGAGGAGCGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.80,-9.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [114,68] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DZF1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus xanthus DZF1
+//
+
+

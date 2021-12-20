@@ -1,0 +1,87 @@
+Array 1 4393-4059 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV791984-Proteus sp. HMSC14B05 Scaffold296, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+      4392	    29	 100.0	    32	.............................	CTTTAGACCATTTAGACAAAGGGGAATTGAGA	
+      4331	    29	 100.0	    32	.............................	AGTGAGTGATTGCTCAGGTTTTTCTGGATACT	
+      4270	    29	 100.0	    32	.............................	GCCTGATGCTGTTGTCTGATGTTCCTTATCCC	
+      4209	    29	 100.0	    32	.............................	GCACATGGGGGTACCGATGCAGAAGAGAACCT	
+      4148	    29	 100.0	    32	.............................	TGACTTTAATTCCGTTTTCTTTTGCTTCATTA	
+      4087	    29	  86.2	     0	.......................A..TTA	|                               	
+==========	======	======	======	=============================	================================	==================
+         6	    29	  97.7	    32	GTGTTCCCCGTGTATACGGGGATGAACCG	                                	       
+
+# Left flank :   AAACACTCAATAAACTTATCCCTTTAATTGAAGAAGTTCTTTCTGCGGGAGAAATTACTCCACCTGAACCACCTATTGATGCTCAACCCCCTGCAATTCCTCAAGCTCACCCTTTTGGCGATGAAGGTCATAGAGAAAAATAGTAATGAGCATGATTGTTGTTGTAACTGAAGCTGTTCCTCCTCGATTAAGAGGGCGACTTGCTGTGTGGCTATTAGAAGTGAGAGCGGGTGTATATGTTGGTAATGTTTCAGCTCGAATAAGAGAAATGATTTGGCAACAAATTAATGAGTTTGCTGAAGATGGTAATGTCGTTATGGCATGGGGAACTAATACTGAGTCAGGTTTTGATTTTCAAACCTATGGTGAGAATCGACGAGAGCCTATTGATTTTGATGGCTTGAGATTAGTGTTATTTAAGCCATATAAAGAAGATGTATAATCTTCGGTAGAAATAAATATATTTTTTTATTTAATAAAATCAAGTGAATATAATTAGA
+# Right flank :  TCATCAAGTCTTCTCTCTTACTTGGTATTTATGCAGAGATGAATTTTTATATTTATTATCTGAATAATAATGCTATTATCCTAAGTGAATATTCATAATGTGTATATTTTTGTGCCTAATTAATTATAAAAATAGGTTTAACATCATAATCACTAAGGAAGAAAGAAGATGCCTTTAGCTATTCGATATCTTGCGTTATTACCACTTTTCGTTATTACTGCTTGCCAACAGCCTGTAAATTATAATCCACCAGCAACTCAAGTGGCTCAAGTTCAGCCTGCTATTGTCAATAATTCATGGATTGAAATTTCACGAAGCGCACTCGACTTTAATGTAAAAAAAGTCCAATCATTATTAGGTAAGCAATCCTCTCTTTGTGCTGTGTTAAAAGGAGATGCTTATGGGCATGATTTATCGTTAGTTGCCCCAATTATGATAGAAAATAATGTGCAATGTATTGGTGTAACAAATAACCAAGAATTAAAAGAAGTACGTGATTT
+
+# Questionable array : NO	 Score: 5.15
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.89, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGTGTATACGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.70,-10.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [73.3-85.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [170,59] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,1.05   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_036918650 [10332-13025]; 
+# Array family : NA
+# Sequence source strain : HMSC14B05
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Proteus.; Proteus sp. HMSC14B05
+//
+
+
+Array 2 13911-13271 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV791984-Proteus sp. HMSC14B05 Scaffold296, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+     13910	    29	 100.0	    32	.............................	TGAAGCGGAAACCACCACTAATATTATCGGTG 	
+     13849	    29	 100.0	    32	.............................	CTATGGATAACTTTAACACCGATGAGCCATTA 	
+     13788	    29	 100.0	    32	.............................	AAATTCATGGTCTTTCTGGTGAAGAGCAGGCT 	
+     13727	    29	 100.0	    32	.............................	CGTTCAATGTTACTAATGTTAATCGCTATTTC 	
+     13666	    29	 100.0	    32	.............................	GTGATTTTGCTTGTCGCGACACACGTAATGTC 	
+     13605	    29	 100.0	    32	.............................	TTACTCACCTCGGTATCTACCGCTTCCTGATC 	
+     13544	    29	 100.0	    32	.............................	CGGATTTGTTGGGTGAATATTTGTCGATTGTC 	
+     13483	    29	 100.0	    33	.............................	CAGTACGTTCCTTTTCATCGTGGGATCTCAATA	
+     13421	    29	 100.0	    32	.............................	GTGTTCGAATACCGCTTGCCCGCTGAACCCCA 	
+     13360	    29	 100.0	    32	.............................	ATGACTAGACCAGCACGCGGTGAGCGTAATAA 	
+     13299	    29	  93.1	     0	..............T...........T..	|                                	
+==========	======	======	======	=============================	=================================	==================
+        11	    29	  99.4	    32	GTGTTCCCCGTATGCACGGGGATGAACCG	                                 	       
+
+# Left flank :   TCCCAATGCAAAACCTGCGCTTGATTGTCCCGTGGTATTTCCTTATGCACCTAATGCCGTTTTAGTCGGTTTTCTGAGTAGTTTTGCAGCGGGTGTCATTGGCATGTTTATTCTTTATGCTTTAGATTGGACTGTGATTATACCCGGGGTGGTACCTCATTTCTTTGTGGGTGCAACTGCAGGCGTATTTGGTAACGCCACAGGGGGACGCCGAGGTGCTATTTTAGGTGCTTTTGCTCAAGGTTTATTGATTACTTTCTTACCCGTATTTTTATTACCTGTACTTGGTGATATTGGTATTGCCAATACCACATTTAGTGATGCAGACTTCGGTGTGATTGGTATTCTATTAGGGATTATTGTTCGTTAATACTACCGACGTTGATATTACTTATTAGTGGAATTTTAATAAATGCCCGACTTTTTAACCCGTCGGGCATTTTTTTGGTAGAAATAGTGTATTTAAATTTTCTTTATAGATTCAATCTATTATGATTAGA
+# Right flank :  ATCATCTTGTGCATTTTTATTATGTACTGTTTTCTAAATATTCTAAGAGTTATGTTGTGATATTAAGTGGGCAATAAGTTTTGAAAAAGTCACTATAGTCAATTCATATATGTTGTAAAATAGCAACATATATGAAGCTTTGATAAAGTTTAATAAGAAGTAGATCTCTTTTTAAACATTATTTAGAGAAAAAAATAGCTATTAATTGTAATATCTTCCTGTGGTAAGAGAACGAGTTAAGCAAAATGGATAAAGATTATTATAGCTACTGGGGCAAGTTTAAATCAGAAAATAATCATGAATACTATCATTTGCTTCCATATCATAGTTTGGACGTGGCTGCTGTAGGTATGATATTGTTTCCAGAAAACTCAAAAATTATAAAAGATATTTCTACTTTTTTACAAATACACCCAAAAGAATTTTCTAAACTGTTTTTATTATTGCTTTCTCTTCACGATATTGGCAAGTTTTCTTCTTCATTTCAATATATTAATCCA
+
+# Questionable array : NO	 Score: 8.03
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGTATGCACGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.70,-10.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-81.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [247,131] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_036918650 [10332-13025]; 
+# Array family : NA
+# Sequence source strain : HMSC14B05
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Proteus.; Proteus sp. HMSC14B05
+//
+
+

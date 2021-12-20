@@ -1,0 +1,175 @@
+Array 1 873489-874067 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP016043-Edwardsiella hoshinae strain ATCC 35051, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    873489	    28	 100.0	    33	............................	TGACCCGTTTCTCCTTGGCGCGCTCAATAACCG	
+    873550	    28	 100.0	    33	............................	TGGCATCCTGCCCATAGCGCCCTCGGGTATCCG	
+    873611	    28	 100.0	    33	............................	CATGAAAGTCCCCTCCGGAACTAAGACTGAGGA	
+    873672	    28	 100.0	    33	............................	TGTGGCCCCCTCCAGCGACTCATACTCCTGACC	
+    873733	    28	 100.0	    33	............................	TAAACTAGGGACTGATTATTATTTTTATATACG	
+    873794	    28	 100.0	    33	............................	TGGCGCTCCGCCTGCTACCGATGCAGATGACCG	
+    873855	    28	 100.0	    33	............................	CGGGCCCGGCAAGCACTGGGCCTAACTCAATCG	
+    873916	    28	 100.0	    33	............................	TGCCGTTATCAGGCGCATGGTGGCGGAGTATCC	
+    873977	    28	 100.0	    33	............................	CTGATCCAGATCGCTCTGGCCATTTACCGCCTG	
+    874038	    28	  85.7	     0	......................C..AAT	|                                	T,A [874058,874061]
+==========	======	======	======	============================	=================================	==================
+        10	    28	  98.6	    33	GCTTTCCCCACGACCGTGGGGGTGTTTC	                                 	       
+
+# Left flank :   GAACCTCTGTATCGATCTTGCCTTTTCCCTGACGCGTGAGATGGCGGGTCGTTATGAGAAGGCTCTGGTTTCATCTCGTTTTCGAGAGCGGGTGATCGAACTGAATTTGCTTGCGAGTGTAGCCAGAGATATACCACAGCTACTTGGAGGGGTAAATATTGATGCTGATAGTGCTAGCTAACGATTTACCTCCAGCAGTTCGAGGACGAATGAAACTTTGGTTTATTGAACCGCGGCCAAATACTTTCGTTTCCGGTATCAAGGATTCGGTTGCTGACACGGTGATCGAATACCTTTATCAACACTGCTCACCGGCAGCGGGGGTGGTGATATTTAAAAGCGTTGCTAGAACACCGGGGTATCAGATCCATACTATAGGATCACCGACCAAGACGCTCTGTGAGATAACTGGCCTGCAGTTGGTGGTAGAAAAGCGACTCGAGCAGCAAGTCAACTACAATATGTAGTTGGTTTAGTATGTTCTTTAACAAGATAATGGG
+# Right flank :  TGCCGTTTGTCCAAGTGACCTCGTTGTCTTTCCCTACCGTCCTCAGAGAGCCCTTATCTACCTCTTGTGGCTCTCGATGTCCCCGACGTACAGCAAAGAGAACCCTAGGACTCTCAGTATCAGCTATGAGGGGGACGCTTCGCCTCAACGGCACTGTCAGCTAAAAACTCCTCATCCTGCTAATGTCAGCGCCTGTGATATAAAACAGTAAGATAGGGGGCGGAAGATGGATGGTCCTAATAATTAGATGACAATATTGCTAAAAATACCCTGCGGATAGTCAGTCTAGATCATAAAAACTGGTTGTTCTTCGACTCAGGCCACAAAGGTGAGCGCGGAACGCCGCTGTACAGTTCGAGTGGTACATGTAAACTGAACGGCGAAAACTACCACTGTCATTTGTTTGACGTCATAGCTGACTGGCAGGTGACCCAGGGCAGTGAGTTGCGGTCATGTCGGGTCATACTGGTTTACAAATAACTTGTCCTGAACAATAAGGT
+
+# Questionable array : NO	 Score: 7.40
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.93, 5:0, 6:1, 7:0.47, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTTTCCCCACGACCGTGGGGGTGTTTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [65.0-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [35,2116] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase Cas3:WP_070244582 [865224-867869]; 
+# Array family : NA
+# Sequence source strain : ATCC 35051
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Hafniaceae; Edwardsiella.; Edwardsiella hoshinae
+//
+
+
+Array 2 1009585-1009981 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP016043-Edwardsiella hoshinae strain ATCC 35051, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	============================	==========================================	==================
+   1009585	    28	  78.6	    17	....C..T....C...A.....A..G..	GGCAGAAGAAGCGAAGC                         	Deletion [1009630]
+   1009630	    28	 100.0	    38	............................	CGCATTAGCGATACAGCAGGCGAAAGAAGAGGCCGCCA    	
+   1009696	    28	  85.7	    41	....C....CG.C...............	CGAGGAAGCGGTGAAGAAGGCCGCCGCAGAAGCTAAGAAAC 	
+   1009765	    28	  82.1	     8	....T.AG....CT..............	GGCCGAAG                                  	Deletion [1009801]
+   1009789	    28	  89.3	    42	.A....................A..G..	TGCGGCGAAAGCGAAGGCGGCGGCGGAAGCCAAAGCGGCAGC	
+   1009867	    28	  78.6	    32	.A.....G.C..........GC.A....	CGACGCGGAAGCGAAAGCGAAAGCCGATGCCA          	
+   1009927	    27	  71.4	    12	..AAA....CC.....C......-...G	CGGCGGCAGCAG                              	Deletion [1009966]
+   1009954	    28	  78.6	     0	C......A.C..C....GC.........	|                                         	
+==========	======	======	======	============================	==========================================	==================
+         8	    28	  83.0	    27	AGGCGGCCGAAGAGGCGAAGAAGCAAGC	                                          	       
+
+# Left flank :   GTAAGCAGACATGCAGCCTGTATGGGCTGCGTGTCTTTATTTTGCGACGCCAGCGCGGTGGATGCCGTCTAGCACGGCGGAGTCTGGGCAGCGACTAGCGGTTGGAATCAAAATTGTGGGAAACGCAACTGAGCAAAAAGATAAGCTGAATCGCTCTGTCATCATCTCGGTGATTCTGCACATCGTCCTGATCGGGCTGCTGGTCTGGGGATCGATGCTGCAAGATAACCCGATGAGTGAGGGCGGTGATGGTGGTGGCGGCGGCTCGGCGATCGATGCGGTGATGGTCGACCCCAACGCGGTCGTGCAGCAATATAACCGTCAACAGGAACAACAAAACGCGGCGCAACGCGCGGAGCAGCAACGCCAGAAACAGGCGGAGAGGCAGGCGCAGGAGATGCAACGTAAGCAGGCGGAAGAACAACAGCGTCTTAAAGCGTTAGAGAAAGAGCGCCTACAGGCTCAAGAGGACGCGCGTAAGGCGGCTGAAGAGGCCAAAC
+# Right flank :  CCAACGAGGTCGATGATCTGTTTGGCGGTTTAGCCTCGGCGAAGAATGCGCCTAAAGGTACCGCTAACGGCGGTACCCCGGGTAACAGTGGTAAAGCAGGCCCGGCCGGTAAGGGGAATAGCAAGACCTCAGGCGCTTCCGGCGCAGAAATTAGCGGTTATGCGGATCAAATAAAGAGCGCAATCATGGCGAAGTTTTATACTGATCCCAGTTATACCGGAAAAACCTGTGATTTGCGCATCAAGTTGGCGCCCGATGGTCTGCTGATTGATGTGAAGGCGGAGGGCGGCGATGCGGCGTTGTGTCAGGCGGCGCTCTCTGCCGCGCGTCAGGCACGCTATCCGAAGCCGCCGAGCGAGGCCGTGTATCAGGTATTTAAGAACGCACCGGTGGTGTTCCAACCGCAGTGAGGGTGAGACTCGGCAGCCTAGAGCCTGTCGCGGAAGCGTTATCGGATTCCGCCGATGGCGCGCTAGGATGGCATGTAGTGTTGTTGAGGT
+
+# Questionable array : YES	 Score: 0.66
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.19, 5:-1.5, 6:1, 7:-0.37, 8:1, 9:0.34,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGCGGCCGAAGAGGCGAAGAAGCAAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,-3.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [4-23] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [41.7-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [567,557] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase Cas3:WP_070244582 [865224-867869]; 
+# Array family : NA
+# Sequence source strain : ATCC 35051
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Hafniaceae; Edwardsiella.; Edwardsiella hoshinae
+//
+
+
+Array 3 1740981-1740587 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP016043-Edwardsiella hoshinae strain ATCC 35051, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   1740980	    28	 100.0	    33	............................	CTCACTGGATGCCATTGCCAGCAGCACCACAGC	
+   1740919	    28	 100.0	    33	............................	TCCCTTTGCGCGTGGTCGTCGCCTGGACGATGC	
+   1740858	    28	 100.0	    33	............................	TCAGTACACGTAGCTCTTGCCAGTGCAGGCAGT	
+   1740797	    28	 100.0	    33	............................	CGCTGGGGACACAAATTTGCGAAGGAGGTAAAA	
+   1740736	    28	 100.0	    33	............................	CAAGGAAAAGCCGCATGAACGTTCATGACATGA	
+   1740675	    28	  89.3	    33	............T.........G.G...	TAGACCGAAGTCGGCCAGCTACTCTGTGAAGCG	
+   1740614	    28	  89.3	     0	..............C...A.....C...	|                                	
+==========	======	======	======	============================	=================================	==================
+         7	    28	  96.9	    33	GTCTTCCCCACGCCTGTGGGGGTGTTTC	                                 	       
+
+# Left flank :   GTTAGTCGAGCAACCAGAGAGAGCGCATCGGTGAACTGATCAGCAGCGATCGCCTTGTAGCTTACACCGAAGTGCGACTTGAGCGCCGACCACAGACTGATGGCCGCCTTAGCGCGTTTATTCTGTGGCAAGGCATCGACCCGAGATTTGACCAACGCCTTGAGCGTGCCTTGCTGCTCGATAGTCAGATGAACCGTAGGGAGCGAATGAGGCTGACGAAGCATCGCCTCCATGCGGTTGAACTCGGCGATATAGGCCTCTTTGAACGCAGCGGCCTTCTTACCGGTAAAGCCCATGACCAGAAAGACAAAACCGTCTTTGGTCATTTCGTAGTATTTGGAGTCCCGGTTTACCGCGCCAGCCTGGATGTTTTTCACGTGGGCTGAAAATTCAGCCGACGCAAACTCCGGGGAGCAATCCAGCCTTTCAATCTTCTGGATAACGTTCTTGTGCTGCTTACTCTGTAGCTGGTTTAGTATGTTCTTTAACAATATAATGGG
+# Right flank :  CGGCTCAGATTACAATACGCCCCCTCTACCCCTCATCCTGCAAAGGCTCGTCGCACTGGTTAGCCGCCACCATTCGCGGATCGATACTTGCGCTCCCGAACACCCCCATCTGTGCGCAGTAATTACGCTGCTGGACAGCGTACTCCACCAGCACGTCATCGGTGCAATGCTCGATAACCTGCATCCACTCATGGCCGGCGCGACGCCATAAGCCTCGCTGCTCGCACCGTTCGGCATTGAGCATATGCTCCTGGATCTGGCGCAAGTTGTGGTGACGCCATACGATGGGCTTACCCCTCATGCTCACCTCCCCGTAACCGCTGGCGGATCTGCTCCAGAAACGCCACACCGACCTGATAAAATCCGGCCCCCCCGGTGGGATCAAGCTGATCGGCTATCGCGGGTGGACGCTGCACATGCACCAGCTGCTTCACCGGTGTCGGGATACGCTGGCCAGCACGGATATTCCGTTCCCAACGTTGCATCTGCGCCTTGATCGC
+
+# Questionable array : NO	 Score: 7.35
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.50, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTTCCCCACGCCTGTGGGGGTGTTTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [41.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [27,4] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.05   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase Cas3:WP_070244582 [865224-867869]; 
+# Array family : NA
+# Sequence source strain : ATCC 35051
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Hafniaceae; Edwardsiella.; Edwardsiella hoshinae
+//
+
+
+Array 4 1746864-1746286 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP016043-Edwardsiella hoshinae strain ATCC 35051, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   1746863	    29	 100.0	    32	.............................	TGCCATTGCATGATTTGGCGACCTATGAAGCA	
+   1746802	    29	  96.6	    32	............................C	ACAAAAATAGACCGTTGGTAAGTGTTTGTATA	
+   1746741	    29	 100.0	    32	.............................	GTAGATCCGTTGTGATTCATGGTGATACCACC	
+   1746680	    29	 100.0	    32	.............................	ATGTTGTGGCCAAAGTTGTTAGATCTGGATTC	
+   1746619	    29	 100.0	    32	.............................	GCCGACACCTCACGCAACATCCTAAAGCTGGC	
+   1746558	    29	 100.0	    32	.............................	CGATTAGGCTGATAGAGCAGCGCGGGCGCTGC	
+   1746497	    29	 100.0	    32	.............................	TATGTCAGAGTCTGCTATGACATTCATGATGC	
+   1746436	    29	 100.0	    32	.............................	CAAAGAGAGCGAGGCAAAAAACACCTATGCCG	
+   1746375	    29	 100.0	    32	.............................	GGAGTTTATCCCTTGGATGGGGCAGGCCTTTG	
+   1746314	    29	  96.6	     0	............................C	|                               	
+==========	======	======	======	=============================	================================	==================
+        10	    29	  99.3	    32	GTCTTCCCCACGTCTGTGGGGGTGTTTCT	                                	       
+
+# Left flank :   GTGGTCACTCGCCGTTATTGGCTGGTCGATGTCGTCACGAATGACAGCGCAACTGGCCTGCGATGCACTGCAAATGGCGCTATGGCGTCGTAAACGCCCGGAAAACGTTATCGTTCACACTGACCGTGGGGGCCAGTACTGTTCAGCAGATTACCAGAGCCTTCTGAAACGACATAATCTGCATGGCAGCATGAGTGCAAAGGGTTGCTGCTACGATAACGCCTGTGTAGAAAGCTTCTTTCATTCGCTGAAAGTGGAGTGCATCCACGGAGAACGCTTTATCCGCCGGGAAATTATGCGGACGACGGTGTTTAATTATATCGAGTGTGATTACAATCGGTGGCGTCGCCATAGTGCCGGTGGCGGTCTCAGCCCGGAACAATTTGAAAACGAAAACCTCGCTTAGGGCGGTGTCCACATTATGTGGGTAGGATCAATTCGACCAGTAAACCAACCACAATCTGTAGCTGGTTTAGTATGTTCTTTAACAATATAATGGG
+# Right flank :  GTTTAGCGGTCGTCGCCTCATTCAAGGCATTCACCCGTAAGGTTCGCTCCAACGATTCGATGCGCGCCGTATTACGTAAAATACCGCGCTCTGCCGCTCCGATATTGTCGCGCAAGTTCTGGCTCAGCTCCGGCTCAGCCTGCTCTAACTGCGTCATCCAGCGTCCGATATTCGTCGCTGCCGTCAAATTGGCCGCCCGCAACAGCAATAACTCGTCGTTCAGTTGCAGCAACTGCGCGTCCTGCATAATGTCATCGGGCCACAGCATGCGGCGAGCATAAGCGCCATGAGTCACCGCCGCCGTATTGTGCGGCAGAAAAGGACGGATGGGCGGCGCGTGACGTGAGCCGCGAATTGGTTTTTCTCCGGAAGAAATCGCGGGATGCACGCCTGCGTACCGCGTCACAGCACCCTGTCTAGGCTCACTTTTTATCGGTACGCATTTTTTCCTCTGTTTTTTCTGCGTACCTTTTTTGCGTACCTGCGTACTTTTTTGCGTA
+
+# Questionable array : NO	 Score: 5.10
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.96, 5:0, 6:1, 7:1.14, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTTCCCCACGTCTGTGGGGGTGTTTCT
+# Alternate repeat :   GTCTTCCCCACGTCTGTGGGGGTGTTTCC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [11,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [46.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [3,95] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.23   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase Cas3:WP_070244582 [865224-867869]; 
+# Array family : NA
+# Sequence source strain : ATCC 35051
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Hafniaceae; Edwardsiella.; Edwardsiella hoshinae
+//
+
+

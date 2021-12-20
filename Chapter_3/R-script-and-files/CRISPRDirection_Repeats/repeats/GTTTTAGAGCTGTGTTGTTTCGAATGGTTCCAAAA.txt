@@ -1,0 +1,39 @@
+Array 1 23373-23140 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AQWT01000002-Streptococcus mutans DSM 20523 B093DRAFT_scaffold_1.2_C, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	===================================	===============================	==================
+     23372	    35	 100.0	    31	...................................	CGAAAAGCCAGCTCAAGACGATAATCTTGAG	
+     23306	    35	 100.0	    31	...................................	CCTGTTAATTCAAACTCATGTAACACAGGCT	
+     23240	    35	 100.0	    31	...................................	TCGGCATATATAATCCGTAAAGGCGGCACAT	
+     23174	    34	  74.3	     0	..........CA.......A.TG..T-.A.T....	|                              	A [23159]
+==========	======	======	======	===================================	===============================	==================
+         4	    35	  93.6	    31	GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAA	                               	       
+
+# Left flank :   AGGAAGAGGAAGGGTATTGGGTTGAATTTCCTGAATTTGGCGGTGGTACGCAAGGGGAAGATTTGGAAGAAGCCATGAAGAACGCTCGTCAGATGTTAGAAAGTGTATTGGCCTCCTATCTAGATGAGGGAATGAAACTGCCTAATCCAAGTGAGATAAGGAAACTATCTGTTGAAGATGGCTTTGCAACTATGATTCAAGCAGATCCTAATCCTTATCTCAAAAATAACAAAGCTATTCGAAAGAATGTTACCGTACCTGAGTGGCTAGTACAATTAGCAGATCGTGATCAAGTGAATTATTCTGAAGTATTAACAAAGGCTTTGGAAAAGAAACTACAATTATAAAACAATAAAATCGCTAGAAAGATTGATTTCTAGCGATTTTTGAGGTATAATATAAGCAATCAAAACCTTTTAAAAAGGAATTATTTGAAGCTGAATTCTAGCTGAGATGAATGGCGCGATTACGAAATGTCGTGACGAAAATTGGTCCACGAG
+# Right flank :  CGCATTATGCGAAAGATTTTTAAATAAGCAAAAGACACTTGAAGCAATAATTCAAGTGTCTTTTATGGGACTTTCTTTAATTTTTAGGTAATGACCGTTCCGATGACTTCAATTGTATCATCTTCTTTTAAAATGATGTCATCATAATCTGGATTTAATGAGATGAGTCGAATTTCTTTGTTTTTTCGGTAGAGTTTTTTGACATATGCCTCATTATTTACAATAACAACGATAATTTGTCCGTGATGGATAGCTTTAGTCTTTTTAACAAAAATAACGTCACCGTTGTAAAATAAAGGTTCCATACTATTACCATTGACAGTAAGAGCAATATCATGTTCTGGAATTGGTATTGGGTATTTAATGGTTTCTTGTTTTTCATGTCCAACCCAGATACCAGTACCAGCTGAAACTTCACCATAAATCTGAATGTTTTCGTATTGACGTCCAAAGGTTTGATACAAATCCTTAGCTTTTATCACATTATCCCAATGAATAAT
+
+# Questionable array : NO	 Score: 6.74
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.68, 5:0, 6:0.39, 7:0.07, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-55.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [85,154] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011074632 [24861-25190]; 
+# Array family : NA
+# Sequence source strain : DSM 20523
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus mutans DSM 20523
+//
+
+

@@ -1,0 +1,125 @@
+Array 1 1145339-1145179 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL877879-Saccharopolyspora spinosa NRRL 18395 Scaffold000002, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	===============================	==================================	==================
+   1145338	    31	  96.8	    34	G..............................	ATGCAGTCGACCGTCCACAGCGGAAGGCCGGTGT	
+   1145273	    31	 100.0	    33	...............................	AACAGCAGCAGGACGTGCGCGTGGAGGTGCCAG 	
+   1145209	    31	 100.0	     0	...............................	|                                 	
+==========	======	======	======	===============================	==================================	==================
+         3	    31	  98.9	    34	CGTCCGCATCGCCCCTACGAGGGGTAGCAAC	                                  	       
+
+# Left flank :   GCCCGGGGAGGGTGAGTGTCGGGCCGCCCGCTGTGTAGTAGTTGGTTAAGTTTCGGCAACAGATCCGAACTGCGGTGATGGGCGTTGAACGGCGGTGCGCTGGTTGGCGGCGGTTGTCGCGAGCCTGAACGCGGGTGCGAGTGGGTGTGTTCCGTTCGCGGTGGTGATGTGCGGAAGGGGGCAGTCGAGGGCTGTTGAGATTTGCAGCTGCACCTGCAAGCTCCCACAAGCGATCGGGTACCGGGTCCCGAAGGCGTGGATAGTTTTTGTGGTGGTCAAGTGTGGTTGGCAGGCGAACGATCACGGAGCGGTCGTTAGCAGGGGGACAGGAGAATCCGGATCTCATGGCCGTTGGCGTAGCCTCGGTGCGGTTGCGAAGACTCGAACCTAGCTAGCCTGGTCCAGAAGCCCACGCCGAACACCTGAAGAAGCCGAGAATTGCTGCAAATGCTCGAACCTTGACAAGATCACCATGCTTGCGACCAGCAGCTTTACCGTCG
+# Right flank :  TGACACCCTGCACGCCACCGTCGCCGCCGCGCTCACGCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+# Questionable array : NO	 Score: 4.25
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:0.34, 7:0.87, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGTCCGCATCGCCCCTACGAGGGGTAGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [15.0-46.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1844,1150] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,1.01   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_010310344 [1254823-1255320]; Cas5:WP_029535696 [1257764-1258417]; Endonuclease Cas2:WP_010310342 [1253572-1253835]; 
+# Array family : NA
+# Sequence source strain : NRRL 18395
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Saccharopolyspora.; Saccharopolyspora spinosa NRRL 18395
+//
+
+
+Array 2 1263193-1262348 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL877879-Saccharopolyspora spinosa NRRL 18395 Scaffold000002, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+   1263192	    30	 100.0	    35	..............................	ATGCAGTCGACCGTCCACAGCGGAAGGCCGGTGTC   	
+   1263127	    30	 100.0	    34	..............................	AACAGCAGCAGGACGTGCGCGTGGAGGTGCCAGC    	
+   1263063	    30	 100.0	    38	..............................	TGACACCCTGCACGCCACCGTCGCCGCCGCGCTCACGC	
+   1262995	    30	 100.0	    36	..............................	GCGCTCACCTCGTCCGGCGAACGTAGCGGCGCTGGC  	
+   1262929	    30	 100.0	    37	..............................	GAGAAGCCCGCCGACACGGTGGCCAGCGACATCCCCA 	
+   1262862	    30	 100.0	    37	..............................	GCCGACGCGGGCGGGCTAGAAACATAAGTGCGGCCCC 	
+   1262795	    30	 100.0	    38	..............................	TTTCCTCAGCAGCAGCTCAAACGGCTCATCGGCGGAGT	
+   1262727	    30	 100.0	    35	..............................	CCGAAACAGCCAATGGCCGTCGCCCGGCAGCTCCA   	
+   1262662	    30	  96.7	    35	..................C...........	ATCTCCCACAGATTGATGGTGCCGCCACCTAGCGC   	
+   1262597	    30	  90.0	     0	...........................GCA	-                                     	Deletion [1262568]
+   1262567	    23	  76.7	    36	-------.......................	AGTACCGCCAGGTATCCCTCCACCAACGGCTCATCC  	
+   1262508	    30	  96.7	    34	.....................C........	TCGTTGGCGATCGGCTCGGGGGTGCGCTGTTCGG    	
+   1262444	    30	 100.0	    37	..............................	GTGCTGGTCACCGAGTCCAACGCCCAGGCCGCGGACG 	
+   1262377	    30	  86.7	     0	...........TA..G............C.	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        14	    30	  96.2	    33	GTCCGCATCGCCCCTACGAGGGGTAGCAAC	                                      	       
+
+# Left flank :   TGCAAATGGGGTCACATTTCACGATCACGCTGTGTAGTAGTTGGTTAAGTTTCGGCAACAGATCCGAACTGCGGTGATGGGCGTTGAACGGCGGTGCGCTGGTTGGCGGCGGTTGTCGCGAGCCTGAACGCGGGTGCGAGTGGGTGTGTTCCGTTCGCGGTGGTGATGTGCGGAAGGGGGCAGTCGAGGGCTGTTGAGATTTGCAGCTGCACCTGCAAGCTCCCACAAGCGATCGGGTACCGGGTCCCGAAGGCGTGGATAGTTTTTGTGGTGGTCAAGTGTGGTTGGCAGGCGAACGATCACGGAGCGGTCGTTAGCAGGGGGACAGGAGAATCCGGATCTCATGGCCGTTGGCGTAGCCTCGGTGCGGTTGCGAAGACTCGAACCTAGCTAGCCTGGTCCAGAAGCCCACGCCGAACACCTGAAGAAGCCGAGAATTGCTGCAAATGCTCGAACCTTGACAAGATCACCATGCTTGCGACCAGCAGCTTTACCGTCGG
+# Right flank :  AGGATCTTGAATCGGGTGCCGGAGTTGATCACGCGTATTTACGGACGGCCGGTTGTTTTCATCGTGTTGGGCGGTGAGTTGCGCGAGTGTCTGATCAACAAGTGGTGTCACTTCACATCGGCAAAGTCATCTGCTGCACACGGTGAAGTAGGACCCATCGGCGTCCACTGGTCCGTTGAGTCGTCGCCGTTGGGGACTGCGGTCGCACGTGAAGATCAAGTCGGGGTCAAACCGACAGTGTGGTCGTGGCGAGCTTTTGTCGCTGTGGTCGGGTTCGTGACTGTAGTGCGAGTTTCAGCGGTCGGCCGGTTGTGTTGTGTGCTGGGCAGGTTCTCTGAAAACTGGTTGCAGAGCCCGGTGGGCCCTGTTCGTGTGCGTTGGGCTGAATGGGTGAAGTTGGTTTAGGGTGGTGTCGGCTGCGGGCCGCTGTGCGAGTGAGCGTGCGTCAGTTGCGCAGTGGTCTGGTATCGGCTGGTTCCCTGGTGAGGGGTTGCAACGTA
+
+# Questionable array : NO	 Score: 5.26
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.81, 5:0, 6:0.99, 7:0.46, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCGCATCGCCCCTACGAGGGGTAGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [587,759] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_010310344 [1254823-1255320]; Cas5:WP_029535696 [1257764-1258417]; Endonuclease Cas2:WP_010310342 [1253572-1253835]; 
+# Array family : NA
+# Sequence source strain : NRRL 18395
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Saccharopolyspora.; Saccharopolyspora spinosa NRRL 18395
+//
+
+
+Array 3 2158371-2158595 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL877879-Saccharopolyspora spinosa NRRL 18395 Scaffold000002, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                  	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=================================================	=======================================	==================
+   2158371	    49	 100.0	    39	.................................................	ACCTCACCCTCGTGATCCTGCAGTTCCACGCTAGGCGAA	
+   2158459	    49	  95.9	    39	............C............................G.......	GCTTCACGCTCGTCGTCCTGGAGGTCCAGGCTCGGTGGG	
+   2158547	    49	  91.8	     0	.....T..G................................G...G...	|                                      	
+==========	======	======	======	=================================================	=======================================	==================
+         3	    49	  95.9	    40	TGAGGCGAACGGACCGTTTGTGACACCTATCGGCGCGAAGGATCCATTC	                                       	       
+
+# Left flank :   CGTACATGAGGTGGTAGATGACGAGGTCCCGACCGGGTGCGGTGAACAGTTCGCTCAGCCGCACCTTCCGGGTCGGGGTGTCACCGGCGTCGAGGTCCGCGGGTCCTTCCTCCAACGTGTAGTCGTCGACGACGGGGCCGAGCGGTAGTCCGCGCCGCAACTCGGCGACCCGTTCGCGGTGGCGCATCAGCTCGATCTCGGCATGGCACAGGTCTTCGCGGGCCTGGAGGTACTCGGCGGACTCCGCGGTGAGGTTGGTGTGGTGCATTGCTACCTCCGTGGCTGCTTCGACCCGGGGCAGCCAGGCGGCCCGCTGACGCCCCTTGGACGGCCCACTTCGTACCCGGTGCGGTCCGGTGTGAAACCAACTGGCTCACAGTGCCAGGGTCCCTCCAGCTTCCCGGTGGTACAACGACGGCCAACGCGAGCACCAGCGCCCGCAACGTGCTACCGCCCCAGACAGCAGGACAGAGGTCCACTGCCACAGCCCGTGATGGGTG
+# Right flank :  CGCTTCACCGTCGTCGCGGGATATCTTCGCTTGCACCACGTGGCTGGATCCGGAAACCACCATCAGGTGAAAGTTGCCACGGGGTGGGCCGCTGCCTCGGCGATGAAGCCGAGCCGTATTCGGCGTTCTTGGTGGCTTTGCTGGACATAATTGCGACGACGAGCGGCGCGGCGTTCCGGGTGCCGCGCGACGGCGATGTCGTTGAGCGTTCCGTAGTCGCCGGTACCGGTCTTGTCGGCCACGATCCGCCCCTGCGGCACACCTGCCCGGATGCGCTGGGCGCTGGTGGCGTTGCGTTCCAGCAGGTCGCGGAGGACGTCGCGCTGTTCGGTCGGCAGGGCGTTCCCCAGCACGATCTTCTGGAAAGTGTTGCCGAACGCCGAGGCGAAGTCGTGTCGCGGGGTTGCCCGGGGTGGCTTCCCCGATGTCCGGCTCGCTCCGATTTATCCGGGTGACGAGGTCGCCTAGCCGGAGTTTCCCCGCTAGTCCGTTCTTGAGTG
+
+# Questionable array : NO	 Score: 3.30
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.80, 5:0, 6:-0.5, 7:0.60, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGAGGCGAACGGACCGTTTGTGACACCTATCGGCGCGAAGGATCCATTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [11,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.80,-7.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-38.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [234,62] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_010310344 [1254823-1255320]; Cas5:WP_029535696 [1257764-1258417]; Endonuclease Cas2:WP_010310342 [1253572-1253835]; 
+# Array family : NA
+# Sequence source strain : NRRL 18395
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Saccharopolyspora.; Saccharopolyspora spinosa NRRL 18395
+//
+
+

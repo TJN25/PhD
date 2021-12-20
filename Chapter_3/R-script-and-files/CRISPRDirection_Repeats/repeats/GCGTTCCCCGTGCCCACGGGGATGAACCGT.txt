@@ -1,0 +1,39 @@
+Array 1 621-424 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LGYY01000106-Shewanella sp. Sh95 contig_140, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+       620	    30	 100.0	    31	..............................	CCACTTCAACAACTATGGGAGAGTGCCGTAT	
+       559	    30	 100.0	    31	..............................	ATCAGCGCTACTCGCTAATAATGGGGATTTG	
+       498	    30	 100.0	    15	..............................	CAAAATGCAAACCAA                	Deletion [454]
+       453	    30	  90.0	     0	.......................A..T..C	|                              	
+==========	======	======	======	==============================	===============================	==================
+         4	    30	  97.5	    26	GCGTTCCCCGTGCCCACGGGGATGAACCGT	                               	       
+
+# Left flank :   ATTATGAGGGGCTTTGTTCGCTGAATCGATTTAGGAAACAAAGCCTGGAAATGAACTAACTAGATTGCCGAATGCCCTCTGCGTGTTGGAATAATGCAGTTGTTGAGCGTTTCTTTGGTAGTTTGAAACACGATTGAATTTTTAAAGTTGCTCAACCAACAAGGTAGTTTATGAAGCAAGATGTAACGGCTTACATGAAATATTACAACTTGGAGAGACTTCATTCTGCTAATGACGATCTGTCAGCTGTAGAGTTTGAAAATTCTCAACTAAAAGTGTCTAGTTTGGGTTGACCAGTACAAGGTGAAACGGTCTCCATAAAATGGCCTACCTTGACGAGGAGTTATCGGATGTTCCTGCAACTATATATTGATATTGCAAGTCATCGTTACATGCAGAGCAAGCTATAGCAGATCTATTTTGTTGACTCACTGTGAATATACTGGTTGAACAGTAACCTGAACTTATGCAATAACGCCCTTTGAGGACGTAAAGTTTGC
+# Right flank :  CAATCAAACCAAGTGATGAACAAAGTCATAGGACTAGGTATGCCTGTTCACCAGAGGGCCAATTAATACTAGGAACCCTGTTAGGAAAAAATTTACCTAAGATGGATTTGGGTAACAACTCCAGTCTGAACTAATATAATTAATTCCTTCAGATGCTTAACATGTTTGAGTTAATTTAAAATAATCAGTTTCATTCAAAGAAACGGACCATACTCTGAAGAATCCCCTGATGATTTACAAATAAATCATCAAATTAGGGTGGAAGCGCATCTTGTTGCATGATCAAATGGTTTCGCCAAAAACTACACTTGGACAACAAGATGCGCGAAGCCAATATCCTACAACATTCTTTACACCAATACTGCCCAGAACTTCACCTAAAACGATTAAACAGCTTGATGCTGGCCTCTAAGGCACTGATTGA
+
+# Questionable array : NO	 Score: 5.87
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.88, 5:0, 6:0.99, 7:-0.60, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGTGCCCACGGGGATGAACCGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.70,-10.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [425,208] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Sh95
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromLGYY01000106.FEATURES             Location/Qualifierssource          1..1402/organism="Shewanella sp. Sh95"/mol_type="genomic DNA"/strain="Sh95"/isolation_source="ocular secretion"; Shewanella sp. Sh95
+//
+
+

@@ -1,0 +1,39 @@
+Array 1 133197-132928 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CAJD01000007-Brevibacterium ravenspurgense 5401308 = CCUG 53855 strain 5401308,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                            	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	===========================================	============================================	==================
+    133196	    43	 100.0	    44	...........................................	CTTCCGGCTTGCCCTTGTCGTTTTCGCCTGCTTCAGGAGCCTCT	
+    133109	    43	 100.0	    32	...........................................	CTTCAGGGTCCTTAGCCTCGGGGTCCTTAGCC            	
+    133034	    43	 100.0	    18	...........................................	GCTTGTCGCCGCCGTCGT                          	Deletion [132974]
+    132973	    43	  79.1	     0	C........GGG..T..G........GG.......A.......	|                                           	C,T,G [132930,132960,132966]
+==========	======	======	======	===========================================	============================================	==================
+         4	    43	  94.8	    32	TCGGGGTCCTTAGCGTCCGGTTCGTTCCCTTCGGGGTCCTTGG	                                            	       
+
+# Left flank :   GGCACGTTCAGGGATCCGACCCGTGGACGTCCGTTTCTCCGCGGACCACGCGGGGTGACCTGAGCTCGGCCTTTTCTCTGCGCGGATGAATCTGTGCCACAGACCCCTAATACAGATGGCTAAAAGGACTGCCGGCCCGCCGGCTGTCGAAAGGGTGGAAAGCGAACGGCCGGCCGGGCTTTCGCCCGACCGGCCAGGAGAGAGAGTCAGTGCAGGAACTCCTGCGCTTTGCTTAGATTCGGCGACCAGAAATGATTACGGCCGCTCCACCGACTGCAAGCAGTGCGATGCCAGCAAGCCCAACTGCCAGACCGGTCGCACCGGTGCGCGGCAGGCTGCCGGATGCGGAGGAGCTGGGCTTCGTGCCGTTGTCCTGAGAACCTGAAGTTCCCGAGGTGCCGGGCTTGTCAGCTCCAGGAGCTTCCGCACCGGGCTTCTGGTCTTCAGGGTCCTTGGCTTCCGGCTTGCCCTTGTCGTTTTCGCCTGCTTCAGGAGCCTCT
+# Right flank :  GTCCTGCGGTTCCGGATCCTTGGGGTCGTTAGGCTCGGGATCCTTGGGGTCGGTCGGCTTGTCGCCGCCGTTTTCCGGGGTGTCAGGAGTTTCCGGTTCCTTCGGATCCTGCGGTTCGGGGGCTTCCGGTTCCTTGGGCTCTTCTGCCGGGAACAGGGTGTTCTTCTGTTCGTCGGTGAGGTTGATGTTAGAGCGGTGCAGAACCGTTTCGTCGTTCGGGTTGCCGTGGGCAACCCATACGACGGTGTCGTAGTCGGTGTCCTTGTTCAGTTTGTCTGCTGCTGCGGTCGCCTGGGCGTCGAGCTTGCCGTCCTTGATGTTGCTGCTGGGAATGTACTTAACGGCAACCGGTTCCTTCGACGACTTTTCTGCTGCAGCCGACCTAGCGGACGGGCGTGACAGTTCGATTTCGCTGTTCTTGACCTTACGGTCGACAATTGCGACGTAGACACCGTTGGCATCCCGGCCAGTGCTGGCCTTGGGCAGCACGCCGTAGCCTT
+
+# Questionable array : NO	 Score: 2.63
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.74, 5:0, 6:0.25, 7:0.04, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCGGGGTCCTTAGCGTCCGGTTCGTTCCCTTCGGGGTCCTTGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [14,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.40,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [12-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1684,513] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 5401308
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micrococcales; Brevibacteriaceae;Brevibacterium.; Brevibacterium ravenspurgense 5401308 = CCUG 53855
+//
+
+

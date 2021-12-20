@@ -1,0 +1,199 @@
+Array 1 233-1 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960249-Peptoniphilus sp. DNF00840 Scaffold276, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===============================	=====================================	==================
+       232	    31	 100.0	    35	...............................	TACTTGAAGACTTATACGAATATTGCAGGTTATAT  	
+       166	    31	 100.0	    37	...............................	TTTTATCAATAATAACTAACATATTTCCTCCTTAAAC	
+        98	    31	 100.0	    36	...............................	TAGATTAAGATTAATTGATTTCCATCAATCATATTT 	
+        31	    31	 100.0	     0	...............................	|                                    	
+==========	======	======	======	===============================	=====================================	==================
+         4	    31	 100.0	    36	GTCGCACCCCTCGCGGGTGCGTGGATTGAAA	                                     	       
+
+# Left flank :   GAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAGGAAATTCTATGACACGTTGGGCGAGTATGGAGTGTCGCACCCCTCGCGGGTGCGTGGATTGAAATACCTTGATTTATTACTTTCAATTCTTTGTATCGGGCGAGTCGCACCCCTCGCGGGTGCGTGGATTGAAATATAAATCCTATCTATAAAAACAACATGATTAATCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAAATAACATTCCACACGAAAAACGGCCTACAAAAGTCGCACCCCTCGCGGGTGCGTGGATTGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  A
+
+# Questionable array : NO	 Score: 11.19
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.34, 7:1.25, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCCTCGCGGGTGCGTGGATTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [6,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-6.80,-6.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [2,497] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,4.68   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_062572182 [3540-4193]; Endonuclease Cas2:WP_062572180 [2217-2510]; Helicase/endonuclease Cas3:WP_062572186 [7950-10529]; 
+# Array family : NA
+# Sequence source strain : DNF00840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Peptoniphilus.; Peptoniphilus sp. DNF00840
+//
+
+
+Array 2 631-395 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960249-Peptoniphilus sp. DNF00840 Scaffold276, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+       630	    33	  93.9	    34	NN...............................	GGAAATTCTATGACACGTTGGGCGAGTATGGAGT   	
+       563	    33	 100.0	    37	.................................	CCTTGATTTATTACTTTCAATTCTTTGTATCGGGCGA	
+       493	    33	 100.0	    33	.................................	TAAATCCTATCTATAAAAACAACATGATTAATC    	
+       427	    33	 100.0	     0	.................................	|                                    	
+==========	======	======	======	=================================	=====================================	==================
+         4	    33	  98.5	    35	GTCGCACCCCTCGCGGGTGCGTGGATTGAAATA	                                     	       
+
+# Left flank :   GAAATTAGCTTGTGTTTCTCTGATTCCGTTTTTAAGATAAGTCGCACCCCTCGCGGGTGCGTGGATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAATAATAACTTTGCCTGTTCGTCACTTAAACTTGCCCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATCATTGCTTAAAAAAGATATAAGCCATACTTTTAGGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTCCGACTCTCAAGCCGCTAAAATACATAAGCCTAAGGTCGCACCCCTCGCGGGTGCGTGGATTGAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  AAATAACATTCCACACGAAAAACGGCCTACAAAAGTCGCACCCCTCGCGGGTGCGTGGATTGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTCGCACCCCTCGCGGGTGCGTGGATTGAAATACTTGAAGACTTATACGAATATTGCAGGTTATATGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTTTATCAATAATAACTAACATATTTCCTCCTTAAACGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAGATTAAGATTAATTGATTTCCATCAATCATATTTGTCGCACCCCTCGCGGGTGCGTGGATTGAAA
+
+# Questionable array : NO	 Score: 7.66
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.93, 5:0, 6:0.31, 7:0.82, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCCTCGCGGGTGCGTGGATTGAAATA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.00,-6.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [48.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [396,99] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [1.6,4.5   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_062572182 [3540-4193]; Endonuclease Cas2:WP_062572180 [2217-2510]; Helicase/endonuclease Cas3:WP_062572186 [7950-10529]; 
+# Array family : NA
+# Sequence source strain : DNF00840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Peptoniphilus.; Peptoniphilus sp. DNF00840
+//
+
+
+Array 3 896-728 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960249-Peptoniphilus sp. DNF00840 Scaffold276, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	==================================	==================================	==================
+       895	    34	  94.1	    32	CC................................	CATTGCTTAAAAAAGATATAAGCCATACTTTT  	
+       829	    34	 100.0	    34	..................................	TCCGACTCTCAAGCCGCTAAAATACATAAGCCTA	
+       761	    34	  97.1	     0	.................................N	|                                 	
+==========	======	======	======	==================================	==================================	==================
+         3	    34	  97.1	    34	AGGTCGCACCCCTCGCGGGTGCGTGGATTGAAAT	                                  	       
+
+# Left flank :   ATTATATCTTTCTCAGGATAAATTATAAAAAAATCTTTCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATCCTCTATATTCAACTAAGACTACATCAGGGCTTTGTCGCACCCCTCGCGGGTGCGTGGATTGAAATATCTCCTATGCTCTACGATGCTAAATAACTTTTAGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTGATCAGATGCACTCTTAGGTTTGTAACCAAATTCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTAGCTTGTGTTTCTCTGATTCCGTTTTTAAGATAAGTCGCACCCCTCGCGGGTGCGTGGATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAATAATAACTTTGCCTGTTCGTCACTTAAACTTGC
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAGGAAATTCTATGACACGTTGGGCGAGTATGGAGTGTCGCACCCCTCGCGGGTGCGTGGATTGAAATACCTTGATTTATTACTTTCAATTCTTTGTATCGGGCGAGTCGCACCCCTCGCGGGTGCGTGGATTGAAATATAAATCCTATCTATAAAAACAACATGATTAATCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAAATAACATTCCACACGAAAAACGGCCTACAAAAGTCGCACCCCTCGCGGGTGCGTGGATTGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTCGC
+
+# Questionable array : NO	 Score: 10.66
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.85, 5:0, 6:0.26, 7:1.46, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGTCGCACCCCTCGCGGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.10,-11.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-55.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [729,1322] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [1.15,4.77   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_062572182 [3540-4193]; Endonuclease Cas2:WP_062572180 [2217-2510]; Helicase/endonuclease Cas3:WP_062572186 [7950-10529]; 
+# Array family : NA
+# Sequence source strain : DNF00840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Peptoniphilus.; Peptoniphilus sp. DNF00840
+//
+
+
+Array 4 1692-1059 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960249-Peptoniphilus sp. DNF00840 Scaffold276, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	================================	=====================================	==================
+      1691	    32	 100.0	    34	................................	AGGATAAAACCATAAGCAGAATTATTTGTAACTC   	
+      1625	    32	 100.0	    35	................................	AAACCAGCTTGATTAACTAAACTCCCTAATTTATG  	
+      1558	    32	 100.0	    35	................................	ATTTATATAATCACAAACAAGTTCTGCGAGTTCTT  	
+      1491	    32	 100.0	    34	................................	TTCATTAATTGCTTTTAATTGGGCCTCTATTGAT   	
+      1425	    32	 100.0	    37	................................	TATATCTTTCTCAGGATAAATTATAAAAAAATCTTTC	
+      1356	    32	 100.0	    34	................................	CCTCTATATTCAACTAAGACTACATCAGGGCTTT   	
+      1290	    32	 100.0	    34	................................	ATCTCCTATGCTCTACGATGCTAAATAACTTTTA   	
+      1224	    32	 100.0	    35	................................	TGATCAGATGCACTCTTAGGTTTGTAACCAAATTC  	
+      1157	    32	 100.0	    35	................................	TAGCTTGTGTTTCTCTGATTCCGTTTTTAAGATAA  	
+      1090	    32	  93.8	     0	..............................NN	|                                    	
+==========	======	======	======	================================	=====================================	==================
+        10	    32	  99.4	    35	GTCGCACCCCTCGCGGGTGCGTGGATTGAAAT	                                     	       
+
+# Left flank :   TAAAAAGCCTAGACCTAACTCATAAAAAACAAGGAAAAAAGAGACAAAACTCTTAAAAAAATGATTAGCTGTATTTTTTAGTAGGAGATAATGGCTAAAAAATACAGTCGCACCCCTCGCGGGTGCGTGGATTGAAATACAAGAGATTAATTGACTATTACACATTTAACAGGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAGGATAAAACCATAAGCAGAATTATTTGTAACTCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAGATTTAGAAGAAGTAACTCCAGATGCAAGAGATGTCGCACCCCTCGCGGGTGCGTGGATTGAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCACCCCTCGCGGGTGCGTGGATTGAAATAGTAAACACTGGACTTTCCAAAGGAAAAGATGAGGC
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAATAATAACTTTGCCTGTTCGTCACTTAAACTTGCCCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATCATTGCTTAAAAAAGATATAAGCCATACTTTTAGGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTCCGACTCTCAAGCCGCTAAAATACATAAGCCTAAGGTCGCACCCCTCGCGGGTGCGTGGATTGAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCACCCCTCGCGGGTGCGTGGATTGAAATAGGAAATTCTATGACACGTTGGGCGAGTATGGAGTGTCGC
+
+# Questionable array : NO	 Score: 11.34
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.97, 5:0, 6:0.7, 7:0.67, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCCTCGCGGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.00,-6.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [100,526] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.74,5.36   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_062572182 [3540-4193]; Endonuclease Cas2:WP_062572180 [2217-2510]; Helicase/endonuclease Cas3:WP_062572186 [7950-10529]; 
+# Array family : NA
+# Sequence source strain : DNF00840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Peptoniphilus.; Peptoniphilus sp. DNF00840
+//
+
+
+Array 5 2086-1921 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960249-Peptoniphilus sp. DNF00840 Scaffold276, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=================================	=================================	==================
+      2085	    33	 100.0	    33	.................................	CAAGAGATTAATTGACTATTACACATTTAACAG	
+      2019	    33	 100.0	    33	.................................	GGATAAAACCATAAGCAGAATTATTTGTAACTC	
+      1953	    33	 100.0	     0	.................................	|                                	
+==========	======	======	======	=================================	=================================	==================
+         3	    33	 100.0	    34	GTCGCACCCCTCGCGGGTGCGTGGATTGAAATA	                                 	       
+
+# Left flank :   TACAAGCCCTCTTATTAAATTCTTATCTTAGAGGAGACATAGAGGCCTATCCACCCTTTATGATAGGAGGCTAAAATGCAAGTGTTAATTACTTACGATGTAGAAACAGTAACGCCAGCTGGCAAAAAAAGATTAAGACAGGTAGCAAAAGTCTGTCTTGATTATGGACAAAGAGTACAGAACTCAGTCTTTGAACTAAATATTTATCCAGCCGACTTGGTAGAAATAAAAAACAAATTAGAAAAAATAATTGATTCCAAAAAAGATTCTATAAGAATTTATAATTTAGGGAAAAATTGGGAGAGAAGAGTTGAAAGTCTGGGAAGAGACGATACTTATAACCCAGAAAAAGATCTATTGATCTTGTAGGACTCGTGAGATTTGGACCTGGACATAAAAAGCCTAGACCTAACTCATAAAAAACAAGGAAAAAAGAGACAAAACTCTTAAAAAAATGATTAGCTGTATTTTTTAGTAGGAGATAATGGCTAAAAAATACA
+# Right flank :  GATTTAGAAGAAGTAACTCCAGATGCAAGAGATGTCGCACCCCTCGCGGGTGCGTGGATTGAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCACCCCTCGCGGGTGCGTGGATTGAAATAGTAAACACTGGACTTTCCAAAGGAAAAGATGAGGCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAGGATAAAACCATAAGCAGAATTATTTGTAACTCGTCGCACCCCTCGCGGGTGCGTGGATTGAAATAAACCAGCTTGATTAACTAAACTCCCTAATTTATGGTCGCACCCCTCGCGGGTGCGTGGATTGAAATATTTATATAATCACAAACAAGTTCTGCGAGTTCTTGTCGCACCCCTCGCGGGTGCGTGGATTGAAATTTCATTAATTGCTTTTAATTGGGCCTCTATTGATGTCGC
+
+# Questionable array : NO	 Score: 7.55
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.31, 7:0.84, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCCTCGCGGGTGCGTGGATTGAAATA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.00,-6.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [48.3-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [962,132] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.92,4.77   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_062572182 [3540-4193]; Endonuclease Cas2:WP_062572180 [2217-2510]; Helicase/endonuclease Cas3:WP_062572186 [7950-10529]; 
+# Array family : NA
+# Sequence source strain : DNF00840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Peptoniphilus.; Peptoniphilus sp. DNF00840
+//
+
+

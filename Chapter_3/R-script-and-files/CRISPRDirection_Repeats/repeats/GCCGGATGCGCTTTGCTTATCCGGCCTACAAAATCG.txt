@@ -1,0 +1,132 @@
+Array 1 69372-69639 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE702490-Escherichia coli UMEA 3682-1 acYzk-supercont1.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                  	Insertion/Deletion
+==========	======	======	======	====================================	=================================================	==================
+     69372	    36	 100.0	    49	....................................	CAGCGTGTAGGCCTGATAAGACGCGCCAGCGTCGCATCAGGCGTTGAAT	
+     69457	    36	 100.0	    26	....................................	GAACGCGTAGGCCTGANNNNNNNNNN                       	Deletion [69519]
+     69519	    36	 100.0	    49	....................................	GAACGCGTAGGCCTGATAAGACGCGCCAGCGTCGCATCAGGCGTTGAAT	
+     69604	    36	  97.2	     0	..........G.........................	|                                                	
+==========	======	======	======	====================================	=================================================	==================
+         4	    36	  99.3	    42	GCCGGATGCGCTTTGCTTATCCGGCCTACAAAATCG	                                                 	       
+
+# Left flank :   TTGCGCTGCATCGATACCCTGTTTTTCAAAGGTTTCTACGATGACGTTACCGGTTTCCCACTCATATTCGCCGTTGATTTCTGCGTCGGTCATTTTGCGGGTGCAGGGAATGGTGCCGTAGAAATAGTCGGCGTGGGTGGTGCCGGTTGCTGGAATCGACTGACCCGCCTGCGCCCAGATGGTGGCGTGGCGCGAGTGCGTATGCACAATGCCGCCAATGGAGGGGAATGCCTGATAGAGCAGCCGGTGAGTTGGCGTGTCGGAGGAGGGCTTTTTCGTACCTTCAACCACTTCACCGGTTTCGATGCTAACCACGACCATATCGTCAGCGGTCATGACGCTGTAATCGACGCCGGAAGGTTTGATCACAAAGACGCCGCGCTCGCGATCAACGGCGCTGACGTTGCCCCATGTGAGCGTGACCAGGTTGTGTTTTGGCAGCGCCAGGTTGGCTTCTAATACCTGGCGTTTGAGATCTTCTAACATGTTGACTCCTTCGT
+# Right flank :  GCAACGTGTAGGCCTGATAAGACGCGCCAGCATCGCATCAGGCGTTACATACCTGATGCGGCTACTTAGCGACGAAATCCGTAATACACTTCGTTCCAGCGCAGTGCGTCTTTAAACGCTGGCAGGCGGGTGTCGTTATCAATCACCGTGATTTCAATGTCGTGCATCTCGGCGAACTGGCGCATATCGTTGAGGTTCAGCGCATGGCTGAAGACGGTATGGTGCGCGCCACCAGCGAGGATCCACGCTTCGGAAGCAGTTGGCAGATCCGGTTGCGCTTTCCACAGCGCATTCGCCACCGGCAGTTTCGGCAGGGAGTGCGGTGTTTTCACCGTGTCGATACAGTTAACCAGCAGACGGTAACGATCGCCGAGATCAATCAGGCTGGCGACAATCGCTGGACCGGTTTGGGTATTGAAGATCAGTCGGGCAGGATCGTCCTTACCACCAATACCGAGATGCTGAACGTCGAGGATCGGTTTCTCTTCTACGGCAATCGA
+
+# Questionable array : NO	 Score: 3.16
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.96, 5:0, 6:1, 7:-0.20, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCGGATGCGCTTTGCTTATCCGGCCTACAAAATCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [7,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.70,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [16,65] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000433156 [3007924-3010590]; 
+# Array family : NA
+# Sequence source strain : UMEA 3682-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli UMEA 3682-1
+//
+
+
+Array 2 3001835-3001013 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE702490-Escherichia coli UMEA 3682-1 acYzk-supercont1.1, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   3001834	    29	 100.0	    32	.............................	TACTAAAAGTCTGGTTCACGAATATCAAAAGG	
+   3001773	    29	 100.0	    32	.............................	CCGTCGGCAGCGGCGTTAAATGGGGCGCGCTT	
+   3001712	    29	 100.0	    32	.............................	TGATAAATTGTCCGCCCTGGCGGAATACCTCA	
+   3001651	    29	 100.0	    32	.............................	ACGGCTTCATGTTCTTGGTGATGGGGTTCACC	
+   3001590	    29	 100.0	    32	.............................	AAAAAATGCGACGACCGCAGCCATTCCGATCT	
+   3001529	    29	 100.0	    32	.............................	AGATCAACACGGTAGATATTTCCGTGATTGGG	
+   3001468	    29	 100.0	    32	.............................	AGTCTTTAATCAAAATGGATTTTTATAATGAA	
+   3001407	    29	 100.0	    32	.............................	GCCGGGTTAAGAAGGTGTATGGATGGCCCGGA	
+   3001346	    29	 100.0	    32	.............................	CATCCGGCGCTGAACATCGCCACCTGCCTAAC	
+   3001285	    29	 100.0	    32	.............................	GCTCATTTCAAATGGTCAGGTCCGGTGGTTTT	
+   3001224	    29	  96.6	    32	............................C	TGATCACATCATGTTTATTCGCGGTCGTATTG	
+   3001163	    29	 100.0	    32	.............................	CGACGTTTTCTAATATCACCCAGCAATCAATT	
+   3001102	    29	 100.0	    32	.............................	ATTTCATCAAAGCATTAAGGGATGGAATAAAG	
+   3001041	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+        14	    29	  99.8	    32	GAGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   CGTGCTTGCTGCTGGAGAAATACAACCGCCGGCCCCACCTGAAGATGCACAGCCTGTTGCCATTCCGCTTCCCGTTTCTCTGGGAGATGCCGGACATCGGAGTAGCTGAGATGAGTATGTTGGTCGTGGTCACTGAAAATGTACCTCCGCGCTTACGAGGCAGATTAGCCATCTGGTTGTTGGAGGTACGTGCAGGGGTATATGTAGGTGATGTATCCGCAAAAATTCGTGAAATGATCTGGGAACAAATAGCTGGACTGGCGGAAGAAGGCAATGTAGTGATGGCATGGGCAACGAATACGGAATCGGGATTTGAGTTCCAGACATTTGGGGTAAACAGGCGTACCCCGGTAGATTTGGATGGTTTAAGGTTGGTATTTTTTTTACCTGTTTGAAAACAAAGAATTAGCTGATCTTTAATAATAAGGAAATGTTACATTAAGGTTGGTGGGTTGTTTTTATGGGAAAAAATGCTTTAAGAACAAATGTATACTTTTAGA
+# Right flank :  TCANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGAGTTCCCCGCGCCAGCGGGGATAAACCGGGATATAGAGCGGGTACTCGAGCGAAGCGGGGGAGTTCCCCGCGCCAGCGGGGATAAACCGCCAGGACAGGCCGTGACGGTTGCCATTGAGTCGAGTTCCCCGCGCCAGCGGGGATAAACCGTTTTTGTTCTCTTCAAAACGCCGAACAACCAAGAGTTCCCCGCGTCAGCGAGGATAAACCGGACGCACTGGATGCGATGATGGATATCACTTGGAGTTCCCCGCCCCTGCGGTAGAACTCCCAACTCCCATTTTCATACCCATCAAGACGCCTTCGCCAGCTCCTTCACCAGCGGTAGCATTATCCGCATAACATCACGGCAGCGACGTTCTATTCTTCCTGGAAGTGCCTTATCAATATGTTGTTGATTATCCAGTCTT
+
+# Questionable array : NO	 Score: 8.08
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [3.3-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [384,106] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,5.92   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000433156 [3007924-3010590]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : UMEA 3682-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli UMEA 3682-1
+//
+
+
+Array 3 3027901-3027384 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE702490-Escherichia coli UMEA 3682-1 acYzk-supercont1.1, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   3027900	    29	 100.0	    32	.............................	AATGCAGGGCTGGGATCGGGAAAAACAATTTA	
+   3027839	    29	 100.0	    32	.............................	CTCATCAACCAGAATACGACCCGCCTTTTTGC	
+   3027778	    29	 100.0	    32	.............................	ATTACGCCGCCTCGCGTTTTTAGTCATTTCTA	
+   3027717	    29	 100.0	    32	.............................	AGGAGTTTAATTTCCAGATTGAGCGCTGGATA	
+   3027656	    29	 100.0	    32	.............................	CACGGCTGGCCATTTGAAATACCTGTTGCTCT	
+   3027595	    29	  96.6	    32	.T...........................	AACAGCGAGCCAACTGGTTTCAGATTGCTGAA	
+   3027534	    29	  96.6	    32	.T...........................	GAGCCTGACGAGACTACTGAGGCCGTTCTGTC	
+   3027473	    29	 100.0	    32	.............................	GACGCCGCCGCCGCGAAGCCGTTTCCGATGTT	
+   3027412	    29	  96.6	     0	............................A	|                               	
+==========	======	======	======	=============================	================================	==================
+         9	    29	  98.9	    32	GAGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   CTGGATGAACTACTGGCAACGCTGACCGATGATAAACCGCGAGTCATTGCACTGCAGCCGATTAGCCAAAAGGATGATGCCACACGTTTGTGCATTGAAACCTGTATTGCGCGTAATTGGCGTTTGTCGATGCAAACCCATAAATATTTAAATATTGCCTGATTAAACATTTATAAGCGTTATAAATGGGTGGAACCTGTAAAGACTTCTACTCATTTATATATTTTGTCGCCTCTGAAAAACCTCAATTTTGCCCATCCTGGACTAATCATTATCATTCTCTACAAATTCTGTGGCGTTAATTTTTCGTTGGAGTGAAAATTATTGCGGTAAAGTTTGGTAGATTTTAGTTTGTATAGAGTTATTTTAAATATTTACCTTTTTAATCAATGGATTAAGCGTTCTTTAACATAATGGATGTGTTGTTTGTGTGATACTGTAAAGTTGGTAGATTGTGACTGGCTTAAAAAATAATTAATTAATAATAGGTTATGTTTAGA
+# Right flank :  CCATATAACCCGTTATCTCTTTCTCAAGTTTTTATATTAGCAGTACTTGTAATAAGCAACATATCCACGTAACACCTCATGTTCAAAATAGTTCTCCATGCCAGAGAGGTTCACAATTATCGATACAAAAAATTAAATTTAATCAAAGTGTTATTTGTATGATTCTTAAATCGTTAAGAAATTTTAATCTATTATTTTTTTAATATTGAATTAATGCCTGTTAATTTTTTCTTTAGAATAACAGTATATTTTTTAAGCTTGTTATTCATTGGTTAAGTAATAAATCTGGAAGTTTGTCTTTGTTTTGAGGCTAATGAGTGGTTTTACATAACCGCCTCTATACGCTGTTGATGAATAGTTCTTATGAATAAAGATATCCAGTTCATACTTTAAGTGAAAATTGATAAAGTGCGATTCGTATTGTCTTTTATTCTAAAGACATCGAGTGTAGTTAATATTCCTTGTAAAAACAGGGATAAACCGAACTAGTTAAAGTTTTT
+
+# Questionable array : NO	 Score: 8.10
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.15, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-5.60,-7.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-75.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [640,341] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.65   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000433156 [3007924-3010590]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : UMEA 3682-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli UMEA 3682-1
+//
+
+

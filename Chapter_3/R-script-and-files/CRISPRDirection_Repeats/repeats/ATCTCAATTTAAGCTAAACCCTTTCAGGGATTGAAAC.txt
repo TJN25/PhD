@@ -1,0 +1,91 @@
+Array 1 2370743-2371995 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NKFP01000006-Leptolyngbya ohadii IS1 Scaffold_1, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+   2370743	    37	 100.0	    34	.....................................	CAGGCTCAGGGGTGGGAGCGGGAGCGGGTTCATC   	
+   2370814	    37	 100.0	    35	.....................................	TGATGACAAAGGCACTGCACCAGAATAAACGGCAC  	
+   2370886	    37	 100.0	    35	.....................................	GATCGTCTGGCAAAACTTGCCTCAGGCGAGATTGA  	
+   2370958	    37	 100.0	    33	.....................................	TTTAAGCGGTCCCTTCCCTCGCTGCGTTTTGAT    	
+   2371028	    37	 100.0	    35	.....................................	TGGCGCTAGAAATCCGTCAAAAATGGTCGAAGCCG  	
+   2371100	    37	 100.0	    34	.....................................	AAACCACAGAATCACCATGCGATACTCGCCAAAG   	
+   2371171	    37	 100.0	    34	.....................................	TTAGATGTGCTTAAGGCGATGTCGATGGATTGGG   	
+   2371242	    37	 100.0	    35	.....................................	TAAGCCAATGACCCTGCGCCAGTTGCGCGAACGAA  	
+   2371314	    37	 100.0	    33	.....................................	CTTAACGTCGAGGTAACGCACCGTCACCTTATC    	
+   2371384	    37	 100.0	    36	.....................................	CCCCTGGATTTGTGAGTGCGAGGTCTGGCTCGCCCA 	
+   2371457	    37	 100.0	    34	.....................................	AGACTCTTTTTGCCGTGCTGGAATGCACGCTCCT   	
+   2371528	    37	 100.0	    34	.....................................	CGACGGCAGCAGCACTCGTCGAGGCAGGCAGCAG   	
+   2371599	    37	 100.0	    34	.....................................	TTGAAAGCAACGATCGTCCTAGTTGCGCTTATCC   	
+   2371670	    37	 100.0	    35	.....................................	ACTTTACTATCTTTACGGGAAGTCAAAACGCATAC  	
+   2371742	    37	 100.0	    34	.....................................	TGCGTAGTTCCGGTGTCTGTGTTTTGCGTGTGGA   	
+   2371813	    37	 100.0	    35	.....................................	TTCGTATCTGCCAGCACGCGCAGCCCCTCGGTTTG  	
+   2371885	    37	 100.0	    37	.....................................	TAGCCTCGCACGCCTGCGGAAAATCTGCCGCAAAAAA	
+   2371959	    37	  97.3	     0	...................................C.	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+        18	    37	  99.8	    35	ATCTCAATTTAAGCTAAACCCTTTCAGGGATTGAAAC	                                     	       
+
+# Left flank :   GCAGGTTGAAGCGTTTGAAAAGCTGCTGCAACATTTTCGTTTGTTCGATCGCCTCAGCTATACGACACCGCAGCCCGTCCCGGATGCGATTATGGTCACGCTTACCAGTCCAGTGGGAACCACTCAATATAGTGATGCCGTTGCCGATCAGCTTCCTCCAGATCTCCAGGCCATTGTTGAGGCTTGGGGGGCGATCGCTGATAATCGCTGAGTGGGTCGATCACTTTGTGCTGCCGCCGAAGGTGAGTCGGGTGCGCGGAGGGGCGGGTGTTTTGGCGGAGATTTCTGAGAAGCTCTTGAATTGCCTGATCATCAAGGCTTTCCGCTATTTAATCAAAATTCGCTTCCGCGCAAGTCGTCAAATCTCGGCACAGCGAGCGTTTGCAGACTTTTCCCCTGGGAAAAACCTGTTGCCACCCTATCCAGGAATGCTAAGATACGGTCAATTCGCGCGATCGAACCATGAAAACTGCATAGGTCAAGATTTTCAGCGGCACGCT
+# Right flank :  CACTACCCAGACCAGCGACATTACAGGGCTTGATTAGTTGCCTACCACGCAAATACTCAAATCTCTACAGCCGCCTCGCAGAGGATGTTTCAGCGATCGTCCAAAATCCTTGGACTAGAATTGGACTAAAATTTTTGCCCCTTTTTCGCCTATTTCAGGTCTCTCTGCTGCCGATCGAGGAGACTATCCAGACCCCCTTCATTGTAATACCCTTCGTTCTTTCGGCATGAAATAGGCAAAATATCAGGCGACCCATCAGACAACCTCACGCGATCAATCGCCTCGATTTCCCATCTCAATTTTCTATTACCTGCCATCACCAACCGACATCATTTAAGTGAATTTCAGTTGCGACTGAAAACTACATTTCTGACTCTATCAGTTTTATTTTTAGACCATTTTCCCAATCAACAAAGCCTTCATTTTAGGCTCTCTTGCAGAGTCTCCTTTCAGTTGCCTATTCCAGCAATACATCGTCCCATCACTCACAGGCAATGATC
+
+# Questionable array : NO	 Score: 7.61
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.99, 5:0, 6:1, 7:0.62, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATCTCAATTTAAGCTAAACCCTTTCAGGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.90,-3.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [50.0-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [291,962] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.28,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : IS1
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Synechococcales; Leptolyngbyaceae;Leptolyngbya.; Leptolyngbya ohadii IS1
+//
+
+
+Array 2 3436303-3436483 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NKFP01000006-Leptolyngbya ohadii IS1 Scaffold_1, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=====================================	====================================	==================
+   3436303	    37	 100.0	    36	.....................................	ACGATTCAGGATCTCAATGAGGTGCAGCCTGGGTTT	
+   3436376	    37	  97.3	    34	........................A............	GGATTTGCATATTTCTTCCAATGCAATCAGTCAG  	
+   3436447	    37	 100.0	     0	.....................................	|                                   	
+==========	======	======	======	=====================================	====================================	==================
+         3	    37	  99.1	    36	GTCGCAATCGCCCTCTCAGCAGTGGGTGGGTTGAAAG	                                    	       
+
+# Left flank :   GCCAATTCGACAACAGCCTGAACCTCAGTTCAACTCGTACCTTGACAATAGAATGACTACGTAAAAGCTATTGAAAGATCGATGGTTTTCACGCGGGGGTCAGTTTTACTGCTTTCCGGTCCCGAAACTACCGCTTCTGCTGCAAGGATGGCTTGGGCGTCCTTACAGGACTGGGTCGCGCCAGGTTCAGGGAGAATTCTTAGGGAAGAGATCTTGGTGTCTTCTCTAAGGATACAGATTACTGTGGTAGTAATCAAAATCGCCCCAAGCATGGGTTGAGCCTACCCAAACCATCGATTTGGCAAACCAAAGCGGGTGCAAAATTCCTGGTGGGTTTGCCAAAACACCTCAAACTCGCTCACCGCCTGCCCTATTCTGATTTGAGTGATTGGAAACTAGGGGTATTTCGGGCAGTAGACAGAGTAATTTTGCTCAAGCTCAAGCAGGTTTGGCAAAAGGTTTTCTAGAAGCTAGGTTGTAGGAAGCATTGAACTGCTGGA
+# Right flank :  GTACGGTGCTCTGCTTTTGCTACTTCAGTGTCGTAGTCGTAATTGCCCTCTTGGCAGTAGGTTAAGATGTCACGGTAGTAGTGGGTAGGCTGAAAGGCGCGTTGCGATCGCACTTCGCAAGGCGTAGACGCAACACTTGTAGAATGATGAGCTTCTGTTTAGGGGAAAACTTTCTGCTCCCGTAACTCAGGATTGCTTGAACTCCGAAGACCTTTGCTGGTCTTCTAAGAGCCTCCCGCTAAATTTTGGAAATTAATTCTTTAAAACTGGTTTTCAGGATGAATGCGAAGCATTCTCTTACGAAGAATTTACTGAGTCACGGAGGAATCAGCATTCCAGCAAATTTTGGAAATTAATTCTTTAAAACTGCTGTTTAATTCTTTAATGTACATTAATGTACAAGGATCAATGGAGAGTAGGAGATTCGAACTCCTGACCTTTGCGGTGCGATCGCAACGCGCTACCAACTGCGCTAACTCCCCGTATTCTTTATTTTACTA
+
+# Questionable array : NO	 Score: 4.50
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:1.46, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCAATCGCCCTCTCAGCAGTGGGTGGGTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [7,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.50,-4.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [56.7-50.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [230,555] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : IS1
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Synechococcales; Leptolyngbyaceae;Leptolyngbya.; Leptolyngbya ohadii IS1
+//
+
+

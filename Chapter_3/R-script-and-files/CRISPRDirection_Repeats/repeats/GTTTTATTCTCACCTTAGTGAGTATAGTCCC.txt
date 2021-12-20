@@ -1,0 +1,38 @@
+Array 1 154886-155117 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CCEZ01000008-Anaerosalibacter massiliensis, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	===============================	====================================	==================
+    154886	    31	 100.0	    36	...............................	AATTAGAAATAATGCAATGTAGAGACAATATAGCGG	
+    154953	    31	 100.0	    36	...............................	AGGAATACACTTTAATGAATCCGACATGGTAGCATT	
+    155020	    31	  96.8	    36	..............................T	TAATAGAACCATAGTGGAGATACCCGCCTAGTTTGG	
+    155087	    31	 100.0	     0	...............................	|                                   	
+==========	======	======	======	===============================	====================================	==================
+         4	    31	  99.2	    36	GTTTTATTCTCACCTTAGTGAGTATAGTCCC	                                    	       
+
+# Left flank :   AGAAATAAGTAACAATAAAACAGAACGGGCAATAAAACCATTTGTTATAGGACGAAAAAACTTTCTATTTTCAAAGTCCCCTAGAGGTGCTACAGCAAGTGCCATCACATACAGTATAATAGAAAGGTTGAAAGCCAATAATTTGAATCCATTTTACTATTTAGAATATTTATTTGAGAAACTACCTAATATAAATCCAGAAAACTTAGAAGAGCTAAATCAGCTATTACCTTGGTTAGGCTTAATTCCAGAGATTTGCAAAATTCCTAATAAAAAATAGTATAATATATATCCCTATCTTTTGAAGGTGGGGGATATTTTACGCTTACACTCTTTTTATTAAGAGGCGTCCTACCGTTTTTATCCTTAAACTTTCCCAAATCTATATCTCCATTTCCTTTTTTCAGTTTATTAGGTATCTGACGTTTTATAGCATTTATCTCAGCTCTATTCTTAAACCACCTAACAATTTAAACATGGTAATTTTATATAAATAGTTA
+# Right flank :  CCGTTAATTTATACAATAGATTCTTCAATCTATTTACCATAGCTTTTTGTCTATCGTCTTAAATTTAAATTTTTATATTCAAAACTATAACTTGATAATTTTATCTTATACTATTTATGTGTATTTTTCAATAGTCCTAAACTTCAATCGATATCCTAGCATTTTCACATTACTGAGTATCGACTGAAATCTTATGATACTATAAATTTAATATTTTGAATATAATTAGATTCCAAATTGACCTTTTGGTTATTTTTTTTTACATCTTTATTAAATTTAACAAATAGTGTTTTTCCATCAAATTCTAAGTTAATATTATATTTTTTATAATATATATCTATATATACAACTTTACAATTTTCAATATAGCGAATTTCAAGATCAATCTTCTTTTTTATATATATGTCTTCATAACAGCTTGGAACCAATAATTCATTTTTAACTTTTAAATCCATATATTTAATTTTAAAATTAATTCTTTCATCTGTACTTTCATTACT
+
+# Questionable array : NO	 Score: 4.41
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.96, 5:0, 6:0.34, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATTCTCACCTTAGTGAGTATAGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.90,-6.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [222,191] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;Anaerosalibacter.; Anaerosalibacter massiliensis
+//
+
+

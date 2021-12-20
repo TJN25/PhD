@@ -1,0 +1,40 @@
+Array 1 52827-53100 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AHOJ02000029-Leptospira santarosai str. HAI1380 ctg7180000004181, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+     52827	    30	  80.0	    31	TT.AAT.......................C	CGTGAACTCCGGCACCCCGAAGAAAAAGCCC	
+     52888	    30	 100.0	    31	..............................	ACGTCCTTCTTCTTTACCCGTTTAAAATATT	
+     52949	    30	  96.7	    31	...............T..............	TCAGCGGGAAGACCGGTCGCGTATTGAATCA	
+     53010	    30	 100.0	    31	..............................	GCGGGATACGTAAATAGTACCGCTCCTTTGT	
+     53071	    30	 100.0	     0	..............................	|                              	
+==========	======	======	======	==============================	===============================	==================
+         5	    30	  95.3	    31	CGGTTCAACCCCACGCATGTGGGGAAAAGA	                               	       
+
+# Left flank :   GGGACGTCCGATTCGAAGTTATCCAAAGTGGTAAAGTCAAAATGGATTATAAAGGGATATTCTCCCGAAGGTGTTTGGTTTTGAATGTAAAATTCTACCTTGTCGTTTTCGTTGCGGGTAAGAATACAGATCCAATCTTTCGGTTTGCATTCCCCTTTTAAATCGGAGGTTTTCGCCGATAGGTCGAAAGACGTAGATACGATAAAAATTAAAACGACAATCGAATTTCGCATATCAATTTCATTATTTCCGAAGCGTTGTAAATCAGTAAATCATCATTGTCCTCGGTTCACAAGTTCTCTTTTTCAAACTTTTTGGTTTTCGAACGGTGTTTTCTGTTTTGATACTTCGTTTCGAGATAGAACAAAACGTTTGAGGCATATTTTTTGGGATTTCGATTGCGTTTTCAAATCTATCTTTGAATGGGTGAAGTTTTTCCAAAATATAAATGTCGAAAATTTAAAGTTCGTTCGTTGATTCTATCTTGTAAAAACTTTCAA
+# Right flank :  ACTAAAGATTTGTATAGGGCCTTGAGATATTATGTCAGTTTAGAACTCACTTACAGCGTGTCCCAAAACCTGCCGAGTGATCCTTAGAGAACGAAGGCATTGAGTTTCCCCGAGTGATCCTTAGAGAACGAAGGCATTGAGTTTCTTTTGAGACAGGTTCTTATAGAAATAGATTGATCTTGTATTTTAGTTCACAAAAACGATCGGTATGAAAAATAAAACCGCCATATTCAAGGAGCTATGATTCTATATTCGGAATCATGTGATTTGAATATTAGAAAAAATTATAATATATTGAGACTTGGAACTATAAATTTTTAACTTGTGCGGGCGACCGGATTGCGAGTGGAGACGAGGATTCTGAGAAAAAATTCCGTCATGAGGTTTTTCTGTTTTAGGATTCAAAGAAACTTCGTATTTTTATCGCTTATAAAATTTCGTCCAAGCGAGTATAAAAAAAATTATTGTCGATACGCAAGATTCCGTTTCTCGGGAATGGT
+
+# Questionable array : NO	 Score: 6.62
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.76, 5:0, 6:0.99, 7:0.07, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGTTCAACCCCACGCATGTGGGGAAAAGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.20,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [269,258] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.01,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HAI1380
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.; Leptospira santarosai str. HAI1380
+//
+
+

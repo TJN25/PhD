@@ -1,0 +1,40 @@
+Array 1 83188-82933 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB851009-[Clostridium] clostridioforme 90A8 acBRe-supercont1.4, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	===========================	=================================	==================
+     83187	    27	  85.2	    27	....CC.A.........A.........	CTCCGGCTGTGCTTCCGCTTCCGCTCT      	
+     83133	    27	 100.0	    33	...........................	CTCCGGCTGTGCTTCCGCTTCCGTTTCCGCTCC	
+     83073	    27	 100.0	    27	...........................	TTCCGTCCGTACTTCCGCTCCCGGTTT      	
+     83019	    27	  92.6	    33	..C..C.....................	TTCCGTCTGTACTTCCGCCTCCGCTGCCTTCTT	
+     82959	    27	  81.5	     0	.....C.........C...A.....AT	|                                	
+==========	======	======	======	===========================	=================================	==================
+         5	    27	  91.9	    30	CGGTTTCGCTTCCGCTGGCGCCTCCGC	                                 	       
+
+# Left flank :   GGCATCTGTGGTGCGCCGCACCAGCTCCCGGGAGTCATCCAGGGCAGTCTGGAGGTCCGGATAATATACATCCAGAGAATCATTGAGAGCCTTTAAATCCTCAATCAGATAATCCATATTGTCAACTATCTCGGCGCTGTATTTCGCGGAATCAGACGTATCATCCATCAGGTTCGACATCCTGTCTGTCAGGGATTTGCTCTGTGCAGACAGCTCCTGTAGGACTGCCACCTTTTCATACAGAGCCTGTTCAATGGCTTTTGCGGCTCCCTGCGGATCGGGACTGCTTACCAGAGGAATATTTTTCCTTTCTATGGATGCGGTTACCGTGATTCCTGCCAGGCCGGTGTTTCCAGTATTTCCTGCATTTTTCGCAGAACTAATGACAGTGCCGGTATCCGGGGTGCTGCTGCCGGTATCTCCGCTGGCAGTGCTGTTTTCAGCAGGGCTTCCGCCGGTATTTTCTTCTCCGGCTGTGCTTCCGCTTTCACTTCCGCTTC
+# Right flank :  CCGGATTATCTTTTCCATCCGTACTGCTGCCGGAATTTCCGCTTTCCTGGTCATTTCCCTGATTATTATTCTGGGTATTTTCCTGGCTGCCGCTGCCGCCGGAAGATGAGTGGCTTCCGCCATTTGATACCCCGTAATCCACATCCTCCATGTCCTCCAGCTCTTCCTCATCCAGTTCCTCGTCGTAGAGCCTTCTGGCCTTGGCGCTGGAACTCTTATACAAGCTGAGATACGTAAGCAGTGTGTCCTGGGATGCCTGAAGCTGGGTGTCCAGCGCAATAATGGATTCCATGGTCTTCTTAAGCTCCGGCAAATCGCTGCTGATACCGCCTGCGCTGTTTTCAATGTTCTTAAGTCTGGTCTGCAGTTTTCTTAATGGGTCCTGCATGTCTCCCAGTGTGCTGACAATGTCATTCATGCTGCTGTGAACCACCTCAGCACAGTCCTTGGCTGTCTGGAGATGAGGAATCATGGTATCCATCTGCTGAGACACCGCTGTA
+
+# Questionable array : NO	 Score: 2.61
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.60, 5:0, 6:0.28, 7:0.21, 8:0.6, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGTTTCGCTTCCGCTGGCGCCTCCGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [50.0-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1405,1104] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 90A8
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; [Clostridium] clostridioforme 90A8
+//
+
+

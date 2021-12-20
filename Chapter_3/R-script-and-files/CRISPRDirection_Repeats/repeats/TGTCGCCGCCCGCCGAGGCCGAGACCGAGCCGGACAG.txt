@@ -1,0 +1,139 @@
+Array 1 1446984-1447302 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014206-Desulfovibrio sp. J2, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	==============================	===========================================	==================
+   1446984	    30	 100.0	    42	..............................	CCAAAGAGGCGCGTTGTTCGTTACGCCGTGCGGAGTGAGATT 	
+   1447056	    30	 100.0	    43	..............................	CCAAAGAGGGGGGGGCTCGCTATGGCGGTGCGGGGGCTGGGGT	
+   1447129	    30	 100.0	    43	..............................	CCAGAAGAGGTGTGTTGTTCGTTACGCGGTGCGGAGTGAGATT	
+   1447202	    30	 100.0	    41	..............................	TCATAGGAGGTGTGTTGTTCGCTTTGGCGATGCCGGGGTGG  	
+   1447273	    30	  86.7	     0	............T......C.......AT.	|                                          	
+==========	======	======	======	==============================	===========================================	==================
+         5	    30	  97.3	    42	CGCTGTTTGAGGCTGCGCCTCAAAGGCGCT	                                           	       
+
+# Left flank :   CCAACTCCTTCACCAACCAGGCCCTGGCCCAGATCGACCTGGCCCTGAACGACTACGAGCCCAAGGTCATGATCCTGCCCAAGAAGCTCGACGAGGAAGTCGCCCGCCTGCACCTCGCCCGCCTCGGCGTGAAGCTCGAAAAGCTCACCAAGAAGCAGGCCGACTACATCGGTGTGGACCCCGAAGGACCCTACAAGCCCGACCATTACAGGTACTAGCCTAAAACGAGACCCGATAAAAAAAGGGGGGAGCCGAGCGGCTCCCCCCTTTTTTTATCGGGTCTCGTTTTAGGGGCGGCGGCTTCCGATAGCGGGCCATTCGCACATTTTTTCCGGGGGGCTTTCATCCTCACGTAGACGGCTACGCTGCGGTGAAAGCCCCCCGGAAGAAAATGCACGCCTGACCCACTCTCGAAAGCCTCACTGCTTACGGACGCGGAGGGGGGAGCCGCTTCGCTCCAAAGAGGGCCGCTGTTCTTTTCGCCGTGCGGGGGAGAGAGC
+# Right flank :  TCCAAGGAGAGGGGAGGGTGGCTGCGGAGGGGGTGTTTTTATACAGGACGGGGGGTGGGGTGGTGTGATAGAGAACCGGGCATGCGCGGAGTCCGTCCTCATATCCTCCTGATTGTGGTCCTGGCCGTCCTGCTTTGGAGCGGGGCGGGGTGGGCCTTGGACGTGGACGTCAAGGTGTCCAGCTTCAAGATGGACCTGGGGCTGGAGTATGCGCCGGGGAACCTGATGGACGGGGACCCGGCCACGGCCTGGGCCGGGGGAGCATCTCCTCGGGCGAAGGGCAGTGGATGGAGTTCTCCTTCGGCATGCCCGTGCGGGTCACCCGGCTCGGCGTGTACAACGGGCACCAGGGCGAAGGGCAGTTCGATAAATTTCGGCGCATCCGGTCCGGCCGGGTGGTCTATCCCGACGGCACGGAGTTCCCGTTCTGGCTGCGCGACGAAAAGGGCGAACAGATCATCGAATGTCCGGGCAAGCCCTACAAGTCCCTGCGCATCGTG
+
+# Questionable array : NO	 Score: 4.60
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:0.99, 7:0.15, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGCTGTTTGAGGCTGCGCCTCAAAGGCGCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-10.00,-9.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-35.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [284,81] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_066806130 [3505703-3506311]; Endonuclease Cas2:WP_066806126 [3504375-3504668]; Helicase/endonuclease Cas3:WP_066806136 [3509614-3511815]; 
+# Array family : NA
+# Sequence source strain : J2
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;Desulfovibrionaceae; Desulfovibrio.; Desulfovibrio indicus
+//
+
+
+Array 2 1849458-1850130 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014206-Desulfovibrio sp. J2, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	=====================================	============================================	==================
+   1849458	    37	  81.1	    41	C.G.C..AT......T....................A	AACATCCATGAAAATGTCGGTGGCGAAGAGCCCCCAGGCGG   	
+   1849536	    37	  94.6	    41	...T....T............................	GGTGCCAAGGTTCATGGTGAGGCCGTAGAGCCCGTAGGCTA   	
+   1849614	    37	  89.2	    41	.A...T.........T............A........	GGTGCCAAGGTTCATGGTGGGGCCGTAGAGCCCGTAGGCCA   	
+   1849692	    37	  89.2	    44	.....T.........T...T........A........	GTCGGTCAACGTCATGGTGCCGTTGCCGGTGACCCCGTAGGCCA	
+   1849773	    37	  97.3	    41	.............G.......................	GGTGCCCAGGTTCATGGTGAGGCCGTAGAGCCCGTAGGCCA   	
+   1849851	    37	 100.0	    44	.....................................	GTCGGTCAACGTCATGATGCCGCTGCTGGAGAGGCCAAAGGCGG	
+   1849932	    37	  83.8	    44	...TC..........TC.....A...........G..	GGTGTCCACGGTCAGGGTTTGGATGCCGCAGAGCCCCCTGGCGG	
+   1850013	    37	  73.0	    43	A..TTGTA..G....T............C.....G..	GGTGCCCACGGTCAGGTTCCGGGAGGCGTAAAGCGCCTCGGCG 	
+   1850094	    37	  81.1	     0	CAA..G..G.A.T........................	|                                           	
+==========	======	======	======	=====================================	============================================	==================
+         9	    37	  87.7	    42	TGTCGCCGCCCGCCGAGGCCGAGACCGAGCCGGACAG	                                            	       
+
+# Left flank :   CGTGCCGCTGGCGTTCACGGTCGGGGCGGCGGTCTGGGAGACGTTGACCAACAGGGTGCCGCCGTCCACGTCCAGGTCGCCTGTGTTGATTTCGCCCGAGGTGGACCAGGTCCCGGAACCGGACTTGGTCAGGGTTGAGATGTTGTTGATGTTGCCGAGCATCGTGCCCGCGCCCGCCAGGTTCAGCAGATTGGTGCCGCCGCCCAGGTCGATGTCGCCGGTGATGGAGGCCCCGCTGCCCAGGGTCACGGTGTCGTCGTAGTTGCCGCCCGGGGTCCAGTTGCCGCCGCCGGAGGAGGTGCCGGAGGCGATGGCGTAGGCGTTGCCCGCGCCCGAGGTGTCCTCCGCCGTGAGGGTCCCGGTGACGGCCAGGTTCATGCCCTGGCCCGAGCTGACGGCGATCGCCAGGCCGTTCGCCCGTGCGGAGACCGTGCCGCTGATCCGCATGGCCCCGCCTGCGCCGTCGTCCAGCGAGTTCAGGGCGCTGACGCCGAGGGCGC
+# Right flank :  GCGAGGTCAGTGCCATGTCGCTGAAACTGAGCAGCCCGTAGGCTCCATCGGCCCCGGAATCGGCGGAAACCGTTCCGAACAGGTCGCCCAGCGTCATGGAATCCGTGCTGTAGAGGCCGAAGGCCTGACCTCCATTCGTCGTGGCCGAGACCGTTCCGGACAGGTCGTCCAGCGTTATGCCACCTAAAGCGCGGAGACCGATGGCGCTGGACAAGTCCGCCGCGGCCGAAACCGAGCCGGAGAGGGTAGATACCGTCATGTCCCCGTCTGAGTATATGCTGTAGGCGCGATTGATACCTGTGGCCGTGGCCGTCATGGAGGCCGGGAGGTCGCCGGTCACGGTCTTGCCGTCTGCGATCAGGAGCGCGCTGGCCTGGCTGGTTCCGTCGGTACGGGTCAGTTGAATGTCCGTTCCGTTCACGAAAGTGACGGAGTTCAGGTTCGGCAGGGCCGAGGCCAGGGTGATGGTCCCGGTCAGGCCGTCCACGAACTGGATGGTG
+
+# Questionable array : NO	 Score: 2.27
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.39, 5:-1.5, 6:1, 7:0.13, 8:1, 9:0.25,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTCGCCGCCCGCCGAGGCCGAGACCGAGCCGGACAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.00,-17.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [30-44] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1979,945] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_066806130 [3505703-3506311]; Endonuclease Cas2:WP_066806126 [3504375-3504668]; Helicase/endonuclease Cas3:WP_066806136 [3509614-3511815]; 
+# Array family : NA
+# Sequence source strain : J2
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;Desulfovibrionaceae; Desulfovibrio.; Desulfovibrio indicus
+//
+
+
+Array 3 3504199-3502907 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014206-Desulfovibrio sp. J2, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	===============================	=======================================	==================
+   3504198	    31	 100.0	    35	...............................	ACAGATGGCGCGACGGCGGCCGGTATTGCGGGGCT    	
+   3504132	    31	 100.0	    35	...............................	AATCTTCGGCCATCCATGTCGTCTCCTCATCTGCC    	
+   3504066	    31	 100.0	    34	...............................	AACTTTCAGTCACAGGTAAACCACATTGCCAGTT     	
+   3504001	    31	 100.0	    35	...............................	AATTATCAGGCCGAAGGTTGAACTTGACGAGAGTG    	
+   3503935	    31	 100.0	    37	...............................	ACTGCACGTCGAGGAAGGTTGCAACTCCGTAATCGAA  	
+   3503867	    31	 100.0	    39	...............................	ACGCACTTTCCATGGCCGCCTTGATATTCTTGCGGCCAA	
+   3503797	    31	 100.0	    34	...............................	ATGCACGGCAATCCGCCGCGCGGCTGTCACAGCA     	
+   3503732	    31	 100.0	    35	...............................	CAGGCGCATTGCAGAGATTGTGGCGGACAACAACA    	
+   3503666	    31	 100.0	    36	...............................	CCATGCAAAACTGGATTTTATATGCGGACATCAAAT   	
+   3503599	    31	 100.0	    36	...............................	CCAGCCCTGCGCGTCACAGAGCGCGGCCCACTCGAC   	
+   3503532	    31	 100.0	    35	...............................	CCGGTTGGGCGGTTTGGGCTGCTGGTTGACTACCC    	
+   3503466	    31	 100.0	    35	...............................	CACTTATTCTGCTTGATGCGCTGGAGGATTTACAC    	
+   3503400	    31	 100.0	    36	...............................	CTCGTCTTTTCCCCGGGCGCGGCGGGCGTGCCGGAG   	
+   3503333	    31	 100.0	    35	...............................	CTTGAGCTCACCTTTCATGAGTCTGGCCAGGATGT    	
+   3503267	    31	 100.0	    36	...............................	CCGCTACGTCATTACCAACCTGGGCGACCCGGTGGT   	
+   3503200	    31	 100.0	    35	...............................	CCTCCGCTGCTTGGCCCGCATCTTCCGGGCCGCTT    	
+   3503134	    31	 100.0	    34	...............................	CATCGGTCTTGCCCGCCTCGACGAACTCTTCGCT     	
+   3503069	    31	 100.0	    34	...............................	CTGTGCAGTTGCTCATAATTGCCTCATGCTTTTG     	
+   3503004	    31	 100.0	    36	...............................	CCCCTGACCGACCAGCAGAAGCGCAAGGTTTTCGGC   	
+   3502937	    31	 100.0	     0	...............................	|                                      	
+==========	======	======	======	===============================	=======================================	==================
+        20	    31	 100.0	    35	GTCGCCCCCCACCCGGGGGCGTGGATTGAAA	                                       	       
+
+# Left flank :   GGATATCCGCCGTTTTTTTGGAAGTGACCCATGCTGGTGCTAGTGAGTTATGACGTGAGCTTCGAGGATGAAGGCGGCAAGCGGCGGCTGCGCCGCATTGCCAAGGTCTGCCAGGACTTCGGCCAGAGGGTGCAGTATTCGGTATTCGAGTGCGTGGTTGATCCGGCGCAGTGGACGCGTTTACGTCACCGGCTGCTGGAAGAGTATGACGAGGAGCGTGACAGCTTGCGTTTTTATTTTCTCGGCAAGAACTGGCAGCGCCGGGTTGAGCAGCACGGTAGCGGAAGCAGCTATGACCCGGAAACAGACACGTTGATATTGTAGCGCGAACCCCAAGCGGTTGGAAAAATCCAGGGAGGTTCGCAACCCTTGGGGTGTCAAGGATAACAGCCCGTTGCGCTACCGCTGATGAGTAAGCGAGCCTTCGGGGCCTTAAGCGGACATGGTTTCGCGGACAAACGGCTGAGGAAGCCCGCGCCGCAAGGCTTTGCTGCCGCACT
+# Right flank :  CCCGGCCATGGCGCAGATCGCGGAAAGTCAGGCCCTCAATCTGGGCGGCGGCGAGCGTCCTTCTCATTGCAATGGTGATGGCGTTTGGAGTCATGCCGAACACCGAGCCGGTAATATTTCGAGGGATGCTCGTCAGCACGGCCAGGGCGTCGGGTGATAGTGGGACTGTTCGCTCGGACTTATTTTTGGTGCTTTCGAGGTAGAGCGTCTTCGTCTTCAGGTCGACGTTTCCTCATCGCAAGCCTGCGATTTCCTCACGGCGCATCGCCGTTGCCAGAGCGAACTGAACAAGAGCTCGGAACTTGTCGCCACAGGCGGCCAAGAGCCGTTCCTCTTCGCTCTTGGCGTCCTCGACACCCTCAGGAGCGGGGTAAATGTCGCCGGGTCCGTCCGCCGGTCAGTTTGGGCTTGTTGCTCGCCCTTTTCACGGGGTTTGCGAGGCTTTCCGTACTCCAATCTGAGGCGACGACTTCGAAGAGCCGTGAGAGGATAGCAAGGTC
+
+# Questionable array : NO	 Score: 11.09
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.34, 7:0.75, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCCCCCCACCCGGGGGCGTGGATTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.20,-9.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [361,177] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_066806130 [3505703-3506311]; Endonuclease Cas2:WP_066806126 [3504375-3504668]; Helicase/endonuclease Cas3:WP_066806136 [3509614-3511815]; 
+# Array family : NA
+# Sequence source strain : J2
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;Desulfovibrionaceae; Desulfovibrio.; Desulfovibrio indicus
+//
+
+

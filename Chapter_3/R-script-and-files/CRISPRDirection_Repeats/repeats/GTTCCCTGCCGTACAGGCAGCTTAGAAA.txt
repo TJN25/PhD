@@ -1,0 +1,53 @@
+Array 1 12525-11477 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JAEE01000010-Phaseolibacter flectens ATCC 12775 L871DRAFT_scaffold00007.7_C,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+     12524	    28	 100.0	    32	............................	AAAATAGTCAATATTGAAAGATGCTCTTAGCT	
+     12464	    28	 100.0	    32	............................	TTTCGGCAGCATTATCCGAGCAAATACATCAT	
+     12404	    28	 100.0	    32	............................	TACTTAACTTATAAATAAAATATAAACCATAT	
+     12344	    28	 100.0	    32	............................	ATGCTTTGTTGTCGACAACGTGGTATGCGAAT	
+     12284	    28	 100.0	    32	............................	CGAAAGCGCGAAAATAATTGTGCTGGCCAGGT	
+     12224	    28	 100.0	    32	............................	TTCGATTCCTTTCAATACTTCACCCTCTTTCC	
+     12164	    28	 100.0	    32	............................	AGCAAAAGCATCTGAGTTTTGCATAATGACCC	
+     12104	    28	 100.0	    32	............................	AGGCTGTTATGCGAGATGGTTTAGATGCACTA	
+     12044	    28	 100.0	    32	............................	TCACGAAAGATTAAACGAGCTAATTACTTGGG	
+     11984	    28	 100.0	    32	............................	TGAAAGGCTATGCCAAGGTGGTTACCGAATAT	
+     11924	    28	 100.0	    32	............................	TTCTAGCTTCTGAAAGAATAACTTCTGATCCG	
+     11864	    28	 100.0	    32	............................	TCGCAGTCTAAAACCAATAACGGGGACATGTT	
+     11804	    28	 100.0	    32	............................	TGTTTCTATATGCTCTAGATTGCCGTCTTTAC	
+     11744	    28	 100.0	    32	............................	GGACGTGGCTAAATATTCCGGCACATACATTC	
+     11684	    28	 100.0	    32	............................	TCAGCTTCTTCTACCCAACAAATACCGACACC	
+     11624	    28	  96.4	    32	.................T..........	TTCCAGCGGTCAAGCATGTATGAATGTTGGTT	
+     11564	    28	 100.0	    32	............................	CAATTAAGACGTGAAAGGATAACCGTTTATGT	
+     11504	    28	  85.7	     0	...........C........AG..A...	|                               	
+==========	======	======	======	============================	================================	==================
+        18	    28	  99.0	    32	GTTCCCTGCCGTACAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   GATTATTGTCGGCCGCAGCCGGTGAGCGCAATCCCTGACAAGGTGCAATGGCGCACGGTGTCTCGTTATCAGCCGAAAAGCAATTTGGCTCGGTTACTTCGTCGTTCGGTGCGTTATGGCCGACTGACTGAGCAGCAGGCCGAACAACGCTTGGCCGAGGGGCAGGATAAGGTATGCCATTTGCCTTATGCCGCCATGCGCAGTCAATCAACGGGGCAGCATTTCCGTTTGTTTATTCAGCTTGGGCCGTTACAGCCACACGCTGTTGCGGGTTCATTCAGTGGTTATGGGTTAAGCAATCAAGCGACCATTCCTTGGTTCTAATCATTGGGGTCAGTTATCTTAATGGGGTAACTGACCCTTTTTTTAGCCTCTTTTTTATCAAGACTATAACCCATTGTTTTTAAAAGATTAATAAAAAGGCCTTTAAAAAAGGGGCAAGGGCTTGAAAAGCACACCTTTTTTTTGACTTAAGAAGGACTTAGCTTATAATACCTTCT
+# Right flank :  AGGCGTAACGATAAGATGGGATAAGCTGAAATAAAAAAGCCGCGCAGGATCATCGCCGAGGGGGGATCCCCTTTGAGTTTAAGGGGATCCGGACGGGTGATTCAGAAGGACAAGCCAAATCCTCGTGGGTAGGCAACATCACCCGTGTGGGTCTGGCTGTCATAGCGAGACCAAATTGTCACCGGTAATTTGCCTTGCGGCTGAATACGCCCAGTTAAAACATGACCGAGGGCAATCATGGCGCTACCTTGCCAGTGGTTATCACTGTAACCAAAGAACGAATAGGTGGCGATGGCGGCATCAACCTGATTATCGTAGAGAGCGATATCGTAAGGGGCGCGTAATGACAAATGAATGGTCTTTTTACCTTGCTTGTTGGCATAGCTAAACCAATCTGCTGGCAGAGCGCGTGGTGCGAGAGGCGTCGTGTTTTCATTGTGAAGTATGAGACCGTCCTGCTCTACTGGGCTAAAATGGGTTGACAGTGTCCCTTGCAAGAA
+
+# Questionable array : NO	 Score: 8.02
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.07, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCCCTGCCGTACAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [51.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [103,177] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.92   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_028685355 [13268-14266]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 12775
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Erwiniaceae; Phaseolibacter.; Phaseolibacter flectens ATCC 12775
+//
+
+

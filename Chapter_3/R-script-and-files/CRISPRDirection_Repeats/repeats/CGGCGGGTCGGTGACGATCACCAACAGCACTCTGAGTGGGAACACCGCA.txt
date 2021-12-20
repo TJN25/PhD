@@ -1,0 +1,39 @@
+Array 1 612-912 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ABGO01000066-Gemmata obscuriglobus UQM 2246 gcontig_1106221699747, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                  	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=================================================	===================================	==================
+       612	    49	 100.0	    35	.................................................	ATTTACGGAGGCGCGGTCGGGGTGTGCTTAGACAT	
+       696	    49	 100.0	    35	.................................................	CATTACGGAGGCGCGGTCGGGGTGTTCTCAGACAT	
+       780	    49	  81.6	    35	..C...TA.....T..G.G...........C.....C......G.....	GATTACGGCGGCGCGGTCTTCACGGCCGACGACTA	
+       864	    49	  73.5	     0	...T...G..ACC..CC.G...........GG....C..C........C	|                                  	
+==========	======	======	======	=================================================	===================================	==================
+         4	    49	  88.8	    35	CGGCGGGTCGGTGACGATCACCAACAGCACTCTGAGTGGGAACACCGCA	                                   	       
+
+# Left flank :   GGCACCTATCTGCTTACCGACACCACCGACTTCGGCCTGGACATCGTCGACGCGGCAACGACCGGGAAGCTGACGATCGGCGGGGCCGGAGCAAGCCAGACCTCCATCACGGCCAGCTTCGGAGCGCCGAACGCGAACACCCGCCTCTTCAACCTCTCGGGCGGGGCCGACCTGACGCTCACGAACATGACGCTCAGTGGCGGAAACGTCACCGATATCGGCGGTGCCATCGTAGCGTACGGCGGCTCCGCGGGAACCCATCTGGCGCTCACCGGCGTCGACCTGTTCGCCAACCAGGCCCAAGATCTGGGCGGAGGGGTCGCGCTCATCGGGATCGACGGAAGTGTCACCGCGACCCTGACGAACGTAAACGTGACCAACAACCAGTCCGGATATGGCGGCGGGATCGGGATATTTTACGGCGGTATCTTGACGGCCACTGACAGCTCGTTCACCGGCAACCAGGCTGTCGTGATCGGCGGCGGGATCGCGACATACTA
+# Right flank :  CACATACGGCGGGGGCGGGCTCGCCGCTCTGTACGGCGGGAACGACGGCACGCTCGACCTGGTAAACAGCACCGTCAGCGGCAACGCCGCTGCTTACGGGGGCGGTGCCCTCTTCACCGGCGCGCAGGGGACGCTGACCAACTCGACCGTGACCGCCAACCGGGGGTACGGAGGCGGGCTGTCGGCCGACGGCTGGATCGCGGTCACCGTCCGGAACTCGATCGTCGCCGGCAACTTGGACCCGACCGGAACCACCCCGGACGACCTGTTCGTGGACTCCGGCATCCCGTTCCTCTTCAACTACTCGCTGATCGGCGTGGGTGACAGTCTGGTGCTGGCCCCCCCGCCGGTGGGCACGGGCAACCAGATCGGGACATTAGCGAACCCGCTCGACCCGCGGCTCGGGCCGCTGGCGAATAACGGCGGGCTGACGCACACGCACGCCCTTCTGGCGGACAGCCCGGCCCGCGACATGGGCGACCCGGACGCCTCGAACCTGC
+
+# Questionable array : NO	 Score: 2.39
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.44, 5:0, 6:-0.5, 7:1.05, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGGGTCGGTGACGATCACCAACAGCACTCTGAGTGGGAACACCGCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [12,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.10,-11.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-22] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [38.3-26.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [613,1962] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : UQM 2246
+# Taxonomy hierarchy : Bacteria; Planctomycetes; Planctomycetia; Planctomycetales;Gemmataceae; Gemmata.; Gemmata obscuriglobus UQM 2246
+//
+
+

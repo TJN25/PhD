@@ -1,0 +1,245 @@
+Array 1 50326-50487 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV821782-Fusobacterium sp. HMSC064B11 Scaffold666, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+     50326	    30	 100.0	    35	..............................	TACACGAAAGCTATACAACTTGCAGTTGTTATAGA  	
+     50391	    30	 100.0	    37	..............................	AAGCACCCTCTAATTTTGTTCTAACAATGTCATTTAA	
+     50458	    30	  96.7	     0	.............................N	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         3	    30	  98.9	    36	ATTTATGTATTTCTATATTAGAATTTAAAT	                                     	       
+
+# Left flank :   AATCTTTTCAAATGTGGTGGTGATAAAATGTATGTGGTTGCAGTGTATGATATTTCATTAGATGAAAAAGGTAATAGAAATTGGAGAAAAATTTTTGGAATTTGTAAAAGATATCTTCATCATATTCAAAATTCTGTCTTTGAAGGTGAATTATCAGAAGTTGATATTCAAAGGTTAAAATATGAAGTTTCAAAATACATTAGAGATGATTTAGATTCTTTTATAATTTTTAAATCAAGAAATGAAAAATGGATGGAAAAGGAAATGCTAGGTTTACAAGAAGATAAAACTGATAATTTCTTATAAAATTTATTGTCTACCTCTCATAATGTAAAATTACTGGAAGATTGACAAAAATCAAAAAAGTCTTTATTTATAAATAAATTTAAGAAAATAAAATAAATTTAAGAAATTAAATTTTTTTATTTTTTACTAAAAAGCTTATATTGACAAAAAGATATTAAAAAAGTATTATATGGGAGTAGCTTTTTTAGGTAGCT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTATGTATTTCTATATTAGAATTTAAATATTTTAGTGAAAAAAGAAGTAGAAGCTGCTTTCAGATTTATGTATTTCTATATTAGAATTTAAATTTCAATCCTGCTGCTCTCCTTAAAGCATAATAATTAATTTATGTATTTCTATATTAGAATTTAAATATGTAGATGGGCATAAACTAAAATCCAATCATCAGATTTATGTATTTCTATATTAGAATTTAAATTTTTCAGGCTTATTGATATTTATATTGGTATTATTCCATTTATGTATTTCTATATTAGAATTTAAATGTTAAGTTCCCTGTAAGTCTTCCTAATCCTCTGCCTACATTTATGTATTTCTATATTAGAATTTAAATGGTTCTAGTTGAGTTTCTATCCCTTGTTCTATTTTTTATTT
+
+# Questionable array : NO	 Score: 8.82
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:0.99, 7:1.48, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTATGTATTTCTATATTAGAATTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:90.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [196,5315] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_032889019 [44650-45750]; Endonuclease Cas2:WP_080679996 [49811-50131]; Endoribonuclease Cas6:WP_060496175 [41435-42187]; Exonuclease Cas4:WP_032889013 [48350-48844]; Helicase/endonuclease Cas3:WP_070766989 [45842-48280]; 
+# Array family : NA
+# Sequence source strain : HMSC064B11
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC064B11
+//
+
+
+Array 2 50650-52141 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV821782-Fusobacterium sp. HMSC064B11 Scaffold666, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+     50650	    30	 100.0	    36	..............................	TTCAATCCTGCTGCTCTCCTTAAAGCATAATAATTA  	
+     50716	    30	 100.0	    35	..............................	ATGTAGATGGGCATAAACTAAAATCCAATCATCAG   	
+     50781	    30	 100.0	    37	..............................	TTTTCAGGCTTATTGATATTTATATTGGTATTATTCC 	
+     50848	    30	 100.0	    38	..............................	GTTAAGTTCCCTGTAAGTCTTCCTAATCCTCTGCCTAC	
+     50916	    30	 100.0	    37	..............................	GGTTCTAGTTGAGTTTCTATCCCTTGTTCTATTTTTT 	
+     50983	    30	 100.0	    37	..............................	ATCTTAGATGAAGATTTTCCAGATGACTGTTTTTTTG 	
+     51050	    30	 100.0	    35	..............................	ACACTTAAACTTCTAAAATTTTTAAAGGTATATCC   	
+     51115	    30	 100.0	    38	..............................	TTTACAGTAACTGGAGAATACAGAGAACATTTAATCAG	
+     51183	    30	 100.0	    38	..............................	GTGCTAGATAAGTTTAAATTAACATTATTTATTAAAGA	
+     51251	    30	 100.0	    36	..............................	ATCATTTACATTTAACTTGTCAATTTCTATTTCATT  	
+     51317	    30	 100.0	    35	..............................	GAGGATCTAAAATATGAAAATGATATAAAATAGGA   	
+     51382	    30	 100.0	    35	..............................	GATATGGCAAAAATTGTTTTATCTCTTTATGAAAA   	
+     51447	    30	 100.0	    35	..............................	CTTTCTATGACTACTGTTATGGAGGATTCAAAAAA   	
+     51512	    30	 100.0	    37	..............................	TGAGTAAATTTATAAAAATAAGTTTACCTCAAATCGT 	
+     51579	    30	 100.0	    36	..............................	TCAAGTGATTGAAGTCATCAATGGGTTTATTTGTTG  	
+     51645	    30	 100.0	    36	..............................	ATAAAAAAACTGGGAAGAAAACAACAAGGTTAATAA  	
+     51711	    30	 100.0	    37	..............................	ATCTTTAAAGATGATGTGTTGAGAGAGATGACAAAAG 	
+     51778	    30	 100.0	    36	..............................	GCCATTTTCTTTAAAATTTAAAGACCTTTCAGAAGA  	A [51799]
+     51845	    30	 100.0	    37	..............................	GCATCAATTATATATGATTAAATTGGTACACTTATAA 	
+     51912	    30	 100.0	    36	..............................	TGAGGTACTTTAATACTATCATAAGTTTAAACTTAT  	
+     51978	    30	 100.0	    37	..............................	CGCTATCAGAATCTTCTAAATAGTTTGTTTGCATAAA 	
+     52045	    30	 100.0	    37	..............................	AAGAAGTGAAAAATATACTGATGTAAGGAAAGCATTC 	
+     52112	    30	 100.0	     0	..............................	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        23	    30	 100.0	    36	ATTTATGTATTTCTATATTAGAATTTAAAT	                                      	       
+
+# Left flank :   CATAATGTAAAATTACTGGAAGATTGACAAAAATCAAAAAAGTCTTTATTTATAAATAAATTTAAGAAAATAAAATAAATTTAAGAAATTAAATTTTTTTATTTTTTACTAAAAAGCTTATATTGACAAAAAGATATTAAAAAAGTATTATATGGGAGTAGCTTTTTTAGGTAGCTATTTATGTATTTCTATATTAGAATTTAAATTACACGAAAGCTATACAACTTGCAGTTGTTATAGAATTTATGTATTTCTATATTAGAATTTAAATAAGCACCCTCTAATTTTGTTCTAACAATGTCATTTAAATTTATGTATTTCTATATTAGAATTTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTATGTATTTCTATATTAGAATTTAAATATTTTAGTGAAAAAAGAAGTAGAAGCTGCTTTCAG
+# Right flank :  TATTTTTGTATCTGCATTTTGAGCGTCTACAAAATAAAATTTATGTATTTCTATATTAGAATTTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTATGTATTTCTATATTAGAATTTAAATTTTTTTGTTTCTTCTTCTCTTGCAAGTGCAGAAGTTATTTATGTATTTCTATATTAGAATTTAAATCTCCCTGACATCTCTGTTGAGCTTTTAAATGGTTATGATTTATGTATTTCTATATTAGAATTTAAATCTAAAAGTTTTTTTAATTGTCTTTTGTTTTTTGCTTCTAATTTATGTATTTCTATATTAGAATTTAAATCAACTATCTTAGGGCTTACAACAGAGCCAACAGAAGATTTATGTATTTCTATATTAGAATTTAAATGCTCCTATGCCAAATGGCAATTTTATAGATTTATCTAT
+
+# Questionable array : NO	 Score: 8.81
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.99, 7:0.82, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTATGTATTTCTATATTAGAATTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:90.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [76.7-78.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [520,3661] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_032889019 [44650-45750]; Endonuclease Cas2:WP_080679996 [49811-50131]; Endoribonuclease Cas6:WP_060496175 [41435-42187]; Exonuclease Cas4:WP_032889013 [48350-48844]; Helicase/endonuclease Cas3:WP_070766989 [45842-48280]; 
+# Array family : NA
+# Sequence source strain : HMSC064B11
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC064B11
+//
+
+
+Array 3 52305-52935 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV821782-Fusobacterium sp. HMSC064B11 Scaffold666, whole genome shotgun		Array_Orientation: Unconfirmed
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+     52305	    30	  93.3	    36	NN............................	TTTTTTGTTTCTTCTTCTCTTGCAAGTGCAGAAGTT   	
+     52371	    30	 100.0	    37	..............................	CTCCCTGACATCTCTGTTGAGCTTTTAAATGGTTATG  	
+     52438	    30	 100.0	    39	..............................	CTAAAAGTTTTTTTAATTGTCTTTTGTTTTTTGCTTCTA	
+     52507	    30	 100.0	    36	..............................	CAACTATCTTAGGGCTTACAACAGAGCCAACAGAAG   	
+     52573	    30	 100.0	    36	..............................	GCTCCTATGCCAAATGGCAATTTTATAGATTTATCT   	
+     52639	    30	 100.0	    38	..............................	ATAACAACATTTAGTAACTTCTTAATATTTCCTTTTTT 	
+     52707	    30	 100.0	    37	..............................	ATTGAGCGTATTAAATTCGTCATAGATTTTTGTAATA  	
+     52774	    30	 100.0	    37	..............................	AGAGAAACAGGAATATATGTATTAGATGAAGGTGTAG  	
+     52841	    30	 100.0	    35	..............................	GTATATTTGTTTATTTTCAATGTAATGACAATAAA    	
+     52906	    30	  93.3	     0	............................NN	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+        10	    30	  98.7	    37	ATTTATGTATTTCTATATTAGAATTTAAAT	                                       	       
+
+# Left flank :   AAATGCCATTTTCTTTAAAATTTAAAGACCTTTCAGAAGAATTTATGTATTTCTATATTAGAATTTAAATGCATCAATTATATATGATTAAATTGGTACACTTATAAATTTATGTATTTCTATATTAGAATTTAAATTGAGGTACTTTAATACTATCATAAGTTTAAACTTATATTTATGTATTTCTATATTAGAATTTAAATCGCTATCAGAATCTTCTAAATAGTTTGTTTGCATAAAATTTATGTATTTCTATATTAGAATTTAAATAAGAAGTGAAAAATATACTGATGTAAGGAAAGCATTCATTTATGTATTTCTATATTAGAATTTAAATATTTTTGTATCTGCATTTTGAGCGTCTACAAAATAAAATTTATGTATTTCTATATTAGAATTTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTATGTATTTCTATATTAGAATTTAAATATTTTACTAAAAATTAGAGATGTGTACTTTGTTTCAGATTTATGTATTTCTATATTAGAATTTAAATGAAAGCCTTGACTATAACAAGTAAAACCATTTGTAATTTATGTATTTCTATATTAGAATTTAAATTGTTGTGGGAAAAAATTAAGCACAAGAGAAAATCATGAATTTATGTATTTCTATATTAGAATTTAAATATGATATTTTTACATTTTTAACATGTACTTGGAATGGATTTATGTATTTCTATATTAGAATTTAAATTGATATTGACTTGCTAATGATGAACTTGGATTGTTATTTATGTATTTCTATATTAGAATTTAAATAAAAAACATAGCTCTTGCAACTTCTAAATTGTTCATATTTA
+
+# Questionable array : NO	 Score: 8.78
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.85, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTATGTATTTCTATATTAGAATTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:90.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [2-2] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [2175,2867] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         NA [0,0   Confidence: NA] 
+
+# Identified Cas genes:  Cas5:WP_032889019 [44650-45750]; Endonuclease Cas2:WP_080679996 [49811-50131]; Endoribonuclease Cas6:WP_060496175 [41435-42187]; Exonuclease Cas4:WP_032889013 [48350-48844]; Helicase/endonuclease Cas3:WP_070766989 [45842-48280]; 
+# Array family : NA
+# Sequence source strain : HMSC064B11
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC064B11
+//
+
+
+Array 4 53099-54511 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV821782-Fusobacterium sp. HMSC064B11 Scaffold666, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+     53099	    30	 100.0	    35	..............................	GAAAGCCTTGACTATAACAAGTAAAACCATTTGTA   	
+     53164	    30	 100.0	    38	..............................	TGTTGTGGGAAAAAATTAAGCACAAGAGAAAATCATGA	
+     53232	    30	 100.0	    37	..............................	ATGATATTTTTACATTTTTAACATGTACTTGGAATGG 	
+     53299	    30	 100.0	    35	..............................	TGATATTGACTTGCTAATGATGAACTTGGATTGTT   	
+     53364	    30	 100.0	    36	..............................	AAAAAACATAGCTCTTGCAACTTCTAAATTGTTCAT  	
+     53430	    30	 100.0	    35	..............................	GAATGAACCATTTTACTTGTGTTTCCAGCATCAAA   	
+     53495	    30	 100.0	    36	..............................	AAGAAAGATTTATAAAATTTAATTTTTTCAAGTTTA  	
+     53561	    30	 100.0	    35	..............................	TGCTATTTAATTTACTAGCATTAAAAGTAACTCCT   	
+     53626	    30	 100.0	    36	..............................	AAACGAGAGTCCATCATTTCAAACAAAGTCTTATTA  	
+     53692	    30	 100.0	    35	..............................	TTACAAAGTAAAAAATATTTTACTTCTATAATTTC   	
+     53757	    30	 100.0	    36	..............................	GGAAAAGAAGAGGTATGGTTAAAATTAGATGCTTTT  	
+     53823	    30	 100.0	    36	..............................	TTTTGAAGTTTCATAAAACTATTTATAAAATCTTCT  	
+     53889	    30	 100.0	    36	..............................	GTCAATGCAGTAGTCCTTAGAAAAGTAGGAGAAACT  	
+     53955	    30	 100.0	    35	..............................	TGTGGATAATATTTCAGAGTATCGGATGAAACAGG   	
+     54020	    30	 100.0	    37	..............................	AACTTAAATCAGTAAGTGATGATATAATTCTTCTATA 	
+     54087	    30	 100.0	    37	..............................	AAAGAAAATAGAGGATAGATATGTACTAACAGATGAA 	
+     54154	    30	 100.0	    36	..............................	GATTCATAACAGATATTTACATTTATATCTGTTAGG  	
+     54220	    30	 100.0	    35	..............................	TTAAAAGGAAATTTAACTATAACAGAAGAAACACC   	
+     54285	    30	 100.0	    35	..............................	AATGCAGATTTTGAAGAATTGTCTATTTATCAAAA   	
+     54350	    30	 100.0	    37	..............................	TACAATATTTTTTATATTTATTCAAAAATAAAAAACC 	
+     54417	    30	 100.0	    35	..............................	TTTTTTTGATGTCTTAAACATCTTTTATATTTTAA   	
+     54482	    30	  96.7	     0	.............................N	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        22	    30	  99.8	    36	ATTTATGTATTTCTATATTAGAATTTAAAT	                                      	       
+
+# Left flank :   AAATGCTCCTATGCCAAATGGCAATTTTATAGATTTATCTATTTATGTATTTCTATATTAGAATTTAAATATAACAACATTTAGTAACTTCTTAATATTTCCTTTTTTATTTATGTATTTCTATATTAGAATTTAAATATTGAGCGTATTAAATTCGTCATAGATTTTTGTAATAATTTATGTATTTCTATATTAGAATTTAAATAGAGAAACAGGAATATATGTATTAGATGAAGGTGTAGATTTATGTATTTCTATATTAGAATTTAAATGTATATTTGTTTATTTTCAATGTAATGACAATAAAATTTATGTATTTCTATATTAGAATTTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTATGTATTTCTATATTAGAATTTAAATATTTTACTAAAAATTAGAGATGTGTACTTTGTTTCAG
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTAAATTTATGTATTTCTATATTAGAATTTAAATCACAATATATTCTTGAGCTTGAAAAAAGATTTTCAATTTATGTATTTCTATATTAGAATTTAAAGAATGGCTGCTGGATATTTTGCAATATCAAGTTTAATATTTATGTATTTCTATATTAGAATTTAAAGCACAACTTAACACCAGAACAAAAAGAAATTTTTGAATTTATGTATTTCTATATTAGAATTTAAAGATTATAAGGGTATCTGTTTCTTTTATTTTTAAAGCAATTTATGTATTTCTATATTAGAATTTAAAGTCAATATATAGCAAAAGCTATCGTTGATAGCATTGATTTATGTATTTCTATATTAGAATTTAAAGAAATCAAAAGATGGAATAGATAAAATTGAAGTGAAATTT
+
+# Questionable array : NO	 Score: 8.83
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:0.99, 7:0.85, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTATGTATTTCTATATTAGAATTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:90.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [2969,1291] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_032889019 [44650-45750]; Endonuclease Cas2:WP_080679996 [49811-50131]; Endoribonuclease Cas6:WP_060496175 [41435-42187]; Exonuclease Cas4:WP_032889013 [48350-48844]; Helicase/endonuclease Cas3:WP_070766989 [45842-48280]; 
+# Array family : NA
+# Sequence source strain : HMSC064B11
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC064B11
+//
+
+
+Array 5 54615-55367 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV821782-Fusobacterium sp. HMSC064B11 Scaffold666, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+     54615	    30	  96.7	    35	.............................T	CACAATATATTCTTGAGCTTGAAAAAAGATTTTCA   	
+     54680	    30	 100.0	    36	..............................	AATGGCTGCTGGATATTTTGCAATATCAAGTTTAAT  	
+     54746	    30	 100.0	    35	..............................	CACAACTTAACACCAGAACAAAAAGAAATTTTTGA   	
+     54811	    30	 100.0	    36	..............................	ATTATAAGGGTATCTGTTTCTTTTATTTTTAAAGCA  	
+     54877	    30	 100.0	    35	..............................	TCAATATATAGCAAAAGCTATCGTTGATAGCATTG   	
+     54942	    30	 100.0	    35	..............................	AAATCAAAAGATGGAATAGATAAAATTGAAGTGAA   	
+     55007	    30	 100.0	    38	..............................	TTTGATAAAGCAACAGCCTCTTCTACACTGATTTTATA	
+     55075	    30	 100.0	    36	..............................	ATGTTTTTCTTATTTCTTCAATCTCAATGCTTACAG  	
+     55141	    30	 100.0	    38	..............................	AGAATTTTTAGATGACATTTCTTCTGAAAATATGTCTG	
+     55209	    30	 100.0	    35	..............................	GAAGATATAAAGTTAATAGATGCTATTGAAGTTAT   	
+     55274	    30	  96.7	    35	.............................T	AGATTCTTAGCAAGACTCCAATTCCATTTCCAAGC   	
+     55339	    29	  86.7	     0	.......................-AA...T	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        12	    30	  98.3	    36	ATTTATGTATTTCTATATTAGAATTTAAAG	                                      	       
+
+# Left flank :   ATAAAGAAAATAGAGGATAGATATGTACTAACAGATGAAATTTATGTATTTCTATATTAGAATTTAAATGATTCATAACAGATATTTACATTTATATCTGTTAGGATTTATGTATTTCTATATTAGAATTTAAATTTAAAAGGAAATTTAACTATAACAGAAGAAACACCATTTATGTATTTCTATATTAGAATTTAAATAATGCAGATTTTGAAGAATTGTCTATTTATCAAAAATTTATGTATTTCTATATTAGAATTTAAATTACAATATTTTTTATATTTATTCAAAAATAAAAAACCATTTATGTATTTCTATATTAGAATTTAAATTTTTTTTGATGTCTTAAACATCTTTTATATTTTAAATTTATGTATTTCTATATTAGAATTTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTAA
+# Right flank :  TACAGAAGAAAGGGATTGAAAAATAAAGACTTAATGCTGTTATATAACAAAAGAATAAATAAAAAATTAAAAAGATTAACTCTAGTTTTTTATATAAGTTAATCCTTTTTAATAAGTTAAATTAAATTTATTCAATTTTTTAAGGGGAGTACATTTTTTATTGTGTTAAGTATAGCTTCATAAAGTAAACTAAGAATTAAGTATTCATAAAGTAATGGAAAAATTAAAAAAACGAAATTCAACTAAAATATTAATATAATGAACACAAAAATTTAAGATAGAAAATAAAAATTATCAATTATTAAATTAATAAAATTTTATTAAAAATTAAGCGAATTTCAGAATAAAAATATTGCATTTAATCGTAATTGGTGTTAATATATACTTAATAAATTTGAAAGATAAATTTAAAGTTTTATCTACTAAAAATAGGGAGTGATTATAATGAGTTTTTTAGGGCAAGTTAGAAAAAAAGCCTTACAAGCAAACAGAAGAATAGT
+
+# Questionable array : NO	 Score: 8.71
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.91, 5:0, 6:0.99, 7:0.81, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTATGTATTTCTATATTAGAATTTAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:86.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [6.7-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [4485,435] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_032889019 [44650-45750]; Endonuclease Cas2:WP_080679996 [49811-50131]; Endoribonuclease Cas6:WP_060496175 [41435-42187]; Exonuclease Cas4:WP_032889013 [48350-48844]; Helicase/endonuclease Cas3:WP_070766989 [45842-48280]; 
+# Array family : NA
+# Sequence source strain : HMSC064B11
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC064B11
+//
+
+

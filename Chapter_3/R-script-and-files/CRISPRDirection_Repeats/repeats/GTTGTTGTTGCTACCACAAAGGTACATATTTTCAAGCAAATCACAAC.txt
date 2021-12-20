@@ -1,0 +1,87 @@
+Array 1 900-9 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GG698724-Prevotella veroralis F0319 Scfld12, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	===============================================	===============================	==================
+       899	    47	 100.0	    30	...............................................	TGAATCAGGGACAAGTACTTGATGATAAAC 	
+       822	    47	 100.0	    30	...............................................	CTAATTTTGCTACTCCTAACTCAAATGTTA 	
+       745	    47	 100.0	    31	...............................................	TGAATCAGGGACAAGTACGTTGATGATAAAC	
+       667	    47	 100.0	    30	...............................................	CTAATTTTGCTACTCCTAACTCAAATGTTA 	
+       590	    47	 100.0	    29	...............................................	TGGATTAAAGTATAAAAGAATCTACTCAA  	
+       514	    47	 100.0	    30	...............................................	CTGCTTCTGCGGATTTTCGTTTCACGGCTA 	
+       437	    47	 100.0	    29	...............................................	GACTTCCGAAATCTCAAAATGACAAACTA  	
+       361	    47	 100.0	    29	...............................................	CATGCTCTGACATTTTTCCCGCATTCGAG  	
+       285	    47	 100.0	    29	...............................................	ACGGTGATAGGGGAAGTATATATCTTCGT  	
+       209	    47	 100.0	    30	...............................................	TGGTCTGAAGTATAAAAAGAACTTACTCAA 	
+       132	    47	 100.0	    30	...............................................	TATGACTTTTATGACTGGACAAATTCCGTT 	
+        55	    47	 100.0	     0	...............................................	|                              	
+==========	======	======	======	===============================================	===============================	==================
+        12	    47	 100.0	    30	GTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAAC	                               	       
+
+# Left flank :   CACAAAGGTACATATTTTCAAGCAAATCACAACCCTATTCACCAAACAAAAGTACTGGTGCAGTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAACGATCTCTTACGATAAAGGTTTTGTTGACGAGTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAACTAAAAGTAAAACCAATTATTATAATTTTATGTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAACCTAATTTTGCCACGCCAAATTCAAATGTTGGTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAACCTAATATATTGTATTGCGTACGCTTAAATGGTTGTTGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAGCCCAAATGATACCGCAAAGA
+# Right flank :  CGTATCTTA
+
+# Questionable array : NO	 Score: 3.44
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.26, 7:0.18, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTTGTTGCTACCACAAAGGTACATATTTTCAAGCAAATCACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.83%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.60,-4.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [10.0-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [10,157] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : F0319
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Prevotellaceae; Prevotella.; Prevotella veroralis F0319
+//
+
+
+Array 2 1060-1413 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GG698724-Prevotella veroralis F0319 Scfld12, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	===============================================	==============================	==================
+      1060	    47	 100.0	    30	...............................................	CAACATTTGAATTTGGCGTGGCAAAATTAG	
+      1137	    47	 100.0	    30	...............................................	ATAAAATTATAATAATTGGTTTTACTTTTA	
+      1214	    47	 100.0	    30	...............................................	TCGTCAACAAAACCTTTATCGTAAGAGATC	
+      1291	    47	 100.0	    29	...............................................	TGCACCAGTACTTTTGTTTGGTGAATAGG 	
+      1367	    47	 100.0	     0	...............................................	|                             	
+==========	======	======	======	===============================================	==============================	==================
+         5	    47	 100.0	    30	GTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAAC	                              	       
+
+# Left flank :   AAATATGTACCTTTGTGGTAGCAACAACAACTAACATTTGAGTTAGGAGTAGCAAAATTAGGTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAACGTTTATCATCAACGTACTTGTCCCTGATTCAGTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAACTAACATTTGAGTTAGGAGTAGCAAAATTAGGTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAACGTTTATCATCAAGTACTTGTCCCTGATTCAGTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAACTCTTTGCGGTATCATTTGGGCTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCAACAACCATTTAAGCGTACGCAATACAATATATTAG
+# Right flank :  GATAGTGCAAAATGGAATAGCAAAAAGGCTGTTGTGATTTGCTT
+
+# Questionable array : NO	 Score: 3.34
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.26, 7:0.28, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTGATTTGCTTGAAAATATGTACCTTTGTGGTAGCAACAACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.83%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.60,-4.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [41.7-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [166,45] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : F0319
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Prevotellaceae; Prevotella.; Prevotella veroralis F0319
+//
+
+

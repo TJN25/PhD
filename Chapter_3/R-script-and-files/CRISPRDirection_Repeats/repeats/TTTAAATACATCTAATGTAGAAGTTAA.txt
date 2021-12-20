@@ -1,0 +1,46 @@
+Array 1 153427-154091 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006909-Clostridium botulinum CDC_1436 plasmid pCBG, complete sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                                 	Insertion/Deletion
+==========	======	======	======	===========================	================================================	==================
+    153427	    27	  92.6	    38	................A..A.......	ACTTATATTTATGCATTTGTAAAACCTCCGTTCGTTTG          	
+    153492	    27	  88.9	    40	........T...C...A..........	ATTATGAAAAATCTTATATCTTTTTTTATTTTTTCGGTAG        	
+    153559	    27	 100.0	    26	...........................	ACTATATTAGGTAGATTATTATACTT                      	Deletion [153612]
+    153612	    27	 100.0	    38	...........................	ACTTTTCTATTCTGCGCCTCTCTTATAAAAAAGAACCC          	
+    153677	    27	  92.6	    39	...................A.....G.	ACCATTAAATTTATTAAGCGAAGGAGTAGGTATAAATAG         	
+    153743	    27	  92.6	    36	............C....C.........	GCTTAAATAAAACTAAAAATTTTTATAAATCGGTAG            	
+    153806	    27	  88.9	    39	........T.......A..T.......	ATCCATCTTACTTCATTTTCCATATTTCAAATATGCGTG         	
+    153872	    27	  96.3	    37	....................C......	ACTTAGAAAAATTAAAAAACATGGAGGAAAATAGTAG           	
+    153936	    27	  92.6	    27	...........A.......C.......	ACTACATTTTTATATTTTATAAACATA                     	Deletion [153990]
+    153990	    27	 100.0	    48	...........................	GTAGAAGCTAAATTGAAATTTTATAATAAGTTATGATCTGGCATGATA	
+    154065	    27	  88.9	     0	...........T.C..A..........	|                                               	
+==========	======	======	======	===========================	================================================	==================
+        11	    27	  93.9	    37	TTTAAATACATCTAATGTAGAAGTTAA	                                                	       
+
+# Left flank :   AAAAGATAGAAAAAAGTATTAATAATTAATTAAATGATAAATTATGGCTTTTTAATAGCTAAAAGAGAGGGGAGTTTTATATAATGAGTAATATGAGTTATTGTCGTTTTCAAAACACTGTAGAGGATCTAGAGGAGTGTTTAAATGCATTAACAGATAGAGAAGAATTAAGTATAAGAGAAAATAATGCAGCAAAAAGGATGCTAAAGAATATAACAGAATGGATTAGAGCTGAATGTATAGTTGATGGAGATGGAGAAATTGATTATGAAGAAATAGAATTAATTATTAATCAGTGTAAAGAAAAATAAGAAAAAATTTATCACTAGAAGAAAGTCTTATGTTAGAAAGGATAGCTATGAAACTAGCTACAAAAATAGGACTTAATTTAGAAGATTTATTGAAAGTAATATATAAAAAAGCAAATAGCTATTAATAGCCATTTGCTTTTTTATATATTATATGTGTAAATGAAACGATCTTTTTTCTAAAAACGGTAC
+# Right flank :  AATGTATTATTTTTTTATAAATCTACTATTTCTACTGCAAAAATAAATCCATGTGAATCTCTAACTATATGAGTAAAAGATAAATTTTCTTTAATCTCCATAAGTATATTTAAGTTACTGTTTTGATAATCGATATTTAAGCATGTTAAATCACTTCTATCACAAGGGGTATCAGTTGCTAGTTCATAATGTATTTTTGAAATTTTATCTATTAAGATTAACCCATCCGATGGTTCATTTATATATAAATCAGGTAAAATGCTAACATAGCAAGCTCTATCTATGCTTTTTTTCTTCATTTTTACACCTTCTCTTTCTCTCTTTATATTTAAACTTATACTTTTTAAATACATCCAATGTAGAAGTTAACCAAATAATAGTACATAGTTGTGCAAACCTTATAATTCGTTTAAATACATCTAATGTAGCAGTTAAACGTATCTTATTTTTAGGTAAAACCTCCGTTTGTTTGTTTAATCTTATATCTTTTTTGTGCTTTT
+
+# Questionable array : NO	 Score: 2.79
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.70, 5:0, 6:0.28, 7:0.36, 8:1, 9:0.45,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTAAATACATCTAATGTAGAAGTTAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:81.48%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [5-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [76.7-78.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [191,14] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endoribonuclease Cas6:WP_032072312 [159556-160287]; 
+# Array family : NA
+# Sequence source strain : CDC_1436
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;Clostridium.; Clostridium botulinum CDC_1436
+//
+
+

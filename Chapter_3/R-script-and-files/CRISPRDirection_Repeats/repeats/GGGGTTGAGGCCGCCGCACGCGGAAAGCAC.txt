@@ -1,0 +1,39 @@
+Array 1 171-397 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE952355-Actinomyces sp. oral taxon 877 str. F0543 Scaffold136, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	==============================	====================================	==================
+       171	    30	 100.0	    34	..............................	CCGACGGTGATGGCCGAGCGCGCCCCGAGGGGGC  	
+       235	    30	 100.0	    36	..............................	TCTCACCGGGCGGGTGCCGGGCGGGTACCCGGGGGC	
+       301	    30	  96.7	    36	.........A....................	TCTCACCGGGCGGGTGCCGAGCGCGCCCCGAGGGGG	
+       367	    29	  83.3	     0	C..............C...A...G...-..	|                                   	A,C [381,389]
+==========	======	======	======	==============================	====================================	==================
+         4	    30	  95.0	    36	GGGGTTGAGGCCGCCGCACGCGGAAAGCAC	                                    	       
+
+# Left flank :   CTCTGGGTTTGACGGTTTTGGCCGGATCCGGGTGGATTCGGTCAGACTCAGACGCTTTTTGGACCACATGCCCGTCAAGCCCCCGTTCCCGCCCGAGACTCAGACGCATTTTGGACCACCGAACCGCTGGGGCACCGGGCCACTAGGCCACCGGGCGGGTACCGGGGGCGG
+# Right flank :  CGGCCACCACCCCTACATCTAGGGGCCCCTGTGCGCCCCGCCCCCTAGATGCGGTGTTCCGGCACTGCAACACGCCGGGAAATGCTTGTAATGAGCATCACATTCCGTCGCGCGAAGGCAGGTTTTCCACAGGGTGTTCACACAGCGCCACGCCCACTCCACAATCCCCACGCGCCACACCAGCACCACCCGCGCCCACCGCGCGGCCCTTGCTACCGCGCGCCCGAAGCCGCCTCCGCCCGATCAGCGCCCGCCCCATCCCCCACCTTGGGCGCGCCCCCATCAACACCCTGCCCACACCCCTGTCCACAGACCACCCCCCGAACACTACATATAGGGGTCGCGCGCGGATGCCACCACGAGGTGTAGTGTTGTCCTCGAACACGGGCCACCGGGCCGCGAACGCGCCGGAGCCCAGCACCACCCACGCGGCGCAACGAGCGCCCGTGGCGCGCGGGAGCCCGCGCGGACCGCACACGATTCCACCGAGGAGCCCCCGA
+
+# Questionable array : NO	 Score: 4.37
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.75, 5:0, 6:0.99, 7:1.23, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGGTTGAGGCCGCCGCACGCGGAAAGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.80,-6.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [23.3-30.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [172,501] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : F0543
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Actinomycetales; Actinomycetaceae;Actinomyces.; Actinomyces sp. oral taxon 877 str. F0543
+//
+
+

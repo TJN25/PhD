@@ -1,0 +1,52 @@
+Array 1 1904-637 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JGEH01000054-Bacteroides fragilis str. 3719 T6 gbf3719T6.contig.53, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	====================================	==========================================	==================
+      1903	    36	 100.0	    41	....................................	CAAATCACAACGTCATAGTCTTTATAGTACAAATTGATTTT 	
+      1826	    36	 100.0	    42	....................................	CAAATCACAACCCTGACAAGTTTAGGGGCTGCCGCATTTGTA	
+      1748	    36	 100.0	    41	....................................	CAAATCACAACGAACATAACCGGTAGCATTTGATGTATAAC 	
+      1671	    36	 100.0	    41	....................................	CAAATCACAACCTCTATTCTTCTGGCAAATAACAAAGATAC 	
+      1594	    36	 100.0	    40	....................................	CAAATCACAACCTTTGGTAATGCCGTTCTTGACGAAGATA  	
+      1518	    36	 100.0	    41	....................................	CAAATCACAACGATAGAGCATATTTCCTATTTCATGAATGG 	
+      1441	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+      1364	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+      1287	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+      1210	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+      1133	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+      1056	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+       979	    36	 100.0	    41	....................................	CAAATCACAACACTTTTCACGCTCTAATTTCAACCGGAAAC 	
+       902	    36	 100.0	    41	....................................	CAAATCACAACATTGAGCGCGTCTGCCCTTCGGGTCTCCAC 	
+       825	    36	  97.2	    41	.....................G..............	CAAATCACAACTCATTTTGACATGCAAACTATGCCAAAACT 	
+       748	    36	 100.0	    40	....................................	CAAATCACAACTATTCTGAATGAACTAAGCTACGAAAACT  	
+       672	    36	 100.0	     0	....................................	|                                         	
+==========	======	======	======	====================================	==========================================	==================
+        17	    36	  99.8	    41	GCTGTTTCCAATGGTTCAAAGATACTAATTTGAAAG	                                          	       
+
+# Left flank :   CACTTTATAAATGTTTCAATGGAGAGCTTCGGAGAATTTCCTATCCCGAACGATAGATTATGGATCGTTTTAATGAATATCGTATTATGTGGGTGCTTGTTCTTTTTGATTTGCCAACTGAGACTAAGAAAGAAAAAAAGGCTTATGCCGATTTCAGAAAGAATCTACAAAAGGATGGTTTTACGATGTTTCAGTTTTCCATTTATGTGCGTCATTGTGCCAGTAGTGAGAATGCAGCAGTACATATAAAAAGAGTTAAATCATTTCTCCCAGAATTTGGGCATGTCGGAATCATGTGTATTACAGATAAACAATTTGGAGATATAGAGCTTTTTTATGGAAAGAAAGTGCAAGATGTCAATACGCCGGGACAGCAATTGGAGTTGTTCTAGAACACAAAATCTCACATTAATGCGAGATTTTGTGTTGGAAACAGTCTTCTTTTTCTTTTTTCTAATTTACTCTTAACTTGTTGAAGAACAATATGTTATGTGAAATCT
+# Right flank :  TAAATCATAACGCATCGCTTTGTCTTCATCAGATAGTATATGCTGTTTATGATGGTGTAGATAATAATTAAAAAGTACTCTACTTAGTAATTGAAAAGTATGCTACTAAGTGTATCTGATTAGACGGTTTAAATATAGTTACCATTAGAAGCTGTTTCGAATTGTGAATAACCATTTAATAGATTGTTTATCGGTTTGTTAATTGGATAATATGGTCTTTAGCAGTAAACTCCTCCTGCTTTCACTCCCAACCTTGCTTTTAAAATCCCCTGCCCCCATACTTGCCCTAATCGCAACTATCCCTTTCGGTCCGGCACTTATCCTTTTTTTGGCAGATACTCCCTCGTTTCTCTATCGTCTTCATCTTCAACCCTTTTTCTCCTCTTGTTTCTTCTCTTCATATTACTTGATTTAACACACTGTTAAATCAAGTCTTTTGTTTTCAAAGAACAAGTCTTTTGGAAGCAAAAGCTTTGTTCTTTCCATCCCTGAAATAAAAG
+
+# Questionable array : NO	 Score: 8.16
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.17, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTGTTTCCAATGGTTCAAAGATACTAATTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [65.0-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [213,109] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.05   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_008770231 [2012-2344]; 
+# Array family : NA
+# Sequence source strain : 3719 T6
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Bacteroidaceae; Bacteroides.; Bacteroides fragilis str. 3719 T6
+//
+
+

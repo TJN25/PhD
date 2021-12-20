@@ -1,0 +1,242 @@
+Array 1 203704-202666 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE161016-Myroides odoratimimus CCUG 10230 supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                                                                                                                                       	Insertion/Deletion
+==========	======	======	======	====================================	======================================================================================================================================================================================================	==================
+    203703	    36	  75.0	    31	NNNNNNNNN...........................	CTGGCGGTTGGTTCTTTGGCCTAATGTTTAT                                                                                                                                                                       	
+    203636	    36	 100.0	    31	....................................	CTTGCGTTTCTAAATTCCATGATCTTAAATT                                                                                                                                                                       	
+    203569	    36	  88.9	    31	..............TAGA..................	TGTTTTATTAGTAGTATTACTATATACCAAG                                                                                                                                                                       	
+    203502	    36	 100.0	    31	....................................	TCGCTTGCATCCTTTTTAACCCCGTCCGTAA                                                                                                                                                                       	
+    203435	    36	  88.9	    31	..............TAGA..................	CGCTATATCTTCATTTGTGCCTTCTTCTAAC                                                                                                                                                                       	
+    203368	    36	  88.9	    31	..............TAGA..................	CTAGTAACCCATTCTTCTGCTTTAGTCCAAT                                                                                                                                                                       	
+    203301	    36	  94.4	    31	.................A.........T........	CATTAACAAGTTCTATCTGATCGATGAATAC                                                                                                                                                                       	
+    203234	    36	  94.4	   198	.................A.C................	CATTGTTGCTTAGATTTGATGAGATATATAAGTTGGTACTGTACACGTTTTTACTTACGTTGTTTCTATTTTAAATATAGGAGTTCGTGATTATAAATAATTGGTGTGCAATCACAGCATAGTAGATTTGATTTATATCAAGATGCAAGTTGGTACTGTACACGTTTTACTTACGTTGCTTTTATTTTAAATATAGGA	
+    203000	    34	  75.0	   198	...C...T.A..A.TA-A..-...............	CTGATACTGTTGACATTAAGAAGTCTTTTTGGTTGGTACTGTACACAGTTTACTTACGTTGCTTTTATTTTATATATAGGAGTTCGTGATTATGAATAATTGGTGTGCAATCACAACTATGTAGTGTTTTTTCAGTGCGACCAATTAGTTGGTACTGTACACGTTTTTACTTACGTTGTTTCTATTTTAAATATAGGA	G [202996]
+    202767	    34	  77.8	    31	...C...A.C..-.-AGA..................	CGATATCGACTACACCTGTCTTATCAAAGTA                                                                                                                                                                       	G [202763]
+    202701	    36	 100.0	     0	....................................	|                                                                                                                                                                                                     	
+==========	======	======	======	====================================	======================================================================================================================================================================================================	==================
+        11	    36	  89.4	    64	GTTGGTACTGTACACGTTTTTGGTGTGCAATCACAA	                                                                                                                                                                                                      	       
+
+# Left flank :   AACTAGGATGAAAAAAATAGTATTTAAAAGAAATAATATAAGAAGAGATAAGCCTTTTTTTAGAAGTATAAAAGGCATTGCACCCTAGTAAATATAGTACATCTGACCTCTGCAAATGTAGAGGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAACTACAACCTTTACGATACGCAATAGGATGGTGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAACCTGAACAATATCTATTTGCTCAGCATACTTGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAACNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  CCAAATATATCTTTATCACTAAGTGAATCTAGTTGGTACTGTACACGTTTTTACTTACGTTGTTCTTATTTTATATATAGGAGTTCGTGATTATGAATAATTGGTGTGCAATCACAACAGAAAAAGCGATTACAGAGAACTCTGTAATCGCTTTTATTTTTTAAAATTAAAAAGAATCTCTAGTTCTTTCTTCTTTAGAAGAAGCAGTGTACTAGAGGTTCAAAAGTACAAATCTATATATTGTTAGGGAGTTGATTTTCGATACTCTCTTTATCTTTTTTGCTCATCATAAGATTACCTAGTTTATTGATATACACACGAGTTTTCAGTGTGCGTATTCTACCGTAGTGGTGGAATAATACATATAACAACACTCCTATACCAGCGATATTAATATATCCATATACTGTCTTGGTGGCAGCGAGTATCCCGTTTAGTTGGACAAGGGATAGATTAATACCCGATCCTGATCTTAATAGCATGGCATCGTCTAGATATAC
+
+# Questionable array : YES	 Score: 1.08
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.47, 5:0, 6:1, 7:-3, 8:1, 9:0.61,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGGTACTGTACACGTTTTTGGTGTGCAATCACAA
+# Alternate repeat :   GTTGGTACTGTACATAGATTTGGTGTGCAATCACAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:58.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.80,-9.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [20-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [235,495] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_006258363 [546102-546365]; Endoribonuclease Cas6:WP_006258370 [554342-555136]; Helicase/endonuclease Cas3:WP_006258366 [547904-550690]; Unclassified_Cas_protein:WP_006258368 [551490-552386]; 
+# Array family : NA
+# Sequence source strain : CCUG 10230
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Myroides.; Myroides odoratimimus CCUG 10230
+//
+
+
+Array 2 204082-203910 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE161016-Myroides odoratimimus CCUG 10230 supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	======================================	=============================	==================
+    204081	    38	  97.4	    29	G.....................................	TACAACCTTTACGATACGCAATAGGATGG	
+    204014	    38	 100.0	    29	......................................	CTGAACAATATCTATTTGCTCAGCATACT	
+    203947	    38	 100.0	     0	......................................	|                            	
+==========	======	======	======	======================================	=============================	==================
+         3	    38	  99.1	    30	TGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAAC	                             	       
+
+# Left flank :   AAAGAGGTACAAGAAATAGAGTGTAGCGTCTATAATCAAGTAGCGAATAAAGAGTCTTTAAAACAATCAGGTAATGAGAACTTTAAACAATATGTACTTCAGGGTTTACTGCCTATAGGTATGGATGTAAGAGAGATGCTTATATTATCAACTGACGTCAAGTTTAAAAAAGAGGAGATTATACAGTTAGGACAAGCTGGGGAAGTAGAGCAAGATTTGTATAGTCTAATCTATATCCGTAATAAGTTTGCTCACAACCAACTGCCGATTAAGGAGTTCTTTGATTTCTGTGAAAATAATTATAGATCGATTAGTGATAATGAATACTATGCTGAGTATTATATGGAGATATTCAGATCTATTAAAGAGAAATATGCAAACTAGGATGAAAAAAATAGTATTTAAAAGAAATAATATAAGAAGAGATAAGCCTTTTTTTAGAAGTATAAAAGGCATTGCACCCTAGTAAATATAGTACATCTGACCTCTGCAAATGTAGA
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTACACGTTTTTGGTGTGCAATCACAACTGGCGGTTGGTTCTTTGGCCTAATGTTTATGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAACTTGCGTTTCTAAATTCCATGATCTTAAATTGTTGGTACTGTACATAGATTTGGTGTGCAATCACAATGTTTTATTAGTAGTATTACTATATACCAAGGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAATCGCTTGCATCCTTTTTAACCCCGTCCGTAAGTTGGTACTGTACATAGATTTGGTGT
+
+# Questionable array : NO	 Score: 3.41
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:0.29, 7:0.08, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTTGGTACTGTACACGTTTTTGGTGTGCAATCACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:57.89%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.10,-9.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1479,117] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_006258363 [546102-546365]; Endoribonuclease Cas6:WP_006258370 [554342-555136]; Helicase/endonuclease Cas3:WP_006258366 [547904-550690]; Unclassified_Cas_protein:WP_006258368 [551490-552386]; 
+# Array family : NA
+# Sequence source strain : CCUG 10230
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Myroides.; Myroides odoratimimus CCUG 10230
+//
+
+
+Array 3 543189-539997 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE161016-Myroides odoratimimus CCUG 10230 supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+    543188	    30	 100.0	    36	..............................	GTTAGACTCGGTGTTTGATTAGTTTTTAATGTTCCA  	
+    543122	    30	 100.0	    36	..............................	CTAAATAGCGCGTATGGAGTTGTAGCCGGAGCAACA  	
+    543056	    30	 100.0	    36	..............................	AGAAAAGCAAAAAGAGCAAAACAGACAGTTAGAGAA  	
+    542990	    30	 100.0	    34	..............................	AAGGCTGTTTGTTTTTTAGTCTGGAGGAAATTCA    	
+    542926	    30	 100.0	    34	..............................	AATGATGGTAACTCATTTTTTTGCACCAGATCCA    	
+    542862	    30	 100.0	    36	..............................	AGCGAAGTAATAACAACCTTGCAAATCTTCTCTGTT  	
+    542796	    30	 100.0	    37	..............................	ATAAAAAGTTTGATGCAGTTATACAGTTGCACAATGG 	
+    542729	    30	 100.0	    34	..............................	TTGTAAAGTGCGTTACTGCTTTATTTCTGTAACG    	
+    542665	    30	 100.0	    36	..............................	ATGTTAATCATTGCAGAATCATTCATATTGATCCCA  	
+    542599	    30	 100.0	    35	..............................	ACGGCTGGATGGAATGGAGATGACTCGGAATTTTC   	
+    542534	    30	 100.0	    36	..............................	CTGGATGCTCTTGCTCATCCAGTTCCTCCAGTATAA  	
+    542468	    30	 100.0	    36	..............................	TATATATTTCTGCAAGCATTGAAGTTTGTGTATAAT  	
+    542402	    30	 100.0	    36	..............................	TTACTTTTCAGATCGTAGATATTAATAAAACTAAGT  	
+    542336	    30	 100.0	    35	..............................	AAGATTATTTTCACTTCGAGTTTAACTACTCTGAT   	
+    542271	    30	 100.0	    36	..............................	TCAATTCCTTTTCGCATTCTTCAGTATCGTCAAAAC  	
+    542205	    30	 100.0	    36	..............................	TAGCTTAATAATCGTTTAGATTATACTTTAATCCGA  	
+    542139	    30	 100.0	    37	..............................	GCAGTTATAAGAACAGGTTTCTCGAAGAGAGATTTTA 	
+    542072	    30	 100.0	    37	..............................	ATACTCCCCCATTGTCCACCTGTAACCTCTGTAATTT 	
+    542005	    30	 100.0	    35	..............................	CTAATAATTCAGATCCGTTTTTAAAAGAAGCTCTT   	
+    541940	    30	 100.0	    36	..............................	TTAAAATTCTGTGTCATAAAAGAATCCCCCTAAAAA  	
+    541874	    30	 100.0	    37	..............................	ACATTAAGATCCTTCTCTCTTTGTATCTCTATTCGTA 	
+    541807	    30	 100.0	    37	..............................	AAAACAGTTCTTTACAATTTTAATATTGAACCAGAGC 	
+    541740	    30	 100.0	    37	..............................	ATGTCTCTAAATACAGCTTGAGTATTTATAGGGTCTT 	
+    541673	    30	 100.0	    35	..............................	TCTATTTGAAAGGATGGTTAAAGCATACTAAAAAT   	
+    541608	    30	 100.0	    36	..............................	GTGCTTGACGAATCAACTACTTTGCCTATAAACTCA  	
+    541542	    30	 100.0	    36	..............................	CAGATGAAGGATTAGTAAGTACAGTTGTTACTTTAA  	
+    541476	    30	 100.0	    38	..............................	ATATGAAGAAAATAAAAGAGTACTTCAGTTCTATGCCC	
+    541408	    30	 100.0	    36	..............................	GCAAACATGATTGCGAAATTTCAGCAGTAAATAATA  	
+    541342	    30	 100.0	    36	..............................	CTGGATAAAGGGTTGTTAATAATTGGAAGCACTGGA  	
+    541276	    30	 100.0	    36	..............................	ATTGATTGTTCAAATAGGGGGTATTAATAATAGTGT  	
+    541210	    30	 100.0	    35	..............................	AAGTTTACTTTAATTATATTATTGTAAGCATTACC   	
+    541145	    30	 100.0	    34	..............................	ATATTATCAGTAGTTACTAAACCACCTTCTTCAT    	
+    541081	    30	 100.0	    35	..............................	ATATATATACCATTATGCGCTGGTAAATCTTTTTC   	
+    541016	    30	 100.0	    35	..............................	ATGGGTGGGATGACAGGCACAGTTGTAGATATAAG   	
+    540951	    30	 100.0	    35	..............................	TTCCTTGCCAGTTCTCTATTAAATTGGCTTGTTCT   	
+    540886	    30	 100.0	    37	..............................	TCATTTCCCAGAGTGCTAAACTCAATTGCAACATCTC 	
+    540819	    30	 100.0	    35	..............................	TTGTAAACTAACACTCCAGATCCAAAGAAAGTAAA   	
+    540754	    30	 100.0	    37	..............................	GTGATAATAACGCCTGAATGTGTTATATTTTCTGCTC 	
+    540687	    30	 100.0	    37	..............................	ATAACATAGCTTGTTGCTGTCTTGTTTATTCTATCGA 	
+    540620	    30	 100.0	    35	..............................	GCTATCCTTACTTTGTCTATATATATATCTGTCCA   	
+    540555	    30	 100.0	    36	..............................	CTATAATCTACTTTAAGTTTTATAGTTCTTCCTGAT  	
+    540489	    30	 100.0	    36	..............................	TGGGGTAAGATTGATTTTGTTATTGGTAAAGAAATA  	
+    540423	    30	 100.0	    36	..............................	GAACTTAATGAGGAGTTTAAAAACAGTGCTGGATCA  	
+    540357	    30	 100.0	    36	..............................	TTTGATTTGCTTCGTATACTAATTTACTACCTACGT  	
+    540291	    30	 100.0	    36	..............................	ACATACTTTCCATAATGCTCCATTAATATCTCAATC  	
+    540225	    30	  86.7	    36	.......TC............A.......G	ACATTATAAGGAAGTTTAAACTTCCCTGCTGGAGAA  	
+    540159	    30	  80.0	    36	...C...TCA...........A.......G	AGTATAACTACTTCAGTATTATCAAGCTTAACATTA  	
+    540093	    30	  80.0	    37	...C...TCA...........A.......A	GAGTATAACTACTTCAGTATTATCAAGCTTAACATTA 	
+    540026	    30	  73.3	     0	...C...TC............A.ACA...A	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        49	    30	  98.4	    36	CTTTTAACTGCACCATATAGGTATTGAAAT	                                      	       
+
+# Left flank :   GAAATAGATTTAGGATTAAAAAAGGATTTAGAATCTCTAAACTTTTAACTGCACCATATAGGTATTGAAATATGGCTTGTTTAATGCCATTGTAGTTTTTATTTCCTCTTTTAACTGCACCATATAGGTATTGAAATTCCACTTTAAGGATTTGTTTTTTGATAACTTCTTTTCCTTTTAACTGCACCATATAGGTATTGAAATATAGATATCAAAACAGATAAAAAAGACCCGTTAAACTTTTAACTGCACCATATAGGTATTGAAATCTGGATGACCTTGCTCATCCAGTTCCTCCAGTATAACTTTTAACTGCACCATATAGGTATTGAAATGTTAGACTCGGTGTTTGATTAGTTTTTAATGTTCCACTTTTAACTGCACCATATAGGTATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNA
+# Right flank :  ACACCAACAAAAAAAACGCACTATATAAGTGCGTTTTTCGTTAGTAAAAGGGTAATAATTGAAGAGAAAAAATATCTATTTAGCAAACTTCTTACTTGCAGCTACACAAAGAATCACTCCGAAAGTGACGTATAGCATCGTAGGGCTTACTTTTTCGTTTAATACTGTTGCCGCTAATATCATCCCTAATAGCGGTTGTAATAATTGGATTTGACCTACTGTTGCGATTCCTCCTTGTGCTAATCCTTTATACCAAAAGATGTACGCTAAAAACATACTCACAACAGAAATATAGAATAGTCCAAACCAAGATTCACCACTTACTAGAACTAAGTCTGTAGGTACCGTATAAATCATAATCGGCACTGTAAGAGGTAGTGAGATAATACACGCCCAAGAGATCACTTGATATCCTCCTAGTGTTTTAGATAGTTTAGCACCTTCTGCGTAGCTCTGACCACATAAGATGATCGCTAAGATCATTAGGATATCCCCGATAG
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.92, 5:0, 6:0.99, 7:0.86, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTAACTGCACCATATAGGTATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.00,-1.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [24-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-1.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [77,2914] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,5.09   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_006258363 [546102-546365]; Endoribonuclease Cas6:WP_006258370 [554342-555136]; Helicase/endonuclease Cas3:WP_006258366 [547904-550690]; Unclassified_Cas_protein:WP_006258368 [551490-552386]; 
+# Array family : NA
+# Sequence source strain : CCUG 10230
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Myroides.; Myroides odoratimimus CCUG 10230
+//
+
+
+Array 4 545897-543354 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE161016-Myroides odoratimimus CCUG 10230 supercont2.2, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    545896	    30	 100.0	    36	..............................	TAATGCTGAAATGCTTTCTGTTGAAGTACAAAGAAA 	
+    545830	    30	 100.0	    36	..............................	TTAGATATTGTATCTATGGAGTATTTATTTATCTAA 	
+    545764	    30	 100.0	    36	..............................	TTAGTAGAAAAATCGTGTATCATATCAGATAATTTT 	
+    545698	    30	 100.0	    37	..............................	ATTGAATACAAACTTAAAAAATACTTTTGTAATAATC	
+    545631	    30	 100.0	    35	..............................	TGAAGTAGATCATATCAAAAGACAATTAGAATGGG  	
+    545566	    30	 100.0	    36	..............................	ACGTCTGAACACCTGTATTTGAATCGAAATTAGCAG 	
+    545500	    30	 100.0	    36	..............................	AGAGAAGTAATCTTCTTAGAATCAAATAAAATTATT 	
+    545434	    30	 100.0	    37	..............................	TCGTTTTGCTCCTTTACATCGTCAAACCAAAATAGCA	
+    545367	    30	 100.0	    36	..............................	AGAGAAGTAATCTTCTTAGAATCAAATAAAATTATT 	
+    545301	    30	 100.0	    37	..............................	TCGTTTTGCTCCTTTACATCGTCAAACCAAAATAGCA	
+    545234	    30	 100.0	    36	..............................	AGAGAAGTAATCTTCTTAGAATCAAATAAAATTATT 	
+    545168	    30	 100.0	    37	..............................	TCGTTTTGCTCCTTTACATCGTCAAACCAAAATAGCA	
+    545101	    30	 100.0	    36	..............................	GAAGAAGTGGGGTTGAAAATTATTGGGAGGTTTTTT 	
+    545035	    30	 100.0	    36	..............................	GCAGAAACTACAGCCCCTAATGCACTTAAATTTTCT 	
+    544969	    30	 100.0	    36	..............................	AACTTCACTGCCTCGTTAAATGCAAAACCTAATCCA 	
+    544903	    30	 100.0	    35	..............................	ATAAACCCTCCTTTTACAAGCTCACTAGCAGGAGA  	
+    544838	    30	 100.0	    35	..............................	TTCCAGAATAATCACAGTTTTTTAACCCTGTAAAT  	
+    544773	    30	 100.0	    37	..............................	ATACTCTTACTAGTTCTATCTATCTTAACTATTCCAT	
+    544706	    30	 100.0	    36	..............................	ATGTTATTATTTTCTTTCTTTACTTCTTTAGCACAA 	
+    544640	    30	 100.0	    37	..............................	TTAGATAGAATACAGTTAAAAAGAACAGGTAATGTTA	
+    544573	    30	 100.0	    34	..............................	AGAAAGAGGTGCGGAGGTTATTACAGATAAACAA   	
+    544509	    30	 100.0	    36	..............................	ATATCTGTGTTTAGGTTATTTTTTAGACTTACATTT 	
+    544443	    30	 100.0	    37	..............................	ATAATTACATCTCCTTCATCTGTGAATATTTCTATTA	
+    544376	    30	 100.0	    37	..............................	ACATTTAATACTATGTCATTATCCTTAATGTACTCTT	
+    544309	    30	 100.0	    37	..............................	GCTAGTATAGCAGAAGACCCGACACCAGTTTCAATAA	
+    544242	    30	 100.0	    35	..............................	TTGATCACAACCCTGATAATGGCGAGATTATTATT  	
+    544177	    30	 100.0	    36	..............................	ATTTTAATTTCACTCGCCTTAAAGCGACTATTCTTA 	
+    544111	    30	 100.0	    36	..............................	GTATAGGTTCCTATATGTGTTTTACCCGCACTAACT 	
+    544045	    30	 100.0	    37	..............................	ACATAAAACACATCAACAGGTTCTTCTTTAGGAATGA	
+    543978	    30	 100.0	    36	..............................	TAATGTGTCCCTTTTTTAGATAGAAAGGGGAACTAT 	
+    543912	    30	 100.0	    36	..............................	CTGTTAGTCGGCTTCTCTATCCACAGTGGCTTCTTT 	
+    543846	    30	 100.0	    37	..............................	ATGAGCATGAAAGCTTGTGTTTCATCGAGTTTAGCTT	
+    543779	    30	 100.0	    36	..............................	AAGATTAACTAAAAGATAGTTTTATCAAATTCAATT 	
+    543713	    30	 100.0	    36	..............................	AGATTTAGGATTAAAAAAGGATTTAGAATCTCTAAA 	
+    543647	    30	 100.0	    36	..............................	ATGGCTTGTTTAATGCCATTGTAGTTTTTATTTCCT 	
+    543581	    30	 100.0	    37	..............................	TCCACTTTAAGGATTTGTTTTTTGATAACTTCTTTTC	
+    543514	    30	 100.0	    35	..............................	ATAGATATCAAAACAGATAAAAAAGACCCGTTAAA  	
+    543449	    30	 100.0	    36	..............................	CTGGATGACCTTGCTCATCCAGTTCCTCCAGTATAA 	
+    543383	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+        39	    30	 100.0	    36	CTTTTAACTGCACCATATAGGTATTGAAAT	                                     	       
+
+# Left flank :   AAGAGTATAAACCATTTAAAGCTCGTTGGTAATGTATGTGATTTTAGTATATGATATAGGGGAGAGGAGAGTAGGAAAGATGCTCAAACTATGTAGGCGTTATTTGAATTGGATACAGAACTCTGTCTTTGAAGGAGAGATTAGTGAAGTGAAATTAAAGGCACTATTAGCTGAAGCGAAAGAAATTATGAACAAAGAGGAGGACAGTGTAATTATTTTTAAAAGTAGAGAAGAAAGATGGCTTGAAAAACAAGTAGTAGGTAAAGAGAAGAATGAATTGGATAACTTCTTGTAGTCGTCGATGATTCAGCTCTCTTGAAAATTTGTTCTTTGAAATATCGTAATTAATGATTAGGTGTTGATAATTAGTTATTTATATGTTAGTCGCTCTAAGGGATAAAATCGGTTATTATAGAGCGACTAATTTTTGTGTTTAAAAAAGAAATAAATATATTTGTGAAGCCTTGTAAATAGGCTTTTTTATGTCGTGTATTTCACGG
+# Right flank :  GTTAGACTCGGTGTTTGATTAGTTTTTAATGTTCCACTTTTAACTGCACCATATAGGTATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACTTTTAACTGCACCATATAGGTATTGAAATGTTAGACTCGGTGTTTGATTAGTTTTTAATGTTCCACTTTTAACTGCACCATATAGGTATTGAAATCTAAATAGCGCGTATGGAGTTGTAGCCGGAGCAACACTTTTAACTGCACCATATAGGTATTGAAATAGAAAAGCAAAAAGAGCAAAACAGACAGTTAGAGAACTTTTAACTGCACCATATAGGTATTGAAATAAGGCTGTTTGTTTTTTAGTCTGGAGGAAATTCACTTTTAACTGCACCATATAGGTATTGAAATAATGATGGTAACTCATTTTTTTGCACCAGATCCACTTTTAACT
+
+# Questionable array : NO	 Score: 8.90
+# 	Score Detail : 1:1, 2:0, 3:3, 4:1.00, 5:0, 6:0.99, 7:0.91, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTAACTGCACCATATAGGTATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.00,-1.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [3434,206] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_006258363 [546102-546365]; Endoribonuclease Cas6:WP_006258370 [554342-555136]; Helicase/endonuclease Cas3:WP_006258366 [547904-550690]; Unclassified_Cas_protein:WP_006258368 [551490-552386]; 
+# Array family : NA
+# Sequence source strain : CCUG 10230
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Myroides.; Myroides odoratimimus CCUG 10230
+//
+
+

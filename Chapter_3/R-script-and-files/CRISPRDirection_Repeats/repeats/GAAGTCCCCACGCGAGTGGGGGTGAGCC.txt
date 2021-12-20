@@ -1,0 +1,164 @@
+Array 1 5-339 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB889695-Streptomyces scabrisporus DSM 41855 A3ICDRAFT_scaffold_48.49, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+         5	    30	 100.0	    31	..............................	ACGAGAGCGTCCGGGGCAACGACACGGTGAT	
+        66	    30	 100.0	    31	..............................	CCACATACACCGACGGACCCACCCGAACCCT	
+       127	    30	  96.7	    29	.........T....................	GGTTCGACGCTTACGTGGGCAGCCAGACC  	TC [155]
+       188	    30	  96.7	    31	.............................A	TTTCGCCGTCCGTCATGCGCGCGGTCCCGGC	
+       249	    30	 100.0	    31	..............................	GTCAATCCCCTGGCCCATCTCGCGCGGCTAC	
+       310	    30	 100.0	     0	..............................	|                              	
+==========	======	======	======	==============================	===============================	==================
+         6	    30	  98.9	    31	GAAGTCCCCACGCGAGTGGGGGTGAGCCGG	                               	       
+
+# Left flank :   CGGAG
+# Right flank :  GCGGACCATGACCTTGGGCCGCTTAAGCACGGCACCAACAGGCACACGGGGACTGCCAGCATGTCCGGCGGCGGCGACGGCAGCGGCCCCCAGCAGCAGTCCCAGGACGACACCGTCACCGACCACGTGCCGGACTAGGGAACCCGATGACCGGAAACCCCGTGGTGGTCGTGACCGGCAGGGACGACACGACTGCGGACTGGGTGGTCGAGGAACTGCACGACCGGCACGTGCCGGTCGTGCGGCTCGACCCCGCAGACATCGGCGAGTCCCTGATCATGGACGCGCGCATCGGCGGCGGGTCGACCACGTGGCGGGGACGGATCACGACGCCCTCCCGCGTCCTCGACCTCGCCGGGGCTCGCTCCCTCTACTACCGACGCCCCTCCCCCTACAGCGTGACCTACATGCATCTCGATCCCCCCGACGCCCTGTTCGCCGAGAACGAGGCCCGCTACGGTCTCGGTGGGGTCTTGTCCGCACTGCCGGGCTGCCTCTAC
+
+# Questionable array : NO	 Score: 4.00
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:0.99, 7:0.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAAGTCCCCACGCGAGTGGGGGTGAGCCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.30,-10.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [6,146] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0.45   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 41855
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces scabrisporus DSM 41855
+//
+
+
+Array 2 2740-3283 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB889695-Streptomyces scabrisporus DSM 41855 A3ICDRAFT_scaffold_48.49, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===========================	===================================	==================
+      2740	    27	 100.0	    35	...........................	CGCTCTACAACCTCGCGACCTTCGTCGCCCGCGCG	
+      2802	    27	 100.0	    34	...........................	CGGCGGACTTGGACTTGAGGACGAGCTTCACGCC 	
+      2863	    27	 100.0	    34	...........................	TGGCGGGCTGCGAGTCGGCCATTCTGTGGGGCGA 	
+      2924	    27	  92.6	    34	........T.T................	CGGTCGCGGCCATCGCGCTGGTGTGGGCGGTCCT 	
+      2985	    27	 100.0	    34	...........................	CGCGCTCGACCTGAGCGCGGGTTTCCGCGTTGCG 	
+      3046	    27	 100.0	    34	...........................	TGGCGTGGAACGACGCGATCACGGACCCGCCGTA 	
+      3107	    25	  92.6	    34	....................--.....	CGTGGTGTTCGGCGTACACGTCCACGTTCTTCGC 	
+      3166	    27	  92.6	    34	..............C..A.........	CGTACAGCCACGCCACCCGCATGACCACCGGCAG 	
+      3227	    27	  88.9	     4	T............C............T	CGAC                               	Deletion [3258]
+      3258	    26	  77.8	     0	.G.........A..G.....T.-..C.	|                                  	
+==========	======	======	======	===========================	===================================	==================
+        10	    27	  94.5	    31	GAAGTCCCCACGCGAGTGGGGGTGAGC	                                   	       
+
+# Left flank :   CCTATCACTGGGCAATGACCGCCAAGGAGGACGAGGACACGACCACCCGCGACACGATCCTGTCCCCCGTCTTCTATCGCGAAGCCACGGTGTCGGCGTTCCACGCCCGGTTCGTGGCACAACTCGCCGCCCCGACCGCGCAGATGGTCGACCCGGCGGGCTATCCCGAGGGGAGCGTGTTCCTGGTGGACACGGCAAGCGGGTCGTCGGCCGCGATCGGCCCGGACGGCGACGGCTGGACGGTCACGCAGTCCGGACCCGATCGCCTGTGGGATCGGATCGAGGATGCGGTGATGAAGTGGCGGGCAGCCGGCTCGTTCGCCATGACCGAGTTCGAGATGACGGTGCACGCAGACGAGCAGCTCATCCGGCATGCCGCGACGGGATTGAGATTCGTACTGCCGCACCTGTAGCAACCACTGACCTTCACCCGTGAGTGCGATGCGCAAGGACACCCGTCCTGCGAAGCTGGGCCCATGAGCAGCCTCTTCCACTACACG
+# Right flank :  CGCGCTGGGAGGGGAGGCCTCGTGGTGTCGGTCGAGCCTTCCGCGTGGGCGTCGAGGGTTGTGGTGCTTCGGGTGGTTCGGGGTGTGGTCGTCGTGTGTCGGATTTGCTTCCGTGGGTTGATTTCGGCATTCAATGTGGTATCGGGGCATTGTTTCGTGTCGGTCGGCTCGCGCATATCGGACTGTTTCTTCGAGGGCGTCTCGTGGGGTTTGTGACTTTGGTTCTCCGTCGATAATTTGCCCGGATCCATGATCGTTGTTCCGGGTGGGCCTTCGGCGGTGTGGGGCAGGGCGGGCGTGGGTGGGGCTCGCCGCCTGTGTGGTGTGCCCTTGGGGGCGTTCGTGTCCGGTGGGAGTGCGGGGGTTTCGGGGGTTCATGGGGATGAGGGCCCTTTGAGGGCTTTTTCTTCGTCCCTGTCACAACCCGTTCCGCACGGGCACCTACCGAGTGTGCGGATTGCGCCACAGAACAATCGCGTCCGCATGGCTGAAACAGTATG
+
+# Questionable array : NO	 Score: 6.10
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.72, 5:0, 6:0.28, 7:0.18, 8:1, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAAGTCCCCACGCGAGTGGGGGTGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.30,-10.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-16] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [36.7-26.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [89,578] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.42,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 41855
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces scabrisporus DSM 41855
+//
+
+
+Array 3 15384-15595 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB889695-Streptomyces scabrisporus DSM 41855 A3ICDRAFT_scaffold_48.49, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     15384	    29	 100.0	    32	.............................	TCGCCGGGACCGATCAACCCCAGAAGCGGTCC	
+     15445	    29	 100.0	    32	.............................	GTGTCGATGGCGGAACCGGCCGCATGCGGCAT	
+     15506	    29	 100.0	    32	.............................	GAGCGCAACCAACACTCGAAGAGCGACGCACA	
+     15567	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         4	    29	 100.0	    32	GAAGTCCCCACGCAGGTGGGGGTGAGCCG	                                	       
+
+# Left flank :   TGGGCGGAATACCTGCGTCAGGACATGACGTCGTCGATCGTCGATGTGGCCGCACGCCTGGGCGAACTGCGCCTGCGCGACGGGGACGTCCGCGGTGCGAAGCTCGCCCTGAGCAAGGGCCTCGAGGTCTGCCCCGAGTCCGAGATGCTCTACCGTTTGATGTTCCGTGCCGCCTACCTCTCCGGCGACATCGACGAACTCGAGGCGTACGCCGCCCGCCTCAACCGCCTGCTCGACGATCTCGGCTGCGACATGGAGGACGACACCATCCACCTCCTTCGCTCCCTCCTGGAAGCCCGCCGCAGAAGCGCCAACTCCCGGGCTGCGGGATAGAGGGGCAGCCACCGTCGACGATCCACCAAACCGACCCGGAGAGGCCTTCCGAAGGAGGCACGCATGAACCCTCGACGGAGAAGCCCAATCAGGCAAGCCATCGCCTGATTACCCCGCGTTCCGATCACGGATCGGTAACGACCTCAAAGCGCCGCAGGTCAGCAAGG
+# Right flank :  GCCGGACCCGGCTTGATCTTGTTCGGCTAGCACAGTGCCCGCTTGCTCCGGGGCGGTTCGGTGAAAGCCCGTCGGGTCCTTGCGGACCACCGCTGGCATCCGCCGGGTGCCAGTGGAATCACGGTACGCCCTGGGCAGCAAGGCCCCGCTGCTGGACTGCGTTACGGAGCCGAAGCGTGCGGCGATGCTCACCGCAGTGATGCGGCATCTTGAGGCGAAGGCGATCGACGAGGCGCTGGAGGGACCCCGAGCCGGGCGGCTGCCCGGCAAGACGGTGGTCCTCGCTCCCTGACCGCACCCGACCCGGGCCGTCCGCTGTTCGCTCTCCCGCCGGCGGGCGGCCCGGAAGCGCGCGACGAATCCGAAGTTCGCACAGCCAAGGCGTCGACTGTCGACGGGAGTTGCCTTGCCTCGAAGTCGAATATCGGTGTGCGCAAGGTAAATTGGGCTTTCGCGCAGAGACCACACTTTCGCTCCGACCACCCCGACCACATTGCCCC
+
+# Questionable array : NO	 Score: 5.11
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAAGTCCCCACGCAGGTGGGGGTGAGCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.40,-10.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [169,112] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 41855
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces scabrisporus DSM 41855
+//
+
+
+Array 4 20056-20266 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB889695-Streptomyces scabrisporus DSM 41855 A3ICDRAFT_scaffold_48.49, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+     20056	    28	  92.9	    33	A....T......................	GCTGTGCCCGGAGCACGCCGACAAGATCCGGCG	
+     20117	    28	 100.0	    33	............................	GTGGTTCATCGGCTTCTCGTGCTTCCTGATCAA	
+     20178	    28	 100.0	    33	............................	GAGTGGAGGAGGCGGCGACGGCACCCGTCTCGC	G [20200]
+     20240	    27	  96.4	     0	.....................-......	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	  97.3	    34	GAAGTCCCCACGCGAGTGGGGGTGAGCC	                                 	       
+
+# Left flank :   GCAGGGATGGTCCGCCGCCCCAGGACCAGGGCGTCCAGGCGCAGTTGGGTACCCGGCAGTTCGTACTCGAGGAGAAGGTGCAGGTCGCCCAACCCCGCGTCGACGAGCGCGGTCAGCAGCGGCGGCCAACTGTTCTCCCAGCTGCTTCGTTCCGATGCGCCGACCGGCCGGCGATGAATGCGCTGGAACTCCCGCGCGGCGTCGGTTACGAGATCGGAGATCGCCTGCTGGGCCGCCTCGGTGACCGTTCCGCTGAAGACACTTCTCCGGGCACTCATGGAGACGTTGTCTACCAGGAAGTCCGGCGGATCGCTTACCGCACATCGCCGGGAGGAAGGACGTTGCGGGGCGACGGTTGCCGCGAGGTGTCGGACTAGGCTCTCCGGTATGACACGCGACGTGATCAAGTGTGGCGTATCAATCAGGCAAGGCGTTGCCTGATTAACTCGAACTTTGGTAACGGAATGATAATGCTCGTGTGAACCCGCAGGTCGGGAAGG
+# Right flank :  CGGTTCGGGCGCTGTGCCTGGAGTACGCGTTGGGAAGCTGCGTGGTCTCCACCCAGCGGCTGTTGGCGGTGGGGTAGGTACTGGTGCGTCAGGGGGTTCCCCGGGCTGGAAGCGTCGTCGACGGCGTCGTCTCGCGCCGATCGTCAGGTCTACCTGATACGGGCCGCGTCGACCCCACCGCCCCAATCCGGCCGGAGAAGCGCTGGGAATCCAACTGCGGTGATCACTGGGAGTCTTGATAGGGTCACGGAGTCGATCCACGCGGGGGCGCCATGAGACGACGACGTTCCGCAGTCATATCCGGCCTGATCCTGGCGGCAACGCTGGTGGCCGGATGCAGCGACGACGGAGACGGGGGCGGGATCCAAGGGCGTCCGGCCTCGCCCGACCAGACCGCAGCCGGGAACTCTGCCGCGCCGAAACCCGATTCCGGACGCCTGTTCGAGAGGGGGACCGTGACGGTGATGTGGTGCGACGGACCAGCCGGGGGCTTGAGCACG
+
+# Questionable array : NO	 Score: 4.09
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.86, 5:0, 6:1, 7:0.63, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAAGTCCCCACGCGAGTGGGGGTGAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.30,-10.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [2-2] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [224,455] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.01,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 41855
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces scabrisporus DSM 41855
+//
+
+

@@ -1,0 +1,633 @@
+Array 1 125869-126055 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	======================	========================================	==================
+    125869	    22	  95.5	    40	...T..................	AGAATAAACTGAACGCATGTGAAGTTTGTTTGTTGGCGCT	
+    125931	    22	  95.5	    40	..................T...	GGAATAATCTGAGTGAATACGAAGGTTGTTCGTTGACGTG	
+    125993	    22	 100.0	    20	......................	GGAATTTATTCGTTAGCGCC                    	Deletion [126035]
+    126035	    21	  81.8	     0	....T..........G.-A...	|                                       	
+==========	======	======	======	======================	========================================	==================
+         4	    22	  93.2	    34	GTGCGTTAGCACTTTAAGCAAC	                                        	       
+
+# Left flank :   GTTGCCAAGCCGTAAGGTGGAGCTAATCCCTTAAAGCTACTCTCAGTTCGGATTGTAGGCTGAAACTCGCCTACATGAAGCTGGAGTTACTAGTAATCGCAGATCAGAATGCTGCGGTGAATGCGTTCCCGGGTCTTGTACACACCGCCCGTCACACCACGGGAGTTGGAGACGCCCGAAGCCGATTATCTAACCTTTTGGAAGAAGTCGTCGAAGGTGGAATCAATAACTGGGGTGAAGTCGTAACAAGGTAGCCGTATCGGAAGGTGCGGCTGGATCACCTCCTTTCTAAGGAGAATTGCCTACTGTTTAATTTTGAAAGTTCTTTACGAACTTTATATATGGGGGTGTAGCTCAGTTGGGAGAGCACTTGCCTTGCAAGCAAGGGGTCAGGAGTTCGACTCTCCTCATCTCCACCATTTAAGAGTATATTACTTAAATCTTTGATTTACTTAGTAGCCTCTTACAATGCACTTATAGCTTAAATTTATACAAGCTTT
+# Right flank :  CTGCATATATATTTAGTGATATGACATCTAATTTGTAATATATAAAGCTGATAACTTTTTAAAATTATCGAAGTTGATAGCTTCTAATCTATCAAACCTTTTTAACTGGTCAAGTTATTAAGGGTGCAGGGCGGATGCCTTGGCACTAGGAGCCGATGAAGGACGTGATAAGCTGCGATAAGCTTCGGGGAGTTGCACGTAAACTTTGATCCGAAGATTTCCGAATGAGGAAACTCACTTAGAGTAATGTCTAAGTATCATTAAGTGAATACATAGCTTAATGAGGGGAACTCAGGGAACTGAAACATCTAAGTACCTGAAGGAAGAGAAAGAAATTCGATTCCGTAAGTAGCGGCGAGCGAACGCGGATTAGCCCAAACCAATAAAGTTTTCTTTATTGGGGTTGCGGACATATCATAACGAAGAGGTATCGTAATTGAAGAGGTTTGGAAAGACCCACCACAGAAGGTAATAGTCCTGTATGTTAAACGAGAAGACTT
+
+# Questionable array : NO	 Score: 2.52
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.66, 5:0, 6:-0.25, 7:-0.18, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCGTTAGCACTTTAAGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.55%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-80.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [2000,10408] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 2 982312-981618 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                                                                   	Insertion/Deletion
+==========	======	======	======	==================================	==================================================================================================	==================
+    982311	    34	  82.4	    97	.TA.....TG....A..............T....	TACAAATTTTAATGCCATTCCATATTGTCTTACTGCCTTTAAGCATATACCAACAGTCTGTTCCTTTACAAATTCTAATGCCATTCCATTTTGTCTT 	C [982280]
+    982179	    34	  79.4	    32	......CTT.A...G...GT..............	TTACAAATTTCAAATCAAGCCCATTTTGTCTC                                                                  	
+    982113	    34	 100.0	    32	..................................	CTACCCATTTTAGATTATAGCTACAATGCTTA                                                                  	
+    982047	    34	  97.1	    32	...................T..............	TCACTCTTGCCAATCCAAATTCGCTGTTTCTA                                                                  	
+    981981	    34	  94.1	    31	........T....................T....	TACATACTCCAAAGCTGCACCATTTTTTTCA                                                                   	C [981950]
+    981915	    34	  70.6	    98	..G...CTT.AG....AC..C.....C.......	CTATATATTTTAATGCTGTTCCATCTTGGTTAATAGCCAACATGCAAATTTCTTCTGTTGGCTCTTCCACAAATTCTAACATTCTCCAATCTTGTTTA	
+    981783	    34	  88.2	    32	........T..........T......C.....C.	GAACACATTTTATTGCATTACAATTTTGTCTA                                                                  	
+    981717	    34	  85.3	    32	..A..C..T.G......C................	TTATGTATATTAAATTCAATCCATTTTTTCTT                                                                  	
+    981651	    33	  79.4	     0	......-.T.A....TC...........T...A.	|                                                                                                 	A [981649]
+==========	======	======	======	==================================	==================================================================================================	==================
+         9	    34	  86.3	    48	ACTGCTTCCATACATATTTCTTCTGTTTGATTTT	                                                                                                  	       
+
+# Left flank :   TTACATCTACTCCATCCACCTTTTTAGCGCCCTCTTCTATCAGCTTAGCGACCCTTTCTGTGTTTCCACTTCTTGTTTGGTATAATACTGTAATCTTCAACTTTAATTCCCCCTTATCTAATAAAAATAATTTATTATACATCAAATTATATCACTAATTTTGCTGTCCTACAAAGAGCTAATCGATTATTTTTTTATTAACTATTTCCCATAAAAAACACCTACATTTATTACTTTAAAAAACACCTAAACTCACTTTTAACTTGCTTATTTCAATCTCAACTATATCTGATATATCTTCAAAAGACATGCCTCTATCATAAAGTTTTCCTGCAATTTTGATTTTTGCATTTTCTTCTCCTTTTTTAATCAATGCTCTGTTTTCTTTTTCTATTACATTTCTAACATATCTCTTTGCAAATGGTTCATTATTATCATATAGAGCCTTGTATTTTTCCTTATCTCCTTTTACAAAACTAAGTGCTCTTTTATCTTGTTTT
+# Right flank :  CAAAATCCTCAGTATCTATTGATTCAAATATATCATTTTTATCTTCATGCATATCTTAGACTCACCCCTTATAAATTTTATAAAATTCAATAAATTTACTCTCAATTTTATTCTATCAAAGAATATAAAAATTTTTGAGTCTTGTTTTTTTTCATAAAATCATTTGTATGTTAAAAAATAAATTAATTACTCTAATTCCAGTATACAATACCCAAAATATGTGGTATATTTTAACTATAATATATTTATATATATTATTGTCAGAATATTTAAAGTTAAATTTATATGAAACATCTTTATTTATATATCACTTATATTTGGATATATTTTCTTTTTTTAGTTTTCGGGTTAGTAAGGGGTTAGTAGTTTAGGTTTTCACAGGATATTATTTTTACAATTAGTTTTATTTTCGTGTAATTTATATATGTTGTAATTAATAAAACTAAATATGATTTAAATAATTCCTTGGGATAAATTTAATAAAACTTAGATTCCTTATC
+
+# Questionable array : YES	 Score: 0.63
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.31, 5:-1.5, 6:0.26, 7:-0.69, 8:1, 9:0.25,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACTGCTTCCATACATATTTCTTCTGTTTGATTTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.59%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.70,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [17-15] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [541,402] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 3 992531-992735 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence     	Insertion/Deletion
+==========	======	======	======	=========================	====================	==================
+    992531	    25	  96.0	    20	..................G......	AGCTATTGCAATGAAGTAAC	
+    992576	    25	 100.0	    20	.........................	GTTTATTGTAATGAATTGTT	
+    992621	    25	  96.0	    20	....................G....	ATCTATCTCAATGAAATAAC	
+    992666	    25	  92.0	    19	........G.G..............	CTTATTGCAATGAATCAAC 	G [992689]
+    992711	    25	  76.0	     0	............C......A.AAGG	|                   	
+==========	======	======	======	=========================	====================	==================
+         5	    25	  92.0	    20	AAAGAAAATAATTAATATAGAGTAA	                    	       
+
+# Left flank :   ATGGTAGACAAATTGTAAAGGTGGGTAAATTCTTTGCAAGTTCACAAATATGCAATAAATGTGGGTATAAAAACGAGGAAGTTAAGGATTTAAATATAAGAGAATGGATTTGTCCTAGTTGTAATGAAACTCACGATAGAGATATAAATGCAAGTATAAATATATTAAAAGAAGGATTAAGACTAATAACAATTCAAAATAAATAACTTATGTAAGAACCGTAGGAACTACGGGGATAGCCTGTGGAGAATTAGTAAGACATATTTTAGTATGCAAAATTCTATGAAGCAGGAACCCTGTGACTTTAGTCATGGGAGGTTCAGTTTGGGCAAGTAGTTTCTTGTAAATCTAGTTATGTTTCAACCAATGATAATATAATTTCATTAGTATTAGCTGGTAATTAAGTTAATTTGACTAGAGATAAGTAAATTGATTTAAAAGGAAATAAGTAAATCAACAATTAAATACATCTAAAAGTAAGTTTATTGCAATGAATTGTT
+# Right flank :  GAGAAATATTTATGAATACAGGATTTCCAAAAGACTTTTTATGGGGAGCATCATCTTCTGCATTTCAAGTGGAAGGAGCTTGGGATAAAGACAATAAAGGAAAAACCGTAGCCGACTATAATTCTTTTAAAAAATCTCATTTACAGGCAGATACTAAAGTCGCATCAGACTTTTACCATAATTATGAAGAAGATATTGAATTAATGAAAGAATTAGGGATGAAAACATATCGTTTTTCAATTTCATGGGCAAGAATAATACCAGATGGTGAAGGAGAGATAAACCAGAAAGGTTTAGACTTTTATAATAAGATAATAGACAAACTAATAGAGTGTGATATTGAGCCATTCGTAACTTTATACCATTTTGACCTTCCATTTAAATTAGTAGAGAAATATAATGGTTGGGAAAGTAGAGAAACTGTCTATGCTTTTGAAAGATTTGCTAAAATATGCTTTAAGCATTTTGGAGATAGGGTAAAGTATTGGCAACCTCATAAT
+
+# Questionable array : YES	 Score: 0.45
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.60, 5:-1.5, 6:0.34, 7:-1.10, 8:0.6, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAAGAAAATAATTAATATAGAGTAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:88.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [78.3-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [296,11] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 4 1125024-1125820 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                 	Insertion/Deletion
+==========	======	======	======	=============================	================================================================================================================================================	==================
+   1125024	    29	 100.0	    37	.............................	GTAGAGTCTTTATATGGTAGAGGTGGAATATATAAGT                                                                                                           	
+   1125090	    29	 100.0	    38	.............................	AACTCTTCAATATCTCCTAATCGTTCAATATAATTCTC                                                                                                          	
+   1125157	    29	 100.0	    37	.............................	ACTGTATGCCATCTAAATGCATCATACAAACTTATTT                                                                                                           	
+   1125223	    29	 100.0	    37	.............................	TATACTTCCTAATGCAATCAAATAAGTACCTAAAATC                                                                                                           	
+   1125289	    29	 100.0	    37	.............................	TTCGCAACTTATGATGGTGAAATGATTACATTAACAG                                                                                                           	
+   1125355	    29	  89.7	    37	......T.........G...T........	AATATAACAAAGTGGATGTTCTCTAAAAATAAAGAGG                                                                                                           	
+   1125421	    29	  93.1	   144	................G...T........	GATAAATTTTATAGATTTGTAAGTTTAGTGAAAGAAGAATGTAGGAAAAAAGAAAAGAAAGAGAATAAATAATATAGATAAAGCACTTGGATATTGTATAGTTTCAAGTGCTTTGTCTGTTAAAAAATGGTATAATAGAGATAA	
+   1125594	    29	  75.9	    37	.AG...T........AG...T.......G	GTTTGAGAACGCTGTATAAAGCTTGTAGCTAGTTCTT                                                                                                           	
+   1125660	    29	  82.8	    37	......T........AG...T.......G	GTTGCATCATTAAATATTTTCCCTACAAACTCTTTTC                                                                                                           	
+   1125726	    29	  86.2	    37	A.....T.........G...T........	AGTACATACAAAGAGTCTATAAAATTATCTATAAAGG                                                                                                           	
+   1125792	    29	  82.8	     0	......T.........G....C.TA....	|                                                                                                                                               	
+==========	======	======	======	=============================	================================================================================================================================================	==================
+        11	    29	  91.9	    48	GTTTTAGATTAACTATATGGAATGTAAAT	                                                                                                                                                	       
+
+# Left flank :   TATATGTTATAATAATTGTAGCAAGGATAATAATCGAAAGTGCGAAGGGTGATTATTTTCATATTAAACGCCAAATTCCAAATAAGGAAGGAGGTGAAATTATATGATAGGTTTTTTATTAAGCATACTAGCTGGTGTTATATCAGCTTATATTTATGACAAAATAAAAAATCACCCAGACGCCAATAAGGGTGATTTAAAAAAATAATTCTTTAAATCAATTTTGATGGAAATAGCTACTCTTGTATAAAGTAAATTATTTCCTTGCTTTTATTATACCACAAATTGGTACAGATATTCAAAAATAATATTTTTATGATATAATAAAAATGTAGAGATTTTGCAGTGAGCAATATTTGCGATAAATTGAAGTTTAACAATTGGAATACAAGGTATTGAGGGTGTGTGATAAATGTTATCAATTGCACTACTCATGGTTCACTGCAAATTTGAGAGAGGTGTGTATGTGTAGATATTGGAAATACTAAGTTTATTTTGGG
+# Right flank :  TTAAAAATAATTCAAAAACACTTACAAATGAGTAAGTGTTTTTTTAATGAAAGGAGGTGATAATAATGTAAAAATTTTACTAATATAGTATAATATTGTTAAAGAATATAATTTAGGGGGATATTATATTATGAAGAAAAAAGTATGTTTTTTATTTTCTATTCTTATAGTTATCTGTTTAGCTATTGTAGGATGTTCTAATTCAGAAAGTCCAGAGGAGAGTAGTAAAAATAATGAACCAAAAAAAGAAGAAAAAAAGGATAAAGAAGTAGTCATAGGAGAGAAAATTATTTCAGATAAAATGGAAATCACTATTAATAATATTGAATTCTCTTATGATGTTTTACCAAAGGTTAAGGAAAGTTTATATACACATTATCCTGCTGAGTCAGGCAAAGTATATATTGATATTGCTGCTGATATAAAAAATACTCAAAAACAAGAGTTAAATTGTTCAGATTTACTAACTATTGAAGCAAATTATAATGATGGGTATAAAT
+
+# Questionable array : NO	 Score: 7.07
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.60, 5:0, 6:1, 7:-0.32, 8:1, 9:0.79,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGATTAACTATATGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-23] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [66.7-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [739,130] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 5 1434756-1435639 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+   1434756	    29	 100.0	    37	.............................	AAGCTTTCATAGCATCCTCTTCTGAACATTCATCACT 	
+   1434822	    29	 100.0	    37	.............................	TAGTAAGTTAACTCATACATACCACCTTCCCCATAAA 	
+   1434888	    29	 100.0	    38	.............................	TATTATAAATCTTTAAATAGCCTTCTAAGCGTCTACTA	
+   1434955	    29	 100.0	    36	.............................	ACATTATCAACATCATCTAATTTTTTTGTCACTGTA  	
+   1435020	    29	 100.0	    37	.............................	TAAGAATTAACTAATGTGAATTTTTTAGACATGTCAT 	
+   1435086	    29	 100.0	    38	.............................	ACAAACAAGTGTAGGATAAACTTTCCTTGCCCAGTATA	
+   1435153	    29	 100.0	    37	.............................	TAACAAAATTTGCGAGTACACTTATTTCTAATATATC 	
+   1435219	    29	 100.0	    36	.............................	ATAAGAGTGGTTTAAGAAAATAAGTTATTTTTCAAA  	
+   1435284	    29	 100.0	    36	.............................	TGACTCGTGCTATTTTTTTTACACGCCTAAGAGGTA  	
+   1435349	    29	 100.0	    36	.............................	CGAAAAATCTAGGAAAAACTATTGTAAAAGCGTTTA  	
+   1435414	    29	 100.0	    37	.............................	TTTGATTACATGGGCAGTTTTTTATTATAGAGTGTTA 	
+   1435480	    29	 100.0	    37	.............................	AAAAATCTTATTAAAGATTATTCAAAGTCTTTTGATT 	
+   1435546	    29	 100.0	    36	.............................	AACAAAAAAGATACATCTGTAACTAATTTTTATACT  	
+   1435611	    29	  96.6	     0	............T................	|                                     	
+==========	======	======	======	=============================	======================================	==================
+        14	    29	  99.8	    37	GTTTTATATTAACTAAGTGGTATGTAAAG	                                      	       
+
+# Left flank :   CTATTAACTTATGAAATATCTGTAAATGAGCAGATATTTCATAAGTTAATATTTATTGTTTACATAAAATATTTGGTAAAAATAAGTAAGTTTTATATGTTATAATAGTTGTAGCAAGAATAATAATCTAAAGTGGCAAGCATGTCAGCTGGTGTTATATCAGTTTATATTTATGATAAAATAAAAATCTCCCAAACGCCAATAAGAATGATTTAAAAAAATAATATTTTCACTTAAAAATAATCACTCTTTATAGGAGTAAATTATTTTCTTGATTTTATTATACTACAAATTGGTACAGATATTTAAAAATAATATATTCATAATATTATAAATAGTTTTGCAGTGAGCGATATTTTTGATAAAATAGGGCTTAACAGTTGAAACATAAGGCATTGAGGGTATATGATAAATATTATCATTTGCACTACTCGTGGTTCACTGCAAATTTGAGAGAATTGTATAGATGTAAGTGTTGGAAATACTCAATTTATTTTGGG
+# Right flank :  GACAGATATAATGTCAAAATAAGGTTAGGACTTTTAAAAGCATAGCCATATCAGTAAAAATTTAATTATCATTTAAAAATAAATTTTTATTTAAAGAATACACATAAATATTTCCAGACTCAACTCTCTTAAACTATTTTCATATCTTTTAGTAGATACCTTTGTTGTTTTTTAATCTTTAGCAACTTGTTCTTGAGTGAACCTCTTATTTTTTCTAAGTTATTTCAAGCTTTTCAAAAAATTCTCTATTTATATTCATCACACATATAATACAATCAATTCAGTTTTAATTGCCAATATTTAGTTTTTCTGTATCTGATAAACCAAGAATATAATCAGTATATAAACCAAAAATTTTAGCAAATATTATTAACCCATCGTCTCTTGTTGGTATTTCACCAGATTCTATTCATAACACTTGTATTTATATTTGTTTTTTCAAGCAATTCTTTTTGAGAACTATTCATATTTTCCCTAGTATATTTAATCCTTTGATTTAC
+
+# Questionable array : NO	 Score: 8.88
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.89, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTAAGTGGTATGTAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.86%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.50,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [655,1184] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 6 1645194-1646018 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+   1645194	    29	 100.0	    37	.............................	TAAAACCACTCAATTCTTAAAAGATACTGCAATTATT  	
+   1645260	    29	 100.0	    37	.............................	GGACATTTTAACCATAGACTATTTTACAAACAAACTT  	
+   1645326	    29	 100.0	    37	.............................	GGAGATTTAAAAGTTAACAACATAAAAATGATAGATA  	
+   1645392	    29	 100.0	    38	.............................	TGGTGAACAATAAAACAATCATCTAAAGACGAAGAAAA 	
+   1645459	    29	 100.0	    39	.............................	ATAATCCAGAAGATGATACACTTCTTGAACAATATATTG	
+   1645527	    29	 100.0	    38	.............................	CTATCAATATATATTTTATAAGCATAAGTTTTACGCAT 	
+   1645594	    29	 100.0	    37	.............................	AACAACGTCATATATATCATCTTTAGTTGTAAGAGCA  	
+   1645660	    29	 100.0	    38	.............................	AGTTATGTCAAATTATTAGAAACTAAAAACCTAGTTGG 	
+   1645727	    29	 100.0	    37	.............................	AATATCTAAAAAAAACGACTTATATCCCATTTCTACA  	
+   1645793	    29	 100.0	    37	.............................	AATTTAGAAAAGGACTATTAGGAAGCAAAGAAAAAAT  	
+   1645859	    29	 100.0	    36	.............................	AAAGTAAATCCTAGAGCATAACCAATTTTCGTAGGC   	
+   1645924	    29	  96.6	    37	.......................A.....	AGTATAATGTTGAAAAGTTAGAGAGTACAATCAAGAA  	
+   1645990	    29	  69.0	     0	A.....C.........AAT....AG..TA	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+        13	    29	  97.4	    37	GTTTTATATTAACTAAGTGGTATGTAAAT	                                       	       
+
+# Left flank :   TACAATTTATAGAGTGGAGTTCATACAAAAGATTATCCTCCCAATGTATAGAAGGGAGGTGAGTATGTATGGATAATTTTTTACAAGGTGTACTAGCAAGTTTAGTTGCCAGTTTAATAGTTTACTTAAATAGTAAATTGTTTAAAAAAGTAAAAAGCCACTCTGGCAGGAGTGACTTTAGTTTTGAACTAAAAATCAAGTTCAAAAAGAATAAACATTAGTATTTGAACTTCACTCTACGTCTAAATAGATTGTAGTTCTTCTTGTTTTTATTATACCACAAATTGGTACAGATATTCAAAAATAATATATTTATGATATAATAAAAATGTAAATAGTTTTGCAGTGAGCGATATTTGTTACAAAGTAGGGCTTAACGCTTGAAATATAAGGTGTTGAGGGCATGTGATAAGCTTTATCATTTGCACTACTCATGGTTCGCTGCAAATTTAAGAGAGTTGCACATGTGTAAGCATTGAAAATGCCCAGTTTATTTTGGG
+# Right flank :  AAAACATGTATTTATACTTAAATTCTTTACCTATATAAAAAAGTGAACTCTGTCAACAAAGCACTTTTTTATATAGATAAATTATCATTTTGTTTTAAGATAGAAGATACTAATGATAACTGTTTATCATTAGTATCTGTATGTATATAAAAGTTTAATTTTTTATATAAATTTGCTCTTTAGAAAAATGAGCAGTATCAATAAATATATTGTCTAAATTTTTTCTAGGAACTAGTTGACTAGCTATAAGATTAGCTTCAACTCTTTGATTGTTAGACTATGAAATTAAATTTAAAGGTTCATTCTTGGTCGTATAAATAGCTTTATTATTCGTATGTACTATAACAATTTTTGCCATCTGCTTTTGATAGATAAAGAGCTTTATCAGCTTTAGAAAATAAATCTTTATATAATTTAGTTGAATCATCAGTGAAGGCAATACCAATACTTAATGTTATTTTATGATTGTCCTTTACTTTTATTTTACTCGCATCATTTAA
+
+# Questionable array : NO	 Score: 8.61
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.87, 5:0, 6:1, 7:0.74, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTAAGTGGTATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.50,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [61.7-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [281,326] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0.27   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 7 1756278-1756833 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+   1756278	    29	 100.0	    37	.............................	TATCTATTATTGGTATATTAAATGATTCTAATAATTC  	
+   1756344	    29	 100.0	    36	.............................	ATGTTCACATTGACAGCTCAAGATAAACATGGAATT   	
+   1756409	    29	 100.0	    37	.............................	TTAAATCGTTTGATTGGAAGTATAAATTATAATGACC  	
+   1756475	    29	 100.0	    37	.............................	GCTGAAAGTTTAAAAGTTTTAACTATAAATTCAGTTG  	
+   1756541	    29	 100.0	    36	.............................	TCTTTTTCTAATGCTTTTTTTACATATGGAGCTAAC   	
+   1756606	    29	 100.0	    36	.............................	CCATCAGCCTTATCCTGTGCAAATAATAGTGCCAAG   	
+   1756671	    29	 100.0	    37	.............................	AGGAGATAACTTCTATTAAAGATAACTTTGATGTGGT  	
+   1756737	    29	 100.0	    39	.............................	CTCAAAGTTGGACTAGCTTCATCTTTTAATTTTACAAGT	
+   1756805	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         9	    29	 100.0	    37	GTTTTATATTAACTATATGGAATGTAAAT	                                       	       
+
+# Left flank :   GATAACCATAATAAAAATAGATATCTATTTTTAGATTAAAAATAATATATCATAAATAAAATAATAAGAGGTAGATACAGTTTTAAGGGAATACAAAAGTTTTTAATTAAACTATGCTTGTTCAGATAGATATTTATTTAAGAAAAAAGACTATTAAAAGCAATATACAAGAATGATATATTAGATTGATTAAACAAGCATAAATATTATGTAAAAAACTTTAAGTTATAGAATTTAAATCTAATGTAGATAGATTACGTTTTTTTGCTTTTATTATGGTATAAATTGGTATCAATATTCAAAAGTAATATATTTATGATATAATAAAATTATAGGAATTTTGCAGTGAGCGATATTTGTGAAAAAATTTGGCGTAACAGTTGAAATATAAGGCGTTGAGAGTGTATGATAAGCGTTATCAATTGCACTATTGCTCGTTCACTGCAAATTTAAGAGAGTTGTATACGTGTAAGTATTGAAAATACTAAGTTTATTTTGGG
+# Right flank :  TTTTTATAATTTTTTTTAAGGTGTTATTTTATGATTATATAGTTATATTAGCATACAAAAATATAATAAAATTACACTATATTATAAAAGTCAAAAGGTAATATAGAAATCTTATCACCTTTTTTATTATTAATTTTATCAGTGTTTTATTATAAATAGCTTACATAATTACACATTTTTTCTGATTAAATAATATGATGCTATTGTTATAATAGATACTAATGCTAATGATGTTATTGCAGTATCTAATCTTCTTATTAATAAACTCATTTCTATATATTCAAGTTCTATTAAATACTGATAAAATATTTCTAGTTTAACAGCTTTTTCTCTATCTATATTTCCATACTTTAACTCTAATTTATCTAAAGATTTTTTATTACAATAATTAACTTTATGTTTAATTAAATATCTTATTGTAGCACCTATTACAATTTTCACTCTAACAAATATAAATATAATATTCCATCCAAAAGTTAAGAGGGGATATCTTTTTTATG
+
+# Questionable array : NO	 Score: 8.92
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.92, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTATATGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 90% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [71.7-86.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [660,168] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.68,0.27   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 8 1935482-1936495 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+   1935482	    29	 100.0	    38	.............................	CTAGAATTAGAACTCATTATTAAAACCATTCTTGCAAG	
+   1935549	    29	 100.0	    37	.............................	TAATCTGACACATACAAAGTTGAACCTAGTGGTACGG 	
+   1935615	    29	 100.0	    37	.............................	AAAAGCGTTCTTAAATCGTTACTTAACTCTTGCAAAT 	
+   1935681	    29	 100.0	    36	.............................	TGGTATATCATACTCGTGCATTGCCTGCTCCACATT  	
+   1935746	    29	 100.0	    37	.............................	ATACAACCATATATTTACCAATTATGTACTTATGAAG 	
+   1935812	    29	 100.0	    36	.............................	TTTTTTAACTTTTCAGTTCTCACAGGCGTTTCATCT  	
+   1935877	    29	 100.0	    36	.............................	TTCATATTCCAAGCGTTTTGCTTACACTTAATAGAA  	
+   1935942	    29	 100.0	    38	.............................	AAAATTAAATTTCATGCTCTTAGACATACATATGCAAC	
+   1936009	    29	 100.0	    36	.............................	TAGATTGCTTTCAAATTACCTCTTGTATAGCGTCTT  	
+   1936074	    29	 100.0	    37	.............................	TTGCTCCGCTATGCCTTGCGCTCTCTAATATCGCTTA 	
+   1936140	    29	 100.0	    35	.............................	TGAACTTTAATCGGTTTTATACAACAATATAACGC   	
+   1936204	    29	 100.0	    37	.............................	TCACACATGAGCAATATCGAAACAGGCAAATCTACAG 	
+   1936270	    29	 100.0	    36	.............................	TTCGTAAAATAACAATTATCTGGAATATGAGAAGTT  	
+   1936335	    29	 100.0	    37	.............................	CACTCTTAAGTTGTGACCTATCTGATATATGATTAAA 	
+   1936401	    29	 100.0	    37	.............................	TCAATATCTATATTAAGTTTATTTTTAAAAACATCTT 	
+   1936467	    29	  96.6	     0	...............C.............	|                                     	
+==========	======	======	======	=============================	======================================	==================
+        16	    29	  99.8	    37	GTTTTATATTAACTATGTGGTATGTAAAT	                                      	       
+
+# Left flank :   CTATTATTATATATAACTGACATTTAAGTGACATTTAAGAAAAATATAATGCCTACTTACATAAAATGGAATGTTATTTAAAGAGAACTTTGATTATATTTTCAGAAGCTTTTTTATCCATATCGTTTAAAACAAGAAAATATCTATTCATAGTTATTTTTATATTAGTATGTCCTAATCTTTCAGAGATGATTTTTATATTAGTTCCAGCTAGAAGAAGAATTATTAGAATAGATAATATAGTAAGTATTTACAAATATGTAGGTGTTCTTAAATTGATAAATTATTCCATTTTAATTTTATAGTTTGAATTTTATGATATAATAAAAATATATAAATTTTGCAGTGAGCGATATTTTTGATAAAGTAGGGTTTAACAGTTGCAATGTAAGGGATTGAGGGTGTGTGATAAATGTTATCAATTGCACTACTCATGGTTCACTGCAAATTTGAGAGAGTTGTATGTGTGTAAGTACTGAAAATACTTAGTTTATTTTGGG
+# Right flank :  TTTGCAACAAGTATAGGTAAAATACCCCAATAATTTATACAGCATTTTATCCTTTAAAATATAATTATTTTTTAGCATTTGTAGTAAATAATTACCAGATAACATTGACTTTAGTTTTAATGATTAAAATATAAAAGTAGAATAATTATAAAAAGTATTGAAAAATTTATAAATATATATAATAAAACTTAATGACAAGATATTAGATATAAAAAATAATTACCTTATAAATAGATTGAAATTTATGAATATTCATACTATAATTTAAATATAAGGAGATGCCCTTTGAAAATAAAAATTAAAAAATATTTAATGCTACTACAATAGGAACTAGAACTACACTTAATAAATATACAGAAATTAGATTTGGCTCAATATAAAATACAAATATAGAATTTAGGTGTTTTTTATGAAAAAAATTTTATATGCTTTATATAGTTTCATTGTTATTATAGCTAATTTTAGATTAAAAGAAAAAAATTATAACTTTATTTTATTAG
+
+# Questionable array : NO	 Score: 8.86
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.87, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTATGTGGTATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.50,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-75.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [648,1235] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 9 2298770-2298609 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+   2298769	    29	 100.0	    37	.............................	TTACTAAACATCTTATAACTTCTCTGAGAGCCTCTAG	
+   2298703	    29	 100.0	    37	.............................	AGAGGCAACTAATTGCTTATGAGTCTGCTAGTCTTAA	
+   2298637	    29	  96.6	     0	............................A	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         3	    29	  98.9	    38	GTTTTATATCAACTATGTGGTATGTAAAG	                                     	       
+
+# Left flank :   TATGCTTTTAATAATATTCATAATACAATCACCTATAATTAAATTTTTATTAATTATATTCTAGCATCAAATATTGAATAAGTCATCTTCTTTAAAATACAATAAATAGTATTTTGCTCAAATTTTCAAATGCTTCTCTGTCCATCTCTTCTAAAAACTGAGAGTAGCTATTCATAGTTATTTTTATATCTGCATGACCTAATCTTTCTGAAATAGTTTTTATATTAGTTCCAGGAAGAAACATTAAAGTTGCATTATTATAGAATTTAAACATAATTAAATGTAAAAATTAATTGAAAATATTAATTATATGCTATGATATAATAAAAATATAGAAATTTTGCAGTGAGCGATATTTGTGATAAATTGAGGTTTAGCAGTTGAAATATAAGGTATTGAGAATATATGATAAGTATTATCAATTGCAATATTGCGCGTTCACTGCAATTTTAAGAGCATTGTATATGTGTAAACATTGGAGATGCTAAGTTTATTTTGGA
+# Right flank :  TTTTTATTACATTAAAAACAATTCTCCCAAAAACACAAATAATTGTCACAACACACAGTCCTCATATTTTACAAATTGATTCTAAAGAAGAAATGATTGTGTTAGATATGGCTGAAAGTGATAATGTATATAAAAAAGAGTTAAAACTTGGAGAATACGGGGTATTAGGCTGGACCAATGAAGGTTTATATTTACATTAAGAGCACTCTTTTTATAGGAGTGCTTATTTTTTTGAAATTCATTAGCATATAAACTATCAAGAACATTACTCAATATACCTTATTTACTTCACCAATGATTATCTTACATATATTAACAATAAAAAAAGACTCTAAAAAGAGTCTTTCCCGAAAAATCTATATATTATAATATAGTTATATTTTCTGCTTGAGGACCTCTAGCACCTTTAACTATATCAAAGCTTACTTGTTGACCTTCTTCTAATGATTTAAATCCTGAAGTTTGTATAGCTGAGAAATGAGCAAACACATCATCTCTAC
+
+# Questionable array : NO	 Score: 8.60
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.56, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATCAACTATGTGGTATGTAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.00%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [0.00,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [366,480] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 10 2663868-2662916 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+   2663867	    29	 100.0	    37	.............................	CTCCTTTCATTTCTCCTTTAGCTTCATAGCTTATTTT 	
+   2663801	    29	 100.0	    36	.............................	CTTTTTCCGAAAAACCATTACTTACAAAATCTACAA  	
+   2663736	    29	 100.0	    38	.............................	AACGTACAAAATGTAGCTATTATCATCTTTTAGATAGT	
+   2663669	    29	 100.0	    38	.............................	GAGGAGATTCAGACAGCGACTAAAAAGACTGATATAAA	
+   2663602	    29	 100.0	    37	.............................	AACTTTATATCTCCATTTGCATATCCATCTGATGAAC 	
+   2663536	    29	 100.0	    38	.............................	GCGTACAAGGTTGAGAAGCTCCGCAATCTCAACGTCGT	
+   2663469	    29	 100.0	    38	.............................	ATTTGAAAGGAATAAATTTTAAATGAATGAAAGGATAG	
+   2663402	    29	 100.0	    36	.............................	CAGCCAAAAACTTCGAATTTGAACTAAAATGCGTGG  	
+   2663337	    29	 100.0	    38	.............................	TCTCATGACTATTGAATAAATATAATAAACAAGCATAC	
+   2663270	    29	 100.0	    37	.............................	AAAAGTTGCACGCCTATTTGATTTTTCAATACATTAT 	
+   2663204	    29	 100.0	    36	.............................	GACAAAGCGACTATTACTATCTCAGGTGATAAAAAT  	
+   2663139	    29	 100.0	    36	.............................	GATGAACAATAAAACAATCATCTAAAGACGAAGAAA  	
+   2663074	    29	 100.0	    36	.............................	GTTCCTGTTGTGTTTTTTACTAATCCCATTTTATAT  	
+   2663009	    29	 100.0	    36	.............................	TGCTGTGATTTCACTAATAAAACAATTAATAATTGT  	
+   2662944	    29	  86.2	     0	................G....T.CA....	|                                     	
+==========	======	======	======	=============================	======================================	==================
+        15	    29	  99.1	    37	GTTTTAGATTAACTATATGGAATGTAAAT	                                      	       
+
+# Left flank :   AATAATGTAGATAATGTTGAAAATTTAGAATTCAATGAGTTTGAACTTAAAACCGAAGAAGAAGAGAAGCGAGAACAAGAGAAAATAGAACAAGAAAAAAACAGTTATAATAACTACATTCAAAACAGAGTGGTTGACCCACTAGATAGAATAAAGAAACTAAAAGAGTTGCTAGATTCAGGAGCAATTACACAGGAAGAATATAATAAAAAGAAAAAAGAATTATTAGAATAGATAATATAGTAAGCACTTACAAGTATGTAGGTGCTTTTAAATTTACAAAGTATTCCATTTTAATTTTATAGTTTAGATTTTATGATATAATAAAAATATAGAAGTTTTGCAGTGTGCGATATTTGTTACAAAGTAGGGCTTAATACTTGAAATCTAAGATGTTGAGGGTGCGTGATAAGTGTTATCAATTGCACTATTGCCCGCTCACTGCAATTTTAAGAGTATTGTATATATGTAGGTATTGGAAATGCTAAGTTTATTTTGGG
+# Right flank :  TAAATAAACAAAGAAAGCACTTACAAATATGTAGGTGCTTTTATTCTGCTCAAAATTGGTCGGTTGGGTAAAATCATTAGAAAAAATTAGTAAAAACCTCTTTTCTGTAACTCGTTACAATATTATTATTAATGTAACGAGTTACAGAAAAGAGGTGAATAAAATAGCAACTAAAAGTAGGGCAGAGTATATGAAAAATTGTCGAAAAGATAAAAGAGGTTTTAGTGTACTTTTAGACAAAGAAAAGTTAGATAAATTTGATGAAGTATTAGAGGAAAAGAATCTAACCAAGAAAGAATGGCTAGAAGAAAAAATCGACGAGGAACTGGAACAAAAGGAATAAAAAATAAGGGTCACTCCCACCGACCAAAGTTTGAGTAACCCCTATGATGTATACTATCGTATATCAATTATAATATATGTCATTCCTTAAAAAAATCAATTATTAAGGAGTGTAATATTATGAAAAATGAATTAATGATGTTTGAAGGAAAAGAGAT
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.82, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGATTAACTATATGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [464,267] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 11 2907890-2907464 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+   2907889	    29	 100.0	    36	.............................	AAAGGTGTCCATTGATTTCTTTCAGTTTCGGGAATA   	
+   2907824	    29	 100.0	    37	.............................	TGTTTTCCATAAACATTTCTAATTGACTTTTATTGTT  	
+   2907758	    29	 100.0	    37	.............................	TATCCTTGTATTTGCCTAACGCGATATAGAGCAAAAA  	
+   2907692	    29	 100.0	    36	.............................	GCTATAGAAGTAGCAGACTTAGGAACATCAGAAAAA   	
+   2907627	    29	 100.0	    38	.............................	TTGTTTAGGTCAAGTCTAATTTGACGTATTAAAGTATA 	
+   2907560	    29	 100.0	    39	.............................	CGTATTAACACCTGTTCGGCACTATCACAATAAACACAA	
+   2907492	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         7	    29	 100.0	    37	GTTTTATATTAACTATATGGAATGTAAAT	                                       	       
+
+# Left flank :   GGAGTTCATGTATCAAAAAATTATCCTCCCGACGTTAAGAAGGGAGGTGAATATACATGGATAATTTTTTACAAGGCATACTAGCAAGTCTATCTGCTAGCTTAATAGTTTATATAGCTAGCAAACTATTTAGAAAGCGTAAAAAACCACTCAAAGCGGCAACTAAGAGTGGTTGGGAATTTGATTTAAAAATCAGATTCCATAAAACTAAGTAATTTCTAAATTATGAACTCCACTCTACAGCAAAATAGATTGTAGTTCTTCTTGCTTTTATTATATCACAAATTGGTACAGATATTCAAAAATAATATTTTTATGATATAATAAAGTCATAGAAATTTTGCAGTGTTCGATTTTTTGAAGAAATTAAGGCTTAACAGTTGAAATATAAGGCATTGAGGACTTGTGATAAGTGTTATCAATTGCACTACTCATGGTTCACTGCAAATTTGAGAGATTTGTATATGTGTAGGCATTGGAAATACTCAATTTATTTTGGG
+# Right flank :  TGTATCCAAAAAATTACAATAATCATACGAACTGCTAATATAAGCAGTCAATATATGTGTACATTTATCCATTTTATCTCTAAACATATAAATTATTATCCCCTTAAAAAACTTTCATAAAAACAAAAAGAACAATATCTCTTTGGCAACTGGCTGACATAACTCATAAGATATTTATATAAGTCTTAGTCCCTATAGCTTTGCGTCACTAGATTTCTCTAGTTTTGCCGATTTAGTTTTATTCTATAACTAAATAATACAATAGAATTAGTTATTATTCAACAAGATTGTTTGAAAATTGAATAAATTTATAGGTATGAACGTAATTTCACACTTAAAAAACAGACTAAATACGTAGAATATATAGAAAAATTTACCTGTAGTTTTTGTGATAAAAAGCTCCTATTATTAATTTAAGTAGATAAGTTTGAGGAAGTGACATAAATTGAAAGAAGCAATATATTATGTTGAATAAAAAATTACCAGATGCAGAATTAAAA
+
+# Questionable array : NO	 Score: 8.87
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.87, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTATATGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 90% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [466,286] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 12 3304071-3303745 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                                        	Insertion/Deletion
+==========	======	======	======	=======================	=======================================================	==================
+   3304070	    23	  91.3	    16	C..............C.......	AATACAGATGAACCAA                                       	Deletion [3304032]
+   3304031	    23	 100.0	    55	.......................	AGCACAGATAAACCAAGGAAACCATCAAGTTCATCTGATACAGAGGATACTATAG	
+   3303953	    23	  91.3	    34	.TA....................	TCAGAAGATATAATAAATCCGCCAATACCAGAGG                     	
+   3303896	    23	  87.0	    52	..T.G.....T............	TCAGAAGAGATGATAGAAACTCCTGTTAAACAGATTATTCCAATACCAGAAG   	
+   3303821	    23	  73.9	    31	.......G...T....GT..GA.	GAAAAAAATAATAAAGTTAAAGATGATACTT                        	
+   3303767	    23	  95.7	     0	.G.....................	|                                                      	
+==========	======	======	======	=======================	=======================================================	==================
+         6	    23	  89.9	    38	TAGTAAATCCACCAGTACCACCA	                                                       	       
+
+# Left flank :   TGAACTTAAAAAAGAAGCTGGAGATGGAAAAAATACAATAAGATTAGTAAATAAATACGAATTTAAACAGATAAAAGAAGGGGAACCTGTGCAAAGTTGGGTTACATTTGATGCAAACTTCACAAATGTAAAAGTTGGGGAGACTATACGAAATGTGGCTCAGATTAATGGTTCAAGTCCTCCAGGAGTAGAGACTACTAAGCAAGGTTATGCTTTTGAAGCTAAAAAAGTGGATGCTTTAGATAAAAATGTACTTTCAGGTGCTAAGTTCAATTTAGAAGATGCATTTGGAAATATAGTAGTTAAGGATTTAGTCAGTGATGAAGATGGTATAATTCAATCTAGTGTAAAAAACCCAGGAACATATTATTTAGTGGAGATAATGGCTCCACGTGGATATGAAAAACTGAAGGATAAAATTAAGGTTGAAATTGGTAATAAAGATATTGGTAGAATAGTGGATATTGGAAATATAGAAAACATAAGACAAGAAAATCCAC
+# Right flank :  AAAACAGGGGATAGTACTACAATTATTGGAGAAATACTTTTAGTTATAGGAGCTATTGTAGGACTTATCGTATTAAGAAGAAATAAAAATACAAATTAGACCCTAACATTATAAAAAATATAAGTTATATTAAAAAATATCTTCTAAAACAATATTTAATAATGAAAATATTGTTAGAAGATATTTTTTTTTGAAGATTTATGTAAAAAAATAATAACTTTTTAGAAAAAAGTTCCAAAGGGATATAGACAATTAAAAAGATATAAGCTATAATATAGATATAAAATTAAATGAGGCAAAACTAGGGAAACCTAGTCACGCAAAGCTATAGGGGCTAAAGTTTAGTAAACCATGCCAGCCAGTTGCCGAAAAGAGTAAAAATTTCTTTTTGTATATACAAAGATACTCTTGGGTATCTTTTTTATTTTGAAATTTATTACTCCCGGCCTAACTCAAAGGAGGGAATAATATGAGACCAAGTAAAAAATTATTAATAGCTA
+
+# Questionable array : YES	 Score: 1.01
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.50, 5:-1.5, 6:0.25, 7:-0.45, 8:0.8, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TAGTAAATCCACCAGTACCACCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [7-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [471,2824] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.59   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 13 3397618-3396821 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                 	Insertion/Deletion
+==========	======	======	======	=============================	================================================================================================================================================	==================
+   3397617	    29	 100.0	    37	.............................	GTAGAGTCTTTATATGGTAGAGGTGGAATATATAAGT                                                                                                           	
+   3397551	    29	 100.0	    38	.............................	AACTCTTCAATATCTCCTAATCGTTCAATATAATTCTC                                                                                                          	
+   3397484	    29	 100.0	    37	.............................	ACTGTATGCCATCTAAATGCATCATACAAACTTATTT                                                                                                           	
+   3397418	    29	 100.0	    37	.............................	TATACTTCCTAATGCAATCAAATAAGTACCTAAAATC                                                                                                           	
+   3397352	    29	 100.0	    37	.............................	TTCGCAACTTATGATGGTGAAATGATTACATTAACAG                                                                                                           	
+   3397286	    29	  89.7	    37	......T.........G...T........	AATATAACAAAGTGGATGTTCTCTAAAAATAAAGAGG                                                                                                           	
+   3397220	    29	  93.1	   144	................G...T........	GATAAATTTTATAGATTTGTAAGTTTAGTGAAAGAAGAATGTAGGAAAAAAGAAAAGAAAGAGAATAAATAATATAGATAAAGCACTTGGATATTGTATAGTTTCAAGTGCTTTGTCTGTTAAAAAATGGTATAATAGAGATAA	
+   3397047	    29	  75.9	    37	.AG...T........AG...T.......G	GTTTGAGAACGCTGTATAAAGCTTGTAGCTAGTTCTT                                                                                                           	
+   3396981	    29	  82.8	    37	......T........AG...T.......G	GTTGCATCATTAAATATTTTCCCTACAAACTCTTTTC                                                                                                           	
+   3396915	    29	  86.2	    37	A.....T.........G...T........	AGTACATACAAAGAGTCTATAAAATTATCTATAAAGG                                                                                                           	
+   3396849	    29	  82.8	     0	......T.........G....C.TA....	|                                                                                                                                               	
+==========	======	======	======	=============================	================================================================================================================================================	==================
+        11	    29	  91.9	    48	GTTTTAGATTAACTATATGGAATGTAAAT	                                                                                                                                                	       
+
+# Left flank :   TATATGTTATAATAATTGTAGCAAGGATAATAATCGAAAGTGCGAAGGGTGATTATTTTCATATTAAACGCCAAATTCCAAATAAGGAAGGAGGTGAAATTATATGATAGGTTTTTTATTAAGCATACTAGCTGGTGTTATATCAGCTTATATTTATGACAAAATAAAAAATCACCCAGACGCCAATAAGGGTGATTTAAAAAAATAATTCTTTAAATCAATTTTGATGGAAATAGCTACTCTTGTATAAAGTAAATTATTTCCTTGCTTTTATTATACCACAAATTGGTACAGATATTCAAAAATAATATTTTTATGATATAATAAAAATGTAGAGATTTTGCAGTGAGCAATATTTGCGATAAATTGAAGTTTAACAATTGGAATACAAGGTATTGAGGGTGTGTGATAAATGTTATCAATTGCACTACTCATGGTTCACTGCAAATTTGAGAGAGGTGTGTATGTGTAGATATTGGAAATACTAAGTTTATTTTGGG
+# Right flank :  TAAAAATAATTCAAAAACACTTACAAATGAGTAAGTGTTTTTTTAATGAAAGGAGGTGATAATAATGTAAAAATTTTACTAATATAGTATAATATTGTTAAAGAATATAATTTAGGGGGATATTATATTATGAAGAAAAAAGTATGTTTTTTATTTTCTATTCTTATAGTTATCTGTTTAGCTATTGTAGGATGTTCTAATTCAGAAAGTCCAGAGGAGAGTAGTAAAAATAATGAACCAAAAAAAGAAGAAAAAAAGGATAAAGAAGTAGTCATAGGAGAGAAAATTATTTCAGATAAAATGGAAATCACTATTAATAATATTGAATTCTCTTATGATGTTTTACCAAAGGTTAAGGAAAGTTTATATACACATTATCCTGCTGAGTCAGGCAAAGTATATATTGATATTGCTGCTGATATAAAAAATACTCAAAAACAAGAGTTAAATTGTTCAGATTTACTAACTATTGAAGCAAATTATAATGATGGGTATAAATA
+
+# Questionable array : NO	 Score: 7.07
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.60, 5:0, 6:1, 7:-0.32, 8:1, 9:0.79,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGATTAACTATATGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [21-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [131,738] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.59   Confidence: MEDIUM] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : NA
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+
+Array 14 3456759-3455483 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009089-Clostridioides difficile 630, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+   3456758	    29	 100.0	    37	.............................	TTAGCTTCATAGCTTATTTTCTTTATTACTTCAATTT 	
+   3456692	    29	 100.0	    37	.............................	AAGGTTTGACCTGCGTTTTTATATGCATCTGAATAAC 	
+   3456626	    29	 100.0	    37	.............................	CGAGTTGGCATCCAAGCATTTTTCACAGATTTTAATA 	
+   3456560	    29	 100.0	    37	.............................	ACGATATTTTTATATTCTATTGTTGTTATCTTATTCT 	
+   3456494	    29	 100.0	    37	.............................	AGGTATACACCTTCTACTCTTGTAAGAGTACCATAAG 	
+   3456428	    29	 100.0	    36	.............................	TCAAAATTATTTAGTTATACTAAACATTATATTATA  	
+   3456363	    29	 100.0	    38	.............................	TGAAACAAAATGCTGATGCAAGAAAAGAAAGTATCCGT	
+   3456296	    29	 100.0	    36	.............................	CGAATTTCATGGCTTTGAATTTATTTATATGTAGTT  	
+   3456231	    29	 100.0	    37	.............................	CCAATTAAGTTACTAGATAAAAAAATAGAACAAATTA 	
+   3456165	    29	 100.0	    37	.............................	ACAAAAAAACGTATAATAAAAATAATTTCTATCTCTG 	
+   3456099	    29	 100.0	    36	.............................	CATATTCTTCATTTATCCCTATTCTATCTAATATTT  	
+   3456034	    29	 100.0	    37	.............................	TTTAAAAGGTCAACTTAAAGGTAGTAATTTTTTAATA 	
+   3455968	    29	 100.0	    37	.............................	TATCAAAAAATCCCCTCACCTGCATACTTATATAAAT 	
+   3455902	    29	 100.0	    37	.............................	CAAAGTGCTAGGTCACTAAATGATGCAACAGTAGACG 	
+   3455836	    29	 100.0	    36	.............................	CCTGTATTCTGTTTAATGCTTCAATAGCTCTTTCTT  	
+   3455771	    29	 100.0	    36	.............................	TATCTAAAACCCAATAGGATTGACACGTTACGACCG  	
+   3455706	    29	 100.0	    37	.............................	AGGATAAAGAAAAGACTCACACAAGACACAGTGTCAG 	
+   3455640	    29	  86.2	    36	.........C............GA...G.	AGAATATTAGCAATATCAACGAGTATTTAGAAACTT  	
+   3455575	    29	  75.9	    35	A...........TA...CA....A....A	TTGTAGAATCAACAATAGCATATACTAAAACATCC   	
+   3455511	    29	  75.9	     0	ACC.............A.CA...C.....	|                                     	
+==========	======	======	======	=============================	======================================	==================
+        20	    29	  96.9	    37	GTTTTATATTAACTAAGTGGTATGTAAAT	                                      	       
+
+# Left flank :   CATTTTATAAATGATGAAAGGTACAAAGTTTTAAAGGTGTGGTGGTAAGTATGTTTGTTATTGTTACTTATGATATTGTTGAAGCAAGGTCGTTAAATAGAATTAGAAGGATACTTAGAAAATATTTGACTTGGACGCAAAATTCTGTTTTTGAAGGCAATATTACTGAAGGAAAGTTACATAAATGTATTTCTGAAATAGAAAATATTATTGATAATAGCGAGGATTCAATCTATGTTTATGAGATAAAAAATCCTAATTCAATTAAAAAGAAATGTTATGGGATTGATAAGTATTCTGATGAAATGTTTATATAGGTTTGCAGTGAGCGATATTTATGCTAAAATAGGTGTTAACAGTTGGAATATAAGGGATTGAAGGTGTATGATAACTGTTATCAATTGCACTACTGCTCGCTCACTGCAAATTTTGATGTTTTTATTGAATTATAATTGCTTGATTGAAGTGTTTTCAATGTATTCAAATATACCTATTTTGGG
+# Right flank :  AAAATACACTTACCTACAAACATTATAAAATCAATACAAAAATGAGGTGAAACAAAATTTATGATAAAGAAATTAAACAGTAAAGATATAAATAAAATCATGGAAATATGGGAAAAAAGTACAATCAAAGCACATGACTTTATAAGTAAAGAATACTGGCAAAATAACTACAATACTGTTAAAAACGAATATATACCTATATCAGATACATTTGTATATGATGATGGAGATGAAATAAAAGGATTTATAAGCATAATAGATAAAAGATTTATAGGAGCTTTATTTATAAAGCCCAAATACCAAAATCTAGGTATCGGAGGTAAACTTTTAGATTATGCAACTAAAAAGTATAAAAGTCTAAGCTTAGCAGTATATAAAGATAATAAAAAAGCAGTTGTGTTTTATAATAAAAAAGGTTTTAATATAGTAAAAGAACAAGTAAATGAAGATTCAGGATTTAAAGAGTACATAATGGAATATAGTAAATAATATGATTACAT
+
+# Questionable array : NO	 Score: 8.73
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.88, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTAAGTGGTATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [18-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-75.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [62,184] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.09   Confidence: HIGH] 
+
+# Identified Cas genes:  ATP dependent helicase Unclassified_Cas_protein:YP_001088965 [2825848-2828256]; Autoregulator Cas7:YP_001089498 [3461795-3462709]; Cas3 helicase:YP_001089496 [3458760-3461081]; Cas4:YP_001089495 [3458194-3458712]; Cas5:YP_001089497 [3461092-3461793]; Cas6:YP_001089500 [3464594-3465331]; Endonuclease Cas1:YP_001089494 [3457211-3458191]; Endoribonuclease Cas2:YP_001089493 [3456942-3457208]; Negative autoregulator Unclassified_Cas_protein:YP_001088967 [2829096-2830112]; Unclassified_Cas_protein:YP_001089499 [3462711-3464588]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : 630
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile 630
+//
+
+

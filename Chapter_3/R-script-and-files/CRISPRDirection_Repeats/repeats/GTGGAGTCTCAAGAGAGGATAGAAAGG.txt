@@ -1,0 +1,442 @@
+Array 1 89370-89012 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	==========================	==============================================	==================
+     89369	    26	 100.0	    46	..........................	CTAACAAGGTAATGTAGTACCAGGTGAGTCTCTCGCTTGTAGAACC	
+     89297	    26	 100.0	    38	..........................	ATGATCTCGGCTCCCACGCTCATCGCGAATACCTTTTT        	
+     89233	    26	 100.0	    36	..........................	TCGACCACGTCTACGAGGACGTGAGGGAGGTGCAGA          	
+     89171	    26	 100.0	    42	..........................	GGTTCGTGTGGCACACACAACGCGCCCCAGTATTGGTACAGC    	
+     89103	    26	 100.0	    40	..........................	GCTGCCACGCCTCCTCTCATCGATCGACCGGGTGGTACCT      	
+     89037	    26	  88.5	     0	............A.......GA....	|                                             	
+==========	======	======	======	==========================	==============================================	==================
+         6	    26	  98.1	    41	GTGGAGTCTCAAGAGAGGATAGAAAG	                                              	       
+
+# Left flank :   GTCAACTATCATCTTGTCCATTCCTCTGGGACCCAAGCTGGTCTTCAACGCTTCGGCAATTATCCTAGCGGCTAGTATGTTGCTCCTCAGAGCCTCCCTGCCGTAGGTCCTGGTGGCGCCCTCCTTGAGTATCAGAACCGGTACACCGGCCGCCATCGCGCTCACCCACCGTGGGGTGTGGTGGAACCGGTTCTATATAAGTTTTTCGCCACCATGCTGGCCCCTTAGCCTCTCAGCATTACAAATCGCCAAACTTTTGTATTTAATCATTGCCTCTTTCACCTTCACTCACATGGGAACATCCTATGTTCGAGAGCGCACCATTACTATTCACTCTCTCAGACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCATGAAGGGAAGGGGAGAGGAAATTTTTCTCGAATAAAGGGAAAAGCTTGGGGAATTGTAAACTCTCGGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGGGCTTTATATGGAAGGGCTCG
+# Right flank :  TCCTCATCGCTCAAGGCGTTTCCGTTGGACCAGAACTAAGTACGCTTTTTACCTATCCACTTTAAACTCCGAGAACTAATTCATGATTTCGGCGAATCCTATGTTAGGCGAAAACCCCCTCAAGATCCCTAAAGATAGAAAGTTTAAGAAGGTAGAAGTGGCCCAAGCCCTTCGCTGGGGAATCATAGCCGAGCTAGACGCGATAAACTTCTACGAACAACTGGCGGAAGCTATCGAAGACGAACGCGTAAAGAAAGTTTTCCTCAACGTAGCGCGTGAGGAAAAGGAACACGTAGGCGAGTTCCTCGCGATGTTGCTGGAGTACGACGAAGAGCTTAAGGAGATGATCGCCAAAGGGTACAAAGAAGTAGAAGAGGAAGTAGGCGTCGTGCCCAAGAGCATCCCGTAAGAGACAAACCCATTAAGGCTGCTTCCGAAGCGCACGCGGGCCTAAGCGTTGAAGACTAAACCTAACGTAAGGTACTTGCTAATGTCCGTCT
+
+# Questionable array : NO	 Score: 7.61
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.90, 5:0, 6:0.25, 7:0.46, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAGAGAGGATAGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,-2.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [102,345] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 2 261008-260379 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	==========================	===========================================	==================
+    261007	    26	 100.0	    43	..........................	ACGAGGTAGTCGAGTAGCCTCGCGAGCTTTACTATATATTCAT	
+    260938	    26	 100.0	    42	..........................	ATTGTTTGCTCAGTCGAAACATAAATCACTTTCCTATCGTTC 	
+    260870	    26	 100.0	    41	..........................	CCTGCCAAGCACGGCACTCCCCTTGCCAAGCTCTCCAGGCA  	
+    260803	    26	 100.0	    40	..........................	GATCATCGGGGCGACCTCTCCGGGGTTATCGTCGGCTGCC   	
+    260737	    26	  92.3	    41	.C..........G.............	CCCAACCACTTCCTGAGCAGTTCCTCTTGGCGAGGGGTGGG  	
+    260670	    26	  92.3	    41	.C..........G.............	ACGCCCGCCAGCGCCCCTAGCTCCGCGTACTTCTTGCCTCT  	
+    260603	    26	  96.2	    42	............G.............	ATCGGCCTTCCCTCTTTCAGGGCCCTGAATAGATCCCAGGCC 	
+    260535	    26	  96.2	    37	............G.............	GTGACTAAGCGGTGGCACAATTATGCAGGAGATATTG      	
+    260472	    26	  96.2	    42	..A.......................	ACGTCTTTATTTCCAATCTCTTGGGATCGAACTGGTAGTACA 	
+    260404	    26	  88.5	     0	..A.........G.......G.....	|                                          	
+==========	======	======	======	==========================	===========================================	==================
+        10	    26	  96.2	    41	GTGGAGTCTCAAAAGAGGATAGAAAG	                                           	       
+
+# Left flank :   TCCACGCGAAGTGGATGCTGAAGACCGTCTTCCCCGTGCCGGGCTCCCCGACGACCGCCACCAAGAAGCCCTTGGGTATCCCGCCGGCTATCAGGTCGTCGAAGCCCTCCACGCCGGTTCTGAGCCTCACTTTCGTCACCGCTTCAGCTACATAGCTTGACCCCCGTTTTAAGTTCAGGGCGATGAGCGCCACTCCCCGGCCGGAGCGGTGACGACGAATTCCGTAAGCGAGCCCGCATAACTCATTACCAAACTTTTATATTTGTTAATTTCCTTTTTCATATTTGCCCACATGGGAACATCCTATATTCGAAAGCGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCGTGGAGGGAAGGGCAGAGGAAAAATTTCTCGAATAAAGGGAAAAACGTGGAGAATTGTAAACTCGCAGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGAGCTTTATATGGAAGGCTTCG
+# Right flank :  AAAGACCACGTTCCATTTCCATCCGGTGAACTTCCTCATATAGAATTCATTGAGGCGCGAAGAACAAAGATAATGCTCCAAAACGAAATACAAGAGCGAAGAGCTTATACTCCTCCAACATTGTGATGATCGACACAAAATTCTTCATGGGGAAGCGACCTCGAGTTCTGTTGTATAACCCCTACAGCCCCAATTGCGCTCCCAAAACCCAAGCGCCCACGGATTAGGGGTTCGAGCGGCGAAGGGCTCCGCGCTAAGGAGCTTATCACGCTCGAGGCCTTCTGAACCTTACGGTAGGGGAGCGTGAAGGTCGCGGTCGCCGCTTGTGGTTGCGAGGGACCGGGGAGCCTCGCTGAGTCCCTAGCCTCCAAGGCGGCCGAGCTCGGCGCGGAGCTCATGTTGGGCGGTTGTTGGGGACTCATGGGCAAGGTGGTGGACGAGGCCGCTAAGAGGGGAGTTAAGGTTTACATCTTCTTGCCCATAGGCTACCAGTGCCCGGC
+
+# Questionable array : NO	 Score: 6.98
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.81, 5:0, 6:0.25, 7:0.23, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAAAGAGGATAGAAAG
+# Alternate repeat :   GCGGAGTCTCAAGAGAGGATAGAAAG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:57.69%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,-2.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [305,371] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 3 290618-290976 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	==========================	==============================================	==================
+    290618	    26	 100.0	    38	..........................	GCTCATCTTCGTGATTTGACAAACTATGGTCAAGTCGA        	
+    290682	    26	  92.3	    43	..A.........A.............	TTCTCTAGCTTTACGATGTTTGAGAAGCTGAGGTAGTTGTCGT   	
+    290751	    26	  96.2	    39	............A.............	GCATTAATTTCTATGTAATATTCCTCGTTATTCTCCTTG       	
+    290816	    26	  96.2	    37	......A...................	AACAACATCACCTTAAGCAACTTGTCTATATCATCCT         	
+    290879	    26	 100.0	    46	..........................	TTAGTAATTATTGTGACACTCTTTGTTTCAGGGTCTTTTATGAAGA	
+    290951	    26	  92.3	     0	..A.........A.............	|                                             	
+==========	======	======	======	==========================	==============================================	==================
+         6	    26	  96.2	    41	GTGGAGTCTCAAGAGAGGATAGAAAG	                                              	       
+
+# Left flank :   CCTTCTCAGCCTTGGTGCGCAAGCTGATAGACGGCACCTCCAACAAGTCCTTGGGCACCCTGTAGCCTAGGGCCTTCAGGGCCAAGGCTGCCTCGAGCTTGTAGGTTACCCCCAATACCTTGTCTATCAAGTCGTTGGGCTGTTGATCGCTGAGGGCGTGGGGCGGTCCTTCTGGCCCGCGCGACGTAAGCCTTTGTATGGCAGGCGCGTCGGTACTCTTACACGACCTTCTTCCAATATTACAAATCACCAAACCTTTGTATTTACTCATTTCCTTTTCATCTTTGCCCACATGGGAACATCCTATATTCGAAAACGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCGTGGAGGGAAGGGCAGAGGAAAAATTTCTTGAATAAAGGGAAAAGTTTGGGGAATTGTAAACTCGCAGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGGGCCTTATATGGAAGGCTTCG
+# Right flank :  GCCTTCACGGAGGGCCATTCGAGCAACGGGAGGAACGGGGTCAAGAGGAAGCAGAGAACTTGAGGGTCTTCAAGAAGCGCGTGTAGACCGGCGAGGGCTGCAACGGCCTGCTCTTGAACTCGGGGTGGTACTGGACCCCCCAGAACTCTTGGCCCTCCAGCTCCACCCCCTCCGGCACTCCCTCGCTCCACGCCGATACCCTTAGTCCCGCCTCCTCTAACTTGTCCAAGTACTTTGGGTTAACGTCGTACCTATGTCTATGCCTTTCTTTAACCAACGTCTTCTTGTAGGCCTCCCAGAGCTTGGTCCCTTTCATTATTATTACTGGCTTCGCTCCCAACCTCATGGTGCCGCCCAAGTACTTCAGCTTCCTCTGTTCGTCCAGCAAGGCCACTACGGGGTGGGGGGTGTTGGGGTCTACCTCCTCGCTGTTCGCGCCCTCCAGGCCGGCCAAGTGCCTAGCTACCTCAACCACCATCATCTGCATCCCGAAGCATATT
+
+# Questionable array : NO	 Score: 7.17
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.81, 5:0, 6:0.25, 7:0.42, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAGAGAGGATAGAAAG
+# Alternate repeat :   GTAGAGTCTCAAAAGAGGATAGAAAG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.20,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [372,40] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 4 414304-413553 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	==========================	============================================	==================
+    414303	    26	 100.0	    43	..........................	TAACACCAGAAATCCCATGTCGGTCTCAGTATTATCTTTCCAT 	
+    414234	    26	 100.0	    42	..........................	AGTACGATATCAAGAGTTCAGCTAACCCGAGAACCCCCTTCA  	
+    414166	    26	 100.0	    36	..........................	TGTCATCAAAGGGAATGGAAGTTTAACATCGAAGGC        	
+    414104	    26	 100.0	    42	..........................	TTACCATCTTCGCTTCTTATGACCACTCCTCCTCCGCATGCG  	
+    414036	    26	  96.2	    37	...G......................	TACGCGCGATACTGAACTTCGTCAACGTCGAGAAGCT       	
+    413973	    26	  96.2	    35	...G......................	TGCACTAGCGAGAACGCCTCCTGCGGTATGATGAA         	
+    413912	    26	  88.5	    41	...G........A.......A.....	CTCAGCAGCTCCTCAAGTTCCTCAGGAGAGTAGACCCTGCC   	
+    413845	    26	  88.5	    40	...G........A.......A.....	AGAACTTCTTGTAAGGCTCTTTTTATTTGTTCTAGGGTTT    	
+    413779	    26	  84.6	    41	...G........A....G..A.....	GTCATATCGTCGCAGTGGAATATGTATATTTTTGTACATCT   	
+    413712	    26	  80.8	    44	...G........A...AG..A.....	TAGATTCCATTCACTTCGGCCGGGAGGATCGCTGGCCCCTCTAT	
+    413642	    26	  80.8	    38	...GG.......A....G..A.....	CTGCCATCGCCGTCACGTTACGTACTCTTTTTTCACCC      	
+    413578	    26	  80.8	     0	...G........A....G..A.G...	|                                           	
+==========	======	======	======	==========================	============================================	==================
+        12	    26	  91.4	    40	GTGAAGTCTCAAGAGAGAATGGAAAG	                                            	       
+
+# Left flank :   GACCGGGGGAGAGGACTATCGCGGAGGGCCTCAACCTCTCAGCCGCCGAGGGCGAGAGCTCCTCCTGGCGCAAGGTGGCCACGGCGAAACCCTCTTCCATTATTATCTGTTCTACGTTGTGCACGAAGCTGTCCCTGTGGTCTACCAAGAGGACTGGCCTCAACGCGCGTTTCCTCCCGGACGGCTTCGGGGGCCCTTAACTCTGGCGCGACCGTTCTTGGCGGTTCAACAGAAGTATTATACAATTGTGAGCTCGAACTAAATAATCAAGGCTCTTTCCACCTTCACCCACATGGGAACATCCTATATTCGAAAGCGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGATGATCATGGAGGGAAGGGCAGAGGAAAAATTTCTCGAATAAAGGGAAAAATCAGAGGAATTGTGAACTCGGGGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGGGCTTTATATGGAAGGCTTCG
+# Right flank :  AAAAGGAGAGACGACAAGGGCTTCAAGCTCTCCCTCTGAAGTTCCTCCCGGTGCGCGCTGTGGAGTGGTTGAACAAGATCGTCGACGAGATAATAAAGAAAAGGGGCGGTAGGGCCTTCGTAGTGGCGTCGGGGCTCACCACCTCCGGACCGGCCCACTTGGGGACCTTGAGCGAGTTCATCTACCCCTACTCCATAGTCCAAGAGCTCCGCCGGAGGGGCTACGACGCCGAGTTCGTCTTCGTGGCGGACATAATGGACGCTTTCGACGACATCCCCCAAACTCTGAAGGACAAGGAAGAGGAGCTGAAAAAGCACTTGGGCAAGCCCTTGGCGGAGGTGCCGGACCCCTACGGGTGTCACGAGAGCTACGGCGAGCACTTCCTCGCGGAGTTCTTGGAACTCATGGACAAGTTCGGCATAAAGCCGGACGAGGTGTTGAGGGCGAGCGAGCTCTATGCCCAAGGCTGGTACGACGACTACTTGAGGCTCTTCGTGGAG
+
+# Questionable array : NO	 Score: 6.74
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.57, 5:0, 6:0.25, 7:0.38, 8:1, 9:0.54,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGAAGTCTCAAGAGAGAATGGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:57.69%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.60,-3.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [19-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [41.7-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [61,338] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.86   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 5 557650-557086 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	==========================	==============================================	==================
+    557649	    26	  96.2	    42	.....C....................	CCATGATCAGCTTTAACTACTAGGCATTTTAGTTCACCTCCG    	
+    557581	    26	 100.0	    40	..........................	GCCACGAACGCTGGTATCGCTTCCACAAGCTTGTTCTTCT      	
+    557515	    26	  92.3	    36	.....C.....A..............	GGTGTTCTTTCCTTCTTGGTTGAAACGCGAACTGGA          	
+    557453	    26	 100.0	    38	..........................	GATCGTGCTCTTCTAATTAGAAGAACTTGACTAGGCAT        	
+    557389	    26	  88.5	    46	........C....T........T...	GGGTGTTGGAGATGGAAGAGAGGAAGGTGCGCCTCTACACCGAATG	
+    557317	    26	  92.3	    41	........C....T............	CTCAAGCTGCCTATCGCCATCCACCCCTTCTTCTACAACGC     	
+    557250	    26	  92.3	    44	........C..............T..	AGGTTAATGTAGTTGAATAGGACCAACCCGTACCACTTACTCTT  	
+    557180	    26	  92.3	    43	........C..............T..	AGGAGGAGAAGGTAGAAGGGCTGCCGGTAGGGGAGGAGAAGGA   	
+    557111	    26	  92.3	     0	........C....T............	|                                             	
+==========	======	======	======	==========================	==============================================	==================
+         9	    26	  94.0	    41	CTTTCTATTCTCTCTTGAGACTCCAC	                                              	       
+
+# Left flank :   TCTATTGGCGCTACGCCCTTGTTTACCTTCTCCACCTTCTTCTCGTCTATATCGATCCCCACGACTTCGAAGCCCTTGGAAGCTAGGGCGGTCGCCAAGGGTAGGCCGACGTAACCGAGACCAACGACGGCTATCCTCAAGCTCAGCGGCCTCCGGTAAGGGTTAGGAGGGGGAGGTAAAGTTGTAGGAGCCCTTGGCCGCCGTGTGGCGGGCCCGCCGGGATTTGAACCCGGGACTTCCGCGGCGGGAAACGGGCCAAGCCCCGCCTCTACGGGTTAAGAGCCCGCCGCTCTACCAGGCTGAGCTACGGGCCCGCTCCGTGGGCTTGGGGACCGGTGGGGGTTAATAAAATTTTAGCACACGTCTCGCACTTTCCTCAAGGCTTGTGGAATCTGAGGGCGAGTTCCTTATCGGGCCTTGGGAGCCTTTGTGTAGCTTGCTTTTTGTAAGCTTTATTAGGACCTTGAGTTGCGTTTCCTATTACCTTTTGAGAGAATTAT
+# Right flank :  CGAGACCTTCCATATAAAGCTCCAAGGTCTTTCCCTTAAAAGAATTGCGTTCTACCCCAAACTTACAATTCCCCAAGCTTTTCCCTTTATTCAAGAAATTTTTCCTCTGGCCTTCTCTCCATGATCTTCAGCGTTCCCATGAAAAGATATAAGGGGGTCTGAGAGAGTGAATAGTAATGGTGCGCTTTCGAACATAGGATGTTCCCATGTGGGTGAATGTGGAAAGAGAAATGAGTAAATACAAAAGTTTGGTGATTTGTAATGCTAAGAGGCTAAGGAATCAACGTTACTCTGTATCTGAGAGTTAGTTTTGCGCGAAGGTGGAGAGCGTCGCCCGTCGAGAGCGTTAAGTAGCGCTTCACTGGGCGAAGAGTGAGAGCTTTGTAGTAATACAGAGAAGGAAGACAAGTTGATATTGAATGCTCTTAGAGCTTGGGGTAACCACGAGCCCAATCTTAGAGCTACGTAGTCGAACTTATGAAGGAACCTATGAATCGCTG
+
+# Questionable array : NO	 Score: 6.67
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.70, 5:0, 6:0.25, 7:0.31, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTCTATTCTCTCTTGAGACTCCAC
+# Alternate repeat :   CTTTCTATCCTCTTTTGAGACTCCAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:57.69%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.10,-3.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [56.7-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [726,361] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 6 915468-915892 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	==========================	===========================================	==================
+    915468	    26	 100.0	    41	..........................	GTACTAATGCCGTATTACCAAATCTAAACGATAGGCGAGAT  	
+    915535	    26	 100.0	    38	..........................	TGTACTTGTGCTACTGATGAAGAAGATGGGGTGAGAGC     	
+    915599	    26	 100.0	    43	..........................	AACAGGGTCAGTATCTTCGGCAGGAACGTGTCCGTCACCTTCT	
+    915668	    26	  96.2	    41	.................G........	ATCACCCGCCGGCCAGGCGGCACCTTCTTCCTAGCTCTTTT  	
+    915735	    26	  84.6	    37	..A.........A....G..A.....	TGGTAAAATCATTCCGGTGGGAATAGAAATTCGGGAA      	
+    915798	    26	  88.5	    43	............A....G..A.....	AAGACTAGTTTTATTATATCGTCTACGTCTATTCTTAACACTT	
+    915867	    26	  88.5	     0	..A.................A.G...	|                                          	
+==========	======	======	======	==========================	===========================================	==================
+         7	    26	  94.0	    41	GTGGAGTCTCAAGAGAGAATGGAAAG	                                           	       
+
+# Left flank :   TCCGTAACGCGCCCCTCGCTAAGCTCATCAGATTCAAAGTCGAGCCCCTCTCACATGCGCTGTTGGACCTAGACCGCTTTCGGCAAAGCGGAGAGCCGTTGCGCACTCCGAAGACGTCCCTCGCGGACCAACGCGGTCGAGTCTCCGGTTTCGTTCCTAAGAGGCAGACCTTGAAGCGGCCTGCTTCAAGCTTCACTGCGTTGCTTCTTTCGTTTTGTCTAGCTACGTAGATCTAGTATTACAAATCGCCAAACTTTTGTATTTGTTTATTTCTCTTTCCACATTCACCCACATGGGAACATCTTATATTCGAAAGCGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCGTGGAGGGAAGGGCAGAGGAAAAATTTCTTGAATAAAGGGAAAAGTTTGGGGAATTGTAAACTCGCAGTAGAATGCAATTCTTTTAAGGGAAAGACCTTGGAGCTTTATATGGAAGGCTTCG
+# Right flank :  GCGAGCAAGCGTCACAAAAATAGAACCAAAATCCCTTAAGGGAATAATCAAGAAGTAACGTTCCTTAAGCTCTACACCGACGTGTCCTTGCGAACCCCTAACGTACACTTAAAGACAAATAAAGCACCTCCGTTCCTTCTCGCGAAGCAACTAAAGGGGATGCGGGGCGGAGGGGACCAAAACTTAGTACGCCTTTGGTCCAAGGCCTCACGTGAAGTTCGAAATGCTCGAAAGGGGCTCCGCGCCGACGCTGCTACTCATAGGGATTGCCTTATTCATACTTGCCATCATATCCTCGATTATATTTGAATTGCTCAGGGTCCACGAGACGCACTCAATTAAGGTCGTCCAAGGCTTGGAGAACTTCGTGCCCTTGAAGGGCTGCGACCTCCACCTCAAGAGTTACAAGTATACAACCTTGAAAAAGGTAGGAAAGGGGCTCTTGATTTTAACCTTCCTAAAGCCTTCGACTCACATAATAGTAACTGAGAGGTGCCCCC
+
+# Questionable array : NO	 Score: 7.14
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.70, 5:0, 6:0.25, 7:0.34, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAGAGAGAATGGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.10,-3.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [546,211] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 7 952490-952925 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                                	Insertion/Deletion
+==========	======	======	======	==========================	===============================================	==================
+    952490	    26	 100.0	    39	..........................	TGTTAAACCTAGTTCTAGCTCTCGACACAATTATGTTTT        	
+    952555	    26	 100.0	    37	..........................	GATATCGCCGATTTACGGGAGGGAAGGAGAATTCCTA          	
+    952618	    26	 100.0	    46	..........................	GTGAGGTGAAGGTACTGCCTGTTGGCGGAGGCCATCAGCATGTCCT 	
+    952690	    26	 100.0	    43	..........................	TTGACGTTATATACTGTACAGAGGTGTTTAGCATGAGCTTCAC    	
+    952759	    26	  92.3	    42	.................A..G.....	TGATCAACGAGAATGTACAAAAGAGCATATAACTGTTCTAAA     	
+    952827	    26	  80.8	    47	.......T...G..A..A..G.....	TTACTTAACTATCTTTGTCTCGTTCATTTCAATGTTGCTTACCTTCT	
+    952900	    26	  76.9	     0	A.A...C..T...G.........G..	|                                              	
+==========	======	======	======	==========================	===============================================	==================
+         7	    26	  92.9	    42	GTGGAGTCTCAAGAGAGGATAGAAAG	                                               	       
+
+# Left flank :   GTCCGCCGACCGTTGCTAATCTGTAAAATATCGAATGCTTTTCAGCTTCCCTCTGGGACTCTTGACGCGTTTTCGGATTTTGTTCTGACCGTAGTGGGTCCAAAGTCCGGTACCTCAAAGCCCCGTTCCCTACGAAGCCTCTCCTCTGTCCGGTGTGGTCCTCGAGGTCCCTTACTTACTGCGTCTACCCAAGAACTTGCTCTCCTTAATTTAATATTTCACAAACATACTTTCTGTATAACTCATTACCAAACTTTTTCACTTACTCATTTCCTTTTCAACCTTCACCCACATGGGAACATCTTATATTCGAAAGCGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCATGGAGGGAAGGGCAGAGGAAATTTTTCTTGAATAAAGGGAAAAGCTTGGGGAATTGTAAACTCGTGGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGGGCTTTATATGGAAGGGCTCG
+# Right flank :  GGAAACTACGAACGCACGTGAGGCCCTCGTACGAAATTCATCACTACGTCCCCGAAGCCCGCGGCCCTCCCGCTCCCCACGCCGAAGAGCGCTGCGTGCGCTATTACCTTCTTCACGTCCTCGTCCGCCTCCCTCACCCAGAACAGCGCCGAGCCGCTGAGGGCGGGCAACCACTTACGGTCGTAGTAGTACCAGACCTTCCCGGCGCTGTGTAAGGCAGAGTGGTCCTCCACCAGCGAGCGCTCGAGCTTCCACAAAACTTCTAGATATTTATCCTTAAACAAGGAGTAGGCGTTGACTGAGAAGAGGTGGGAGGGGGAAGGCAAGAAGCGGGTCCTAAGCTCCTCTCCGGGCCCCCTCCAAGGGTCCCTTAACACTGCCGGCCCCCTGAACTTCACCCACAAGCCGCTCCCCTCCCCCAAGTCCAAGTCCACCTCTTCCACCGCCACGGTCTCTATTTCTATTACCTTCCTGCCGAACTCGAGCTTACAGTAGTCGAA
+
+# Questionable array : NO	 Score: 7.17
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.65, 5:0, 6:0.25, 7:0.27, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAGAGAGGATAGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.20,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1584,5] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 8 955649-957104 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	========================	==========================================	==================
+    955649	    24	 100.0	    39	........................	CTTGTACTGTGCTAGCTGGGCCGGAGAGCTCAGTTGCTC   	
+    955712	    24	 100.0	    38	........................	ACTTGGTTGACGACCTCGTCGAGCTTGTCGTACGCTTG    	
+    955774	    24	 100.0	    39	........................	ATGTCGTCACAGTGAAATACATACACCTTCTGCAAATCT   	
+    955837	    24	 100.0	    39	........................	ATGTCGTCACAGTGAAATACATACACCTTCTGCAAATCT   	
+    955900	    24	 100.0	    39	........................	ATGTCGTCACAGTGAAATACATACACCTTCTGCAAATCT   	
+    955963	    24	 100.0	    39	........................	GTTCTTTATCATTCCATTCCTGCCATACTCTGAGAAACA   	
+    956026	    24	 100.0	    38	........................	CCGGTGCACCACACGTTTTCGCCTTCGACCTCGTCCCC    	
+    956088	    24	 100.0	    37	........................	CTGGCGTGATGACGGTCGTACGATGACTATCCTAGAA     	
+    956149	    24	 100.0	    37	........................	AGAGCACTATCGAACAGATAGACCTCAACGTTTTCAG     	
+    956210	    24	  95.8	    39	........A...............	TGCTAATCTGTTCCAAGGGAACGTCGACGCCATGGCGAA   	
+    956273	    24	 100.0	    38	........................	TGGGTTCTTTCTGCCACCACCGCACACACCTCATGAGC    	
+    956335	    24	 100.0	    38	........................	CTAGTGTACGCTTCACCGTGTGAAGACATAATGAGCAG    	
+    956397	    24	 100.0	    36	........................	CTTTGCATTTCCTTCGGCAATGTAGCTCGCTATCGC      	
+    956457	    24	 100.0	    38	........................	CGAGGGAATGAGCGGAGGGAAGCGGGATGAGGAGCGAG    	
+    956519	    24	 100.0	    38	........................	ATTAGAAGCACCACATGAACGAATCGGTGTGCATCAGG    	
+    956581	    24	 100.0	    37	........................	TATGAATAACGGGTCCTCGATTACTTCTGGGTTGTCT     	
+    956642	    24	 100.0	    39	........................	CAATGGCTTACCCAACACGGCCTGAGCGAAGAGGTCCTT   	
+    956705	    24	 100.0	    37	........................	TTTGTCGAGCTCTTGCCAGGATAGACTAGGACAACCG     	
+    956766	    24	 100.0	    38	........................	GGGTCTGCTGGCAGATCGGCGATGTCATCGCAATGGTA    	
+    956828	    24	 100.0	    42	........................	TGAATGGCGGGTGCGGGAGATGGTTGAGGAGAAGATGGTAGT	
+    956894	    24	  95.8	    37	......................G.	TAAGTAATATTCTATTAGCATCTTCTTCAAGTTTTCA     	
+    956955	    24	 100.0	    37	........................	TATAAGGGCTATGGCATGATGGTAATGATGATAATGA     	
+    957016	    24	  95.8	    41	............A...........	TCCATATCTACGCCCTTGTCATACATTTCCAAGGCCTTGAA 	
+    957081	    24	  79.2	     0	..........T...A..GC.T...	|                                         	
+==========	======	======	======	========================	==========================================	==================
+        24	    24	  98.6	    38	GATTAAACGAAAGAGAACTGCAAG	                                          	       
+
+# Left flank :   GGCAGGGAAGTTGAGCTTTGTTTACGATTTTAGTGAAATGTTCAAGCCTATGGCAATTTATGTCATGGCAACCGCGATAAGGACGTATAAAATAGAGCTTGAGGGAGACTTCTTAAACAAGGAAAGCTTACAAAAGGTTACTCAACTGTTCTACTCTATTTTCGAGAGTAAGAAGTACTCCGTCAGAAAGTGGGTCTACGCGAAGGCGTGGCAGCTCAGAGATGCAATCGAATCTGGGAAAGAGTTCAAGGCTTTCGTCTTCCGACCCTAAGGTTCGTTTAAGAAACTTTTAGGGCTCTCATCGACCCCGGCGTAGTTACTTTTTAACACTATGTTTTTCTATTCGATTTCATATATCTGGTCCGAATTCGAATCTTCGAGGGTCCCCTCTTCAAATTACATGCGTGGGAGATCCTCGACCATCAACCGCTCGGTAGACGGCGTCCCGAAGCAGTAAACTAAATAAACTCTAACTTTAGGGTGACCATGGAAGGCCAGAG
+# Right flank :  GGCGGCTAACCCTACTAAAGCAGATTTTAAGACGACGTCACCGATCGTCTAAAAGTAAGTTAAGGGCGAACCGACCTATCGTTTTCCACGCTGTAACGCCCGTTTGTGGTTCGTACGCTCAGTTAGGTCTTTGGAACGACCTCAGAGCTCTAAAATAGTCGCGCTCACTGGTTACTTAGATGCTATCTCCTTCACCATTTCCTCGAGCTCGTTCAATTCGGCCTTTATTTGTTCAATTTTCCTCAAGAGTTCGTTAAGGTTCGGTTCCTCCTTCTTGCTGACCCTTCCTTTGAGCAAGCTCGCCAGAACCTCCTCAGCGTTAAGTTTTCCTTTAACGCTAACGCTTACCGCGTTCCCGCTGTCCGCGTCGACGAACTCAACGCTTACCAATCCCCTGGAGTCAGAGGTAGTTACCGAGAGCTTCCAATAGAAGGTCGAGTTAATTGTTGTGGGGAGGGGCTCTTGGACTTTGAGCGAGTCCCAAGCCCAGTTGGGATGAG
+
+# Questionable array : NO	 Score: 8.34
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.93, 5:0, 6:0.9, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GATTAAACGAAAGAGAACTGCAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.50%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [231,171] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 9 1009879-1010307 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	==========================	============================================	==================
+   1009879	    26	  96.2	    37	........T.................	ATTCTCTTTCCTCTTTTGGGTGTCTGGGAGTCCTGCG       	
+   1009942	    26	  96.2	    44	.............C............	AGTGTTAGAAGGTAAAGAGATAGAGATATTGAACGTTAGAGAAT	
+   1010012	    26	 100.0	    40	..........................	AGGAAGTGGCGAACGAGGAGGAGGCCAAGAGACTGTGTGA    	
+   1010078	    26	 100.0	    40	..........................	TTGTGAACCCCGTTCTGGTGGTACAGGCCGAGAGCGAGGT    	
+   1010144	    26	 100.0	    44	..........................	AACTTACGAACGGTGACTTAGGTACAACAGGAAGTCTAAGTCTA	
+   1010214	    26	  96.2	    42	....................G.....	AACACCACGAAGAAGTTATTGCGTAAAAAACATTACCGAAAG  	
+   1010282	    26	 100.0	     0	..........................	|                                           	
+==========	======	======	======	==========================	============================================	==================
+         7	    26	  98.4	    41	CTTTCTATCCTCTTTTGAGACTTCAC	                                            	       
+
+# Left flank :   CCCGACCCGGTGGAGGGCGAGGTAATAGTCTACGCAAGGCCCGTGGGAGACGAGAGCGACGGCAAGATCTACCCCTTCAGGGAGCACGTTGCCTACGTACCTTTCGACGAGAACAAGAAGATACCGATACCCATAAAGGTGGGGATAGTGTTCGCCTTAGGAGATATCAACAAGGCCGTGCAAGCGGGAGCGAAAGTTGCGAACCTAACCTTCACTGGGAAGTTCATCAAGATGGTTCGATACATGAACGTGGACCACGGGGTGGTCCCCGCGAGTAAGGCGTTGAAGTGCGTGGACTGCCACAGCCCGTGGAGCGCGCTGCCGCTGGAGGAGCTCGGCTACTGGTACCCGCCGATAATCTACTACGGCGCCCCCGTTATAGCCTTGATTGGCGTTGCGCTGTTGGCGCTCTCGCTTAGGAAGAAGTGAGCTTCATTATTTTTTATTTTCTTTTAAGTGGTCATTCCTTTGTTCCATTCTTGTTGCCTTTGAACGTATAT
+# Right flank :  CCGAAGCCTTCCATATAAAGCCCCAAGGTCTTTCCCTTAAAAGAATTGCATTCTACTGCGAGTTTACAATTCCCCAAACTTTTCCCTTTATTCAAGAAATTTTTCCTCTGCCCTTCCCTCCACGATCTTCAGCGTTCCCATGAAAAGATATAAGGGGGTTTGAGAGAGTGAATAGTAATGGTGCGCTTTCGAATATAAGATGTTCCCATGTGGGCAAAGATGAGAAAGGAAATTAACAAATATAAAAGTTTGGTAATGAGTTATACAGAAGCATCAATGGGCGTCCCGTGCCCTATATTTCCGCCCGGGACCGCGGGCTGGGGAGAGAGTGGAAGTAAGGGAAGGCGACCTGGTTCTGATATACATAGACAAGAGGAGGAAGAAGTTAGTGAAAGCGATTAAAGGAAAGGTATTTGGGAGTGACTTAGGAGTGTTGAAGCTTGACGACGTAATTGGTAAGAGGTACGGCGAGAGCGTGGAGTTCAGCACGGGGGCTAGGG
+
+# Questionable array : NO	 Score: 7.46
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.92, 5:0, 6:0.25, 7:0.29, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTCTATCCTCTTTTGAGACTTCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.54%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,-2.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [73,328] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+
+Array 10 1057459-1057229 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009776-Ignicoccus hospitalis KIN4/I, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	===========================	==========================================	==================
+   1057458	    27	 100.0	    40	...........................	TCTTCAGTCTCTCATTTATAAAGTACCAATTGTTCTTCGT  	
+   1057391	    27	 100.0	    40	...........................	TCACGCCTACCCCCGCCGTTGATAAACCGCATTAACCCTG  	
+   1057324	    27	  92.6	    42	.................A..G......	AGTAGTTGTCGAGGACCTCCTCTATCTTGTTCACCGCCTCCT	
+   1057255	    27	  77.8	     0	..A..........G...AT.G.....A	|                                         	
+==========	======	======	======	===========================	==========================================	==================
+         4	    27	  92.6	    41	GTGGAGTCTCAAGAGAGGATAGAAAGG	                                          	       
+
+# Left flank :   TCTCCCACAAGGCTTCGAAGTACTTGGTGTAGCGGTCGTCCACCCTGAGGACGTACAAGTCTTCAGTGACTTTGGCCACGTGGTACATTACCAACTCGTCTCTCCTCCTAGACAACGGCCTCCCGCGAGAAATTTGTTTTCATGTAACGACCCCTCGACCCGAGCCCTTCGCGGGGTTCGGAGAAAGCGTACTTCTCCGCGTTTAGTTGTAAGACAACTCCTAATTCAAATTAGTGTGTAACTCATCACCAAACTTTTCCACTTACTCATTTCCTTTTCAACCTTCACCCATATGGGAACATTCTATGTTCGAAAGCGCACCATTACTATTCACTCTCTCAAACCCCCTTATATCTTTTCATGGGAACGCTGAAGATCATGGAGGGAAGGGCAGAGGAAATTTTTCTTGAATAAAGGGAAAAGCTTGGGGAATTGTAAGTTTGGGGTAGAACGCAATTCTTTTAAGGGAAAGACCTTGGAGCTTTATATGGAAGGGCTCG
+# Right flank :  TAGTTCTCCTAAAAGATAACGAAAAACACAACCCGAGGTTCTAATAAAGACAAAGACCACAAAAAGCGCGTTACGCAAAAGCTCCTAAGGTCCGATAAGTAACTCGCCCTCAGATTTCCACAAGCCTTGAGGAAAGTGCGAGACGTGTGCTAAAATTTTATTAACCCCCACCGGTCTCCAAGCCCACGGAGCGGGCCCGTAGCTCAGCCTGGTAGAGCGGCGGGCTCTTAACCCGTAGAGGCGGGGCTTGGCCCGTTTCCCGCCGCGGAAGTCCCGGGTTCAAATCCCGGCGGGCCCGCCACACGGCGGCCAAGGGCTCCTACGTCACCACCTCCCTCAACTCGTACACTATGCTCGGAAGCGGCGTTACGAACAACAAGGTCATGATTGCGTAAGTAGCTAAGGACACGGGCCAAGGTAAGCTGAAGGCGAGGGAGGAGCTCGCCAGCCCGCTGCCGGCGCCGTAGAGGGCGAAGGCGAGCGAGGCCTTCCCCTTCAAC
+
+# Questionable array : NO	 Score: 6.79
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.63, 5:0, 6:0.29, 7:0.27, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGAGTCTCAAGAGAGGATAGAAAGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,-2.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-55.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [321,386] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Cas1:WP_012123214 [954487-955419]; Cas4:WP_012123276 [1013417-1013923]; Cas5:WP_012123280 [1017270-1018151]; Endonuclease Cas1:WP_012123274 [1012268-1013185]; Endonuclease Cas2:WP_052570263 [1013176-1013424]; Helicase Cas3:WP_012123278 [1014625-1016256]; 
+# Array family : NA
+# Sequence source strain : KIN4/I
+# Taxonomy hierarchy : Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;Desulfurococcaceae; Ignicoccus.; Ignicoccus hospitalis KIN4/I
+//
+
+

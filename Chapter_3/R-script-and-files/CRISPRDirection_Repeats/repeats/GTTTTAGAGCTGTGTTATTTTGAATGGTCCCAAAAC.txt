@@ -1,0 +1,55 @@
+Array 1 367177-368466 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH930418-Streptococcus iniae 9117 SCAFFOLD1, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    367177	    36	 100.0	    30	....................................	AAAAGTGGATAGATAGCAACAGAGACAGAT	
+    367243	    36	 100.0	    30	....................................	CTTTGGTGGCACTGGCAATCAATACGAAAC	
+    367309	    36	 100.0	    30	....................................	CGCAATTTTTGCAGGTATAGCTCTTGCAGT	
+    367375	    36	 100.0	    30	....................................	TAAGTTATTAGAGAAAAGAAGAATTGAACT	
+    367441	    36	 100.0	    30	....................................	TCCATAGTGCATTTATGACATCATCTTCTA	
+    367507	    36	 100.0	    30	....................................	TAACGGTATTTATGCAATGGATGAATACTA	
+    367573	    36	 100.0	    30	....................................	TAACTTATCAGGCGATGAAACAGGGTTCAT	
+    367639	    36	 100.0	    30	....................................	AAGCGGAACAGATGACAATATATGATTTTT	
+    367705	    36	 100.0	    30	....................................	GTGGCATTTTTGGAAATAGTTAGACAATTA	
+    367771	    36	 100.0	    30	....................................	AGGTGTCAAACTTATCACAGCTCTTGTTCA	
+    367837	    36	 100.0	    30	....................................	ACAATTATTTTATGTCAGATATTGATGAAT	
+    367903	    36	 100.0	    30	....................................	GTGTTCGCCGAATAAGTAGAATTAAGAAGC	
+    367969	    36	  97.2	    30	..........................C.........	CCTGCAAAAGATTCATATGCGATTAGTTAT	
+    368035	    36	 100.0	    30	....................................	CAAGTCTTGCAACAACAAGTATCCACTACA	
+    368101	    36	 100.0	    30	....................................	ATATATATCAATGGAAATACCAAAACGTTT	
+    368167	    36	 100.0	    30	....................................	TTAATTCCTTGGTTGTCAGTGTAATAGATA	
+    368233	    36	 100.0	    30	....................................	CGGTTTAGCTGCTCTTGAGAAGATTGTATT	
+    368299	    36	 100.0	    30	....................................	TTAGTATTAAATATAATATCAACACCTTTA	
+    368365	    36	 100.0	    30	....................................	TACAACAGTACCTATAAGTGTGGCTACACC	
+    368431	    36	  75.0	     0	................T.....TG..T.T.TTT..G	|                             	
+==========	======	======	======	====================================	==============================	==================
+        20	    36	  98.6	    30	GTTTTAGAGCTGTGTTATTTTGAATGGTCCCAAAAC	                              	       
+
+# Left flank :   AACCAGAAGTAAAATCAATGATCGAAAAACTTGCTGCAACTATTACCGAATTAATTGCTTATGAATGTTTAGAAAATGAGTTGGATTTAGAATACGATGAAATCACAGTTTTAGAGCTAATTAAGGCCTTAGGTGTAAAAATTGAAACTCAAAGCGATACGTTTTTTGAAAAATGTCTGGAAATCGTACAAATATTTAAATATTTAACTAAAAAGAAGTTACTAGTTTTTATTAATAGTGGAGCATACTTTACTAGAGATGAATTTGAGAAACTGTTAGAATATATTAGTTTGTCTAGTCAACCAGTCTTATTTTTGGAACCAAGAAAGATGTATGATTTTCCTCAATATGTTTTAGATGAAGATCTTTTTATGCTAACTGAAAATATGGTATAATAGTATTAAGAAAGACAATAGTAATTAAAAGGATCATCAAGATAGAAGTCTAGCTGAGACAAATAGTGCGATTACGAAATTTTGTAGAAAAAATTTAGCTACGAG
+# Right flank :  GGCAATATTTCCCATTTGAATAACTTACATATTCGGAAACCGCTTTCAAAAATAGTTTTTTTATGCTACACTGATAAAAAAGCTAAGTGAGGGCATTATGGAAAAAACCTTTTTTATGATTAAACCAGATGGTGTTAAGCGGGGGCTGATTGGTCAGGTTCTTGAACGTATTGAGCGTAGGGGTTTTGTGATTGAGAAGTTGGAATTGCGTCAGGCTGATGCAGCAATTCTGAGAAAACATTATGATTTTCTGGTTGATAAACCGTTTTTTCCAGAGATTGAGGCTTACATGACAAGTGGTCCTCTGTTGATTGGTGTTTTGTCAGGCAATCGTGTGGTCTCTTCCTGGCGTATGATGATGGGGGTTACAAATCCTAAAGATGCCCTGCCAGGAACAATTAGAGGAGATTTTGGGCAAGCGCCAGGAGACGATGGTGGCATTCAAAATGTGGTGCACGGTTCAGATTCTATCGACGCTGCAAGACGTGAAATTGATATCT
+
+# Questionable array : NO	 Score: 8.21
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.93, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGTTATTTTGAATGGTCCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.89%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTAGAGCTATGCTGTTTTGAATGGTCCCAAAAC with 92% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.90,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [107,97] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_017794788 [366075-366419]; 
+# Array family : II-B [Matched known repeat from this family],   
+# Sequence source strain : 9117
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus iniae 9117
+//
+
+

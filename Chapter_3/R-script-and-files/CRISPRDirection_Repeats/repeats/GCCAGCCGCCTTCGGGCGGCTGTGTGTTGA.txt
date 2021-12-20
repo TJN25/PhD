@@ -1,0 +1,39 @@
+Array 1 59212-59441 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV835853-Neisseria sp. HMSC078H04 Scaffold446, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+     59212	    30	  96.7	    37	C.............................	AACTTTCGATAACAGACGGCTTATACATATTTGTTAA	
+     59279	    30	 100.0	    36	..............................	AACGGTCATGTGGCAGGCTGAGATAATGAGGTATGC 	
+     59345	    30	 100.0	    37	..............................	AACTAGCGGTAGCAAGCGGTTAGGAGCGAGCCATGCC	
+     59412	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         4	    30	  99.2	    37	GCCAGCCGCCTTCGGGCGGCTGTGTGTTGA	                                     	       
+
+# Left flank :   ACACCACGGCGCAAAACCGACGGTGGATGTGTTTAAGGATACGTTGATTGTGTGAATCGCCAACCTGTTGTTCTCATGAAAATGTGGCAGGATTAGCGAATTAGGATTGTTCTTTAACAATCAGGATATTGCAAATGTGGGTATAACAGAAAAGGCTGTGTTATACTCGCATTTCTGCTTTTCTTGAGAGTTTAGCGAGATTAGGCTTGCGAAACCTGATGTAGCAAGGCTTTTGAGAGAGGCACCAGCCGCCTTCGGGCGGCTGTGTGTTGAAACGTTGGGATGTCATAGGATTTCTCCTGTCATTGGGCCAGCCGCCTTCGGGCGGCTGTGTGTTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCGCCTTCGGGCGGCTGTGTGTTGAAACTGTCCGGTGTTCTGATAGCTGCGGAGGTTATC
+# Right flank :  |
+
+# Questionable array : NO	 Score: 8.84
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:0.99, 7:1.29, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCAGCCGCCTTCGGGCGGCTGTGTGTTGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.20,-8.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [41.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [162,1] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.82,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_070608693 [55298-55948]; Endonuclease Cas2:WP_003746238 [58473-58766]; Helicase/endonuclease Cas3:WP_070608684 [49469-51979]; 
+# Array family : NA
+# Sequence source strain : HMSC078H04
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria sp. HMSC078H04
+//
+
+

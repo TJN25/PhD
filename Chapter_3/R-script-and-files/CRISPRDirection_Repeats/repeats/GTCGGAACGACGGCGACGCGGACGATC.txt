@@ -1,0 +1,40 @@
+Array 1 35214-34908 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JGZP01000012-Bifidobacterium stellenboschense strain DSM 23968 Contig12, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                                                      	Insertion/Deletion
+==========	======	======	======	===========================	=====================================================================	==================
+     35213	    27	 100.0	    45	...........................	GTCATCGCGGGAGGCGCGACGGTCGTCACGGTCGTCGTAGTCGCG                        	
+     35141	    27	 100.0	    33	...........................	ATCGTAATCACGATCGCGGTCGTCGTAGTCGCG                                    	
+     35081	    27	  81.5	    24	C...ACG..G.................	ATCGTAGTCACGGTCGTCGCGGTC                                             	
+     35030	    27	  92.6	    69	............A..G...........	GTCGAAATCGTCGTCGCGGTCGCGGCGGTCGTCACGGTCGCGGCGCGGGCCGCGGGCGCCGCGACGGTC	
+     34934	    26	  74.1	     0	......T..C..CG.G.-......G..	|                                                                    	C [34931]
+==========	======	======	======	===========================	=====================================================================	==================
+         5	    27	  89.6	    43	GTCGGAACGACGGCGACGCGGACGATC	                                                                     	       
+
+# Left flank :   TCGCCGAATCCGAACTGTAGCGCCCCACCACCAACACCCCACACCAACACCCCATGGTGCGGCAACACACAATCTCCACAACGGCGGAATACCAACGTTTTCCACCACCGCACCATGGGAGTTTTACCGCACCATGGGAATAACGGCGGGGAATAACGGTAGGGAATGACGGCGGGGAATGACGGCAAGGGAATAACGACATACAAATAGGGGGCCGCACCGGGAGATAATTCCGGTGCGGCCCCCTACGTTTGATCGGCAGCCCCTATGTTCGTCGTGCTACGCCGAGGTGGCGATCAGACCGAATCGATCAGCGATCAGTCCTCGAACGGATCGAAGTCGCGACGGACGCGGCGGCGCGGGCGCTCGGTGCGCTCGATGCGGTCCGCGTGGTACTCGTCGTAGTTCTCGTCGGTCGCGTAGCGCGGGTTGCGGTCGTAGCCGCCACGGCCGCGGCCGCCGCGACGATCGTCACGGTCGGAACGACGGTCGTCGCGGTC
+# Right flank :  ACCGCCGCGGCGCGCGTTGTTCTCCTGATCCTCGAAACCGGGGATCGCGAGGGAGATCTTGCCGCGATCGTCGACGCCCTGGACGACGACCTCGACGGTGTCGCCCTCCTTGAGCACGTCCTCGACCTGATCGATGCGCTCACCGTTGGTGAGGTTGCGGATCTGCGAGATGTGCAGCAGGCCGTCGGTGCCCGGCGTGAGGTTCACGAACGCGCCGAACGACGTGGTCTTGACGACCTTGCCGTTGTAGGTCTCGCCGGCCTGCGGCACGTGCGGGTTGGCGATGGAGTCGATGATCTGCTTCGCCTTCTCGGCGGCCTCGCCGCCTTCGGAGGAGATGAAGACGGTGCCGTCGTCCTCAATCGCGATCTCGGCGCCGGTGTCCTCCTGGATCTGGTTGATCATCTTGCCCTTCGGGCCGATGACCTCGCCAATCTTCTCGACCGGGACGGTGGTGGTGATGATGCGCGGGGCGAACTCGCTCATCTCGGCCGGGCCGT
+
+# Questionable array : NO	 Score: 2.39
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.68, 5:0, 6:0.28, 7:0.03, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGGAACGACGGCGACGCGGACGATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.80,-2.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [20.0-21.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [2638,481] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 23968
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium stellenboschense
+//
+
+

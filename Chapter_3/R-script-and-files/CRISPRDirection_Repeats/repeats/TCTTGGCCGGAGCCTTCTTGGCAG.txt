@@ -1,0 +1,43 @@
+Array 1 201440-201875 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JMET01000029-Rhodococcus fascians D188 contig70, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                           	Insertion/Deletion
+==========	======	======	======	========================	==========================================================================	==================
+    201440	    24	  70.8	    74	.T.C..T...G..........AGT	GCGAGAACGGCCCGGTCCTGGATGACCGGTGCCGGTCGAGCGCTACTTCTTTGCAGCGCGCTTCGCGGGTGCCT	G [201458]
+    201539	    24	  95.8	    33	......................G.	GGGCCTTCTTGGCGACGGTCTTCTTGGCCGCTG                                         	
+    201596	    24	 100.0	    33	........................	GGGCCGTAGTGGTTGCGGCCTTGCGTGCGGTCG                                         	
+    201653	    24	 100.0	    27	........................	CAGCCGTCGTGGTCTTGCGTGCGGTTG                                               	
+    201704	    24	  87.5	    33	....T..G..............G.	CGGTCTTTGCGGGAGCTGCCTTCTTGGCGGCAG                                         	GCT [201715]
+    201764	    24	  91.7	    27	....C.................T.	CCGCGGTGGTGGCCTTGCGGGCGGTCG                                               	GCC [201775]
+    201818	    24	  79.2	     6	....CA...CT...........G.	CCGTCT                                                                    	Deletion [201848]
+    201848	    24	  83.3	     0	....C....C..T.........G.	|                                                                         	GCT,C [201853,201872]
+==========	======	======	======	========================	==========================================================================	==================
+         8	    24	  88.5	    33	TCTTGGCCGGAGCCTTCTTGGCAG	                                                                          	       
+
+# Left flank :   CGCGATACAAGGGCAACGACGCCGATCGCCCCCTCGACAAGACCGGTAGACGTCAGGCCGAGGCACTCGTCTCACTGCTGGGCGCGTTCGGCGGTGACTCGGTGTATGCGGCCGACCGCGTCCGGTGCGAACAGACGGTCGCGCCGTTTGCCGAATCACTGGGCGTGCAGGTCGAACCGGAGCATCTGCTGTCCGAGGAGGGGTACGCCGAGGACCCCCGAAAGGGCCGCCACCGGGCTCGCGACATCGCCGAGTCCATGAGCACACCGGTGATCTGCAGCCAAGGCAAGGTGATCCCCGATCTCATGCGATGGTGGGCCGACAAGGACGGCATCACGTTGCCTGCCAACAGGAATCGAAAAGGGAGCGTGTGGGTGCTCTCGCGCCACGACGGTCGGCTCGTTGCGGCCGACCACATCGCCAGCCCGCTACCGAACCTGGTCGCCGACGACTGAGTTGCATCCGCGGATCACGAACACGGCAGAAGGCCCCGACCGAAA
+# Right flank :  GAGCTGCTGCCGAACCGCGCTTGACGGCAGGTCCGGTTGCGGGCAGCTTCTGTCCACCGGCGATGACGGCCTTGAACTGCGCGCCCGGACGGAATGCCGGTACGTTGGTCGGCTTGACGCGAACGGTCTCACCGGTGCGGGGGTTACGGGCGACACGCGCCGCGCGACGACGCTGCTCGAACACGCCGAAGCCCGTGATCGTGACACTTTCGCCGCGGTGGACCGCGCGCACGATGGTGTCGACGATGTTCTCGACAGCCTCTGTGGCGCTCCGCCTGTCAGACCCCAACTTCTCGGTCAGGGCGTCAATCAGCTCTGCCTTGTTCATGGATTTCCTCCGCTATATTGTGGCCCATCGTCGGACCGACTACTACAACGGTAAACCCCAAGTCGTCAAGAGTCTATGCGCCACGCCAATTTTCATTTCGGTGTCGCGGAATGCTTCACGGCCGCAAAGCGTGTCGGACCCCCCGTCCGTCAGCTTTTCGAAGGCTCCTCGA
+
+# Questionable array : NO	 Score: 2.81
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.79, 5:0, 6:0.25, 7:0.37, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCTTGGCCGGAGCCTTCTTGGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [5-14] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-28.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [145,613] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : D188
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Rhodococcus.; Rhodococcus fascians D188
+//
+
+

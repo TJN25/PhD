@@ -1,0 +1,114 @@
+Array 1 17651-17878 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALXU01000028-Neisseria meningitidis 98008 NM98008.contig.27, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                 	Insertion/Deletion
+==========	======	======	======	========================	================================================	==================
+     17651	    24	 100.0	    42	........................	CCGTCTACCAAGTCCGCAGTATCCGTATCCAAACCCTTTACC      	
+     17717	    24	 100.0	    42	........................	CCGTTTACCGAGTCCGTAGTATCCGTATCCGCACCGTTCAGC      	
+     17783	    24	  91.7	    48	.................G..G...	TCAGCAAAACAACAGACGGCAGCACCAGCAAAACAACAGACGGCAGCA	
+     17855	    24	  87.5	     0	..A..............G..A...	|                                               	
+==========	======	======	======	========================	================================================	==================
+         4	    24	  94.8	    44	CCGGCAAAACAACAGGCTGCCGCA	                                                	       
+
+# Left flank :   ACAAAAACACCGAACAAGCGGCAGCACCTGCCGCAGAACAAAATTAAGAAGAGGATTACTCCATTATGAATACCAAACTGACAAAAATCATTTCCGGTCTCTTTGTCGCAACCGCCGCCTTTCAGACAGCATCGGCAGGAAACATTACAGACATCAAAGTTTCCTCCCTGCCCAACAAACAGAAAATCGTCAAAGTCAGCTTTGACAAAGAGATTGTCAACCCGACCGGCTTCGTAACCTCCTCACCGGCCCGCATCGCCTTGGACTTTGAACAAACCGGCATTTCCATGGATCAACAGGTACTCGAATATGCCGATCCTCTGTTGAGCAAAATCAGTGCCGCACAAAACAGCAGCCGTGCGCGTCTGGTTCTGAATCTGAACAAACCGGGCCAATACAATACCGAAGTACGCGGGAACAAAGTTTGGATATTCATTAACGAATCGGACGATACCGTGTCCGCCCCCGCACGCCCCGCCGTAAAAGCCGCGCCTGCCGCA
+# Right flank :  ACCAGCAAAACAAACCAATATCGATTTCCGCAAAGACGGCAAAAATGCCGGCATTATCGAATTGGCTGCATTGGGCTTTGCCGGGCAGCCCGACATCAGCCAACAGCACGACCACATCATCGTTACGCTGAAAAACCATACCCTGCCGACCACGCTCCAACGCAGTTTGGATGTGGCAGACTTTAAAACACCGGTTCAAAAGGTTACGCTGAAACGCCTCAATAACGACACCCAGCTGATTATCACAACAGCCGGCAACTGGGAACTCGTCAACAAATCCGCCGCGCCCGGATACTTTACCTTCCAAGTCCTGCCGAAAAAACAAAACCTCGAGTCAGGCGGCGTGAACAATGCGCCCAAAACCTTCACAGGCCGGAAAATCTCCCTTGACTTCCAAGATGTCGAAATCCGCACCATCCTGCAGATTTTGGCAAAAGAATCCGGGATGAACATTGTTGCCAGCGACTCCGTCAACGGCAAAATGACCCTCTCCCTCAAAG
+
+# Questionable array : NO	 Score: 3.51
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.74, 5:0, 6:0.25, 7:0.12, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGGCAAAACAACAGGCTGCCGCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [28.3-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [455,1886] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002214566 [45192-45518]; 
+# Array family : NA
+# Sequence source strain : 98008
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 98008
+//
+
+
+Array 2 48192-45582 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALXU01000028-Neisseria meningitidis 98008 NM98008.contig.27, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     48191	    36	  97.2	    30	........G...........................	GGACGGCGGTTCTAAAATATGAAAACTCAA	
+     48125	    36	 100.0	    30	....................................	TTCCCATCTTACTCTCCCCTTGCCACTCAA	
+     48059	    36	 100.0	    30	....................................	CTCAACATTGTTGTAATCTGACCGCAACGC	
+     47993	    36	 100.0	    30	....................................	CTCAACATTGTTGTAATCTGACCGCAACGC	
+     47927	    36	 100.0	    30	....................................	CTCAACATTGTTGTAATCTGACCGCAACGC	
+     47861	    36	 100.0	    30	....................................	CTTTTCAATGTTAACTATTTTGCAAAGAAT	
+     47795	    36	 100.0	    30	....................................	TATCATGATGAGCATATTTATGAAGAGGTA	
+     47729	    36	 100.0	    30	....................................	AAACTCAACGCATCTAACATAGTTCACACT	
+     47663	    36	 100.0	    30	....................................	ACTCCCTGTTTATCGGTTTTTCAGCTTAAA	
+     47597	    36	 100.0	    30	....................................	GTCAAGCATACTAAACGATTAATAGCTTAG	
+     47531	    36	 100.0	    30	....................................	TAATTTGCGTTTCGTGTCGCTCATAAACCC	
+     47465	    36	 100.0	    30	....................................	TAATTTGCGTTTCGTGTCGCTCATAAACCC	
+     47399	    36	 100.0	    30	....................................	ACAAAGCCGCAAATCGTCCGCCGCGTATCA	
+     47333	    36	 100.0	    30	....................................	TTTGCTTCCTTTTAAAACTGTTTTGACAGG	
+     47267	    36	 100.0	    30	....................................	ATAAGATGGGAAAATTACCATGAGGCCTGC	
+     47201	    36	 100.0	    30	....................................	AACCGTCTGCACCGTAAATGTAATCAACTT	
+     47135	    36	 100.0	    30	....................................	CTGCGAACATGGCGACTCCTGTTTATTTAA	
+     47069	    36	 100.0	    30	....................................	ATGAGATTTGCCGTCTGCTGTTTGACGACT	
+     47003	    36	 100.0	    30	....................................	TTTCTCTGCCTGTATCAGGTTGCACAGGCG	
+     46937	    36	 100.0	    30	....................................	CGGCATCTACGACGAGGACGAGGCACAGCG	
+     46871	    36	 100.0	    30	....................................	GTAAGTGCTTTATTCATTATGGTTTCCTAG	
+     46805	    36	 100.0	    30	....................................	CTAGCTAGTTAGTTATGCAATCGGTAAGTC	
+     46739	    36	 100.0	    30	....................................	TGGATTTTGCCGCCGACGCAGAAAGCTGCA	
+     46673	    36	 100.0	    30	....................................	TTTGCTTCCTTTTAAAACTGTTTTGACAGG	
+     46607	    36	 100.0	    30	....................................	GGCTCGAAGTACCGCCCGTTATCCGCGCAG	
+     46541	    36	 100.0	    30	....................................	TTACTTTCTTGGTTGGTCTTCTTGATGTTT	
+     46475	    36	 100.0	    30	....................................	CTATTGCGTCAGCAGCAGCAAGAAGTCCGT	
+     46409	    36	 100.0	    30	....................................	CTATTGCGTCAGCAGCAGCAAGAAGTCCGT	
+     46343	    36	 100.0	    30	....................................	AACACGCGCAATCCCCCTTGCACGGTATTC	
+     46277	    36	 100.0	    30	....................................	CACGGCAGGCAGAGCGTTCACGCTCAATTT	
+     46211	    36	 100.0	    30	....................................	TACAACCCAATCGGACAATACCCGAAGCAG	
+     46145	    36	 100.0	    30	....................................	AAAACTTTTTAGGGGGTCGGAAAAAAATAC	
+     46079	    36	 100.0	    30	....................................	TTTTTTATTTTAATTTTTTATCCCCCAATG	
+     46013	    36	 100.0	    30	....................................	AGTTTTTAAATTTTTGATTTTGATTTTTTT	
+     45947	    36	 100.0	    30	....................................	TCGGATATTAAACAACTGAAATAAAAGGAA	
+     45881	    36	 100.0	    30	....................................	GATTGAGATTTTCAACGAGCAATGCTTTGA	
+     45815	    36	 100.0	    30	....................................	TGCCAGCCCGGGCGATTTCGAGGCGGTCAA	
+     45749	    36	 100.0	    30	....................................	CGGGCGTGATGTCGTGGAATAAGATGCCTT	
+     45683	    36	 100.0	    30	....................................	CTTCGGCGAATCCGCCCCTGCCGATTTACT	
+     45617	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+        40	    36	  99.9	    30	GTTGTAGCTCCCATTCTCATTTCGCAGTGCTACAAT	                              	       
+
+# Left flank :   GGATATTGTGCTAGAAGAAACAGAAAACGAGCAGAACAATGATTTCAGGCTGCCTGAAAATTTAGAACACTTTGATATTCAAATAGAAAATGTTTCTTTTCGCTATGCTGAAAATGAACCATACATTTTGCAAGATTTTAGTTTAATCATCAAACAGGGAACAGCAAAAATCCCCGCTGCAACGGGGATTTTTGTTCGGCTCTCGCCTGTGTGATTAACTTCACTAGGAGAAGCTAAAATGCTTAAATTCCTTATGCGTGGGAAAAAGTTGCTGCTGTCCGTTGAAGTGAACCACAAGTTCATTTTAGCGGTTGCTTTGCTGTTAAGTCAATGCAGTAGCTAACCCGACCACAATCAAAAAAACGCAAGTTTTCCGCCTACTCTGTGAGTGGGCGGTTTTTTCTTATTTCAAATCTGTGACACAATATCTGTCGCCTTTCTTGCCATAATTGCACTGTGTCTCAATGACTTTAACGCACGTTCGCTTATCGCAACGGCTG
+# Right flank :  ACCCCAACGGGAAATCCTTATTCTATAAGGATTTCCCGTTTTATTTAGTCTGAAAAAATGGGCTTAAAATAACAATAATTGGTCTGAATTGACCTTTTTTTCTTGGGTTTTCAGCTCGCCCAACAGCAGTTTCATGGCGGCATATTGCTTTTCTGTTATCTCCAAACAGCGGATTGAGCCTTCTTGCGGAAGGTTTGCACATAGTCTATTGTGGTGTTTTTGCAACGAATCGCGGCCTTTGACGATACGGCTGTATACGGAAAGTTGCAGCATTTGGTATCCGTCTTTTAATAAAAACTGGCGGAATTGATTGGCGGCTTTGCGCTTTGCCGCCGTGATAACCGGTAGGTCGAAGAAGACGATAATCCTCATAAATTTGGCCTCACTCATATTGGTATGCTTTCAATGGTAGGATTTCAGGCAGTTTCAGTTGTTTGGCGTTTTTATCGGTTACGCCGGCTTGAAATGACGAAACCATTTTGTCGATGGCAGCCAAGGTG
+
+# Questionable array : NO	 Score: 8.28
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTAGCTCCCATTCTCATTTCGCAGTGCTACAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         R [matched GTTGTAGCTCCCTTTCTCATTTCGCAGTGCTACAAT with 98% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.90,-0.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [65.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [65,287] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.68,4.68   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002214566 [45192-45518]; 
+# Array family : NA
+# Sequence source strain : 98008
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 98008
+//
+
+

@@ -1,0 +1,42 @@
+Array 1 59596-59095 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYJW01000018-Saccharopolyspora rectivirgula DSM 43747 Contig18, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================================	=======================================	==================
+     59595	    45	 100.0	    12	.............................................	AGCCCGGTTATG                           	Deletion [59539]
+     59538	    45	  93.3	    12	.......T..........A.....................G....	AGCCGGGTTACG                           	CGGCCC [59513] Deletion [59482]
+     59475	    45	  95.6	    33	.......T..........A..........................	AACCCGGCTACGACCAGCAGCCCGGCGGGTTCG      	A,CC [59448,59454]
+     59394	    45	  88.9	    39	..................A...C.A.........T.....G....	AGCCCGGCGGCGCCTACCCGCAGTCCGGCGGCTTCCCCA	CCC [59372]
+     59307	    45	 100.0	    39	.............................................	AGCCCGGCGGCGCCTACCCGCAGTCCGGCGGCTTCCCCA	
+     59223	    45	 100.0	    39	.............................................	AGCCCGGCTACGACCAGGGTTATGCCCAGCCCGGTTACG	
+     59139	    45	  95.6	     0	.......T..........................T..........	|                                      	
+==========	======	======	======	=============================================	=======================================	==================
+         7	    45	  96.2	    29	ACCAGGGCTACGGCCAGCCGGGGTTCGACCAGGGCTACGGCCAGC	                                       	       
+
+# Left flank :   GCCTACCCGCAGTCCGGCGGCTTCCCC
+# Right flank :  CGGGGTTCGACCAGGGTTACGGCCAGCAGCCCGGCGGCGCCTACCCGCAGAGCGCACCGGGCGGTTACCCGGCCGCGGACCCGGGTCAGCGGCCGCAGCTGACCGCGACCCTGCACCTGGACGACGGTTCGAACCGCACGTACACGCTCAAGCACGGCTCGAACATCATCGGCCGTGGCCAGGAGGGGCAGTTCCGGCTGCCGGACACCGGTGTATCCCGCAAGCACATCGAGATCACCTGGGATGGGCAGAACGCCATGCTCGCCGATCTCGGTTCCACGAATGGCACCACGGTGAACGGCACTCCGGTGCAAACTTGGCAATTGGCAGACGGAGACGTGATCAGGGTCGGCCACTCCTCCCTGATCTTCCGCGCTCAGCAGGCCTGAGGTCGCGGAATACGCGTCCAGACACGAGTAGGAGCGTTCACAACAGGTGCCAGAGCTGGTGATACAGCTGACCAGAGCAGGGTTTCTCGCCCTGCTCTGGTTGTTCGTGCT
+
+# Questionable array : NO	 Score: 2.25
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.78, 5:0, 6:0.25, 7:-0.07, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACCAGGGCTACGGCCAGCCGGGGTTCGACCAGGGCTACGGCCAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.10,-14.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-20] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [23.3-25.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [437,59] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 43747
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Saccharopolyspora.; Saccharopolyspora rectivirgula DSM 43747
+//
+
+

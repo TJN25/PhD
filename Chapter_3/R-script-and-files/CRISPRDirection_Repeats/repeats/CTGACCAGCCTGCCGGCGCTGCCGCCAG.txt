@@ -1,0 +1,173 @@
+Array 1 796663-797138 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_012125-Salmonella enterica subsp. enterica serovar Paratyphi C strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                    	Spacer_Sequence                                                     	Insertion/Deletion
+==========	======	======	======	===================================================	====================================================================	==================
+    796663	    51	 100.0	    38	...................................................	ATTTAACATCAAACTCAGATGTTGAACGTGAAGGATAA                              	
+    796752	    51	  66.7	    68	C....GTCAGC..C.TG.A..G...GAAGC.....................	TCTTTAGATGGTCCGAGTAAAATCTTTCAGGCAGCACCCGTATGGGTCGTTAGCTCAGTTGGTAGAGC	C,AGG,GTC [796757,796777,796789]
+    796878	    51	 100.0	    44	...................................................	ATATACAAGGTGGTAACTGGTAGAGAACGTGAAGGATAACGTTG                        	
+    796973	    51	  58.8	    59	CT..AG.AACGGCC.G.AG..CG..GAAGC.....................	TCCTGAATGATTGAAGCAGTAACCCTTATCCAAGGGGTCGTTAGCTCAGTTGGTAGAGC         	AG,GTC [796996,797008]
+    797088	    51	 100.0	     0	...................................................	|                                                                   	
+==========	======	======	======	===================================================	====================================================================	==================
+         5	    51	  85.1	    52	AGTTGACTTTTAATCAATTGGTCGCAGGTTCGAATCCTGCACGACCCACCA	                                                                    	       
+
+# Left flank :   ATGCGATTGTGGCGTTTCAGAACTTCATCAAGAAATACCCTGATTCTACTTATCAGCCGAACGCCAATTATTGGCTGGGCCAGTTGAATTACAACAAGGGTAAAAAAGATGACGCCGCCTATTATTTCGCCTCGGTAGTAAAAAACTATCCTAAGTCGCCGAAGGCTGCGGACGCGATGTACAAAGTTGGCGTTATCATGCAGGACAAAGGTGATACGGCAAAAGCGAAAGCGGTTTATCAGCAGGTGATTAACAAATATCCTGGCACTGATGGCGCGAAACAGGCGCAAAAGCGTCTTAACGCGATGTAATGCGTACCATGCGACCAGAAAACGCCTTTTTTCTGGTCGCGTCGTGCGATTCCTAAGCAGTTGAGCCCTCTGCGTCGAAATTTTTGTTGCGCTCAAATCTGAAATCAGTAATATATGCCGCCGTTGCCACGGGATATTAAACAACTCGAAAGCAACGTAAAAGTGGGTCGTTAGCTCAGTTGGTAGAGC
+# Right flank :  AATGTAAAAAAGCGCCCTAAAGGCGCTTTTTTGCTATCTGCGATATGGAAGATTCGAACCTGCCGTAGGTTCGGGTCTTGCCTGATGCGCTGCGCTTATCAGGCCTACAGACGGCATCGCTCACGTAGGCCAGATAAGACGTTACGCCGCCATCAGATACGGGGCTACGTAATTATTGTGACTTTCCTTATTGAATCAGCTATCTTGTTTAGCATATAAAACAAATTAACCGATTGTGGCGTTTATTACGCTTTCATTCGGTTGTTTCGTTAAGTCAGTAAAACGAGAAGCCACGATGAGCGTAATGTTTGACCCACAAGCCGCAATCTACCCGTTCCCGCCGAAACCAACGCCGTTGAACGACGACGAAAAGCAATTTTATCGTGAGAAAATCAAGCGGTTGCTCAAAGAGCGCAATGCCGTCATGGTGGCGCACTACTACACCGATCCGGAAATTCAACAGTTAGCAGAAGAAACCGGCGGCTGTATTTCCGACTCAC
+
+# Questionable array : YES	 Score: 0.19
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.25, 5:0, 6:-1, 7:-0.86, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTTGACTTTTAATCAATTGGTCGCAGGTTCGAATCCTGCACGACCCACCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.94%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-12.40,-12.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [28-29] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [191,295] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000029744 [3017126-3019789]; 
+# Array family : NA
+# Sequence source strain : RKS4594
+# Taxonomy hierarchy : RKS4594Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Paratyphi C str.
+//
+
+
+Array 2 1537778-1538165 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_012125-Salmonella enterica subsp. enterica serovar Paratyphi C strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   1537778	    28	 100.0	    32	............................	AACTGCGGACGCTGGAGGTCTCTGGTAACCAG	
+   1537838	    28	  92.9	    32	.....T..........T...........	GACTACTGGAACTGTCGATCTTTAGTAACCCG	
+   1537898	    28	  89.3	    32	......CA................T...	GACTATGTAAGCTGTGGATCTTTGGTAATCAA	
+   1537958	    28	  92.9	    32	................T.T.........	GGCTACAGGAGCTGTCGGTATCTGATAACCAA	
+   1538018	    28	  92.9	    32	...G....................T...	AATTATGTAAGCTGTGGGCCTATAATAACCAG	
+   1538078	    28	  89.3	    32	...............A..T.....T...	GGCTACAGGAGCTGTCGGTATCTGATAACCAA	
+   1538138	    28	  89.3	     0	...G...........A........T...	|                               	
+==========	======	======	======	============================	================================	==================
+         7	    28	  92.4	    32	CTGACCAGCCTGCCGGCGCTGCCGCCAG	                                	       
+
+# Left flank :   ATGTGGTCAGCAGATTTGAACTGCTCAGGACGCTCGCGTATGACGGATGGGAGGAAAACATTCATTCCGGCCTGCACGGGGAAAACTACTTCTGTATTCTGGATGAAGACAGTCAGGAGATGTTGTCAGTCACCCTTGATGATGTCGGGAACTATACCGTAAATTGCCAGGGGTACAGTGAAACCCATCGCCTCACCCTGGACACAGCACAGGGTGAGGAGGGCACAGGACACGCGGAAGGGGCATCCGGGACATTCAGGACATCCTTCCTCCCTGCCACAACGGCTCCACAGACGCCAGCAGAGTATGATGTTGTCTGGTCAGCGTGGAGAAGGGCTGCACCCGCAGAAGAGTCACGCGGCCGTGCAGCAGCGGTACAGAAAATGCGTGCCTGCCTGAATAATGGCAATGCAGTGCTTAACGTGGGAGAATCAGGTCTTACCACCTTGCCAGACTGTTTACCCGCGCATATTACCACACTGGTTATTCCTGATAATAAT
+# Right flank :  GAATTATATAAGCTGTGGGCCTATAATAATCGGCTGACCCGCCTGCCGGAAAGTCTCATTCATCTGTCTTCAGAGACAACCGTAAATCTGGAAGGGAACCCACTGTCTGAACGTACTTTGCAGGCGCTGCGGGAGATCACCAGCGCGCCTGGCTATTCAGGCCCCATAATACGATTCGATATGGCGGGAGCCTCCGCCCCCCGGGAAACTCGGGCATTGCACCTGGCGGCCGCTGACTGGCTGGTGCCTGCCCGGGAGGGGGAACCGGCTCCTGCAGACAGATGGCATATGTTCGGACAGGAAGATAACGCCGACGCCTTCAGCCTCTTCCTGGACAGACTGAGTGAGACGGAAAACTTCATAAAGGACGCGGGGTTTAAGGCACAGATATCGTCCTGGCTGGCACAACTGGCTGAAGATGAGGCGTTGAGAGCAAACACCTTTGCTATGGCAACAGAGGCAACCTCAAGCTGCGAGGACCGGGTCACATTTTTTTTGCA
+
+# Questionable array : NO	 Score: 2.67
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.62, 5:-1.5, 6:1, 7:1.21, 8:1, 9:0.34,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGACCAGCCTGCCGGCGCTGCCGCCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.90,-5.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [56.7-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [819,1082] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000029744 [3017126-3019789]; 
+# Array family : NA
+# Sequence source strain : RKS4594
+# Taxonomy hierarchy : RKS4594Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Paratyphi C str.
+//
+
+
+Array 3 3011243-3010603 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_012125-Salmonella enterica subsp. enterica serovar Paratyphi C strain		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   3011242	    29	  93.1	    32	.............T.............T.	CTGCATATTCACGCCTCACTCCAGCACACTGG	
+   3011181	    29	  96.6	    32	.............T...............	GTTGGACACTTCCTCCTGAAGCTCAGGTTGGA	
+   3011120	    29	  96.6	    32	.............T...............	CTATTTTCCTCGCATCTACAGGCAGGGTGAAA	
+   3011059	    29	  96.6	    32	.............T...............	TCGGATAACGTTTCGTCAGCGCGTATCATGCC	
+   3010998	    29	  96.6	    32	.............T...............	CTGGGAAGATTGGGCGCTTTCAATATCTTCCA	
+   3010937	    29	 100.0	    32	.............................	ATATTCAAACGGCGCGGGGGGAGACATCCGGA	
+   3010876	    29	 100.0	    32	.............................	GTTACAGTATCATGTAAAACTGTATAAAAACA	
+   3010815	    29	  96.6	    32	...C.........................	ATTGAAAAGCTGGCGATAAACAAGGCCCGCCA	
+   3010754	    29	 100.0	    32	.............................	ACGCAATTAAATCATGACGATTTGCGCGGCCA	
+   3010693	    29	 100.0	    32	.............................	AGGGGCGTTCCGCAGTCGACAAGGGCTGAAAA	
+   3010632	    29	  93.1	     0	A...........T................	|                               	A [3010605]
+==========	======	======	======	=============================	================================	==================
+        11	    29	  97.2	    32	GTGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   GTGCTCGCTGCCGGTGAAATTGAACCACCTCAGCCTGCGCCGGATATGCTGCCGCCAGCAATACCGGAACCTGAATCACTGGGTGATAGCGGCCATCGGGGGCATGGTTGATGAGTATGGTGGTTGTGGTCACGGAAAACGTACCGCCGCGCCTGCGGGGACGTCTTGCCGTCTGGTTACTTGAGGTTCGTGCAGGTGTTTATGTTGGCGATACCTCGAAGCGTATTCGGGAAATGATTTGGCAACAGATCACACAGCTTGGCGGAGTCGGAAACGTAGTAATGGCCTGGGCAACAAATACTGAGTCTGGTTTTGAGTTCCAGACCTGGGGTGAAAACAGACGTATTCCGGTAGATTTGGATGGACTGCGTTTGGTTTCTTTTCTTCCTGTTGAAAATCAATAAGTTGAATGTTCTTTAATAATAAGGAATTGTTATCTTACCGTTGGTAGTTTGTTATGTAGTAAAAAAGGGCTTTTAGAACAAATATATAGTTTTAGT
+# Right flank :  TTTCACCAGCTTATCAGGACGTTTTTTCCGCCTTCGCCAGCTCTTTTACCAACGGCAGCATTATCCGCACTACATCGCGGCTACGGCGCTCAATCCTCCCTGGCAGCGCCTTGTCAATATGCTGTTGATTATCAAGCCGTACGTCGTGCCAGCTATTGCCGTTCGGGAAGGATGCATTTTTCACGCGTTGCTGGTATCCGTCTTTTTTACCCAGATTCCAGTTCGTCGCCTCAACAGAAAGCACCGATATTCCCGCTTTATCGAAAACCTCCGCATCATTACAGCAACCCGTTCCTTTGGGGTAGGATGGATTGCGTCCCGGATTGGTGTTGGCGGCGATACCATAACGGCGCGCAATCGCTAATGCTCGATCGCGGGTCAGTGTACGCACCGCTTCCGGCGTATTTTTCCCGCTATTAAAATAGAGCTTGTCGCCAACAATCAGGTTATCGAGATTAATCACCAGCAGCGTATTTTTCTTCTCAGCGTCACTCATTCGT
+
+# Questionable array : NO	 Score: 7.59
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:1.12, 8:1, 9:0.61,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   GTGTTCCCCGCGCTAGCGGGGATAAACCG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [50.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [15,97] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000029744 [3017126-3019789]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : RKS4594
+# Taxonomy hierarchy : RKS4594Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Paratyphi C str.
+//
+
+
+Array 4 3029259-3028682 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_012125-Salmonella enterica subsp. enterica serovar Paratyphi C strain		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   3029258	    29	 100.0	    32	.............................	CGAAAATGCTTTGTATTGTCCATTGGCACACC	
+   3029197	    29	 100.0	    32	.............................	CTGTAATGCCTGAGCATTGCAGCCGGTTAGAT	
+   3029136	    29	 100.0	    32	.............................	GCCATCGACGGACAAGAAAACCCACCGGAAGA	
+   3029075	    29	 100.0	    32	.............................	GCTCAAAACTCGGATGGTATAGGCGTGGCGCA	
+   3029014	    29	 100.0	    32	.............................	ACGCGTTAAAACTGCGCTCAATGCAGACGGCC	
+   3028953	    29	  96.6	    32	...........A.................	GCCCGCCTGTCGCTGTACGCCGGGGCGGCATA	
+   3028892	    29	  96.6	    32	...........................T.	CCATAAGAGCATCCCCGCCATCCGGAGGGGAA	
+   3028831	    29	  96.6	    32	.........T...................	AGTTACTGATGCAGACTGCGGATCTTAATCGG	
+   3028770	    29	 100.0	    32	.............................	TGCGCCAACGACTGGAATTTTTGCGTGTAGCC	
+   3028709	    28	  82.8	     0	...............A.AA.....G-...	|                               	
+==========	======	======	======	=============================	================================	==================
+        10	    29	  97.3	    32	GTGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   GAAATCAAGCATCCCGTTGGGCGAGTTCGTGATATTGAGGCGCTGGATGAACTGTTAGCCACGTTGAGCGATGATAAACCGCGCGTGATTGCTTTGCAGCCCATTAGCCAGAAAGAAGACGCGACGCGTCTGTGTATTGAAACGTGTATTGCACGTAACTGGCGGCTGTCTATGCAAACGCATAAATATTTAAATATTGCCTGATGTATTACTAATCTTACAGACGGCCTGCCGATGCCGTCTGTGACTCATCCATTACCTTGCATTGTTTATTTTCTCTATGTGAATTTCGATGAGTGTATAAAAGCGCTGATAAATTTTTCCATAGCGATGCACGGATCACGCTATTTTGGTAAATTTAAAGAAAAAATCATTCTATGAACTTTTTTGCATCAAAATCAGCAAATTAGCTGTTCTTTAATAATTTAAATTGTTGCGATTATGTTGGTAGAATGTGGTGCTGATAAAAAGTAGTTTATAAACAATGACATACATTTAGT
+# Right flank :  TTGCATAATCATAATCTGTGTACCAGTAATGGCTGCTACAAACCTGTTGACTAGTCCTGATATAGGTTGACAGTTTTTTGTCTGTAAAACGCCTGATGAACATCATCGGGCGTTTTGTATTTCAGGGCCTGGTGTGGCCGTTCATGGTTATAAATTGCCACGGACTCTTTTACTATTTCCCGCGCTTGCTCCAGGTCTGCAGGACGCGAGAGTAAAAACTCATTTTTCAGTATCCCGTTTATTCTCTCAGCCAGCGCATTCTGGTAGCAGTCGTAACCATCGGTCATTGAACAGGTTATTCCGTTTCGCTCATGAACTGACTGATAAAGTACCGAACAGTATTGCAGTCCTCTGTCAGAGTGATGTACCAGCGGACCTGTCGTTTTTCTCCGCCTCAGAGCCTGCCTGAACGCCTTTACCACATTTTCTGTCTGCAGGTTTTCCCCGACATGGTAACCCACGATTTTTCTGGAGCAGGCATCGGTGACCAGACTCAGATA
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:1.14, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [52,297] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_000029744 [3017126-3019789]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : RKS4594
+# Taxonomy hierarchy : RKS4594Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Paratyphi C str.
+//
+
+

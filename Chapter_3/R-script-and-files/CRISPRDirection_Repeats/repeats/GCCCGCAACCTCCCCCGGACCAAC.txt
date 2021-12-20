@@ -1,0 +1,89 @@
+Array 1 11243-10912 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JOIK01000003-Streptomyces hygroscopicus subsp. hygroscopicus strain NRRL B-1477		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	========================	==============================	==================
+     11242	    24	  91.7	    30	....A......A............	GGCCCGCTCCAGATCCACAGTCCCCTCCCA	
+     11188	    24	 100.0	    30	........................	GGCCCGCTCCGAGCCCACACCCCCACCCCG	
+     11134	    24	  83.3	    30	....A.GG..............C.	AACCCGATCCGGGCCCACATCCCCGCCCTG	
+     11080	    24	  95.8	    12	.............T..........	ATCTCGCTCCGG                  	Deletion [11045]
+     11044	    24	 100.0	    30	........................	ATCCCGCTCCAGATCCACAGTCCCCTCCCG	
+     10990	    24	  87.5	    30	.............T..A.....C.	AACCCGCGCCGGGCCTCCGCCCCCACCCCG	
+     10936	    24	  75.0	     0	......GG.....T.G..C...G.	|                             	G [10916]
+==========	======	======	======	========================	==============================	==================
+         7	    24	  90.5	    27	GCCCGCAACCTCCCCCGGACCAAC	                              	       
+
+# Left flank :   ATGTGGCCTTTTGTAGGTACCAACGGCCACTTGCCACCTGTGGGAGAGAGCGTGCAGACGGATATCGACCCGCGGACCCTGATCGGCCGCAAGGCATTCGACCGCGAGGGCACCAAGATCGGCACCGTGGACGAGGTCTATCTCGACGACGCGACCGGCGAGCCCGAATGGGCGGCGGTACGCACCGGGCTGTTCAGCCGGGACGTCTTCGTACCGCTCGAACCGAGCGAGGTCGTCGGCGACACCCTGCGGGTGCCGTACGACCGGGCGCTGATCAAGGACTCCCCGGATTTCGGGGTCGGCCGCCATCTCTCCCCCGAGCAGGAGCTGCAGCTGTACCACCACTACGGGCTGGACGTCACCGGCTGACCACGGCCCCGCCCCTGTTCCCGCCCCGGCTGGTGCCCGCCGCCGGGGGCGGCGGGACCCGCGTCTGCGGGCCCCGCACCGGCGGCCCCACCCCGTCCCACGGCCTCCTCCGGACCGCCACCCCGCTCCGG
+# Right flank :  AGCGGCAGCGGTTCGGTCGGCTCCAGGGCCGGATCGTCCACGGCGAACGTCCGCACCCGGCCCGGCTCCGACCACGGCTCCTCGAAACGCACGGTGACCCGGCCCACCCCGCTCCCCTGCACCCAGCCCGCCCCGTACTCGGCGTGGCGCACATCGGAGCCCGGAAGCCAGCGCCGCGGCTTCCCAGCGCCCTCAGACGCCTCTCCCGCGCCCGCTGCCACATGCTCCGGTGTCGCGGGCCCCGGTGTGCGCCGCACGTCCTCCAGGGCCTCGTGAGCGGCCCGAGCACCTTGTGCCGCCTGGGCGCCTCGGGCGGCTCGGGCGGCTTCGGCGGCCTGAGCGGCCTGGGCCGCCTGCGCGGCCTGGGCGAAGAGATCCTCCTGGGTGTAGTCCGCCAGACCGCTGACCCCCACCCCCAGCAGCCGCACACCCGCCGTGGTGTCCACGCCCTCGATCAGCCGGGCCGCGGCCTCCCGCACCACCCCCGGATCGTCGGTCGG
+
+# Questionable array : NO	 Score: 2.09
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.53, 5:0, 6:0.25, 7:-0.05, 8:0.8, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCCGCAACCTCCCCCGGACCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.90,-0.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [10-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [25.0-15.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1545,132] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-1477
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. hygroscopicus
+//
+
+
+Array 2 236284-235780 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JOIK01000003-Streptomyces hygroscopicus subsp. hygroscopicus strain NRRL B-1477		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	============================	===============================	==================
+    236283	    27	  78.6	    31	.......T...GT-........G..C..	TGGGGGTGAGCCGGGAGTCACAAGCCGAGGT	
+    236241	    28	  82.1	    13	....T...A....GA........C....	GGCATGAGCCGGG                  	Deletion [236201]
+    236200	    28	  85.7	    13	..........A..G.....G..C.....	AGTCATGAACCGG                  	Deletion [236160]
+    236160	    28	 100.0	    30	............................	CAGGGTCATGAAGTGGCGGGCATGAGCCGG 	
+    236119	    28	  85.7	    27	........A....GA........G....	GGGCGTGAGCCGGGGGCCACGAGCCGG    	
+    236051	    28	  85.7	    14	.............G........GG.C..	GGTCATGGGGCGGT                 	Deletion [236010]
+    236037	    27	  78.6	    26	....G..T....TG..-......G....	GGCCAGGAGCGGGTGGGCGTGAGCCG     	
+    235985	    28	  78.6	    30	....G...A....G.....G...G..A.	CGGGGTCGTGAGGTAGTGGCCATGAGTCGG 	
+    235944	    28	  85.7	    13	.............G..A..G...T....	GCCATGAACCAGG                  	Deletion [235904]
+    235903	    28	  78.6	    13	..A.......A..G.....G..C....A	GGCATGAGCCGGG                  	Deletion [235863]
+    235862	    28	  82.1	    27	........A....GA......C.G....	GCCAGGAGCGGGTGGGCGTGAGCCGGG    	
+    235807	    28	  67.9	     0	.............G..CAATC.C.CC..	|                              	
+==========	======	======	======	============================	===============================	==================
+        12	    28	  82.4	    22	GGGGCCACGAGCCAGGGTCATGAAGTGG	                               	       
+
+# Left flank :   TCTCGGCCGCGGTACCGCCCACCGAGAGCAGCACGGACCACCCGACCATCGTGCCGACGAGCCGGCCGCTGGCGTACAGCGGCCAGCGCACCGTGCCGCCGCCCTCCGGGCGGGTGGCACCGAGCTCCACCATGACCAGGGCGATCAGGGCGCACAGCACACCCGCCCCGATCCAGGACAGCAGGGCGGCGGGTCCGGCGGCCTGGGCCGCGTACATGGCCGCGAACAGCCACCCGGAACCCAGGATGTTGGAGAACCCGATCGCGGTCAGGGCCCAGAATCCGAGATCCTTGTGGAGCCGTCGCTCCTCGGCGAGCACCGCCGGCGCGGCGATGGGCTCCGGAGGGTGGTTCTGCGGCACGGTGGCACGCCTCCTCGGTGATGCACGGACATACGAAAGGCCCAGCGTGCCATGCGGGCCGACGGGCGCCGCCGCCCCGCCCCGGGCGGCGGCCATGAGCCGCGCGGTCCGGGGGACGTGGGCCGGGGACCACGAGTTG
+# Right flank :  GCACTCCGAACGGCGTAGCAGCGACGGCGGGACGGGGGAGGCGTACCGAGACTGGGTGAGACGCCGGGTGGCCGCCCGCGCGTTCCCGTACCGGAGCGGAGGAGACCCCATGCACCACCGCAAGGATCTCGGCCTGCTCGCACTGCGACTCGGTGTGGGCGGGGTGTTGTTCGCGCACGGTACGCAGAAGCTCTTCGGCTGGTTCGGCGGCGACGGCCTGGACCGTACCGCCGGGGCCATGGAGGCGATGGGCTTCCGTCCGGGGCGGATCAGCGCCTCGGCGGCCGGGCTGGGCGAGGCGGGCGGGGGGCTGCTGCTCGCCCTGGGCTTCGCCACCCCGGCGGCCGGGGCGGCGGCGGCAGGCACGATGGCCGGTGCGGTGTCCGTGCACGCCCCGGCCGGGTTCTTCGCCCAGGCCGGAGGCTATGAGTACCCGGCCCTGGTGGGATGCTCGGCGACGGCACTGGCGATCTCCGGGCCCGGCCGCTACTCCCTCGACC
+
+# Questionable array : YES	 Score: 0.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.12, 5:-1.5, 6:1, 7:-0.72, 8:1, 9:0.18,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGGCCACGAGCCAGGGTCATGAAGTGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.00,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [24-20] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [28.3-18.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [111,141] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-1477
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces hygroscopicus subsp. hygroscopicus
+//
+
+

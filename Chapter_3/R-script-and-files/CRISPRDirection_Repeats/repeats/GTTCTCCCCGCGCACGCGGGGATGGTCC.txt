@@ -1,0 +1,543 @@
+Array 1 2014602-2013544 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                         	Spacer_Sequence                                                                                           	Insertion/Deletion
+==========	======	======	======	========================================	==========================================================================================================	==================
+   2014601	    40	  72.5	    47	A...G...CT.........G..G....T...G..GT.A..	GAAGGAGCGGCGGTCGTCGCGGCCGCCTCCGAAGGAGCGTCCCTCGC                                                           	
+   2014514	    40	  77.5	    14	...G.T..CC............G...AA...G..C.....	ACGGCTGTCCCGGT                                                                                            	Deletion [2014461]
+   2014460	    40	  75.0	    56	.A.......C.C...C..GGT.G.....A..A........	ACCCGGGCCGCGTCCGCCACGGTCGTAGGAGCGTGCACCCGGGCCGCGGTTGTCGC                                                  	
+   2014364	    40	  80.0	    23	G.T.A..............G..G..C........G..A..	CGGGAAGGAACGACGGTCCCCAC                                                                                   	Deletion [2014302]
+   2014301	    40	  70.0	   106	..T.G...CT......C..G.......T...A..G..TGG	AAGCGACCGCCCGAGCCGCGGTTGTCGCGGTCGCCGAAGGAACGGCGGTCGTCCCGCTGACCGTCACGGCCGCCGCGGTTGTCGAAGGAGCGGCGGTTGTCGCGGT	T [2014263]
+   2014154	    40	  82.5	    50	...........C...C..GGT.G...........G.....	ACCCGGGCCACGGTCACTGCGGAAGCCACCACGGTCACGGTCATCACGAC                                                        	
+   2014064	    40	 100.0	    50	........................................	CGAGAACGAACGCCGGTCCCCACCGTCGCGGAAGTCGCGTCCGCCACCGG                                                        	
+   2013974	    40	  70.0	    71	GA..A...CT......C..G..G....T...G..GT....	GAAGGAACGGCGGTCGTCCCGCTGACCGTCACGGCCACCACGGAAGTCGCGCCCACCACGGCTGTCCCGGT                                   	
+   2013863	    40	  82.5	    50	.A.........C...C..GGT.............G.....	ACCCGGGCCACGGTCACTGCGGAAGCCACCACGGTCACGGTCATCACGAC                                                        	
+   2013773	    40	 100.0	    68	........................................	CGAGAAGGAACGGCGGCCGTCGCGGTCGCCGCCGAAGGAGCGGCCCTCGCCGCGCTGGCCGTCGCGGC                                      	
+   2013665	    40	  85.0	    40	....G...........T..G..G...........G..C..	CGGAATCCGCCGCGGTCGTCGCGGCCCCGGGGGCCGCGGT                                                                  	T [2013630]
+   2013584	    40	  70.0	     0	..T.....T.AC.G.C..GGGG............G.G...	|                                                                                                         	T [2013546]
+==========	======	======	======	========================================	==========================================================================================================	==================
+        12	    40	  80.4	    52	CGCCCCGGAAGTCACGGCCACCACGGTCGTCCCGACCGCC	                                                                                                          	       
+
+# Left flank :   GTGGAAGATCCGCTCCTCGGTCTGACCGGTGTAGTCGGCCAGGGTGGGCCGGCCCTCGGGGTCCCACATGGTGCTGACGACGCCGCGCGGCTTGTTGAGCGCGAAGTACAGCTTGTCCGGGGCGGTGACCACGCGCATGCCGTCGACGCGGATCTCGGAGGACTCGGGGTCGACCCGGGCGCCGAACCTGCGCACGACCTGGCCGTCCACGCTGACGCGTCCGGCCGCGATCATCTCCTCGCTGGCCCGGCGGCTGGCGACCCCGGCCGCGGCGAGCGCCTTCTGGAGGCGGATGCCGTTCTCGACGTCGGTGTAGGTGTCGCGCGCCTCGTCGGCGTGGTCCTCGTCCTTGGGGTCGTAGTCGGCGCGCAGGGCGCTGAGCCGCTCGCGGGCCGCCTTGGAGAGCTGGTTCTCGCTCGTGACGCGCTTGGCGCCGGAGCGGTCGCCGCCGGGACGGCCGTCGCGGTCCTCGCGGTCGCGGAAGTCGCGTCCGCCACCGG
+# Right flank :  CGGCTGTCGCCGCGGCCCTGTCCGCCGCGCTTGTCGTAGTCGCCGCGCTCACCGCGCGGGGCGTCGTCCCGCGCACCGCGGGAACTGTTGTTAGGTGTGCTCACCGGTGTCGTCTAGACCTTCGATGTCGTCGGGGAGGAACGGCGCCAGATCAGGCAGCTCGTCGAGGCCTCGCAGGCCCAACCGTTCCAGGAAATAGGAGGTGGTCCGATACAGCAGCGCACCGGACTCGGAGTCGTGTCCGGCCTCTTCGATCAGGCCCCTCAGTACGAGGGTACGCATAACCCCGTCGCAGTTGACACCGCGCACGGCGGAGACCCTGCCCCGGGAGACCGGCTGTCGGTAGGCCACCACCGCCATCGTCTCCAGCGCGGCCTGGGTGAGCCGCACCTCCTGCCCCTCCCGGAGGAAGTGCTCGACGACGTCGGCGCATTCGGGCCGCGTGTACACACGCCACCCCTCGGCCACCGCCCTCAAGTCGAAACCCCGGCCCTGCTCGG
+
+# Questionable array : YES	 Score: 0.24
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.02, 5:0, 6:0.25, 7:-1.32, 8:1, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGCCCCGGAAGTCACGGCCACCACGGTCGTCCCGACCGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.30,-9.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [27-51] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [20.0-18.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [92,1023] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.92   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 2 2415322-2416448 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   2415322	    29	 100.0	    32	.............................	CTCCGCAAGAAGAACTCCAACGCCCCGACCAC	
+   2415383	    29	 100.0	    32	.............................	CGCTTCTCCCTGTCGGGTGCGGGCCATCCGGC	
+   2415444	    29	 100.0	    32	.............................	GAAGGGTGACCGGGCCTACATGTCCGGGGTCG	
+   2415505	    29	 100.0	    32	.............................	CCAGCCTTCCGGCCGGTCCTTCTTGCGCGGGA	
+   2415566	    29	 100.0	    32	.............................	CGCTTCTCCCTGTCGGGTGCGGGCCATCCGGC	
+   2415627	    29	  96.6	    32	............................T	CGCGGACGCCAGCGCCCCCACCCCCAGGGCGG	
+   2415688	    29	 100.0	    32	.............................	ATCGACGCCGGCGTCCACCAGCCCGGGCAGGT	
+   2415749	    29	 100.0	    32	.............................	CCGCCGGGATCAGAGCGGGCGCGGCGACCCAG	
+   2415810	    29	 100.0	    32	.............................	CGGGTCTTGCTGCGCACGAGGTCGAGGACCGT	
+   2415871	    29	 100.0	    32	.............................	ATCGACGCCGGCGTCCACCAGCCCGGGCAGGT	
+   2415932	    29	 100.0	    32	.............................	CCGCCGGGATCAGAGCGGGCGCGGCGACCCAG	
+   2415993	    29	 100.0	    32	.............................	CGGGTCTTGCTGCGCACGAGGTCGAGGACCGT	
+   2416054	    29	 100.0	    32	.............................	CTCGGGAAGTGGGGCGAGAACGCTGCCGCGGA	
+   2416115	    29	 100.0	    32	.............................	CACGTCCAGACCAACAAGGGCGTCGTGATCTC	
+   2416176	    29	 100.0	    32	.............................	GACGACGGGGTCGCTGCTGCTGGCCAGGGTGG	
+   2416237	    29	  96.6	    32	............................G	ATCCTCCTGCCGCCGCCCTGGGACGCGATGAG	
+   2416298	    29	 100.0	    32	.............................	TCTTCTCGGGTCATTGCACTTTCTCCTGTTCT	
+   2416359	    29	 100.0	    32	.............................	AGGACGGAGCGCGGGTGCGCCTGGTGTGCGGG	
+   2416420	    29	  96.6	     0	.........................C...	|                               	
+==========	======	======	======	=============================	================================	==================
+        19	    29	  99.5	    32	GTGCTCCCCGCGCACGCGGGGATGGTCCC	                                	       
+
+# Left flank :   CGAGCCCGACCGGGTCGAGGACGTGGAGGCCTACCTGCGGGACTACGCGCGCCGCCAGCTCACGGTGGTGCTCACGCCGCGGTTGATGCGGTTGAGGCGGATGGTGATCGGTGAGGTCGCGCGGTTCCCGGAGCTGGCGCGGGTGCTGTACGAGTGCGGGCCGCAGAGGGCGATCGCCGGGCTCGCTGAGAGCTTCGCCCGGTTGGGGGAGAGGGGGCTGCTGGCGGTGGGGGACCCCCTGCGGGCGGCGTCCCACTTCAACTGGCTGGTGATGTCGGAGCCGGTGAACCGGGCGATGCTGCTGGGGGACGAGGCCATTCCGGCGGAGGCGGAATTGTGCCAGCATGCGGAGGAGGGAGTGCGGGTGTTCCTCGCGGCGTATGGGGTTGACGGTCGTTAGGGGAGTTGTGGGGCGTTTGGGTTTTATGGGGCCGGTGTCTGTTTTTCGGGAAGTTGGAAAAACAGGCGCTTGCCACTGGTAAGTTCGCAGGTGGTTGACT
+# Right flank :  CCGATCGCACCAGCGGCAGCTACCTCCTTCGTCACCCCAGGCCCGGCACACCCGCTCACATCCGGTCAGACGAAGTACCGGGCCTGGAGGCGGAACAGTTCGGCGTAGAGCCCGTCGGCCCGGCTCAGCGTGTCGTGGGTGCCGGTCTCCACGACCCGGCCGCCGTCCAGGACCACGATGAGATCAGCCGCCCGGGCGGTCGTGAGGCGGTGCGTGACAAGGACGGTCACGCCGCCCTCCTGGCGGCTCAGGTCGGCGTACTGCTGGAACAGCCGCTCCTCAGCCCGTGCGTCGAGGCTGGCGGTGGGCTCGTCCAGGATCCGCAGCAGCGGCGCCCGCCGCATCGCCGCACGGGCGTTGGCGACCGTCTGCCACTGGCCGCCGGACAGTCCCTCGCCGTCCCACGACTTCCGTCCGAGCCGGGTGTCCAGGCCCTCGGGCAGCGAGGCGAGGAGCCCGTCCCCGCCGGCCGTCCGCAGCGCCTCGATGACCCGCTCAGG
+
+# Questionable array : NO	 Score: 8.04
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.07, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCACGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [102,65] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 3 2421730-2422612 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   2421730	    29	 100.0	    32	.............................	CAGTCCAACAACGTCACGGACGCCCCGTACTT	
+   2421791	    29	 100.0	    32	.............................	CAGTCCAACAACGTCACGGACGCCCCGTACTT	
+   2421852	    29	 100.0	    32	.............................	GCCATCAACGCCGCCGCCCGCTCCGGTGGTAT	
+   2421913	    29	 100.0	    32	.............................	AAGAAGTTGCGCGGGCGCTGGTCCGGACTGGT	
+   2421974	    29	 100.0	    32	.............................	CGGCCGTGCTGGCCGATCATCCGCCGGATGGC	
+   2422035	    29	  96.6	    32	............................T	CACCACCCGAGACCGCTTGGCCATCGGGACCG	
+   2422096	    29	  96.6	    32	............................G	CGGGTCCGAGGTCGGCGGGCGGGCGGTCCTCG	
+   2422157	    29	  96.6	    32	..................A..........	GGCACGGCACCCTGGACCGCCGCTGCGTCATC	
+   2422218	    29	 100.0	    32	.............................	GGGAAGCCCACCGGCACCGTCCGCAAGGTCGC	
+   2422279	    29	 100.0	    32	.............................	TCGATCACCGTCTTCTGGACGCGGTCCGGGTC	
+   2422340	    29	 100.0	    32	.............................	TCGACAGCGTTCTTGGAGAACCTGATCAGTCC	
+   2422401	    29	 100.0	    32	.............................	GCACCGGTCACCCCGACGGTGCCACCGGTGAC	
+   2422462	    29	 100.0	    32	.............................	ACCACCACGGGCCAGTCGTGGGCGTTCGGTGA	
+   2422523	    29	 100.0	    32	.............................	CACGCGGTGCGCCAGGCCGGGGAGGGGGTGGT	
+   2422584	    29	  96.6	     0	........................A....	|                               	
+==========	======	======	======	=============================	================================	==================
+        15	    29	  99.1	    32	GTGCTCCCCGCGCACGCGGGGATGGTCCC	                                	       
+
+# Left flank :   TCGGCCACACGCCGTCCGAGGAGTTCGCCCATATGACCGAGAAGCAGCGCAGGGCCATGTTCCTCGCCGAAGAGCTCCTGCCCGGTCTGCCGGACGACTTCGAGGCCCTCGTGGTGGAACAGCGGCCCCGGAAGCTGACCCGTGAGGGAACCGCCGTGGACGCCCACGACTCCACGCTGTTCGCCCGCCGTCGACGCTGAGAGCGACCGGCACGAGGCGTCTTGATGGGGGCCGACGGTCCCGGGAGCACCTTTGACGGGGCGTTTTCGGGACCTGTTGTCTGCGGGAGCTTCGGGACCGCGGTATCCCCTTCTGTTGGTTGGTGATGTCGGAACCGATGAGCCGGGTTATGTTGCTGTGGGACAAGGTGGTCTCGGGGCGTGTGGCCTGGTGGCGATTGAGGGGTTTTGTTGCTTATGGGGTTTTGGTGGTGCATGTCTGTTTTTCAGGAAGTTGGAAATTCGACTGCTTGCCATTGGTAAGTTCGCAGGTCGTTGACT
+# Right flank :  CCGAGCGCGAACGGGCCATGGTCAGGTGATGGCGTCGATCGGTAACAGGAACGCTTGTTCCCGGGTTCGAGCAACACCATCAGCCTTCTCGTCACCGAAATGTCGATGAGGTTCAGCAACGGCGCCACGGGCGAGAGTGTTGGCGGCTTCGGAGTCGAAGGCCGACGAGGGCCGTCTCAAGGCTGAGGGGCGTCGCGGCACTCGGCTTCGCCGGTCGGGCCCGCAGGTGTGACGCCGATCAGCGACGCACCATCCGGACCAGGGCGGCGGTGTCGTGTCGGCGGAACCAGGCCGCGACACAGACCAGGACCAGGGTGACCGCCGGGATGGCGACCAGGTCCGGGGTCACGATGGCGCTCAGGGCCGTCGCGCCGATCATCAGCGGGATCTGGCAGAGCAAGGCGAGGCCGCACAGCCGGGGAACGAGCAGCGCGATCGCCCCGGCGAGCTCCAGCCAGCCGACGACGACCATGCCGGGGATGCCGAGCCCGATCAGCTCG
+
+# Questionable array : NO	 Score: 8.04
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCACGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [55.0-38.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [302,238] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 4 2429557-2430440 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+   2429557	    29	 100.0	    32	.............................	TGAGAAACCGCTCATGAACTGGAGAAACACAT 	
+   2429618	    29	 100.0	    32	.............................	CGGGGCCGTGGTGTTGGACGCCGCGGATGTGG 	
+   2429679	    29	 100.0	    32	.............................	CGCGACCGCCTGCCTGGGGGCGTTGTAGACCC 	
+   2429740	    29	 100.0	    32	.............................	TCGTCGGCCTTGACCATCATCTGCACCCCGCG 	
+   2429801	    29	 100.0	    33	.............................	CCGCCGATCCACATGGAGGCCTCGTCGTGGCGG	
+   2429863	    29	 100.0	    32	.............................	CGGCCGCCGGGCCGCCGCGGTGGCCAGCTCCT 	
+   2429924	    29	 100.0	    32	.............................	GAGGCGGCGCGCGCGGACCCGTCGTCGCTGTC 	
+   2429985	    29	 100.0	    32	.............................	ATCCCGCGTGGCGCTGCCCTCTACCTGCGCGG 	
+   2430046	    29	 100.0	    32	.............................	TACTGGCGAACCTGCTGGAGGACCTGTCCGAC 	
+   2430107	    29	 100.0	    32	.............................	TGCGCGGCCGCCGCCTTGTTTGCCCACGTCCC 	
+   2430168	    29	 100.0	    32	.............................	TACTGGCGAACCTGCTGGAGGACCTGTCCGAC 	
+   2430229	    29	 100.0	    32	.............................	TGCGCGGCCGCCGCCTTGTTTGCCCACGTCCC 	
+   2430290	    29	 100.0	    32	.............................	GGCAGTGGTGAGGGGCTCGCCCTTCAGGCCAA 	
+   2430351	    29	 100.0	    32	.............................	CCTCCGTCCGTAGGTGGCCAACCACAGGAGCA 	
+   2430412	    29	  89.7	     0	...............A.......A.G...	|                                	
+==========	======	======	======	=============================	=================================	==================
+        15	    29	  99.3	    32	GTGCTCCCCGCGCACGCGGGGATGGTCCC	                                 	       
+
+# Left flank :   CAGGATCAGTGACGCATCCTATCCCTGTGCCCCGGCCTTCCAGCGACCTGCTGCACCGACCGCTTCCGCCGCTGCCTCGTCGTCGCCCGCTGGTCGGCCCGTTCTGCCCGGCCTGCGAGCACCCTTCGTGCCGTCGGCGTCGGGCCGCGCGCCTGCCCCGCCTGGGCGGCCACCGCTCTGAGTTCACTCGCGAGCACGCCCGGGCCGCAGTTCTCCAGCGGCATCACCCGCACCTGCTCATCTGGTTCGGTGAGCAGACTCTGTCCTACTGGGTGGCCTCGCCTGTCGGACTGACTGAGGTTTCCGAATCCGAGGTGCTGTTGCTCCTCGCGGAGCCGGTTTCCGTGAACTGAGGGGTTACCGGCAGGGGCGTGATGCGCTCCTGCCGGTATTCTGCGGACATGGTCTTCCCAGGGCTGAGTGCGTCGTCCGTTTTGTCTGCTTCTGAAGAAGTTGGAAAAACGGCTGCTTGCCACTGGTAAGTTCGCAGGTCGTTGACT
+# Right flank :  CTGGGAGTACGGCTGATGCCCTCCCAAGGCCTTCAGGGACAGGAGTCGTAATCCACGGACGCGCTTCCGGCTGCGGCGTCGTAGCACTGGCTGACCGGCGGTATCCCGGAGACACCCGGCACGAAGTCGGGGTCTCCGAAGGTGAGCGGGCCCCGCTCGGGAGCACCCGGGAAGGTGAGGACGAGCCTGTCGCCGACCGAGACCGGTCCGGGGGCCTCCTCCGGCTCGATCGGGCCCTCAGGAGTGGGCACCGTGAACAGCTCAGGCACGGAGGCGCTGTGGCCCTCGACCAGGTTCCCGACGAGCACGGTGAAGCGCACCCCCTCGGGGACCTCCTCCACGGAGCTCACGGAGAGGTGGAAGAGCGTCTCGTACGAGTCAGGGGTGGCCTGGAAGGTCGGCATGCCGTTCGGCGAGGTGATCACCTCCGCCAGCCATTCGGCGTTGGTGCCGAAGGGCGTCGGTTCCGGCATCACCCATTCCGTGTCGGGTCCCTCCGT
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.04, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCACGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-38.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [149,32] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 5 2483137-2483837 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   2483137	    29	 100.0	    32	.............................	CCGCCGCCGATGCCGATGGCGGGGAACTGCTG	
+   2483198	    29	 100.0	    32	.............................	GTCGAGATGGACCCGGAGAACCTGACCGGTTT	
+   2483259	    29	 100.0	    32	.............................	CCGGCGAGCACCTCGGCGCCGCTGGTGGCCGC	
+   2483320	    29	 100.0	    32	.............................	CCGGCGAGCACCTCGGCGCCGCTGGTGGCCGC	
+   2483381	    29	 100.0	    32	.............................	AGCCAGGAGTCGTAGGACTTCTCCGCCACCGA	
+   2483442	    29	 100.0	    32	.............................	GACCTGAGATCACCCCGATCGAACTGCCTCCG	
+   2483503	    29	 100.0	    32	.............................	CTACGTGTACAGCGTGAACGGCATGACCGGGC	
+   2483564	    29	 100.0	    32	.............................	TCACCGGTGGCCGACCCTTCCTGCACGCCATC	
+   2483625	    29	 100.0	    32	.............................	CAGGCGGGCATGCGCAACAGGGCGGGCCGGGT	
+   2483686	    29	 100.0	    32	.............................	CGACTGCCCTCTACCGACTGTTCGACGCTGAC	
+   2483747	    29	 100.0	    32	.............................	CCCACCGCGAGCCCCCGTATGCGAAGGCTCGC	
+   2483808	    29	  96.6	     0	.........................G...	|                               	G [2483831]
+==========	======	======	======	=============================	================================	==================
+        12	    29	  99.7	    32	GTGCTCCCCGCGCACGCGGGGATGGTCCC	                                	       
+
+# Left flank :   CCCGCCGCGCCAGCAGCGCGGTGGTCAGCCCGACGATGCCGCCTCCCACCACCGCGACGTCGACCTCCACGTCCTGGCTCAGACGGGGAAACTCCGGTCGGTTCTCCACGACCGTCCACACGCTCCTGTGCTGCATCCTCTGCCCCTCCCGATCAGGTCCAGACGCCGTCGGCCCCCGTGCGACGGACAGCGCCTACACCAGCTACCCAGCGTTCCCGGTCGCTACCGCCGGAGCCTCGGGTCGGGGCATGGACCCGCGCCGCTTCCAGAGCCGGGGGAGGGGTGCGTGGCGAACACGGGCTGGGCGAAAGGAGAGTGGTGGTGTGCGGTGGTTCCCCGGCAGAGGGGGATAGCGGTCTGTAGGTTGGGTCTTCTGGAGCTACAGCGTTTTGGTGGTTGGTGAGTTTTTGGTTCTCTTGGGGCCTGTGGTGCGTGTGTCTGTTTCTGAAGAAGTTGGAAATTCGGCTGCTTGCCGCTGGTAAGTTCGCAGGTCATTGACT
+# Right flank :  CGATCCCCACTGACTTCCGCGTTCGTCGTCCCCGGAAAACCGCTCGACGGCTTCGGGGCGACCTGACACAGTGGCGCACCATGACGGGTTCCGAACTTGTGACCGCCGCGGACGTGCGGCTCATGCAGGGGCTGGCGCAGCGCGTCACCGCGATCCGCCCCGACCTGGTGAACAGCGACGCCTCGTTCGGCGAGCTGGCCTGGAACTGGGGCCGGGGGCACGCCAGCGACGGCGCGACCTGGCCGCGTCGGCTGTGGTTCTCCGGCGGGGAACTGGTCGCGTGGGGCTGGCTCCGCCTTCCGCGCCGGGTGAGGCTGAGCGACGGCTCGGTCAGGGACGTCACCGGCGCCTACCTGATGCACCAGGTCCACCCCGACCACGCCGGGCTGGTCGACGAGGTGATCGCCTGGTACGACGCCACGGCGGCGGGCCTCGAACGCACGGTGCTGCCCAGCGCCGCCGACGGGTTCGCCCTGGAACGGTGGGCGGCGCACGGCTAC
+
+# Questionable array : NO	 Score: 8.10
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.11, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCACGCGGGGATGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [366,81] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 6 2493205-2493072 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence     	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	====================	=====================================	==================
+   2493204	    20	  95.0	    36	.G..................	TCCGCCCGTTCCTGGCCAGGGCGGTGGACAGGTGCC 	
+   2493148	    20	 100.0	    37	....................	CGGACCTGGCCGACATCGGCACCCGCCGCGAGGTGTA	
+   2493091	    20	  95.0	     0	...C................	|                                    	
+==========	======	======	======	====================	=====================================	==================
+         3	    20	  96.7	    37	CCCGCGCGCTGAGCGGGTGG	                                     	       
+
+# Left flank :   TGTACGCGGGCGTGTCCAACTACTCCCCCGAGCAGACGCGCGAGGCCGCGGCGATCCTGCGCGACCTGGGCACGCCGATGCTCATCCACCAGCCCTCCTACTCGATGTTCAACCGGTGGGTGGAGGACGGGCTGCTCGACGTGCTCGACGAGGTCGGCGCGGGCTCCATCGCCTACTCCCCGCTGGCACAGGGGCTGCTGACCGACCGCTACCTCCACGGTGTGCCGGAGGGTTCGCGGGCGGCCGGGAGCAGCCCCTTCCTGAACGCCGAGGGCATCACCGAGGAGGTGCTGGAGCGGGTGCGCGGGCTCGACGGGATCGCCCGGCGGCGCGGGCAGTCACTGGCGCAGATGGCGCTGGCCTGGGTGCTGCGCGGCGGCCGGGTGACCTCGGCGGTGATCGGCGCGAGCAGCGTCGAGCAGCTGGAGGACAACGTGGCCGCGGTGGCCGACCTGGAGTTCGACGCCGGGGAGCTGGCCGAGATCGACCGGTACGCTCCC
+# Right flank :  GTCAGGACCTCGCACTCCACGAGGGCGCGCGGGGGTACGCCTCCGCGCGCTGACGTCCCTACCGCCCGGCTGTCCCCTTCCGCACCAACGTCCTCTGCCACCCCACCGGCCCCGCCGCGGACCCGCGACCGTCCGCGGCGGGGCCCGCGCGTGCGCGCCGCGCGCGTCGCGGCGCGACGACCAGCGCTTCCGCGGCGTGAGGCGCGACACGCCCGCGTTTGGAGCACCCGGCACGGGTTAGGCGCATGCGTATGCATCCCCGCTCCGAGGAGCCCAGAAGAGGAAGGCGGTGCAGGTAACCGTGAAGAACGTGTTCGTGGTCGGCCTGGACGAGCACAACCTGGAGATCCTGCGCAGGACCCCCACAGGTCAGCACTGCGAGTTCCACCAGCTGCTGAACCTGGACGAGCTCCAGGTCGGCGAGATCGACATCCAGGAACTCCTGGCCAAGGCGGAGAGGATCCTGGACGACTTCGACGGGAGCGTCGACGCGATCGTGG
+
+# Questionable array : NO	 Score: 1.78
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.84, 5:-1.5, 6:-0.75, 7:1.79, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCGCGCGCTGAGCGGGTGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [2,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-26.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [303,1290] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 7 2835985-2836319 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+   2835985	    30	 100.0	    31	..............................	CATCTGATGACCGCACCGGTGTCAGGGTTGC	
+   2836046	    30	 100.0	    31	..............................	GCTGGCAGAAGGCGTAGAGGACGCTGTTGCC	
+   2836107	    30	  96.7	    31	.............................A	TCAGCCCAGAGGACCACGACCTCGTCCTCCA	
+   2836168	    30	  96.7	    31	........................G.....	ACACCTGATGAAGCGCGTCTACCTCGACTGT	
+   2836229	    30	  96.7	    31	........................G.....	CCGACCCGATGGAGACGGCTCTACGGCTGCT	
+   2836290	    30	  86.7	     0	..............G.........GG..T.	|                              	
+==========	======	======	======	==============================	===============================	==================
+         6	    30	  96.1	    31	GTGAGCCCCGCGCACGCGGGGATGAACCGG	                               	       
+
+# Left flank :   GAACAGGGCTGAGGCCCTTCCGGGGTGAGCCCGGACGGATCGTGTGGATGGGTGTTGGGCAGGCGTGGGCGTACGTGTGGCCGGACGGCACCGCCACCGGCGGCGGTGATCGCGCCTTGGGTGAGGAGTTGGGGCACGCCTATCGGATGCTGCGGGGCGCCGGGTTCCCGGGTCTGGAGAGCTTTGACCTGGAAGCCGTCGCTGGTCAGGATTCCTGCCGGGTGGGGTGTGCGGCCCTGGAGCAGCACTGGGATCACTCCGTATCGCCCTGACTTTCTCGTCTTGCTCATCCTGCTCGTAGTGCTCTTCAGGGCTGTTTCTCCGGGCCGGGGGCCTGCGACCGCAGCCCAGGCATGGAAAGCCTGTGTGCCCGGCGCGGTAGTGGGGATGAGCGCCGCCGTGCACTGTGTGAGGATGTACGTCGAAGCCGGGAGTGCTCAGCATGTCCAGGGCCAAGGTTGCGGCGAGATAACGGCCCGCGTTGCCGCAGGTCGTTAAGC
+# Right flank :  GTCTTGGGAAACTCCCGCCTGGTGGGGCGCGGTCTCGGTACGCTCACCGGGATGGTGACACTGAGACGCAAGGGGCCTGTGGTGCGGGAGATCGAGACGAAGTACCGGGTGGCCGATCTCGAAGCGCTGCTGGCCGCGCTCAAACAGGCCGGGGTGCGCATGAGCGACCCCGTCTACCAGGACGACCAGGCCTACGCCCCCGCTGGCTGGCGGCCGGAGCTGGGCCAGGTCGGCCACACCTTCGCCCGCGTGCGCACCCAGGACAGCGTGCACCTGCTCACCACCAAGACCCCGCTGGCCAACGCCATGGAGTGCGTGGAGTACGAGACCATCGTCGCCGACCGCGAGCAGATGCACGGGGCCCTGCTGGCGCTGGGCTACGAACCCACGGTGCGCATCGTCAAGCACCGTCGCACCGGCACCACAGGGCCCATCGGGGTGTGCGTGGACCTGGTCGAGGGCCTGGGCGTCTTCGTCGAACTGGAACTGGTGGTCGATGA
+
+# Questionable array : NO	 Score: 6.54
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.80, 5:0, 6:0.99, 7:0.06, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGAGCCCCGCGCACGCGGGGATGAACCGG
+# Alternate repeat :   GTGAGCCCCGCGCACGCGGGGATGGACCGG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [230,81] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.33,0   Confidence: HIGH] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 8 3099205-3099522 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                                        	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	=======================================================================================	==============================	==================
+   3099205	    87	 100.0	    27	.......................................................................................	GTTGACCCAGGGGTTGGCGTCGTCGTT   	
+   3099319	    87	  70.1	    30	................GCTCC..C...............C...T.GGT.CG..A.C.C..CGA...CCT.GT....G......A...	CTGCTTCCAGTGGGAGGAGCCCTGGTCGCC	
+   3099436	    87	 100.0	     0	.......................................................................................	|                             	
+==========	======	======	======	=======================================================================================	==============================	==================
+         3	    87	  90.0	    29	GGTGTAGCGGTAGATGTTGTTGTTGGCGTTGACGCCCCAGACGGTTCCGTCGGCGGCGGCGCTGATGTCGACCAGTCCTCCGGGGAT	                              	       
+
+# Left flank :   GCCCGGTCACCGGCATCCGCGACACCCAGAACCGGCCCTGGGCCACCTGTCGGCCCCGGCTCCTGAGTGGGCGGCGCTCCTGGCCGCGGTGCGCGTCCAGTAGCGGCACAGCGTGAACCGGTCCCGCCCGTAGTGGGCGGGGCCGGTCTTATCTGTTTGCTGGGCGTGGGCACCCCGTTCCACAGGACGGGGCAGGCGGGAAGCCTCCCGCGGCGCCGTCGCCGCGGGAGGCCGTCACCTGTCGCGGACCCGGATCAGGGCTGGTCGCCGGTGTAGCGGTAGATGTTGTTGTTGGCGTTGACGCCCCAGACGGTTCCGTCGGCGGCCGCGCTGATCTCGGTCAGCCCTCCGGGGATGTTGACCCAGGGGTTGGCGTCGTCGTTGGTGAAACGGTAGATCGCGTCACTGCTGTTGACCCCCCACACGTTGGTGCGCGATCCCGTCGAGATCCCCGTGAGAGCCCCGGAGATCTGCTTCCAGTGGGAGGAGCCCTGGTCGCC
+# Right flank :  TGTTGACCCAGGGGTTGGCGTCGTCGTTGGTGTAGCGGTAGATCGATCCGCTGGCGTTGACGCCCCACACGTTGGTGCGGGAGCCCACTGAGATCCTGGTCAGTGCTCCGGAGATCTGCTTCCAGTACGCCATGTCAACCTTCTCCGTCCATTCGGGGGACTGCGCTGAACTGTCAGGAACACATGTGGCACAGCCGGTCCTGGGGAGACCGGTGCACCTGTGGGGCGACGGTGGACACGAAGAATTTCGACGGCTCGCGGACATCGGCCGCTCGACCTTTCCTCTTCCAGAAAGGAATTCTCTGAATGGGGCTGGTGCGACGATGTTCCGCGTCTTCTCGGTGGAGCCGTGGAATCTTCGCCTTTCCCGGTCTCGCGCGTCGCTGCCGTTGAGATGCCTGAGGGTGGGGGAGTGCAATCCCTTTGGACCCGTTTCGGCCAATGTTCAGAAAATTATTCCCACACAAAAAGATCCGTGATGTGGAGATGGCAAATCCACT
+
+# Questionable array : YES	 Score: 0.76
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.50, 5:0, 6:-1, 7:0.17, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGTGTAGCGGTAGATGTTGTTGTTGGCGTTGACGCCCCAGACGGTTCCGTCGGCGGCGGCGCTGATGTCGACCAGTCCTCCGGGGAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [10,21] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-34.30,-21.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-26] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-38.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [399,639] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 9 4248504-4248076 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                                     	Insertion/Deletion
+==========	======	======	======	======================================	====================================================	==================
+   4248503	    38	 100.0	    22	......................................	GTCGTTGCGGTTGAAGGAGTCG                              	
+   4248443	    38	  84.2	    52	..........A..G....GT....T.G...........	CTCGGGTCGTCCGGTGCCGGGCATGCCGTAGTCGGCGTGGCTGTGGGCGCCC	
+   4248353	    38	  86.8	    22	..........A...C..C.......CC...........	GGACGAACGCTGGTGGGACCCC                              	
+   4248293	    38	 100.0	    22	......................................	GTCGTTGCGGTTGAAGGAGTCG                              	
+   4248233	    38	  84.2	    22	..........A..G....GT....T.G...........	CTCGGGTCGTCCGGTGCCGGGC                              	
+   4248173	    38	  71.1	    22	A..C.....TC..C.T..CT.....CG..C........	GGAGGACCGCTGGTGCGCTCCG                              	
+   4248113	    38	  81.6	     0	..........AC..A..C.......AC..C........	|                                                   	
+==========	======	======	======	======================================	====================================================	==================
+         7	    38	  86.8	    27	GTGTCGTAGGGGGAGCGGTGGTGGGTTCCGGTGTCGTA	                                                    	       
+
+# Left flank :   GGTCGGACGGGTACGGTTCCGGCGCCTGCGGCCCGCCGGGGCGCCGCTCCTCGTCGCCGGACTGCCAGTCCGGCGCGGGCGGGAAGCCGCCGTAGCCGGGCTGCTGCGGCTGCTGGGGCTGTCCGCCGGACGGGTAGCCGCCCGGGACACCGGGATAGCCGCCGGCGCCCCCGGCCGGATAGCCGAACGGGGCCTGTTCGCCGTAGCCCGCCGGGGCGTCCCCGCGCACCTGGTCCACCGGATAGCCGCCCGTCGGGTAACCGCCCTGCGGGTACCCGGGAGCCTCACCCGGGAACGCGGACGGGTAGGCGGGCTGGCCGACCGGCCCCTGGTCGAACGGCGCCGGAGGCTCCGGGGCCCCGGTGACCGCGCTCCCGCCCGGGAAGGCCGCCGCGCCGGGGCCGCCGTGGACGCCCGGGGCCCCGAAGGCGCCGCCGTCCTCCTGCGGACCCCACAGCGGGGGGTTGGGGTCCGGCTGGGCCGGGCGGCTGTGGGCGCCG
+# Right flank :  GGCCGAGCGCTGGTGGGTCCCCGTGGTGTGGGACGTCTCCGGCCGCGACCGGTAACCACCGCCCAGGGGGTCGGCGGGATCACCCGCGCCGCCCGGGGACGTCTGACCCGTACCCGCGCCGCCCTGACCGCCGCCGAAGCCGAGCTCGGAGCGCTGGTGCGCGCCGGTGTCCATGCTGGACCATATCGGCGAACTCGTGCCGGTGCCCGGGGCCGGGCGCTGGAAGGCCGGGTCGAGCGGGTCGGCGGGGGACGCGCTGCGCGCACCGGCCGTTCCCGGGTAGTCCGAGCGGCTCATCGACCCGCTGTCGTAGGAGGAGCGGCCCTGGAACGGGTCACCCGCGGACGGGACGGAACCGGAACCGCCGAGCGGGTCGAGCCCGGAGGAGGTCCCCAGCGGGTCGTGCGTGCTGGCCGAGGTCCTCAGCGGGTCGTGCGTGCCGGACGAGGACCCCAGCGGATCGGTCGAGGAGGGCGAGTAGGAGGAACGGGGAGACCACG
+
+# Questionable array : YES	 Score: 1.31
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.34, 5:0, 6:0.29, 7:-0.68, 8:0.8, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTCGTAGGGGGAGCGGTGGTGGGTTCCGGTGTCGTA
+# Alternate repeat :   GTGTCGTAGGAGGGGCGGGTGTGGTTGCCGGTGTCGTA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.10,-7.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [18-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-18.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1750,904] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 10 5901562-5897752 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+   5901561	    29	 100.0	    32	.............................	CAGGTGCCTGCCCGGTTGAGCAGCCACGTGTA 	
+   5901500	    29	 100.0	    32	.............................	GCGGCGGCGATGCGTTCGACCTCTACCGCGGG 	
+   5901439	    29	 100.0	    32	.............................	CGCTGGTGCTGGCCGACTCTCCCGTCGTGGTC 	
+   5901378	    29	 100.0	    32	.............................	GCGAGGAAGAGCAAGCTCCGCAGCTGCACTAC 	
+   5901317	    29	  96.6	    32	............................T	GCGTGGCGTCTTGCCAGCTATCGACCATTCCA 	
+   5901256	    29	 100.0	    32	.............................	CGGAACTCATCCGGTACGCGCTGGCGGCGGTC 	
+   5901195	    29	 100.0	    32	.............................	CGCATGGGGGTGCGGCTGGCCGGTCAGATCAC 	
+   5901134	    29	 100.0	    32	.............................	GTGAGCTGCTGGAGGTTGTTGCCCATGTTCTT 	
+   5901073	    29	 100.0	    32	.............................	CTCTCGCCCAGGTGCGGGGGGAGGTGTCGGGT 	
+   5901012	    29	 100.0	    32	.............................	CTCTCGCCCAGGTGCGGGGGGAGGTGTCGGGT 	
+   5900951	    29	 100.0	    32	.............................	AGAGGCCTCCTGCTGCCGGTCGGCCCGACTAC 	
+   5900890	    29	 100.0	    32	.............................	CCGTCGTGGCTCCGGGCGAAGTGCGAGGGCCG 	
+   5900829	    29	  96.6	    32	............................C	CGCCCCGGGATGACGGTGTCGACTCCGGTCTC 	
+   5900768	    29	 100.0	    32	.............................	GCCGCGACCGCAGCCCCCGCCTCCGACCAGGC 	
+   5900707	    29	 100.0	    32	.............................	GGCACGTACATCCCCGTGCGAGGCCCCGCTGA 	
+   5900646	    29	 100.0	    32	.............................	GACACGAACGCGCCCGTCGTTGTGAACGGTGG 	
+   5900585	    29	 100.0	    32	.............................	AGGCCGGTGTGAGCATCCGCGAGGTGACCCGA 	
+   5900524	    29	 100.0	    32	.............................	AGCAGGGACGGGTCGCTCAGCAGCAGCGGGAG 	
+   5900463	    29	 100.0	    32	.............................	GCTTCGGCGGCCTCGGTGAAGCGCCGCAGCAT 	
+   5900402	    29	 100.0	    32	.............................	CCGCCCACGCCACCACCTGACCCGACCACCAG 	
+   5900341	    29	 100.0	    32	.............................	ACCACCCATGCCCCTGCTTCCCGTCGTCCTGC 	
+   5900280	    29	 100.0	    32	.............................	CCCACGTCCTCGACCTCCTACGCCACCGCCGA 	
+   5900219	    29	 100.0	    32	.............................	CACTGGCGCAGCGACCCCCAGCAGCGGATCAG 	
+   5900158	    29	 100.0	    32	.............................	GGCATCTCCCACGCGGTCGACCCCATCACGCC 	
+   5900097	    29	 100.0	    32	.............................	CCCTTCCGGTCCCCGTGCCGGACGAGGACGAC 	
+   5900036	    29	 100.0	    32	.............................	GCGAGCTGGCCGAGCGCGAGGAGCACGCGGCG 	
+   5899975	    29	 100.0	    32	.............................	CACAACCTGACCAGGGGCGACGGCAAATCCTG 	
+   5899914	    29	 100.0	    32	.............................	TACGCGCTGACCAGCACGTCAGCGGTGACCCC 	
+   5899853	    29	 100.0	    31	.............................	GCACCCGCCGCCCTGCGGCAGTACCCCCTAG  	
+   5899793	    29	 100.0	    32	.............................	GGGACCAGTGTCCAGGTGACGGAGAGCTTGTA 	
+   5899732	    29	 100.0	    32	.............................	GGGGTCAGGTTGCCCTTGACCTTGGCCGACTT 	
+   5899671	    29	 100.0	    32	.............................	GAGCACCACGCCGCGCCGCTCCCGCGCCGCGC 	
+   5899610	    29	 100.0	    32	.............................	ACTTTCCCCCCGTTGGCCCTACTGCTGTCTCT 	
+   5899549	    29	 100.0	    32	.............................	TCCACGTCGGGGCGCATGCTGCTTCGGGTGGT 	
+   5899488	    29	 100.0	    32	.............................	TCCACGAATTCCTCATAGGACCCTTCGGGGAT 	
+   5899427	    29	 100.0	    32	.............................	GACCAGGGCGCGCACCTGAACGCCTGACCCCC 	
+   5899366	    29	 100.0	    32	.............................	CGCCAGGTGAGGGCCGCACAGCGGGCGCTGGA 	
+   5899305	    29	 100.0	    32	.............................	CCGAGCATGAGCCGCACCCCGTTGCCGAACTC 	
+   5899244	    29	 100.0	    32	.............................	GAGCTGGCGACGGCGGTGGTCAAGCGCGGCCC 	
+   5899183	    29	 100.0	    32	.............................	GCCCAGGCCAAACTGCCACCGGGGGAGATCGG 	
+   5899122	    29	 100.0	    32	.............................	GAGAGCAGCGTGACCTCGACCTCGACCGTGAC 	
+   5899061	    29	 100.0	    32	.............................	GTCGAGGACGTCCCAGCCCAGCAGGAGCCGTC 	
+   5899000	    29	 100.0	    32	.............................	TACCTGCGCGACGAGCGCGCCCGCGAGCGGGA 	
+   5898939	    29	 100.0	    32	.............................	ACGACCATGTCGCCGCGGATCACGAAGCGGGT 	
+   5898878	    29	 100.0	    32	.............................	CGGAAAGCGGGCGGCCACGGCCCGACGCTGGC 	
+   5898817	    29	 100.0	    32	.............................	CCCGCGATGAACGCCAGCGGGCTGAGGTCCAG 	
+   5898756	    29	 100.0	    32	.............................	GCAGGTGGGGGGTGTCGGTGACGCCGGTGACG 	
+   5898695	    29	 100.0	    32	.............................	CCTGGCCTCCGCCGGATCAACCAGGCGTGGGT 	
+   5898634	    29	 100.0	    32	.............................	ATCGCGAAGACCGCGCTCATCGTCGGCGTTAC 	
+   5898573	    29	 100.0	    32	.............................	CCCTCCAGGCCCGCACCGACGGGGACCTGGTG 	
+   5898512	    29	 100.0	    32	.............................	GGCTCCCGATCGTGGAGTTCCCGCAGTCCCCG 	
+   5898451	    29	 100.0	    32	.............................	GAGGAGATCCGGCGGCGGGGCGGTAAGAGCCC 	
+   5898390	    29	 100.0	    32	.............................	ACGGATGGGACCCCGGCGCCGCCTCCGGCCTG 	
+   5898329	    29	 100.0	    33	.............................	GGGTCCGCGCCATTCCCGGAGGTGCCCCCGGTG	
+   5898267	    29	 100.0	    32	.............................	GCGCACACGTAGACGGACTCGCTGGTGGCGGA 	
+   5898206	    29	 100.0	    32	.............................	CACGTCGGATCGTGCCCGTCCCGCCTGTACGT 	
+   5898145	    29	 100.0	    32	.............................	GCTCCTACTACGGCTACAACGTCGGCCTCGAC 	
+   5898084	    29	 100.0	    32	.............................	GCTCCTACTACGGCTACAACGTCGGCCTCGAC 	
+   5898023	    29	 100.0	    32	.............................	AACTCCGTAGCACAAGGGTCCTACGAAAATAT 	
+   5897962	    29	 100.0	    31	.............................	CTCGACGTCCCGGTGGAGGAGCTGTACTCCA  	
+   5897902	    29	 100.0	    32	.............................	GACGACGCGGCCGGAGCACTCGGCGCGGCCGG 	
+   5897841	    29	 100.0	    32	.............................	GAGATGGAGGACGCGCAGAAGACCGCTGAGCA 	
+   5897780	    29	 100.0	     0	.............................	|                                	
+==========	======	======	======	=============================	=================================	==================
+        63	    29	  99.9	    32	GTGAGCCCCGCGCACGCGGGGATGGACCG	                                 	       
+
+# Left flank :   GAGGGCGGCCGCGGAGTGGGCGCTCGGGCAGGTCGGCAAGCCGTATGTGTGGGGCGGTGTGGGGCCCGACGGCTTCGACTGCTCGGGGCTGACCATGATGGCCTGGAGAGCCGCTGGGGTGTCGATCCCGCGGGTGACCACCGATCAGGTGAACATCGGGACCCGGGTTTCGCTGGACGCTCTGGTACCGGGGGACCTGCTCTTCTACGACACCGGGAGCGGGCCCGCGCCCTCACACGTGACCATGTACGTCGGCGACGGCCAGATGGTCAACGCTCCTCGTACGGGTACGACCATCCGGGTGGAGCCGGTGGAGGGGCCGTACTACTCCGCTCGCTTCATGTCCGCTGTTCGCCCCGGTTGAGGAGCTTGAACGGACGCTGGAGCGGATCCGTGGCTCCTGTTGTGTGAGGATGGGCGTATGCGGGTCACGAGGGTGGCTGGCATGCTCCAGAGAAGATTGCGGGAAGATAACGGCCCGCGTCTTCCCAGGTCGTTAA
+# Right flank :  CTGCCCAGTCGCCGGAGCGACCTTCAGGTGTTGTGAGCCCCGCCATGCGGAGGTCAAATGGCGGTACGGAATTCGCCTGCTTTCTTGGTCGAGCCTGTTCGCCAGGGTGTTCGTCTAAGCGTGCGAACAGGGTGGATGGCACTGACAGGGCAGGTCAGAGTGGGTGCAGGGTGTTCGTTCTGACGCCCCGACTTATAGCGTCTTGCTACTCATTCACCGGGTGGGGGGAGGGCTGGGGGCGCGAGGTTCTCACCGCTCGGGTGTCCAACCCGGTGGGTGCGGGTGGCTTCTTTGGAGGGTGAAGGGGACTTCATCCGAGGAAGGGGCGTACCCATGTGGGCGTGGGACGAGGACAACGGCTGGTGCCTGGGTGGTGGGGAGCGCTGGTGCTCCGCGAAGGCGGGTCACGGCCAGGGCCGGTGCCGTCGGGTGAAGGAGCCCGTGGTGCCGGTGGCGGGCCAGCGGGAGCGTCAGATGTTGCTGACCGACCTGCGGGCGCT
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.99, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGAGCCCCGCGCACGCGGGGATGGACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [335,137] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+
+Array 11 6373133-6372983 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP017965-Nocardiopsis dassonvillei strain NOCA502F, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   6373132	    28	 100.0	    33	............................	CGCCGACGGGTTACTGATGAGCTTGGCGCGCTG	
+   6373071	    28	 100.0	    33	............................	CTCCGCGTCCGGCGCGGTGAGCTGGGTGGGCAG	
+   6373010	    28	  96.4	     0	..G.........................	|                                	
+==========	======	======	======	============================	=================================	==================
+         3	    28	  98.8	    34	GTTCTCCCCGCGCACGCGGGGATGGTCC	                                 	       
+
+# Left flank :   AGCCGGTCGGTGTCCTCCTGGCCGTACTCCGCGATCCGCTCCCGGTCGAAGCCCTCCAGGGCCCGCCGGTAGTTCTCCCGCTTGTTGAGCACGGTGGACCAGGACAACCCGGCCTGCGCGCCCTCCAGGACGAGCATCTCGAACAGGTGCGCGTCGTCGCGGGAGGGCCTGCCCCACTCGTGGTCGTGGTAGTCCCGCATCAGCTCGGAGGACCCCCGTGCCCAGGCACAGCGCTGGTCGGACATGGCAGCTCCTCGGGGCCGGCGGCGGTGGTCGCCTCCATGGTGCCGCAGGTCGGAGACAGTCCGGACGCGACCTCCGGTCGGGGTGCGTTGCGCAGGTGTCTCGCTGGTCGCGGTCCTGATCAGTAGGGCGAGTGCGCCGGTCCTGTGTGTGAAACCATGGGATGGTTCGGACTTGGCTCTGTGGGTGAAATGCCTGTTTCTCGGGAAGTTGGAAATTCGGCTGCTTGTCGCTGGTAATTTCCCAGGTCAGTGACT
+# Right flank :  AGTGAGCAGGTTTTGCAGGAACTGAGAAGGGGCCGCCAGCGGAGAACGCTGGCGGCCCCTTTACGCGTGTTACCGGGAACGAACGCTGGTGAGGAACGCTGCCCACTCGGCTGAGGGCGCCTCCAGGTGACCGAGGTGACGGTTCTGCGTGTCACGGACGGCGGCACCGGTGCCGGTGTCCGCGACCTCGACGCAGTTGCCGCCGCTGGGCTGGCTGTAGCTCGACTTACGGAAGTTCAACAGGGTGGGAACTGAGGTCATGGTCTTCTACTCGATCATCTGTCGAAGGTGGTCGATCGTCTCGCCGGGACGGAGAGCGGCCAGGCGTAGGTGGTTCATCAGGTTTCTGTAGCGGGCGACCTCGTCGGGCTCCTCCAAGTAGATTCCATCGGTGTCCGTTTCCAAATAGACCACCGTGGGGTCGACCGATTCGGGGAACTCCAAGATGACGAAGGGACCTCCGCTTCCCGCGTTGAGCTGGGACGCGCGTGTCATCTGGA
+
+# Questionable array : NO	 Score: 6.87
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.84, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCTCCCCGCGCACGCGGGGATGGTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [35.0-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [71,256] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.23   Confidence: MEDIUM] 
+
+# Identified Cas genes:  RAMP Unclassified_Cas_protein:WP_071622418 [4345401-4347629]; Unclassified_Cas_protein:WP_071622419 [4348375-4350000]; 
+# Array family : NA
+# Sequence source strain : NOCA502F
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis dassonvillei
+//
+
+

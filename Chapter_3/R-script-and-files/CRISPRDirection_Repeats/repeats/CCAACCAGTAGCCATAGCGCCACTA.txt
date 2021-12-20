@@ -1,0 +1,41 @@
+Array 1 38856-38531 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AUPA01000177-Clostridium sp. BL8 Contig28, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=========================	====================================	==================
+     38855	    25	 100.0	    35	.........................	GGTTTTAGATAATATCGAGTACTACCAAGGGTTAG 	
+     38795	    25	  92.0	    35	..................A..G...	TCCTTTAAATAATACCAAGTACCGCTAAGATTTAC 	
+     38735	    25	 100.0	    35	.........................	GGTTTTAGATAATACCAAGTACCTCCTAAGTTTAA 	
+     38675	    25	  80.0	    35	...GTT.........G..A......	GATTTAAAGTAGTACCAAACATTACCTAGTTTTTG 	
+     38615	    24	  80.0	    36	......G...A....G..T...-..	TGAATCCATAAAGTACCAAATAGTTCCATCTAGAAC	
+     38555	    25	  72.0	     0	...G..T........TTTT...T..	|                                   	
+==========	======	======	======	=========================	====================================	==================
+         6	    25	  87.3	    35	CCAACCAGTAGCCATAGCGCCACTA	                                    	       
+
+# Left flank :   GTATTATGCTTGGACGAGGAGATCTTTTTGCTGAAGTTGAAACCATAGACATACCCCTAGTACAAGATAAGTTAATGAAAATAATGAGAAAGTCTGATAAGGACTTTATAATAGCAACTTATATTTTAGAATCCATGAAAAGAAATATGATACCAACCATAACGGAAGTTAACGACATTTATAATTTCATCAATGGAAAAGTTTCAGGGTTCATGCTTTCTGGTGAAGTTAGTATAGGACGTTATCCACTTTTAACCTTAAAAACCATGAAAAGCTTAATAGACAGATATGCTGAATAATTTGTAACCCTTACTAAAATTGAAAGCAAAAGAGCTATGTCGTAATATTTAATTATATTATTACGAAGTAGCTCTTTAATATTTAATTACTTATTAAGATATCCATACCCCATTTCTATCGAATCTATAGCCATTAACTGTGGTGTTAACTGCCATTGCTCCACTACTTAAGAAGTAATACCATTTCCCACCAGTAAGCAA
+# Right flank :  CTATTTAAGTAATACCACCTGTTGCTGGTATATAACCAACCAACTCTCATAGTTCCATCTTCATTGTAATAATACCAGCTGCCATTTTCATAAGACCAACCAACTTTACCAACTACTGAAACAATACAAGAAGCAGTATAACTTCCATCCTTTGTAGTGACCATTATTGTAGAAGTACCTCTGCCAACTGCAACAATTCTTCCATAACTATCTACTGTTGCTACAGAATTGTTACTACTTTTCCATTCTACAGTTTTTTCACTTGCATCACTTGGATTAATTGTTGCAGTGAGAGAGGCTTGTTCACCTTGTTTTAGCTTTAATTCTGTCTTATTTAAACTTACGCCTTTTACTGGGTTTAACACAGTTATAAGTGAGGTAGCAATTAATCCTCCATCCTCTGTTATAGCAGAGACAGTGGCACTGCCTGGCCCAACTGAAGTTACAATTCCATTGGAATCAACTACTGCTACAGAAGGGTTACTAGTCTTCCAGTTAAC
+
+# Questionable array : NO	 Score: 3.34
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.36, 5:0, 6:0.34, 7:0.95, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCAACCAGTAGCCATAGCGCCACTA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.40,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [12-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [3708,202] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BL8
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;Clostridium.; Clostridium sp. BL8
+//
+
+

@@ -1,0 +1,1944 @@
+---
+title: "CRISPR-Cas Systems analysis"
+author: "Thomas Nicholson"
+date: "2/9/2017"
+output: pdf_document
+---
+
+I don't think all of these libraries are needed.
+##setwd() is run in this chunk
+
+## If you have trouble running rename(), seperate() etc, then uninstall all instances of tydr, plyr, dplyr and just install/call tidyverse
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#install.packages("EMT")
+##load packages
+library(EMT)
+library(tidyverse)
+
+setwd("~/Brown_Lab/R-script-and-files") 
+dir.create("Output",showWarnings = F)
+dir.create("Output/Discard",showWarnings = F)
+dir.create("Output/Data",showWarnings = F)
+dir.create("Output/Analysis",showWarnings = F)
+
+Out.Dir<-"Output/"
+Run.Clean<-T
+Objects.To.Keep<-c("Objects.To.Keep","Run.Clean","Counts","Out.Dir","quadrant_analysis","generate_random_distribution","ks_test_analysis","normalise_distribution_values","prism_format_protospacer_distribution","protospacer_distribution")
+
+##Looks at the strand and quadrant distributions. It only needs swipeData and a subtype to run.
+quadrant_analysis<-function(dat, Subtype.label, use.all.hits){
+ 
+dat<-dat%>%filter(Subtype == Subtype.label) # move this out of the function to allow type II systems to be pooled?
+  
+if(use.all.hits == T){ 
+   IFData<-dat%>%filter(spacer.order.number >= 2)
+ }else if(use.all.hits == F){
+  #@@ testing    IFData<-dat%>%filter(spacer.order.number == 2 | spacer.order.number == 3)
+       IFData<-dat%>%filter(spacer.order.number == 2)
+ }
+  
+IFData<-IFData%>%mutate(tmp = paste(target.strand, five.three.prime.dir, sep = "_"))
+quadrants<-as.data.frame(table(IFData$tmp))
+total<-sum(quadrants$Freq)
+quadrants<-quadrants%>%mutate(percentage = round(Freq/total*100, 2))
+strands<-as.data.frame(table(IFData$target.strand))
+strands<-strands%>%mutate(percentage = round(Freq/total*100, 2))
+strands.prob<-binom.test(strands$Freq[2],total,p=0.5)
+mat<-matrix(c(round(quadrants[4,2]), round(quadrants[3,2]),round(quadrants[1,2]), round(quadrants[2,2]) ), nrow = 2, byrow = T) #@@ Does this do anything?
+
+quadrants<-quadrants%>%mutate(rowNum = c(3,4,1,2))%>%arrange(rowNum)%>%select(-rowNum)
+#mat.res<-multinomial.test(observed = quadrants$Freq, prob = c(0.25, 0.25, 0.25, 0.25), MonteCarlo = T, ntrial = 10000000) @@ I don't think the Monte Carlo is necessary for our (simple) system - you need to run lots of trials for this to give a valid p value. On my laptop it is faster to run the mathematical version....
+
+mat.res<-multinomial.test(observed = quadrants$Freq, prob = c(0.25, 0.25, 0.25, 0.25))
+
+
+#print(paste("Host-Target pairs:", length(unique(IFData$host.target.pair))))
+#print(paste("Hits not incl. PPS:", total))
+#print(paste("Quadrant p-value:",round(mat.res$p.value, 4)))
+# print(mat.res$p.value)
+
+Out.Table<-tbl_df("Host-Target pairs")%>%mutate(Freq=length(unique(IFData$host.target.pair)))
+Out.Table<-Out.Table%>%bind_rows(tbl_df("Hits not incl. PPS")%>%mutate(Freq=total))
+Out.Table<-Out.Table%>%bind_rows(tbl_df("Quadrant p-value")%>%mutate(Freq=round(mat.res$p.value, 4)))
+Out.Table<-Out.Table%>%bind_rows(tbl_df("Strand p-value")%>%mutate(Freq=round(strands.prob$p.value,4)))
+Out.Table<-Out.Table%>%rename("Var1"=value)
+Out.Table<-Out.Table%>%full_join(quadrants)%>%full_join(strands)
+
+Out.Table[is.na(Out.Table)]<-0
+print(paste("Subtype =",Subtype.label))
+print(Out.Table)
+#print(strands)
+#print(quadrants)
+return(Out.Table)
+
+
+}
+
+##takes swipeData and produces a random distribution for all subtypes in the swipeData
+generate_random_distribution<-function(swipeData){
+  ##generate the random dataset
+set.seed(100)
+
+##generate dataset with 100 replicates
+targets.dat.replicated<-swipeData[rep(seq_len(nrow(swipeData)), 100), ]
+
+##randomly assign protospacer site and strand
+rh<-targets.dat.replicated%>%
+  mutate(dist.from.PPS = runif(min = -0.5, max = 0.5, n = nrow(targets.dat.replicated)))%>%
+  mutate(dist.from.PPS = round(dist.from.PPS*genome.length, 0))%>%
+  mutate(dist.from.PPS = ifelse(spacer.order.number == 1, 0, dist.from.PPS))%>%
+  mutate(target.strand = round(runif(min = 0, max = 1, n = nrow(targets.dat.replicated)), 0))%>%
+  mutate(target.strand = ifelse(target.strand == 1, "t", "n"))%>%
+  mutate(five.three.prime.dir = ifelse(dist.from.PPS < 0, ifelse(target.strand == "t", 5, 3), ifelse(target.strand == "t", 3, 5)))%>%
+  mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))%>%
+  mutate(target.pos = runif(min = 0, max = 1, n = nrow(targets.dat.replicated)))%>%
+  mutate(target.pos = round(target.pos*genome.length, 0))
+
+rm(targets.dat.replicated)
+
+##assign replicates into groups
+rh<-rh%>%arrange(unique.spacer.target.match)%>%mutate(group.number = rep(1:10, 10*nrow(swipeData))) #@@ unique.spacer.target.match is not found
+
+return(rh)
+}  
+
+
+
+generate_random_quadrants<-function(swipeData){
+  ##generate the random dataset
+set.seed(100)
+
+##generate dataset with 100 replicates
+targets.dat.replicated<-swipeData[rep(seq_len(nrow(swipeData)), 100), ]
+
+##randomly assign protospacer site and strand
+rh<-targets.dat.replicated%>%
+  mutate(dist.from.PPS = abs(dist.from.PPS))%>%
+  mutate(target.strand = round(runif(min = 0, max = 1, n = nrow(targets.dat.replicated)), 0))%>%
+  mutate(target.strand = ifelse(target.strand == 1, "t", "n"))%>%
+  mutate(five.three.prime.dir = round(runif(min = 0, max = 1, n = nrow(targets.dat.replicated)), 0))%>%
+  mutate(five.three.prime.dir = ifelse(five.three.prime.dir == 1, "5", "3"))%>%
+  mutate(dist.from.PPS = ifelse(five.three.prime.dir == "5" & target.strand == "t", -dist.from.PPS, ifelse(five.three.prime.dir == "3" & target.strand == "n", -dist.from.PPS, dist.from.PPS)))%>%
+  mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))
+
+rm(targets.dat.replicated)
+
+##assign replicates into groups
+rh<-rh%>%arrange(unique.spacer.target.match)%>%mutate(group.number = rep(1:10, 10*nrow(swipeData)))
+
+return(rh)
+}  
+
+##takes the swipeData, random data and a subtype and generates a distribution table for plotting (this is done elsewhere)
+protospacer_distribution<-function(swipeData, rh, Subtype.label){
+  ## Setup #####
+  ##input variables
+  binwidth<-150
+  smoothing.val<-150
+  xlim.num<-10000
+  
+##select the random data for a given subtype
+sr<-rh%>%filter(Subtype == Subtype.label)%>%filter(spacer.order.number > 1)
+
+##label the data as random and include the group number
+sr<-sr%>%mutate(data.type = paste("random", group.number, sep = "_"))%>%
+  mutate(data.type = ifelse(data.type == "random_1", "random_01", data.type))
+
+##select the data that will be needed for determining posisiton
+sr<-sr%>%select(dist.from.PPS, data.type, strand.plus.direction)
+    
+
+
+st<-swipeData%>%filter(Subtype == Subtype.label)%>%filter(spacer.order.number > 1)
+
+
+##label the data as target
+st<-st%>%mutate(data.type = "targets")%>%
+      mutate(strand = ifelse(strand.plus.direction == "n_5", "n", ifelse(strand.plus.direction == "n_3", "n", "t")))%>%
+      select(-strand)
+
+##select the data that will be needed for determining posisiton
+st<-st%>%select(dist.from.PPS, data.type, strand.plus.direction)
+
+
+## Calculate densities #####
+##combine the random and real data
+D = rbind(sr, st) 
+  
+
+##select the quadrant  
+n_3.den<-D%>%filter(grepl("n_", strand.plus.direction))  %>% 
+      group_by(data.type) %>% 
+## calculate densities for each group over same range; store in list column
+      summarise(d = list(density(dist.from.PPS, from = -xlim.num, to = 0, n = xlim.num/binwidth, bw = smoothing.val))) %>% 
+## make a new data.frame from two density objects
+      do(data.frame(distance.breaks.short = .$d[[1]]$x,    # grab one set of x values (which are the same)
+                    density.values.random_1 = .$d[[1]]$y,
+                    density.values.random_10 = .$d[[2]]$y,
+                    density.values.random_2 = .$d[[3]]$y,
+                    density.values.random_3 = .$d[[4]]$y,
+                    density.values.random_4 = .$d[[5]]$y,
+                    density.values.random_5 = .$d[[6]]$y,
+                    density.values.random_6 = .$d[[7]]$y,
+                    density.values.random_7 = .$d[[8]]$y,
+                    density.values.random_8 = .$d[[9]]$y,
+                    density.values.random_9 = .$d[[10]]$y,
+                    density.values.targets = .$d[[11]]$y))# %>%    # and subtract the y values
+
+##select the quadrant  
+    n_5.den<-D%>%filter(grepl("n_", strand.plus.direction))%>% 
+      group_by(data.type) %>% 
+## calculate densities for each group over same range; store in list column
+      summarise(d = list(density(dist.from.PPS, from = 0, to = xlim.num, n = xlim.num/binwidth, bw = smoothing.val))) %>% 
+## make a new data.frame from two density objects
+      do(data.frame(distance.breaks.short = .$d[[1]]$x,    # grab one set of x values (which are the same)
+                    density.values.random_1 = .$d[[1]]$y,
+                    density.values.random_10 = .$d[[2]]$y,
+                    density.values.random_2 = .$d[[3]]$y,
+                    density.values.random_3 = .$d[[4]]$y,
+                    density.values.random_4 = .$d[[5]]$y,
+                    density.values.random_5 = .$d[[6]]$y,
+                    density.values.random_6 = .$d[[7]]$y,
+                    density.values.random_7 = .$d[[8]]$y,
+                    density.values.random_8 = .$d[[9]]$y,
+                    density.values.random_9 = .$d[[10]]$y,
+                    density.values.targets = .$d[[11]]$y))# %>%    # and subtract the y values
+
+##select the quadrant  
+    t_3.den<-D%>%filter(grepl("t_", strand.plus.direction))%>% 
+      group_by(data.type) %>% 
+## calculate densities for each group over same range; store in list column
+      summarise(d = list(density(dist.from.PPS, from = 0, to = xlim.num, n = xlim.num/binwidth, bw = smoothing.val))) %>% 
+## make a new data.frame from two density objects
+      do(data.frame(distance.breaks.short = .$d[[1]]$x,    # grab one set of x values (which are the same)
+                    density.values.random_1 = .$d[[1]]$y,
+                    density.values.random_10 = .$d[[2]]$y,
+                    density.values.random_2 = .$d[[3]]$y,
+                    density.values.random_3 = .$d[[4]]$y,
+                    density.values.random_4 = .$d[[5]]$y,
+                    density.values.random_5 = .$d[[6]]$y,
+                    density.values.random_6 = .$d[[7]]$y,
+                    density.values.random_7 = .$d[[8]]$y,
+                    density.values.random_8 = .$d[[9]]$y,
+                    density.values.random_9 = .$d[[10]]$y,
+                    density.values.targets = .$d[[11]]$y))# %>%    # and subtract the y values
+    
+##select the quadrant  
+    t_5.den<-D%>%filter(grepl("t_", strand.plus.direction))%>% 
+      group_by(data.type) %>% 
+## calculate densities for each group over same range; store in list column
+      summarise(d = list(density(dist.from.PPS, from = -xlim.num, to = 0, n = xlim.num/binwidth, bw = smoothing.val))) %>% 
+## make a new data.frame from two density objects
+      do(data.frame(distance.breaks.short = .$d[[1]]$x,    # grab one set of x values (which are the same)
+                    density.values.random_1 = .$d[[1]]$y,
+                    density.values.random_10 = .$d[[2]]$y,
+                    density.values.random_2 = .$d[[3]]$y,
+                    density.values.random_3 = .$d[[4]]$y,
+                    density.values.random_4 = .$d[[5]]$y,
+                    density.values.random_5 = .$d[[6]]$y,
+                    density.values.random_6 = .$d[[7]]$y,
+                    density.values.random_7 = .$d[[8]]$y,
+                    density.values.random_8 = .$d[[9]]$y,
+                    density.values.random_9 = .$d[[10]]$y,
+                    density.values.targets = .$d[[11]]$y))# %>%    # and subtract the y values
+    
+    n_3.den<-n_3.den%>%mutate(strand.plus.direction = "n_3")
+    n_5.den<-n_5.den%>%mutate(strand.plus.direction = "n_5")
+    t_3.den<-t_3.den%>%mutate(strand.plus.direction = "t_3")
+    t_5.den<-t_5.den%>%mutate(strand.plus.direction = "t_5")
+    
+
+    den<-rbind(n_3.den, n_5.den, t_3.den, t_5.den)
+
+    
+    
+    rDen1<-den%>%mutate(density.values = density.values.random_1)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_1")%>%mutate(group.main =  "random")
+    
+    rDen2<-den%>%mutate(density.values = density.values.random_2)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_2")%>%mutate(group.main =  "random")
+    
+    rDen3<-den%>%mutate(density.values = density.values.random_3)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_3")%>%mutate(group.main =  "random")
+    
+    rDen4<-den%>%mutate(density.values = density.values.random_4)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_4")%>%mutate(group.main =  "random")
+    
+    rDen5<-den%>%mutate(density.values = density.values.random_5)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_5")%>%mutate(group.main =  "random")
+    
+    rDen6<-den%>%mutate(density.values = density.values.random_6)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_6")%>%mutate(group.main =  "random")
+    
+    rDen7<-den%>%mutate(density.values = density.values.random_7)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_7")%>%mutate(group.main =  "random")
+    
+    rDen8<-den%>%mutate(density.values = density.values.random_8)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_8")%>%mutate(group.main =  "random")
+    
+    rDen9<-den%>%mutate(density.values = density.values.random_9)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_9")%>%mutate(group.main =  "random")
+    
+    rDen10<-den%>%mutate(density.values = density.values.random_10)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "random_10")%>%mutate(group.main =  "random")
+    
+    
+    tDen<-den%>%mutate(density.values = density.values.targets)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group =  "targets")%>%mutate(group.main =  "targets")
+    
+    den<-rbind(rDen1,rDen2,rDen3,rDen4,rDen5,rDen6,rDen7,rDen8,rDen9,rDen10, tDen)
+    
+    den<-den%>%arrange(distance.breaks.short)
+    
+    
+    sdrandomDensity<-den%>%filter(group.main == "random")%>%group_by(distance.breaks.short, strand.plus.direction)%>%summarise(sdDensity = sd(density.values))%>%mutate(breaksStrandDirection = paste(distance.breaks.short, strand.plus.direction, sep = "$"))%>%ungroup()%>%select(-strand.plus.direction, - distance.breaks.short)
+    meanrandomDensity<-den%>%filter(group.main == "random")%>%group_by(distance.breaks.short, strand.plus.direction)%>%summarise(meanDensity = mean(density.values))%>%mutate(breaksStrandDirection = paste(distance.breaks.short, strand.plus.direction, sep = "$"))
+    randomDensity<-left_join(sdrandomDensity, meanrandomDensity, by = "breaksStrandDirection")
+    
+    randomDensity<-randomDensity%>%mutate(upperRandomDensity = meanDensity + 2*sdDensity)%>%mutate(lowerRandomDensity = meanDensity - 2*sdDensity)
+    targetDensity<-den%>%filter(group == "targets")
+    
+    upperRandomDensityValues<-randomDensity%>%mutate(density.values = upperRandomDensity)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group = "upperRandomDensity")%>%mutate(group.main = "random")
+    lowerRandomDensityValues<-randomDensity%>%mutate(density.values = lowerRandomDensity)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group = "lowerRandomDensity")%>%mutate(group.main = "random")
+    meanRandomDensityValues<-randomDensity%>%mutate(density.values = meanDensity)%>%select(distance.breaks.short, density.values, strand.plus.direction)%>%mutate(group = "meanDensity")%>%mutate(group.main = "random")        
+## output #####   
+    den<-rbind(targetDensity, upperRandomDensityValues, lowerRandomDensityValues, meanRandomDensityValues)
+ return(den)
+}
+
+##takes the distribution table and reformats into prism format
+prism_format_protospacer_distribution<-function(den){
+## reformat for prism file #####
+    dat<-den
+    
+    t5<-dat%>%filter(strand.plus.direction == "t_5")%>%filter(group == "targets")%>%
+      mutate(target.density.values = density.values)%>%
+      select(distance.breaks.short, target.density.values)
+    t3<-dat%>%filter(strand.plus.direction == "t_3")%>%filter(group == "targets")%>%
+      mutate(target.density.values = density.values)%>%
+      select(distance.breaks.short, target.density.values)
+    nt5<-dat%>%filter(strand.plus.direction == "n_5")%>%filter(group == "targets")%>%
+      mutate(non.target.density.values = density.values)%>%
+      select(non.target.density.values)
+    nt3<-dat%>%filter(strand.plus.direction == "n_3")%>%filter(group == "targets")%>%
+      mutate(non.target.density.values = density.values)%>%
+      select( non.target.density.values)
+    
+    
+    
+    
+    rmt5<-dat%>%filter(strand.plus.direction == "t_5")%>%filter(group == "meanDensity")%>%
+      mutate(random.mean.t.density.values = density.values)%>%
+      select( random.mean.t.density.values)
+    rmt3<-dat%>%filter(strand.plus.direction == "t_3")%>%filter(group == "meanDensity")%>%
+      mutate(random.mean.t.density.values = density.values)%>%
+      select( random.mean.t.density.values)
+    rmnt5<-dat%>%filter(strand.plus.direction == "n_5")%>%filter(group == "meanDensity")%>%
+      mutate(random.mean.n.density.values = density.values)%>%
+      select( random.mean.n.density.values)
+    rmnt3<-dat%>%filter(strand.plus.direction == "n_3")%>%filter(group == "meanDensity")%>%
+      mutate(random.mean.n.density.values = density.values)%>%
+      select( random.mean.n.density.values)
+    
+    rlt5<-dat%>%filter(strand.plus.direction == "t_5")%>%filter(group == "lowerRandomDensity")%>%
+      mutate(random.lower.t.density.values = density.values)%>%
+      select( random.lower.t.density.values)
+    rlt3<-dat%>%filter(strand.plus.direction == "t_3")%>%filter(group == "lowerRandomDensity")%>%
+      mutate(random.lower.t.density.values = density.values)%>%
+      select( random.lower.t.density.values)
+    rlnt5<-dat%>%filter(strand.plus.direction == "n_5")%>%filter(group == "lowerRandomDensity")%>%
+      mutate(random.lower.n.density.values = density.values)%>%
+      select( random.lower.n.density.values)
+    rlnt3<-dat%>%filter(strand.plus.direction == "n_3")%>%filter(group == "lowerRandomDensity")%>%
+      mutate(random.lower.n.density.values = density.values)%>%
+      select( random.lower.n.density.values)
+    
+    ruppt5<-dat%>%filter(strand.plus.direction == "t_5")%>%filter(group == "upperRandomDensity")%>%
+      mutate(random.upper.t.density.values = density.values)%>%
+      select( random.upper.t.density.values)
+    ruppt3<-dat%>%filter(strand.plus.direction == "t_3")%>%filter(group == "upperRandomDensity")%>%
+      mutate(random.upper.t.density.values = density.values)%>%
+      select( random.upper.t.density.values)
+    ruppnt5<-dat%>%filter(strand.plus.direction == "n_5")%>%filter(group == "upperRandomDensity")%>%
+      mutate(random.upper.n.density.values = density.values)%>%
+      select( random.upper.n.density.values)
+    ruppnt3<-dat%>%filter(strand.plus.direction == "n_3")%>%filter(group == "upperRandomDensity")%>%
+      mutate(random.upper.n.density.values = density.values)%>%
+      select( random.upper.n.density.values)
+    
+    
+    
+    targets<-rbind(t5, t3)
+    nontargets<-rbind(nt3, nt5)
+    
+    
+    rmtargets<-rbind(rmt5, rmt3)
+    rmnontargets<-rbind(rmnt3, rmnt5)
+    
+    
+    rltargets<-rbind(rlt5, rlt3)
+    rlnontargets<-rbind(rlnt3, rlnt5)
+    
+    rutargets<-rbind(ruppt5, ruppt3)
+    runontargets<-rbind(ruppnt3, ruppnt5)
+    
+    hits<-cbind(targets, nontargets, 
+                  rmtargets, rmnontargets,
+                  rltargets, rlnontargets,
+                  rutargets, runontargets)
+return(hits)
+}
+
+##normalises the prism format data so that the maximum density is 1.
+noramlise_distribution_values<-function(dat = hits){
+
+dat<-dat%>%
+  filter(!is.na(distance.breaks.short))%>%
+  select(distance.breaks.short, target.density.values, non.target.density.values, random.mean.t.density.values, random.mean.n.density.values)
+
+
+max<-max(c(max(dat$target.density.values), max(dat$non.target.density.values)))
+
+
+dat<-dat%>%
+  mutate(target.density.values = target.density.values/max)%>%
+  mutate(non.target.density.values = -non.target.density.values/max)%>%
+  mutate(random.mean.t.density.values = random.mean.t.density.values/max)%>%
+  mutate(random.mean.n.density.values = -random.mean.n.density.values/max)
+
+tmp<-dat%>%select(non.target.density.values)%>%mutate(line.number = c(nrow(dat):1))
+
+dat<-dat%>%select(-non.target.density.values)%>%mutate(line.number = c(1:nrow(dat)))
+dat<-left_join(dat, tmp, by = "line.number")
+
+dat<-dat%>%select(distance.breaks.short, target.density.values, non.target.density.values, random.mean.t.density.values, random.mean.n.density.values)
+
+
+row.null.neg<-c(-10000, 0,0,0,0)
+row.null.pos<-c(10000, 0,0,0,0)
+
+dat<-rbind(row.null.neg, dat, row.null.pos)
+
+return(dat)
+}
+
+##gives a p-value and clustering % for a subtype
+cluster_analysis<-function(swipeData = swipeData, Subtype.label = "I-F"){
+subtypeData = swipeData%>%filter(Subtype == Subtype.label)
+loop.length = 1000
+    
+
+set.seed(100)  
+
+  targets.dat.replicated<-subtypeData[rep(seq_len(nrow(subtypeData)), loop.length), ]
+  #targets.dat.replicated%>%targets.dat.replicated%>%filter(spacer.order_num > 1)
+  rh<-targets.dat.replicated%>%
+    mutate(dist.from.PPS = runif(min = -0.5, max = 0.5, n = nrow(targets.dat.replicated)))%>%
+    mutate(dist.from.PPS = round(dist.from.PPS*genome.length, 0))%>%
+    mutate(dist.from.PPS = ifelse(spacer.order.number == 1, 0, dist.from.PPS))%>%
+    mutate(target.strand = round(runif(min = 0, max = 1, n = nrow(targets.dat.replicated)), 0))%>%
+    mutate(target.strand = ifelse(target.strand == 1, "t", "n"))%>%
+    mutate(five.three.prime.dir = ifelse(dist.from.PPS < 0, ifelse(target.strand == "t", 5, 3), ifelse(target.strand == "t", 3, 5)))%>%
+    mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))%>%
+    mutate(target.pos = runif(min = 0, max = 1, n = nrow(targets.dat.replicated)))%>%
+    mutate(target.pos = round(target.pos*genome.length, 0))
+  rm(targets.dat.replicated)
+
+
+  rh<-rh%>%group_by(host.target.pair, array.id, spacer.id, spacer.order.number)%>%mutate(replicate = row_number())%>%filter(spacer.order.number > 1)
+  
+dat<-subtypeData%>%filter(spacer.order.number > 1)
+  
+  
+  mean.distance<- rh%>%group_by(replicate)%>%summarise(mean.value = mean(abs(dist.from.PPS)))
+  sd.distance<- rh%>%group_by(replicate)%>%summarise(sd.value = sd(dist.from.PPS))
+  
+  distanceSummaryRH<-left_join(mean.distance, sd.distance, by = "replicate")
+  
+  
+  mean.mean<-mean(distanceSummaryRH$mean.value)
+  sd.mean<-sd(distanceSummaryRH$mean.value)
+  
+  mean.sd<-mean(distanceSummaryRH$sd.value)
+  sd.sd<-sd(distanceSummaryRH$sd.value)
+
+  
+  
+  n = length(dat$dist.from.PPS) 
+  s = sd(dat$dist.from.PPS)        # sample standard deviation 
+  SE = s/sqrt(n)
+  E = qt(.975, df=n-1)*SE  
+  
+  xbar = mean(abs(dat$dist.from.PPS))   # sample mean 
+ ciData<-xbar + c(-E, E)
+  
+  n = length(rh$dist.from.PPS) 
+  s = sd(rh$dist.from.PPS)        # sample standard deviation 
+  SE = s/sqrt(n)
+  E = qt(.975, df=n-1)*SE  
+  
+  xbar = mean(abs(rh$dist.from.PPS))   # sample mean 
+  ciRandom<-xbar + c(-E, E)
+  
+
+  return(paste(Subtype.label, pnorm(ciData[2], mean=mean.sd, sd=sd.sd, lower.tail=T), (mean(abs(rh$dist.from.PPS)) - mean(abs(dat$dist.from.PPS)))/mean(abs(rh$dist.from.PPS))*100 ))
+  
+  
+  
+}
+
+##gives a p-value for the ks-test results
+ks_test_analysis<-function(swipeData, rh, Subtype.label){
+  
+sr<-rh%>%filter(Subtype == Subtype.label)%>%filter(spacer.order.number > 1)
+
+##label the data as random and include the group number
+sr<-sr%>%mutate(data.type = paste("random", group.number, sep = "_"))%>%
+  mutate(data.type = ifelse(data.type == "random_1", "random_01", data.type))
+
+##select the data that will be needed for determining posisiton
+sr<-sr%>%select(dist.from.PPS, data.type, strand.plus.direction)
+    
+
+
+st<-swipeData%>%filter(Subtype == Subtype.label)%>%filter(spacer.order.number > 1)
+
+
+##label the data as target
+st<-st%>%mutate(data.type = "targets")%>%
+      mutate(strand = ifelse(strand.plus.direction == "n_5", "n", ifelse(strand.plus.direction == "n_3", "n", "t")))%>%
+      select(-strand)
+
+##select the data that will be needed for determining posisiton
+st<-st%>%select(dist.from.PPS, data.type, strand.plus.direction)
+
+ks.res<-suppressWarnings(ks.test(sr$dist.from.PPS, st$dist.from.PPS))
+return(ks.res)
+}
+
+
+```
+
+```{r fix_array_direction, eval=FALSE, include=TRUE}
+
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+swipeData.In<- read.table("Input/refseq_83_swipe_setup.txt", comment.char = "", fill = T, sep = "\t", header = T, quote = "", as.is = T)
+cas_genes<-read.csv("Input/All_Cas_Gene_Calls.csv", as.is = T, header = T)
+repeat.GCF.lookup<- read.csv("Input/Repeat_GCF_lookup.csv", as.is = T)%>%select(-X)
+subtype.correction<-read.csv("Input/type_II_corrected_subtypes.csv",header=T,quote = "",as.is = T)
+
+swipeData<-unique(swipeData.In)
+
+length(swipeData)-length(swipeData.In) # Check
+
+# Correct type II calls using file Tom generated
+    swipeData<-swipeData%>%left_join(subtype.correction,by = "assembly_accession")
+    swipeData<-swipeData%>%mutate(subtype.list=ifelse(!is.na(corr.subtype.list),corr.subtype.list,subtype.list))%>%select(-corr.subtype.list)
+
+  Counts<-Counts%>%full_join(swipeData%>%group_by(subtype.list)%>%summarise(RawSwipeData.total=n()),by="subtype.list") #!!! 
+
+  swipeData<-swipeData%>%group_by(host.target.pair, array.id, spacer.number)%>%arrange(-bit.score.num)%>%
+    mutate(duplicate.spacer.order = row_number())%>%ungroup()%>%
+    group_by(host.target.pair, array.id, spacer.number, bit.score.num)%>%mutate(duplicate.spacers = n())
+
+#***** Tweaked filter step to remove hits that target the same position but both strands
+      swipeData%>%ungroup()%>%group_by(duplicate.spacers)%>%summarise(duplicate.spacer.counts=n())
+   swipeData<-swipeData%>%ungroup()%>%group_by(host.target.pair)%>%mutate(to.remove=max(duplicate.spacers))
+
+  # Count the discarded data, add to the table, write the discarded data to a file, clear from memory
+    removed<-swipeData%>%filter(to.remove>1)%>%group_by(host.target.pair)%>%mutate(hits.count=n())
+    Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SameHitsBothStrands.rem=n()),by="subtype.list")
+    write.csv(removed,paste(Out.Dir,"Discard/Removed.csv",sep=""))
+
+  # Keep the good data and add stats to the counts table
+    swipeData<-swipeData%>%filter(to.remove == 1)%>%select(-duplicate.spacer.order, -duplicate.spacers,-to.remove)
+    Counts<-Counts%>%full_join(swipeData%>%group_by(subtype.list)%>%summarise(Kept.total=n()),by="subtype.list")
+#***********************
+
+#***** Sort out subtype calls and array directions ******************************************
+
+# Determine subtype by cas gene presence in my (incomplete!!) file of NCBI annotations from a different RefSeq build!!
+
+  tmp<-cas_genes%>%filter(grepl("type ", name))
+  mat<-tidyr::separate(tmp, name,c("i1","i2"), sep = "type ", remove = F, extra = "merge")
+  mat<-tidyr::separate(mat, i2,c("gene.subtype","i3"), sep = " ", remove = F, extra = "merge")
+
+  aaa<-mat%>%group_by(gene.subtype)%>%summarise(freq=n())
+
+# Fix up some of the assignments 
+  mat<-mat%>%mutate(gene.subtype=gsub("I-c/dvulg","I-C",gene.subtype))%>%
+      mutate(gene.subtype=gsub("I-C/DVULG","I-C",gene.subtype))%>%
+      mutate(gene.subtype=gsub("I-e","I-E",gene.subtype))%>%
+      mutate(gene.subtype=gsub("I-f/ypest-associated","I-F",gene.subtype))
+
+mat%>%group_by(gene.subtype)%>%summarise(freq=n())
+
+mat<-mat%>% ##!!!??? Need to sort this - some type II calls are being lost. @@
+  filter(grepl("I", gene.subtype) | grepl("V", gene.subtype))%>%
+  filter(gene.subtype != "III-associated")%>%
+  filter(gene.subtype != "I" & gene.subtype != "II" & gene.subtype != "III")%>%
+  filter(grepl("M", gene.subtype) == F)%>%
+  filter(grepl("P", gene.subtype) == F)%>%
+  filter(grepl("m", gene.subtype) == F)%>%
+  filter(grepl("a", gene.subtype) == F)
+
+mat%>%group_by(gene.subtype)%>%summarise(freq=n())
+
+
+# Collate the system calls and count the number of systems per host GCF
+    NCBI.system.calls<-mat%>%group_by(assembly)%>%
+        summarise(subtypes.count = length(unique(gene.subtype)),subtypes.genes.found = paste(unique(sort(gene.subtype)), collapse = "_"))%>%
+        rename("assembly_accession" = assembly)
+
+
+# Join the cas gene calls and repeat type calls to the swipe data
+  Main.Data<-swipeData%>%left_join(NCBI.system.calls,by="assembly_accession")%>%left_join(repeat.GCF.lookup, by = c("array.id", "assembly_accession"))
+
+  table(Main.Data$subtype.list)
+  table(Main.Data$Repeat.Subtype)
+
+  # Fill in some NAs from the first join
+      Main.Data$subtypes.genes.found[is.na(Main.Data$subtypes.genes.found)]<-"Unknown"
+      Main.Data$subtypes.count[is.na(Main.Data$subtypes.count)]<-0
+      
+  Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(AllDataRepeats.subtot=n()),by="subtype.list")
+  length(Main.Data)-length(Main.Data%>%unique()) # Check this ==0
+
+# First remove cases where more than one subtype are called from the NCBI annotations
+  # Write out the removed data
+      removed<-Main.Data%>%filter(subtypes.count>1)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(HaveMultipleSystems.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/MultipleSystemsA.csv",sep=""))
+
+  # Keep the good data with genes for only one subtype
+      Main.Data<-Main.Data%>%filter(subtypes.count<=1)
+    
+# Now remove cases where the repeat type is set to "Repeat_Fail" -> can't just discard arrays, it needs to be the whole host-target pair.
+      Main.Data<-Main.Data%>%ungroup()%>%mutate(to.remove=ifelse(Repeat.Subtype=="Repeat_Fail",1,0))%>%
+            group_by(host.target.pair)%>%mutate(to.remove=max(to.remove))
+    
+      #Write out the removed data to look at it!!
+        removed<-Main.Data%>%filter(to.remove==1) 
+        Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(RepeatTypeFail.rem=n()),by="subtype.list")
+        write.csv(removed,paste(Out.Dir,"Discard/MultipleSystemsB.csv",sep=""))
+      
+  # Keep the good data
+        Main.Data<-Main.Data%>%filter(to.remove==0)%>%select(-to.remove)
+
+# Now remove cases where the repeat family and subtype calls don't match
+        
+    # First fill in the unknown subtype list - if we didn't change the repeat, keep as is.
+     Main.Data<-Main.Data%>%mutate(Repeat.Subtype=ifelse(Repeat.Subtype=="Unknown",subtype.list,Repeat.Subtype))%>%
+                                          mutate(subtypes.genes.found=ifelse(subtypes.genes.found=="Unknown",subtype.list,subtypes.genes.found)) 
+    
+     # Checks
+        table(Main.Data$Repeat.Subtype)
+        table(Main.Data$subtype.list)
+        table(Main.Data$subtypes.genes.found)
+    
+  # Now check if all the assignements match up
+     Main.Data<-Main.Data%>%mutate(to.keep=ifelse(subtype.list==Repeat.Subtype & subtype.list==subtypes.genes.found,1,0))
+    
+    # Fix up the type II systems 
+        Main.Data<-Main.Data%>%
+                mutate(to.keep=ifelse(Repeat.Subtype!="II",to.keep, ifelse(subtype.list=="II-A"|subtype.list=="II-B"|subtype.list=="II-C",1,0)))  
+  
+  # Write out the removed data to look at it
+      removed<-Main.Data%>%filter(to.keep==0)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(InconsistentSystems.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/InconsistentSystems.csv",sep=""))
+    
+# Keep the systems with consistent subtype calls
+    Main.Data<-Main.Data%>%filter(to.keep==1)
+    Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(PassedSystems.kept=n()),by="subtype.list")
+
+# Tidy up some columns and make an array ID
+    Main.Data<-Main.Data%>%select(-subtypes.genes.found, -subtypes.count,-to.keep)
+    
+# Correcting the spacer order for backwards arrays (based on repeat family)
+      cRepeat<-Main.Data%>%filter(Direction !="ReverseComplement")
+      rRepeat<-Main.Data%>%filter(Direction =="ReverseComplement")%>%group_by(array.id)%>%mutate(spacer.number=(array.length-spacer.number+1))
+      Main.Data<-rRepeat%>%bind_rows(cRepeat)
+      
+  # The strands also need to be corrected (because the arrays were backwards)
+      Main.Data<-Main.Data%>%ungroup()%>%mutate(strand=ifelse(Direction == "ReverseComplement", -1*as.numeric(strand), as.numeric(strand)))%>%select(-Repeat.Subtype)
+
+      length(Main.Data)-length(unique(Main.Data)) # Check the data
+      Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(AllHits.total=n()),by="subtype.list")
+
+# We are only interested in the host-target pairs with more than one match (hit)
+    Main.Data<-Main.Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())
+  
+  # Count the single hit data, add to the table, write the discarded data to a file, clear from memory
+      removed<-Main.Data%>%filter(hits.count == 1)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(OneHit.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/OneHit.csv",sep=""))
+   
+  # Keep the host-target pairs with more than one hit
+      Main.Data<-Main.Data%>%filter(hits.count > 1)
+      Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(MultipleHits.kept=n()),by="subtype.list")
+
+# Some more data tidying
+
+  Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(Data.total=n()),by="subtype.list")
+  
+  # Filter out host-target pairs with more than 5 hits 
+    # First update the hits count
+      Main.Data<-Main.Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())
+    # Remove data
+      removed<-Main.Data%>%filter(hits.count>5)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(MoreThan5Hits.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/MoreThan5Hits.csv",sep=""))
+ 
+  # Keep the good data   
+      Main.Data<-Main.Data%>%filter(hits.count<=5) 
+      Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(FiveHitsOrLess.kept=n()),by="subtype.list")
+
+  # Filter out short target genomes
+      removed<-Main.Data%>%filter(genome.length<10000)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(ShortTarget.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/ShortTargetGenomes.csv",sep=""))
+ 
+  # Keep the good data
+      Main.Data<-Main.Data%>%filter(genome.length>=10000) 
+      Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(ShortTargetGenomesRemoved.kept=n()),by="subtype.list")
+
+  # Filter out hosts that have hits coming from short arrays - the ENTIRE host-target pair needs to be discarded
+      Main.Data<-Main.Data%>%group_by(host.target.pair)%>%mutate(shortest.array=min(array.length))
+      removed<-Main.Data%>%filter(shortest.array<5)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(HasShortArray.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/HasShortArray.csv",sep=""))
+  
+  # Keep the good data  
+      Main.Data<-Main.Data%>%filter(shortest.array>=5)%>%select(-shortest.array)
+      Counts<-Counts%>%full_join(Main.Data%>%group_by(subtype.list)%>%summarise(DataCorrectingOut.total=n()),by="subtype.list")
+
+  # Double check the hits count data is still ok    
+      Main.Data<-Main.Data%>%group_by(host.target.pair)%>%mutate(hits.count=n()) 
+      table(Main.Data$hits.count) # Check this
+
+write.csv(Main.Data,paste(Out.Dir,"Data/DataCorrected.csv",sep=""),row.names=F)
+      
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+```
+
+```{r Bit_scores, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+Data<-read.csv(paste(Out.Dir,"Data/DataCorrected.csv",sep=""),as.is=T)
+ 
+
+#************************************************************************************************************************************************
+#***** Filter data based on higher bitscore cuttoff for PS beyond the PPS !!?? currently removes ~ half the data (not sure on effect of post-filtered data though)
+    ## Post-filter effect seems to be minimal..
+#************************************************************************************************************************************************
+  
+# First just apply a higher bitsocre cut off for all data - doesn't filter when set to 20, but keep anyway for future use
+    LowScoreHits<-Data%>%filter(bit.score.num<20)
+    Counts<-Counts%>%full_join(LowScoreHits%>%group_by(subtype.list)%>%summarise(Low.BitScore.ALL.rem=n()),by="subtype.list")
+    Data<-Data%>%filter(bit.score.num>=20)
+    
+  # Update hits count and filter for hits.count > 2
+      Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())
+      removed<-Data%>%filter(hits.count<2)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(BS.SingleHits.rem=n()),by="subtype.list")
+    
+      Data<-Data%>%filter(hits.count>=2)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(BS.MultipleHits.kept=n()),by="subtype.list")
+      
+    # Remake the spacer order number
+      Data<-Data%>%group_by(host.target.pair)%>%arrange(-as.numeric(spacer.number))%>%mutate(spacer.order.number = row_number())
+
+# Now apply a higher bitscore cut off for non PPS data
+      LowScoreHits<-Data%>%filter(spacer.order.number>1 & bit.score.num<22)
+      Counts<-Counts%>%full_join(LowScoreHits%>%group_by(subtype.list)%>%summarise(Low.BitScore.BeyondPPS.rem=n()),by="subtype.list")
+      Data<-Data%>%filter(spacer.order.number==1 | bit.score.num>=22)
+  
+  # Update hits count and filter for hits.count > 2
+      Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())
+      removed<-Data%>%filter(hits.count<2)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(BS.SingleHits.rem=n()),by="subtype.list")
+    
+      Data<-Data%>%filter(hits.count>=2)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(BS.MultipleHits.kept=n()),by="subtype.list")
+      
+    # Remake the spacer order number
+      Data<-Data%>%group_by(host.target.pair)%>%arrange(-as.numeric(spacer.number))%>%mutate(spacer.order.number = row_number())
+
+      
+  # Now remove cases with the PS+1 and beyond that are low
+      Data<-Data%>%mutate(low.score = ifelse(spacer.order.number!=1, ifelse(bit.score.num <= 22, 1, 0),0)) #
+      Data%>%group_by(low.score)%>%summarise(counts=n())
+      aa<-Data%>%group_by(host.target.pair)%>%mutate(low.scoring.hit = max (low.score))
+      aa%>%group_by(low.scoring.hit)%>%summarise(counts=n())
+
+  # Print out data with low bitscore hits
+      removed<-aa%>%filter(low.scoring.hit==1)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(Has.lowPS.BitScore.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/HasLowPS_bitscore.csv",sep=""))
+     
+  # Keep the good data 
+    Data<-aa%>%filter(low.scoring.hit==0)%>%select(-low.score,-low.scoring.hit)
+    #Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(No.LowPS.BitScoreHits.kept=n()),by="subtype.list")
+
+  # Check data before counting
+    Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())%>%filter(hits.count > 1)
+    Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(No.LowPS.BitScoreHits.kept=n()),by="subtype.list")
+
+##!!?? is this required?
+Data<-Data%>%mutate(host.acc. = assembly_accession)
+
+write.csv(Data,paste(Out.Dir,"Data/Bitscore_Filtered.csv",sep=""),row.names=F)
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+```
+
+```{r PPS_distances_setup, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+Data<-read.csv(paste(Out.Dir,"Data/Bitscore_Filtered.csv",sep=""),as.is=T)
+
+length(Data)-length(unique(Data)) # Check
+Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(Section3.total=n()),by="subtype.list")
+
+# Check how many arrays contribute to each host-target pair
+  array.count<-Data%>%select(host.target.pair,array.id)%>%unique()%>%group_by(host.target.pair)%>%summarise(array.count=n())
+  Data<-Data%>%left_join(array.count,by="host.target.pair")
+
+  # Discard cases with more than 2 arrays
+      removed<-Data%>%filter(array.count>=3)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(HitsInMultipleArrays.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/MultipleArrays.csv",sep=""))
+
+  # Data to keep only has hits in 2 arrays max
+      Data<-Data%>%filter(array.count<=2)
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(HitsInLessThan2Arrays.kept=n()),by="subtype.list")
+
+# Update the spacer order number
+  Data<-Data%>%group_by(host.target.pair)%>%arrange(-as.numeric(spacer.number))%>%mutate(spacer.order.number = row_number())
+  
+
+##get the PPS data so that columns containing position and strand can be used to work out strand and direction for the subsequent matches
+
+###!!Remember that "strand" in the  output refers to the protospacer
+
+ppsData<-Data%>%
+  filter(spacer.order.number == 1)%>%
+  mutate(pps.strand = strand)%>%
+  mutate(pps.target.pos = target.pos)%>%
+select(host.target.pair, pps.strand, pps.target.pos)
+
+Data<-Data%>%left_join(ppsData, by = "host.target.pair")%>%ungroup()
+
+# Set the PPS to always be the top strand - if the PPS is on the bottom strand, reverse complement the target and change the position values
+      To.Rev.Comp<-Data%>%filter(pps.strand==-1)%>%mutate(target.acc.=paste(target.acc.,"$RevComp$",sep=""))
+  # Flip the strand
+      To.Rev.Comp<-To.Rev.Comp%>%mutate(strand=strand*-1,pps.strand=pps.strand*-1,target.pos=(genome.length-target.pos),pps.target.pos=(genome.length-pps.target.pos))
+  # Rejoin the data
+      Data<-Data%>%filter(pps.strand==1)%>%bind_rows(To.Rev.Comp)
+
+# Assign the target and non-target strands based on whether each of the matches are on the same strand as the PPS then calculate the distance from the PPS to each hit.
+    Data<-Data%>%mutate(target.strand=ifelse(strand == pps.strand, "t", "n"))%>%mutate(dist.from.PPS=target.pos-pps.target.pos) 
+
+##identify protospacers that are closer when the genome is treated as linear
+    Data<-Data%>%ungroup()%>%mutate(shorter.distance.exists = ifelse(abs(as.numeric(dist.from.PPS)) > as.numeric(genome.length)/2, T,F))
+
+Data%>%group_by(shorter.distance.exists)%>%summarise(counts=n())
+
+# Get genome distances from circular genomes
+  lengths.greater.than.half<-Data%>%filter(shorter.distance.exists == T)%>%
+      mutate(dist.from.PPS=ifelse(dist.from.PPS<0,as.numeric(dist.from.PPS)+as.numeric(genome.length),as.numeric(dist.from.PPS)-as.numeric(genome.length)))
+
+##combine the two sets of genomes
+    Data<-Data%>%filter(shorter.distance.exists==F)%>%bind_rows(lengths.greater.than.half)%>%select(-pps.target.pos, -shorter.distance.exists)
+  
+# Separate and update the PPS data
+    PPS.dat<-Data%>%filter(spacer.order.number==1)%>%mutate(five.three.prime.dir = "0")
+  
+# Select the data that is not the PPS and calculate 5' and 3' direction
+    not.PPS.dat<-Data%>%filter(spacer.order.number != 1)
+    not.PPS.dat<-not.PPS.dat%>%mutate(five.three.prime.dir=ifelse(target.strand == "t", ifelse(dist.from.PPS < 0 , "5", "3"), 
+                                                                                        ifelse(dist.from.PPS < 0 , "3", "5")))
+
+# Combine the data and check counts
+  Data<-PPS.dat%>%bind_rows(not.PPS.dat)
+  Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(PPSdistances.total=n()),by="subtype.list")
+
+write.csv(Data,paste(Out.Dir,"Data/PPS_Distances_Added.csv",sep=""),row.names=F)
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+
+```
+
+```{r PPS_scores, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+Data<-read.csv(paste(Out.Dir,"Data/PPS_Distances_Added.csv",sep=""),as.is=T)
+
+  Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())%>%group_by(hits.count)%>%summarise(freq=n()) # Check this
+  Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(PPS.Score.In.total=n()),by="subtype.list")
+
+# Update the array.count column (in case one or more arrays were lost during the bitscore filtering) - I checked and this isn't necessary keep for future checks
+    #Data<-Data%>%group_by(host.target.pair)%>%mutate(array.countNew=length(unique(array.id)))%>%mutate(test=ifelse(array.count==array.countNew,1,0))
+
+# Score the PPS 5 if the host target pair only has one array.
+      Data<-mutate(Data, PPS.score = ifelse(array.count==1, 5, 0))
+
+# Obtain the two oldest spacers and check if these are from the same array ##??!! there is a problem here - e.g. arrayA=5,1 arrayB= 1
+      number.of.arrays.first.two.spacers<-Data%>%group_by(host.target.pair)%>%top_n(2,-spacer.order.number)%>%summarise(arrays.PPS.PS1=length(unique(array.id)))
+
+# Add the column with the information about whether the two oldest spacers are from the same array
+    Data<-Data%>%left_join(number.of.arrays.first.two.spacers, by = "host.target.pair")
+
+# If the two oldest spacers are from the same array AND this is the shortest array by at least 10?, then set to 4? ## Doesn't allow many hits through
+    Data<-Data%>%group_by(host.target.pair)%>%mutate(PPS.array.shortest=ifelse(spacer.order.number==1 & array.length<max(array.length)-10,1,0))%>%
+                mutate(PPS.array.shortest=max(PPS.array.shortest))
+    Data<-Data%>%mutate(PPS.score=ifelse(PPS.score!=0,PPS.score,ifelse(arrays.PPS.PS1==1,ifelse(PPS.array.shortest==1,4,0),0))) 
+
+# Use a similar approach on the cases with 2 hits in 2 arrays -> if the PPs is in the shortest array then it should be ok.
+    Data<-Data%>%mutate(PPS.score=ifelse(PPS.score!=0,PPS.score,ifelse(hits.count==2 & PPS.array.shortest==1,3,0)))
+ 
+# Use a similar approach on the cases with 2 hits in 2 arrays -> if the PPs is in the shortest array then it should be ok.
+    Data<-Data%>%mutate(PPS.score=ifelse(PPS.score!=0,PPS.score,ifelse(PPS.array.shortest==1,2,0)))
+  
+# Relative age based on position within array? prob only ok when there are just 2 hits # 10 added to array length to mitigate short array effects
+    Data<-Data%>%mutate(spacer.age=spacer.number/(array.length+10)*100,PS1.age=ifelse(spacer.order.number==2,spacer.age,0))%>%
+          group_by(host.target.pair)%>%mutate(PS1.age=max(PS1.age))%>%mutate(PPS.score1=ifelse(spacer.order.number==1 & spacer.age>(PS1.age+20),1,0))%>%
+          mutate(PPS.score1=max(PPS.score1))
+    Data<-Data%>%mutate(PPS.score=ifelse(PPS.score!=0,PPS.score,ifelse(hits.count==2 & PPS.score1==1,1,0)))%>%select(-spacer.age,-PS1.age,-PPS.score1)
+ 
+ table(Data$hits.count)
+ table(Data$PPS.score)
+  
+Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())%>%group_by(hits.count)%>%summarise(freq=n()) # Check this
+
+# Keep everything with a PPS score >=1 #@@ need to write the removed data
+    Data<-Data%>%filter(PPS.score>=5) #@@ changed for now although I think at == 5 is higher quality data.
+    Data<-Data%>%select(-arrays.PPS.PS1,-PPS.array.shortest)
+
+Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(PPSscoresOut.total=n()),by="subtype.list")
+Data%>%group_by(host.target.pair)%>%mutate(hits.count=n())%>%group_by(hits.count)%>%summarise(freq=n()) # Cheack this
+
+write.csv(Data,paste(Out.Dir,"Data/PPS_Scores_Filtered.csv",sep=""),row.names=F)
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+```
+
+```{r Data_Cleaning, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+#@@ check for array.length ==NA? It occurs later as well
+
+Data<-read.csv(paste(Out.Dir,"Data/PPS_Scores_Filtered.csv",sep=""),as.is=T)
+
+# Check host-target pairs have at least 2 hits
+  Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n()) 
+  table(Data$hits.count) # Check this
+
+  Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(DataCleanIn.total=n()),by="subtype.list")
+
+# Filter for only the subtypes we are interested in.
+    Subtypes<-c("I-A", "I-B", "I-C", "I-D", "I-E", "I-F","II-A","II-C","III-A","III-B","III-C") #!!no II-B for now...
+    Data<-Data%>%filter(subtype.list %in% Subtypes)
+    Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(SubtypesWeWant.total=n()),by="subtype.list")
+
+# It looks like there might be some CRISPR arrays in there - filter for short distances to PPS?
+
+    Data<-Data%>%mutate(possible.crispr=ifelse(dist.from.PPS<=100 & dist.from.PPS>=1,1,0))%>%
+                  mutate(possible.crispr=ifelse(dist.from.PPS>=-100 & dist.from.PPS<=-1,1,possible.crispr))%>%
+                  group_by(host.target.pair)%>%mutate(poss.crispr=max(possible.crispr))
+  
+  # Write out the data to check
+      removed<-Data%>%filter(poss.crispr==1)
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(PossibleCRISPR.rem=n()),by="subtype.list")
+      write.csv(removed,paste(Out.Dir,"Discard/PossibleCRISPRs.csv",sep=""))
+  
+  # Keep the good data
+      Data<-Data%>%filter(poss.crispr==0)%>%select(-poss.crispr,-possible.crispr) 
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(nonCRISPR.kept=n()),by="subtype.list")
+      
+  # The same spacer shouldn't target a phage twice
+       Data<-Data%>%group_by(host.target.pair)%>%mutate(dup.spacers=ifelse(length(unique(spacer.number))==hits.count,0,1))
+    
+       
+      # Write out the data to check
+        removed<-Data%>%filter(dup.spacers==1)
+        Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SpacerHitsManyTimes.rem=n()),by="subtype.list")
+        write.csv(removed,paste(Out.Dir,"Discard/SpacerHitsManyTimes.csv",sep=""))
+  
+      # Keep the good data
+        Data<-Data%>%filter(dup.spacers==0)%>%select(-dup.spacers) 
+        Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(SpacersOK.kept=n()),by="subtype.list")
+ 
+       
+      Data%>%group_by(host.target.pair)%>%summarise(hit.count=n())%>%group_by(hit.count)%>%summarise(freq=n())
+
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(PostHostFilterAllHits.total=n()),by="subtype.list")
+
+      
+  # Two spacers from the same shouldn't target the smae phage PS (biologically possible, yet unlikely and causes problems later on)
+       
+      Data<-Data%>%group_by(host.target.pair)%>%mutate(dup.PS=ifelse(length(unique(target.pos))==hits.count,0,1))
+    
+      # Write out the data to check
+        removed<-Data%>%filter(dup.PS==1)
+        Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SpacerHitsManyTimes.rem=n()),by="subtype.list")
+        write.csv(removed,paste(Out.Dir,"Discard/SameProtospacerMultipleSpacers.csv",sep=""))
+  
+      # Keep the good data
+        Data<-Data%>%filter(dup.PS==0)%>%select(-dup.PS) 
+        Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(PSsOK.kept=n()),by="subtype.list")
+ 
+       
+  # Remove some columns
+      Data%>%group_by(host.target.pair)%>%summarise(hit.count=n())%>%group_by(hit.count)%>%summarise(freq=n())
+
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(DataCleanOut.total=n()),by="subtype.list")
+
+      
+      
+      
+write.csv(Data,paste(Out.Dir,"Data/Data_Clean_Out.csv",sep=""),row.names=F)
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+
+```
+
+```{r remove_host_redundancy, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+Data<-read.csv(paste(Out.Dir,"Data/Data_Clean_Out.csv",sep=""),as.is=T)
+
+# Check host-target pairs have at least 2 hits
+  Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n()) 
+  table(Data$hits.count) # Check this
+
+  Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(HostRedundancyIn.total=n()),by="subtype.list")
+
+# Filter for only the subtypes we are interested in.
+    Subtypes<-c("I-A", "I-B", "I-C", "I-D", "I-E", "I-F","II-A","II-C","III-A","III-B","III-C") #!!no II-B for now...
+    Data<-Data%>%filter(subtype.list %in% Subtypes)
+    Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(SubtypesWeWant.total=n()),by="subtype.list")
+
+#************************************************************************************************************************************************
+#***** Filtering for multiple host genomes with the exact same hits (i.e. related hosts with similar arrays and the same target PS matches)
+#************************************************************************************************************************************************
+ 
+ # Create unique PS ID containing the target position, accession and the spacer order number 
+      Data<-Data%>%mutate(unique.protospacer.host.match=paste(target.acc.,target.pos,target.strand,spacer.order.number,sep="_"))
+
+  # Combine each of the unique.protospacer.host.matches for each of the host target pairs so that the entire match is summarised in one column.
+      host.target.pair.summary<-Data%>%group_by(target.acc.,host.target.pair)%>%summarise(all.target.PS=paste(unlist(list(unique.protospacer.host.match)),collapse="_"))
+
+  # Count the number of times each of the host genomes are identical for each of the target genomes.
+      num.duplicate.hosts<-host.target.pair.summary%>%group_by(target.acc.,all.target.PS)%>%summarise(duplicate.genomes=n())%>%ungroup()%>%select(-target.acc.)
+
+  # Add the number of times each of the host genomes occurs to the data set containing the host.target.pair data.
+      host.target.pair.summary<-host.target.pair.summary%>%left_join(num.duplicate.hosts, by = "all.target.PS")%>%ungroup()%>%select(-target.acc.)
+  
+  # Add the duplicate genomes data to the hits data
+      Data<-Data%>%left_join(host.target.pair.summary, by = "host.target.pair")
+    
+      # Count non identical dup data
+        non.duplicate.hosts<-Data%>%filter(duplicate.genomes == 1)
+        Counts<-Counts%>%full_join(non.duplicate.hosts %>%group_by(subtype.list)%>%summarise(nonIdentHosts.subtot=n()),by="subtype.list")
+  
+      # Select the hits that are part of duplicated host genomes.
+          hosts.to.merge<-Data%>%filter(duplicate.genomes != 1)
+          Counts<-Counts%>%full_join(hosts.to.merge%>%group_by(subtype.list)%>%summarise(IdentHosts.subtot=n()),by="subtype.list")
+          write.csv(hosts.to.merge,paste(Out.Dir,"Discard/duplicatehoststomerge.csv",sep=""))
+      
+      # Create a combined 'genome' name containing each of the host genome names that are duplicated for a target genome.
+         hosts.to.merge<-hosts.to.merge%>%group_by(all.target.PS)%>%mutate(matching.host.genomes=paste(unlist(list(unique(host.acc.))),collapse="$merged_"))
+
+# Now we need to select representative entries for each merged host genome set
+
+  # First select the representatives with the highest PPS scores
+      hosts.to.merge<-hosts.to.merge%>%group_by(matching.host.genomes)%>%mutate(to.keep=ifelse(PPS.score==max(PPS.score),1,0))
+      merged.ident.hosts<-hosts.to.merge%>%filter(to.keep==0)
+      hosts.to.merge<-hosts.to.merge%>%filter(to.keep==1)
+  
+  # Now try the representatives with the highest total bitscores scores
+      hosts.to.merge<-hosts.to.merge%>%group_by(host.target.pair)%>%mutate(score.sum=sum(bit.score.num))%>%
+                                      ungroup()%>%group_by(matching.host.genomes)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+      merged.ident.hosts<-merged.ident.hosts%>%bind_rows(hosts.to.merge%>%filter(to.keep==0))
+      hosts.to.merge<-hosts.to.merge%>%filter(to.keep==1)
+  
+  # Now select the representatives with the highest total spacer numbers
+      hosts.to.merge<-hosts.to.merge%>%group_by(host.target.pair)%>%mutate(score.sum=sum(spacer.number))%>%
+                                      ungroup()%>%group_by(matching.host.genomes)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+      merged.ident.hosts<-merged.ident.hosts%>%bind_rows(hosts.to.merge%>%filter(to.keep==0))
+      hosts.to.merge<-hosts.to.merge%>%filter(to.keep==1)
+      
+  # Some subtypes are also causing problems, so merge these !!?? need to check this
+      hosts.to.merge<-hosts.to.merge%>%group_by(matching.host.genomes)%>%mutate(merged.subtypes = paste(unlist(list(unique(subtype.list))), collapse = "$merged_"))
+
+  # Now just select one representative for each of the remaining, based on GCF order?
+      hosts.to.merge<-hosts.to.merge%>%group_by(matching.host.genomes)%>%arrange(spacer.order.number,assembly_accession)%>%mutate(represent=row_number())%>%
+                                        ungroup()%>%group_by(host.target.pair)%>%mutate(to.keep=ifelse(min(represent)==1,1,0)) 
+      merged.ident.hosts<-merged.ident.hosts%>%bind_rows(hosts.to.merge%>%filter(to.keep==0))
+     hosts.to.merge<- hosts.to.merge%>%filter(to.keep==1) 
+      aaa<- hosts.to.merge%>%filter(spacer.order.number==1)%>%group_by(matching.host.genomes)%>%summarise(freq=n()) #Check there is only one representative left  
+  
+    # Count and output the removed/merged data
+        Counts<-Counts%>%full_join(merged.ident.hosts%>%group_by(subtype.list)%>%summarise(MergedIdentHosts.mrg=n()),by="subtype.list")
+        write.csv(merged.ident.hosts,paste(Out.Dir,"Discard/MergedIdentHostGenomes.csv",sep=""))
+
+  # Relabel the host genome column with the matching.host.genomes column and the the host.target.pair column #!!!! some of this needs moving to eariler
+       merged.hosts<-hosts.to.merge%>%ungroup()%>%mutate(host.acc. = matching.host.genomes)%>%
+                mutate(host.target.pair = paste(host.acc., target.acc., sep = "$"))%>%
+                mutate(array.id=paste(unlist(list(unique(array.id))), collapse = "$merged_"))%>%
+                mutate(subtype.list=merged.subtypes)%>%
+        select(-matching.host.genomes, -spacer.acc.)%>%
+        select(-assembly_accession, -unique.protospacer.host.match, -all.target.PS,-merged.subtypes,-score.sum,-represent,-to.keep)
+      
+      length(merged.hosts)-length(unique(merged.hosts)) # Check this
+      Counts<-Counts%>%full_join(merged.hosts%>%group_by(subtype.list)%>%summarise(IdentHostRepresents.kept=n()),by="subtype.list")
+
+      
+  # Combine all data back then further analysis will be done to check these are not similar enough to be called duplicates.
+      Data<-non.duplicate.hosts%>%bind_rows(merged.hosts)%>%select(-spacer.acc.,-assembly_accession,-unique.protospacer.host.match,-all.target.PS,-duplicate.genomes)
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(Combined.total=n()),by="subtype.list")
+
+      write.csv(Data,paste(Out.Dir,"AllHostGenomes.csv",sep=""))
+
+#************************************************************************************************************************************************
+#** Additional checks for similar (non-identical) hosts
+#************************************************************************************************************************************************
+
+   # Add unique hit information to a column 
+        Data<-Data%>%ungroup()%>%mutate(UNQ.protospacer.ID=paste(target.acc.,"strand",strand,"pos",target.pos,sep="_"))
+
+    # Count the number of times a protospacer site is matched
+        Data<-Data%>%group_by(UNQ.protospacer.ID)%>%mutate(protospacer.freq=n())%>%ungroup()
+
+    # Count the duplicated PS - e.g. if there are 7 PS for a host-target, how many of the 7 PS are shared with other host-target pairs)
+        Data<-Data%>%mutate(PS.is.shared=ifelse(protospacer.freq>1,1,0))%>%group_by(host.target.pair)%>%mutate(total.shared.PS=sum(PS.is.shared))
+
+  # Keep the host-target pairs with no duplicate spacers/PS
+      no.duplicate.PS<-Data%>%filter(total.shared.PS==0)
+      Counts<-Counts%>%full_join(no.duplicate.PS%>%group_by(subtype.list)%>%summarise(NoSharedPS.subtot=n()),by="subtype.list")
+      
+    # Data still to sort  
+        has.duplicate.PS<-Data%>%filter(total.shared.PS>0)
+        Counts<-Counts%>%full_join(has.duplicate.PS%>%group_by(subtype.list)%>%summarise(HasSharedPS.subtot=n()),by="subtype.list")
+        
+        has.duplicate.PS<-has.duplicate.PS%>%group_by(target.acc.)%>%mutate(target.max.shared.PS=max(total.shared.PS)) # might remove data that could be kept?
+  
+    # Seperate the host-target pairs where the target only a single shared PS (this should hopefully be the cases where the same PPS triggered priming in diff host strains)
+        single.shared.PS<-has.duplicate.PS%>%filter(target.max.shared.PS == 1)
+        Counts<-Counts%>%full_join(single.shared.PS%>%group_by(subtype.list)%>%summarise(OneSharedPS.subtot=n()),by="subtype.list")
+
+      # Is the PPS the duplicated spacer?
+          PPS.duplicate.spacer<-single.shared.PS%>%ungroup()%>%filter(spacer.order.number== 1)%>%
+                                          mutate(pps.spacer.duplicated=ifelse(protospacer.freq > 1, T, F))%>%select(host.target.pair, pps.spacer.duplicated)
+          single.shared.PS<-left_join(single.shared.PS, PPS.duplicate.spacer, by = "host.target.pair")
+
+          write.csv(single.shared.PS,paste(Out.Dir,"OneSharedPS.csv",sep=""))
+
+      # Discard the host-target pairs with common spacers that are not duplicated at the PPS 
+          removed<-single.shared.PS%>%filter(pps.spacer.duplicated == F)
+          write.csv(removed,paste(Out.Dir,"Discard/DuplicatedPSnonPPS.csv",sep=""))
+          Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(OneSharedPS_nonPPS.rem=n()),by="subtype.list")
+
+          aa<-removed%>%filter(subtype.list=="II-A" | subtype.list=="II-C") #@@ check the array orientation in these?
+         
+      # Select the host-target pairs with common spacers hitting the same target that are only at the PPS
+          PPS.duplicate.spacer<-single.shared.PS%>%filter(pps.spacer.duplicated == T)%>%select(-pps.spacer.duplicated,-protospacer.freq,-PS.is.shared)
+          write.csv(PPS.duplicate.spacer,paste(Out.Dir,"DuplicatedPPS.csv",sep=""))
+          Counts<-Counts%>%full_join(PPS.duplicate.spacer%>%group_by(subtype.list)%>%summarise(OneSharedPS_PPS.kept=n()),by="subtype.list")
+          
+
+  # Seperate any host-target pairs with more than 1 shared PS on the same target
+        many.shared.PS<-has.duplicate.PS%>%filter(target.max.shared.PS > 1)
+        write.csv(many.shared.PS,paste(Out.Dir,"Discard/ManyDuplicatedPS.csv",sep=""))
+        Counts<-Counts%>%full_join(many.shared.PS%>%group_by(subtype.list)%>%summarise(ManySharedPS.subtot=n()),by="subtype.list")
+
+# # # Check if the PPS is found twice - ***redundant with new eariler filter
+# #     many.shared.PS<-many.shared.PS%>%filter(spacer.order.number!=1)%>%group_by(host.target.pair)%>%
+# #                                   mutate(doublePPS=ifelse(dist.from.PPS==0,1,0))%>%group_by(host.target.pair)%>%mutate(dblPPS=max(doublePPS))
+# #
+# # # Remove these entires
+# #     multiplePPS<-many.shared.PS%>%filter(dblPPS>=1)
+# #     write.csv(multiplePPS,paste(Out.Dir,"Discard/multiplePPS.csv",sep=""))
+# #     Counts<-Counts%>%full_join(multiplePPS%>%group_by(subtype.list)%>%summarise(multiplePPS.rem=n()),by="subtype.list")
+# #
+# #       # If oldest 2-3 spacers are shared, we could keep?
+# #           many.shared.PS.not.dblPPS<-many.shared.PS%>%filter(dblPPS==0)
+# #           write.csv(many.shared.PS.not.dblPPS,paste(Out.Dir,"Discard/MoreThan1DuplicatedPSno_dblPPS.csv",sep=""))
+# #           Counts<-Counts%>%full_join(many.shared.PS.not.dblPPS%>%group_by(subtype.list)%>%summarise(ManyDuplicatedPSnoDblPPS.kept=n()),by="subtype.list")
+# 
+#       # Check if there are duplicated PS within the same host-target pair
+#           aa<-many.shared.PS.not.dblPPS%>%group_by(host.target.pair)%>%mutate(UNQ.PS.hits=length(unique(UNQ.protospacer.ID)))%>%
+#             mutate(to.keep=ifelse(UNQ.PS.hits==hits.count,1,0))%>%select(-dblPPS)
+#         # Write the discarded data
+#           ab<-aa%>%filter(to.keep==0)
+#           write.csv(ab,paste(Out.Dir,"Discard/multiplePS_Host_has_multiple_spacers_of_ident_seq.csv",sep=""))
+#           Counts<-Counts%>%full_join(ab%>%group_by(subtype.list)%>%summarise(multiplePS_HostHasMultiIdentSpacers.rem=n()),by="subtype.list")
+# 
+#         ac<-aa%>%filter(to.keep==1)%>%select(-to.keep)
+#         write.csv(ac,paste(Out.Dir,"Discard/multiplePS_NoDuplicatedPSKept.csv",sep=""))
+#         Counts<-Counts%>%full_join(ac%>%group_by(subtype.list)%>%summarise(multiplePS_NoDuplicatedPS.kept=n()),by="subtype.list")
+      
+        # If the PPS and PS+1 are the same then we can keep a representative trucated to the PPS and PS+1 (also, if the PPS is the same then keep both?)
+        
+          # Filter for only PS+1 and PPS
+              many.shared.PS.trunc<-many.shared.PS%>%select(-total.shared.PS,-protospacer.freq)%>%filter(spacer.order.number<=2)
+            
+            # Write the discarded data
+                removed<-many.shared.PS%>%select(-total.shared.PS,-protospacer.freq)%>%filter(spacer.order.number>2)
+                write.csv(removed,paste(Out.Dir,"Discard/multiplePS_NoDuplicatedPS_PS2above_removed.csv",sep=""))
+                Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(multiplePS_PS2above.rem=n()),by="subtype.list")
+      
+        # Combine each of the UNQ.protospacer.IDs for each of the host target pairs so that the entire match is summarised in one column.
+            many.shared.PS.trunc<-many.shared.PS.trunc%>%group_by(host.target.pair)%>%mutate(UNQ.array.PS.pattern=paste(unlist(list(UNQ.protospacer.ID)),collapse="_"))
+
+        # Count the number of times each of the host PS patterns are identical for each of the target genomes.
+            many.shared.PS.trunc<-many.shared.PS.trunc%>%group_by(UNQ.array.PS.pattern)%>%mutate(ident.trunc.hosts = length(unique(host.acc.)))
+
+        # Select the hits that are part of perfectly duplicated host genomes.
+            # Write out the data to remove
+                other.truc.hosts<-many.shared.PS.trunc%>%filter(ident.trunc.hosts==1)
+                Counts<-Counts%>%full_join(other.truc.hosts%>%group_by(subtype.list)%>%summarise(NonIdent_PPS.PS1_hosts.rem=n()),by="subtype.list")
+                write.csv(other.truc.hosts,paste(Out.Dir,"Discard/stillduptrunchostgenomes.csv",sep=""))
+            # Keep the good data
+                trunc.hosts.to.merge<-many.shared.PS.trunc%>%filter(ident.trunc.hosts!=1)
+                Counts<-Counts%>%full_join(trunc.hosts.to.merge%>%group_by(subtype.list)%>%summarise(Ident_PPS.PS1_hosts.subtot=n()),by="subtype.list")
+                write.csv(trunc.hosts.to.merge,paste(Out.Dir,"Discard/IdentPPS_PS1_hostgenomes.csv",sep=""))
+           
+        # Create a combined 'genome' name containing each of the host genome names that are duplicated for a target genome.
+          trunc.hosts.to.merge<-trunc.hosts.to.merge%>%group_by(UNQ.array.PS.pattern)%>%
+                                                      mutate(matching.host.genomes=paste(unlist(list(unique(host.acc.))),collapse="$merged_trunc_"))
+        
+  # Now we need to select representative entries for each merged host genome set
+
+  # Try the representatives with the highest total bitscores scores
+       trunc.hosts.to.merge<-trunc.hosts.to.merge%>%group_by(host.target.pair)%>%mutate(score.sum=sum(bit.score.num))%>%
+                              group_by(matching.host.genomes)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+      
+      merged.trunc.hosts<-trunc.hosts.to.merge%>%filter(to.keep==0)
+      trunc.hosts.to.merge<-trunc.hosts.to.merge%>%filter(to.keep==1)
+      
+  # Now select the representatives with the highest total spacer numbers
+      trunc.hosts.to.merge<-trunc.hosts.to.merge%>%group_by(host.target.pair)%>%mutate(score.sum=sum(spacer.number))%>%
+                                group_by(matching.host.genomes)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+      merged.trunc.hosts<-merged.trunc.hosts%>%bind_rows(trunc.hosts.to.merge%>%filter(to.keep==0))
+      trunc.hosts.to.merge<-trunc.hosts.to.merge%>%filter(to.keep==1)
+    
+    # Now just select one representative for each of the remaining, based on GCF order?
+      trunc.hosts.to.merge<-trunc.hosts.to.merge%>%group_by(matching.host.genomes)%>%arrange(spacer.order.number,host.acc.)%>%mutate(represent = row_number())%>%
+                                                    group_by(host.target.pair)%>%mutate(to.keep=ifelse(min(represent)==1,1,0)) 
+      merged.trunc.hosts<-merged.trunc.hosts%>%bind_rows(trunc.hosts.to.merge%>%filter(to.keep==0))
+      trunc.hosts.to.merge<-trunc.hosts.to.merge%>%filter(to.keep==1)
+      aaa<-trunc.hosts.to.merge%>%filter(spacer.order.number==1)%>%group_by(matching.host.genomes)%>%summarise(freq=n()) #Check there is only one representative left  
+  
+    # Count and output the removed/merged data
+    
+        Counts<-Counts%>%full_join(merged.trunc.hosts%>%group_by(subtype.list)%>%summarise(Ident_PPS.PS1.mrg=n()),by="subtype.list")
+        write.csv(merged.trunc.hosts,paste(Out.Dir,"Discard/MergedIdentPPS_PS1_hosts.csv",sep=""))
+
+  # Relabel the host genome column with the matching.host.genomes column and the the host.target.pair column #!!!! some of this needs moving to eariler
+      trunc.hosts.merged<-trunc.hosts.to.merge%>%ungroup()%>%mutate(host.acc.=matching.host.genomes)%>%
+            mutate(host.target.pair=paste(host.acc.,target.acc.,sep="$"))%>%mutate(array.id=paste(unlist(list(unique(array.id))), collapse = "$merged_"))%>%
+            select(-matching.host.genomes, -UNQ.protospacer.ID, -UNQ.array.PS.pattern,-score.sum,-represent,-to.keep)
+
+      length(trunc.hosts.merged)-length(unique(trunc.hosts.merged)) # Check
+      Counts<-Counts%>%full_join(trunc.hosts.merged%>%group_by(subtype.list)%>%summarise(Ident_PPS.PS1_Represents.Kept=n()),by="subtype.list")
+
+      
+  # Could look at and add in other.truc.hosts?@@    
+        
+#*** Keep all the data that passed the host shared PS/redundancy filters (could possibly add more here??!!)
+      no.duplicate.PS<-no.duplicate.PS%>%select(-UNQ.protospacer.ID,-protospacer.freq,-PS.is.shared,-total.shared.PS)
+      trunc.hosts.merged<-trunc.hosts.merged%>%select(-PS.is.shared,-target.max.shared.PS,-ident.trunc.hosts)
+      PPS.duplicate.spacer<-PPS.duplicate.spacer%>%select(-UNQ.protospacer.ID,-total.shared.PS,-target.max.shared.PS)
+      
+      Data<-no.duplicate.PS%>%bind_rows(PPS.duplicate.spacer)%>%bind_rows(trunc.hosts.merged) ## this is not working!!??
+      
+      length(Data)-length(no.duplicate.PS)-length(PPS.duplicate.spacer)-length(trunc.hosts.merged) # @@ data lost?
+      
+      length(Data)-length(unique(Data))
+      
+    # Remove some columns
+  
+      Data%>%group_by(host.target.pair)%>%summarise(hit.count=n())%>%group_by(hit.count)%>%summarise(freq=n())
+
+      Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(HostRedundancy_Out.total=n()),by="subtype.list")
+      
+write.csv(Data,paste(Out.Dir,"Data/Host_Redundancy_Filtered.csv",sep=""),row.names=F)
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+
+```
+
+```{r remove_target_redundancy, eval = F, include=T}
+  if (exists("Counts")==F){
+    Counts<-tbl_df(matrix(c("I-A","I-B","I-C","I-D","I-E","I-F","II-A","II-C"),ncol=1,byrow=TRUE)) #Make a table to keep track of the data
+    colnames(Counts)<-c("subtype.list")
+    Out.Dir<-"Output/"
+  } #rm(Counts)
+
+Data<-read.csv(paste(Out.Dir,"Data/Host_Redundancy_Filtered.csv",sep=""),as.is=T)
+
+# Check host-target pairs have at least 2 hits
+  Data<-Data%>%group_by(host.target.pair)%>%mutate(hits.count=n()) 
+  table(Data$hits.count) # Check this
+
+  Counts<-Counts%>%full_join(Data%>%group_by(subtype.list)%>%summarise(TargetRedundancy_In.total=n()),by="subtype.list")
+  Data%>%group_by(host.target.pair)%>%summarise(hit.count=n())%>%group_by(hit.count)%>%summarise(freq=n())
+
+# Start by finding cases where the whole set of host spacers matching multiple targets are the same
+      
+  # Create a unique spacer ID containing the host array details, array, spacer number
+      Data<-Data%>%ungroup()%>%mutate(spacer.id=paste(host.acc.,array.id, "Spcr",spacer.number,sep = "_"))
+      
+  # Combine each of the spacer.ids for each of the host target pairs to give a unique host spacer set ID
+      Data<-Data%>%group_by(host.acc.,host.target.pair)%>%mutate(UNQ.host.spacer.set=paste(unlist(list(spacer.id)),collapse ="_"))
+
+  # Count the number of times each of the host spacer sets are identical for each of the target genomes.
+      Data<-Data%>%group_by(UNQ.host.spacer.set)%>%mutate(duplicate.targets=length(unique(target.acc.)))%>%ungroup()
+      
+# Now do the filtering 
+      
+    # Data OK as is for now
+        all.non.dup.Data<-Data%>%filter(duplicate.targets == 1)%>%select(-duplicate.targets,-spacer.id,-UNQ.host.spacer.set)
+        Counts<-Counts%>%full_join(all.non.dup.Data%>%group_by(subtype.list)%>%summarise(AllnonDuplicateData_1.subtot=n()),by="subtype.list")
+        length(all.non.dup.Data)-length(unique(all.non.dup.Data)) # Check all rows are unique
+    
+    # Select the duplicated data
+        dup.targets<-Data%>%filter(duplicate.targets > 1)%>%select(-UNQ.host.spacer.set)  
+        Counts<-Counts%>%full_join(dup.targets%>%group_by(subtype.list)%>%summarise(DupData_1.subtot=n()),by="subtype.list")
+
+  # Start with the cases where the target positions, bitscores, spacer #s and strands are identical (perfect matches).
+       dup.targets<-dup.targets%>%ungroup()%>%mutate(UNQ.SpacerID.PS.ID=paste(spacer.id,target.pos,target.strand,sep="_"))%>%
+                                  group_by(host.target.pair)%>%mutate(UNQ.array.PS.pattern=paste(unlist(list(UNQ.SpacerID.PS.ID)),collapse="_"))
+
+    dup.targets<-dup.targets%>%group_by(UNQ.array.PS.pattern)%>%mutate(num.ident.targets=length(unique(target.acc.)))
+    
+  # Seperate out the identical targets then select a representative for these.
+      IdentTargets<-dup.targets%>%filter(num.ident.targets>1)
+      nonIdentTargets<-dup.targets%>%filter(num.ident.targets==1)
+      
+      # Write out the counts
+        Counts<-Counts%>%full_join(IdentTargets%>%group_by(subtype.list)%>%summarise(Dup_IdentTargets.subtot=n()),by="subtype.list")
+        Counts<-Counts%>%full_join(nonIdentTargets%>%group_by(subtype.list)%>%summarise(Dup_nonIdentTargets.subtot=n()),by="subtype.list")
+      
+    # Using the identical targets, keep the highest total bitscore representatives 
+      IdentTargets<-IdentTargets%>%group_by(host.target.pair)%>%mutate(score.sum=sum(bit.score.num))%>%
+                                    group_by(UNQ.array.PS.pattern)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+      IdentTargetSubset<-IdentTargets%>%filter(to.keep==1)%>%ungroup() # Removed data are counted later
+      
+    # In the case of a bitscore tie, give preferance to phage isolates (if there are any)
+        IdentTargetSubset<-IdentTargetSubset%>%mutate(isolate=ifelse(grepl("-",target.acc.)==F,1,0))%>%
+                                              group_by(UNQ.array.PS.pattern)%>%mutate(to.keep=ifelse(isolate==max(isolate),1,0))
+        IdentTargetSubset<-IdentTargetSubset%>%filter(to.keep==1) # Removed data are counted later
+
+  # Keep the longest target genomes
+      IdentTargetSubset<-IdentTargetSubset%>%group_by(UNQ.array.PS.pattern)%>%mutate(to.keep=ifelse(genome.length==max(genome.length),1,0))%>%filter(to.keep==1)
+
+  #Now just keep one representative of the remaining lot
+      IdentTargetSubset<-IdentTargetSubset%>%filter(spacer.order.number==1)%>%select(host.target.pair,UNQ.array.PS.pattern,to.keep)%>%
+                                              group_by(UNQ.array.PS.pattern)%>%mutate(target.rep = 1:n())%>%filter(target.rep==1)%>%select(-to.keep)
+
+  # Join back with all host-target pairs that have indentical targets
+      IdentTargetsJoined<-IdentTargets%>%left_join(IdentTargetSubset,by=c("host.target.pair", "UNQ.array.PS.pattern"))%>%select(-score.sum,-to.keep)
+
+  # Make new target accession # 
+      IdentTargetsJoined<-IdentTargetsJoined%>%group_by(UNQ.array.PS.pattern)%>%mutate(tmp=paste(unlist(list(unique(target.acc.))),collapse ="$merged_"))
+      IdentTargetsJoined$target.rep[is.na(IdentTargetsJoined$target.rep)]<-0
+ 
+   # Now keep the representatives and remove the others
+      removed<-IdentTargetsJoined%>%filter(target.rep==0)
+      write.csv(removed,paste(Out.Dir,"Discard/IdenticalTargetsDiscarded.csv",sep=""))
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(IdentTargetsMerged.mrg=n()),by="subtype.list")
+
+  # Keep the representative and relabel
+      IdentTargets.Rep<-IdentTargetsJoined%>%ungroup()%>%filter(target.rep==1)
+      IdentTargets.Rep<-IdentTargets.Rep%>%ungroup()%>%mutate(target.acc.=tmp)%>%select(-tmp,-target.rep)%>%
+                                          mutate(host.target.pair = paste(host.acc., target.acc., sep = "$"))
+      Counts<-Counts%>%full_join(IdentTargets.Rep%>%group_by(subtype.list)%>%summarise(Ident.Targets.Rep.kept=n()),by="subtype.list")
+
+#*** Join back with the subset non-perfect match duplicated data
+  dup.targets<-IdentTargets.Rep%>%bind_rows(nonIdentTargets)%>%select(-UNQ.SpacerID.PS.ID,-UNQ.array.PS.pattern)
+  Counts<-Counts%>%full_join(dup.targets%>%group_by(subtype.list)%>%summarise(Current.Duplicated_1.subtot=n()),by="subtype.list")
+
+# Recheck for uniqueness ## Re-do the eariler check
+  
+  # Remake the spacer ID? -!!?? what happens with merged hosts?@@
+    dup.targets<-dup.targets%>%ungroup()%>%mutate(spacer.id=paste(host.acc.,array.id, "Spcr",spacer.number,sep = "_"))%>%
+                                group_by(host.target.pair)%>%mutate(all.host.starts=paste(unlist(list(spacer.id)), collapse = "_"))
+
+  # Count the number of times each of the host genomes are identical for each of the target genomes.
+      dup.targets<-dup.targets%>%group_by(all.host.starts)%>%mutate(duplicate.targets=length(unique(target.acc.)))
+
+# Join the now confirmed non-duplicated data back to the main table
+      noLongerDup<-dup.targets%>%filter(duplicate.targets==1)%>%select(-duplicate.targets,-num.ident.targets)
+      Counts<-Counts%>%full_join(noLongerDup%>%group_by(subtype.list)%>%summarise(nonDuplicated_1.kept=n()),by="subtype.list") #@@ zero length?
+      all.non.dup.Data<-all.non.dup.Data%>%bind_rows(noLongerDup)
+      Counts<-Counts%>%full_join(all.non.dup.Data%>%group_by(subtype.list)%>%summarise(AllnonDuplicateData_2.subtot=n()),by="subtype.list")
+      nrow(all.non.dup.Data)-nrow(all.non.dup.Data%>%unique()) # Check all rows are unique
+      
+  # Tidy up the rest that still have duplicate (non-perfect) targets
+      still.dup.targets<-dup.targets%>%filter(duplicate.targets>1)
+      Counts<-Counts%>%full_join(still.dup.targets%>%group_by(subtype.list)%>%summarise(DupData_2.subtot=n()),by="subtype.list")
+      
+  # Make a new UNQ.SpacerID.PS.ID with the distance to PPS rounded up to the nearest 1000.
+      dup.targets<-still.dup.targets%>%ungroup()%>%mutate(round.dist.to.PPS=ceiling(dist.from.PPS/2000)*2000)
+      dup.targets<-dup.targets%>%mutate(UNQ.SpacerID.PS.ID=paste(spacer.id,round.dist.to.PPS,target.strand,sep = "_"))%>%
+                group_by(host.target.pair)%>%mutate(UNQ.array.PS.round.pattern=paste(unlist(list(UNQ.SpacerID.PS.ID)), collapse = "_"))
+
+      dup.targets<-dup.targets%>%group_by(UNQ.array.PS.round.pattern)%>%mutate(num.close.dist.targets=length(unique(target.acc.)))
+      
+      nonCloseDistTargets<-dup.targets%>%filter(num.close.dist.targets==1)
+      Counts<-Counts%>%full_join(nonCloseDistTargets%>%group_by(subtype.list)%>%summarise(nonCloseDistTargets.kept=n()),by="subtype.list") 
+      
+      CloseDistTargets<-dup.targets%>%filter(num.close.dist.targets>1) 
+      Counts<-Counts%>%full_join(CloseDistTargets%>%group_by(subtype.list)%>%summarise(CloseDistTargets.subtot=n()),by="subtype.list") 
+      
+      
+  # Use a similar strategy as before to select representatives...
+
+    # Keep the highest total bitscore representatives 
+        CloseDistTargets<-CloseDistTargets%>%group_by(host.target.pair)%>%mutate(score.sum=sum(bit.score.num))%>%
+                    group_by(UNQ.array.PS.round.pattern)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+
+    # Remove low bitscore then keep phage isolates if there are any
+        CloseDistTargetSubset<-CloseDistTargets%>%filter(to.keep==1)%>%ungroup()%>%
+          mutate(isolate=ifelse(grepl("-",target.acc.)==T,0,1))%>%
+          group_by(UNQ.array.PS.round.pattern)%>%mutate(to.keep=ifelse(isolate==max(isolate),1,0))%>%filter(to.keep==1)
+
+    # Keep the longest target genomes
+        CloseDistTargetSubset<-CloseDistTargetSubset%>%group_by(UNQ.array.PS.round.pattern)%>%
+          mutate(to.keep=ifelse(genome.length==max(genome.length),1,0))%>%filter(to.keep==1)
+
+    # Now just keep one representative of the remaining lot
+        CloseDistTargetSubset<-CloseDistTargetSubset%>%filter(spacer.order.number==1)%>%select(host.target.pair,UNQ.array.PS.round.pattern,to.keep)%>%
+          group_by(UNQ.array.PS.round.pattern)%>%mutate(target.rep = 1:n())%>%filter(target.rep==1)%>%select(-to.keep)
+
+  # Join back with all host-target pairs with indentical targets
+      CloseDistTargets<-CloseDistTargets%>%left_join(CloseDistTargetSubset)
+      CloseDistTargets$target.rep[is.na(CloseDistTargets$target.rep)]<-0
+  # Make new target accession # #!!!need to also average distances - or don't worry about that?? - might mess up the mapping plots?
+      CloseDistTargets<-CloseDistTargets%>%group_by(UNQ.array.PS.round.pattern)%>%mutate(test=paste(unlist(list(unique(target.acc.))), collapse = "$merged_"))
+
+  # We also need to sum the num.identical.targets column
+      CloseDistTargets<-CloseDistTargets%>%group_by(UNQ.array.PS.round.pattern,UNQ.SpacerID.PS.ID)%>%mutate(num.ident.targets=sum(num.ident.targets))
+      
+  # Now keep the representatives and remove the others
+      removed<-CloseDistTargets%>%filter(target.rep==0)
+      write.csv(removed,paste(Out.Dir,"Discard/IdenticalTargetsDiscarded.csv",sep=""))
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(CloseTargetsMerged.mrg=n()),by="subtype.list")
+
+      CloseDistTargets.Rep<-CloseDistTargets%>%filter(target.rep==1)
+
+    # Relabel stuff #!!?? need to sum into merged.count?
+      CloseDistTargets.Rep<-CloseDistTargets.Rep%>%ungroup()%>%mutate(target.acc.=test)%>%
+          select(-test,-target.rep)%>%mutate(host.target.pair = paste(host.acc., target.acc., sep = "$"))
+      Counts<-Counts%>%full_join(CloseDistTargets.Rep%>%group_by(subtype.list)%>%summarise(CloseTargetsRepresents.kept=n()),by="subtype.list")
+
+  #*** Join back with the rest of the non-perfect match data
+      dup.targets.out<-CloseDistTargets.Rep%>%bind_rows(dup.targets%>%filter(num.close.dist.targets==1))%>%
+                                              select(-score.sum,-to.keep,-UNQ.SpacerID.PS.ID,-UNQ.array.PS.round.pattern) 
+      Counts<-Counts%>%full_join(dup.targets.out%>%group_by(subtype.list)%>%summarise(TargetDupCloseOut_A.kept=n()),by="subtype.list")
+
+      dup.targets.out<-dup.targets.out%>%select(-round.dist.to.PPS,-num.close.dist.targets) # Need to sum some of these for the merge?
+      
+## Redo the close target with modifed rounding
+      
+        # Make a new UNQ.SpacerID.PS.ID with the distance to PPS rounded up to the nearest 1000.
+      dup.targets<-dup.targets.out%>%ungroup()%>%mutate(round.dist.to.PPS=ceiling((dist.from.PPS-1000)/2000)*2000)
+      dup.targets<-dup.targets%>%mutate(UNQ.SpacerID.PS.ID=paste(spacer.id,round.dist.to.PPS,target.strand,sep = "_"))%>%
+                    group_by(host.target.pair)%>%mutate(UNQ.array.PS.round.pattern=paste(unlist(list(UNQ.SpacerID.PS.ID)), collapse = "_"))
+
+      dup.targets<-dup.targets%>%group_by(UNQ.array.PS.round.pattern)%>%mutate(num.close.dist.targets=length(unique(target.acc.)))
+      
+      nonCloseDistTargets<-dup.targets%>%filter(num.close.dist.targets==1)
+      Counts<-Counts%>%full_join(nonCloseDistTargets%>%group_by(subtype.list)%>%summarise(nonCloseDistTargets_B.kept=n()),by="subtype.list") 
+      
+      CloseDistTargets<-dup.targets%>%filter(num.close.dist.targets>1) 
+      Counts<-Counts%>%full_join(CloseDistTargets%>%group_by(subtype.list)%>%summarise(CloseDistTargets_B.subtot=n()),by="subtype.list") 
+      
+  # Use a similar strategy as before to select representatives...
+
+    # Keep the highest total bitscore representatives 
+        CloseDistTargets<-CloseDistTargets%>%group_by(host.target.pair)%>%mutate(score.sum=sum(bit.score.num))%>%
+          group_by(UNQ.array.PS.round.pattern)%>%mutate(to.keep=ifelse(score.sum==max(score.sum),1,0))
+
+    # Remove low bitscore then keep phage isolates if there are any
+        CloseDistTargetSubset<-CloseDistTargets%>%filter(to.keep==1)%>%ungroup()%>%
+          mutate(isolate=ifelse(grepl("-",target.acc.)==T,0,1))%>%
+          group_by(UNQ.array.PS.round.pattern)%>%mutate(to.keep=ifelse(isolate==max(isolate),1,0))%>%filter(to.keep==1)
+
+    # Keep the longest target genomes
+        CloseDistTargetSubset<-CloseDistTargetSubset%>%group_by(UNQ.array.PS.round.pattern)%>%
+          mutate(to.keep=ifelse(genome.length==max(genome.length),1,0))%>%filter(to.keep==1)
+
+    # Now just keep one representative of the remaining lot
+        CloseDistTargetSubset<-CloseDistTargetSubset%>%filter(spacer.order.number==1)%>%select(host.target.pair,UNQ.array.PS.round.pattern,to.keep)%>%
+          group_by(UNQ.array.PS.round.pattern)%>%mutate(target.rep = 1:n())%>%filter(target.rep==1)%>%select(-to.keep)
+
+  # Join back with all host-target pairs with indentical targets
+      CloseDistTargets<-CloseDistTargets%>%left_join(CloseDistTargetSubset)
+      CloseDistTargets$target.rep[is.na(CloseDistTargets$target.rep)]<-0
+
+    # Make new target accession # #!!!need to also average distances - or don't worry about that?? - might mess up the mapping plots?
+      CloseDistTargets<-CloseDistTargets%>%group_by(UNQ.array.PS.round.pattern)%>%mutate(test=paste(unlist(list(unique(target.acc.))), collapse = "$merged_"))
+
+  # Now keep the representatives and remove the others
+      removed<-CloseDistTargets%>%filter(target.rep==0)
+      write.csv(removed,paste(Out.Dir,"Discard/IdenticalTargetsDiscarded.csv",sep=""))
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(CloseTargetsMerged_B.mrg=n()),by="subtype.list")
+
+      CloseDistTargets.Rep<-CloseDistTargets%>%filter(target.rep==1)
+
+    # Relabel stuff
+      CloseDistTargets.Rep<-CloseDistTargets.Rep%>%ungroup()%>%mutate(target.acc.=test)%>%
+          select(-test,-target.rep)%>%mutate(host.target.pair = paste(host.acc., target.acc., sep = "$"))
+      Counts<-Counts%>%full_join(CloseDistTargets.Rep%>%group_by(subtype.list)%>%summarise(CloseTargetsRepresents_B.kept=n()),by="subtype.list")
+
+  #*** Join back with the rest of the non-perfect match data
+      dup.targets.out<-CloseDistTargets.Rep%>%bind_rows(dup.targets%>%filter(num.close.dist.targets==1))%>%
+            select(-score.sum,-to.keep,-UNQ.SpacerID.PS.ID,-UNQ.array.PS.round.pattern,-spacer.id,-round.dist.to.PPS,-num.close.dist.targets) 
+      Counts<-Counts%>%full_join(dup.targets.out%>%group_by(subtype.list)%>%summarise(TargetDupCloseOut_B.kept=n()),by="subtype.list")
+
+## Now recheck for uniqueness ## Re-do the eariler check
+
+  # Remake the Host spacer IDs and unique spacer set IDs
+      were.dup.targets<-dup.targets.out%>%ungroup()%>%mutate(spacer.id=paste(host.acc.,array.id, "Spcr",spacer.number,sep = "_"))%>%
+                                        group_by(host.target.pair)%>%mutate(UNQ.host.spacers=paste(unlist(list(spacer.id)),collapse = "_"))
+
+  # Count the number of times each of the host spacer sets are identical for each of the target genomes.
+      were.dup.targets<-were.dup.targets%>%group_by(UNQ.host.spacers)%>%mutate(duplicate.targets = length(unique(target.acc.)))
+
+# Seperate the data that are still duplicated targets 
+  
+  # Join the now confirmed non-duplicated data back to the main table
+      noLongerDup<-were.dup.targets%>%filter(duplicate.targets==1)%>%select(-duplicate.targets,-num.ident.targets)
+      Counts<-Counts%>%full_join(noLongerDup%>%group_by(subtype.list)%>%summarise(noLongerDup_C.kept=n()),by="subtype.list")
+      
+      all.non.dup.Data<-all.non.dup.Data%>%bind_rows(noLongerDup)%>%select(-spacer.id)
+      Counts<-Counts%>%full_join(all.non.dup.Data%>%group_by(subtype.list)%>%summarise(AllnonDuplicateData_3.subtot=n()),by="subtype.list")
+      length(all.non.dup.Data)-length(unique(all.non.dup.Data)) # Check all rows are unique  
+  
+  # Keep working on the still duplicated data..
+      still.dup.targets<-were.dup.targets%>%filter(duplicate.targets>1)
+      Counts<-Counts%>%full_join(still.dup.targets%>%group_by(subtype.list)%>%summarise(DupData_3.subtot=n()),by="subtype.list")
+
+#**********************************************************      
+#****** This section is not implemented yet??
+#**********************************************************    
+#       ### Keep working - sort this out later.....
+#    ### Keep working - sort this out later.....
+#       
+#      # Start by counting how many merged entries there are for each host and target.
+#         
+       dup.targets<-still.dup.targets%>%rowwise()%>%mutate(merged.hosts=str_count(host.acc.,"merged")+1,merged.targets=str_count(target.acc.,"merged")+1)
+        table(still.dup.targets$subtype.list)  
+    
+    # If the strand and direction (quadrants) are the same then just average the distances
+
+    # Make target strand and direction string, i.e. if quadrants are the same, then merge the data
+      dup.targets<-dup.targets%>%group_by(host.target.pair)%>%arrange(spacer.order.number)%>%
+                  mutate(UNQ.target.quads=paste(unlist(target.strand),unlist(five.three.prime.dir),collapse="_"))
+    
+    # Check how many unique UNQ.target.quads there are for each spacer set string
+         dup.targets<-dup.targets%>%group_by(UNQ.host.spacers)%>%mutate(UNQ.quads=length(unique(UNQ.target.quads)))
+
+    
+    # If there are only 2 duplicate targets and their quadrants are the same then average the distances (if they're less than 5 kb apart?**)@@ **not implmented yet
+        merge.quads<-dup.targets%>%filter(UNQ.quads==1 & duplicate.targets==2)%>%
+                            group_by(UNQ.host.spacers,spacer.order.number)%>%mutate(avg.dist=sum(dist.from.PPS)/n())
+        
+    # Now pick the first target as the representative and merge the other    
+        merge.quads<-merge.quads%>%group_by(UNQ.host.spacers)%>%arrange(host.target.pair)%>%mutate(to.keep=1:n())%>%
+                          group_by(host.target.pair)%>%mutate(target.rep=ifelse(min(to.keep)==1,1,0))
+        
+    # Merge columns, distance etc
+        merge.quads<-merge.quads%>%group_by(UNQ.host.spacers)%>%mutate(target.acc.=paste(unlist(list(unique(target.acc.))), collapse = "$merged_avgdist_"))%>%
+                                ungroup()%>%mutate(dist.from.PPS=avg.dist)%>%select(-avg.dist,-to.keep)
+
+  # Now keep the representatives and remove the others
+      removed<-merge.quads%>%filter(target.rep==0)
+      write.csv(removed,paste(Out.Dir,"Discard/SimilarTargetQuadsMerged.csv",sep=""))
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SameTargetQuads.mrg=n()),by="subtype.list")
+
+      merge.quads<-merge.quads%>%filter(target.rep==1)%>%
+              select(-UNQ.target.quads,-UNQ.host.spacers,-UNQ.quads,-spacer.id,-num.ident.targets,-duplicate.targets,-merged.hosts,-merged.targets,-target.rep)
+
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SameTargetQuadsReps.kept=n()),by="subtype.list")
+
+ 
+# Add representatives to the running non duplicate data table    
+      
+    all.non.dup.Data<-all.non.dup.Data%>%bind_rows(merge.quads)
+    Counts<-Counts%>%full_join(all.non.dup.Data%>%group_by(subtype.list)%>%summarise(AllnonDuplicateData_4.subtot=n()),by="subtype.list")
+    nrow(all.non.dup.Data)-nrow(all.non.dup.Data%>%unique()) # Check all rows are unique        
+ 
+            # Count the remaining data not kept
+              removed<-dup.targets%>%filter(UNQ.quads!=1 | duplicate.targets!=2)
+              write.csv(removed,paste(Out.Dir,"Discard/StillDupData_4.csv",sep=""))
+              Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(StillDupData_4.rem=n()),by="subtype.list")         
+
+#*****************************************************************************************************
+#***************For now just work with the already non identical duplicated data *********************
+#*****************************************************************************************************    
+        
+# Just keep the non duplicated data for now....
+      AllData<-all.non.dup.Data%>%ungroup()%>%rowwise()%>%mutate(merged.hosts=str_count(host.acc.,"merged")+1,merged.targets=str_count(target.acc.,"merged")+1)        
+      Counts<-Counts%>%full_join(AllData%>%group_by(subtype.list)%>%summarise(PreSpacer_DupCheck.total=n()),by="subtype.list")
+      length(AllData)-length(unique(AllData)) # Check all rows are unique  
+  
+  # Remake the spacer IDs
+      AllData<-AllData%>%ungroup()%>%mutate(spacer.id=paste(host.acc.,array.id, "Spcr",spacer.number,sep = "_"))
+
+  # Count the number of times a spacer matches protospacer sites
+      aa<-AllData%>%group_by(host.acc., spacer.id)%>%mutate(spacer.freq.num = n())%>%ungroup()
+
+  # Count the number of spacers that are duplicated in each host-target pair
+      spacer.counts.dat<-aa%>%filter(spacer.freq.num > 1)%>%group_by(host.target.pair)%>%summarise(shared.spacer.num = n())
+
+  # Add the spacer counts data
+      aa<-aa%>%left_join(spacer.counts.dat, by ="host.target.pair")
+      aa$shared.spacer.num[is.na(aa$shared.spacer.num)]<-0
+      aa%>%group_by(shared.spacer.num)%>%summarise(freq=n())
+        
+  # Keep the host-target pairs with no duplicate spacers
+    no.duplicate.PS<-aa%>%filter(shared.spacer.num==0)
+    Counts<-Counts%>%full_join(no.duplicate.PS%>%group_by(subtype.list)%>%summarise(Pass_SpacerDupCheck.kept=n()),by="subtype.list")
+  
+   
+#*****************************************************************************************************
+#***For now the duplicated data are discarded (I haven't found a way to merge/filter these data) *****
+#*****************************************************************************************************    
+    
+    
+#     
+ # Sort out the rest  
+      still.duplicate.PS <-aa%>%filter(shared.spacer.num>=1)
+      still.duplicate.PS<-still.duplicate.PS%>%group_by(host.acc.)%>%mutate(targets.count=(length(unique(target.acc.))))
+      Counts<-Counts%>%full_join(still.duplicate.PS%>%group_by(subtype.list)%>%summarise(Fail_SpacerDupCheck.subtot=n()),by="subtype.list")
+      write.csv(still.duplicate.PS,paste(Out.Dir,"Discard/still-duplicate-PS.csv",sep=""))
+
+    # How many targets are there per host?        
+        duplicate.PS<-still.duplicate.PS%>%group_by(host.acc.)%>%mutate(total.targets=length(unique(target.acc.)))
+        table(duplicate.PS$subtype.list,duplicate.PS$total.targets)
+      
+  # If the strand and direction (quadrants) are the same then we can just average the distances
+
+    # Make target strand and direction string, i.e. if quadrants are the same, then merge the data
+      duplicate.PS<-duplicate.PS%>%group_by(host.target.pair)%>%arrange(spacer.order.number)%>%
+                     mutate(UNQ.target.quads=paste(unlist(target.strand),unlist(five.three.prime.dir),collapse="_"))
+    
+    # Check how many unique UNQ.target.quads there are for each spacer set string
+         duplicate.PS<-duplicate.PS%>%group_by(host.acc.)%>%mutate(UNQ.quads=length(unique(UNQ.target.quads)))
+
+    table(duplicate.PS$subtype.list,duplicate.PS$UNQ.quads)    
+    
+    # If there are only 2 duplicate targets and their quadrants are the same then average the distances (if they're less than 5 kb apart?**)@@ **not implmented yet
+        merge.quads<-duplicate.PS%>%filter(UNQ.quads==1 & total.targets==2)%>%
+                        group_by(host.acc.,spacer.order.number)%>%mutate(avg.dist=sum(dist.from.PPS)/n(),avg.spacer.num=sum(spacer.number)/n())
+        
+    # Now pick the first target as the representative and merge the other    
+        merge.quads<-merge.quads%>%group_by(host.acc.)%>%arrange(host.target.pair)%>%mutate(to.keep=1:n())%>%
+                  group_by(host.target.pair)%>%mutate(target.rep=ifelse(min(to.keep)==1,1,0))
+        
+        # Merge columns, distance etc
+       
+      merge.quads<-merge.quads%>%group_by(host.acc.)%>%mutate(target.acc.=paste(unlist(list(unique(target.acc.))), collapse = "$merged_avg_spacersdist_"))%>%
+                                ungroup()%>%mutate(dist.from.PPS=avg.dist)%>%select(-avg.dist,-to.keep)
+
+  # Now keep the representatives and remove the others
+      removed<-merge.quads%>%filter(target.rep==0)
+      write.csv(removed,paste(Out.Dir,"Discard/SimilarTargetQuadsHostSpacersMerged.csv",sep=""))
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SameTargetQuads.mrg=n()),by="subtype.list")
+
+      merge.quads<-merge.quads%>%filter(target.rep==1)%>%
+              select(-UNQ.target.quads,-UNQ.quads,-spacer.id,-merged.hosts,-merged.targets,-target.rep)
+
+      Counts<-Counts%>%full_join(removed%>%group_by(subtype.list)%>%summarise(SameTargetQuadsSpacersReps.kept=n()),by="subtype.list")
+
+      aa<-merge.quads%>%filter(subtype.list=="II-C")
+ 
+  # Add to the running non duplicate data table    
+      
+    no.duplicate.PS<-no.duplicate.PS%>%bind_rows(merge.quads)
+    Counts<-Counts%>%full_join(no.duplicate.PS%>%group_by(subtype.list)%>%summarise(Pass_SpacerDupCheck_final.total=n()),by="subtype.list")
+        
+
+            # Count the remaining data not kept
+              removed2<-duplicate.PS%>%filter(UNQ.quads!=1| total.targets!=2)
+              write.csv(removed2,paste(Out.Dir,"Discard/StillDupData_4.csv",sep=""))
+              Counts<-Counts%>%full_join(removed2%>%group_by(subtype.list)%>%summarise(Fail_SpacerDupCheck_final.rem=n()),by="subtype.list")  
+    
+    
+    
+#       
+# #     # @@ Keep working on the rest
+# #     
+#         aa<-duplicate.PS%>%filter(UNQ.quads!=1| total.targets!=2)%>%bind_rows(removed)
+# #  
+#            write.csv(aa,paste(Out.Dir,"Discard/FinalRedundantData.csv",sep=""))
+#     
+#       # Keep the ones with the highest target merge counts?  
+#            
+#            ab<-aa%>%ungroup()%>%rowwise()%>%mutate(merged.hosts=str_count(host.acc.,"merged")+1,merged.targets=str_count(target.acc.,"merged")+1) 
+#            
+#           ab<-ab%>%group_by(target.acc.)%>%mutate(top.score=ifelse(merged.targets==max(merged.targets) & merged.targets>2,1,0))             
+#         
+#           ac<-ab%>%filter(subtype.list=="II-A")%>%select(-avg.spacer.num,-target.rep,-UNQ.host.spacers,-spacer.id,-spacer.freq.num,-shared.spacer.num)
+#           
+#           length(ac)-length(unique(ac))
+#           
+#           ad<-ac%>%filter(top.score==1)
+        
+          
+# # #     # If PPS, PS+1 are the same spacers, then truncate to just these ## doesn't add much...
+#           ab<-aa%>%arrange(spacer.order.number)%>%filter(spacer.order.number<=2)%>%
+#                                  group_by(host.target.pair)%>%mutate(spacers1.2=paste(list((spacer.number))))%>%
+#                                  group_by(host.acc.)%>%mutate(can.merge2=ifelse(length(unique(spacers1.2))==1,1,0))
+# # 
+# #        # 
+# # #   
+#          table(ab$subtype.list,ab$can.merge2)
+# #     
+#          ac<-ab%>%filter(can.merge2==1,subtype.list=="II-C")
+#          ac<-aa%>%filter(can.merge2!=1,subtype.list=="II-C")
+#          
+# #     # Make sure the quadrant data comes out the same - if it does, merge the data and average distances?
+# #     
+# #     
+#      ab<-aa%>%group_by(host.target.pair)%>%arrange(spacer.order.number)%>%
+#              mutate(UNQ.target.quads=paste(unlist(target.strand),unlist(five.three.prime.dir), collapse = "_")) 
+# #     
+#      ac<-ab%>%group_by(host.acc.)%>%mutate(merge=ifelse(length(unique(UNQ.target.quads))==1,1,0))
+# #     
+#      ad<-ac%>%filter(merge==1)
+# #     
+#      table(ad$subtype.list,ad$hits.count)
+  
+# #     
+#     still.duplicate.PS%>%group_by(targets.count)%>%summarise(hits=n())
+#     
+#     aa<-still.duplicate.PS%>%filter(targets.count==2)
+#     
+#     table(aa$bit.score.num)
+
+#     
+#     
+#     aa<-still.duplicate.PS%>%arrange(spacer.order.number)%>%filter(spacer.order.number<=2)%>%
+#         group_by(host.target.pair)%>%mutate(spacers1.2=paste(list((spacer.number))))%>%filter(spacer.order.number==1)%>%
+#       group_by(host.acc.)%>%mutate(can.merge2=ifelse(length(unique(spacers1.2.3))==1,1,0))
+#     
+#      aa<-still.duplicate.PS%>%arrange(-spacer.order.number)%>%filter(spacer.order.number>=hits.count-2)%>%
+#         group_by(host.target.pair)%>%mutate(spacers3.2.1=paste(list((spacer.number))))%>%filter(spacer.order.number==hits.count)%>%
+#       group_by(host.acc.)%>%mutate(can.merge3=ifelse(length(unique(spacers3.2.1))==1,1,0))
+# 
+# #     
+ 
+
+     
+#*****************************************************************************************************
+#***************For now just work with the data that are unambiguous *********************
+#*****************************************************************************************************    
+   
+     
+Data<-no.duplicate.PS%>%rename(Subtype=subtype.list)%>%select(-shared.spacer.num,-spacer.id,-spacer.freq.num,-pps.strand,-UNQ.host.spacers,-targets.count,-total.targets,-avg.spacer.num)
+
+Data<-Data%>%ungroup()%>%rowwise()%>%mutate(merged.hosts=str_count(host.acc.,"merged")+1,merged.targets=str_count(target.acc.,"merged")+1) 
+
+nrow(Data)-nrow(Data%>%unique()) # Check all rows are unique @@  
+
+Data<-Data%>%group_by(target.acc.)%>%mutate(hosts.targeting=length(unique(host.acc.)))
+Data<-Data%>%group_by(host.acc.)%>%mutate(phages.targeted=length(unique(target.acc.)))
+
+# Make a unique columns for the protospacer mapping function
+Data<-Data%>%mutate(unique.spacer.target.match=paste(spacer.number,array.id,spacer.order.number,host.acc.,sep = "_"))
+
+
+Counts<-Counts%>%full_join(Data%>%rename(subtype.list = Subtype)%>%group_by(subtype.list)%>%summarise(TargetFilterOut.total=n()),by="subtype.list")
+
+#Data<-Data%>%filter(hits.count <= 5)
+
+Counts<-Counts%>%full_join(Data%>%rename(subtype.list = Subtype)%>%group_by(subtype.list)%>%summarise(FinalData.Hits=n()),by="subtype.list")
+Counts<-Counts%>%full_join(Data%>%rename(subtype.list = Subtype)%>%group_by(subtype.list)%>%
+                             filter(spacer.order.number>1)%>%summarise(FinalData.Hits.nonPPS=n()),by="subtype.list")
+Counts<-Counts%>%full_join(Data%>%rename(subtype.list = Subtype)%>%group_by(subtype.list)%>%
+                             filter(spacer.order.number==1)%>%summarise(FinalData.HostTargetPairs=n()),by="subtype.list")
+
+Counts[is.na(Counts)]<-0
+
+table(Data$Subtype,Data$bit.score.num,Data$spacer.order.number)
+
+write.csv(Counts,paste(Out.Dir,"Data_Count_Table_SJ-v12.csv",sep=""))
+
+write.csv(Data,paste(Out.Dir,"Data/FinalData.csv",sep=""),row.names=F)
+
+# Table for selecting representatives for figures
+
+Summary.Table<-Data%>%select(Subtype,host.target.pair,hits.count,host.acc.,phages.targeted,target.acc.,hosts.targeting,target.pos,spacer.order.number,spacer.number)%>%
+                      rename("PPS_location"=target.pos)%>%group_by(host.target.pair)%>%arrange(spacer.order.number)%>%mutate(Spacers=paste(list(spacer.number)))%>%
+                      filter(spacer.order.number==1)%>%select(-spacer.order.number,-spacer.number)
+
+write.csv(Summary.Table,paste(Out.Dir,"FinalSummaryTable.csv",sep=""),row.names=F)
+
+
+if (Run.Clean==T){rm(list=setdiff(ls(), Objects.To.Keep))}
+
+
+```
+
+
+#Analysis
+Writes files for Prism 
+```{r analysis_output}
+# Import the final dataset
+    Final.Data<-read.csv(paste(Out.Dir,"Data/FinalData.csv",sep=""),as.is=T)
+
+# The PPS is not required for analysis
+    Final.Data<-Final.Data%>%filter(five.three.prime.dir!=0)    
+# Merge strand and direction
+    Final.Data<-Final.Data%>%mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))
+    
+# Add legend labels to the dataset using the strand and direction
+    Final.Data<-Final.Data%>%mutate(legend.labels = ifelse(strand.plus.direction == "n_3", "Non-target 3' direction", ifelse(strand.plus.direction == "n_5", "Non-target 5' direction",ifelse(strand.plus.direction == "t_3", "Target 3' direction", "Target 5' direction"))))
+    
+#@@ Need to update this section   
+    
+rh<-generate_random_distribution(Final.Data)
+#rh<-generate_random_quadrants(Final.Data)
+# 
+ subtypes<-c("I-B", "I-C", "I-E", "I-F", "II-A", "II-C")
+ #i<-"I-F"
+ for(i in subtypes){
+ den<-protospacer_distribution(swipeData = Final.Data, rh = rh, Subtype.label = i)
+ hits<-prism_format_protospacer_distribution(den = den)
+ hits<-noramlise_distribution_values(hits)
+  write.csv(hits, file = paste("Output/Final_Mapping_",i,".csv", sep = ""), row.names = F)
+ 
+ }
+
+# Quadrant analyses
+    
+# Only look at spacers within 5 kb of the PPS
+
+Clustered.Data<-Final.Data%>%filter(abs(dist.from.PPS)<=5000)
+
+Quad.Data.All.Clust<-quadrant_analysis(Clustered.Data,"I-B", use.all.hits = T)%>%rename("freq_I-B"=Freq,"percent_I-B"=percentage)
+Quad.Data.All.Clust<-Quad.Data.All.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-C", use.all.hits = T)%>%rename("freq_I-C"=Freq,"percent_I-C"=percentage))
+Quad.Data.All.Clust<-Quad.Data.All.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-E", use.all.hits = T)%>%rename("freq_I-E"=Freq,"percent_I-E"=percentage))
+Quad.Data.All.Clust<-Quad.Data.All.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-F", use.all.hits = T)%>%rename("freq_I-F"=Freq,"percent_I-F"=percentage))
+Quad.Data.All.Clust<-Quad.Data.All.Clust%>%left_join(quadrant_analysis(Clustered.Data,"II-A", use.all.hits = T)%>%rename("freq_II-A"=Freq,"percent_II-A"=percentage))
+Quad.Data.All.Clust<-Quad.Data.All.Clust%>%left_join(quadrant_analysis(Clustered.Data,"II-C", use.all.hits = T)%>%rename("freq_II-C"=Freq,"percent_II-C"=percentage))
+
+write.csv(Quad.Data.All.Clust,paste(Out.Dir,"Graph_QuadDataAllClust.csv",sep=""))
+
+Quad.Data.PS1PS2.Clust<-quadrant_analysis(Clustered.Data,"I-B", use.all.hits = F)%>%rename("freq_I-B"=Freq,"percent_I-B"=percentage)
+Quad.Data.PS1PS2.Clust<-Quad.Data.PS1PS2.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-C", use.all.hits = F)%>%rename("freq_I-C"=Freq,"percent_I-C"=percentage))
+Quad.Data.PS1PS2.Clust<-Quad.Data.PS1PS2.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-E", use.all.hits = F)%>%rename("freq_I-E"=Freq,"percent_I-E"=percentage))
+Quad.Data.PS1PS2.Clust<-Quad.Data.PS1PS2.Clust%>%left_join(quadrant_analysis(Clustered.Data,"I-F", use.all.hits = F)%>%rename("freq_I-F"=Freq,"percent_I-F"=percentage))
+Quad.Data.PS1PS2.Clust<-Quad.Data.PS1PS2.Clust%>%left_join(quadrant_analysis(Clustered.Data,"II-A", use.all.hits = F)%>%rename("freq_II-A"=Freq,"percent_II-A"=percentage))
+Quad.Data.PS1PS2.Clust<-Quad.Data.PS1PS2.Clust%>%left_join(quadrant_analysis(Clustered.Data,"II-C", use.all.hits = F)%>%rename("freq_II-C"=Freq,"percent_II-C"=percentage))
+
+write.csv(Quad.Data.PS1PS2.Clust,paste(Out.Dir,"Graph_QuadDataPS1PS2Clust.csv",sep=""))    
+   
+# All data for supplementary figure
+ 
+Quad.Data.All<-quadrant_analysis(Final.Data,"I-B", use.all.hits = T)%>%rename("freq_I-B"=Freq,"percent_I-B"=percentage)
+Quad.Data.All<-Quad.Data.All%>%left_join(quadrant_analysis(Final.Data,"I-C", use.all.hits = T)%>%rename("freq_I-C"=Freq,"percent_I-C"=percentage))
+Quad.Data.All<-Quad.Data.All%>%left_join(quadrant_analysis(Final.Data,"I-E", use.all.hits = T)%>%rename("freq_I-E"=Freq,"percent_I-E"=percentage))
+Quad.Data.All<-Quad.Data.All%>%left_join(quadrant_analysis(Final.Data,"I-F", use.all.hits = T)%>%rename("freq_I-F"=Freq,"percent_I-F"=percentage))
+Quad.Data.All<-Quad.Data.All%>%left_join(quadrant_analysis(Final.Data,"II-A", use.all.hits = T)%>%rename("freq_II-A"=Freq,"percent_II-A"=percentage))
+Quad.Data.All<-Quad.Data.All%>%left_join(quadrant_analysis(Final.Data,"II-C", use.all.hits = T)%>%rename("freq_II-C"=Freq,"percent_II-C"=percentage))
+
+write.csv(Quad.Data.All,paste(Out.Dir,"Graph_QuadDataAll.csv",sep=""))
+
+Quad.Data.PS1PS2<-quadrant_analysis(Final.Data,"I-B", use.all.hits = F)%>%rename("freq_I-B"=Freq,"percent_I-B"=percentage)
+Quad.Data.PS1PS2<-Quad.Data.PS1PS2%>%left_join(quadrant_analysis(Final.Data,"I-C", use.all.hits = F)%>%rename("freq_I-C"=Freq,"percent_I-C"=percentage))
+Quad.Data.PS1PS2<-Quad.Data.PS1PS2%>%left_join(quadrant_analysis(Final.Data,"I-E", use.all.hits = F)%>%rename("freq_I-E"=Freq,"percent_I-E"=percentage))
+Quad.Data.PS1PS2<-Quad.Data.PS1PS2%>%left_join(quadrant_analysis(Final.Data,"I-F", use.all.hits = F)%>%rename("freq_I-F"=Freq,"percent_I-F"=percentage))
+Quad.Data.PS1PS2<-Quad.Data.PS1PS2%>%left_join(quadrant_analysis(Final.Data,"II-A", use.all.hits = F)%>%rename("freq_II-A"=Freq,"percent_II-A"=percentage))
+Quad.Data.PS1PS2<-Quad.Data.PS1PS2%>%left_join(quadrant_analysis(Final.Data,"II-C", use.all.hits = F)%>%rename("freq_II-C"=Freq,"percent_II-C"=percentage))
+
+write.csv(Quad.Data.PS1PS2,paste(Out.Dir,"Graph_QuadDataPS1PS2.csv",sep=""))
+
+
+
+```
+
+```{r statistical_analysis}
+## Clustering of protospacers in the whole subtype
+swipeData<-read.table("refseq_83.swipe.nr_27-3-18.txt", comment.char = "", fill = T, sep = "\t", header = T)
+swipeData<-swipeData%>%filter(!is.na(five.three.prime.dir))    
+
+tmp<-swipeData%>%filter(Subtype == "I-C")
+
+table(swipeData$Subtype)
+
+##include a strand and direction column
+swipeData<-swipeData%>%mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))
+    
+##Add legend labels to the dataset using the strand and direction
+swipeData<-swipeData%>%mutate(legend.labels = ifelse(strand.plus.direction == "n_3", "Non-target 3' direction", ifelse(strand.plus.direction == "n_5", "Non-target 5' direction",ifelse(strand.plus.direction == "t_3", "Target 3' direction", "Target 5' direction"))))
+
+##import the clustered dataset
+clusteredData<-read.table("refseq_83.swipe.nr.clustered_27-03-18.txt", comment.char = "", fill = T, sep = "\t", header = T)
+clusteredData<-clusteredData%>%filter(!is.na(five.three.prime.dir))    
+
+##include a strand and direction column
+clusteredData<-clusteredData%>%mutate(strand.plus.direction = paste(target.strand, five.three.prime.dir, sep = "_"))
+    
+##Add legend labels to the dataset using the strand and direction
+clusteredData<-clusteredData%>%mutate(legend.labels = ifelse(strand.plus.direction == "n_3", "Non-target 3' direction", ifelse(strand.plus.direction == "n_5", "Non-target 5' direction",ifelse(strand.plus.direction == "t_3", "Target 3' direction", "Target 5' direction"))))
+    
+cluster_analysis(swipeData = swipeData)
+
+rh<-generate_random_distribution(swipeData = swipeData)
+
+ks_test_analysis(swipeData = clusteredData, rh = rh, Subtype.label = "I-F")
+
+
+
+# subtypes<-c("I-A","I-B", "I-C","I-D", "I-E", "I-F", "II-A","II-B", "II-C", "III-A", "III-B", "III-C")
+# subtypes<-c("I-B", "I-C", "I-E", "I-F", "II-A", "II-C")
+subtypes<-c("I-A","I-D","II-B", "III-C")
+for(i in subtypes){
+quadrant_analysis(dat = swipeData, Subtype.label = i, use.hits = 5, window.width = 2500000, run.statistical.test = T, write.data = F)
+}
+
+for(i in subtypes){
+  x<-ks_test_analysis(swipeData = swipeData, rh = rh, Subtype.label = i)
+  y<-cluster_analysis(swipeData = swipeData, Subtype.label = i)
+  
+  print(i)
+  print(x)
+  print(y)
+}
+
+tmp<-swipeData%>%filter(spacer.order.number == 1)
+table(clusteredData$Subtype)
+
+```

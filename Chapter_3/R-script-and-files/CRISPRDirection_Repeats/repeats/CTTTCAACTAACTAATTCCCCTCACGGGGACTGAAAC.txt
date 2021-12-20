@@ -1,0 +1,498 @@
+Array 1 754311-755527 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=====================================	==========================================	==================
+    754311	    37	 100.0	    42	.....................................	CAATAACTGAAGTCTTATCAACAACAGGTATATTGTCACGAA	
+    754390	    37	 100.0	    37	.....................................	TCCCCCTTTATCTGGACAAGCCAGAACCCAGGCAGCC     	
+    754464	    37	 100.0	    37	.....................................	GGTGTACCTCTAACCGATGCCGGTTGGCAGATTATTC     	
+    754538	    37	 100.0	    37	.....................................	GCTAGACAAGCAATTTCTATTCCCTTAAATTGGGAGA     	
+    754612	    37	 100.0	    36	.....................................	ATCTCAAGCATCGCTGGGATAGATTGCCACACGGAC      	
+    754685	    37	 100.0	    33	.....................................	ATACTTTCACCTGACTGCTTAAAACTACTCTCC         	
+    754755	    37	 100.0	    34	.....................................	CCTGCTTGCCTAACTTCATTAACTAGGGTGTGGC        	
+    754826	    37	 100.0	    37	.....................................	ATTTTGTTGCGTCCGTTAGCGGTAGCCTCAAACACTA     	
+    754900	    37	 100.0	    37	.....................................	ATATTTATATCGTTAAGGATAGAATAGGCGAGATATT     	
+    754974	    37	 100.0	    36	.....................................	CGATCCGGTCGTGGTTAACCCGTTATCCAAAATTAT      	
+    755047	    37	 100.0	    35	.....................................	TCTACTACTCCCTGAGACAAGCTAGACTTAACTAA       	
+    755119	    37	 100.0	    42	.....................................	TATTTAGAAGAGTTTTTATTAATCTTCTGTAATCCTTGGATT	
+    755198	    37	 100.0	    33	.....................................	TGCCAGTATCTAGCCAAGGACTTGTGGCATTGA         	
+    755268	    37	 100.0	    38	.....................................	TCTGTTATAGGCAATGATGCCATTAGCATATAAACCAG    	
+    755343	    37	 100.0	    37	.....................................	ATTCGATCAATCAACATAGGCGAAGAAAAATTTTCAA     	
+    755417	    37	 100.0	    37	.....................................	ATAAATTTTACTATGCAACTATCACCCTGGTCTGTAG     	
+    755491	    37	  78.4	     0	.....T....A.T.....T.T.G......G......G	|                                         	
+==========	======	======	======	=====================================	==========================================	==================
+        17	    37	  98.7	    37	GTTTCCATACCTCAAATCCCCTCACGGGGACTGAAAC	                                          	       
+
+# Left flank :   GACTAGCATCACGGGCATTGTATATCGAGCGGGCAACAATGGCACAGCAGAGGATTGTACCCTTAGATGAGGTTGATCCAAATGAAGTACCTTATTTTGCCATGATTGTTATACCTAGTAAAAATCGGCTGTAGCAGCTTGATAAAACTGAGCAAATCAAATTGATGTGCATCACCTGGTTGCTTTTTACCTCGGCGTTTTGGTTTGGTTAAGAGCAAAAGTACGGTGTTACAGATTAAGCAGCCAAAGCACTCGACAATACAAAATACTTATCTTATGATTGTGGAACCAACTTGATGTTTGGCAAGCCGAAGCGGGGTCAAAAACCCAGTAGATTCGCCAAAATCGCCAGAACCTTGAAAACAGAATAGTTACAGCGTTTTAATAATTCGGGAAGTTGCAAAATTATTGCAATAAGAACGGCTAAAAATAGATTAAATTTTCGATCCGTCAAATCGCTTCCCAGGAAGCTTGCTCCATAATAGTTTCAGTACCGAGCA
+# Right flank :  GAAATATCGATCTACTTCGACTAAAAAAGATATTTCTTAAGACTTAAGCAAAAGTCTCTAATATGTGGTTAAAGTTACGTTTGTAAAGCGTTGGATTGTAATTTTGCCAATCTAAGTCTGAAGAGTAAGATAATCTTTTTAATGTAACCTGTTGCACATACGCCATTAATGGCCGACGCAGCGATTAATATTTTTGGAAAGCTGTATCTATAGCTTCTCTATCATCCCAAATATGATAAAAATATTTGTTTCCTAATATTTAATACCAATTGTTTAACATTCCACAATAGATTTAAGCTTTTAAAGCTAGATTCTGTCTAATCGTAATTACAAATTACTATCACCCCTAAAACACCCAAGAGGATTTCTCATGTCTAACTCCGAACTAGATAGAGTCATTGTTCGCCCTGTGGATGAGTATAACCAGAGATTGGTTGCTTATGTACATCCACCCAATTGGGTGAATCCTCAACCTGCGGAGACTTATGATTTGGTAGTTA
+
+# Questionable array : NO	 Score: 5.62
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.94, 5:0, 6:1, 7:0.68, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCAAATCCCCTCACGGGGACTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.20,-11.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [368,370] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 2 2760957-2761137 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	====================================	======================================	==================
+   2760957	    36	 100.0	    35	....................................	ATAGTTTGGACTGGTGTTATTTCAGTTTTTGAGTG   	
+   2761028	    36	 100.0	    38	....................................	GAGAAAATTGCGATGTTTGAAGCCAACTTGGCTTTTAG	
+   2761102	    36	  97.2	     0	...................C................	|                                     	
+==========	======	======	======	====================================	======================================	==================
+         3	    36	  99.1	    37	GTGATTCGTGGCTTGATGCTGTTAGGCGTTGCTCAA	                                      	       
+
+# Left flank :   GTAAGACGGTTTGGTTGTTTATTTTTGGGAGAAAGTGACCAGTTAATTAAAACAATCAAACTTGTCTCACAAGATTATCCAGAGGGGGTGAGACAGTGGGCGATTAGGGATAATCGAGGCAGGTTAACTTTACCCTATTGGGTTGACCATGTGGGGTCAAGAAATACCAGATTTTTGAGGTATCGGATTGAGGAAATGCCAAGCTCACTACCCCCTGATTTGGCGTGGACGATGATTACATCTCCAATTTGACAAGTATCTCTTATGGTAAAGGGAATATAGGCTAAAAGAATGGCAGGAAGGTTTACACGGTAAGGTTTATGATAATTTAGGACAGGAAAAAGGTGCTTGCCATTTTTGGGAAAGTTTATCGGCACTGGTTTTGAGGGGCTGAAAGTAAGGGAAACCTTGGTAAGTTTTGTGTTTTTGGTTTCTCGATTTGGAAGGTGCTTGTAAGATTGTAAATGAAGCTTCCTGTGTTAAGGGTTTTCACCTTTGCT
+# Right flank :  AAGCGATCGCCCACTGGTTTAAGATGGAGTGCGATCGCTACTTACGCTCCTATACCAGAGAGGATTTCTATTAGGAGAGTAGGAAAAACTATTGCTTTACTTGGATTACTTGAAAAACATCTTTGAAATCCAGTAATTGAAACTGCATAAGATTTTTAGATGTGGCGAATTAAGTGAGCAACAGAGTTGCTTGATGAATGTGCTGAAGAAGTTATAGCCAAAATGCACATACACGTTCCTATATTTGTTTAAATTAATGTAGATTCTGCACACGTATAAGCAAAGCTCAAGATAATGCGAAATATAGTTCAGATGTGATATATTTCTCTGCCAGATGCCGCTTATGAAAATTTTGTTGGTTGAAGATGACAGATTAATAAGTACGGCACTGGTTGATTTGCTCTTAGCAAATCATTACACTATTGACTTAGCTAATGATGGGGAAACGGGCTTATGTCTGGCGATTTCGGCAGAATATGATTTAATTTTGCTGGATTGGC
+
+# Questionable array : NO	 Score: 5.20
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:1.16, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGATTCGTGGCTTGATGCTGTTAGGCGTTGCTCAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,13] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.50,-0.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [250,343] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 3 2841554-2840584 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	===============================	============================================	==================
+   2841553	    31	 100.0	    41	...............................	CACTCTCGTAACATTTATAAAAACGGAAAGGACAAGTTTCC   	
+   2841481	    31	 100.0	    40	...............................	GGGATGAGTTTATCGATACCGTTAAACTCTAAACGTTTCC    	
+   2841410	    31	 100.0	    40	...............................	TACAACTCTGAGATTTGGGAAGTTCCTCCCGAACGTTTCC    	
+   2841339	    31	 100.0	    40	...............................	TTGCTCCTACAGAAGTAAAGATGATTGGTTGCTTGTTTCC    	
+   2841268	    31	 100.0	    43	...............................	TCCATGAGCAGCGCTCAAACCCTGATTCTGTCGTTGAGTTTCC 	
+   2841194	    31	 100.0	    39	...............................	ACGTACTAAAAGTAATTGGTACACCGTCCTCAAGTTTCC     	
+   2841124	    31	  96.8	    41	......A........................	TCACCTTGCTTTGCGGTCATTGTTTTACCTCTTTTGTTTCC   	
+   2841052	    31	 100.0	    41	...............................	TTCTAAGTCTAATGATGAACGTCAAGCAGACCTTTGTTTCC   	
+   2840980	    31	 100.0	    42	...............................	AACAACAATATCTATGAGTTTAAAAGAGAGACTTTAGTTTCC  	
+   2840907	    31	 100.0	    41	...............................	CAGGAAATTCAAAGCGGTCAATTGCAATTAGAAACGTTTCT   	
+   2840835	    31	 100.0	    42	...............................	CAGCAGCTAGTAAAGGTGTAAAAACTAAATATTTGAGTTTCT  	
+   2840762	    31	 100.0	    44	...............................	ACTTCTACCTTAGCTTTTACTAAATCCAGGGCATTTATGTTTCT	
+   2840687	    31	 100.0	    42	...............................	TTGAGGCTTTGTAAACATCCGTGTGTTTGTGCTGATGTTTCC  	
+   2840614	    31	  87.1	     0	.....CT...................A...A	|                                           	
+==========	======	======	======	===============================	============================================	==================
+        14	    31	  98.8	    41	ACAAATCATTACCCCGCAAGGGGACTGAAAC	                                            	       
+
+# Left flank :   GCAATCAGTAGGATTTAGACGAAACTGCACATGCTGTGCTGAAGCATTTGGGGGAGTTCAGGCGATCTTATTTGACCAGTGTAGAAAAGAAGCTACTAGGTTTGATAGAGAGAATAATGTGTAATACCGTTTCACTTTAAAATTGATACACATAGACAGCAGGGGTAGGGGGAAAGAATTTAAAGACTAATTATTTGTATCAGGTATTTCGTGAAATGGTGTAACAAATTAAACTCTTCAAATCACTCGACAATATAAAATACTCATCCTATGATTGAGTCATCAGCTTGATGATTGACAAGCCGAAGCGAGGTCAAAAACCTAGTAAATTCGTCAAAATCGCCAGAACCTTGACAATATAATAATTATAGCGTTTCAACTATTGGGAAAGTTGAGAATAAGTTGCAATAATAGCGGCTGAAATCGACCTATTTTTGAGGTTCGCCAAATCACTTCCCAGAAAGCTTGCTCTCGTTAAGTTTCAGCACTGAGCAGTTTCC
+# Right flank :  TTAACTGCCTAAGTAATATAAACTCCGGATAATTACTGACGATTAAACTCCAGTCTGAAGCTACCAGTGAAAACCAGTTGACGGTAACATTTTTCTAGCTCTTCTATACTTAAATGTTTGGCTACACTAATTCGTTTCGACATGACTCATCTTTGCTCTGTCTGCTTTTACCGTCAGTGATTATCCGGACATGAGATGATAAATGGCTAACCAACAAAAAACCCGCCTTGGCGGGATAAACACAACAACACTATGAACGATGAACCTGAACTTTAAGCGAACTGCCTTAACTCAGCTTCTAGTTGCCTAATTAGTCTTTCATCGCCTTTAGCTCTAGCTACTTCCAAACGATGCTCTATATTTCTTTGAATATTTTGTCTGTGTACTTCTTGAGCTGAACTATTAGCCTTGAGTCTACCTTGGCTCATAGGATTGACCTCTTAATTCTTCTGCATTATGTCTGTTATTCATAACATAGCATAAATTTAGTAGTTTATGCT
+
+# Questionable array : NO	 Score: 7.46
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:0.34, 7:0.17, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACAAATCATTACCCCGCAAGGGGACTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.61%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.40,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [65.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [541,557] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 4 2928882-2929583 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	=====================================	===========================================	==================
+   2928882	    37	 100.0	    39	.....................................	CACCATAATGAGCGGCGTTGACTACTTGTAAAGGGGCAA    	
+   2928958	    37	 100.0	    32	.....................................	CAGTATGAATGCAGCCGCCGAAGATTGGTTAG           	
+   2929027	    37	 100.0	    41	.....................................	TACGAAAGTCGCCGTTAACTGGGCGAATATCTAAAGCTTTG  	
+   2929105	    37	 100.0	    38	.....................................	GCTTCTTTTTTCCCATCTGGTTTGACATTCATAGTTCT     	
+   2929180	    37	 100.0	    31	.....................................	GACCCTAGAGGAACAAGTATTAACTGTTCTG            	
+   2929248	    37	 100.0	    37	.....................................	TTCCGGCTGCGGCCCACAATACTGAGCGGGGTACTAA      	
+   2929322	    37	 100.0	    43	.....................................	CCGCATTCTTGCCCACCTCTACTGAGCATCAGGATGACTCCTA	
+   2929402	    37	 100.0	    38	.....................................	TTCCGCAGTTGGGACAATCCCACTCTCTAACATTCAAC     	
+   2929477	    37	 100.0	    33	.....................................	AAACCATTCTCAAGCCTCGACTTACACCCCCAG          	
+   2929547	    37	  97.3	     0	....................................T	|                                          	
+==========	======	======	======	=====================================	===========================================	==================
+        10	    37	  99.7	    37	GTTTCCACAAACTTTTACCCCGCAAGGGGACTGAAAC	                                           	       
+
+# Left flank :   GATCGCAGGAATAACTTTATCATTTTCTTGTGTGTGGCTAACTGTAGCGGCTGTATTAGTATTTAGAATTTGGCAGCTAAATGGATCTGAGCCATTGTATCCTTTAAAACTAACAACTGTGGAGAAATAAATTACAGGGCAAAGAAGATTTAGAAGCAACTGCCATACTGTTCTCAAACATTAGGGAGAGCTAAAACCCTTGAATTTGATTAAGTAAAAGTACAGTGTGACAAATTAAACTTCCCCAACTACTCGACAACACCAAACACTTATCTTATGATTGGAGAATCAACTTGATATTTGGCAAATCGAAGTGAGGTCAAAAACCCTGGAGACTCGTCAAAATCGCCATAACCTTGACAATACAATAATTACAGCGTTTAACAATTGACAGAAGTTGCAAATTTATTGCAATAAGAACGGCTGAAAATGACCTAAATTTTCAACCCGTCAAATCCCTTCCCAGGAAGCTTACTCTGTAATAGTTTCAGCACAGAGGG
+# Right flank :  TCGCACTATTACAGATGCAGCAACCAAACTCCCTAGTGTTTAATATGACCTGAGTGCATAAACCCCACTTGTAACAAAATCTGTAACAGTAATAGTGTTTGACCGTTTACTCGGATAGATTAGGGAGAAATTTATGGGTAATCCCCGCATATAGGGGTAATGTGCTAAAAGATATACGCGACTATCAAATTCTCTTTTTGGGTTTATTTCTGGTTTTGGGAATTGGGACAAGAGATTGGACTTTGCACCCAGAGTTTATCGCTGTGGCGATCGCTTTTTGTTTATCAACTCAGTGGCTATTATCATCGGTCATTAGTTATTGGTCATTTGACAGTAATCAAGAACAACAGCCAAAGATAAATCTGCGTAGCGCCTTGATTACGTCGCTAGGACTCAGTTTGCTATTACGAACTGACCATTGGACAACAATGGCATTAGCAGCCATCAGTGCGATCGCTAGTAAATTTTTCTTTAAAATTGGCGATAAACATTTCTTCAAT
+
+# Questionable array : NO	 Score: 5.45
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.46, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCACAAACTTTTACCCCGCAAGGGGACTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.35%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.70,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [372,161] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 5 4255640-4254503 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=====================================	==========================================	==================
+   4255639	    37	 100.0	    37	.....................................	GAATATCAGCAACCATCAAGGCACTAATGGCACATCA     	
+   4255565	    37	 100.0	    34	.....................................	TTGATTTCTTGACTCAATGCACAAAGCCGATTGA        	
+   4255494	    37	 100.0	    37	.....................................	GTTAACAAGTACACACATAAATTTAAAACCAACTTTA     	
+   4255420	    37	 100.0	    35	.....................................	GGATTTCTACAGGTGGTAGTATATGGTCGGCAAAT       	
+   4255348	    37	 100.0	    35	.....................................	TTATTACTTCATTAGATGACCCAGAAAATTTAGGT       	
+   4255276	    37	 100.0	    36	.....................................	AGAACGTTGGCGGTTTTCACCACACGGGGTTGCAAG      	
+   4255203	    37	 100.0	    37	.....................................	ATTATAAAATAGCCTCCCCTACCTACAGGGAGGCTAT     	
+   4255129	    37	 100.0	    36	.....................................	CGATCGCAGCTATGTTAGGGCCACATCTAATTTTAG      	
+   4255056	    37	 100.0	    42	.....................................	TCCTCAATTAACAAACTTAAACAATAACCTTCTGCCTTCTGC	
+   4254977	    37	 100.0	    36	.....................................	GCCTGACTGGTGGATTTAATTTACTCAAGGGTGGTG      	
+   4254904	    37	 100.0	    32	.....................................	CTGAAAACGAGATGCTAAGGCGAGAGAATGAA          	
+   4254835	    37	 100.0	    37	.....................................	ATCTGAATCAATACAGTAAATATTATGCTTGAGAAAG     	
+   4254761	    37	 100.0	    35	.....................................	CGCCCCATGATTTCTCCTAAATTTCTTGACATTGC       	
+   4254689	    37	 100.0	    39	.....................................	TCAGACCTCCGGGCGGCCTTGGCTGTATCGACTCGCCAA   	
+   4254613	    37	 100.0	    37	.....................................	AATACTCTCCTTTTTCGGATAAAAAGCTTCCGTACTG     	
+   4254539	    37	  70.3	     0	......CT.G.T.................TAAACT.G	|                                         	
+==========	======	======	======	=====================================	==========================================	==================
+        16	    37	  98.1	    36	CTTTCAACTAACTAATTCCCCTCACGGGGACTGAAAC	                                          	       
+
+# Left flank :   ACTACACTGTTTTACTTAATTATTTATGACCTGCCAGATAATAAGGCAGCGAATAAGCGCCGGACTCGTTTGCATAAAATGTTGTCCGGGTATGGTAAATGGACGCAATACAGTGTATTTGAATGTTTCCTAACATCTGTACAATTTGCTACACTACAAACGAAAATAGAAAAACTTATCAAGCCCCATGAGGATGCTGTGCGAATATATGTCCTTGATAGTGGTGCAGTCAAACGGACAATTACTTACGGTTCCGAAACACCTCGACAAGAGCAGGCGATCGTCATATGATTGATACATAAGTTTGATGTTTGGCATATCGAAGCGGGGGCAAAAATCCCAGTAGATTCGTCAAATGGCCAGAACCTTGACAATTCAATATTTTCAGAGTTTCAACAGTTTCAGTGAGCAGTGTTTGAGCTTTATTTCTTAGTCAGAAGAAATAGATCCGTCAAAAATTGATTTATAACCTGCTCATAGACTAAGTTTCAGATGGCGGA
+# Right flank :  CCATGAGAATTACAGATTTATTACAAGGGATAGGCTTCCAACTGGCTAATTCCCCTGTAATTAAGAAATGGGGATTGGTTGTTAAGCTGAAAGGAAAGTTTTCACTTGACCGAAACGGCGATCGCGTTTTTGATAACTTAACAAAGCTTGATGAAATGCTTCTGTATCAAAATCAGGCCAGAGAATATCAGTAAAGTACATCTCTGTGTACGCCATTTGCCACAACAGAAAATTACTTAACCGCATTTCTCCGCTAGTGCGAATCAGTAAATCTGGTGCTGGAGTCTCTCCTGTATGGAGATATTTTTCTACAAGGCTTTCATTGATGGTTGCTGCATCCAGTTTACCTTGTTGCACTAGTTGAGCTAGTTGACGACAGGCTTTTGTAATTTCGTGACGGCTGCCGTAGTTTACAGCAATAGTAAAGTGAATTGCTTGATTATTCAATGTTTGTTTCATTGAATGTTCCATTTCTGTTTGCAGAGATGGGGGTAAACCCG
+
+# Questionable array : NO	 Score: 5.68
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.90, 5:0, 6:1, 7:0.78, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTCAACTAACTAATTCCCCTCACGGGGACTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.05%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.30,-8.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [11-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-65.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [83,210] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 6 4324574-4324245 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+   4324573	    37	 100.0	    36	.....................................	ACAAAGCGAGAAGAAGGGGTAGAAAAAACATATAAG 	
+   4324500	    37	 100.0	    36	.....................................	TATGACCGCTATTACGACTCTAACCACCCTTGCCGA 	
+   4324427	    37	  94.6	    35	.............................A.....G.	ATAAAACCTAGTCTTTTACTTAACAATAAACTTTT  	
+   4324355	    37	 100.0	    37	.....................................	TGTACAACCAAGCCCCAAGGCTCTTTACAAGCCTTGA	
+   4324281	    37	  83.8	     0	.........T.....T..........T..A..A...A	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+         5	    37	  95.7	    36	GTTTCAACACCCCTCCCAGCTAGAGGCGGGTTGAAAG	                                     	       
+
+# Left flank :   TAGATTATCTGGCTCACCGTGCATACACCAATATGCCACTGTTCTGTGCGAGCAGCCTAAAAATTTCGCAATCTCCTGTTGCGGTTTCCCATCGTTCTGGAGCAGAATAATTAGAATTCTTTCCCTAACATGCGGCTGTTCGCTCTCTTTTAGAGCTTGCTGTAAGGAGCTAACTTGTTCTGGCGTTAAAAAGTTCTTGGCTGGGGGCGGCATCGTCGCTTTTAAACTGCTTCATTTTCTTATTATGCAACTTAAGTGCCGATTAGCTTATCTAGTCGAATTACATGGTGGTACAATCCAGGCAGAAAGCCCAGGAAAAGGACAAGGAGCTACCTTTACAGTCCGGTTACCATTGCATAAAAATCCTGAGAACCAAGTCTTGATTAGTAAGTCTAATGTGGCAGAATTGGATAATCAAGATACATTATTAGCAGGAGTGCAATTAGTTATTCGACAGAAAGACCATTTCCACTGCTTCTTCAGGAGTAGGGAGAGGTTCG
+# Right flank :  CTACACATCAACCAGAAAAAGGTATTGATAAGACAAATAATTTATATTTAAACAAAGGTGGGTTGAAAGGCGCACTTCGTTCGGGAAATCCTGAACTAAAGCACTAACAATAAATTAGGACTATGATTTTAATAGTTCCTAATGTTGATAGACTCTCATTATTAAGTCATTTGTCAATACAGACATTAATTTGGCAAGACGGACAACAATTTGTCAACGCGGACAAACAATTTGGCAGTTGACAACAGGACAAATCGGGATGACTGGATTCGAACCAGCGGCCCCTTCGTCCCGAACGAAGTGCGCTACCAAGCTGCGCTACATCCCGTAGAGAAAATTGCGAATCTCTGCCATAATAACATAAATAATAGCATATTTGCTATTACATAATTAAATTACATAAAGTGTTGGCGGTTGACAGCCAAAAGAAAAGATTTGTAGATCAAAACACATCTATATATATAAATGAATAGGAAAGGAATTTGCTTGCTAGGATTAGA
+
+# Questionable array : NO	 Score: 5.76
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.79, 5:0, 6:1, 7:1.17, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACACCCCTCCCAGCTAGAGGCGGGTTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [7,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.20,-8.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [73.3-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [533,288] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 7 4427741-4429032 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	=====================================	=========================================	==================
+   4427741	    37	  94.6	    38	....T.........A......................	GCATGACAGGTACATGTTGTTTCATATTTATATAGTTT   	
+   4427816	    37	 100.0	    37	.....................................	AGTAGGTGCTGTATCTGTTACTTTCTCATCTTTAAAT    	
+   4427890	    37	 100.0	    37	.....................................	TGGCTCATAAATCTCCTAAATAGGTAATAAAAATTGC    	
+   4427964	    37	 100.0	    39	.....................................	GAACAACTTGATAGAATGTCTCCGCAGGAGAGAGAAGTT  	
+   4428040	    37	 100.0	    38	.....................................	CCACTACCTCCACGCAGACAACTTCGCTGAAGTGGCAG   	
+   4428115	    37	 100.0	    35	.....................................	TATTGTCTTATTGTCCCACGTTCGTAAACGTCAAG      	
+   4428187	    37	 100.0	    35	.....................................	CGCAAAGTGTTATCAACAGAGACAGAAACATTAGT      	
+   4428259	    37	 100.0	    35	.....................................	TAGCGCGGCAACCCCTCACCGATACCTACGGGCGT      	
+   4428331	    37	 100.0	    36	.....................................	TTTGGTTGACTCACTAATCAATACTAGCTGGTGAAT     	
+   4428404	    37	 100.0	    33	.....................................	CTATCTGCGTCTTGGGGGAGGACATATTTTTTT        	
+   4428474	    37	 100.0	    36	.....................................	TTCTAAATCTGGCGGTAGTGGGTTGAGGTTGGGGAT     	
+   4428547	    37	 100.0	    41	.....................................	CCGCGATGGTGTTGCTTCTGGTTAGTTTGTTCATGGGTGTC	
+   4428625	    37	 100.0	    37	.....................................	GGAAAGGACAGTGGACTGTAGGACTTCGTTGGCTGTT    	
+   4428699	    37	 100.0	    38	.....................................	CATGATCGGCAGATGGTGTTGATTGATATTGGTGGGAC   	
+   4428774	    37	 100.0	    36	.....................................	CTTTAGCCAGTGCGGCAAATTCTTCGGCGCTATTGA     	
+   4428847	    37	 100.0	    39	.....................................	CCCGGATTCAAAGTTCTGGCTCAAAAGATTTATTTATTC  	
+   4428923	    37	 100.0	    36	.....................................	GAAGCTAACTTTATCATTCCTATACTCAAGCGTTGT     	
+   4428996	    37	 100.0	     0	.....................................	|                                        	
+==========	======	======	======	=====================================	=========================================	==================
+        18	    37	  99.7	    37	GTTTCAGTCCCCGTGAGGGGAATTAGTTAATGGAAAC	                                         	       
+
+# Left flank :   AAAGATTTTGGCTTGATTTGTATGGGGTTCTGCTTGATCAGCCGCTACACCAGACAGCCACGGTACTACACTCCATCGCCAAGGGTAGTTATTTTCTGGCAAGCCTATTCTATAAGGCTTGGGAACAGGTAGAGTTAATTGCTCTGCCAGTAATGGCAGCCAAGTTTGCTCATTTTCGATGAGTTTTGCTGCTATTGTACGACGTGGGAGCCTCACACATAAGCGATCGCCTAGTCGAAACATTACATTATCCCAACCAGTATCAACAAGATGAATTGGTAGCTGCGCCAAATCTGGATGCTGATCTGATAACAAACTATATACGAGGGTTGTATCTATTTCCATCTCCGATACTGGCGTTCCCATTGGATGCAACTGTGCCTCTAACTCCATATTTGCTTCCTTTAATTTGTTGTGTCTTTAAGCGCCAAATTTTTGATATACGCTACTAAATCTTTGTTATGCACTAAAATTCTGCCAAATGATTAAGAAAATTTTGA
+# Right flank :  CAGCTCTGTGCTGAAACTATTACAGAGACAGCTTCTTGGGAAGCGATTTGACGGATAGAAAAATTAGGTCATTTTCAGCAGTTCTTATTGCAAATAATTTGCAACTTCCCTGATTGTTGAAACGCTGTAATTATTATATTGTCAAGGTTCCGGCGATTTTGACGAGTGTGCGGGGTTTTTAACCCAGCTTTGACTTGTCAAACATCAAGTTAATTAATCATAAGATGAGTATTGAGTATTGTCGAGTGTTTTCTAGAGTTTAAGTGCTAACTTAGTACCCGTTTTTAATCAAGTATCGTCAGCTTGTGATAAATTTACTCTTAGTGTAGGCGATCGCATTACTCTTTCTCAGCCCTGGATTGCATTTTTCACAAAAATTGCACTTAACTGTGGCGATACTGCTTAAAATTTGAAAAATTTCCCCTGAGAATACCAAGTACGGAGTCGTGCTGGTTTTATTTTAAGCAAGTAAGCAATAATCACAATTTGATTAATTAGTG
+
+# Questionable array : NO	 Score: 5.68
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.69, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAGTCCCCGTGAGGGGAATTAGTTAATGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.05%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.30,-8.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [73.3-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [127,402] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 8 4542288-4541662 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=====================================	==========================================	==================
+   4542287	    37	 100.0	    41	.....................................	AAGCCTGTGCGGTTGCCGCTTGGGGAACCGCCGTATTAGTA 	
+   4542209	    37	 100.0	    39	.....................................	ATCTCACGGCGTTTAGAGCCTTTCTCCTGCCTTGCTAAC   	
+   4542133	    37	 100.0	    34	.....................................	AATAAGTTTGGATTCCTGGGGTGTAATTGCTTGC        	
+   4542062	    37	 100.0	    37	.....................................	TTTACCAGAACATAAACAGCAGTTAGAACAAACTGAG     	
+   4541988	    37	 100.0	    33	.....................................	ATTGTTCCCGAAGTTTGGCTAGTTCAATCAATA         	
+   4541918	    37	 100.0	    35	.....................................	TTTTAACAATTACGTCATTGTCAAAGCACAAGTAA       	
+   4541846	    37	 100.0	    32	.....................................	GATCAGGGCGGACAAGCTTGATTGACTTGAGA          	
+   4541777	    37	 100.0	    42	.....................................	TTTATTGTTGTGATTCTGTCTATCTTTGTGAGTTGGAGCAAT	
+   4541698	    37	  97.3	     0	....................................A	|                                         	
+==========	======	======	======	=====================================	==========================================	==================
+         9	    37	  99.7	    37	GTTTCAACTCACAACTTCCCCTCACGGGGACTGAAAC	                                          	       
+
+# Left flank :   AGTAACAGAATTGGTGTTCCTCCCCTACCCTGGTGTATGTATGTTGTGAGGATTGGTTGCTGGCTGAGGGAAGTTGTAAGGGGAATCCTTTCTATATTTTCCACGAAAGCGATCGCCTCTGCATCTTTGAGTTGATTTACTTGTGATGGCAGAAAACTGGGAAACATTATACTTATAGTTGAGGACTGTAGAAGGAAAGCTGCTGGGTGTGATTGCGAAAGAATACGGAGTTAGCAATTAAACTCTAAAAAATACTCGACAATCCTAAATACTCATTTTATGATTAGGTAATCAATTTGATTTTTGACAAGTCCAAGTGCGGTCAAAAACCCCGGAGACTCGTCAAAATCGCCAGAACCTTGACAATATAATAATTACAGCGTTTCAACAATCAGGGAAGTTGCAAATAATTTGCAATAATCACGGCTGAAAATGACCTAATTTTTCCATCCGTCAAATCACTTCCCAGGAAGCTTGCTCTGTAATAGTTTCAGCACAGA
+# Right flank :  TATTATGACAGTATTTTTACTGAATTTAACCTTTTGCTAGGCATTTCTTAATCTAACTGAGATAGCGTGAAACACTGAATCCACTATTGATATAACTGTGCGTTGACGATCGCTCAAACTGTGAGGTACATCTTTGCAGTTTAAATTTTCGTGCCAAACCGCAAGAAGATATAGCGATCGCCTATTGCTTCCACACAAACAGAGCTGAGATTTTAAGTGTAGCCGCAATCTATGGTAACTACTAATTCTGTTCGCTTCTCTCAGTTTAACGCCTCCCTCAATCGCAACGCTGAGGGTCAGCTAATAACTGATTTATCTACCCCCGATAATGCCCAAGCAAAAGCTGTAGCTGAGATTATCCAACGTAATAACCCGGATGTTCTACTAATTAACGAGTTTGACTACGTTCAGGGAAACCCACTACAAGCAGTTCAACTATTTCAGCAGAACTACTTACAAGTCAGTCAAAATGGTGCTAATCCTGTTGAATACCCTTACGT
+
+# Questionable array : NO	 Score: 5.55
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACTCACAACTTCCCCTCACGGGGACTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [8,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.30,-8.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [73.3-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [233,334] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 9 5091961-5091632 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+   5091960	    37	  97.3	    36	..........T..........................	ATGAAACTTTTGGCGAGCGCCCAAATAGAATTAATG 	
+   5091887	    37	  97.3	    35	..........T..........................	GATGGCTCGATAAACGAAACCATCTCTTCTAGTTC  	
+   5091815	    37	 100.0	    36	.....................................	TAGTTGCGATTATCGAAAGCTTTACCATTGAATAAA 	
+   5091742	    37	 100.0	    37	.....................................	TCTAATAAAAGTTTGTCCAGACTCAGCACGTAGTAAG	
+   5091668	    37	 100.0	     0	.....................................	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+         5	    37	  98.9	    36	GTTTCAACGACCATCCCGGCTAGGGGTGGGTTGAAAG	                                     	       
+
+# Left flank :   TTTAATTCACTAATCTGAACCTTGAAAATATAATATTTGTATAACAGCGCCGCAGTTCATGCTCTTTTGAGCCAATGTACTGTGATAAATCTGGGTTAGTTTGGCAGTTGGAAGACTGTTATGCTTTCTGACCCTGGTAGCTGCCCGCTTCTGATGCTGCCATCTGTAGACTTCTATAGATGGGATAGGTGCGCTCCCAGCAATAAGGAGTAAAGCTTTTAGCTGTAACCGTTATTTATAACGGTGTGGATTACCACAGTGGTGGCTACTGAATCACCCCCTTCGTCGGGGGAACCCTCCCAAATATTTTTTTGGCGAATCGAAGCGGGGTCAAAATCCCTGGGGACTTGCCAAACTCTGAAAACCCTTGTCCTGTATTGAATCAAAGAATCATTTTGTAAATTGATTTACTATTTTGATTTTCAGCACAAGCAGCTTTTTCAGGGACGTGTCAATTAGACATCTGAAAAGCTTGTATAACAAGGGCCTAGACGGGAAAA
+# Right flank :  AGTAAGAAGAATAGAAGTAATTTCCTGAAATCAACTATATTTGGACATATTTTAGGAATATAACTAAATTATGGGAGGGTTGAAAGGAGCGCTGCGATCAAACAAATGTTAAGGTAAAATAATTCGTCTGTAGCAAATACCACAGTTAATGAGTAAGCCATACGACGTTAATTTGCGAAAAACTAATATGATTGAATTAACGACGCGAATTAGCGAAAGTAATGTTAATTACCTAAAAACGACATCAATTTGCGAAAAGCGACAAATAATGTGCGAATGTACACATATGGAGAATAGGGAACTCGAATCCCTGACCTCTGCGGTGCGATCGCAGCGCTCTACCAACTGAGCTAATTCCCCTGACTTTGTTGAGTGTTCAGTTAATCACACTCGTCCATCATAGAGTATTTTAACATTCAGTTAGGGATGGCTGAGATTTGTTGCCAGAAAAAACTTCTTGTACTCGCTCTAGTTCTAATTCGCTCAGATAATCCACAGTC
+
+# Questionable array : NO	 Score: 8.92
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.17, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACGACCATCCCGGCTAGGGGTGGGTTGAAAG
+# Alternate repeat :   GTTTCAACGATCATCCCGGCTAGGGGTGGGTTGAAAG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [8,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.50,-13.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [411,496] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 10 5483926-5483499 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                	Insertion/Deletion
+==========	======	======	======	===============================	===============================================	==================
+   5483925	    31	  93.5	    19	.......T..A....................	TAGTACAGGCACTACAGGC                            	
+   5483875	    31	  80.6	    17	A...A..C.....A..C...........A..	TTCAGGAACTAGCACTG                              	T [5483873]
+   5483826	    31	  74.2	    35	.T..A..T...TATGG...............	AGATACAACAGGTACTTATGGTACAGGTACTACAG            	
+   5483760	    31	 100.0	    35	...............................	AGATACAACAGGCACTTATGGTACAGGTACTACAG            	
+   5483694	    31	  90.3	     5	.............T...........A..C..	TACAG                                          	Deletion [5483659]
+   5483658	    31	  96.8	    20	A..............................	AGATACGACTGGCACAGGTA                           	
+   5483607	    31	  71.0	    47	....AA.T...TATGG...G...........	AGGAGCAGATACAACAGGTACAACAGGTACTACGACTGGTACTGATG	
+   5483529	    31	  71.0	     0	.A..C........A..C..G......ACAT.	|                                              	
+==========	======	======	======	===============================	===============================================	==================
+         8	    31	  84.7	    26	GCACTGGAACTGGCACTACAGGTACTGGTAC	                                               	       
+
+# Left flank :   ATTCTGCTGTTAATTTGCAAATTTTAACTTATATCTCCAGAAAGAGGCTTTATTCTTAACAATAGGCAAGAATCTAAAGTGAAAAGTTCAAGCAATTTTGCACAATTTACTTTACAGTAAACACCAAATGATAGTCAATTATTAATTAGTTTGGGAAGGAAAAGTAAGTATCTCTGCACAGTTTTTTCATGAATCTAACTAATTTAGTTAGATATCGTTGAATTATTTTCTTGAATTAAGGGTGGCTTATTTTCATTGACTATAAGCCTAGTTTTGCAATGTCTCGTATCAGGATGGTCGTTAGCAAATACTATCCAGCACCTTTAGCGGTTAATAAATCACAGCATCTAGAGCGTATTAAGGAAGCAAAAGCATGAAATCTTTCAATTTATCCAAGTCTGTTTTAGCTAGTTTATTTGCTATCAGTTTCGCTGCTGTTGCATCTCTACCTGTCTCTGCTCAAACCGGAAGCACTGGTACAACAGGTACTTCAGGCACTA
+# Right flank :  ATACCAAGGAACTAACGATGTAAGAGGCGATCGCGATAATAATAGTTGGGGTTGGTTAGGTTTGGCTGGTTTGGCTGGTTTGGCTGGTTTGGCTCGTAAGCGCCACGAAGCTAGTGCTTACCGTGATCCTAATGAAGTACGTTCTGGCTCTGGTACTAGATTATAGTATTATTCTGATATCTATGAAAAAGCCCTTACTTAATTAAGTAAGGGTTTTTCCATTCAAAGAACATAATTTTGGAATCACCAAGTTTAAGCAAAAGCAAAGTTATATAAAATCACGAAATTAACCAATGGAATGATCATCAACAAAATTAACCAAGGATTTTTGCCCAACTTTTTGACAATGTTAACAAAAGCAATAATTAGAAAAACTAAAGCAACAAAATTTACAAAGGGGTCAAGCTACTTTACAAATGTAAAACTAATATTTAGGAATCCTACCTAAATTTTTCAAAGTTAATTATTATTTATTATTAAATGTTAATCATTATACATAA
+
+# Questionable array : YES	 Score: 0.56
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.24, 5:-1.5, 6:0.34, 7:-0.61, 8:0.8, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCACTGGAACTGGCACTACAGGTACTGGTAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.00,-2.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [19-17] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [56.7-50.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [555,574] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+
+Array 11 5971052-5971635 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AP017295-Nostoc sp. NIES-3756 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	===============================================	==================================	==================
+   5971052	    47	  89.4	    28	......G................G..G....T......T........	AGTCAACTGCACCGCCATTACCCTCAAT      	
+   5971127	    47	  93.6	    28	......G....T...........G.......................	GAAGGACTGCACCACCATCACCAAAATA      	
+   5971202	    47	 100.0	    28	...............................................	AATCAACTCCACCACCATTACCCTCAAT      	
+   5971277	    47	  80.9	    28	...........T.............TC...TT.CA..AG........	GAATGACTTCACCACCATTACCCTCAAT      	
+   5971352	    47	  80.9	    28	....T......T...............C......T..TT..C.AA..	TAATGACTTCGCCACCATCGCCAAAATA      	
+   5971427	    47	  80.9	    34	......................G....C......TG.TT..C.AA..	TAATGACTTCACCACCATTGCTAAAAACAGAAAT	
+   5971508	    47	  78.7	    34	..............T..TG....C......ATT..........GCA.	GGTTAACTGCTCCACTAATGCCAAAATCAGAACT	
+   5971589	    47	  83.0	     0	.................T.....T.TC...TT.........C.A...	|                                 	
+==========	======	======	======	===============================================	==================================	==================
+         8	    47	  85.9	    30	AGAACTAGTATCTACATCTCCTAAAAATAACCCTCCACCAGAACTGA	                                  	       
+
+# Left flank :   TTAGTATTAGTAATATTGGCTATTGCTGGATTAGGCGATGATTCTTCTGTGAAGGTATCGGAAGTATCATTAGCTTTTCCGCTAGTAGTAATCTGAATATCTCTTGTAGGGGTATCAGTATCAGATGATTGTCCACCAGTAATAATCTGAATATCACCTTGAGTGTAACTATTAGTGAGAAAAAGTGGAGGTCTAATTGTATCAAACGTAGTAATTGCTCCTGCTGTACCATTTACACTAGAATTGCCAATTATAAAGCCTCTAACGTTGTTGGCACTATGATTAATTGTGATACTTCCAGAATCTAAGCCGCCTATTGTAGAGATACTAGCGTCACCAATGTAGCTATCAAATGTACTAATAGCTCTAAAAGATGATTTTGTGTTTACATTTACATCACCACCAAAACCAAAAAAGCCGCCTTGGGTATTGATGTAATTAAGTTCGATATCATCATTAGCAGTGAGGTTGACTGCACCACCATCACCGAAATCAGAAAT
+# Right flank :  ATGTTAACCGTTCCCGCATCACCAACAGAAGAACTAGTGTTTATATCTCCTAGTACGAATATTCCTCCAGGAGCTTGTAATGTGATATCTCCACCATCATTATCATCAAGATAATTCGAGTTTAAAGCACTTGTAGTAATTTCGCCATTACTACTATTGATGTTAATGGCTCCCCCGACAGTAAAAATTTCATCTGTGGAAATATTCCCACCAGCTTGTAAGTTAATAGAAGCATTATCAAGACCTATAATTGGAGCAAAGGCAATAATTTCACCTTGGTCAGCATTAGCTCGAATAGTTACAGGGTCAGAGACAACAAGTACATCTTCTAGAAATGAATAAGATGAATAAGCTGTAATTAACCCACTGCCATCTGTGCGTCCGATAGTGATGGAATTAAAGCCATTAGCTAAGGCTTCAATATCTAAATCTGTTAAGTCTAAAGTGTCTTCTCCACTATCAACGAAGTCGTTAATTGTAATATTTTGGCTGGCTGTCGA
+
+# Questionable array : YES	 Score: 1.33
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.30, 5:-1.5, 6:0.26, 7:0.18, 8:0.8, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGAACTAGTATCTACATCTCCTAAAAATAACCCTCCACCAGAACTGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.70%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [8-36] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [2603,2657] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_067770681 [4257391-4257993]; Endonuclease Cas2:WP_067770677 [4255849-4256142]; Endoribonuclease Cas6:WP_067770682 [4258052-4258858]; Unclassified_Cas_protein:WP_067768602 [2759105-2760073]; 
+# Array family : NA
+# Sequence source strain : NIES-3756
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.; Nostoc sp. NIES-3756
+//
+
+

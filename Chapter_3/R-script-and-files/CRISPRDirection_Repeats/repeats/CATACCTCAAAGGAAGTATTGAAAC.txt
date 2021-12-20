@@ -1,0 +1,339 @@
+Array 1 594479-594906 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    594479	    30	  90.0	    35	C................A...G........	TTGACATTGTCAAAAGAACGTGGCACTAAACAACG  	T [594484]
+    594545	    30	 100.0	    36	..............................	CGTGCACCTTCTTTGAGAAGTTCAGTGGGATCTTTT 	
+    594611	    30	 100.0	    36	..............................	GGAACTGTTAGATGGCTGGGATATGAAGATCAAAAA 	
+    594677	    30	 100.0	    37	..............................	CTTATTTCGGTGGTCGAACGGAAGCGTGGTTCTTAGG	
+    594744	    30	 100.0	    37	..............................	TTGTTGAATGTTTGATTTATTGCTTCCATTACAGCGT	
+    594811	    30	 100.0	    36	..............................	GTACAACAGAGGCACTGGTTCACCGTTGAACAAAGC 	
+    594877	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         7	    30	  98.6	    36	GTTTCCATACCTCTAAGGAAGTATTGAAAC	                                     	       
+
+# Left flank :   ATCTCTTTCACAATTTCGGATATGCGTTTTCCTGTCTTTATTTCCAGTCCCTTTGAGAGATTCAGAACCATCGAAGGTTTTTTCGAAAGCCTGGAAAGATGTTCCCTTACGTGCTGCACAGGAATCGCTATCACGAGTATGTCGGTGCTTTTCAGTTCGTCGAGATTGTTCGTCGCTCTGACAGAGATTTCCATTTCATCTATGTAAGGACTGGTGTGGGAATTGTTTATAAGATCTGCGATTTCCTTTCTTCTTGCCCACAGAATCACTTCTTCTCCGTTTTCCTTTAAAAGTTGAGCAAAGACTGTCCCCCAACTTCCAGCCCCGAGAACGAAAAATCTCATCTTTCAGCCTCCCTGAACACTTTCTATCTGGAATTTTAACAGATTGAAGTATTGAAACAGGATATCCCATACAGGGAGCAACACAAGGAGGGTATCGAAACATGGATTTGCAGTATGCGTGGGAAGGATTTTCATATCTCTTTGGAGCAACAAAAT
+# Right flank :  CCCGTTGGATTTCAAAGAAATTATACCACAAAGCATTTCAAAAAGCAAGAATATATGAGGACATACAGAAGGTGTTTCATCACAGGTGATTCTAACACACAGAAAGATCAAGTCAAGTACTGTTTGGAAAAATGGAATAATTACATAGTCAATAGAAAGCCTAAAGAAAGGCAAAATCAAAAGATAAATTATCCTAACCTAGGTCAGGGCATTTTGAGTTGTTTTATGGGAAAATCTACTAGTTCTCATTTTCACAAATTTGTTTAAAAAGGTACTCCTTAAAAGGTTAGAGACTAAGTACGTGGTTTCTTTATTCATGATAGATACACGATAGAATATGAAGAAATATTCTCATACCCTGTTTCACATTCTCGCTCATTATTCCATTTTCCATGCATACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCTGCATCGCACATCAGGAGTCAGTTACAATCACCACCCACTTTGTGAA
+
+# Questionable array : NO	 Score: 11.98
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.93, 5:0, 6:0.99, 7:1.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCTAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.30,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [158,625] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.5,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 2 975396-975171 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	=========================	===========================================	==================
+    975395	    25	  88.0	    41	........TG....T..........	TGCTAATTGTAAAAGAGAAGCCTGGCTCATGGCTCAATTTC  	
+    975329	    25	  96.0	    43	........T................	GCAACCTGTTGATCTCAGTATCACCCTTCAGTCTTTTTGTTTC	
+    975261	    25	 100.0	    41	.........................	CTTGTGTTCAAGGGGTGGAACATGAAAGAGATAGAAGTTTC  	
+    975195	    25	 100.0	     0	.........................	|                                          	
+==========	======	======	======	=========================	===========================================	==================
+         4	    25	  96.0	    42	CATACCTCAAAGGAAGTATTGAAAC	                                           	       
+
+# Left flank :   CCTTTTCTGCCCTTGTTAAAACAGCGCTTCCCATGATTTTAAAGGTCACCGTTTTGGATGTTATGATCTTTGGAACAGGAAGATCCACACCTGCAACCTTCAATCCGTTCATGATTGAATCCTGCGAAACGATGTAGTTATATAAATAACCCACCATCTGGGGAATAGAGGAAGAAAAATTAAAAAAAATAGGAGACTCAAAGATTATCGAGTCTCCGGAGATATCTTTTATTTTGTTGAAACCAACACTGAAGACATAGGGTTTTGGTATTCGATCGTGAGAATTAACAATTTCTTCAAACGGTGTACGCTTATACACTTGCTTCAATAGAGACATAAAGATTCTTCTGTAATCAGCAGGAAATTTACCCTCAGAACCACTTTCGGGCTGGATTTTAACGAATATTCTCATATTCAATCCCCCTGCCTCCCCCGGTACAACAGGATTAGGGATGAGGATGTTTTGAGGTCAGAGCACAGGATACTTTTGGTGGGTAAAT
+# Right flank :  CCGTTGGATTTCAGAGAAATTATACCACAAAGCATTTCAAAAAGCAAGAATATATGAGGACATACAGAAGGTGTTTCATCACAGGTGATTCTAACACACAGAAAGATCAAGTCAAGTACTGTTTGGAAAAATGGAATAATTACATAGTCAATAGAAAGCCTAAAGAAAGGCAAAATCAAAAGATAAATTATCCTAACCTAGGTCAGGGCATTTTGAGTTGTTTTATGGGAAAATCAACTAGTTCTCATTTTCACAAATTTGTTCAAAAAGGCACTCCTTAAAAGGTTAGAGACTAAGTGTGTGGTTTCTTTATTTGTGCCAGATATATGAACACAGATGAAGACATATTCACAGATCTTTTTTCACTTTCTCACTTACTATTCCTTTTTCCATGCATACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCTGCATCGCACATCAGGAGCCAGTTACAATCACCACCCACCTTGTGAAC
+
+# Questionable array : NO	 Score: 9.94
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.80, 5:0, 6:0.34, 7:0.20, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CATACCTCAAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [66.7-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [635,83] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.86,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 3 983576-986935 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    983576	    29	 100.0	    36	.............................	AACCTGCTCTTTAGAGATGCCGACAGCATCAGCAAT  	
+    983641	    29	 100.0	    37	.............................	TGCTTCGTACAGTTCATCGTAGCTCTTGAACGACCTT 	
+    983707	    29	 100.0	    36	.............................	GAGGGCGTTCGACGATGTGAGCAGTGCCCTCTCGAA  	
+    983772	    29	 100.0	    37	.............................	TAGACCTGTTCGACAAGTACGTGGCGTTCCCTGAGGA 	
+    983838	    29	 100.0	    37	.............................	CAGACAAGGCAAAGTACTTTGCAGGAGAGGCGTTCAG 	
+    983904	    29	 100.0	    36	.............................	CCTCCTCTAAGTTTTCCTAGGGATTACTTTTCCTCC  	
+    983969	    29	 100.0	    36	.............................	CCTCCTCTAAGTTTTCCTAGGGATTACTTTTCCTCC  	
+    984034	    29	 100.0	    37	.............................	CGGGACTGGGACGAGTCCCAGAAACTGCCCACGCCGT 	
+    984100	    29	 100.0	    36	.............................	TTCATCCTTAATCCTCATTAACTCCTCCCTGAATTC  	
+    984165	    29	 100.0	    36	.............................	CCCTTAAATTCGCCAGGCAGAGCAAGTATAAAATAA  	
+    984230	    29	 100.0	    36	.............................	GTTTGTGATTAAAATTGAAACAAGCGGCGTCTACAT  	
+    984295	    29	 100.0	    36	.............................	GCCTAGAACACACCGTTTTTTCGCCAACGCCCCCCA  	
+    984360	    29	 100.0	    36	.............................	GCCGACAGAAGGCGTCGTTTTCAAACTGCGACACAA  	
+    984425	    29	 100.0	    36	.............................	TGTACTTGGGATCAACGCCGTAGCGTGGATCCCTGA  	
+    984490	    29	 100.0	    36	.............................	ATAGATTTAAACGTGTAATCGATCACGCCTTTTAAC  	
+    984555	    29	 100.0	    37	.............................	TCTTCTGTGAACGTCACAAATGCATCCCCGACACTAG 	
+    984621	    29	 100.0	    38	.............................	GCCCTAGTTCGTGAGCTTCTTTCTTTGCCTCTTTGATT	
+    984688	    29	 100.0	    35	.............................	CACGGTCCCAAACCTGATCTCGACGAGATCTACGA   	
+    984752	    29	 100.0	    38	.............................	ACTAACATACTCTCGCCTCCTCTAATTCGTTCTTTTCC	
+    984819	    29	 100.0	    36	.............................	TCGATAACATAATTCATTCCTTTGTTTTCAATCCTC  	
+    984884	    29	 100.0	    36	.............................	TACAATTTCATCTTAAATCCCTCCTTCCATCTTTAT  	
+    984949	    29	 100.0	    36	.............................	GTGATCAAGATGCAGCAAGACACCACACAGTTTGTA  	
+    985014	    29	 100.0	    36	.............................	GCGCACAATTGCAGGCAGTTTAGACAGCAGAGGCGC  	
+    985079	    29	 100.0	    36	.............................	AAGCGCAAACACGCTGAAAGTGGTGTCGCCTATCTG  	
+    985144	    29	 100.0	    36	.............................	CAGTGTTTTATACAACAGAACACCGGTTTGTGATTA  	
+    985209	    29	 100.0	    37	.............................	AAATATAAGCTGGTCGTCGTTCGTGAACAGCTGCCAC 	
+    985275	    29	 100.0	    36	.............................	ATCTCGACGAGATCTACGACGCATCAAAATATTACA  	
+    985340	    29	 100.0	    36	.............................	CACAATCTCATCCCCTTTCTTCAGACTCAGCAGAAT  	
+    985405	    29	 100.0	    35	.............................	GGTTCGAGCGTGAAAGGGAACTCAATCCTCATCAA   	
+    985469	    29	 100.0	    35	.............................	GCGTCATTGATATCTCCTCCGATGGCGGGAGCTGC   	
+    985533	    29	 100.0	    37	.............................	CCTCCTTCAACTCGAGTTCATCACCGTACTTTTCCAC 	
+    985599	    29	 100.0	    35	.............................	CAAATGCTCTTGGAATCAAAGCTATCGAAGTCGGA   	
+    985663	    29	 100.0	    37	.............................	ACCAAATCGTCGAGGACATCCTTGTGAACAGGCTCGG 	
+    985729	    29	 100.0	    37	.............................	GCACAAATAGTCAACCTGTTCAAAGGGGTGTCTTCAA 	
+    985795	    29	 100.0	    36	.............................	TCCTCGTTTAGCGTTGCAAGAGATAGTCCTGTGGGG  	
+    985860	    29	 100.0	    35	.............................	CAAAAAGATGACGCTCTCGGCAATATCTTTCCGTG   	
+    985924	    29	 100.0	    36	.............................	TGATAAACCATCAGCGGCTCCCTGACCGCCATCCTG  	
+    985989	    29	 100.0	    36	.............................	ATTTTCTGGGAAATGCAAGAAATTCCAGAAGAACTT  	
+    986054	    29	 100.0	    36	.............................	TTCACTGTGGCAGAGATGGCGCAGCAGGACGCAGAC  	
+    986119	    29	 100.0	    38	.............................	AATGACGGCCGGCACAATCTATGCAATGGCGGCAGCAG	
+    986186	    29	 100.0	    36	.............................	CAGGTTTGTCTGTGCGGTCTTCCGTGTAGAAGAAGA  	
+    986251	    29	 100.0	    36	.............................	GCCTGTTTCGAGTGCGGCTTGTGCAAGTGCAAGACG  	
+    986316	    29	 100.0	    36	.............................	AGGTGCATATTGAAAATCTATAACAGTATCGTCATA  	
+    986381	    29	 100.0	    37	.............................	TCGTATCACCTCAAAAAGGAGGGGGGGGAGGAGCCCC 	
+    986447	    29	 100.0	    37	.............................	TCCCTGTATCGTCTGCTCGATAGGGTTGCCTTGTTCG 	
+    986513	    29	 100.0	    36	.............................	TGTCTTCTCTCCTATCCGCCTGCCGTTTTTGGGAAT  	
+    986578	    29	 100.0	    38	.............................	TGCTATCACTTCCTTACCTCTGTATCTCGTACTCGATC	
+    986645	    29	 100.0	    37	.............................	CTTGAGAAGGCTGCTGCACAGGCTGACGCATGGATCG 	
+    986711	    29	 100.0	    36	.............................	ATGGTCGGGTCATTCCCCTCCTTGTCTCTGAACAAC  	
+    986776	    29	 100.0	    36	.............................	CAGAACTCCTTCCACCTGTTCACCGCTGCTTTGAAC  	
+    986841	    29	 100.0	    36	.............................	TGCGGTGTGATAGGTCACACTCCCACCTCACACAAC  	
+    986906	    29	  93.1	     0	..........................T.G	|                                     	A [986931]
+==========	======	======	======	=============================	======================================	==================
+        52	    29	  99.9	    36	GTTTTTATCTTCCTAAGAGGAATATGAAC	                                      	       
+
+# Left flank :   GCTTCAACAAACCATTCTTCACAGGAAATTGAAAAGGAAAATTAAATATCAATCTCTCATAAGGCTAGAAGCATACAAAATCATAAAGCATTTGCTTGGAGAGGATGAATACAGGCCTCTTAAAGTGTGGTGGTGATAGTGGTAAAGGTTATACTGGTCTATGACATTTCAACAGAGACCAAGGAAGGTGTTAAGCGTTTAAACAAGGTGAGAAAAATTGCCAGGAGGTATCTTGACCATATACAGAAATCTGTCTTTGAAGGTGAACTGACAGAAGGAGAGGTCGAGAAATTGAAATTCGAATTATCATGTGTTATAGATAAGAACGAAGATTTCGTAATAATCTATAAAATGCCGCCTTCCATTATGATGGAAAGAGACTTTCTAACGAATACAGAGGATCCCTCCTCGAATTTCATCTAGACAAAACTGGAGGTTTGACGCAAAATCTGTTCAAAAGAATGGTTGTTTCATGCTTTTTTACTAAGAAAATAACTGCG
+# Right flank :  GAATGGTGGAAAAATGCCAACTGTTACTCTATTCCTCACAAACAGCATACTAAAGCAATATTTTCTGGTTCATCGTTTTTGAAGATCCAGAAAGACCGATCGGAAGTTCGGAAAAAAAGAATATAAGGGAAAGATTCATAGAAATGCTCAAAACCTATGGGCTGGGTGCGAAGACGAATTATGGATATGGCCGATTCGATGATATTTTATGATAAGATTTAAAGAAATTGTGATACAATCTCAGGTAAGGATTCCGAACTTTTTGAGATCTCGAAGAGAACGTGCCACGAGCCTGGAAGGCTCTGGCCGTTCTTTTTTTTAGGTGGGGGGAACATGAAAAACGGACGCTTCGAGTTCTTGAAGAGGGTCTTGGGTTCCATTCAGAGTATTCGAGGGTTTGTCCTTTTTGAAAGTGTGGGCGGAGAACTTTCTGTGAAGACGTCGGTTGGGAAGGTGCCCCTCTTTTTCAAAGAAGGTTTTTCTTTCACAACGGATGAAAT
+
+# Questionable array : NO	 Score: 8.90
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.90, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTTATCTTCCTAAGAGGAATATGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.97%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-3.20,-3.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [79,334] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 4 1012013-1011390 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+   1012012	    30	 100.0	    35	..............................	CGGCAGCAAACCTCAAAGCGCTCGAAAGAAAGGGG  	
+   1011947	    30	 100.0	    36	..............................	CGATGTCTGCGTGCTCTAACCATTTGTACAATTCTT 	
+   1011881	    30	 100.0	    36	..............................	CAATATCCGCAAAGACGAGGAAGTTTGGATCGAACC 	
+   1011815	    30	 100.0	    35	..............................	ACTGCCTCTCTTAAACGACGAAATGCGGAAGAGAG  	
+   1011750	    30	 100.0	    36	..............................	AGAGGAGATACATCGCAGAGGAAACAAAGAGAAAGA 	
+   1011684	    30	 100.0	    36	..............................	TCGCCTTCCCATACGAGGGTCTGTACGTCGCCCTGG 	
+   1011618	    30	 100.0	    36	..............................	TAGCCACGGCGAATGCTTTGTCGTGGCGGGTGAGGT 	
+   1011552	    30	 100.0	    36	..............................	TGAAGTACGCCATTTACACGAACCCTAAGGGCGGAT 	
+   1011486	    30	 100.0	    37	..............................	ATAAACTCGGCACTTCGAGCATAGACGAGAACTTCGA	
+   1011419	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+        10	    30	 100.0	    36	GTTTCCATACCTCAAAGGAAGTATTGAAAC	                                     	       
+
+# Left flank :   CGTCTGACATGCGACCATGCAATTGTAAGGACGTGCTACTATCACTTTCCCTTCTTTTCTGTCAAAGTCAAATACTCGCCTTCCACAAGTTACAAAGCAAATACCACACGTTGCACATTTATCGTAGTTGATGACTGGATACCACTCTATTGCTTTTCTATCTACACCCCACCAGGGAATTTTAGAAAGATCACGAATCTCCCGCCCAAGGGCATCCTTTCCAATCACCGGAGTGTTCTTAGATTCCATTCCAATCTCCCTCCCAATCCTGTTTTTTATCTTTTTGCAATAGGGAGGGAGTGTTAATAACCACACCACCAGCACCAGCACACTTTTCTCATAGCTTTCACCTCGAGGAAATTATATACTTTTTACATATATTTGTCAAATAAAAATAAAAAATAGAAGCTTTCCAGCCTGAAAAATCGCTGCGGGTTTGTACCTATAAGGAAATATTGAAACTTTCTCATCAAAAAGTTCTTTCGCCTGCCAGAACACTC
+# Right flank :  CCGTTGGATTTCAGAGAAATTATACCACAAAGCATTTCAAAAAGCAAGAGTATATGAGAACATACAAAGGGTGTTTCATCACAGGTGATTCTAACACACAGAAAGATCCAGTCAAGTACTGTTTGGAAAAATGGAATAATTGCATAGTCAATGAAAAGCCTAAAGAAAGACAAAATCAAAAGATAAATTATTCTAACCTAGGTCGGGCCATTTTGGGGTGTTTCAGGGGGAAACCGTCTAGTTCCTGTTTTCACAAGTTTGTTCAAAAAGGTTCTCCTTAAAAGGTTAGAGGCTAAGTGTGCGGTTTCTTTATTCATGATAGATACATGAACACAGATGAAGACATATTCACAGATCTTTTTTTCGCTTTCTCACTCACAATTCCATTTTCCCTGCATACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCTGTATCACACATCCAATGCCAGTTACAATCACCACCCACCTTGTGAA
+
+# Questionable array : NO	 Score: 12.02
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.99, 7:1.03, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCAAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.50,-1.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [633,252] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 5 1090661-1090292 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	==============================	========================================	==================
+   1090660	    30	 100.0	    37	..............................	TGAAGTTCTCCGAGTTCTTCAACTCAGGTGTGCCGCT   	
+   1090593	    30	 100.0	    39	..............................	GCTTCTTCACGGGAACGTCAAAGTACACACGCTTTCTGC 	
+   1090524	    30	 100.0	    40	..............................	CAGGTGCGAACCCTGAAAATTTACGAGGTTCGAACTTGTT	
+   1090454	    30	 100.0	    37	..............................	CTACACGCTGTCTGGCCTTCCGGCGGGAGACCTCACA   	
+   1090387	    30	 100.0	    36	..............................	TTCTTGAGGATCTCGATTCGATCCACGTAGAATGTG    	
+   1090321	    30	 100.0	     0	..............................	|                                       	
+==========	======	======	======	==============================	========================================	==================
+         6	    30	 100.0	    38	GTTTCCATACCTCTAAGGAAGTATTGAAAC	                                        	       
+
+# Left flank :   GGAGATCTACGCCACGATCGTCAAAATAAGGAAGATTTTGAAACTCTACGATGTGGACAGTGCGGATGGTATCTTCAGGTCGAGTGATGGTAGTTTCAAAGGATACATCAGTCTGCCCGACCGATATCTTTCCAAAAAGGAGATAAAGAAACTCGCAGCGATCTCTCCGAACACGACTGTGAACATCATAAAGAACAGTTCCGTTGTGGAAAAGTACAGAATAAAACTGCCACCCACCATATACGGTTTTGAAGAACTGCGGTGCAAAAACGAAAACTGCATCACAAATCCTGCACACGGTGAGAACGTGTCTCCCTCATTTGTGAGAGATGAAAACGGCCGATTCATCTGTGAGTACTGTGAAACTCCCCACTCGTTCGAAGAGATATGGAGCATTTGATCTTTTTAAAAAGCAATCAAAGCGGGGATCTTTCCCCGCTTTTTGTTTTTTGTTTCCGTATCTTGTTTTTCTTTGAGTCTGTACCTCGTTTCTATACTTA
+# Right flank :  CCGTTGGATTTCAAAGAAATTATACCACAAAGCATATCAAAAAGCAAGAGTATATGAGGACATACAGAAGGTGTTTCATCACAGGTGATTCTAACACACAGAAAGACCCAGTCAAGTACTGTTTGGAAAAATGGAATAAGGGAGCCTAGGTCAGGCCATTTTGAGGTGTTTTATGGGAAAATCAACTAGTTCCTGTTTTCACAAGTTTGTTTAAAAAGGTACTCCTTAAAAGGTTTGAGGCTAAGTGTGCAGTTTCTTTATTCATGATAGATACATGATAGAATATGAAGAAATATTCTCATGCCCTGTTTCACATTCTCGCTCATTATTCCATCTTCCATGCACACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCCGTACACTTCTTCCCATGCCAGTTACAACCACCCCCCACTTTGTGAATAAATGGAACTTACCCTGGTTTAGTAAATAAAATTATGTTGTTGTACACTTAT
+
+# Questionable array : NO	 Score: 11.76
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.99, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCTAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.70,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [562,101] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 6 1233629-1233857 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+   1233629	    30	 100.0	    36	..............................	ATGTCCTGACCTTCTTCAACCTGCCTTTTGATATCG 	
+   1233695	    30	 100.0	    36	..............................	GTTCATCACGAAGGTGTACACTTACCTGATCATGCA 	
+   1233761	    30	 100.0	    37	..............................	CTTTATCAGATGATCAAAAGGCTTGAAAAGGAGGATG	
+   1233828	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         4	    30	 100.0	    40	GTTTCCATACCTCTAAGGAAGTATTGAAAC	                                     	       
+
+# Left flank :   TACGAATGCTCTATGAGATCTTCTCTATCCAGAAACCTCTCCAGTTCTCTGGAAAAGAGTTCGCAGTCTCTCACACTCACGTATCCCACCGGGTTGTCTATAACGACCCTGAGGACCCAGCCTCTGCTTTCTCTTCTGTACTGTATGTCGAAGATTTCCAGGCCTTGCTTTTCAGCAATTCTTTCCGCTTCTTTTCTAACCTTTTCTACAATCATCTCTTCGAACATACTATCAACCACCCCCTAGTGAACGAAAAACCGGGACACAAAGTCCCGGCCTTTCTCTGGCGGAGAGGGTGGGATTTGAACCCACGGGTGGCTTTTGGCCACCACACGCTCTCCAGGCGTGCGCCTTAGACCCCTCGGCCACCTCTCCTCTCCGTACCAAGAAAGTATTATACACTTGTTTTTTCAATAATTCAAGAGGAGCGTGTTTGTTTTTTTAATTTCATGCATTTGAAAGGAGAACCGAACAGAAAGATTGAAAAATTTCTATACTTT
+# Right flank :  CCCGTTGGATTTCAAAGAAATTATACCACAAAGCATTTCAAAAAGCAAGAGTACATGAGGACATACAGAGAGTGTTTCATCACAGGTGATTCTAACACACAGAAAGACCCAGTCAAGTACTGTTTGGAAAAATGGAATAATTGCATAGTCAATGAAAAACCTAAAGAAAGACAAAATCAAAAGATAAATTATCCTAACCTAGGTCAGGCCATTTTGAGGTGTTTTATGTGAAAATCAACTAGTTCCCGTTTTCACAAATTTACTCAAAAAGGTACTCCTTAAAAGGTTAGAGACTAAGTATATGGTTTCTTTATTTGTGCCAGATACATGAACACAGATGAAGACATATTCTCATATCCTATTTCATATTCTCGCTCACTATTCCATTTTCCATGCATACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCCACATCCTTCTTCTCATGCCCGTTACAATCACCACCCGCTTTGTGAA
+
+# Questionable array : NO	 Score: 11.99
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.99, 7:1.40, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCTAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.30,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-65.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [275,670] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.5,0.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+
+Array 7 1423489-1422791 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007633-Thermotoga sp. RQ7, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	==============================	========================================	==================
+   1423488	    30	 100.0	    35	..............................	GAATACGACGACCTCCTGATACTCTGGTATATTCA     	
+   1423423	    30	 100.0	    36	..............................	TGTGTGCTCCTTCTATCGTTGCCTGTGCGATGTAGG    	
+   1423357	    30	 100.0	    38	..............................	CAAGAACCTCAAGAAGATTGTGGTGAATGCAATTATTG  	
+   1423289	    30	 100.0	    36	..............................	ACTGAATAATTCTTTCGTCTCCATCAAAATCCTTTA    	
+   1423223	    30	 100.0	    37	..............................	TGGTGAAGGTTGAGTTTGTGAAGGAGATCAGAAATGG   	
+   1423156	    30	 100.0	    36	..............................	GTTTTCAGTCCGGATGGTCGACGTCTTTGGCGGTCA    	
+   1423090	    30	 100.0	    40	..............................	TAAATTTGCATATGCGTCTTAACAATTCTAGCATCGAGAT	
+   1423020	    30	 100.0	    37	..............................	ATTTTGATCTTGAAATACTGAAATTTCTGAATGTCTC   	
+   1422953	    30	 100.0	    36	..............................	TTGACAAAGAGCTCTGGGAAAAAGTCAACGTAAGGA    	
+   1422887	    30	 100.0	    37	..............................	TTGTACACGAGCACTGGGAAGTAGGTCAGTTAGTGCC   	
+   1422820	    30	 100.0	     0	..............................	|                                       	
+==========	======	======	======	==============================	========================================	==================
+        11	    30	 100.0	    37	GTTTCCATACCTCAAAGGAAGTATTGAAAC	                                        	       
+
+# Left flank :   TCACGGTACTTCAGGGGTTTATAATTCTGTTTTTCACGTACTTTCTGGCGGAGAACCTGAAGATCTCCGGTCTGATACCGGCTCTCATCGTCGGTTTCCTCATGTCCGTTACGATCGCCAGCTTTGGCATAGCACTCGCCCTGAAAATGGAAAGCACAGAGGGTTTTCAGATGATAATGATGACACTGATGATGCCTCTGATATTCCTGAGCGGAGCCATGTATCCGATAGACTCCATGCCGAACTGGATGAAAGCGATCGCCTACATCAACCCACTGACCTATGCGGTCGATGCCTCAAGAGGTTACCTGGTTGGATCACACGTGATGAAGTTTTCCTTTGGAATGGACTGGGGCATTTTGAGCATACTGATGGTCGTGGGACTTCTTCTTGCAACAGAGAGTTTCGAAAGGGCAAGGATAAGTTGAAAACGATCTTTCAGAATAAACAGAGGCGGGAATTTCCCCGCCTTTTTTGTTTTTGGGTGGTTTTCATACTTC
+# Right flank :  CCGATGGATTTCAAGGAAATTATACCACAAAGCATATCAAAAAGCAAGAGTATATGGGAACATACAGAGGATATTTCATCACAGGTGATTCTAACACACAGAAAGACCCAGTCAAGTACTGTTTGGAAAAATGGAATAATTGCATAGTCAATGAAAAGCCTAAAGAAAGACAAAATCAAAAGATAAATTATCCTAACCTAGGTCAGGGCATTTTGGAGTGTTTCAAGGGAAAACCGTCTAGTTCCTGTTTTCACAAGTTTGTTCAAAAAGGTCCCCCTTAAAAGGTTAGAGACTAAGTGTGTGGTTTCTTTATTCATGATAGATATATGATGATAGATGAAGACATATTCTCATATTCTGTTTCACTTTCTTGCTCATTATTCCCTTTCTCTTGCATACATCACCTCTCTCAAACCCGCATGAATTTTTTCGTTACCGGTAATTGCATACTCCGTACCCTTCTTTCCATGCCAGTTACAATTACCACCCACCTTGTGAAT
+
+# Questionable array : NO	 Score: 11.85
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.99, 7:0.86, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCCATACCTCAAAGGAAGTATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.50,-1.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [736,73] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_015919208 [981703-982221]; Endonuclease Cas2:WP_015919210 [983202-983498]; Endoribonuclease Cas6:WP_015919202 [975478-976212]; Helicase/endonuclease Cas3:WP_041844146 [979361-981700]; Unclassified_Cas_protein:WP_015919196 [969855-971465]; 
+# Array family : NA
+# Sequence source strain : RQ7
+# Taxonomy hierarchy : Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.; Thermotoga sp. RQ7
+//
+
+

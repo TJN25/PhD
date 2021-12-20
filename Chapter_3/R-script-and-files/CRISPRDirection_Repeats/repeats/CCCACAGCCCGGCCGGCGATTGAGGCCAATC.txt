@@ -1,0 +1,40 @@
+Array 1 69-397 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNZI01000044-Streptomyces griseus subsp. griseus strain NRRL B-2307 contig44.1,		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                              	Insertion/Deletion
+==========	======	======	======	===============================	=============================================================	==================
+        69	    31	 100.0	    33	...............................	AGTGACCGGCACGGTCGAGACGGAGCCCGGCAA                            	
+       133	    31	  96.8	    61	..A............................	TGTGACCCGCAGGGTCAGGGCCGGCAGAGGGAGGCGAGGCCCAGCTGAGGCGCAGCCCCAT	
+       225	    31	  90.3	    47	...........................GTC.	GTGACCGGCACCGCCGAGGTCAGCAGGGAAGGGACGAGGCCAGCCCT              	
+       303	    31	  93.5	    33	...CA..........................	GGTGACCGGCACGGTCGAGACGGAGCCCCGCAA                            	
+       367	    31	  93.5	     0	..A...............C............	|                                                            	
+==========	======	======	======	===============================	=============================================================	==================
+         5	    31	  94.8	    44	CCCACAGCCCGGCCGGCGATTGAGGCCAATC	                                                             	       
+
+# Left flank :   CCATGCAGTTTGTGAGGAGGTACCCCGACCCGGCCCCGCCCGGCACACACGGCGAACGACCCGCGAACC
+# Right flank :  CAGTGACCGGCGCGGGCAACGACCGGCACCCCCAGTCGCGGCGCAGCCACATCGCAGCCAAGCCTCAACACCGCCGGCCCCGCCGGCTAGAGCGGGGTCGCCGCCTTCAGGACGAGGAGGAGGGTCAGCGCAGCGTTGACCGAGGAGGCGGCGGAGGCGGCAGCCCCGGTGGTGGCCATGAGAAAGGCGAGCCCCGGCCGCGTCATGGCGGGCGGCAGACGCCGGGGCGAGGGCGCGGGCCCCAGCAGAGCGGCGACCCGGCGCGGAACGGGCCCGGGAGCGGGCTCGGCGAAGGCCAGCCCGAAAGCAGGCCCGGACCGGGAACTGAGGGCAGCCCGCCCCACGGCCCGCGCGGTGAGCCGGCGGTCCCCGACCGCCATCGCCGCGTCCTCGTCCGCCCAGCGCTCGGCCCCGTAGCCGACGGCGGAACGCAGCGGGCGCAGCAGCGGGTTGAGGCAGGCGGCGAGGCGGACGGCGAGCAGCAGCCGGTGGTGGCGCCC
+
+# Questionable array : NO	 Score: 2.05
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.74, 5:0, 6:0.34, 7:-0.14, 8:0.6, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCACAGCCCGGCCGGCGATTGAGGCCAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.60,-4.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-26.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [70,86] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-2307
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces griseus subsp. griseus
+//
+
+

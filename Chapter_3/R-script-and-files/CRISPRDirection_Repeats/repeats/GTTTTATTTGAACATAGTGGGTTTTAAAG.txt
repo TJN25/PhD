@@ -1,0 +1,156 @@
+Array 1 12221-12768 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYTB01000013-Kurthia huakuii LAM0618 Scaffold2_2, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+     12221	    29	 100.0	    35	.............................	GCATTTGAAAAGAAAAAAGATGAAGCGCAAGGAAT  	
+     12285	    29	 100.0	    36	.............................	ATTTATGATACACGCTATCCAGATAAACTAATCGCT 	
+     12350	    29	 100.0	    36	.............................	GATAATACGCTTCCTTCGCTTGTGTTGTTGTCACCT 	
+     12415	    29	 100.0	    36	.............................	CCTTTCAATCAAAATGTAAAGCATCATTGGCGGCTA 	
+     12480	    29	 100.0	    37	.............................	TAATCTTTTTATCATCTGGGGAGGTATTTATATTTGC	
+     12546	    29	 100.0	    36	.............................	ACTATCCGAGGGCTTTATATACGAGAACGGACTTTC 	
+     12611	    29	 100.0	    35	.............................	GCACGTTGAGGACTAATAAAAGTAGCTTCAACATA  	
+     12675	    29	 100.0	    36	.............................	AGCGTTATGTCGTGCAAGTAGGTTAGAGCATGCAGA 	
+     12740	    29	  93.1	     0	.......C....................A	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         9	    29	  99.2	    36	GTTTTATTTGAACATAGTGGGTTTTAAAG	                                     	       
+
+# Left flank :   GCGAATACGCGTCAATATTTTTGTAGATTCAAGCTTTTTAGTTGCAGGTAATTTTTTACCTAGTAGTGCATTTAATAATGCTGTCATAATCGCTATTAAAATGAGGCGTTATTGACAATGCTGATTTCCCAAATTTTATTTAATCGAGTTAATTTCATAACTCCAAACCCTTGTCTCCCAAGGGTTTTAAAACAATAAAAAATGGGCACCTCCCCAAGATGGTATAATTTAAGTGACCAAACCAAAATTATCCAAGAGGTGAATGCCCTATGACTATTGTAAAACAAATGCGTCTATTTGACATCCATGAATTAATGGAAATGGAAAGTTCTCGTCGTTTCGATGCGATTTTAGCCACATTCGACTTACAACCGATCTTACAGCTATTTCGTAAAACGACGATGTATGGCGCACCACGAGAATTAAACTATGGTGCGATGGTGCAGTCACTTGTCATTCGGATTGTCTAGTGTATTATTAATGTATGATTCATGTTGCCG
+# Right flank :  ATACGTTATTATCCGCAGCACATCAGACTAACATCTTCACCAAATGAAATCTCAGCTTACATTTTATATAAACCCCTCGCTTCTAAATAATTTTTAAATTAGCTGCAGCTTCAATCAAATTCACATGAATGCTGCTTTTTATATTGCGATTTTTTCATAGACCATTCAAAATTTCAATTTCTTTTTTAAATCCCCTCTCACAAATTAGCTCTCACCCCAAGAAGCGTGTTTTCGATACGACATATTTCTGAATATGCGTCACGTTTAAGTAGATACGCCTAGAAAAAAGCGAATCATTTGCTGATTGTTGTCATTTTCTCAAATAACTACTACTTGTGTGGCGATAGTTACGACAACTTTGTAACGTGGCCTCCTCAAAAGCGGACAAAAAATGCCCGTTACGATTCATTTTTGACCCCATTTCTACCGATAACGGGCTTTTTCCGCACAAACACTTTGCTAGATCGAGTGCAGCGTGTCGCATTTTTATTTTTTTGAAT
+
+# Questionable array : NO	 Score: 8.99
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.03, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATTTGAACATAGTGGGTTTTAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:72.41%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [32,398] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_029499863 [92867-93175]; 
+# Array family : NA
+# Sequence source strain : LAM0618
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Kurthia.; Kurthia huakuii LAM0618
+//
+
+
+Array 2 55365-56753 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYTB01000013-Kurthia huakuii LAM0618 Scaffold2_2, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+     55365	    33	  97.0	    35	...........T.....................	ACTGGCGGCTATCATGTATCGATTCAAAAATCACA  	
+     55433	    33	  97.0	    33	...........T.....................	TGCTTTTGCAGTTGTGCCGCAAGCATATTGTTC    	
+     55499	    33	  97.0	    33	...........T.....................	CAAAAATAACACTAGCGGTTATCCAGGTGTAGG    	
+     55565	    33	  97.0	    34	...........T.....................	TTTAGTGTCCCATTACCGACACCAAGGTTAGCTA   	
+     55632	    33	  97.0	    34	...........T.....................	ACTTCTGTGATTGGCGATTGCATTGTTAACGGTT   	
+     55699	    33	  97.0	    36	...........T.....................	TGGATGTTCAATATAGGCTGGTGAAATTGTGCGTTT 	
+     55768	    33	  97.0	    35	...........T.....................	ACCCGACCATGCAATGCATGAATCTTGATTTTCGA  	
+     55836	    33	  97.0	    35	...........T.....................	TCAACATCAAAGAATTATAATAGGTTTATCCTACC  	
+     55904	    33	  97.0	    36	...........T.....................	AACTTTGATGACGTTTTTGCATAATGTGTCAACGTG 	
+     55973	    33	 100.0	    34	.................................	AGCAACCAGTCCGCTATCTAAGCCGCGCTCTGTT   	
+     56040	    33	 100.0	    37	.................................	CGAAGACAGGATTGTTGCAAAACACCGTTTTAAACAA	
+     56110	    33	 100.0	    34	.................................	CATTGGAAATTTTCGGAAAGCAAAACTCTATCTT   	
+     56177	    33	 100.0	    36	.................................	AAGTAACTTCGCGCCGAGCGGGGCCATTCCGACTCC 	
+     56246	    33	 100.0	    36	.................................	CTCCATCGTGTAAATTGCTTTTCGTTCGAATTGTTG 	
+     56315	    33	 100.0	    35	.................................	GACATCTTCCTTGCTGTTGACGAAAAACGGCTCTA  	
+     56383	    33	 100.0	    35	.................................	ATTAATAAATGAATAATAGGTAAGAGCATACTAGC  	
+     56451	    33	 100.0	    34	.................................	TAATACTACAGGTGTACCATCTTCGAGCACTAAA   	
+     56518	    33	 100.0	    33	.................................	TGCTTCAACTTTTGTTGTATCTGCATTTCTTTT    	
+     56584	    33	 100.0	    33	.................................	CACGTATTGTAGACTTGCTCGATTTGCGCCCGT    	
+     56650	    33	 100.0	    36	.................................	TTGATTCGATATAGCTTTGAAAATCTTTATATTATT 	
+     56719	    33	  84.8	     0	...........T.........CAC....T....	|                                    	TC [56749]
+==========	======	======	======	=================================	=====================================	==================
+        21	    33	  98.0	    35	GTCTCACTCTTCATTGAGTGAGTGGATTGAAAT	                                     	       
+
+# Left flank :   TCGGTAGAAATGGGGTCAAAAATGAATCGTAACGGGCATTTTTTGTCCGCTTTTGAGGAGGCCACGTTACAAAGTTGTCGTAACTATCGCCACACAAGTAGTAGTTATTTGAGAAAATGACAACAATCAGCAAATGATTCGCTTTTTTCTAGGCGTATCTACTTAAACGTGACGCATATTCAGAAATATGTCGTATCGAAAACACGCTTCTTGAGGTGAGAGCTAATTTGTGAGAGGGGATTCGATTTTTAAATGTTACTTAGTGGAGGACTCATATTGCGAAAGCCATTTCTTCGGAAGAGGTTAGGAAAAAGAAGGCGTACATTGTATAATAGGTAAAAAGGTGCGAATAGGAAGCGCTCATAAAATCCCTAGTGTATTCGCACCCGTTTTTTAACTGTTTAAAGAAAGCAATCATGTTTGTTCTCTTTAAATAGAAAAAGTTTAGAAAGAAATAGTGAATTCATGATAAATTCAGCTGAATTTATTAAGCGTTCGCC
+# Right flank :  TGATTCGTGGCTTTTATAGTTAATATTACGATTCATAAAAGTACCCAAGAAAAAGTGTTATCGGTATGTAATAGCAGGATTGATTTTAATATAAAAAATAATTGCAGAAATTAATTATCTTTAAAAAATTTTTCGAATAATTTAAAATCAACACCGTAGTATTTTTTATACGGTGTCTTTTTTTCGCTCTTTTCGTCCGGAAGAACCTGTTTTTTTACAATAATATAGGACTGTTTGTTTTATTGGACATAGATAAACATACAATGGAAAAGTAAATTTAAAATATATTATTAATAAATAATGATATATAATTATTTCTGGTAAATAAAATTAGTCTTATGTAATTATAAAAATAATTCATTGATGAGTTCTTATATATAAGGAGATTTTTATTCAAATGAAAAAAATTATATCAAAAAAGCGTTTAAAGGGAATCATCCAGTCGTATATGGAGCGATATGATGAGGATCCCTTTTGGGGTGGTGAATTACAGTTTTTAC
+
+# Questionable array : NO	 Score: 10.76
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.90, 5:0, 6:0.31, 7:0.70, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCACTCTTCATTGAGTGAGTGGATTGAAAT
+# Alternate repeat :   GTCTCACTCTTTATTGAGTGAGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.61%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.70,-2.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [531,399] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.28,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_029499863 [92867-93175]; 
+# Array family : NA
+# Sequence source strain : LAM0618
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Kurthia.; Kurthia huakuii LAM0618
+//
+
+
+Array 3 95415-94062 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYTB01000013-Kurthia huakuii LAM0618 Scaffold2_2, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	====================================	===============================	==================
+     95414	    35	  83.3	    29	A....T.A...-.......A..T.............	TAATAAGTTTATTTACAGCATGACAAAAT  	T,CT [95396,95399]
+     95347	    36	 100.0	    30	....................................	ATGTGGAATGGCCGATGATTAAACGGGATG 	
+     95281	    36	 100.0	    30	....................................	TCATCGCAAGCACCTTGTCGTGCGGTAATA 	
+     95215	    36	 100.0	    30	....................................	AATAAGTAATCAGTTGATACACCAAAGAAA 	
+     95149	    36	 100.0	    30	....................................	ATTTGCGTAACGGTTACCATAGCATTTTCA 	
+     95083	    36	 100.0	    31	....................................	GACGTATCGTGCGAAAGATGGGCAAAGTGAA	
+     95016	    36	 100.0	    27	....................................	GAATTGTGGACGTTCTTTTTTAGTACC    	
+     94953	    36	 100.0	    30	....................................	ACTAGAATCAGCATTGGTGCAACGTAGACA 	
+     94887	    36	 100.0	    30	....................................	TCCGCTGTCGTTGAGTCGTACACACGCACG 	
+     94821	    36	 100.0	    30	....................................	TTAGAAGAAAAAGTAGATAAGAAGGTCGGC 	
+     94755	    36	 100.0	    30	....................................	GGTAAACGTAGTGCAACGATGTACGCACTG 	
+     94689	    36	 100.0	    30	....................................	TCGAAACCCTCTACATTAACATTAGCGCCG 	
+     94623	    36	 100.0	    29	....................................	GTGTGGACGAAAACGGCGTTTATACAGTT  	
+     94558	    36	 100.0	    30	....................................	TCTAGCTACTCGCCATAAACCACGTACAAT 	
+     94492	    36	 100.0	    30	....................................	GATGCGGTAGCGGAAGTGTTTGGTAAAGAT 	
+     94426	    36	 100.0	    30	....................................	TGATTGGCTGACTGCTGCGGCGTATAAACA 	
+     94360	    36	 100.0	    30	....................................	ACCGGTCAAGTTGATAAAGGGACCGTTTTA 	
+     94294	    36	 100.0	    29	....................................	TGTCATAGCTTTATGTGGATTATCTTTTA  	
+     94229	    36	 100.0	    30	....................................	CCTTATCTAGCAATCACAGTATAGTATTTG 	
+     94163	    36	 100.0	    30	....................................	ATTCAGAACTTTGTTGAATCACCGGGCTTT 	
+     94097	    36	  72.2	     0	.........................ATAAAC.TTGT	|                              	
+==========	======	======	======	====================================	===============================	==================
+        21	    36	  97.9	    30	GTTTTACTACTATCTAAAATTACATTGGTCTAAAAC	                               	       
+
+# Left flank :   AAATGCTCCAGTATCGTCATAGAGCACGCTAAGCGGTGTCCACGGTGCACAGTTTGAAGCGAGCGTCGGCACGACAATCACTTGCTTATGCACTTCATTGGCCACAGCCTTCGCTAAATCGATGACCTTTCCGCCACCGACACCAATAATCGCATCATAATCGCCCATCATAGCCGTCACACGTTCAATTTCAGAAAATGAACATTCGCCGCCGTATGTATAAAGCTCCGTTTGAACATCCGCCATCGCTGGCCAAAATGCTTCAATCGCCGCCCATGATTTCGTTCCGGTCACAATCAAGGCACGCGCAATACCACGCGCCTCTAATAAGCTCTCTAACTTTTTCAATATACCATCTTCTAAGATGTATTCACTTGGTGCTGCATGTACATGAATTGTTTTCATTGCTAAACCTTCTTTCTATAGTTATAGTATAAAACGAATTTTAAAGATTTTGTAGGTGATTTTTCAGAAAATTTGCGAAAAAAAGAAGCTGAATT
+# Right flank :  AGTGCTATTAGCTACTCTTAAAAAAATCAAAAATGACTGCTCTGAATAAACTGTCTTAATTTCTTACAAAGTAATGGATTTTGCACAATAAGTTCTTCATACGCTAAAGAAATGGCGAGCTGATTCTTTGACAACGAATCGTTTTCTACTTCTCCTAATAAGTCTAATTCGGTTAGGAACGCTGTTAAATCAAAACGTTCCCGCGATTTTTTAATAAAATGCACATGTTCTACAGGAAATTGCATCAGCCACTCTTTGCTTTTTGTAATACAAATAATCGTACTTTTTGTATTTTTCAACATCTGCGCCCATAACTCTATTTTCTGAATATCAATATCATTTTCAGGAAAATGATAGATGATAATCGATGGTTTTCCATTTGTAAGCGAAGTCCATACTTGCAGAATAAATTTAAGGCGAGAAAAATTGGTTAATGGTTCTTCCATTTCTTTTATATCCCATTTTATATATTTTTGCAATTGTGTCAATTGAAATTCTTC
+
+# Questionable array : NO	 Score: 5.16
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.93, 5:0, 6:1, 7:0.23, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTACTACTATCTAAAATTACATTGGTCTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-78.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [28,163] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.59   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_029499863 [92867-93175]; 
+# Array family : NA
+# Sequence source strain : LAM0618
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Kurthia.; Kurthia huakuii LAM0618
+//
+
+

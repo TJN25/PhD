@@ -1,0 +1,38 @@
+Array 1 60465-60594 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JGZL01000016-Bifidobacterium ruminantium strain LMG 21811 Contig16, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence        	Insertion/Deletion
+==========	======	======	======	============================	=======================	==================
+     60465	    28	 100.0	    23	............................	GACGGGCTTGAATGGTGCTCAGA	
+     60516	    28	  92.9	    23	......T.................C...	AGGTGGGCAGAACGTGTCTCAGA	
+     60567	    28	  92.9	     0	............C...........C...	|                      	
+==========	======	======	======	============================	=======================	==================
+         3	    28	  95.3	    24	TGTCCGATTCTGGAGAATCGGACATTCA	                       	       
+
+# Left flank :   AGGCATCCTCATCAAAGCGCAGGACGTGCTGGAAAATCTCGGCCGCGTATCGCATATCTTCTTCGACAAAACCGGCACGCTCACCGTCAAGCAACCGCAGGTGGTGCGCGTGGAGAAGCCGTTCGAAAACAGCTCGCCGTACGACGAGGACCACATCCTCATGATGGCCGGTGTCGTGGAAGGCTATTCCGTGCACATCCTGTCCAAGGGCATCGCGGCGGCCGGGCAGCAGGCTATGAAGAAGCTGTACGATCGCTATGCGGACGGGCAGCGGCTGTGCGCCGAACGGAATTTGCCTGGACATGGTCGCGATTATCCGGTCGTGAAGCGCATCAAGGAGGAGTCGGGCAAGGGCGTGTCCGGCGAGGTGAACGGGCATCAGGTGCGCGTGGGTCGGTTCGCGTATGCGACGGCCGATGATGCTGGTTTCACGCATGTGCTGGGCGGAGGCGCGTCCGGTTCCGCTGATTCCGCTGCGCAGTCTGCTTCCGTTGCCCACG
+# Right flank :  AGGGCGCCGAATTTGGTGCCGCACCGCGTAAACCGGAGGTGAACTCGCTGTTCGCACCTCTCGAACCGGACGAAATGGCCGCCTACGTGTCGATCGACGGCAAGCTCGCCGCGCGCATCGTGCTGCGTGACGTGCCTCGCGAAAACGCGAAATCGTCCCTTGAAAAACTGCACCGGCTCGGCGTGAAGAAACTGTCCATGCTCACCGGCGACAAGGAGGCCTCCGCGCGCATCATCGCAGGCGAGGTCGGCATCGACGACGTGCAGTCCGAACTGTTCCCCGAAGGCAAGGTGGCGGCCGTCAAGAACGCTACCGAGGACGCGCATCAGCACCAGCCTGCGTGGGACAAGGTCGTGCAGCGCGTGGTCGGCGAATCCATGACCCGCCAGGTGACCATGATGGTTGGCGACGGTGTGAATGATGCCCCCGTATTGGCGGTCGCCGACATCGGCATGGCCATGACCGACGGCACGTCCACGGCGGCGTCCGAATCGGCGCAG
+
+# Questionable array : NO	 Score: 2.16
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.76, 5:0, 6:1, 7:-1.00, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTCCGATTCTGGAGAATCGGACATTCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.60,-3.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [2024,705] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : LMG 21811
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium ruminantium
+//
+
+

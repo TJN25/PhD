@@ -1,0 +1,272 @@
+Array 1 192123-191760 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017846-Aggregatibacter actinomycetemcomitans D7S-1, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+    192122	    32	 100.0	    35	................................	ATACTGTGGGCTATTATCCACAATCAGTTTTAATG	
+    192055	    32	 100.0	    33	................................	ATCTATGCTCAATCACCAAGACCTGTAAAAACT  	
+    191990	    32	 100.0	    34	................................	CACACTAATCCATGCGGATGATTTTTTTAACTAT 	
+    191924	    32	 100.0	    34	................................	CGAAGACGCAGTGGAATCTCGTCGTTTTGAGCGT 	
+    191858	    32	 100.0	    35	................................	ATAGAAGTCAATTAATACACCAGACGGTCTAGGTA	
+    191791	    32	  84.4	     0	.T.....T.........A..A....C......	|                                  	
+==========	======	======	======	================================	===================================	==================
+         6	    32	  97.4	    34	GCAGCCACCTTCGGGTGGCTGTGTGTTGAAAT	                                   	       
+
+# Left flank :   TTGATGAGGTGAAAAATGTTAATGTTGATTACCTATGATATTTCTTTAGAAGACCTGGAGGGACAAACCAGGTTGCGCCGTATTGCGAAGCATTGTCTGGATTATGGCGTACGGGCGCAATATTCGGTGTTTGAATGCGATGTAACGCCGGATCAATGGGTAAAATTGAAGGCTAAGCTACTGGCGACTTATGATCCGGATTGTGATAGTTTGCGATTTTATCACCTAGGCAGCAAATGGAGACGCAAAGTGGAACACCACGGGGCGAAACCGGCGGTGGATGTGTTTAAAGATGTGCTTGTTGTCTAGCTCGCTAACTCCTAGTTCTCATCAAATTCCCGTCAGGCTAGCGATCCTGATTTTCTTTAACAATTTGGAACAGTTAATTCATTTGTATAACGACGACATGCCCGTTATACTTATCCCACTCTCTATTTTGAAATAAGTTAGCGAAATACAGGAAGTAATCTACTGATTTTTCTTGTTTTTTTATATAGGGA
+# Right flank :  TACTTGGCATGCGTTTTTTATGGGTATTTAACCGATTAAAAATATGTGAGCTTGTTGCCTAATGGTAGGGCAGCGTTTAACAAAATGCTCTGTGCGACTTCGATACTCGCCAAGCTCACGATTTATTGCCCTGCACGATTTTATACAATCCTTTTTCAATATTATTCAACATATCGGTAATTCAAAAAAACACCTTAAAAATCAACCGCATTTTTTCTCTCATAAAACAAAAGCTGAACCTTTCCGAAGATCCAGCTTTTCTTTTATCTATTTATTACGCTAATTCAGCGCGTAATTTTTTCGTGACGTCAACCATTACTTTCAGTTGTTCTAGGGTTTCTTTCCAACCGCGGGTTTTTAAACCACAGTCAGGGTTGACCCATAGGCGTTCTTTCGGCACCACTTGTAACGCTTTGCGTAGCAAGTGTTCGATTTCCGCGGCGGTTGGTACGCGTGGGCTGTGGATGTCGTACACGCCCGGGCCGATGTCGTTCGGGTAT
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.87, 5:0, 6:0.7, 7:0.68, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCAGCCACCTTCGGGTGGCTGTGTGTTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.70,-5.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [276,192] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005540290 [2003865-2004515]; Csy3:WP_005540021 [539468-540478]; Endonuclease Cas2:WP_005540845 [192314-192607]; Endonuclease Cas3':WP_041160780 [1987841-1988275]; Helicase Cas3:WP_005540315 [1988388-1990091]; Helicase/endonuclease Cas3:WP_005555124 [200135-202600]; 
+# Array family : NA
+# Sequence source strain : D7S-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Aggregatibacter.; Aggregatibacter actinomycetemcomitans D7S-1
+//
+
+
+Array 2 274752-283929 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017846-Aggregatibacter actinomycetemcomitans D7S-1, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                         	Insertion/Deletion
+==========	======	======	======	============================	========================================================	==================
+    274752	    28	 100.0	    32	............................	AAATAACAGCAAGTTCATTTTTAATTCCTCTA                        	
+    274812	    28	 100.0	    32	............................	AACTTTTGCCGTAATTTGCTCTAATATAGTTA                        	
+    274872	    28	 100.0	    32	............................	TTCTATGTGTATTTTATGCAGTTTAATTAGCT                        	
+    274932	    28	 100.0	    32	............................	TTGAATTGTTAAATTTCTGTTAAAAATGCAAA                        	
+    274992	    28	 100.0	    32	............................	ACAACAGCAGCGGGTACCTGAAAAATTTTTGA                        	
+    275052	    28	 100.0	    33	............................	AGAATCACTTTTAGCTTGTAACAAACTACCAGT                       	
+    275113	    28	 100.0	    32	............................	ATCAGGTAAATCTTCAAATTCAACTGTTTGTG                        	
+    275173	    28	 100.0	    32	............................	TGATTTATTAACGGTTATCAATGAGTTTTCTT                        	
+    275233	    28	 100.0	    32	............................	GGCGCTCGCTTAGATGTTGATCTTGTGACAAC                        	
+    275293	    28	 100.0	    32	............................	TTTTTTTGTTAAAAAATATCATTAAAGTTACT                        	
+    275353	    28	 100.0	    32	............................	TCCGGGATAAGCGCCCCGCGGGCGTCTTCGCG                        	
+    275413	    28	 100.0	    32	............................	ATAATTGTCGATACCCTTCATCTAATGAACTA                        	
+    275473	    28	 100.0	    32	............................	ATTACCTGTTTCAACAATTAATTTAGCCATTT                        	
+    275533	    28	 100.0	    32	............................	ATGAAATAAGTCGACAAATTTTTCACCATTTG                        	
+    275593	    28	 100.0	    32	............................	TAAAGCAGATGTACGAAAGATTCGTTTTATTT                        	
+    275653	    28	 100.0	    32	............................	AGTATACAACCCGTTTTGATCTAATTCCCTTG                        	
+    275713	    28	 100.0	    32	............................	ACAAGCTTTATATTTGCATTTGCAAACTATTG                        	
+    275773	    28	 100.0	    32	............................	TGTATACAGCCCTTTTTGATCTAATTCCTTTG                        	
+    275833	    28	 100.0	    32	............................	ATCTTTGTCTAAAAGGATTTATGATACACTGT                        	
+    275893	    28	 100.0	    32	............................	TGATTATGATGGATTGATTTCGCGAACAATTC                        	
+    275953	    28	 100.0	    32	............................	AAAAAAATTAGAGTGGGATTCCTCACGAGGTA                        	
+    276013	    28	 100.0	    32	............................	TGTGCTATATTTTCAGCCTGTGAAGTGCGGTC                        	
+    276073	    28	 100.0	    32	............................	ATTATGGGTAAAACCGCAAAATTCCTCGATGC                        	
+    276133	    28	 100.0	    32	............................	AAGGACATAATGCGATCTCTTTGCCAGTTGAT                        	
+    276193	    28	 100.0	    32	............................	AATCAAAAATCGCCGCCTTGCCTGATGTTAAA                        	
+    276253	    28	 100.0	    32	............................	ATTTTGTAAAGCGCTCAATAATGCGAGAAATC                        	
+    276313	    28	 100.0	    32	............................	TTCATCGCCAGCCTGTAGTGGGAACGTCACTG                        	
+    276373	    28	 100.0	    32	............................	TATTGAACATGAAATTAAAATATGTATTGTCC                        	
+    276433	    28	 100.0	    32	............................	CTTTTGAGCACCTTTACTCATTGGCCTTTATT                        	
+    276493	    28	 100.0	    32	............................	TACTCAAGCACCGGTTCAACAAGCAGTAGGTA                        	
+    276553	    28	 100.0	    32	............................	AATTGCAAATCAAAACATTCTCTTGTAGCTTT                        	
+    276613	    28	 100.0	    33	............................	CTGAAACAAGTTCTCCCAAGCCAACAAAACTAT                       	
+    276674	    28	 100.0	    32	............................	TTAGTGACACTTGCTTGTTTTCTTGGATTTAA                        	
+    276734	    28	 100.0	    32	............................	TCAAAAATTTTTCAGGTACCCGCTGCGATTGT                        	
+    276794	    28	 100.0	    32	............................	TGTGGATAACTTTTCAACGTCTTCGATCGAGA                        	
+    276854	    28	 100.0	    32	............................	AATGGCACAATTATATCCTGACAGAGTTAGTG                        	
+    276914	    28	 100.0	    32	............................	TGCCGCAATTGTGGGCATACATTATCGCAAAC                        	
+    276974	    28	 100.0	    32	............................	GTCATCAGGCCAAGTCAAAGTAGGGCGTTAAG                        	
+    277034	    28	 100.0	    32	............................	TGATATGGGTTTCATTATTAACACAATTTTAT                        	
+    277094	    28	 100.0	    32	............................	CTAATAGCTTCATAGTTGCGTTTTTTTAATGT                        	
+    277154	    28	 100.0	    32	............................	TCTGATAAGTTTCTGTCGATTCTCGCCAATGT                        	
+    277214	    28	 100.0	    32	............................	AATATCAAAAAATCGGCAATTTTGAAATCCGC                        	
+    277274	    28	 100.0	    32	............................	GCAGTACGCAGCCTTATTTTTTCTTCCTTGAA                        	
+    277334	    28	 100.0	    32	............................	ATCTTGCGCCTGCGAAACCGCCACAGATTGGA                        	
+    277394	    28	 100.0	    32	............................	TAGAGTTCTTGTATTGGAATCAATAAGCTGCT                        	
+    277454	    28	 100.0	    32	............................	TGCTGCAATTGTGGGCATACATTATCGCAAAC                        	
+    277514	    28	 100.0	    32	............................	TGTTGAAATACCTTTTGATGGTGCGATTAAAC                        	
+    277574	    28	 100.0	    32	............................	AACAAAACCCGCTATAGAATATGATGTAGCGA                        	
+    277634	    28	 100.0	    32	............................	TACTCAAGCACCGGTTCAACAGAATTTTGTTC                        	
+    277694	    28	 100.0	    32	............................	TACTAATTCCAGACGTTCAATCAGCATTAATA                        	
+    277754	    28	 100.0	    32	............................	ATGTAAATCAATATGAAATGTTCAAAGCTATT                        	
+    277814	    28	 100.0	    31	............................	TATACAACAAATCAGGTAAAGGTAACATTTA                         	
+    277873	    28	 100.0	    32	............................	ATGTAAATCAATATGAAATGTTCAAAGCTATT                        	
+    277933	    28	 100.0	    32	............................	TATACAACAAATCAGGTAAAGGTAACATTCTA                        	
+    277993	    28	 100.0	    32	............................	TTATGAAGAAGCAATGACAGCTGTAATTATTT                        	
+    278053	    28	 100.0	    32	............................	TGTGGATAACTTTTCAACATCTTCGATCGAGA                        	
+    278113	    28	 100.0	    32	............................	AACCATTGATGACGGCGATCAGATGTTGGTTG                        	
+    278173	    28	 100.0	    32	............................	ATCGGTCATATTGATTTAGTAAAAGATATGCC                        	
+    278233	    28	 100.0	    32	............................	CGCTGCAATTGTGGGCATACATTATCGCAAAC                        	
+    278293	    28	 100.0	    32	............................	AAATTACAGCTAATTCATTTTTATGTACTTTT                        	
+    278353	    28	 100.0	    32	............................	ATGTAGGCATTTGTTTTGATTTCTGTAATTTT                        	
+    278413	    28	 100.0	    32	............................	ACGACTTGTTATAGCTTTAGTAGGCATAGGAA                        	
+    278473	    28	 100.0	    32	............................	AATGGCACATAGTTTTGTTGGCTTGGGAGAAC                        	
+    278533	    28	 100.0	    32	............................	GTCCATTTTATTTTCCTATTTTTTTAAAAGAA                        	
+    278593	    28	 100.0	    32	............................	TATTTGTAATTCACCGATATTTTCAATTAACT                        	
+    278653	    28	 100.0	    32	............................	TTAAAAAATATGCTGACAGATAGTTTTGAGGT                        	
+    278713	    28	 100.0	    32	............................	CACGATTCCATAATTGGCGGTAGCCTTCATCT                        	
+    278773	    28	 100.0	    32	............................	TTCGTCATAGTCTTTCTTAGTAATAGCATGCT                        	
+    278833	    28	 100.0	    32	............................	TTGACGTTGCACTAATTGAGATGGCATGGAAA                        	
+    278893	    28	 100.0	    32	............................	ATTAAGAATGGTTATATTTTGGTACAAAAAGA                        	
+    278953	    28	 100.0	    32	............................	AAGAAGAAAGTATCAATGCTTTACTTTCATAT                        	
+    279013	    28	 100.0	    32	............................	AAAAAATATACTACTTGTTAGTATAATAAATA                        	
+    279073	    28	 100.0	    32	............................	ATTAAGACGGGAAAAATATTTACAAAAATTAT                        	
+    279133	    28	 100.0	    32	............................	CCAAACTTATTTTTTAATTTGTTAATTCGATT                        	
+    279193	    28	 100.0	    32	............................	TCTTTGTTTAAATCTTTGATTGATAAAATAAT                        	
+    279253	    28	 100.0	    32	............................	ATATGCACAAACAGTTGAATTTGAAGACTTGC                        	
+    279313	    28	 100.0	    32	............................	AAATAATTAAATGGGTTAGGGAATTAATAAAT                        	
+    279373	    28	 100.0	    32	............................	TAGAAGACCGCCATTTAACGAAAATCACATGA                        	
+    279433	    28	 100.0	    32	............................	AGAGCACAGAGAAGTTATTTTAAAACAAGCTA                        	
+    279493	    28	 100.0	    32	............................	TTGAGCCCATGCCGGTGGTGCAACATTTTGAC                        	
+    279553	    28	 100.0	    32	............................	TTGAGCCCATGCCGGTGGTGCAACATTTTGAC                        	
+    279613	    28	 100.0	    32	............................	AACAAACTGCACTGATAAGCAATTATTGGTTG                        	
+    279673	    28	 100.0	    32	............................	TAAAGCAGATGTACGAAAGATTCGTTTTATTT                        	
+    279733	    28	 100.0	    32	............................	ACCAATAAAAATTATCTTTTCCCGTAATATAA                        	
+    279793	    28	 100.0	    32	............................	ATGAATTTTGACAATTTAGAAATGATAAGAAA                        	
+    279853	    28	 100.0	    32	............................	ACAATTTTGACTCGAATTTTTCTATTTTTGTG                        	
+    279913	    28	 100.0	    32	............................	ATTAATGGCGGGATTTTTTTTGTCTGAACAAA                        	
+    279973	    28	 100.0	    32	............................	TCTCAAATAGCCAATATTTACACTACTAAAAG                        	
+    280033	    28	 100.0	    32	............................	ACGAATGAAGCGACTATTTAATCGTGGGCATT                        	
+    280093	    28	 100.0	    32	............................	ATTTTGATCGTACTGTTTTACAAAATTACAGT                        	
+    280153	    28	 100.0	    32	............................	ATTGAATTAAATAACGTGCTGTTTCTACACCA                        	
+    280213	    28	 100.0	    32	............................	TATTCGGCAGTGAAGCAGAAGACAGTCAATGT                        	
+    280273	    28	 100.0	    32	............................	TATTCGGCAGTGAAGTTTACTATCTTGCAAAA                        	
+    280333	    28	 100.0	    33	............................	ATTTTTCCCAATTGCCATGAAATAAGTCTACAA                       	
+    280394	    28	 100.0	    32	............................	AAATGAAAATAGAAGTCATTTAGGAGCAAGCC                        	
+    280454	    28	 100.0	    32	............................	ACGAGCCATAGCTTCTTTACCAATTCCTGTTA                        	
+    280514	    28	 100.0	    32	............................	AATTCCTGTTAGACCCAACAAAACAAAGTAAT                        	
+    280574	    28	 100.0	    32	............................	ATTATTAATGAACTATTAAAAGTAAATCCAAA                        	
+    280634	    28	 100.0	    32	............................	TTCTTCAACAAGACTATCGCTTAAAGAATCGT                        	
+    280694	    28	 100.0	    32	............................	AACAAAATTATGTGCCATTGGTTGTTGCGTTG                        	
+    280754	    28	 100.0	    32	............................	TTTTAGATTGAAATAGTGTTGCAATATTACTT                        	
+    280814	    28	 100.0	    32	............................	TTTCCCGAGGTGCTTTTTCTTTTTCAGTTTCC                        	
+    280874	    28	 100.0	    32	............................	AGATTCTGTCACACATTGGCAGCCTGTTCCAG                        	
+    280934	    28	 100.0	    32	............................	GCACGTAATCGTTACGGTTGCTCAACAAAATT                        	
+    280994	    28	 100.0	    32	............................	ACGATATTTAAACGTGAGATAAGCCCTTCTTC                        	
+    281054	    28	 100.0	    32	............................	TAGCTTGTTTTAAAATAACTTCTCTGCGCTCT                        	
+    281114	    28	 100.0	    32	............................	ATCGGAAGTAGTGTTAAATTTAATGGCTTACT                        	
+    281174	    28	 100.0	    33	............................	AATGCCTAATTTAGATAGGGGCTAGGGTTTAAT                       	
+    281235	    28	 100.0	    32	............................	AAGACCGGTAAAAACTATTGCAAAACTTGCTG                        	
+    281295	    28	 100.0	    32	............................	CAAAGCAGATGAACGAAAAATTCGTTTTATTT                        	
+    281355	    28	 100.0	    33	............................	CATAGGCAAAAATTAAGACCTAGGGGTGGGGGT                       	
+    281416	    28	 100.0	    32	............................	TTCATCTAATGAGCTATTCATTTTATCGTCAC                        	
+    281476	    28	 100.0	    32	............................	ATTATCAGTTTTTACAAATTTCCAACCTATCC                        	
+    281536	    28	 100.0	    32	............................	TTTAAGTCGTCAATTGATGGCAGAAATTTTAA                        	
+    281596	    28	 100.0	    56	............................	GAGTTAGTGAAATTAATGAACCGGTCCCTGATCTTCACTGCCGAATTGTCCTTTAA	
+    281680	    28	 100.0	    32	............................	TTTTTAAAAATCTCTGTAACAAAATCATATAT                        	
+    281740	    28	 100.0	    32	............................	TTTACCTGATTTGTTGTATAAATCTAGTAAAA                        	
+    281800	    28	 100.0	    32	............................	AACTTTTATTTATTTCGATGTCATTTTTCATC                        	
+    281860	    28	 100.0	    32	............................	AAGCTTCCAAAATTTTTGAAGTAGCGGCTGCT                        	
+    281920	    28	 100.0	    32	............................	TGTAATATAAACATTTGTAAAAAATCCATTTT                        	
+    281980	    28	 100.0	    32	............................	ACTAAAAGCTTAAAATAAATTAAGCTACCACC                        	
+    282040	    28	 100.0	    32	............................	AAGAACATTAAAGAAGTGTCTGCTCCTGCTTT                        	
+    282100	    28	 100.0	    32	............................	TACAATTAAAACTCCAATTTTGTGCCCTTTTA                        	
+    282160	    28	 100.0	    32	............................	TGAATATTTAATAAAACAATTATTAATCTTAT                        	
+    282220	    28	 100.0	    32	............................	TAACAAATCCTTTCGGCGTTTGATGAGTAAGT                        	
+    282280	    28	 100.0	    32	............................	ATCGTCTAAAGAACTGTTAATATTGTTATCAC                        	
+    282340	    28	 100.0	    32	............................	TACGGCTAATCCATTCCCGACAGCACAACCGG                        	
+    282400	    28	 100.0	    32	............................	AAGATGATAACATTTTGAACTTTTCTGTTCAT                        	
+    282460	    28	 100.0	    32	............................	ATGGAAAGGCGCGATGATTTGGTGCAATCCTC                        	
+    282520	    28	 100.0	    32	............................	TGTTCAATGGCGTATTAGTTCTTGTAAGGGTC                        	
+    282580	    28	 100.0	    32	............................	AGTATATAACCCATTTTCGTCTAATTCTCTCG                        	
+    282640	    28	 100.0	    32	............................	ATTCAAAATTCGCTTTGCTTGTGATATATCTT                        	
+    282700	    28	 100.0	    32	............................	TTTTCCAGATGGTGAAAATTCAGCATAAGTAT                        	
+    282760	    28	 100.0	    32	............................	TAGCATACCATAATACAAAAACTAATCATGGA                        	
+    282820	    28	 100.0	    32	............................	TTTAATAAAAGATTCAATAACTGATCTAGGTA                        	
+    282880	    28	 100.0	    32	............................	TAACATTTCATACAGATTCAAGAAACGTTGTT                        	
+    282940	    28	 100.0	    32	............................	TTTAAATTTAAAAAATCTATAATTGCTCAAAT                        	
+    283000	    28	 100.0	    32	............................	TTTATATTAAAGCTGATTATCTTCTAAGAATT                        	
+    283060	    28	 100.0	    32	............................	TCTGAAATAGCTAATATTTCCACCAATAAAAG                        	
+    283120	    28	 100.0	    32	............................	AAAAGCGATCGCATGCTCCGCAACTGCAAAAA                        	
+    283180	    28	 100.0	    32	............................	AAGATGATAACATTCTGAACTTTTCTGTTCAT                        	
+    283240	    28	 100.0	    33	............................	ATTCTTCTACCAGTATTTGAACAATACCTTTTA                       	
+    283301	    28	 100.0	    32	............................	ATTGATCAACAATATTTTTCAATGTTTGATAT                        	
+    283361	    28	 100.0	    32	............................	ACCAATAAAAATTATCTTGCTTTGTAATATAA                        	
+    283421	    28	 100.0	    33	............................	CTCTATGCCGATAAATTGGAGTTCTTACACCCT                       	
+    283482	    28	 100.0	    32	............................	TATCATTAATACAGAGTTGAGCATTAATTCTT                        	
+    283542	    28	 100.0	    32	............................	AAATCAGAAAGATAAAAAATGTAAGTCCAAAG                        	
+    283602	    28	 100.0	    32	............................	CGGGTATTACAGAGCTGCAAAAAGCATATAGC                        	
+    283662	    28	 100.0	    32	............................	ACCTGGTGTTGTAAAGGGGTGACGTTTGAAAC                        	
+    283722	    28	 100.0	    32	............................	TCTGCAATCAGCTTTTCGGTGCCGTAGGCTTG                        	
+    283782	    28	 100.0	    32	............................	CTTACCATCACCTTTGCCATTGTTTGTTCCGG                        	
+    283842	    28	  96.4	    32	.................T..........	GGCAGCGGTAAAAGTTATGAGGTGGTCCATTC                        	
+    283902	    28	 100.0	     0	............................	|                                                       	
+==========	======	======	======	============================	========================================================	==================
+       153	    28	 100.0	    32	CTTCACTGCCGAATAGGCAGCTTAGAAA	                                                        	       
+
+# Left flank :   CGCTCGCCCGTCGTAACGATGAAAATCCGGAAGTCACAGACCGTTTTGAACTCTTCATCGGCGGACGTGAAATCGGTAACGGCTTCTCAGAATTAAACGACGCCGAAGACCAAAACGACCGTTTCGACGCACAAGTCGCCGCCAAAGAAGCCGGTGATGACGAAGCGATGTTTAAAGATGAAGACTTCGTGATCGCACTCGAACACGGCTTACCACCAACAGCCGGCGAGGGCTTAGGCATCGACCGCTTGGCAATGCTCTACGCCAACGCGCCATCTATCCGTGATGTGATTTTATTCCCGGCAATGCGGCAGAAGTAGTTAGCACAACTATCAAGATAAAAGGAAGTCATTCGGCTTCCTTTTTAATTCCCCTTTATTTGCACAATAAAAAAATCCCCTTTAAAAACAGTATATTAAAAACACAATCTATAAAAAGGATTTTCACTTTAAAATACGCTAACAACTTGGTATATCAGCTATTTTCAGTTAGAATGCCTA
+# Right flank :  AATACACGCTTTATGATACCGATTGCAAAGTGTAGTAATACACTAATCCCGCAGTCGTCAATAGGTGGAAAAATACCATCAACAAGAGGATTTCTTATGAAAAGAGCAAGACGTTTTTTCAGCCCGGAGTTCAAAGCTGAAGCGGTCAAATTAATCAAAGAACGTGGTTATTCGGTTGCACAAGCCTGCCGAGAATGAGACATCGGCGAAACGGTATTGCGTCGCCGGATAAACCAGGTTGAAGCGGAGAATCAAGGTTATGTCTTACCCGGCAGCAAACCGATTTCACCCGAGCAATAACGTATTTACGAGTTGGAGAAACGCATCAAAGAATTGGAAGAAGACAAGCTCATTCTAAAAAAAGCTACCGCGATTTATCCCTCGAGAAGCAAAGTACCAAGCCATCACGACGTTAAAATCGCGCGGAATCAAACGACTTTGTGCGCTGTTTGAGGTGTCTGAAAGTGCGTATTATGCCCAATGTAAAGCGGTAAAAACGC
+
+# Questionable array : NO	 Score: 8.97
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.97, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCACTGCCGAATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [182,454] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_005540290 [2003865-2004515]; Csy3:WP_005540021 [539468-540478]; Endonuclease Cas2:WP_005540845 [192314-192607]; Endonuclease Cas3':WP_041160780 [1987841-1988275]; Helicase Cas3:WP_005540315 [1988388-1990091]; Helicase/endonuclease Cas3:WP_005555124 [200135-202600]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : D7S-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Aggregatibacter.; Aggregatibacter actinomycetemcomitans D7S-1
+//
+
+
+Array 3 2005956-2006452 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017846-Aggregatibacter actinomycetemcomitans D7S-1, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=================================	===================================	==================
+   2005956	    33	 100.0	    34	.................................	AATACATGATTTTGATTTAATTGTAAACCTTGTG 	
+   2006023	    33	 100.0	    32	.................................	ACTTTTTTAGATAATACATATACAAAAAATTT   	
+   2006088	    33	 100.0	    32	.................................	GATACATTAATTATTATTAATCGATATAATTT   	
+   2006153	    33	 100.0	    34	.................................	TCGTGAAAATTACGCGCTTGTTTATATATTCGAC 	
+   2006220	    33	  97.0	    35	................................T	ATCAAGGCAATGGGGTTGTTGACAGCAGCTACTAA	
+   2006288	    33	  97.0	    33	................................C	TTATGTAGGTTATATATTAGCACCTGTTGCTGC  	
+   2006354	    33	 100.0	    33	.................................	CTACCGGCACCTGGAATTGGTTAGCCAATACCC  	
+   2006420	    33	  81.8	     0	.......T.....CA.....C...T......T.	|                                  	
+==========	======	======	======	=================================	===================================	==================
+         8	    33	  97.0	    33	GCAGCCACCTTCGGGTGGCTGTGTGTTGAAACA	                                   	       
+
+# Left flank :   GTTTTCCCATGCGCAAGCTGCAAAACACGCTCTATATCACCACTCAGGGCAGTTATCTGCATAAGTAGCGGGAAACGCTGGTGGTGGAGCAGGAAAGGAAGAAAGTGGCGCAACTGCCGGTGCATTCCATCGGGCATATTTTCTGTTTCGGTAATGTGGGTAAAATTGAAGGCTAAGCTACTGGCGACTTATGATCCGGATTGTGATAGTTTGCGATTTTATCATCTAGGTAGTAAATGGCGTCGCAAAATAGAACACCACGGGGCGAAACCGGCGGTGGATGTGTTTAAAGATGTGCTTGTTGTCTAGCTCGCTAACCCTGAGTTCTCATCAAATTCCTGTTAGGCTAGCGATCCTGATTTTCTTTAACAATTTGGAACAGTTAATTTATTTGTATAACGAAGATATGCCCGTTATACTTATCCCACTCTCTATTTTGAAATAAGTTAGCGAAATGCAGTAAGTAATCTCCTGATTTTCCTTGTTTTTTCAGATAGGGA
+# Right flank :  AGGCGCTTTGTTACATCTGAACTCTGACACCAACTAAACTAAGCACCTTATAAAAATAAGGTGTTTTTCTTTTCCCGCAAACCAACACAAAACTCCTTGCCCTTCCTCCGCAAAATATATAGACTGAAGCCCGTTATTAGTCGGGGTGCTTTGTGCTGAGATGATACCCGTGAACCTGATACAGTTAATACTGACGTAGGAAACTAACAGAAATCATATTTCCTTTCTTTTTCTCTTCATCGTCATTATTGCTGATTATCTTTTTTTCGTTAAAAAAAGAAAAATTATGCAATATGGTTTTTGTTGTCCGTTATTTGTAAATAACGGAGGGCGTGATGAGTAAGGTTGCGCAAGCGTTGACCATCGCCGGTTCGGACAGCGGCGGCGGTGCCCGGGTTCAGGCGGATTTGAAGATGTTCCAAATGCACAGGATGTCATTTGGTACATCGGTGGCCGCGCAAAATACCTTGAACGTGGTTGATATTTACGCCGTGTCACTC
+
+# Questionable array : NO	 Score: 7.90
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.85, 5:0, 6:0.31, 7:0.74, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCAGCCACCTTCGGGTGGCTGTGTGTTGAAACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.30,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [280,335] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005540290 [2003865-2004515]; Csy3:WP_005540021 [539468-540478]; Endonuclease Cas2:WP_005540845 [192314-192607]; Endonuclease Cas3':WP_041160780 [1987841-1988275]; Helicase Cas3:WP_005540315 [1988388-1990091]; Helicase/endonuclease Cas3:WP_005555124 [200135-202600]; 
+# Array family : NA
+# Sequence source strain : D7S-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Aggregatibacter.; Aggregatibacter actinomycetemcomitans D7S-1
+//
+
+

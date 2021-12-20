@@ -1,0 +1,53 @@
+Array 1 31108-29937 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AJSV01000030-Haemophilus haemolyticus HK386 contig00005, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	================================	=====================================	==================
+     31107	    32	 100.0	    35	................................	TCTACAACAGGATTCGCTATTGCCGCCGCAGCATT  	
+     31040	    32	 100.0	    34	................................	CACCTAAAAATGTTTCCAACACCATAAAATTTAG   	
+     30974	    32	 100.0	    35	................................	GGTATGCCCTAACGAATAAAAGAAATCAGGCAATA  	
+     30907	    32	 100.0	    34	................................	TTTTGGTTATGAAACACCTGACGGAATTAATAAG   	
+     30841	    32	 100.0	    34	................................	GATTTAGCCCTAGAAACGACTTGTCCGCAATGTA   	
+     30775	    32	 100.0	    34	................................	CATTAGATGCTGGCAATCCAGTAGCCGGATTAAT   	
+     30709	    32	 100.0	    37	................................	ATCATAGGGATGATTTTGATCTCGATATTCGGGGGCG	
+     30640	    32	 100.0	    35	................................	TGAGGAACGCAATTTAGACGACAGCCAAAAACGAG  	
+     30573	    32	 100.0	    35	................................	TCCAATAAAGGCGGAGGAAGTGCGGGTGCAAGCCT  	
+     30506	    32	 100.0	    34	................................	ATCGGATTAAGTTTTTTGCCATAACTTATGTCTC   	
+     30440	    32	 100.0	    35	................................	CCGATGTGTGAATGATAAAAAATAAAAATTCGTTT  	
+     30373	    32	 100.0	    34	................................	ATCTAATCGTTGCGCAAGTGAGCTGTGAGATAAG   	
+     30307	    32	 100.0	    35	................................	AGAAAAGTCAGCGTAAAATCGCAATCTTCCGAAAA  	
+     30240	    32	 100.0	    35	................................	ATGATCTAAAATGGCGAGAAGTGGAAAGAATAGAC  	
+     30173	    32	 100.0	    37	................................	AGCTTGTTTGATGATGACACCAATCGAGCTGTTGCAG	
+     30104	    32	 100.0	    35	................................	GATGTCTGGCAAGAATACGGCACATTTTTTCGTAT  	
+     30037	    32	  81.2	    37	......A...T..G.T.....A..A.......	AGCTCATACTTTCGCATACGTTGGTTGGCAAGCTCGA	
+     29968	    32	  78.1	     0	......AG..T..G.TA.A.............	|                                    	
+==========	======	======	======	================================	=====================================	==================
+        18	    32	  97.7	    35	GCAGCCGCCTCCGCGCGGCTGTGTGTTGAAAC	                                     	       
+
+# Left flank :   TTGATGAGATAAACTATGTTAATTCTGATTACTTACGACATTTCTTTTGACGATCCAAACGGGCAAGCGCGATTGCGCCGCATCGCAAAACATTGCTTAGATTACGGGGTTCGGGCACAATATTCGGTATTTGAATGCGATGTCACGCCTGATCAATGGGTTATGTTGAAAAACAAACTGTTGGAAACCTACGACTCTACATGTGACAGCCTGCGTTTTTACCATTTAGGAAGTAAGTGGCGTAATAAAGTGGAGCATCATGGGGCAAAACCGGCAGTGGATGTATTTAAAGATGTGCTTGTCATTTAGTTCGCTAACCTGGTGTTCTCATTAAAACCCTGATGGGATAGCGATCCTTATTTTCTTTAACAATTTGGATGAATTAATCTATTTGTATAACGACGATATGGCCGTTATACTTACTAAACTCCTTATCATAAAATCAGTTAGCGAAATACGGTGTTTAATACGCTGATTTTTCTTGCTTTTTTATGTAGGGG
+# Right flank :  GCTCACGCATTAAGCCAAGGGCAACCCTTACAACGCAGCTGTTTTAGCCAGCGTGCGTTAAAATAGTTCTGTTTTTTATTATTCAAATGTTATTTTTTTGTTAAATATATTTTACTTGAGTATAATGCTCAACATTATTCCTCACGGAAGAGAATCCGTAGAATAATGAGATTAATCGTAAATATAAGGAATAAAAATGGATTTCAATAGAATTATCGCTCACATGAATGATCATCACCAAGATGATATGGCTGCCCTTTGTAAAAAATTTGGTGGTGTAAATGAAATTACGGATGTGACATTAGTTAATGTAGATTTTGGTGGTTTAGATTTTAAATATAATGATGGCAAAACATTACGCGTAGAATTTCCGCAACAAGCTGACGAAGGTTCAATTAAACAAGCGATCATCAATCTTTGTGTAGAAAATAAACCAGTTGCAAATTACGATCGTATCAAAGCTAAAATTGATGAATTTCGTCAAGAGTTTAAAAGCTGTG
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:0.7, 7:0.66, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCAGCCGCCTCCGCGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.40,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [46.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [198,192] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.05   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005647080 [34219-34872]; Endonuclease Cas2:WP_005647032 [31299-31592]; Endonuclease Cas3':WP_005646908 [81781-82461]; Helicase Cas3:NA [42227-43846]; 
+# Array family : NA
+# Sequence source strain : HK386
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Haemophilus.; Haemophilus haemolyticus HK386
+//
+
+

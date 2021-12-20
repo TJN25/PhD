@@ -1,0 +1,306 @@
+Array 1 141635-142665 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FZOL01000005-Pseudomonas japonica strain DSM 22348, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    141635	    28	  96.4	    32	............G...............	AACAGGCCGCTCTCGCGGATCATGTGGCCGAT	
+    141695	    28	  96.4	    32	............G...............	AGCACCGGCCCTTCGTCGAATTGCTGACCTGC	
+    141755	    28	  96.4	    32	............G...............	GGCAGGTGTTGGTCCGCTGTCTTCGCGTTCGT	
+    141815	    28	  96.4	    32	............G...............	GGAGAGAGCCAGGTGTCATCGTTGGCGCTGTC	
+    141875	    28	  96.4	    32	............G...............	ATCCATCCAGGTGGTTTTCTTGAGCATCGCGG	
+    141935	    28	 100.0	    32	............................	AGCGCCCGTCAGGCGCAAGAAATGCGTCACCC	
+    141995	    28	 100.0	    32	............................	GAACCTCCTGCAGCAGCTCGCCGGCAAGATCG	
+    142055	    28	 100.0	    32	............................	TGATCAACTCGGCGCCAGGGGCGTTGGACACG	
+    142115	    28	 100.0	    32	............................	TGGGGTTGGCTGACTCGACCCTTCCCAAGCAG	
+    142175	    28	 100.0	    32	............................	AATGGAAGCGGGTCGGCAATGCTGGGCGCCTG	
+    142235	    28	 100.0	    32	............................	AGGCCAACGAGTCGGACGCGAACCTGATCACG	
+    142295	    28	 100.0	    32	............................	CATGAACATGATGTTGCCGGCCTGCTGGCCCA	
+    142355	    28	 100.0	    32	............................	AATCTGCCGCCCAGCGGCTTGGGAGTCGGCAA	
+    142415	    28	 100.0	    32	............................	GCCAAGCTGACCAGGCTGACCACGTTGATCGG	
+    142475	    28	  96.4	    32	............G...............	GAATCGGAAAGGCGGCTGCGCTGGCGGGCGGA	
+    142535	    28	  96.4	    32	............G...............	CAAGCCCAGCCATGCGCTGGGCCGAGGCCGTA	
+    142595	    28	 100.0	    14	............................	ATTGCACGTAGATC                  	Deletion [142637]
+    142637	    28	  75.0	     0	C.G........A.C...T...G.C....	|                               	G [142659]
+==========	======	======	======	============================	================================	==================
+        18	    28	  97.2	    31	GTTCACTGCCGTATAGGCAGCTCAGAAA	                                	       
+
+# Left flank :   GGCGCTGTCCGGGCTGCAGGCGCTCGACTGGCTGACCGGGATGCGCGATCACGTCGACGCCAGCGATAGCCTCGCCGTGCCAGAGGCGGTGAAGTACCGGACGGTGAGCCGGGTGCAGGTGGACAGCAATCCGGAGCGGGCTCGTCGACGGTTGATCAAGCGGCATGGCATCAGTGAGGAGGAAGCTCGGCAGCGGATTCCCGACAGTGCCGGGAAACGCTGCAGCCTGCCGTTCGCGACCTTGCGCAGTAACGGCGGCGGGGAGGTGTTTCGCCTGTTCGTTCGGCAGGGCTCGCTGCTGGATCAGGCGCAGGAAGGGACGTTCAGTGGATATGGGTTGAGCGGTACGGCTACGGTGCCCTGGTTCTGACCCTTTTTTCTGGAGTAATTTGAGGGTCTTTTGAAATCAATGGGTTACGGAGGGCTCTCAAAAGAGGGTTTGAAAGCGTTTTGGGGGTAGTTCTCCTTCAAAGACAACAGCTTGAAGGTGAGCTGCTCTT
+# Right flank :  AAGAGTTAGGCCAGGCTCCCCGCCTGGCCTAGCTTTTTTTCGCAAACCCCAACACCGGGTGATACCGCCACCCAAAGGTGCTCTGATAAACCTTCACCGTCGTAAACCGCTCAGCACAAACCGCCAGCGGCAACTCAAGTTCCTCAGCCAATTCCTCCAGCAACCCCATCACATCATGCCGCCCCCAGGGCGCGATCCCGGGCCCGAGCTCACGATCCAGATCAACCGGGTCGAGCAACTCGGAACACTCCAGATAAACCCGCGACTCATTGAACCGTCCCGGCTCATGAATCCGGTGCAGCACCAGTCTTTCCTGGTCCTCATCCGGCAGCAGCACCAGCTCTTCCTCGCGACCGGCATTCTCCCGAAACGGCTGGTGCTGCGGCAGCACCCAGGTCAATGCCGCCTGCGGAAACTGCCAGGCGCAGGCGGCATCCAGGTCGAGCGCTTCGCGACCGACTCGCCGGGCGAACTGCGGGACCGCGGCGCGCTCCTTCGGC
+
+# Questionable array : NO	 Score: 7.72
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:0.92, 8:1, 9:0.94,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTCAGAAA
+# Alternate repeat :   GTTCACTGCCGTGTAGGCAGCTCAGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [53.3-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [132,29] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [6.1,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [139916-140938]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : DSM 22348
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica
+//
+
+
+Array 2 147311-147519 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FZOL01000005-Pseudomonas japonica strain DSM 22348, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    147311	    28	 100.0	    33	............................	AGCGAAACCGACAGGATGGGCGAGCGGGTCAAG	
+    147372	    28	 100.0	    32	............................	TGACGTGGCCGGAGTGATTGATTGCGTACATC 	
+    147432	    28	 100.0	    32	............................	ACGCCGAGCTTGAACATTGCCGCGGCAATTCG 	
+    147492	    28	  96.4	     0	.....................C......	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	  99.1	    33	GTTCACTGCCGGGTAGGCAGCTCAGAAA	                                 	       
+
+# Left flank :   GCAGAAACCCACCAGCACGCCGGCCCGGGCCAGCTCGCGCATCGCCGCTTGGGTGACCGAGGTGCCGGTGCCGAGGAGGATGGTCGTGGTGTTGGCGATCGGGATGTTCCAGTACAGCGACTGCTTGCCGGCGTCGGTGACGTACTCGACGCGACCGCCATTCACCAGGACGCGGCAGTGTTGCAGGTAATAGAGGTTGGCGCGCTTGGAGTGGAGGATGGTCTTGAGGTCGGAGGAATGAATGCCGTCCATGGTGGCAACCGGGTGTCCGTTCGGGTTGTTTGGCAGGTGGGGAGTTATAGCTGGGTTGATGGCTATGTGCTGGTATTTTTGTTGCTGATTGTTTGTGCCTGGGGGGAGGGTGTTGGGACCCTATTTTTGAGGAGGGTTGGTGAGGTTATATAAATCAATGGGTTACGAGGGTGGTGGGGAATAGGGTTTGAGAGGGTGGGGATGGGGTTTTGCTTTTTTTATCAGAGGGTTGGTAGGGTTTGGGGGTA
+# Right flank :  AGGTCGCGCCCGGAGCCCACTGCAGCGGTTTGCATTTAAGGTTTTTACGAGACGGCCCTGAAAATCTTGAGCAACTGATCTGGTTGCTGGAAAAGGGTGAGCGCACAGCCATAGCTGAAAAGTTAAGAAAAAATCGAGAAAATTGCCTGAACTGAAGATTTTCGTCGGGCGCTCAAGAAAAAATCTGCGCTGCCAAGTAAATGAAAGGAAAAATTCATGCGCTCAGTAGGCTATGGGTTTCTGTGCGACAGACTGGGCTGTTGTGCAGGTGCATAGAAAGAGGGTTTTGGTGGCGGTGCTAACAGCTGGAAAAACTCACTGTCGGTTGTTTTCACCTACCAGGTGAGTCTTGCCTTCCAGTCCCCGTCTCAGTGACATGATCAATGACTTAAGCGCGCGCTCATCTCGTACGGTTGACCCTTTTTCTGAAGCAGTATGCTGGGGTTAGAGAAATCAATGACTTATGAAACTGACAGAAAAAAGGGTCTACTGCGTCTGAA
+
+# Questionable array : NO	 Score: 7.77
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.22, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGGGTAGGCAGCTCAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTGTAGGCAGCTAAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-40.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [250,2414] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.92,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [139916-140938]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : DSM 22348
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica
+//
+
+
+Array 3 148066-149597 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FZOL01000005-Pseudomonas japonica strain DSM 22348, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+    148066	    28	 100.0	    32	............................	ATTTCGGCGGCCTGCAGCGCCTCTATGCCGAC  	
+    148126	    28	 100.0	    32	............................	TGGTAGAACGCTGCTAATGCGTTCTGGTGAGT  	
+    148186	    28	 100.0	    32	............................	TCGAGCGTGCGAACGCTGGCCGTCGCCTTGTC  	
+    148246	    28	 100.0	    31	............................	TTGCGGCGCGCCTGGCTGCCTCGCCTCGGGC   	
+    148305	    28	 100.0	    32	............................	TCGCGATCCGGGCGAGTGGTACCGGCCAGAAC  	
+    148365	    28	 100.0	    32	............................	ACGATCAGGTCAAGGCCGAAAGTCATCTTCTG  	
+    148425	    28	 100.0	    32	............................	GCCAAGGCCAAGGCATTCTCCGACATGTGGTC  	
+    148485	    28	 100.0	    32	............................	AGGAAGATGTCGGCCTCGGCCTCCATCACGTC  	
+    148545	    28	 100.0	    32	............................	AGAACGAGAAGGGCTGTAGGTTGTGTATTGCT  	
+    148605	    28	 100.0	    32	............................	AACTGAAGGGCGTCGGCCAGATGCTAGATATC  	
+    148665	    28	 100.0	    32	............................	TCCAAAGCGTGGTCGATGGTGCCGCTGATATG  	
+    148725	    28	 100.0	    32	............................	ACGCGGGGCACCGTGCAGGAAGTACACGCCAT  	
+    148785	    28	 100.0	    32	............................	GCTCAGGCGGTGCAGCGCGCCCGTACCCTGAG  	
+    148845	    28	 100.0	    34	............................	AAATATGTGGGGCAAGGTTGCACTATCGTTCGCC	
+    148907	    28	 100.0	    32	............................	TTCGACACGAAGGCAGAAGCCCAGCGATGGGC  	
+    148967	    28	 100.0	    32	............................	CGCACGCACGGGGCACCTCTTGATCAGGTGTC  	
+    149027	    28	 100.0	    32	............................	AGTCGAACGAGACGGACTTGGGCTTCCTGACG  	
+    149087	    28	 100.0	    32	............................	CTCCCCCCCGTCAGCGGCCGGCCATTCACGTC  	
+    149147	    28	 100.0	    32	............................	GTAGGCGTGTAACCCAGTGACATAACCCCTCC  	
+    149207	    28	 100.0	    32	............................	TTCGATATTGATCAGCGAGGGCACCAGGTTCT  	
+    149267	    28	 100.0	    32	............................	TGCTGGGCGTTCGCGAAAGCCTGGCGCACCGG  	
+    149327	    28	 100.0	    32	............................	ATTCTGGAAATCATGCTGCGCAGCTATCAGCG  	
+    149387	    28	 100.0	    32	............................	AGAGGCAACTTGGCGCCGGCGTCGAGGCCTTG  	
+    149447	    28	 100.0	    32	............................	AACGCGCACCACGGCGCAATCCCGAAGTTCAA  	
+    149507	    28	 100.0	    32	............................	TCGTGCAGCTGCATTTCCCCGGTGGCGAGCAT  	
+    149567	    28	  89.3	     0	.........................GGG	|                                 	G,A,T [149588,149590,149592]
+==========	======	======	======	============================	==================================	==================
+        26	    28	  99.6	    32	GTTCACTGCCGTATAGGCAGCTCAGAAA	                                  	       
+
+# Left flank :   CGAGACGGCCCTGAAAATCTTGAGCAACTGATCTGGTTGCTGGAAAAGGGTGAGCGCACAGCCATAGCTGAAAAGTTAAGAAAAAATCGAGAAAATTGCCTGAACTGAAGATTTTCGTCGGGCGCTCAAGAAAAAATCTGCGCTGCCAAGTAAATGAAAGGAAAAATTCATGCGCTCAGTAGGCTATGGGTTTCTGTGCGACAGACTGGGCTGTTGTGCAGGTGCATAGAAAGAGGGTTTTGGTGGCGGTGCTAACAGCTGGAAAAACTCACTGTCGGTTGTTTTCACCTACCAGGTGAGTCTTGCCTTCCAGTCCCCGTCTCAGTGACATGATCAATGACTTAAGCGCGCGCTCATCTCGTACGGTTGACCCTTTTTCTGAAGCAGTATGCTGGGGTTAGAGAAATCAATGACTTATGAAACTGACAGAAAAAAGGGTCTACTGCGTCTGAATTGTGCTTTTGCTTTTGGAATCAAAGGATTGTTAAGGTTTTGGTGTT
+# Right flank :  GCCACTTGGACTATGAGCCGGCAGGCTCTGGGCCCGCATTGCACCCCTTCGCGAGCAAGCTCGCTCCCACAATGGGCGGTGCCAGGCCCGAATTCCAGGCACAAAAAAGCCGACTAAAAAGTCGGCTTTTTCTGGATCTTGGTGCCCCGAGGGAGACTCGAACTCCCACTCCTTTCGAAAACGGATTTTGAATCCGCCGCGTCTACCAATTCCGCCATCAGGGCTTGTGGCGGCGCAGTATAAAGAGGCCCCTACCGTTGGTCAATCGGCTTTCATGGTCAATTTTTCCGCTTTCGGCTAAACTTCCCGGCCCTGTCGAACCCGTACCCCATTGCCATGCGCGTCGCCGATTTTTCCTTCGAACTCCCCGATTCCCTGATCGCCCGCCATCCCCTGGCCGAACGCCGGGCGAGCCGGCTGCTGGTCCTCGATGGCCCGAGCGGCGCACTGGCGCACCGGCATTTCGGCGATCTGCTGGACTACCTGCGCCCCGGCGACCT
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.99, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTCAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1005,399] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.69,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [139916-140938]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : DSM 22348
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica
+//
+
+
+Array 1 162542-161010 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBIR01000003-Pseudomonas japonica NBRC 103040 = DSM 22348 strain NBRC 103040,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+    162541	    28	 100.0	    32	............................	ATTTCGGCGGCCTGCAGCGCCTCTATGCCGAC  	
+    162481	    28	 100.0	    32	............................	TGGTAGAACGCTGCTAATGCGTTCTGGTGAGT  	
+    162421	    28	 100.0	    32	............................	TCGAGCGTGCGAACGCTGGCCGTCGCCTTGTC  	
+    162361	    28	 100.0	    31	............................	TTGCGGCGCGCCTGGCTGCCTCGCCTCGGGC   	
+    162302	    28	 100.0	    32	............................	TCGCGATCCGGGCGAGTGGTACCGGCCAGAAC  	
+    162242	    28	 100.0	    32	............................	ACGATCAGGTCAAGGCCGAAAGTCATCTTCTG  	
+    162182	    28	 100.0	    32	............................	GCCAAGGCCAAGGCATTCTCCGACATGTGGTC  	
+    162122	    28	 100.0	    32	............................	AGGAAGATGTCGGCCTCGGCCTCCATCACGTC  	
+    162062	    28	 100.0	    32	............................	AGAACGAGAAGGGCTGTAGGTTGTGTATTGCT  	
+    162002	    28	 100.0	    32	............................	AACTGAAGGGCGTCGGCCAGATGCTAGATATC  	
+    161942	    28	 100.0	    32	............................	TCCAAAGCGTGGTCGATGGTGCCGCTGATATG  	
+    161882	    28	 100.0	    32	............................	ACGCGGGGCACCGTGCAGGAAGTACACGCCAT  	
+    161822	    28	 100.0	    32	............................	GCTCAGGCGGTGCAGCGCGCCCGTACCCTGAG  	
+    161762	    28	 100.0	    34	............................	AAATATGTGGGGCAAGGTTGCACTATCGTTCGCC	
+    161700	    28	 100.0	    32	............................	TTCGACACGAAGGCAGAAGCCCAGCGATGGGC  	
+    161640	    28	 100.0	    32	............................	CGCACGCACGGGGCACCTCTTGATCAGGTGTC  	
+    161580	    28	 100.0	    32	............................	AGTCGAACGAGACGGACTTGGGCTTCCTGACG  	
+    161520	    28	 100.0	    32	............................	CTCCCCCCCGTCAGCGGCCGGCCATTCACGTC  	
+    161460	    28	 100.0	    32	............................	GTAGGCGTGTAACCCAGTGACATAACCCCTCC  	
+    161400	    28	 100.0	    32	............................	TTCGATATTGATCAGCGAGGGCACCAGGTTCT  	
+    161340	    28	 100.0	    32	............................	TGCTGGGCGTTCGCGAAAGCCTGGCGCACCGG  	
+    161280	    28	 100.0	    32	............................	ATTCTGGAAATCATGCTGCGCAGCTATCAGCG  	
+    161220	    28	 100.0	    32	............................	AGAGGCAACTTGGCGCCGGCGTCGAGGCCTTG  	
+    161160	    28	 100.0	    32	............................	AACGCGCACCACGGCGCAATCCCGAAGTTCAA  	
+    161100	    28	 100.0	    32	............................	TCGTGCAGCTGCATTTCCCCGGTGGCGAGCAT  	
+    161040	    28	  89.3	     0	.........................GGG	|                                 	T,A,G [161012,161014,161016]
+==========	======	======	======	============================	==================================	==================
+        26	    28	  99.6	    32	GTTCACTGCCGTATAGGCAGCTCAGAAA	                                  	       
+
+# Left flank :   CGAGACGGCCCTGAAAATCTTGAGCAACTGATCTGGTTGCTGGAAAAGGGTGAGCGCACAGCCATAGCTGAAAAGTTAAGAAAAAATCGAGAAAATTGCCTGAACTGAAGATTTTCGTCGGGCGCTCAAGAAAAAATCTGCGCTGCCAAGTAAATGAAAGGAAAAATTCATGCGCTCAGTAGGCTATGGGTTTCTGTGCGACAGACTGGGCTGTTGTGCAGGTGCATAGAAAGAGGGTTTTGGTGGCGGTGCTAACAGCTGGAAAAACTCACTGTCGGTTGTTTTCACCTACCAGGTGAGTCTTGCCTTCCAGTCCCCGTCTCAGTGACATGATCAATGACTTAAGCGCGCGCTCATCTCGTACGGTTGACCCTTTTTCTGAAGCAGTATGCTGGGGTTAGAGAAATCAATGACTTATGAAACTGACAGAAAAAAGGGTCTACTGCGTCTGAATTGTGCTTTTGCTTTTGGAATCAAAGGATTGTTAAGGTTTTGGTGTT
+# Right flank :  CCACTTGGACTATGAGCCGGCAGGCTCTGGGCCCGCATTGCACCCCTTCGCGAGCAAGCTCGCTCCCACAATGGGCGGTGCCAGGCCCGAATTCCAGGCACAAAAAAGCCGACTAAAAAGTCGGCTTTTTCTGGATCTTGGTGCCCCGAGGGAGACTCGAACTCCCACTCCTTTCGAAAACGGATTTTGAATCCGCCGCGTCTACCAATTCCGCCATCAGGGCTTGTGGCGGCGCAGTATAAAGAGGCCCCTACCGTTGGTCAATCGGCTTTCATGGTCAATTTTTCCGCTTTCGGCTAAACTTCCCGGCCCTGTCGAACCCGTACCCCATTGCCATGCGCGTCGCCGATTTTTCCTTCGAACTCCCCGATTCCCTGATCGCCCGCCATCCCCTGGCCGAACGCCGGGCGAGCCGGCTGCTGGTCCTCGATGGCCCGAGCGGCGCACTGGCGCACCGGCATTTCGGCGATCTGCTGGACTACCTGCGCCCCGGCGACCTG
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.99, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTCAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [41.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [400,1004] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.69   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [169669-170691]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : NBRC 103040
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica NBRC 103040 = DSM 22348
+//
+
+
+Array 2 163297-163088 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBIR01000003-Pseudomonas japonica NBRC 103040 = DSM 22348 strain NBRC 103040,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    163296	    28	 100.0	    33	............................	AGCGAAACCGACAGGATGGGCGAGCGGGTCAAG	
+    163235	    28	 100.0	    32	............................	TGACGTGGCCGGAGTGATTGATTGCGTACATC 	
+    163175	    28	 100.0	    32	............................	ACGCCGAGCTTGAACATTGCCGCGGCAATTCG 	
+    163115	    28	  96.4	     0	.....................C......	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	  99.1	    33	GTTCACTGCCGGGTAGGCAGCTCAGAAA	                                 	       
+
+# Left flank :   GCAGAAACCCACCAGCACGCCGGCCCGGGCCAGCTCGCGCATCGCCGCTTGGGTGACCGAGGTGCCGGTGCCGAGGAGGATGGTCGTGGTGTTGGCGATCGGGATGTTCCAGTACAGCGACTGCTTGCCGGCGTCGGTGACGTACTCGACGCGACCGCCATTCACCAGGACGCGGCAGTGTTGCAGGTAATAGAGGTTGGCGCGCTTGGAGTGGAGGATGGTCTTGAGGTCGGAGGAATGAATGCCGTCCATGGTGGCAACCGGGTGTCCGTTCGGGTTGTTTGGCAGGTGGGGAGTTATAGCTGGGTTGATGGCTATGTGCTGGTATTTTTGTTGCTGATTGTTTGTGCCTGGGGGGAGGGTGTTGGGACCCTATTTTTGAGGAGGGTTGGTGAGGTTATATAAATCAATGGGTTACGAGGGTGGTGGGGAATAGGGTTTGAGAGGGTGGGGATGGGGTTTTGCTTTTTTTATCAGAGGGTTGGTAGGGTTTGGGGGTA
+# Right flank :  GGTCGCGCCCGGAGCCCACTGCAGCGGTTTGCATTTAAGGTTTTTACGAGACGGCCCTGAAAATCTTGAGCAACTGATCTGGTTGCTGGAAAAGGGTGAGCGCACAGCCATAGCTGAAAAGTTAAGAAAAAATCGAGAAAATTGCCTGAACTGAAGATTTTCGTCGGGCGCTCAAGAAAAAATCTGCGCTGCCAAGTAAATGAAAGGAAAAATTCATGCGCTCAGTAGGCTATGGGTTTCTGTGCGACAGACTGGGCTGTTGTGCAGGTGCATAGAAAGAGGGTTTTGGTGGCGGTGCTAACAGCTGGAAAAACTCACTGTCGGTTGTTTTCACCTACCAGGTGAGTCTTGCCTTCCAGTCCCCGTCTCAGTGACATGATCAATGACTTAAGCGCGCGCTCATCTCGTACGGTTGACCCTTTTTCTGAAGCAGTATGCTGGGGTTAGAGAAATCAATGACTTATGAAACTGACAGAAAAAAGGGTCTACTGCGTCTGAAT
+
+# Questionable array : NO	 Score: 7.77
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.22, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGGGTAGGCAGCTCAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTGTAGGCAGCTAAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [40.0-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [2415,249] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,5.92   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [169669-170691]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : NBRC 103040
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica NBRC 103040 = DSM 22348
+//
+
+
+Array 3 168973-167942 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBIR01000003-Pseudomonas japonica NBRC 103040 = DSM 22348 strain NBRC 103040,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    168972	    28	  96.4	    32	............G...............	AACAGGCCGCTCTCGCGGATCATGTGGCCGAT	
+    168912	    28	  96.4	    32	............G...............	AGCACCGGCCCTTCGTCGAATTGCTGACCTGC	
+    168852	    28	  96.4	    32	............G...............	GGCAGGTGTTGGTCCGCTGTCTTCGCGTTCGT	
+    168792	    28	  96.4	    32	............G...............	GGAGAGAGCCAGGTGTCATCGTTGGCGCTGTC	
+    168732	    28	  96.4	    32	............G...............	ATCCATCCAGGTGGTTTTCTTGAGCATCGCGG	
+    168672	    28	 100.0	    32	............................	AGCGCCCGTCAGGCGCAAGAAATGCGTCACCC	
+    168612	    28	 100.0	    32	............................	GAACCTCCTGCAGCAGCTCGCCGGCAAGATCG	
+    168552	    28	 100.0	    32	............................	TGATCAACTCGGCGCCAGGGGCGTTGGACACG	
+    168492	    28	 100.0	    32	............................	TGGGGTTGGCTGACTCGACCCTTCCCAAGCAG	
+    168432	    28	 100.0	    32	............................	AATGGAAGCGGGTCGGCAATGCTGGGCGCCTG	
+    168372	    28	 100.0	    32	............................	AGGCCAACGAGTCGGACGCGAACCTGATCACG	
+    168312	    28	 100.0	    32	............................	CATGAACATGATGTTGCCGGCCTGCTGGCCCA	
+    168252	    28	 100.0	    32	............................	AATCTGCCGCCCAGCGGCTTGGGAGTCGGCAA	
+    168192	    28	 100.0	    32	............................	GCCAAGCTGACCAGGCTGACCACGTTGATCGG	
+    168132	    28	  96.4	    32	............G...............	GAATCGGAAAGGCGGCTGCGCTGGCGGGCGGA	
+    168072	    28	  96.4	    32	............G...............	CAAGCCCAGCCATGCGCTGGGCCGAGGCCGTA	
+    168012	    28	 100.0	    14	............................	ATTGCACGTAGATC                  	Deletion [167971]
+    167970	    28	  75.0	     0	C.G........A.C...T...G.G....	|                               	C [167946]
+==========	======	======	======	============================	================================	==================
+        18	    28	  97.2	    31	GTTCACTGCCGTATAGGCAGCTCAGAAA	                                	       
+
+# Left flank :   GGCGCTGTCCGGGCTGCAGGCGCTCGACTGGCTGACCGGGATGCGCGATCACGTCGACGCCAGCGATAGCCTCGCCGTGCCAGAGGCGGTGAAGTACCGGACGGTGAGCCGGGTGCAGGTGGACAGCAATCCGGAGCGGGCTCGTCGACGGTTGATCAAGCGGCATGGCATCAGTGAGGAGGAAGCTCGGCAGCGGATTCCCGACAGTGCCGGGAAACGCTGCAGCCTGCCGTTCGCGACCTTGCGCAGTAACGGCGGCGGGGAGGTGTTTCGCCTGTTCGTTCGGCAGGGCTCGCTGCTGGATCAGGCGCAGGAAGGGACGTTCAGTGGATATGGGTTGAGCGGTACGGCTACGGTGCCCTGGTTCTGACCCTTTTTTCTGGAGTAATTTGAGGGTCTTTTGAAATCAATGGGTTACGGAGGGCTCTCAAAAGAGGGTTTGAAAGCGTTTTGGGGGTAGTTCTCCTTCAAAGACAACAGCTTGAAGGTGAGCTGCTCTT
+# Right flank :  AGAGTTAGGCCAGGCTCCCCGCCTGGCCTAGCTTTTTTTCGCAAACCCCAACACCGGGTGATACCGCCACCCAAAGGTGCTCTGATAAACCTTCACCGTCGTAAACCGCTCAGCACAAACCGCCAGCGGCAACTCAAGTTCCTCAGCCAATTCCTCCAGCAACCCCATCACATCATGCCGCCCCCAGGGCGCGATCCCGGGCCCGAGCTCACGATCCAGATCAACCGGGTCGAGCAACTCGGAACACTCCAGATAAACCCGCGACTCATTGAACCGTCCCGGCTCATGAATCCGGTGCAGCACCAGTCTTTCCTGGTCCTCATCCGGCAGCAGCACCAGCTCTTCCTCGCGACCGGCATTCTCCCGAAACGGCTGGTGCTGCGGCAGCACCCAGGTCAATGCCGCCTGCGGAAACTGCCAGGCGCAGGCGGCATCCAGGTCGAGCGCTTCGCGACCGACTCGCCGGGCGAACTGCGGGACCGCGGCGCGCTCCTTCGGCA
+
+# Questionable array : NO	 Score: 7.72
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:0.92, 8:1, 9:0.94,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTCAGAAA
+# Alternate repeat :   GTTCACTGCCGTGTAGGCAGCTCAGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [40.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [29,131] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_042120855 [169669-170691]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : NBRC 103040
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas japonica NBRC 103040 = DSM 22348
+//
+
+

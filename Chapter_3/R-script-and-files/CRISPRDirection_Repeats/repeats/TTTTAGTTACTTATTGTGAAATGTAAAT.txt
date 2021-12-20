@@ -1,0 +1,42 @@
+Array 1 463866-463448 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KK074035-Listeria monocytogenes Lm_1840 Scaffold_4, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+    463865	    28	 100.0	    38	............................	TTTATTTCTCCTACGCTTTTCTTATTTCTGTAAATAAG	
+    463799	    28	 100.0	    35	............................	TTTTCTACTCCTGCTTCTAAAATGTCGTTTATAAG   	
+    463736	    28	 100.0	    36	............................	CTAAAACATCCTTCACTGTATCAACTCCTTTCTATA  	
+    463672	    28	 100.0	    37	............................	ACAATAATAGGATATTTTGGATTTGTCTGCGTTCCTG 	
+    463607	    28	  96.4	    38	...............A............	TTGGTTCCTTTGGAAAACAACAATAGAGTGTAGTATTG	
+    463541	    28	  75.0	    37	.....T.C.A.C...CA...T.......	GCAGAAGCAGCAAAATAACCAAAAGTAATGACTTTCG 	G [463518]
+    463475	    28	  78.6	     0	.....A..T....AGA......A.....	|                                     	
+==========	======	======	======	============================	======================================	==================
+         7	    28	  92.9	    37	TTTTAGTTACTTATTGTGAAATGTAAAT	                                      	       
+
+# Left flank :   GCGTCCGTGCCACTACTTCAGCTGATATTTTACTTGAAAAAGGTGCCGTAGAAGTTATCGCTTGCGCAACCCACTCCGTCATGGCCGGAAACGCAACCGAACGTTTACAAAATTCAAGTATCAAAGAAGTTATCACATCCGACTCCATCGATCTTCCAGAAGACAAGCAATTCGACAAACTAACAACCATCTCCATCGGACGAATCTTAGGCCGCGCAATCGAAGGCGTACAAGAAAACCGCTCGTTGCATCCGTTGTTTTAAAGAATAAGCAGAAAACAGTAACTTAGTAGAGTTGCTGTTTTTTTGTTATCTGTCGATCTCGAGTAGCGTGAAAAATACCGGGGATCGACAGAAAGTTGTAAATGGTTAGGGGAAGGGGAATTTGGCGGTATTTGCTTGGGGAAATCTTCAGGATAAGGGGAGGTTTTAGATGTTTTTTGGTAGGTCGACAGAAAGGGGCGTTTGAGGTAAGATGGGAGTAAGAAGAAAAGTTAGAGG
+# Right flank :  GAAAACCTGTTATACATAGGATTATCTATTTCCGTTATAATTATTCCTTGCAAATAAATTCCCAAAAACAAACCCCTCATTAATTGGGTTTGTTTTTTTGTGAATAATTATAGTCAAACGAGCAATCTGTTAACAATTTAGCAATAAACGCAATAAAAAGCCATTTTTTCACTATGGATTGTACTATAAAACATAATCTACCTATGCTAAAATTTAAGAGAAGGTAAGCTGAATAATACATATAAGGAGGACTCTACTATTGAAAAAGATTCTAGTGCCCATATTATTGTTAGCAACAATCTTAGCAAGCTGTTCCTCGCCGAATGAAAAAATAACCAAAGACACTAAAATATCCAAGACTATTACAATAAGAGCAGATTACAAAGTTCCAAAAGATATTAAAGAACTTGAGGATGATAGTGCTAATATTGTTAAAGTAAAATTTCTTCAAAATAAAACGATAGGCAAGGATGGTAGTACTATCAGCGAGATAGAAATTT
+
+# Questionable array : NO	 Score: 7.49
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.65, 5:0, 6:1, 7:0.84, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTTAGTTACTTATTGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.14%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [14-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [261,238] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Lm_1840
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria monocytogenes Lm_1840
+//
+
+

@@ -1,0 +1,78 @@
+Array 1 858824-858992 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB932385-Enterococcus faecalis EnGen0081 strain 7330259-5		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+    858824	    37	 100.0	    29	.....................................	GTTTTTAATATTGCCGTCTTTTAAATAAG	
+    858890	    37	 100.0	    29	.....................................	TGATTGGAGCTCCAACATGGGACGGTCGA	
+    858956	    37	  78.4	     0	.............................NNNNNNNN	|                            	
+==========	======	======	======	=====================================	=============================	==================
+         3	    37	  92.8	    30	GTTTTGGTACCATTCTAAACAACATGACTCTAAAACT	                             	       
+
+# Left flank :   TTCTCGCCAATGTTACAATATCAAACATATTATTTCCTCCCTGATTTGCCTCCACACAAAGAAACAAGCTTACCTGAATTGTTCATTTCCATTAGCGATGACTCCTTTTATCTACGAAACTAAAAGAAAATTCAAGTGAACTTTTCCAAAAAGTGTGAAAATGCATGTAATATAGAATAATTCCAATCTAAGTATACAACTTTCTGAGGCAGAAACCAAACAATACAGAAGCATTTCTCACAATTTTTTTAGGTGCTACCAAGATTTCTTCCCTTTCTTCTATCAATAAAAAAAGCCCTTCCTAAAAAAAGGAAGAACTAATCTCAATCTATCAACATTTTGACTTATCACTTGATTAGTTTTCGAAAATTGAAACAGCTCGTCTTTGATGATAAAAATTCTAATCTTGTGATGAAAATTACGGATTGCTTGAGGTGATAGTTTGTTTTTTAACAACATGGCTATAAAACAGGGGAGAAAAAGCCAAATCAAAAAAGTTT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACCATTCTAAACAACATGACTCTAAAACGATAAGTATTACACATCAAAAAAATGCTTAGTTTTGGTACCATTCTAAACAACATGACTCTAAAACTTCTTAGAACGCTATTCGGAACGCTTTAAGGTTTTGGTACCATTCTAAACAACATGACTCTAAAACTTACTTTCTTGATAGATTCTTTAGCCTTATGTTTTGGTACCATTCTAAACAACATGACTCTAAAACGCATCAATCAAAATTCCCTCAATCACATAAGTTTTGGTACCATTCTAAACAACATGACTCTAAAACGAAGATGGTAGCGAAGTTATTGTAAATCCCGTTTTGGTACCATTCTAAACAACATGACT
+
+# Questionable array : NO	 Score: 6.12
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.64, 5:0, 6:1, 7:0.08, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGTACCATTCTAAACAACATGACTCTAAAACT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.57%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [474,664] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 7330259-5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis EnGen0081
+//
+
+
+Array 2 859199-859498 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB932385-Enterococcus faecalis EnGen0081 strain 7330259-5		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    859199	    36	 100.0	    30	....................................	TTCTTAGAACGCTATTCGGAACGCTTTAAG	
+    859265	    36	 100.0	    30	....................................	TTACTTTCTTGATAGATTCTTTAGCCTTAT	
+    859331	    36	 100.0	    30	....................................	GCATCAATCAAAATTCCCTCAATCACATAA	
+    859397	    36	 100.0	    30	....................................	GAAGATGGTAGCGAAGTTATTGTAAATCCC	
+    859463	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         5	    36	 100.0	    30	GTTTTGGTACCATTCTAAACAACATGACTCTAAAAC	                              	       
+
+# Left flank :   CAGCTCGTCTTTGATGATAAAAATTCTAATCTTGTGATGAAAATTACGGATTGCTTGAGGTGATAGTTTGTTTTTTAACAACATGGCTATAAAACAGGGGAGAAAAAGCCAAATCAAAAAAGTTTGTTTTGGTACCATTCTAAACAACATGACTCTAAAACTGTTTTTAATATTGCCGTCTTTTAAATAAGGTTTTGGTACCATTCTAAACAACATGACTCTAAAACTTGATTGGAGCTCCAACATGGGACGGTCGAGTTTTGGTACCATTCTAAACAACATGACTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACCATTCTAAACAACATGACTCTAAAACGATAAGTATTACACATCAAAAAAATGCTTA
+# Right flank :  CCTCGGAGAATTATTTTTTCTCCATGATTCCGTATTCGCATCACTTATCCATAGCTAGATTTCAGTTTAGAAGGTCTGATTTTTTTCTTCACGTTTATTATACCAAACTTTCTCCTTCTTGGCGGAAAAACCCACCATTTTTCAATGGTGGGTTTTCTTTATTTAGTAGCTGTAACAGCGAGCCAGATTTCACTGTACTTAGCTTCTGCTGGTCCTTGATATTGCGTAAACGAAATTTCTGGTGCTGCAACGACTTGGTAACCAGATGAAGGCAACCATTCAGAGAATATCCTTGCCCAGGTTTCTTGTAAAGTTTGTGGGAAAGGACCTTCATTTGGAAAAACCGCCCATGTATGAGCAGGTACGCTTAGTTGCTCCAAATCTTCATAGATATTTTCTTGCAAAGTGGCAAAGCCAATCATGTGTGTCATTTCTCCACCTTCTGTTGTTCGTCCCTCTTGAAAGTCAAAAGAAGCATTTACTACTTGATGAGGATATAC
+
+# Questionable array : NO	 Score: 7.16
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.36, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGTACCATTCTAAACAACATGACTCTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [364,158] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 7330259-5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis EnGen0081
+//
+
+

@@ -1,0 +1,77 @@
+Array 1 382344-382502 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FOIB01000009-Myxococcus fulvus strain DSM 16525, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	============================	========================================	==================
+    382344	    28	 100.0	    35	............................	ATGGTCTCGCACCTCGCCGCAACCGCAGAGGTCCC     	
+    382407	    28	 100.0	    40	............................	CCCTCCACGCGCGCATCTTCGCCGCGTTCAAACCTGTCGT	
+    382475	    28	  71.4	     0	..T..A.............G.G.GACG.	|                                       	
+==========	======	======	======	============================	========================================	==================
+         3	    28	  90.5	    38	GCATCGGGAGGTCGCGTGAACACTCGCG	                                        	       
+
+# Left flank :   GCTGGGCAATGCGGTGGAGGGGCGCTTCCCGTTCCTCGACACGTCGGTGATGGAGCTGGCGGCGCGCATCCCCGAGCGCATGCGACTCAAGGGGCTGGACGAGAAACACGTGCTGAAGCGCTACGCGAAGGGCCGTGTTCCGGCGTCCATCCTGGAGCGCAGCAAGTTCCCGTATCGCGCGCCCATCGCCGGAGCGCTGGTGGGACCGGAGGCGCCCGCGTGGGCGAGGGAGCTGCTCGCGCCCGAGGCGGTGGCGAAGGTGGGCGTGTTCGACGCGCGAAAAGCGGAGCGGCTGGTGGCGAAGCTTCGCGCGCCCAACGCGGCGGAGAGCGAGGCGGACACCATGGCGCTGTTCGCCATCGCATCGACACAGTTGCTCGCGCACCACTTCCTCACGCCGCGCGCGCCGCCGCAGGCGGACCTCGATGCCGTGGTGCTGGAGGCGGCATGAGCGGCAGTGATGATCACGTGCGGAGCGCTGGTGTGTCCGCACATATCCT
+# Right flank :  GACTCCGCTCCCGCGTGGGTCTTGGCCCACGCGCAGCGCACCCCCTCGGCCTCGGCGGTGGACTCGCCGTGGACACGGCTCACGTACTCGCAGCTCGCGGAGCGGATGACGGCGCTCGCGGGACACCTGCGTTCCTCGGGCGTCTCGGCCGGAGACAAAGTGCTCATCGCCCTGCCCCTCGGCTCGGCGGGCGCGGTGGCCGGGCTTGCGGTGCAGTCCCTGGGCGCGTGCGCGGTGGAGCTCGACCGTGAAACGGGCGCGACGTCCGTGGACGCCATCCTCGCGCAGACGGGCGCGCGACATGCCTTCGTCTTCGGACAGGACGCGCGCAAGTGGACCGGCAAGCCGGGCCTGACGCACGTGTATGTGATTCACGCCACGCGCCCACCGGAGCGGATGCTCCAGGCGCTCGCGCCCGCGACCTGCACGTGGGTGCAAGAGGACGGCGCGGTGGACCCCGAGGCGAAGGCATCACCGCTGGACGCCCTTCCATCCACGCC
+
+# Questionable array : NO	 Score: 3.54
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.53, 5:0, 6:1, 7:0.92, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCATCGGGAGGTCGCGTGAACACTCGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.80] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [38.3-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [51,1588] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 16525
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus
+//
+
+
+Array 2 462092-461768 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FOIB01000009-Myxococcus fulvus strain DSM 16525, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================================================	==================
+    462091	    36	  86.1	    75	A.....T..C..A........T..............	GGAGGCAGGCCCGGCTCCCGGCGCGCGAGGAGGGGCGATGGGCGCGGGAGTCGGCGGCGTGCCGACTGGAGCACG	
+    461980	    36	 100.0	    48	....................................	CGTCCCGACGCTGGGCGCCACCGTCGGCACGGCACCCGTCCCGACGCC                           	
+    461896	    36	  94.4	    57	............C....................G..	GGGCGCGCGAGGAGGAGTCACGGGCGCGGGTGTCTGCGGCGTGCCGACTGGAGCACG                  	
+    461803	    36	 100.0	     0	....................................	|                                                                          	
+==========	======	======	======	====================================	===========================================================================	==================
+         4	    36	  95.1	    60	GGGCACGCCAGCGGGCGCCACCGTCGGCACGGCACC	                                                                           	       
+
+# Left flank :   GAGATGGCGGGAACGGCTCCCGAGGGAGGACGGTTCGCGGGCGCCGCGCGCGGTGCTCCCACGACGGGGGTGGGCGTCGGCGGCGTCAGGCCGACCGGGGTTCCCCTCGGCGCGGGGGCCGAGCCGGGGGGCATCGGCGGCGTCAGGCCGACCGGTGTCCCTCGGGGGGCAGGGCCCGAGCCGGGGGGCATCGGCGGTGTCAGGCCGACAGGAGTTCCTCGCGGACCGGAGCCAGGATCGGGAGGCGGCGGAGGAGTCAGCCCGATGGGCGTTCCCCTTGGCGCAGGACCTGAGCCCGGAGGTGGCGGTGGCGTCAGTCCGACCGGAGTCGCCCTCGGCGCGGGGCCCGAGCCCGGCGGAGGCGGAGGCATTCCGGCCGCGACGGGCGGAGGCGGCGGAATGATGGCGCCGGGAGACGACGCAATGGCCTGAACAGGCGGAGGCGGAGGGATCAACGCGGCGACGGGCGCGGGAGTCGGCGGAGTGCCGACCGGAGCACG
+# Right flank :  GGAGGCAGGCCCGGCTCCCGGCGCTCGAGGAGGAGCCACGGGCGCCGGTGTCAGGGGCGCGACGCCCGGGACGCGGGGCGCCGCGGGGGGGACGCCCGGGGCAGGCGGCGTGGCCGGACTCGCGGGCTGCGCACCGACGGCGGGGATCGCGGACACCGTGGGTCGCGCACCCGTGGGCGTCATGGCCGCGGGCGCTCCCACGGCGGGAATCCCCGTGGCGCTCATCCGCTGCGGCACCGGCGCGGTGACGGCGGGGATGGACACGGTGGGCCGCTGGGACTGGGGCACGGCGGGCGCCGCGACACCCGGAGGCTTCGCGCCCGGGGGCACCGGCGCGCCAGGCGCCGCTGGAGGCTTCGCCACGGGGGCGGGCGTGGGCGGTACCGGCGAGGCCGCCGTCATCCGCGGAATGGCCGGTCGCGAGGGAGCCGCCGGTGTCCCGGGCGGGCTTCCCGGCGGCTTGCCGGAGCTGGGATCGGTAGGCTCGGACATCGCGCTCG
+
+# Questionable array : YES	 Score: 1.36
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.75, 5:0, 6:1, 7:-1.79, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGCACGCCAGCGGGCGCCACCGTCGGCACGGCACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.70,-12.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [18.3-23.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [503,98] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 16525
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;Cystobacterineae; Myxococcaceae; Myxococcus.; Myxococcus fulvus
+//
+
+

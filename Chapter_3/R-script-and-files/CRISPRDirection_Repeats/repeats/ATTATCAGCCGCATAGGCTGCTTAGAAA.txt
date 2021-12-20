@@ -1,0 +1,42 @@
+Array 1 23-409 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MUXU01000114-Moraxella caviae strain CCUG 355 355T_ctg_0000114, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+        23	    28	 100.0	    32	............................	TTCGAATACACAAGATTGTCAAAATTATTGAC	
+        83	    28	 100.0	    32	............................	ACAACGCTGAACATTCGCCCAATGTGCTTTTT	
+       143	    28	 100.0	    32	............................	TTCGAATACACAAGATTGTCAAAATTATTGAC	
+       203	    28	 100.0	    32	............................	ACAACGCTGAACATTCGCCCAATGTGCTTTTT	
+       263	    28	 100.0	    32	............................	AACCACAGATGAAACCATCAAACACAATATTT	
+       323	    28	 100.0	    32	............................	GTATTTGTCGCTTAAGTGTTTGCCAAAGTCAA	
+       383	    27	  92.9	     0	.......................-...T	|                               	
+==========	======	======	======	============================	================================	==================
+         7	    28	  99.0	    32	ATTATCAGCCGCATAGGCTGCTTAGAAA	                                	       
+
+# Left flank :   TTTTACGGCGGGGTGGATAACAA
+# Right flank :  TACAGTGCTACGAGCATTATTCGCTTAAAAAAATTATACTATTAAAAGGGATGGCAATAGTGATATACTGTACAAAATTTAGTCAAAAAGGATTTGATTATGTGTGATGCCGATAATGAACTGCAAGAGTGGGATAAGCTTTGTAATGCTAGACAGGTTGAATGGCTATTGTCGCACTTACGCAAAGCACGCTATTTATACGATATCCAAGATGAAGATTATAGCTTGGGTGCAACAATGCATTTTGTCGTTGATTGTGTCAAAGTATTCATTGAAGAACCAACCCCACTGCATTATTTATCACTGATACAAACCGAAAATATGATGTTAGGGGCGTTGATTGCCAAAGGTGCTAATTTTGCGCCTGTTGGTTGGGGGCGACTGTGGGAAGCTAGAAATCATCTGCCATCACTAAGAGATGCTTTAGAAGTGGCGGTAGCTGAAAACGATTACTTGTTTGACTTTAGATTTTTTTCAGATTCTGACTTTGACCCTACCTG
+
+# Questionable array : NO	 Score: 4.96
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:1.21, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTATCAGCCGCATAGGCTGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:57.14%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [18.3-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [24,99] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CCUG 355
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Moraxella.; Moraxella caviae
+//
+
+

@@ -1,0 +1,361 @@
+Array 1 85428-85276 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                 	Insertion/Deletion
+==========	======	======	======	========================	================================================	==================
+     85427	    24	 100.0	    48	........................	GTAATAACGCTTTTACTGTTTTGAACGCTTTCAATTTTAAAACACCTA	
+     85355	    24	 100.0	    32	........................	GATAAAAAACCTCGAAGTAGTTGAATCGTATT                	
+     85299	    24	  91.7	     0	..T..............C......	|                                               	
+==========	======	======	======	========================	================================================	==================
+         3	    24	  97.2	    40	CAAGGTTTTGGAAACCTTGCAGGA	                                                	       
+
+# Left flank :   GAATGACATCGTTTCTTTTTATACTAGTATAGCTATCGGAAAGAATGGCTTTAAAAGATGAAAATTTAAAATTTTTATAGTCCAAACCTAAATGATGTTTAGGATTTAGATGTACATAAATAATTAAATTCTTCAAATACAATTCATTTTCAAGTTTTATTCTTTTAAAATGTTTTTCAAAAAGACTTCCTGTTCTATTATTCTGTTTATTAAAAGCCTTTGCATAAGAATTAAAAAAATTAGAAAATGCTTGGGTAACGATTTTATCTTCTTCATCAATCCTGATAACAAAATGGAAATGATTATCCATTAAACAATATGCTAAAACGGAAATTTTTTCAGATAAATATTTAGCTAACTGTTTCAGGAAAAATAGTTTATTTTCTTCATTTTCAAAAATAGTAGTGCCATTTATTCCTTTGTTATAAATGTGATAAAAATTATCTTTTTCTAAAATTTCAAGTTTCATATATACTGATTATATCATTTTTTTTCACCTA
+# Right flank :  TGAATATAGGTTTTTACATCCCGTACTCCTTCACCGCCTCCACAAACGCCTTCGCATGATCCACAGGAATGTTCGGCAAAATACCGTGACCTAAGTTGACGATGTAATTATCTTTTCCAAATTCATCAATCATTTCATGCACCATTTTTTTGATGGTTGGAATTGGCGACAATAAACGACTTGGATCGAAATTTCCTTGTAAGGTGATGTTTCCGCCTGTTAAATAACGAGCATTTCTTGGCGAACACGTCCAATCTACGCCTAATGCCGAAGCTTTCGATTTTGCCATTTCGCCTAAAGCAAACCAACAGCCTTTTCCAAAAACAATTACTTTCGTTTCATCTGCCAAAGCCTCTACAATTTGGTTGATATATTGAAATGAAAATTCTTGATAATCTACTGGTGATAACATGCCGCCCCAAGAATCAAAAATCTGAATGGCATTGCAACCCGCTTTTACTTTTTCTTTCAAATATAAAATCGTCGTATCGGTGATTTTT
+
+# Questionable array : NO	 Score: 4.23
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:0.25, 7:1.03, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAAGGTTTTGGAAACCTTGCAGGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-81.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [15,32] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.68   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 2 463355-463496 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Unconfirmed
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	======================	======================================	==================
+    463355	    22	 100.0	    38	......................	GGGGTTCACCATAAGTTTCTGGTGCAATCGTTGGTGCA	
+    463415	    22	 100.0	    38	......................	CAGGCTCGCCATAGGTTTCTGGTTTTAGTGTTTCGGGC	
+    463475	    22	 100.0	     0	......................	|                                     	
+==========	======	======	======	======================	======================================	==================
+         3	    22	 100.0	    38	TCTGGTGCATTCAAATCCTCTA	                                      	       
+
+# Left flank :   TAACAAAAAAAGCGGTTTGCCATTTGCTTGCTCCAAGTGCCAAACTGGCTTCGCTATATGTTTTTGGTACTGCCGAAAGAGCATCTTCTGAAATGGTATAAATAATAGGGATGGCTGCTAATGCCATAGCCACACCGCCAACAAAGGCATTTAGCCTAGATTCGTAACCAAAAAGGCTTTGAAACAAACTGGCTAAAACCATCAAAGCAAAAAAACCAATTACTACCGATGGAAATGCGGCCAGCATTTCTATGATAGGTTTGATGATTTCTTTTTTGCGTTTGGATGCAAAACACGAAGTGTATAGGGCAGCTAAAACGGCTAAGGGCCCTGCAATAAGCATTGAAATCAGGGTAACTTTGAGTGTGCCAAAAAGCAATGCAATTAGTCCAAAACGAGGGTGTTCTGATACAGGAACCCATTCTGATGTAGCAAAAGTGCTCCAAGTTTTATCGGCTCCTTCGTTGTTTTGGGCCACTTTTGGTTCTGCAATGGCAGGC
+# Right flank :  ACGGGTTCGCCATAGGTTTCTGGTTTTGAGTTGTTCTCGATTACTTTTTCTGTTTGAGGCTTAGCTGATTGTCCAAAACTAAATAGCGGCAGCGATTCTTTGAAAACAAAAATAAAGATCAAAAAAATGATGGTTATCGATAAAAAAGCCACGCCCGAAATGATTTTTTCGGATAAAAATTCGGAGAGTCTGAATTGTTTTTTAAGACTTTCTTTTGTAAAGCTTTTAGGAGCAGTTTCGGAAATCATAGGATTGAATTAAAGCATGCTTAAATGGAACACAATACTAAATTAAACTTTCTCTAGATTGAAAAAGGAGACTAAATTCTAAATAAACCAGCAAAATAGATTGAGCCTATTTTGGGCGTTACCACAAGGGTCGGGCTATCCGTTTCAATCTTTTTTGAGGCAAAAAAAGCCTCAAAAAAGGATTTCCACTACTATCCCTAACGCAAAACACGGTAACTAATAGCATTTAGCTAAAAAAGGATAATTTGAAAA
+
+# Questionable array : NO	 Score: 4.07
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:-0.25, 7:0.92, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCTGGTGCATTCAAATCCTCTA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.09%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [50.0-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [813,509] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         NA [0,0   Confidence: NA] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 3 958562-958817 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	===================	===========================	==================
+    958562	    19	  94.7	    22	..............A....	GGATAAATCCCATTTCTATTCA     	
+    958603	    19	 100.0	    21	...................	CAATAAATTACATTTCTATTC      	
+    958643	    19	  94.7	    22	..............A....	GGATAAATCCCATTTCTATTCA     	
+    958684	    19	 100.0	    21	...................	CAATAAATTACATTTATATTC      	
+    958724	    18	  73.7	    16	C.......-..T.CA....	GCTTAATCCCATTTTC           	Deletion [958758]
+    958758	    19	  84.2	    27	T............CA....	GGTTGCAACCCATTCCTTTTCAAATTC	
+    958799	    19	  63.2	     0	........GCCG..TT..A	|                          	
+==========	======	======	======	===================	===========================	==================
+         7	    19	  87.2	    23	AATTCATTATTATTGAATG	                           	       
+
+# Left flank :   ATATTCATTACTTACACCAAAAGGAGTATTTCCAATTTCATTGAAATAAATACATCCGTGTCGAACATTTATTTTAGAATAAATTATAGCATTTTCGGGAACTAAATTTAGCCCTCCTTTATAGGTGTGTATTTCTTCAAAATCTCTTAAAAATAACTGTCCACCAAAATTAATTTTGGCTATAATTTGCCATTTATTTTTAATCATTTCTTCTTTTGAAACGTTCTTTTTATAAGGAATTAAAATATCTCGTAACCTAACTACATTTTCAAATGAAATATTTAAACCTTTGGTATAGCGTTTTACATCCCACAAATTAAATCGGGAAAGTGGTACTAATTTTAAGTAACTTAATTGTTGCATACTATTTACCATAAAAAATATTTTAGAAGATCTAATTTGATGCTGTTATTATATGTTTTTTTGTTCATTATTATTTTTTGGCTAAAGCCTATTTTATTGTTTATTTTTTTTTATTGGGATAAATCCCAATTCTATTC
+# Right flank :  TATATGAGGATTTTTTGATTCAATTGCCTCCAGATTCATCTGAAGGGGTTTTGATTTCAAATTCAATTGCCTCCAGATTCATCTGGAGGGGTTTTGATTTGTAATTCAATTGCCTCCAGATTCATCTGAAGGGTTTTGATTTGAAATTCAATTGCCTCCAGTTTCATCTGGAAGGATTTTGATTTGAAATTCAATTGCCTCCAGTTTCATCTGGAGGGAGTTTGATTTGTAATTCAATTGCCTCCAGATTCATCTGGAGGGATTTTGATTTGAAATTCAATTGCCTCCAGATTCATCTGGAGGGGTTTTGATTTGTAATTCAATTGCCTCCAGTTTCATCTGGAAGGATTTTGATTTGAAATTCAATTGCCTCCAGTTTCATCTGGAGGGAGTTTGATTTGTAATTCAATTGCCTCCAGATTCATCTGGAGGGATTTTGATTTGAAATTCAATTGCCTCCAGATTCATCTGGAGGGGTTTTGATTTGTAATTCAATTGCC
+
+# Questionable array : YES	 Score: 0.94
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.36, 5:0, 6:-1, 7:-0.78, 8:0.8, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AATTCATTATTATTGAATG
+# Alternate repeat :   AATTCATTATTATTAAATG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:84.21%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-15] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [127,650] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 4 1610265-1610514 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	======================	======================================	==================
+   1610265	    22	  72.7	    34	.....A..C..T...TT.C...	ACTTTCTATTTGTTTTGGGTTTCCTGAATAGGAA    	A [1610279]
+   1610322	    22	 100.0	    32	......................	TGGCATCAAGAGCGTTGGTACAATTTACATTG      	
+   1610376	    22	  90.9	    38	....................GG	CTACAGTTGCATTTTGAGTTGTAAGTAAAGGTGTTTTA	
+   1610436	    22	  81.8	    35	.....A..C.....A..T....	TGCCAATAAAATCTTGACAATTACCTTCTAATAAT   	
+   1610493	    22	  90.9	     0	.................G.G..	|                                     	
+==========	======	======	======	======================	======================================	==================
+         5	    22	  87.3	    35	ATATTTCCAGAACCCGAAATTT	                                      	       
+
+# Left flank :   AAAATAATGCAGTATATACTTTTCAAGGCAACAGAAATCCATTTATTGATCATCCAGAATGGGTACAAAGCATTTGGGGAAGCCCATTAAAAATATCGGATTTTGATTCTTTAGAAAATATAGTTGTCTATCCAAACCCTACAAATAATAAAACAATTTATATTAATTCTGATATTAGCTTGGATGAAATTGAATTAATAAATCTAAATGGGCAATTGATTCAAGTCATTAAAAACCCTTTATTTATCAATAAATCATTTGATATTCAAAATTTAAACCAAGGATTTTATTTTTTAAAGTTGAAAGCTGAAAACCAAATGATCATAAAAAAAATATTTGTAAACTAATTGATTTTAATCAATCAATGTGGTAAGTATCGGGACTTTTATGCTTATCAAATGAATTTCTTTTAAAAATCATTGTCAAAAAATCTATTTGACAATGATTTTTTTAAAAATTTTCCAAGATAATTAAATTATTTTGTCATTTATCTTTGCTTT
+# Right flank :  TGGACTTCTACTTGCTGACTATCAAGCTGTAAGCGAATATCGCCACTTCCTGAAAGGGCAAGTTTAAAATTATTGAGTTTTAAAATTGCTTTACTAAAAATGGTACCAGATCCACTAGATTGTAACGAGTTTATAGACTCGACAGGAATTAATATTTTAATTTTATTTTGGTATTTATAAGGAATATAAATACCGTTTTCAAGACTAATGTGTAAGGTTTCATTTTTTACTTCAGTAATTATATAAGGCAAAATAGCTTCGTCGGCAGTAATGATAATTTGACCTTCGGTGCCTTTTATAATTTCAGTTTCAAAAAAACTACTTATTTTTATGGCTTCATACTGGGGTGTTGTACGGGTTTCTGTTTTGATGATTTTTGTAAAATCAATTTTTTTAGTTCCCCAATTTTGACCAAATACATTTGTTAGTATGAACATACTTACGATTAAAAATTTTGTATTGACTTTCATTTTATTTAATATTAAAGTTTATTTTTTGTT
+
+# Questionable array : NO	 Score: 2.17
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.55, 5:-1.5, 6:-0.25, 7:1.08, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATATTTCCAGAACCCGAAATTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.18%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [212,481] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 5 1901918-1899989 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                               	Insertion/Deletion
+==========	======	======	======	====================================	==============================================================================	==================
+   1901917	    36	  86.1	    78	.AAT.TA.............................	TTCAGATTTTTTGAAAATCAACGGTATTGAGTTGTGGTTTACAAACACCAAAATAATATTTTTTATAGGTGTGTTTGT	
+   1901803	    36	  86.1	    30	.AAT.TA.............................	AACATATTTTTTAATAATTACATTTTTAGT                                                	
+   1901737	    36	  97.2	    30	.................A..................	GCGGGTTAGAGTAGTCTGGTAGCTCGTTGG                                                	
+   1901671	    36	 100.0	    29	....................................	CATGCCAGCAGCTGCCGATACGTTGGGGT                                                 	
+   1901606	    36	 100.0	    30	....................................	AATACTTGCAAGTGTTTGTATATTTGCCCC                                                	
+   1901540	    36	 100.0	    30	....................................	TTTAACGCTTTAATTCAAGCGATTACAAGC                                                	
+   1901474	    36	 100.0	    30	....................................	CGTTTTATTGGTGCAATTGTTTTGGCCTAC                                                	
+   1901408	    36	 100.0	    30	....................................	TGGGGCAACATGTACCGTAGCAGCTGGCGT                                                	
+   1901342	    36	 100.0	    30	....................................	CCTAGTATTAAATTAATATCCAACGCATCC                                                	
+   1901276	    36	 100.0	    29	....................................	CTCAAATAAAAGTGCCAGCAGGAGCCATA                                                 	
+   1901211	    36	 100.0	    30	....................................	CAAGCAAAAAGAAAATGAAATTAAGGACGA                                                	
+   1901145	    36	 100.0	    30	....................................	ATTACGCCCGATGGTGTGGGCGGCACTTGG                                                	
+   1901079	    36	 100.0	    30	....................................	TCGCCATGATTTTCGATGTTATTATGTATA                                                	
+   1901013	    36	 100.0	    29	....................................	CATACCAGCAGCTGCCGATACGTTGGGGT                                                 	
+   1900948	    36	 100.0	    30	....................................	AATACTTGCAAGTGTTTGTATATTTGCCCC                                                	
+   1900882	    36	 100.0	    30	....................................	GATTGTGCTAAAACATTAAGTTCGTTAAAT                                                	
+   1900816	    36	 100.0	    30	....................................	ACCAAAGAAAAACTCACAAATTGTGAGAAT                                                	
+   1900750	    36	 100.0	    30	....................................	TTTAACGCTTTAATTCAAGCGATTACAAGC                                                	
+   1900684	    36	 100.0	    30	....................................	CGTTTTATTGGTGCAATTGTTTTGGCCTAC                                                	
+   1900618	    36	 100.0	    30	....................................	GCTTGAAGTTTCCAAAATGGAGTTCAAATA                                                	
+   1900552	    36	 100.0	    30	....................................	AAATCTTTTGGCTGTATCAACTGTATTAGC                                                	
+   1900486	    36	 100.0	    30	....................................	TTTCCGACAAATAATAACACACCACAGGCA                                                	
+   1900420	    36	 100.0	    30	....................................	TTTGGCTATCTTAGTTTCTTCATAGCCATT                                                	
+   1900354	    36	 100.0	    30	....................................	ATTTCCAAATGCCATTTCAGGCAAATACAG                                                	
+   1900288	    36	 100.0	    30	....................................	TTTTTCAGTTGTTAATGAAAACCCTTCAAT                                                	
+   1900222	    36	 100.0	    30	....................................	AGTTTATAAAAGAATATGAAAACGGAACTA                                                	
+   1900156	    36	 100.0	    30	....................................	TTTCTAATCATTATTTTTTCTTTTTAAGAA                                                	
+   1900090	    36	 100.0	    30	....................................	ATAAGGGTTTGACTCTATTCTACAAACATC                                                	
+   1900024	    36	 100.0	     0	....................................	|                                                                             	
+==========	======	======	======	====================================	==============================================================================	==================
+        29	    36	  98.9	    32	GTTGTGGTTTGATTAAAGATTAGAAAACACGATATG	                                                                              	       
+
+# Left flank :   TGAAAATTGATAGCGGATTAAAAAGTGGTTTTGCTGTGAAGCAAACCAAAGAAGAAATGTTAGCCGAGTTCAAAGAAAGATTGAATGTACTATAGTTATTTTTTAACTCGAGAAGCAAAAGAAGATTTGTAGAGAATTTATGAATTTGGTGTTTACAAATTTGGAGCTGCTTAAGCAGATAATTATTTTACAATGTTTCATGATTGTTTTGACAAAATTGCAAGCAATCTTTATATGTTTCCGATGGTCTCAAATTATAAAAATGTAGAACGATTTTGTGTTTGTGGTGTTGATACGATTTATTACAATATCAAAGGTGATGAAATTGAAATCGTTACCATCATTGGAAGACAAAATTTTTAAAAGTTCTTTGACATACGTTTTCATGGTCTTAAACAGCCAAACCACAAAGACGATATAAGAGTAATCTGTGCATCAGTGGCAATTTTAAAGTTGTGGTTTACAAACACCAAAATAATATTTTTTATAGGTGTGTTTGT
+# Right flank :  AGTTGGCTTGTTGCCTTCTGATATTCAAGGGATTAATTGTAAATATCGTTATAAAAAATGCCTCTTTATAGGACTGATAACCCTATATTGAGGCATTTTTTGTTTTCTAAAACAGCTCTAGCTGTACAGGCATTGGTACTTTTGGCAACGGAGCTTGGCCCCAATAATTCATAATATTGCCAAACTGTTTGTCGGTTATCCGTACAACACTCACCTTGCCTAGTGGGGGCAACAATTGTACGATACGTTTTTCGTGTACGTCGGCACTCTCGCTACTGGCACAATGTCTTGTATATACAGAATATTGCATCATCGTAAATCCGTCGTTCAATAATTTGTTTCTAAAAACCGAGGCATCTTTACGGTTTTTTTTTGTTGCTGTGGGCAGGTCAAAAAATACAAACAACCACATTATCCGATATCCGTTGAGCTCCATAACTTGGCATATTTTATTTTTTTTGCGTTCGCCCGTATAACATTGTTGTAGCGAGCTGGCTGTT
+
+# Questionable array : NO	 Score: 8.08
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.13, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTGGTTTGATTAAAGATTAGAAAACACGATATG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.44%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [108,406] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 6 2549336-2551703 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                                                           	Insertion/Deletion
+==========	======	======	======	====================================	==========================================================================================================================	==================
+   2549336	    36	 100.0	    29	....................................	CCACGTAATTGATAACAAGCCATTTTATT                                                                                             	
+   2549401	    36	 100.0	    30	....................................	AGAAGGAACTCAATACAAAAAAATACATAA                                                                                            	
+   2549467	    36	 100.0	    30	....................................	TAATTTCATACGCAAAATAACCGCCTTCAT                                                                                            	
+   2549533	    36	 100.0	    30	....................................	AGTTTTGGTAGATAATATCTTTCTGTTTTT                                                                                            	
+   2549599	    36	 100.0	    30	....................................	GGTGAGGAAGGAACGATTTCATTCATAATT                                                                                            	
+   2549665	    36	 100.0	    30	....................................	CAATAGTTGATCCTCGTCATCAGCCTTGTA                                                                                            	
+   2549731	    36	 100.0	    29	....................................	TCTGCACCTACAACTTTTACTAGTTGCCT                                                                                             	
+   2549796	    36	  97.2	    29	..............................A.....	TACCTAGTGCATCGGTGTCAGTATTTTCA                                                                                             	
+   2549861	    36	 100.0	    29	....................................	CTCTAGCTCTTCCTTCAGACAAGACCTGA                                                                                             	
+   2549926	    36	 100.0	    29	....................................	CTCTAGCTCTTCCTTCAGACAAGACCTGA                                                                                             	
+   2549991	    36	 100.0	    29	....................................	TTTGTCCAGTGCTACCATAGTGGAATGTC                                                                                             	
+   2550056	    36	 100.0	   121	....................................	AAAAAGCCCCCCAACCCCCGAAGGGGGAGCTACCAACTTTGCGTGTAAAATGGTCTTTGAAATTTTGTATTTAGAAATAATTATCTTTTTACATTTCAATGTTCCCCCTTTGGGGGTTAGG 	
+   2550213	    35	  88.9	    29	.GGC...-............................	CTATTCTTGTGTTGTTACAAATTGAGCTG                                                                                             	
+   2550277	    36	 100.0	   122	....................................	AAAGAAGCCCCCCAACCCCCGAAGGGGGAGCTACCAACTTTGCGTGTAAAATGGTCTTTGAAATTTTGTATTTAGAAATAATTATCTTTTTACATTTCAATGTTCCCCCTTTGGGGGTTAGG	
+   2550435	    35	  88.9	    30	.GGC...-............................	AATCAACCCATATATATTGGGTGTTTTAAC                                                                                            	
+   2550500	    36	 100.0	    30	....................................	ACCAATCATTTTTACTTGCCAAACAACTCC                                                                                            	
+   2550566	    36	 100.0	    29	....................................	CCAAGCCAGCAATTTGTAAATAAAATACT                                                                                             	
+   2550631	    36	  97.2	    30	..............................A.....	TTACAAACGTCGATCATGTAAGATTTCTGA                                                                                            	
+   2550697	    36	  94.4	    30	............T..........A............	TGTACGGAAAAGACCAATACCCTGTGCACC                                                                                            	
+   2550763	    36	  97.2	    30	.........................T..........	AGGTTCTGCCAAAGTAAGAGCAGCTATAAT                                                                                            	
+   2550829	    36	 100.0	    29	....................................	GTTGTAAAATACCATTTACTGTAGCAAAT                                                                                             	
+   2550894	    36	  97.2	    30	..........T.........................	TAGTGCCATCACAATCAACCCCAAAGCTAG                                                                                            	
+   2550960	    36	 100.0	    30	....................................	TAGTGCCATCACAATCAACCCCAAAGCTAG                                                                                            	
+   2551026	    36	  97.2	   122	..............................A.....	AAAGAAGCCCCCCAACCCCCGAAGGGGGAGCTACCAACATTGCGTATAAAATGTTCTTTGAAAATTTTTTATTTTGAAAAAAATGTCTTTTACCTTTCATTGTTCCCCCTTTGGGGGTTAGG	
+   2551184	    35	  86.1	    30	.GGC...-......................A.....	TCTGCGTCTATAAACATTATTTGTGCTACT                                                                                            	
+   2551249	    36	 100.0	    30	....................................	TTTTCTTCTCGTATTAATTGAATTTCTTCA                                                                                            	
+   2551315	    36	 100.0	    30	....................................	TTTGGAACGTGAATATTACGTTTAAATGTG                                                                                            	
+   2551381	    36	  97.2	    29	..............................A.....	CCATTATTATTGATATATACAATGATACT                                                                                             	
+   2551446	    36	 100.0	    30	....................................	CGTTCCCCAAATAGGGTCAACTACTTTTTT                                                                                            	
+   2551512	    36	 100.0	   121	....................................	AAAAAGCCCCCCAACCCCCGAAGGGGGAGCTACCAACTTTGCGTGTAAAATGTTCTTTGAAATTTTGTATTTAGAAATAATTATCTTTTTACATTTCAATGTTCCCCCTTTGGGGGTTAGG 	
+   2551669	    35	  88.9	     0	.GGC...-............................	|                                                                                                                         	
+==========	======	======	======	====================================	==========================================================================================================================	==================
+        31	    36	  97.8	    42	GTTGTAACTGCCCTTATTTTGAAGGGTAAACACAAC	                                                                                                                          	       
+
+# Left flank :   TTAAAACAATTTTCAAAAGTTTGGATAAAAGAAAATGAAAATGAAATAATTAACTACAGGAATATAGCTTGTCATTTTCATTTACCTTTATTAGAAACTTTTGATAATCTTTTATTAAATGTGGAGCAAAAATTTATCAAAGAAGAATTGCAAAACGTTTCTACTATAAACGACTTATCAAAACCTCAGGAGTATTTAATTTTATTATTCATTAAGTTTAAACATAATAATTTTTACTTGAATTTATTTAATAAAAATGAAAGTAAAACAATAAAAAACGATAAAGAAGTAAAAAAAAATAGGGTTTTGCAAAAATTTATAAACCAAGTTATTTTAAAAAAAAAATAAACTAACCACATCCAGCTCTTTGAAATCTTGAAATCTTGAAAACTACAATTAAAAAAATGACTATATTAGCACCCAACAAGAAAATATTTGCCCATTTTATTTAATAAAAATGAGCTTTACCACTTTGAAATACAAGGCATTACAACGTTACT
+# Right flank :  CAAAAAGCCCCCAAAGAAGGAACTGCTATTATTGCGATTCAAATTTGTAATTTTTTTGCAACACCCAAATAAAAAAGCCTCTCCACTTATTGGAGAGGCTTTTTTTATGTCTGGTTCACATCTACGTTTTGGAGGTTAGGGTGCACTTTCAATATTTTGAACAGCAGTTGTTGCTATTTCTAAAAGGTCTTGTATTGCGGTGCTACTTTGTAGTGGTCGTATTTCAAATTTTATAATTTGGTCATTTCTATATACGCTTTTAATTTTACCTATAAAAAATGATCCGTTTTTCAAAAATACTAGTCAGTTTGGGGCTGTGGATTGAAAAAAAAAATCTAGTTTATCAAAAATAGTTCTCATGCCTTAATGGTGTTTTCGGTTCAAAATGACGTTGCCAACTGGCTGATATACCAAAGGAATATACTCGAGTGCCGCATCACTTTTGTCGAGTCCAAAGGCTTTCTCATATACATTGATATTGATACGCACTGCTTTATCTT
+
+# Questionable array : NO	 Score: 7.04
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:1, 7:-0.85, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTAACTGCCCTTATTTTGAAGGGTAAACACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.70,-5.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [154,638] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+
+Array 7 3018429-3020821 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016001-Flavobacterium branchiophilum FL-15, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	====================================	================================	==================
+   3018429	    36	 100.0	    26	....................................	ACGATTCCGAAGAGGCAAAACAATAT      	
+   3018491	    36	 100.0	    28	....................................	AATTCGTGGTTGATACTAAACCTGCGAG    	
+   3018555	    36	 100.0	    28	....................................	CCAAAAAGGAGAAACCGCTTATGTCTTT    	
+   3018619	    36	 100.0	    26	....................................	TGGCAAACCGTACGTGTCCACAAATT      	
+   3018681	    36	 100.0	    26	....................................	AGGTCTATAATTTCATTCAGTAGTTT      	
+   3018743	    36	 100.0	    27	....................................	TTATATCAGGTAGATCATTATTTGCAC     	
+   3018806	    36	 100.0	    27	....................................	ATGGTAGCCAAATTGCTATTAATGGTT     	
+   3018869	    36	 100.0	    26	....................................	TAATAGCAATATGTGGGATTATGAAT      	
+   3018931	    36	 100.0	    27	....................................	ACAGGTGTTAAAATCACTGTATAATTT     	
+   3018994	    36	 100.0	    27	....................................	AGCAAATGCCTTTTTATCAATAATCAT     	
+   3019057	    36	 100.0	    26	....................................	AACCCAACCTGTTTCTTTCATTTCAA      	
+   3019119	    36	 100.0	    27	....................................	TACCCAGTAGTCTCCCACTAAATCATA     	
+   3019182	    36	 100.0	    27	....................................	ATTTTTAAGTCCACAAAATCAGAGGCT     	
+   3019245	    36	 100.0	    28	....................................	TTCACAACTTTGCCACATTCTAGTGCAG    	
+   3019309	    36	 100.0	    28	....................................	TTGCCGTCATTAAACCTTATTCCAGGTA    	
+   3019373	    36	 100.0	    29	....................................	TTTATTTTAAATTCATGGTTCAAATGATA   	
+   3019438	    36	 100.0	    28	....................................	TCGCATCGTATAGTTTTATTTCATTCAT    	
+   3019502	    36	 100.0	    32	....................................	GTAATTGCGGTATTTTTGTATGCAATTTTTAA	
+   3019570	    36	 100.0	    29	....................................	AGTGGATGCAAAAAATAAAAAACAAATAG   	
+   3019635	    36	 100.0	    28	....................................	GGTGGTGCAAACATTTATGAAGTAGGCA    	
+   3019699	    36	 100.0	    27	....................................	GATATACGTAATTGTAATGACATCGAT     	
+   3019762	    36	 100.0	    29	....................................	TAGATATACGGTTACGGTTTGTTTTTTGT   	
+   3019827	    36	 100.0	    27	....................................	ATACTCGCAAATCTTAGTCGTTGGAGT     	
+   3019890	    36	 100.0	    31	....................................	GATTGCGTGAGCGTGGGCGAAGTACTCAATG 	
+   3019957	    36	 100.0	    27	....................................	TGTACAGCATATTGAAGATAGTAGAAC     	
+   3020020	    36	 100.0	    27	....................................	ACCCTCAGCTTTGTTTCGCTGTCGGCT     	
+   3020083	    36	 100.0	    26	....................................	TAAAACAAATCTGTGTATTTTAAAAA      	
+   3020145	    36	 100.0	    28	....................................	TCCTGAATACTTTTCTGTTTTAAAGAAA    	
+   3020209	    36	 100.0	    29	....................................	ACGAGAATAAAGCATTCTCATGGATTCAA   	
+   3020274	    36	  97.2	    27	...........................T........	ATCTTTAACACCAGCGCAGAAAAACAT     	
+   3020337	    36	 100.0	    29	....................................	AAAGAAGTATTTACGGTCAATACTGTACA   	
+   3020402	    36	 100.0	    29	....................................	AGGGTTGTAATTCAATACCATAACCATTT   	
+   3020467	    36	 100.0	    27	....................................	TGTAAATTATTACCAACCGCTATCCAT     	
+   3020530	    36	 100.0	    28	....................................	TAACGATATCACCTCTACCGAATTGGTG    	
+   3020594	    36	 100.0	    28	....................................	GTAAACGACCGCAATCGTCTAAGGCTTC    	
+   3020658	    36	 100.0	    29	....................................	ATTTAATGGGTTAAAAGCGTCTTTTGCTT   	
+   3020723	    36	 100.0	    27	....................................	TTCTCGTGAAAAAAAGAAAGATGCCAC     	
+   3020786	    36	  97.2	     0	...................................A	|                               	
+==========	======	======	======	====================================	================================	==================
+        38	    36	  99.9	    28	GTTTAAAACCACTTTAAAATTTCTACTATTGTAGAT	                                	       
+
+# Left flank :   AGATTCTAAAAAAAATAAAATTAAATGCCATAGGATAAATGAATAGGCTTTGGCTTTAGCCAAAGACTATGACGGCATCAGCAACAACAAATTTGGTCATCGATTGCAATAATCGTTGTTTGAGATAGACAACAGCAAGCGGATTTTGAATTTGATTCAAATTGAAATTAAGACCAAATATGCCAAACGATTTGAAGAAACGGATAGCATCATGATTTTTCAGATGAGTCCGAGTTGTGTTATTACAAAATAGGATTATGCCAAGCATCAGGACGAAGATTTGGTTTTGTTTTGAAAAAAAACTTTGAATTAGAGAAAAAAAGTTATAGGTTTGCATCGGATTGCATGGTTACTATTGTAAAAAAATGCAAACCTGGGTCTTAATAATAATAATACTGACAAAAGGCATGAAAACAAGCTTTCGAATGCTGTTTTTTTATTTAAAAGCAACCAAAAACGGTAAAAAAGGGTTGTTTTTGTGTCATTTTGGCAGTGTTAGA
+# Right flank :  AGAAAATGCCACAGATGCACAGATGTTTTTTTTTAAAACTCGAATTTATACTATGGGGTTGTGGTTTGTGGTTGATGGTTTGTGGTTGATGGTTGATGGCTGATGGTTGATGGTTGATGGTTGATGGCTGATGGTTGATGGTTGATGGTTGATGGCTGATGGTTGATGGTTGAAACCTGAAACTTGAAACTTGAAACTTCTAACTTCTAACTTCTATCCTCTAACTTCTATCCTCTAACTTGAAACCACAAACCATCAACCAAAGAGTGCCGTCAAAAGTTTGGCTATCGGAGCCATTTTTTGGCTTTTTCTTGAATGATGGCGGCTACTGTTCTGTTTTCGATTTTACTTTCGAGCCACGAAATAATGTCTAAATACAAAAAGGCTCTTTTTTCATAAGGGTGGTTTTCGTATTGCAACAATTGGGTGTGTAGTTTTTTAAACGCTGATTTGAGTTCGCTTGGGTATATTTTGTCTAAATTTTTCAAAAACTTGATCAT
+
+# Questionable array : NO	 Score: 7.98
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:-0.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTAAAACCACTTTAAAATTTCTACTATTGTAGAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.78%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [165,284] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_014084147 [1899472-1899882]; Unclassified_Cas_protein:WP_014084151 [1903821-1908242]; 
+# Array family : NA
+# Sequence source strain : FL-15
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium branchiophilum FL-15
+//
+
+

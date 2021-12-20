@@ -1,0 +1,512 @@
+Array 1 82128-81885 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=================================	======================================	==================
+     82127	    33	 100.0	    37	.................................	TCAAGAAAAGTAACAGAATAATCATAATCAGGAACAG 	
+     82057	    33	 100.0	    38	.................................	GATGGTAAAACATTAAAACAAATAGCAAATTATTTCCA	
+     81986	    33	 100.0	    36	.................................	TTTGCACATAGAGAAAGGAATTATCACGTCTAAATG  	
+     81917	    33	  90.9	     0	..............................NNN	|                                     	
+==========	======	======	======	=================================	======================================	==================
+         4	    33	  97.7	    37	GTATATAATCTAACCAGAAATTGGAATGTAAAT	                                      	       
+
+# Left flank :   TTCGAGTTGGGAGGCTGTAAACGATTTAATATATAATCTAACTAGAAATTGGAATGTAAATTTCTTTTAAATCGGTGAGCAATCAACTATAAAACGATATATAATCTAACCAGAAATTGGAATGTAAATCATAATCTTGAGCAAAAGATGAGACAAAATGACCAGGTATATAATCTAACCAGAAATTGGAATGTAAATATATTAGCGTAAATGAATATATTAATTCAAAAATGCCGTATATAATCTAACCAGAAATTGGAATGTAAATATGGTATAGGCGTGATCCTCTACCCTGGAGGATTTGGTATATAATCTAACCAGAAATTGGAATGTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATCTAACCAGAAATTGGAATGTAAATGTAGAAAGTTTTTCAAAAACAAAGGCACAACTTGTAT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAATCTAACCAGAAATTGGAATGTAAATCCAAAAGATACTGATTTAATGATATCCAATCCACCAGTATATAATCTAACCAGAAATTGGAATGTAAATCCAACCGTTATCGCAACTCATCAATGGTCGTATGATGTATATAATCTAACCAAAAATTGGAATGTAAATTCTAACATTCAAGATATTAAACTGAATGAAAATGAGTATATAATCTAACCAGAAATTGGAATGTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTATAATCTAACCAGAAATTGGAATGTAAATTTCGTTATCATGCGGAACGTCAAGGACGCTGAAAGCGTATA
+
+# Questionable array : NO	 Score: 7.92
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.89, 5:0, 6:0.31, 7:1.12, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTATATAATCTAACCAGAAATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [99,3912] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.23   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 2 82599-82360 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	================================	======================================	==================
+     82598	    32	  96.9	    36	.............T..................	TTCTTTTAAATCGGTGAGCAATCAACTATAAAACGA  	
+     82530	    32	 100.0	    37	................................	CATAATCTTGAGCAAAAGATGAGACAAAATGACCAGG 	
+     82461	    32	 100.0	    38	................................	ATATTAGCGTAAATGAATATATTAATTCAAAAATGCCG	
+     82391	    32	 100.0	     0	................................	|                                     	
+==========	======	======	======	================================	======================================	==================
+         4	    32	  99.2	    37	TATATAATCTAACCAGAAATTGGAATGTAAAT	                                      	       
+
+# Left flank :   GTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATCTAACCAGAAATTGGAATGTAAATACGAGATTAAATCTAAAATAAACATTGAACATCTAGATATATAATCTAACCAGAAATTGGAATGTAAATACAACATGGCTAAATGGTGAGCGTTGGAATGATGAAAATATATAATCTAACCAGAAATTGGAATGTAAATTTATTCCAGTTGTTACTGTTATAGCATCACTCATTAATATATAATCTAACCAGAAATTGGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTATAATCTAACCAGAAATTGGAATGTAAATGTGTGTGATTCGAGTTGGGAGGCTGTAAACGATTTAA
+# Right flank :  ATGGTATAGGCGTGATCCTCTACCCTGGAGGATTTGGTATATAATCTAACCAGAAATTGGAATGTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATCTAACCAGAAATTGGAATGTAAATGTAGAAAGTTTTTCAAAAACAAAGGCACAACTTGTATGTATATAATCTAACCAGAAATTGGAATGTAAATTCAAGAAAAGTAACAGAATAATCATAATCAGGAACAGGTATATAATCTAACCAGAAATTGGAATGTAAATGATGGTAAAACATTAAAACAAATAGCAAATTATTTCCAGTATATAATCTAACCAGAAATTGGAATGTAAATTTTGCACATAGAGAAAGGAATTATCACGTCTAAATGGTATATAATCTAACCAGAAATTGGAATGTANNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+# Questionable array : NO	 Score: 8.38
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:0.7, 7:1.12, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TATATAATCTAACCAGAAATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [574,3441] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 3 82828-82999 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+     82828	    33	 100.0	    37	.................................	TTTCATCATTCCAACGCTCACCATTTAGCCATGTTGT	
+     82898	    33	 100.0	    36	.................................	CTAGATGTTCAATGTTTATTTTAGATTTAATCTCGT 	
+     82967	    33	  87.9	     0	.............................NNNN	|                                    	
+==========	======	======	======	=================================	=====================================	==================
+         3	    33	  96.0	    37	ATTTACATTCCAATTTCTGGTTAGATTATATAT	                                     	       
+
+# Left flank :   TCCTCCAGGGTAGAGGATCACGCCTATACCATATTTACATTCCAATTTCTGGTTAGATTATATACGGCATTTTTGAATTAATATATTCATTTACGCTAATATATTTACATTCCAATTTCTGGTTAGATTATATACCTGGTCATTTTGTCTCATCTTTTGCTCAAGATTATGATTTACATTCCAATTTCTGGTTAGATTATATATCGTTTTATAGTTGATTGCTCACCGATTTAAAAGAAATTTACATTCCAATTTCTAGTTAGATTATATATTAAATCGTTTACAGCCTCCCAACTCGAATCACACACATTTACATTCCAATTTCTGGTTAGATTATANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTCCAATTTCTGGTTAGATTATATATTAATGAGTGATGCTATAACAGTAACAACTGGAATAA
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACATTCCAATTTCTGGTTAGATTATATATAAGAGATAACATGCTGATGAATAGTGATTTTAAGAGATTTACATTCCAATTTCTGGTTAGATTATATATAAATGAGTCTATGCTTCTGTCTCCAATTAACAACTTTATTTACATTCCAATTTCTGGTTAGATTATATATTTTGGATGGTGTTTCTTTGTATTTTGAGGAAATTCCTGATTTACATTCCAATTTCTGGTTAGATTATATATCGAAAATGAAAATGGCTATAGAGTTGTGCCAACATTATTTACATTCCAATTTCTGGTTAGATTATATATGCAAGGTGTTTTAGACAATAGAAGCACTTGGAATTCATTTACATTCCAATTTCTGGTTAGATTATATATCTCATCACCCATCGGATCATTAACG
+
+# Questionable array : NO	 Score: 8.30
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.80, 5:0, 6:0.31, 7:1.79, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTACATTCCAATTTCTGGTTAGATTATATAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.79%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [1042,3040] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 4 84080-83093 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                                                                         	Insertion/Deletion
+==========	======	======	======	=================================	========================================================================================	==================
+     84079	    33	 100.0	    37	.................................	TCTCACGATAGTTATTAGATTTAAGTCTCTTATTCTC                                                   	
+     84009	    33	 100.0	    35	.................................	ACTCCTCCCCGAGCGCTTAAAAGACAGACGCTTCG                                                     	
+     83941	    33	 100.0	    37	.................................	GAAAGCAAGACATGTATTCCCATACTCGTATTTTTCG                                                   	
+     83871	    33	  78.8	    88	..........................NNNNNNN	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	
+     83750	    33	  84.8	    36	NNNNN............................	TCTTGATTGACAATAGAAACAGTAAAATACAATGAG                                                    	
+     83681	    33	 100.0	    36	.................................	GCTAACAACAGCAATAATATTTCTCTTTTAATCTTC                                                    	
+     83612	    33	 100.0	    37	.................................	GTATTCTTTTTCTGAACCTTCACCATTAAATGTTTTC                                                   	
+     83542	    33	 100.0	    36	.................................	GAAGATGACCTCGTTAATGATCCGATGGGTGATGAG                                                    	
+     83473	    33	 100.0	    36	.................................	GAATTCCAAGTGCTTCTATTGTCTAAAACACCTTGC                                                    	
+     83404	    33	 100.0	    36	.................................	AATGTTGGCACAACTCTATAGCCATTTTCATTTTCG                                                    	
+     83335	    33	 100.0	    38	.................................	CAGGAATTTCCTCAAAATACAAAGAAACACCATCCAAA                                                  	
+     83264	    33	 100.0	    37	.................................	AAAGTTGTTAATTGGAGACAGAAGCATAGACTCATTT                                                   	
+     83194	    33	 100.0	    36	.................................	CTCTTAAAATCACTATTCATCAGCATGTTATCTCTT                                                    	
+     83125	    33	  90.9	     0	..............................NNN	|                                                                                       	
+==========	======	======	======	=================================	========================================================================================	==================
+        14	    33	  96.8	    40	ATATATAATCTAACCAGAAATTGGAATGTAAAT	                                                                                        	       
+
+# Left flank :   CAGAAATTGGAATGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATCTAACCAGAAATTGGAATGTAAATTACAAATAGTAGAGCACTAGCGCAGAAAAGGGGTGCGATATATAATCTAACCAGAAATTGGAATGTAAATTATGAATACTTGCTATTTAACTGTTAATAATGTTTAAATATATAATCTAACCAGAAATTGGAATGTAAATATAGAAAGTAATGGGGGAGGTAATAAAAATTGATTATAATATATAATCTAACCAGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATCTAACCAGAAATTGGAATGTAAATTATGAACTAATTGATGATTATATTCATAGTACAAA
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATCTAACCAGAAATTGGAATGTAAATACGAGATTAAATCTAAAATAAACATTGAACATCTAGATATATAATCTAACCAGAAATTGGAATGTAAATACAACATGGCTAAATGGTGAGCGTTGGAATGATGAAAATATATAATCTAACCAGAAATTGGAATGTAAATTTATTCCAGTTGTTACTGTTATAGCATCACTCATTAATATATAATCTAACCAGAAATTGGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTATAATCTAACCAGAAATTGGAATGTAAATGTGTGTGATTCGAGTTGGGAGGCTGTAAACGATTTAATATATA
+
+# Questionable array : NO	 Score: 7.68
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.84, 5:0, 6:0.31, 7:0.53, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATATATAATCTAACCAGAAATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.79%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1307,1960] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 5 84296-84468 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+     84296	    33	 100.0	    37	.................................	TTAAACATTATTAACAGTTAAATAGCAAGTATTCATA	
+     84366	    33	 100.0	    37	.................................	CGCACCCCTTTTCTGCGCTAGTGCTCTACTATTTGTA	
+     84436	    33	  87.9	     0	.............................NNNN	|                                    	
+==========	======	======	======	=================================	=====================================	==================
+         3	    33	  96.0	    38	ATTTACATTCCAATTTCTGGTTAGATTATATAT	                                     	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTCCAATTTCTGGTTAGATTATATATCGAAAAATACGAGTATGGGAATACATGTCTTGCTTTCATTTACATTCCAATTTCTGGTTAGATTATATATCGAAGCGTCTGTCTTTTAAGCGCTCGGGGAGGAGTATTTACATTCCAATTTCTGGTTAGATTATATATGAGAATAAGAGACTTAAATCTAATAACTATCGTGAGAATTTACATTCCAATTTCTGGTTAGATTATATATTTTGTACTATGAATATAATCATCAATTAGTTCATAATTTACATTCCAATTTCTGGTTAGATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGGTTAGATTATATATTATAATCAATTTTTATTACCTCCCCCATTACTTTCTAT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATTGATGGTAAGATAGATATTCAAGAAGGTAATGCAGTAATTTACATTCCAATTTCTGGTTAGATTATATATACACCACCTACTTTTTTTAATTTTGTCGTAATTGTGATTTACATTCCAATTTCTGGTTAGATTATATATTGTCTTAGTATATCTGACGTTCCTGGTATCTCTGTGATTTACATTCCAATTTCTGGTTAGATTATATATAACAAGTTCTATATTATTATCTTTATAGACAAAACTATTTACATTCCAATTTCTGGTTAGATTATATATCTATTTCCATCTTTATCAAAAACAACATCATACGTATTTACATTCCAATTTCTGGTTAGATTATATATGCATTAATCAGATTGCGCACCGTATTAGA
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.80, 5:0, 6:0.31, 7:1.56, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTACATTCCAATTTCTGGTTAGATTATATAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.79%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [2510,1571] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 6 84631-85006 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=================================	====================================	==================
+     84631	    33	 100.0	    36	.................................	ACACCACCTACTTTTTTTAATTTTGTCGTAATTGTG	
+     84700	    33	 100.0	    36	.................................	TGTCTTAGTATATCTGACGTTCCTGGTATCTCTGTG	
+     84769	    33	 100.0	    36	.................................	AACAAGTTCTATATTATTATCTTTATAGACAAAACT	
+     84838	    33	 100.0	    35	.................................	CTATTTCCATCTTTATCAAAAACAACATCATACGT 	
+     84906	    33	 100.0	    35	.................................	GCATTAATCAGATTGCGCACCGTATTAGAACGATT 	
+     84974	    33	  97.0	     0	C................................	|                                   	
+==========	======	======	======	=================================	====================================	==================
+         6	    33	  99.5	    36	ATTTACATTCCAATTTCTGGTTAGATTATATAT	                                    	       
+
+# Left flank :   CTGGTTAGATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTGGTTAGATTATATATTATAATCAATTTTTATTACCTCCCCCATTACTTTCTATATTTACATTCCAATTTCTGGTTAGATTATATATTTAAACATTATTAACAGTTAAATAGCAAGTATTCATAATTTACATTCCAATTTCTGGTTAGATTATATATCGCACCCCTTTTCTGCGCTAGTGCTCTACTATTTGTAATTTACATTCCAATTTCTGGTTAGATTATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATTGATGGTAAGATAGATATTCAAGAAGGTAATGCAGTA
+# Right flank :  TTTGCGATTTTCTTTTGTGTGTCATTCTTTTATTTATTCTTTACATTCCAATTTCTGGTTAGATTATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATCTAACCTCGAAATTATAATAACTTATAAACGATACGTTTACATTCCAATTTCTGGTTAGATTATATATCTTTCCTAAGGCTGTTAGGCAGGCTCTTACATTAAATGTTTACATTCCAATTTCTGGTTAGATTATATATATGTTGGTATAACTATAAGAATGTTACGCGTCTTTTGTTTACATTCCAATTTCTGGTTAGATTATATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+# Questionable array : NO	 Score: 8.39
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:0.31, 7:1.11, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTACATTCCAATTTCTGGTTAGATTATATAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.79%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [2845,1033] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 7 85237-85408 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+     85237	    33	 100.0	    37	.................................	CTTTCCTAAGGCTGTTAGGCAGGCTCTTACATTAAAT	
+     85307	    33	 100.0	    36	.................................	ATGTTGGTATAACTATAAGAATGTTACGCGTCTTTT 	
+     85376	    33	  93.9	     0	...............................NN	|                                    	
+==========	======	======	======	=================================	=====================================	==================
+         3	    33	  98.0	    37	GTTTACATTCCAATTTCTGGTTAGATTATATAT	                                     	       
+
+# Left flank :   TTAGTATATCTGACGTTCCTGGTATCTCTGTGATTTACATTCCAATTTCTGGTTAGATTATATATAACAAGTTCTATATTATTATCTTTATAGACAAAACTATTTACATTCCAATTTCTGGTTAGATTATATATCTATTTCCATCTTTATCAAAAACAACATCATACGTATTTACATTCCAATTTCTGGTTAGATTATATATGCATTAATCAGATTGCGCACCGTATTAGAACGATTCTTTACATTCCAATTTCTGGTTAGATTATATATTTGCGATTTTCTTTTGTGTGTCATTCTTTTATTTATTCTTTACATTCCAATTTCTGGTTAGATTATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATCTAACCTCGAAATTATAATAACTTATAAACGATAC
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATGAGGTAGGTGGCTTATGATTTATTTATATTTGTTTATGTTTACATTCCAATTTCTGGTTAGATTATATATCATGATGTCAATATGATATAATGTATTTAGAGATAGGTTTACATTCCAATTTCTGGTTAGATTATATATCCATGACTTGGCTTGCTACTGAGTTTCGTAAGAAATAGTTTACATTCCAATTTCTGGTTAGATTATANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACATTCCAATTTCTGGTTAGATTATATATCCGTTAAATATCAAAATTATTGATAAGAAACAATTA
+
+# Questionable array : NO	 Score: 8.40
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.90, 5:0, 6:0.31, 7:1.79, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTACATTCCAATTTCTGGTTAGATTATATAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [3451,631] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 8 85573-85745 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	==================================	====================================	==================
+     85573	    34	 100.0	    35	..................................	ATGATGTCAATATGATATAATGTATTTAGAGATAG 	
+     85642	    34	 100.0	    36	..................................	CATGACTTGGCTTGCTACTGAGTTTCGTAAGAAATA	
+     85712	    34	  88.2	     0	..............................NNNN	|                                   	
+==========	======	======	======	==================================	====================================	==================
+         3	    34	  96.1	    36	GTTTACATTCCAATTTCTGGTTAGATTATATATC	                                    	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATCTAACCTCGAAATTATAATAACTTATAAACGATACGTTTACATTCCAATTTCTGGTTAGATTATATATCTTTCCTAAGGCTGTTAGGCAGGCTCTTACATTAAATGTTTACATTCCAATTTCTGGTTAGATTATATATATGTTGGTATAACTATAAGAATGTTACGCGTCTTTTGTTTACATTCCAATTTCTGGTTAGATTATATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACATTCCAATTTCTGGTTAGATTATATATGAGGTAGGTGGCTTATGATTTATTTATATTTGTTTAT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACATTCCAATTTCTGGTTAGATTATATATCCGTTAAATATCAAAATTATTGATAAGAAACAATTACATTATAACATTCTATTCCAACAGTATCCATATTTTAATGATAAAAACAAAATATATTTTTTATTTATAGAAATATATCCTGTCGAACTCCAATATTTTTTACATAATGGAGTTCGACTATTTTTAATTTCTTACAAAAACTGATCATCTTCGTCTTGCTTTCTAGTTATAAACTCCTTTTTCATCCATACATTGCTTCTTCCGGAAAATACTAAACATGAATCAACATCTTTTTCTAAATATTTTTTTAATTCAAAAGTTAATGCAGCATATTGTGCTCTATCCAATTCACCCTCAAATACTGAATTTTGTATATGTCTTAAGTATTTTTTACACG
+
+# Questionable array : NO	 Score: 5.17
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.80, 5:0, 6:0.26, 7:1.71, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTACATTCCAATTTCTGGTTAGATTATATATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.53%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [3787,294] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 9 97629-97859 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===============================	=====================================	==================
+     97629	    31	 100.0	    35	...............................	TTCTTTTGAAACTCCGGCAAGATAAGATACTTAAT  	
+     97695	    31	 100.0	    35	...............................	AATTGAAATCAGTACAAGTAATACTAATGCACTAA  	
+     97761	    31	 100.0	    37	...............................	AAAGAAAACATTTAGATCAACACTCCTTTCTTTATAA	
+     97829	    31	 100.0	     0	...............................	|                                    	
+==========	======	======	======	===============================	=====================================	==================
+         4	    31	 100.0	    36	ATTCATAATCTAACCATATTGGAATGTAAAT	                                     	       
+
+# Left flank :   AAATGTATATTTTTAGTTAAAATCACATGTTCTACATCTAATACAAAAGAAATTCCATCAATAAAATCTAATGTTCTTATTAAGTGTTTTTCTTCTATATTACATATTACGATATCGTTTTGTTTAATATCTTCGCCTACCTTTTCTAAAATATTATAATCATTGATTTCGTATTTTTTTACAGTAACTAAATATTTTTCATCTTCATCAAATTCTTCATTATCAAGTAACCATTTTTTTAATTTATCCATTTTTATTCTTCCTTTCAATAATACATTATACTTGTTAAAAGAAAAAAATGTTCTCTTCTAAAGCGAATTAAAACGTATATCTATAAACATATCTGTCGATTTCAATTATGTAAAAATCATCAGAGATTGACACAACTCATTTACAAAATTTATAAAATTAATTTTATATAAATACAAAAGGCGTAGATTATACAACTATCTTATGCTATAATTTAATTGTTATTAAGAGCAATTACTTTGATTTCACGG
+# Right flank :  TTTGGATGGTTCTAATTTTTCTTTTATTACATCCTACAATTCATAATCTAACCATATTGGAATGTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAATTCATAATCTAACCATATTGGAATGTAAATCAGGGTAGCGGAAAGACTTTATCTGCTGTTAATTATGATTCATAATCTAACCATATTGGAATGTAAATTTTTGGTACTTGTGAATTATGATGGTGAAAATCTTGATTCATAATCTAACCATATTGGAATGTAAATATAGAAACCGCCAGCATTAGAAGAACTATTCCAGCATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNC
+
+# Questionable array : NO	 Score: 8.03
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.34, 7:1.09, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCATAATCTAACCATATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [251,1513] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 10 98027-98192 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===============================	=====================================	==================
+     98027	    31	 100.0	    37	...............................	CAGGGTAGCGGAAAGACTTTATCTGCTGTTAATTATG	
+     98095	    31	 100.0	    36	...............................	TTTTGGTACTTGTGAATTATGATGGTGAAAATCTTG 	
+     98162	    31	 100.0	     0	...............................	|                                    	
+==========	======	======	======	===============================	=====================================	==================
+         3	    31	 100.0	    37	ATTCATAATCTAACCATATTGGAATGTAAAT	                                     	       
+
+# Left flank :   ATTTATAAAATTAATTTTATATAAATACAAAAGGCGTAGATTATACAACTATCTTATGCTATAATTTAATTGTTATTAAGAGCAATTACTTTGATTTCACGGATTCATAATCTAACCATATTGGAATGTAAATTTCTTTTGAAACTCCGGCAAGATAAGATACTTAATATTCATAATCTAACCATATTGGAATGTAAATAATTGAAATCAGTACAAGTAATACTAATGCACTAAATTCATAATCTAACCATATTGGAATGTAAATAAAGAAAACATTTAGATCAACACTCCTTTCTTTATAAATTCATAATCTAACCATATTGGAATGTAAATTTGGATGGTTCTAATTTTTCTTTTATTACATCCTACAATTCATAATCTAACCATATTGGAATGTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNA
+# Right flank :  TATAGAAACCGCCAGCATTAGAAGAACTATTCCAGCATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCATAATCTAACCATATTGGAATGTAAATTTGATTAGGAGTCATCGCTCCTCTATCAACCATTGCATTCATAATCTAACCATATTGGAATGTAAATTGGTTTTGTTTTATATGTTTTTATTGCAAGAAAATGATTCATAATCTAACCATATTGGAATGTAAATCCATTACTTTCAATTGGACTAGTTCCACGCAAAAGATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAATCTA
+
+# Questionable array : NO	 Score: 8.53
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.34, 7:1.79, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCATAATCTAACCATATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [649,1180] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 11 98422-98585 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	===============================	====================================	==================
+     98422	    31	 100.0	    36	...............................	TGGTTTTGTTTTATATGTTTTTATTGCAAGAAAATG	
+     98489	    31	 100.0	    35	...............................	CCATTACTTTCAATTGGACTAGTTCCACGCAAAAG 	
+     98555	    31	  96.8	     0	..............................N	|                                   	
+==========	======	======	======	===============================	====================================	==================
+         3	    31	  98.9	    36	ATTCATAATCTAACCATATTGGAATGTAAAT	                                    	       
+
+# Left flank :   GTAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAATTCATAATCTAACCATATTGGAATGTAAATCAGGGTAGCGGAAAGACTTTATCTGCTGTTAATTATGATTCATAATCTAACCATATTGGAATGTAAATTTTTGGTACTTGTGAATTATGATGGTGAAAATCTTGATTCATAATCTAACCATATTGGAATGTAAATATAGAAACCGCCAGCATTAGAAGAACTATTCCAGCATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCATAATCTAACCATATTGGAATGTAAATTTGATTAGGAGTCATCGCTCCTCTATCAACCATTGC
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAATCTAACCATATTGGAATGTAAATTGCAAATTAAGAAACAAGAAATTGCGAATTGATGGTATTCATAATCTAACCATATTGGAATGTAAATGCTAATAATAGCAAGTACTAATTTTAATTACAAGTAATTCATAATCTAACCATATTGGAATGTAAATTACGATAAAGTTGTGTGCGACATAAATGGCATGTTCATTCATAATCTAACCATATTGGAATGTAAATTCATGATGAAATCTAGACTTCCACGCTAATTCTTTAATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATTCATA
+
+# Questionable array : NO	 Score: 8.40
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:0.34, 7:1.71, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCATAATCTAACCATATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1044,787] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 12 98747-98979 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+     98747	    32	  96.9	    35	...............................G	CTAATAATAGCAAGTACTAATTTTAATTACAAGTA	
+     98814	    32	 100.0	    35	................................	ACGATAAAGTTGTGTGCGACATAAATGGCATGTTC	
+     98881	    32	 100.0	    35	................................	CATGATGAAATCTAGACTTCCACGCTAATTCTTTA	
+     98948	    32	  93.8	     0	..............................NN	|                                  	
+==========	======	======	======	================================	===================================	==================
+         4	    32	  97.7	    35	ATTCATAATCTAACCATATTGGAATGTAAATT	                                   	       
+
+# Left flank :   TGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCATAATCTAACCATATTGGAATGTAAATTTGATTAGGAGTCATCGCTCCTCTATCAACCATTGCATTCATAATCTAACCATATTGGAATGTAAATTGGTTTTGTTTTATATGTTTTTATTGCAAGAAAATGATTCATAATCTAACCATATTGGAATGTAAATCCATTACTTTCAATTGGACTAGTTCCACGCAAAAGATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAATCTAACCATATTGGAATGTAAATTGCAAATTAAGAAACAAGAAATTGCGAATTGATGGT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATTCATAATCTAACCATATTGGAATGTAAATGGTTCAGGGACATCGTTTAGTGCTAAAGCAGAAGCAACATTCATAATCTAACCGTATTGGAATGCAAATTAATCATACTGAATAATCCCTTAACAACTCCACCAAATTCATAATCTAATCATATTGGAATGCAAATAACCATATACCATCCTTATTAGATTCTCCAGCAATCGATATGTAGTCTAAGCTAATTTAAAAAAAGAAAAAAGATATAACTATACTTTACCTCTAAAGTAATTATATCTTTTAATTTTGAAATTTAATTATCCATTAATTTGAGCACTTTGAATAACCAATTGACTTGCTTTTACACGATTATAATCATGTCTTAATGCTTCTTTATTAATTTGTTCTAAAACTTGCTCAACTG
+
+# Questionable array : NO	 Score: 5.24
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.89, 5:0, 6:0.7, 7:1.05, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCATAATCTAACCATATTGGAATGTAAATT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1369,393] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+
+Array 13 99078-99244 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ970956-Candidatus Stoquefichus sp. KLE1796 Scaffold754, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	===============================	======================================	==================
+     99078	    31	 100.0	    38	...............................	GGTTCAGGGACATCGTTTAGTGCTAAAGCAGAAGCAAC	
+     99147	    31	  93.5	    36	...............G..........C....	TAATCATACTGAATAATCCCTTAACAACTCCACCAA  	
+     99214	    31	  93.5	     0	.............T............C....	|                                     	
+==========	======	======	======	===============================	======================================	==================
+         3	    31	  95.7	    38	ATTCATAATCTAACCATATTGGAATGTAAAT	                                      	       
+
+# Left flank :   ATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTAATCTAACCATATTGGAATGTAAATTGCAAATTAAGAAACAAGAAATTGCGAATTGATGGTATTCATAATCTAACCATATTGGAATGTAAATGCTAATAATAGCAAGTACTAATTTTAATTACAAGTAATTCATAATCTAACCATATTGGAATGTAAATTACGATAAAGTTGTGTGCGACATAAATGGCATGTTCATTCATAATCTAACCATATTGGAATGTAAATTCATGATGAAATCTAGACTTCCACGCTAATTCTTTAATTCATAATCTAACCATATTGGAATGTAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  TAACCATATACCATCCTTATTAGATTCTCCAGCAATCGATATGTAGTCTAAGCTAATTTAAAAAAAGAAAAAAGATATAACTATACTTTACCTCTAAAGTAATTATATCTTTTAATTTTGAAATTTAATTATCCATTAATTTGAGCACTTTGAATAACCAATTGACTTGCTTTTACACGATTATAATCATGTCTTAATGCTTCTTTATTAATTTGTTCTAAAACTTGCTCAACTGTCATTTGATTTTGATTAGCAATAGCTTCAATTTGTTGATCAAGTTCTTCATCAGATGTTGTTAAGTTTTCAACTTTCACAATTTCATCAATAATAGCTTCAAATTTTGCTTGTTGTTTTGCAGCAGGTTCTAATTGTTGACGTAACATATCTTCATTAGCACCTGTCATTTGTAAATATTGTTCCAAAGTCATACCTTGTCTAGCTAATTCATTACGAAGATGATTCATATGTTCATTCATTGCTTTTTCTACATCTTCATCACC
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.79, 5:0, 6:0.34, 7:1.47, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCATAATCTAACCATATTGGAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1700,128] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_082787485 [86039-86356]; Helicase/endonuclease Cas3:WP_066451325 [87896-90064]; 
+# Array family : NA
+# Sequence source strain : KLE1796
+# Taxonomy hierarchy : Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales;Erysipelotrichaceae; Candidatus Stoquefichus.; Candidatus Stoquefichus sp. KLE1796
+//
+
+

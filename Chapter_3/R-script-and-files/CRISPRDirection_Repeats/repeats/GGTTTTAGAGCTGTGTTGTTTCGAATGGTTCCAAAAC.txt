@@ -1,0 +1,40 @@
+Array 1 4-304 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALZH01000015-Streptococcus mutans B115SM-A contig_238, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+         4	    37	 100.0	    29	.....................................	GACAGTAATTGGCGGAAACAACAATCAAG	
+        70	    37	 100.0	    29	.....................................	GATACGTATATGCTATTTTTATCTAGAAA	
+       136	    37	 100.0	    29	.....................................	ACGTTCTATGTTTTTATGGTTTATTCTGA	
+       202	    37	  97.3	    29	A....................................	AATAGAATCAAATTCTCCTAAGTCAGTTA	
+       268	    36	  73.0	     0	A..........CA.......A.TG..-T.A.T.....	|                            	A [284]
+==========	======	======	======	=====================================	=============================	==================
+         5	    37	  94.1	    29	GGTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAAC	                             	       
+
+# Left flank :   TGCG
+# Right flank :  CGCATTATGCGAAAGATTTTTAAATAAGCAAAAGACACTTGAAGCAATAATTCAAGTGTCTTTTATGGGACTTTCTTTAATTTTTAGGTAATGACCGTTCCGATGACTTCAATTGTATCATCTTCTTTTAAAATGATGTCATCATAATCTGGATTTAATGAGATGAGTCGAATTTCTTTGTTTTTTCGGTAGAGTTTTTTGACATATGCCTCATTATTTACAATAATAACGATAATTTGTCCGTGATGGATAGCTTTAGTCTTTTTAACAAAAATAACGTCACCGTTGTAAAATAAAGGTTCCATACTATTACCATTGACAGTAAGAGCGATATCATGTTCTGGAATTGGTATTGGGTATTTAATGGTTTCTTGTTTTTCATGTCCAACCCAGATACCAGTACCAGCTGAAACTTCACCATAAATCTGAATGTTTTCGTATTGACGTCCAAAGGTTTGATACAAATCCTTAGCTTTTATCACATTATCCCAATGAATAAT
+
+# Questionable array : NO	 Score: 6.55
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.70, 5:0, 6:1, 7:0.05, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.46%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [5,84] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : B115SM-A
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus mutans B115SM-A
+//
+
+

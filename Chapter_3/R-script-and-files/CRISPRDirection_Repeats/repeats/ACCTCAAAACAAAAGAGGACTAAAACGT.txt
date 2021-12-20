@@ -1,0 +1,118 @@
+Array 1 5491-5125 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AODL01000033-Listeria riparia FSL S10-1204 c31, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+      5490	    36	 100.0	    30	....................................	ATGGTTACTACAATAACAGCCTCTCTATAT	
+      5424	    36	 100.0	    30	....................................	AGCCACCACCTGCACACCACATTTATCTTT	
+      5358	    36	 100.0	    30	....................................	CTAATAACTGGAACAGGAATAGAACAACAT	
+      5292	    36	 100.0	    30	....................................	TTATTTTACTAACTAGCTTTTTTTACTCGA	
+      5226	    36	 100.0	    30	....................................	CCAAAATGGATTACGTAGATCGCAATGTAT	
+      5160	    36	  97.2	     0	.............................T......	|                             	
+==========	======	======	======	====================================	==============================	==================
+         6	    36	  99.5	    30	GTTTTAGTCCTCTTCTGTTTTGAGGTACTCTAAATC	                              	       
+
+# Left flank :   GCCGACCCGTTGGATGACCGTGAACGTTTTAGTCCTCTTTTGTTTTGAGGTACTCTAAATCACAGCAGATATGAATTAGCTAAAGCCGCACGTTTTAGTCCTCTTTTGTTTTGAGGTTGTAATACATATCTATTTTACTTTCAACAGTTTAACTATACCAAATTATTAGTAACTCTGCATCTTCGCGTAATCACACGTACTAAGTAATAATTTCCCGGACTAAATCAACCAAAAAATACCCTAAACCGCATCTTACACAGTGATCTACAGTGTTTCCCCTTCTTTCTAAGTGGAGAGACGGGGATTATGATAGTTGGATGAAATGTATTCGTGGTGCTGGTTTCAACGCTTATAATGTTGGCTGTGTGGCAATTTTGTGGCAAATAATTTTAAGAAGATGGTGAGAGGTTTTGTTCGTCATCTTCTTTGTTGTGTGCTGACTTGTTCTCTTCACAGCCATTGTAATTGGAAATATTATTCCTCACTTATCCACAGCAGAG
+# Right flank :  TGAAATAGACGGAGAACAAGCTTTCTGTATATTTTAGTCCTCTTCTGCTTTTAAGTACCAACTACTCATCATTATCTCCATATAATTTATTCAAAAATGTTTTCAAATCCTCAGCAAGCAAAAACATATTCTCCATTTCCGAATCAGATTCCATATCGTGTCGCCAAAAATAAACTTTTCCTTTATACTCGCTCTTCTCTGTTCCTATGCAGATTTCGTTTCCAGCAGGGTCGTCAGCAATAGAAATAAAACCATCTGGTATTTCACCATCCAATATTTCAAATGTCTCACCTAAATCCCCTGATTCTTCTCCAATGCCATAAAATTTATTAACTAAGCTAACGCCTTCATCATCTGATATTATAAAATTAGATTTTTCAGGGTACCCACCATTAAATTCAAGCAAGAAAGTCTTATATTCTTGCGGTAGGTTTAAACCATGCTTAGATTCAAATACTTCAATATCCTTACTAGTTATTTTTTTATTTTCACTGTTCATC
+
+# Questionable array : NO	 Score: 4.31
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.97, 5:0, 6:1, 7:0.34, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGTCCTCTTCTGTTTTGAGGTACTCTAAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.89%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.00,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [63,765] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FSL S10-1204
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria riparia FSL S10-1204
+//
+
+
+Array 2 5874-6033 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AODL01000033-Listeria riparia FSL S10-1204 c31, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+      5874	    28	 100.0	    38	............................	GCGGCTTTAGCTAATTCATATCTGCTGTGATTTAGAGT	
+      5940	    28	 100.0	    38	............................	TCACGGTCATCCAACGGGTCGGCAAAGAGATTTAGAGT	
+      6006	    28	  96.4	     0	..........................C.	|                                     	
+==========	======	======	======	============================	======================================	==================
+         3	    28	  98.8	    38	ACCTCAAAACAAAAGAGGACTAAAACGT	                                      	       
+
+# Left flank :   GTGCAGGTGGTGGCTGATTTAGAGTACCTCAAAACAGAAGAGGACTAAAACATATAGAGAGGCTGTTATTGTAGTAACCATGATTTAGAGTACCTCAAAACAGAAGAGGACTAAAACCTCTGCTGTGGATAAGTGAGGAATAATATTTCCAATTACAATGGCTGTGAAGAGAACAAGTCAGCACACAACAAAGAAGATGACGAACAAAACCTCTCACCATCTTCTTAAAATTATTTGCCACAAAATTGCCACACAGCCAACATTATAAGCGTTGAAACCAGCACCACGAATACATTTCATCCAACTATCATAATCCCCGTCTCTCCACTTAGAAAGAAGGGGAAACACTGTAGATCACTGTGTAAGATGCGGTTTAGGGTATTTTTTGGTTGATTTAGTCCGGGAAATTATTACTTAGTACGTGTGATTACGCGAAGATGCAGAGTTACTAATAATTTGGTATAGTTAAACTGTTGAAAGTAAAATAGATATGTATTACA
+# Right flank :  TCTTCTGTGGATAAGTATTCGACAATAAAGCCATAAAAACTGTGATTCAAAGAATTGGATCAGTAGTTTTTATGGCTTTATTCAATTATTAGCAAAGTGGATAATTGCCAATGGATGTTGTTTTGCGCAATACCTTCTTGTATAATGAATATATTGATAAATATTAGCAATATCAGACACGTATGAAGGTGGAAACATTTAGCTATACAACTATAAAACTAAATGGAGCTGAGCAGACAAATGAAAATCACCAAAATGAGAGTTGATGGAAGAACTATCGTAATGGAGAGGACAAGTAAAGAAGGCCAGTTGGTTTATGAAGGTATTGATGAGAACAAGACAGAAGAAATTATATTTGATAAAAAGAAAGAGTCGTTTTATAAGAGTATTCTCAACAAAACAGTGAGGAAACTCAATGAAAAAGAAAAAAAATAAACATAAAATAGCAATCAATAAAGAAATAACAAAATTAATGTCAGCGGTATTACACCAAGAAAAAC
+
+# Questionable array : NO	 Score: 3.95
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.94, 5:0, 6:1, 7:0.92, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACCTCAAAACAAAAGAGGACTAAAACGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [812,222] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FSL S10-1204
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria riparia FSL S10-1204
+//
+
+
+Array 3 9696-9466 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AODL01000033-Listeria riparia FSL S10-1204 c31, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=================================	=================================	==================
+      9695	    33	 100.0	    33	.................................	ATCGCGATGCCAATTAGTTCCGTTGGATATACT	
+      9629	    33	 100.0	    33	.................................	ATCTTTCAACAATCATTTCGTCAACAATTGCCA	
+      9563	    33	 100.0	    32	.................................	TCATATGGATGAATTTTTGATTCATGCGGTCC 	
+      9498	    33	  90.9	     0	................A..........T.T...	|                                	
+==========	======	======	======	=================================	=================================	==================
+         4	    33	  97.7	    33	GTTTTAGTCCTCTTCTGTTTTGAGGTACTCTAA	                                 	       
+
+# Left flank :   ATACTGTACAGATATCCCCATATCAAATATCTCCGAAAAATCATCAACACTTGGCAGTTTCTTTGTACTAATGATTTCTTCACCTTGAAGTGTGATAGGTAACGCTTTGCTATCATCTTTCTTCAATAAACGTATAACCTCATCATTTTTGAGAAACGGTTCTAGCGAATCTTCCAGGTAAAAAGCATCAAGAACTATTTGCTCCTCCTTTACGAAGAGATAACTTTCTTGGAACTCCTTGTTAAAAATAGAATTGAATAGCTCTAGCTCTACTTCATCAGACTGTTTAGACTGTCTCGTGAGTCGAGGAAAAAAGTAAGTTTTATCATTTTTGTACTCCTAACTGCTTTCGAAACTAAAATAGGATACATCATTGTTTTGCAAGTAAATACTGCATCATTGACTACCGATTGGATGAGCATCACTTTGAACGCTCTATTTTCTATGGCTACTAACCTCCGTTAATTAGAAATAACTTATCCCACTTATCCACAGTAGAG
+# Right flank :  TACTTTATTCTTTTATTAATAATTGAAATACCCTACGTCACATCTCCAATAATGCCTTCACTATACTACAATACTCTTCTGAAACTTGATTCGTTTCAATATAACTGTCATTTAATTTTTTTCCACTTAAATGTCTCAATTTTTTTTGGTTTTAGGCTTGCTATCACCAATCTGTGTTTATTGTTTTTCAAGTTAGCAAACACAACACACATACCATGCTTATCTAAAAGATCGATTAATGATTTAGTAACTGCGTTCTTTAATTTGCGATCATATTTAAGCATTTCTCTTAATTTCTCGAATAAATACAATAACGAATATTTATGTTTTGGTGATAAATAATTTAAATGTGCTATATAGTTCCTTCCATTTTTCTCAGAAACAAATAGCCCTGCCTTGTTCATGAAAATATCCAGCTTTTCAATATAATCTGGCCTGTTTTTTCTGATAGTATTAATCCAGCTATCCACTCTTTCGGTATGTCCAGAACTCTTTAAATA
+
+# Questionable array : NO	 Score: 3.72
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.89, 5:0, 6:0.31, 7:0.92, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGTCCTCTTCTGTTTTGAGGTACTCTAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.64%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.70,-5.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [109,252] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FSL S10-1204
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria riparia FSL S10-1204
+//
+
+

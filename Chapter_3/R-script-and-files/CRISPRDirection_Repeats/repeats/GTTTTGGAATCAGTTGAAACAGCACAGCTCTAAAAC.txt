@@ -1,0 +1,43 @@
+Array 1 259880-259381 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSJM01000001-Streptococcus cuniculi strain NED12-00049-6B 1, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    259879	    36	  80.6	    29	.....TCT..G..A.....T......A.........	AGAAAGCTCAGCATCATACCTTGAACGAC 	G,T [259864,259867]
+    259812	    36	  97.2	    30	.........C..........................	TGGTAAACTGTAACATGCTAGAAACCGTAG	
+    259746	    36	  97.2	    30	.........C..........................	AATACATTTAAAATACCAAATCTGTTAAAA	
+    259680	    36	 100.0	    30	....................................	TATTCTTTTAAGGTAACAATAGCGTCCTTT	
+    259614	    36	 100.0	    30	....................................	TGCTTGGCTTGATGGTTATGAGGTTGAGCA	
+    259548	    36	 100.0	    30	....................................	TTTCTGTTCGGATTCGGTATCTCAACCGTG	
+    259482	    36	 100.0	    30	....................................	GCCCATTGTGTATTGGTTAAGATAGTCTGA	
+    259416	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         8	    36	  96.9	    30	GTTTTGGAATCAGTTGAAACAGCACAGCTCTAAAAC	                              	       
+
+# Left flank :   AGGTAAAAAAGCTGTTGTGATTGGTCGTAGTAATATTGTTGGAAAGCCCATGGCTCAATTGTTGCTGGATGCCAATGCGACGGTGACCATTGCTCATTCGCGGACAGAGAACCTACCAGCTCTTGCTCGAGAAGCGGATATTTTAGTGGTGGCTATCGGGCGTGGACATTTTGTGACCAAGGAGTTTGTCAAAGAAGGTGCTGTAGTCATAGATGTTGGCATGAACCGAGATGAGAATGGTAAGTTGATTGGCGATGTGGCCTTTGATGAAGTAAACGAAATCGCCAGCCATATCACACCTGTTCCCGGAGGTGTAGGCCCAATGACCATTACCATGCTCATGGAGCAAACCTATCACGCCTGCAAAAGATTTCTTGGTACGCAAGCAAATCAGCCCTAAGACCGATGTCGGAAAGCTAAGAATAGGATATACTATTATCAATCCTAAATATTTTTCATAATCTCCAAAAACCCAACCAGCTTTTCCAAAAGCTGGTTGG
+# Right flank :  CTCGCAGGATTTTTTCTACAAGATTTCGTAATCGCGCCATTCGTCTCAGCTAGACTCTCGCTCCAACTGATTCCTTTTTTTCTTAACTTATTATATCATATTTTAGTAGTGAAGAAACAATGTATGTGGGAAAATTGTATCATTTTCGAGGTTCTAAAATACAGTTCTTCTAGGAGTGTACTTTCTATAGATATTGGAAATAGTTCAGTATAAGTCTTTCGAACCTTTTGTAGATATGGTATACTGAAAGCGGAAACAAAAAAAGCACCGAATCGGTGCCACCTCTTGCGAAGTTGAATACGGACAAAGCCTTATTTTAACACGCTGTGCTGTTTCAGCTAATTCCAATGACTATAGTATACAAGATTTTCTCAATTTTTGCAAGCGTTTTATCGTAGAATTGTTAAAAATTTCCTATTTTAAACCATCACAGCTCTAAAACTTATTGAAAGTCTTAGAGAAGCGTTTGCCGGTTTTGGAATCAGTTGAAACAGCACAGC
+
+# Questionable array : NO	 Score: 8.13
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGAATCAGTTGAAACAGCACAGCTCTAAAAC
+# Alternate repeat :   GTTTTGGAACCAGTTGAAACAGCACAGCTCTAAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.30,-3.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [726,103] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_075103980 [253337-253681]; 
+# Array family : NA
+# Sequence source strain : NED12-00049-6B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus cuniculi
+//
+
+

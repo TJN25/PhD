@@ -1,0 +1,214 @@
+Array 1 470-13 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AGBG01000021-Ectothiorhodospira sp. PHS-1 contig021, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+       469	    29	 100.0	    32	.............................	GTGATTTAAATGATTAAAGTGGAAATTGATTC 	
+       408	    29	 100.0	    32	.............................	TTGATCCTGATATTTTTGTTCCCGCTCATTCC 	
+       347	    29	 100.0	    32	.............................	GTCGCGCGCCCTGCTTGCGATTGATGCGTAAG 	
+       286	    29	 100.0	    32	.............................	CGCATGTGCTCGTGAGTCAGCTCCGCATCGTC 	
+       225	    29	 100.0	    32	.............................	TTCGTTGGCAGTGAAAAGTGTATTTCCTGCGT 	
+       164	    29	 100.0	    33	.............................	GCCCTTTCGGCCTGCCAGCTTGCCCGCCGTGGA	
+       102	    29	 100.0	    32	.............................	ATAACCGGATGGGCAGTACCACACGTTATCGT 	
+        41	    29	 100.0	     0	.............................	|                                	
+==========	======	======	======	=============================	=================================	==================
+         8	    29	 100.0	    32	GCGTTCCCCGCAGGTGCGGGGATGAACCG	                                 	       
+
+# Left flank :   GGCGCCGGCCATTCCTCTTGCGGAGCCTTTGGGTGATGCTGGTCATCGTGGTTGAAAATGTGCCGCCGCGCTTGCGTGGGCGTCTGGCTATCTGGCTATTGGAAACGCGAGCCGGGGTTTACGTTGGGAAGGTCAGTCGCCGGATTCGTGAGATGATCTGGGAGCAGGTGGTAGCCGGTATAGAGGATGGCAATGCCGTGATGGCTTGGTCCACCAATACGGAGGCTGGCTTTGATTTTCAGACCTGCGGCAAAAACAGACGCCTTCCATTGGACCATGACGGGATGAAACTCGTGTCTTTTTTTCCCGATCCAGTGGGGGATGAAGCAGGAAACTGATGCGCATGTGTTGGTACAAATCCTGATTGCTTCTGTTTGGTATGTATAACTATTTGATTTTTAATGCTCTTTAAAAACTTGGGAAGTGTCGTGAAAGGAATAAGTGTTGGTAGAGTTTTTTGTGCTTTAAAAATTTAAATTTTTCATGGAGTTAGAGGAAGT
+# Right flank :  GTTCATCGGAGGT
+
+# Questionable array : NO	 Score: 8.08
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGCAGGTGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [10.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [14,163] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.82   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas7:WP_008932533 [3072-4199]; Helicase/endonuclease Cas3:WP_040405727 [6391-8967]; 
+# Array family : NA
+# Sequence source strain : PHS-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;Ectothiorhodospiraceae; Ectothiorhodospira.; Ectothiorhodospira sp. PHS-1
+//
+
+
+Array 1 1-501 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AGBG01000025-Ectothiorhodospira sp. PHS-1 contig025, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+         1	    29	 100.0	    33	.............................	TGGTTCGGGCTGCACATCACCCGGGTGCCTGGT	C [6]
+        64	    29	 100.0	    32	.............................	AACCACACAAACGACTCATCCGTTACAAGCGT 	
+       125	    29	 100.0	    32	.............................	CCGTCATGCCCGGCAGCGTCACCGCGCAGTGG 	
+       186	    29	 100.0	    32	.............................	ATCAGCTTAAATCTGATCTTCTTGGCGTCAAT 	
+       247	    29	 100.0	    32	.............................	TCCTCAAAGCCCCGGAAGGCGCTGACAAACAG 	
+       308	    29	 100.0	    32	.............................	CTGGTGACGCTTCAGGGTGGTCCACTCGATCT 	
+       369	    29	 100.0	    32	.............................	CCAGTGATGCCCGCATGGTCGCCGGTGATGTG 	
+       430	    29	 100.0	    12	.............................	GGCCTACCCGCG                     	Deletion [472]
+       471	    29	  75.9	     0	.T...T..AAG....CA............	|                                	AG [483]
+==========	======	======	======	=============================	=================================	==================
+         9	    29	  97.3	    30	GCGTTCCCCGCAGGTGCGGGGATGAACCG	                                 	       
+
+# Left flank :   |
+# Right flank :  GCTCGCTCTGAAGACGTTTTACTTAAACTCCGGCGACTGATGCCGATCCGTCCCCGGGCCCTACGTCCACAACGATTCGTGGTATGACCACAACGGCTCGATGTAACCGGATCGACTGCTAGGGAGTATAGCTTTGATCGAAGTGCAGATCGATGGCGCCGAACCGACCGCCGCGCTGGAGCGCCTGGCCCAGGGCACCGGTAATTCCCAGCTTGTCCTGGATGAGGCGGGCGAACTCCTGTGCACACCACTCGGCGCCACTTTATCGACAAGCAGGCGCCGGACGGCAGCCCTTGGCCCGCCGCAACTACTCACGCCCCCTGCCTATCACTGTGTTTGGCGCACGCAAGAAGCGCAGAGTACTGCTGACGTTGGAAACGATTTCTATTGGCAGGAAAAAGCAGGAGTGACTTGGCCGCCCCATGCCCGGCCAAGTCGCCACAGGCGTATAGCCGAAGGAAATGACCTGACGGCACCCCTGCCGCAACGTCCGCAACGTT
+
+# Questionable array : NO	 Score: 7.56
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:0.70, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGCAGGTGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [2,1102] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : PHS-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;Ectothiorhodospiraceae; Ectothiorhodospira.; Ectothiorhodospira sp. PHS-1
+//
+
+
+Array 1 520-4 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AGBG01000093-Ectothiorhodospira sp. PHS-1 contig093, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       519	    29	 100.0	    31	.............................	TTTTTTGTGACATTGATGGTATTAACCTGCC 	
+       459	    29	 100.0	    32	.............................	CAACAACCAAAAAACCAAAACAAAACCAACGA	
+       398	    29	  96.6	    32	............................A	ACCGATTGGCGGGGAAGTTCGCGGGGAAGCCC	
+       337	    29	 100.0	    32	.............................	GTGATGACCTTGCAGGCCGGGAGTGTCGTGTC	
+       276	    29	 100.0	    32	.............................	AATACGATCCGTCGCTAACTCGGTCTCAGGGC	
+       215	    29	 100.0	    32	.............................	TTTGCGCAGATTGAAGCGGCCGATAGTACGGT	
+       154	    29	 100.0	    32	.............................	CAAATGGTGATTGAAATGGTAAAAATCGAGAT	
+        93	    29	 100.0	    32	.............................	GCTTGTCAACATCCATTTGCCCATCACGTTGA	
+        32	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         9	    29	  99.6	    32	GCGTTCCCCGCAGGTGCGGGGATGAACCG	                                	       
+
+# Left flank :   GCCCTCAGTAGAATATTCAGAT
+# Right flank :  GGCT
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.98, 5:0, 6:1, 7:1.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGCAGGTGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : PHS-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;Ectothiorhodospiraceae; Ectothiorhodospira.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAGBG01000093.FEATURES             Location/Qualifierssource          1..542/organism="Ectothiorhodospira sp. PHS-1"/mol_type="genomic DNA"/strain="PHS-1"/isolation_source="hot spring microbial mat on Paoha; Ectothiorhodospira sp. PHS-1
+//
+
+
+Array 1 31-364 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AGBG01000101-Ectothiorhodospira sp. PHS-1 contig101, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+        31	    29	 100.0	    32	.............................	GTGAGGTATCAACGCCTTCCAGTCACTATTCC	
+        92	    29	 100.0	    32	.............................	CGTCCACTTTAATGTAAACCTGGCTGGTTTCC	
+       153	    29	  96.6	    32	............................A	GAATATCAACGGAAACACTCCTGCCAAAAATC	
+       214	    29	 100.0	    32	.............................	AGCATCGGTAATCCCGAAAAAATAACCGGCAA	
+       275	    29	 100.0	    32	.............................	TGGCTGGCCTTTTGGGTCATAGCACAGACAGC	
+       336	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         6	    29	  99.4	    32	GCGTTCCCCGCAGGTGCGGGGATGAACCG	                                	       
+
+# Left flank :   TGCGATCCTTGCGTCAATGCTTGTTCTTGTG
+# Right flank :  GATTGTGATTAACAAAACACGGACGCCAAACGGCGTTCCCCGCAGGT
+
+# Questionable array : NO	 Score: 8.23
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGCAGGTGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [26.7-36.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : PHS-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;Ectothiorhodospiraceae; Ectothiorhodospira.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAGBG01000101.FEATURES             Location/Qualifierssource          1..411/organism="Ectothiorhodospira sp. PHS-1"/mol_type="genomic DNA"/strain="PHS-1"/isolation_source="hot spring microbial mat on Paoha; Ectothiorhodospira sp. PHS-1
+//
+
+
+Array 1 398-3 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AGBG01000102-Ectothiorhodospira sp. PHS-1 contig102, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       397	    29	 100.0	    32	.............................	TCGGCAACAGCTTTGGCGTCATGTCCGATGTC	
+       336	    29	 100.0	    32	.............................	TGCGCACGGTCAGGTTTACAGGTGCGAGGCCC	
+       275	    29	 100.0	    32	.............................	GTCGTCAATGTGATTCTCCGAGTAGAGTTGAC	
+       214	    29	 100.0	    32	.............................	GCAGGACCGTCGCCAGCAAGCACGGCGGCGTG	
+       153	    29	 100.0	    32	.............................	CAATGAATTTTGGGCCGGCCAAGTGGTGAGGC	
+        92	    29	 100.0	    32	.............................	AACCATACCAGCATGCACAGAGCATGCCATGT	
+        31	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         7	    29	 100.0	    32	GCGTTCCCCGCAGGTGCGGGGATGAACCG	                                	       
+
+# Left flank :   GGCGCCCTCG
+# Right flank :  GCT
+
+# Questionable array : NO	 Score: 8.21
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.21, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTTCCCCGCAGGTGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [1.7-3.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : PHS-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;Ectothiorhodospiraceae; Ectothiorhodospira.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAGBG01000102.FEATURES             Location/Qualifierssource          1..408/organism="Ectothiorhodospira sp. PHS-1"/mol_type="genomic DNA"/strain="PHS-1"/isolation_source="hot spring microbial mat on Paoha; Ectothiorhodospira sp. PHS-1
+//
+
+

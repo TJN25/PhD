@@ -1,0 +1,38 @@
+Array 1 40285-40440 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FSRB01000005-Singulisphaera sp. GP187, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================	==================
+     40285	    28	 100.0	    39	............................	GCCCTGGTCGAACGCCACCACCAGGACCTCAGGCAGAAC	
+     40352	    28	 100.0	    32	............................	CCGGTCGTGAGCCCACTTCAACGCCCTTCCGT       	
+     40412	    28	  78.6	     0	.GG....GC.............G...C.	|                                      	T [40429]
+==========	======	======	======	============================	=======================================	==================
+         3	    28	  92.9	    36	TACCGATAGACCGGACATACTTACCCGC	                                       	       
+
+# Left flank :   CATCACAATAGCCTGTCGCTGCCCCACCTTCGAGTGGGCAAGGTTGAAGCAGCAAAGCGAAATGCAGGCAAGCTTGCTGGACCTGCTCCGCCAGGTCCAGCATGACAACGCGACCCTCCTGAACGCACACTGGGAGCGGAGCAACCGAGTCGACCGCGAGTTAGCCGCCCTCCGTGCGGAGTTCCCTCCCCTCCCCCACCCCTTCCCAGGTCTCTCCGTTGCGAATCGAACGGAAACCTCCCGAGTCCCTCAATCCCGAAGGCTCGACGACCTGGCTCTTCGAAAGAGGGGCAGACCGATCGAAACCGATCTCCTCCTCCCCAAAGCGTTCACCCGGCCAGTCCTTGCCACCTGGAAACTCGGACGACGAGCCCAAAAAGCGGTTCAGACGCCCCCATCCCGCGATCGGTCCGAATTCATTTTTTTGGGATTTGGCTGCGACCACGGACAAGAATTTGGGCAAGCTTCACAATCTCGGTTCATCTCCCAGCACGGCTCCG
+# Right flank :  CCGGCCTGCGCGCAACCAACGATTGACTTACGTCCACCACGATCGTTCAGACATACTTTCCGCCCGCCCTTCGACGTTACGGTATCCCCTGAACCCTTCGACGTTTACCGATTAATCCGAGACGATCGACTCTCCGGCCTGAGTCTCGGTGCTTAAGCATGTTTTTGTGTACATGCCGATTAACCGGACATACAGGCTTCCGGCACGCACCTCAATCCCTTTGTACACTACCGATATTCCACCCATAGTTGCTTTTTGTCCACCACGATCAACCGGACATGATTCGGCCGCCGTTTAGCGATTAATGGGACATACTTCTCACGATAGCCCGGACATAGTTCGCCCCTGCACCCACGATAGCCCGGACATACCACTAGCGATTAACGGGACATAGTTAGGGTTCATAAGTTCTGGATCACAAAACACTTGCGGCGCCTAGAATTTGTATTAGACTCTTGTTTAGAAGAAAAGAACAACAACAGCTCGCCGCTGTTTTGATG
+
+# Questionable array : NO	 Score: 4.05
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.65, 5:0, 6:1, 7:1.31, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TACCGATAGACCGGACATACTTACCCGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [45.0-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [39,580] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : GP187
+# Taxonomy hierarchy : Bacteria; Planctomycetes; Planctomycetia; Planctomycetales;Isosphaeraceae; Singulisphaera.; Singulisphaera sp. GP187
+//
+
+

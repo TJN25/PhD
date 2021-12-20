@@ -1,0 +1,39 @@
+Array 1 1540-1754 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JOHD01000008-Streptomyces sp. NRRL F-5702 contig8.1, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+      1540	    30	  96.7	    31	.........................C....	TTCCCGGGCGTGAGCGCTGGACCCGGCAGGC	
+      1601	    30	 100.0	    31	..............................	ACAGCGTGAAGACCGAGCAGTAGCCCGTTGC	
+      1662	    30	  96.7	    31	............T.................	AGAGCGTGAACACGGACGCATAGCCCGTCGC	
+      1723	    30	  83.3	     0	..........T..GT.......G..G....	|                              	GA [1750]
+==========	======	======	======	==============================	===============================	==================
+         4	    30	  94.2	    31	GTGGTCCCCGCGCACGCGGGGGTGGTCCCC	                               	       
+
+# Left flank :   CGACAAAATCCCACCCCACATCCCCAGGACAGCAGAGTCCCGATCGCCGGACGCCACGGAACCCACCCACGAAGCGCTACTGGTCGAATGCACCAACTGCCGCCGCCCAGGCCCACCACAAGCCCTGCCCGACGGCCTCTGCCGCACCTGCCACCACGCACACACTCACGGCGGCGAGCCCACCACCCCCACCCCGGACGAGATCGCCGCCGTCAAAGCCCACATCGCCAACCTCCGCAACCTCCTCAAGCCCGCCTAACCCCTGCCCCACGGCTCCCGGTTGGGCAGGACGGGCACACCGCATCCCCAGGACCAGCCCCACAGAGAGCAGAACCGCAGCCCACCCGCCGAAGCCAGGCCCAGACAGGACCGGCGGCGGGCAGAATGGGCAACAGCCGAACCACACGTGACCACTTTGCGACGGAAGGCGAGATATGCCGGTTCCTCAAGAAGTAAGCAAAAACCGCATTCCCGCCACCTAAACCCCCAGGTCACGAAGG
+# Right flank :  CCGAGCGGCCCGGAGTCCGCTCGGCCCTGATGCTGCGCGCCCGCGGTTCGCGCGACCCTCGCCCCCCGCCCGCAGGCATCTGCCGCCCGCCGCACGGCAGAGCGCCCGGTCGCCGTACGAGGGGTACGGCGGCCGGGCGCTCCGGTTCCACGGGTCAGGTCGGGGGAAGCGGCATCGGGGGGACAAGCCGCTTCCCCCGGTGGGAACAGCGCCTGCGGTCGGTCGTCGCGGTCAGGGGGAATCGCGCGGCGGGCCGACCCCACAGAGAGGCCCTGTTCCGGCCTTCCGGGTCCTGCCAGGTCCCGTCGGGCTCGGTATCCATGCTGCCGGGCGGGACGGCTCGGCGGGGCGGGCGAAAGGCCCCGATGGCCGGGTCGTAGGTCCTTAAAAGGTGCATCAGTGATCGAAAACAGCCATCAAATGCGGTCATGCGTACGGATAGAATCGCCCGACCGCACATGGGGCCGACGGGGAGGCAGGATTGTGGCCAAGGCAAAGAC
+
+# Questionable array : NO	 Score: 4.56
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.71, 5:-1.5, 6:0.99, 7:0.07, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGTCCCCGCGCACGCGGGGGTGGTCCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [46.7-20.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [243,660] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL F-5702
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. NRRL F-5702
+//
+
+

@@ -1,0 +1,326 @@
+Array 1 548703-548890 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                                                 	Insertion/Deletion
+==========	======	======	======	==========================	================================================================	==================
+    548703	    26	  92.3	    64	..C....................T..	CTTAAATTTATTTGGCAGATAATTTTCCAAAGGCACGCAAAGCGAGTGAACAATTTTTATTAGC	
+    548793	    26	 100.0	    46	..........................	GCTAAATTTATTTAGCAGATGATTGAAGCGAACAATTTTTATTAGT                  	
+    548865	    26	 100.0	     0	..........................	|                                                               	
+==========	======	======	======	==========================	================================================================	==================
+         3	    26	  97.4	    56	AATAACCATAAAAATTGTGAGCACCT	                                                                	       
+
+# Left flank :   CATATTATCAGGATACTGATGTTATAGAGTATATTCAAAGTTTGGGTATAGCTGTTCAAGGCTGGTATCCTTTGGGCGGAAGAGGACATCAAAGAGAACTTTTAAATGACAAAGTATTAAAAGATATTGCTCAAAAATATAAAAAGTCTGTCGCACAAATTATATTAAGATGGAATTTGCAAAGAGAAGTAATTGTAATACCGGGCTCTAGCAATAGAGAGCATATAATAGAAAATACAGAGATATACGATTTTGAATTAAGTGATGATGACATGAAAAAAATAGCAGAATTAAACCGTGATGAAAAACATGATTGGTATTAAAAATTAATTGAGACATGGTTTATATATAGAGTTTTTAAAGTACATATTTTTTAAGTGAATAAAAAATTATATAGTAAATTTGGTTAATATCTCATTTTAAATGAGTTTATTGATAGCAGCAAATATAAAAATTTAGGGCGTCTTTTAAGAGCCTTTAAGCCCGAAATTTTTATTAAC
+# Right flank :  TGCTAAATTTATTTAGCAGGTGATTGAAGCGAACAATTTTTATTAGTAATAATAGGAGCAATTATGCAAAAAAGAAAATTAGGTAATTTGGAAGTATCAGAAATAGGTTTAGGCTGTATGGGATATGGTGTCGTGTATGATGAGCATTATGACAAAAGAGAATTAATATCCGTTATACATGAGGCTATAGAATTGGGTATTAATTTTTTTGATACGGCAGAGGCTTACGGTCCATACAAAAATGAAGAGGTTGTAGGAGAGGCATTAGAAAAATACAGAGATAAAGTTGTAATAGCTACAAAATGCGGAATAAAAACTGTAAATGGCAAACCTGTACTTAATGCTAAAAGAGAAACTATAATAAAATCATTGGAAGGTTCATTAAAAAGACTTAAAACGGACTGTATTGATTTGTACTATATTCATAGAGTTGATCCTAATACTCCAATAGAGGAAGCAGCCGATACAATGAAAGATTTAATAAAAGAAGGTAAAATAAA
+
+# Questionable array : NO	 Score: 1.66
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.87, 5:0, 6:0.26, 7:-1.56, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AATAACCATAAAAATTGTGAGCACCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.23%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.00,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [179,63] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 2 1431218-1428031 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+   1431217	    30	  93.3	    38	A...T.........................	CTTCTAAAGTATAACCAGCCGTACCTGTAGCAAACGCA	
+   1431149	    30	 100.0	    38	..............................	TATTACTATCAGTTATTACAGTCTCATACTCAAATAAA	
+   1431081	    30	 100.0	    37	..............................	TAAAAAATAACAACACTATAGGATATGTTCCTCTTGA 	
+   1431014	    30	 100.0	    38	..............................	AAGTTGGCATAATTAATAATGATGTTGTTTGTTTATTA	
+   1430946	    30	 100.0	    36	..............................	ACTCATTCAATTCATTTTGTGCATCAATGATAGCTA  	
+   1430880	    30	 100.0	    37	..............................	AAATAAGTTTAATAAAATATTATCGAAATGGGAAATA 	
+   1430813	    30	 100.0	    37	..............................	ACTTCTTGGAGCTATAAAGAATGATAGGAACTATATA 	
+   1430746	    30	 100.0	    38	..............................	CTTATGGTGGCGGTGTTCCTGATGTATCATCAAACAGA	
+   1430678	    30	 100.0	    36	..............................	TTGCAGTTGTACTTACATATTTGCCTTTTATGATAA  	
+   1430612	    30	 100.0	    38	..............................	TAAAACTATCAACATCATTCCCAGTATAAAAAAACTCA	
+   1430544	    30	 100.0	    37	..............................	TTTAAAATATAAATATAATGCTTATATGTCTTTTAAA 	
+   1430477	    30	 100.0	    37	..............................	AAGTGAGATAGTAGGTGATGAGGTTATGGATATTACA 	
+   1430410	    30	 100.0	    37	..............................	TTTAAAATATAAATATAATGCTTATATGTCTTTTAAA 	
+   1430343	    30	 100.0	    38	..............................	CTTATGGTGGCGGTGTTCCTGATGTATCATCAAACAGA	
+   1430275	    30	 100.0	    36	..............................	TTGCAGTTGTACTTACATATTTGCCTTTTATGATAA  	
+   1430209	    30	 100.0	    37	..............................	TTTAAAATATAAATATAATGCTTATATGTCTTTTAAA 	
+   1430142	    30	 100.0	    37	..............................	AAGTGAGATAGTAGGTGATGAGGTTATGGATATTACA 	
+   1430075	    30	 100.0	    38	..............................	ATGTTGATTAGTGTTATACCAGTTTGCAGTTGCTTGTT	
+   1430007	    30	 100.0	    38	..............................	TAAGAATAAATATTTTTAGTAAAAATAAGTTGTATGCT	
+   1429939	    30	 100.0	    36	..............................	CGTTTTATGACTGGTTAGGTCGCAGTAAAAAAGAAT  	
+   1429873	    30	 100.0	    37	..............................	ATATTGTACTTCCCAAACACCGCCGAACAGATTTTCT 	
+   1429806	    30	 100.0	    36	..............................	CTATCTAATATTACAAGTTTTTTATTTTCAAAGTGT  	
+   1429740	    30	 100.0	    37	..............................	TTGAGTATCAAGACGTTGGAGTTGAAAGTAATTTCGT 	
+   1429673	    30	 100.0	    37	..............................	GCTAACTCTTGAGGCGTGTAATATCTTTTTATGCTAT 	
+   1429606	    30	 100.0	    37	..............................	ACCTATACTAACATTATATTTACGATATTTTTTGTAT 	
+   1429539	    30	 100.0	    37	..............................	TTAAGCTAGTTACTTGATTTACTACTTTACCATTTGT 	
+   1429472	    30	 100.0	    38	..............................	CTACTATTTCCGATCCCGGTCTTATGGATCATACTTAT	
+   1429404	    30	 100.0	    37	..............................	AGTATTACTAAGATGACTAAATTAATTGAGACTGTCT 	
+   1429337	    30	 100.0	    37	..............................	ACTAATATTTATAATTAAGATATCGGGTTTTGCATAT 	
+   1429270	    30	 100.0	    37	..............................	TGTTCTATAAAGTCTATAAACTCATTAAATGTTTTTT 	
+   1429203	    30	 100.0	    37	..............................	ACCGACTGTATCAAGTTCTCTATTTTTATACAAAACT 	
+   1429136	    30	 100.0	    37	..............................	TACTCATTCAATTCATTTTGTGCATCAATGATAGCTT 	
+   1429069	    30	 100.0	    37	..............................	ACCTAGACGACATGAAAGTTTTTATATATTGTCAAAT 	
+   1429002	    30	 100.0	    38	..............................	ATAAATTATTTGTCAATAGAAAAGCCCGCAAAAATGCT	
+   1428934	    30	 100.0	    37	..............................	ACGCTGTATAATATTAACTTTGACAGTATTATACATT 	
+   1428867	    30	 100.0	    38	..............................	AAACAGCAAAAAGCATTAGAATTACAACAAAAACAACT	
+   1428799	    30	 100.0	    37	..............................	AATTAAATATGATGTAATATATTCTACTTCAGAGGAT 	
+   1428732	    30	 100.0	    38	..............................	AAAAATAAATTATTAAATAATGCTTTAATTAATAGAGT	
+   1428664	    30	 100.0	    37	..............................	AGTGAATTAGAACTCGGTTGTTTTATAGCTAGCTTAT 	
+   1428597	    30	 100.0	    37	..............................	AGTAAAGAAACTTGAAAGATATTTTAAGAATGTTAAT 	
+   1428530	    30	 100.0	    38	..............................	ATATAAAAAAAGAAACTTGGGAATTAGTAAGTATAAAT	
+   1428462	    30	 100.0	    37	..............................	AAATTGTTTATATTTGACTGAGCCCGCTTTTCATAAT 	
+   1428395	    30	 100.0	    37	..............................	AATCACTTTTTTGTTATAGCTGTCAAACTCCAAAAAT 	
+   1428328	    30	 100.0	    37	..............................	AAGTTAATTTAAATTGGTACAATTTAAGTCAAAAAAT 	
+   1428261	    30	 100.0	    37	..............................	TCAAATGAGAATGATATAATATTAGATTGTTTTGCAT 	
+   1428194	    30	 100.0	    37	..............................	AGAAAATATGCATTGTGAATGTAAAACTGTAGATACT 	
+   1428127	    30	 100.0	    37	..............................	TAGTGTTTCTCTAGTGCCAGTAACACCTGCATTTTGT 	
+   1428060	    30	 100.0	     0	..............................	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        48	    30	  99.9	    37	TTTACATTCCAGTATGGTTAGATTAGAAAT	                                      	       
+
+# Left flank :   AATATTACTTTACCTTTGTTTATGATGTAAAATTTTCCATCTGGATATTGTCCAGATATAAATAATGTTGATGATTTTTTAAAATTAATTTTGTTGTAATTTATCATCATTTACAGACCCCTTATTGTATTTTTTTAAAAATGATGTTAGAGTAATAGTATCATAGATGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGGATAACGCTCATTTCTATACCATAAATTATAATTACGGCTGTATTATAATATATTTATTTTATTATGTCAATATAAAAAATTAATGTGATTTTTAAGAGCAGTATATATTATTTATTTATTAATTATAAATATTTTATAATATTTATGATGCTAGTCAAGCATGTTAAATATAAA
+# Right flank :  CCGTATATCCAAAACTATTTTTCTAATTTACATATTTAATTTGCTTAAATGCACAAATACATAATGAAAAAACAGTTAATAAATATATTTTTGGCAAAAATCTTCTGTCGATTAAGCACAATTTTATAACAATTACACTTCGACAATAAACTTATTTTATATAAAATTAGATGTTTTGTCAATGCTTTCTTCTACTAAAAACTCTTTATCAAGCCATTTTTCATTACGGCTTTTAAAAACTATACAAGAATCTTTTTCTTTTCTTAAAATGTCAAAGAGCTTATTTTTTAATTCCAAATACTGTACTTTTGAGAGTTCACCCTCAAAGACAGATTTTTGTATATGATTAAGATATGCCTTGCAAGTCTTAAAAACTGTTCTTGCAGCTCTAGCACCATCTTCGTCATCTGTTTGTATATCATAAACTAATATTAAATACATTATTGCTTACCACCATATTACAAAAGGTTTATATTCTTTTTCATTAAGCAAATGTTTAG
+
+# Questionable array : NO	 Score: 8.72
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.99, 7:0.73, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTACATTCCAGTATGGTTAGATTAGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [76.7-86.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [158,391] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 3 2625598-2625371 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                                                                	Insertion/Deletion
+==========	======	======	======	=======================	===============================================================================	==================
+   2625597	    23	 100.0	    79	.......................	ATTATATAAACCTAGCTCTCTTTTTGCATTTGCTCTGTTATAATAAGCGTCCGTATAATTAGAATCCAATTTTATAATT	
+   2625495	    23	 100.0	    79	.......................	TTCATATAATTCTAAATCATATTTAGCATTTCCTCTATTAATATAAACATTTATATCTTTAGGTTTCCATTTTATAGCA	
+   2625393	    23	  95.7	     0	.................G.....	|                                                                              	
+==========	======	======	======	=======================	===============================================================================	==================
+         3	    23	  98.6	    80	TTATCATAATCTTTTATAGCTTC	                                                                               	       
+
+# Left flank :   CTTTTATAGCTTCTTTATACTCTCCCAATTCATCTTTAGCACTTCCTCTGTTGCTGTAAGCATATACATAATTAGGGCTTAACTCTATAGCCTTACTATAATCTTTTATAGCTTCTTTATACAAACCTAAACTACTTTTAGTAAGTCCTCTATTATTATAAGTATTGCTGTCATTAGGATTTAACTCTATAGATTTATCATAATCCTTTATAGCTTCTTTATATAATTCTAAATCATTTTTAGAAAGTCCTCTGTTATTGTATGCTTCACTGTAAGTTGGTCTTAATTCTATAGCCTTATCATAATATTTAATGGATTCTTTTAAAAGTCCCAAATCATATTTAGCACTTCCTATATTATAATAGGCTTCTGGATTATCAGCACATAAATCTATAGATTCTTCATAATCTTTTATTGCTTCTTTATACATTCCTAAACCGCTTTTAGCAAGCCCTCTATTATTATATGCTTCACTGTAATTAGGATTCAAATATATAGCT
+# Right flank :  TTTAAATAAACCTAACTCTTTTTTGGAATTTGCCCTGTTATAATAACAATCTGCATAATTAGGATTAATCTTTATAGCTTTGTCATAATCTTTGATAGCCTCTTTATAAAGTCCCAAATCATGTTTAGAATTGCCCCTATTACCATAGGCATAATAGTTATTAGGATCTAACTCTAAAATCTTATTAAAATCTTTTATAGCCTCATCAAAAAGGTGTAAATAATTTTTTGAAACACCTCTATTATTATATGCATCTATATTTTTATGGTCTAACTCTATAACTTTAGAGTAATCTTCAATAGCTTCTTTGTGTAAATTAGCATTATTTTTAGCAAGCCCTCTATTATAATAAGCATCTTTATAATTTTTACTTAATTCTATAGCTTTATCGTAATCTTTTATGGCTTTTTTAAAAAATCCTAAATTATTTCTAGCAAGTCCCCTATTATAATAAGCCAAAGCATAATTAGGGATCAAGTCTATAGCTTTATTATAATACT
+
+# Questionable array : YES	 Score: 0.27
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.93, 5:0, 6:0.25, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTATCATAATCTTTTATAGCTTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.26%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1114,729] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 4 2626103-2625875 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                               	Insertion/Deletion
+==========	======	======	======	========================	==============================================================================	==================
+   2626102	    24	 100.0	    78	........................	CTCTCCCAATTCATCTTTAGCACTTCCTCTGTTGCTGTAAGCATATACATAATTAGGGCTTAACTCTATAGCCTTACT	
+   2626000	    24	 100.0	    78	........................	CAAACCTAAACTACTTTTAGTAAGTCCTCTATTATTATAAGTATTGCTGTCATTAGGATTTAACTCTATAGATTTATC	
+   2625898	    24	  95.8	     0	......C.................	|                                                                             	
+==========	======	======	======	========================	==============================================================================	==================
+         3	    24	  98.6	    78	ATAATCTTTTATAGCTTCTTTATA	                                                                              	       
+
+# Left flank :   CTTCTTTATAAAAAGCCATATAAAATTTGGCCAATCCTCTTTCATAATAGGAATTATAATCCCCAAGCTCAATAGCTCTGTCAAAATCTTTTATAGCTCCTTCATATAAACGCAAATTTAATTTTGCTAATCCTCTATTATGATAAAGATCATAAGAATCACCATTATAAAATATAACTTTATCAATATATTCAATAGCTTTTTCATAATCCTTATTTTCAAATGATTCCTTAGCTTTATTTAATAATTCTTCAATACTATTATTACTATTATTCATAATACAATTTCCTATAAAACTAATTTTTTATATAATTTTATTTAAGTCCATATTCTTTTTTAAGACTTTTCATATTTTCAATTGCATATTCATTATTTGGCTCTAATTCTAAAGCCTTTTTATAATCTTTCAATGCTTCTTTATATAGTCCCGCATTTTTCTTAACCCAGCCTCTATCATTATATAAATAAGCCATATTTGGTTTTAATTCTATAGCTTTATC
+# Right flank :  TAATTCTAAATCATTTTTAGAAAGTCCTCTGTTATTGTATGCTTCACTGTAAGTTGGTCTTAATTCTATAGCCTTATCATAATATTTAATGGATTCTTTTAAAAGTCCCAAATCATATTTAGCACTTCCTATATTATAATAGGCTTCTGGATTATCAGCACATAAATCTATAGATTCTTCATAATCTTTTATTGCTTCTTTATACATTCCTAAACCGCTTTTAGCAAGCCCTCTATTATTATATGCTTCACTGTAATTAGGATTCAAATATATAGCTTTATCATAATCTTTTATAGCTTCATTATATAAACCTAGCTCTCTTTTTGCATTTGCTCTGTTATAATAAGCGTCCGTATAATTAGAATCCAATTTTATAATTTTATCATAATCTTTTATAGCTTCTTCATATAATTCTAAATCATATTTAGCATTTCCTCTATTAATATAAACATTTATATCTTTAGGTTTCCATTTTATAGCATTATCATAATCTTTTATGG
+
+# Questionable array : YES	 Score: 0.27
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.93, 5:0, 6:0.25, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATAATCTTTTATAGCTTCTTTATA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:83.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1618,224] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 5 3169192-3169820 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	=============================	==============================================	==================
+   3169192	    29	  82.8	    46	......TCTAA..................	ATCAAAAGTGAAAAACATGATTTATATGTTTGCTTATTGTACATAT	
+   3169267	    29	  89.7	    46	....................A...G.C..	TTCAAATGTGGAAAATATGTCTGGCATGTTTTTGGGTGCTAAAAAG	
+   3169342	    29	 100.0	    46	.............................	ATCTAAAGTGAAAGATATGAGCGATATGTTTCATAGCTGTGAAGTA	
+   3169417	    28	  79.3	    46	......-.......GG.C..A...G....	TTCTAATGTTAAAGATATGTCTAATATGTTTAATGTGGCTTTGAAA	A [3169426]
+   3169492	    29	  89.7	    46	.........AA.A................	ATCTAATGTTGAAGATTTATCAAAGACGTTTCGTTATTGTAAAGCT	
+   3169567	    28	  82.8	    46	...G...........-..G.....G.C..	ATCTAATGTGAAAAATATGCAACATATATTTTCGGACTGTGAAAAT	C [3169579]
+   3169642	    29	  82.8	    46	...............G....A...G..AC	TTCTAATGTTGAAAGTATGGAATTTGCATTTAGAGCATGCGGTAAA	
+   3169717	    29	  89.7	    46	...................GC......A.	GTCTAAAGTAACAAATATAGAGCATATGTTTGCTTTTACACACGAA	
+   3169792	    29	  75.9	     0	............C.TG....A...G..AC	|                                             	
+==========	======	======	======	=============================	==============================================	==================
+         9	    29	  85.9	    46	TTTAATCAGCCTTTAAATAATTGGAATGT	                                              	       
+
+# Left flank :   TGGATTTAATTTTATGAATTACCTTACATTTAAGACGATTTTAGTATGATTTAGTATTAATTTTATACTTGCACTTTCGCGAAGCGTGCCTACGGCAGCAACTTTGGCGAAGCCCACCTGCGGTGTGCGGCGGGAAAAAGTTGAATAAAAAAATTGACAAACTTAAAAATTTTCAGTATATATAAATAAGTATTATTATTAGTAGTTAATTTAGTGCTGCTATTTATATATATTAAAATTTATAATGAGGATATGAGATGATGAAAAAATATAAACCAACAACAAAAGAAGAATTAAAAAGATTAGTATTCACCAACAACGGTATAAAACTTAGTTGTATTGATACAAGTCTTATTACAGATATGAGCGACCTTTTTAATAAAAGTGAAAGAAAAGATTTTGATGGCATAGAAGAGTGGGATACTTCTAATGTTGAGAATATGGCTTATATGTTTGCATATATGGACTACAATGTTTTGGGACAATATTCAATGACAGAG
+# Right flank :  CAAGAAATGTCATTAGTGTAATGCTGTTGTTTGCCTATGCACACAAGTTTGATCATTATGAATCTTTAGCAAATTGGAATTTAGACAGTTTACAAGCTATAAATATAATTTGTGATGATAAGGATATGGATAAATTACCTACAAGAATTCAAGTATATAGGCAGGCATTTTTTCCTAAGGCCGATATTATAAGTATAACAAAATTTAATGTTAAAGAAATATATGAGCTTATTGCAGATGATAAAAATAAAAAAGTTGTAAGATTGAAAAAAAGACTTGAAAGTGATTTCTCATCAGAGCTTTCATTTGTTACAAATAATTATAATTTCAAAACTATAGAAAAAGCAGAAAAGTATGCTGAAAGAAATTACAATGCTAAAAAATATGATAAGAAACTTGAATTTATAAAAAAGTGCCATGTATTAATAAAAGATAAATCAAGAGAAGTGAATATAAATCTTATAAAGTATATATATTCAGAATATTTGTCTTTAAAGAAA
+
+# Questionable array : NO	 Score: 2.10
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.30, 5:-1.5, 6:1, 7:0.05, 8:1, 9:0.25,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTAATCAGCCTTTAAATAATTGGAATGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [8-21] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [632,1821] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 6 3172243-3171845 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                                     	Insertion/Deletion
+==========	======	======	======	=======================	====================================================	==================
+   3172242	    23	  87.0	    52	.....A.GC..............	ATCGGCAGAATAAAACATAGATTCCATAGTTTTTACATTGGATACATTCCAG	
+   3172167	    23	  78.3	    52	C...T...............TTG	TTTACATCGGCAAAACATATCATGCATGTTTTCAACTTTTGAAGTATTCCAT	
+   3172092	    23	 100.0	    52	.......................	AATGGCGGAATGAAACATAGCCTCCATAGTTTTTACATTGGATACGTCCCAA	
+   3172017	    23	  87.0	    52	....TA.G...............	GCCACATGCATTAAACATATAACTCATATCTTCAACTTTACTAACATTCCAA	
+   3171942	    23	  78.3	    52	....T..T.TT...........T	TTTAGCAAGACTAAACATACCGCTCATATTTGTAACATTAGAAGTATCCCAT	
+   3171867	    23	  87.0	     0	..G..................CT	|                                                   	
+==========	======	======	======	=======================	====================================================	==================
+         6	    23	  86.3	    52	TTATCTAAAGGCTGATTAAAAGA	                                                    	       
+
+# Left flank :   TACTTATAAAGCTTACCTTCTTATCATCTTTTTTATTATAATTGTTTTCCACATACTTTTCTGCTTCTTCTATAGTTTTGAAATTATAATCATCAGTAACAGATGAAAGTTCTTCACTAAACTCTGTTTCTAATTTCTTTTTTAATGCCATAACTTTTTTATTTGTATCTTTTAATATTGCATTATATACTTCTTTGACATTCTCTTTTGTGATAGTTATATAATCTCTTGATACTAAATCATATTCTTCTGATATAAAATCATCATCATATTCTTCATTATTTTCTATAGGTACATAAACTTTGTGAGAACCATAAAATGCCTGCATATATACTCTAAGTCTTAAAGGCAATTTTTCATAGAATCTTTCATAGTTAGAACAGAAATCACTAATATCTGATACTTTACTTAAATCCCAATTTGCTAATGAGTCATAAGAGTCATAACTGTCAGTATATTTAAACATTGAGTACATTTTACTTAATCTTTTTGTATTCCAT
+# Right flank :  TAAACATTCTCTAAACATCCAAGACATATTTTCAACATTAGAAGTATCCCAGTCCTCTATGCCTTCAAAATCTTTTCTTTCACTTTTCTGAAAAAGTTCACTAATATCTGTAATAAGGCTTGTATCTACATCGCTAAGTTTTATACCGTCAGTAAATACTAATTTTTTAAGTTCTTCTTTTGCTGCTGGTTTATGTTTATTCATCAATTCCCCTAATTTCAATATGGATATATAATATTATAAAAATCAATTATATTTTTATAGAAGACACAAAACTATGATGCCTAAAAATTATTTGTTATAATTAAAATAAATCTGTAAGTCTAAAATCCAAAATGATAAATACTAAAAATGTATAAACAAATCTTTTACTTATTTCTTTTTTATTTTTATCTTTTTTAAAATCGATAGTAATATTTACTAAATCATCATATTCTATATCCTCATCAACTTTTGCAGACATTGTAAAAATATCTCCATCATTTGATGTAAATGTATAT
+
+# Questionable array : YES	 Score: 0.77
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.31, 5:-1.5, 6:0.25, 7:-0.50, 8:0.8, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTATCTAAAGGCTGATTAAAAGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.91%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [8-8] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-76.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [306,1845] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+
+Array 7 3174324-3174961 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_014150-Brachyspira murdochii DSM 12563, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	======================================	=====================================	==================
+   3174324	    38	  86.8	    37	.......CTAA................G..........	TAAAAAGATGAGTAATATGTTTGCCTATTGTTCTAAT	
+   3174399	    38	  84.2	    37	...............G....G...G...CT.....T..	TTCCGATATGTCATTTATGTTTTTGGGGGCAAAAGTT	
+   3174474	    38	  84.2	    37	............C.T...G........G.T.....T..	TAAAGATATGAGAGGTATGTTTAAGTTAGCAGAAAGT	
+   3174549	    38	  81.6	    37	..............GG....A...G...CT.....T..	TGAAGATATGTCTTGTATGTTTAATCTGGCAAAAAAC	
+   3174624	    38	 100.0	    37	......................................	TGAAGATTTATCAAATATGTTTAGTTATTGTACTATT	
+   3174699	    38	  78.9	    37	............C.T..CG.....G.CG.......T..	AAAAAATATGGAATCTTTGTTTGATAGTTGTTCTAAT	
+   3174774	    38	  86.8	    37	...............G........G...CT.....T..	TGAAAATATGTTTAGAATGTTTGATGATTGTAAAAAC	
+   3174849	    38	  86.8	    37	...................GC......G....C..T..	AACAAATATTGCATACATGTTTATGTTGGCAAAAAGT	
+   3174924	    38	  76.3	     0	...........GC.TG....A.......C.AAA.....	|                                    	
+==========	======	======	======	======================================	=====================================	==================
+         9	    38	  85.1	    37	TTTAATCAGCCTTTAAATAATTGGAATATATCTAAAGT	                                     	       
+
+# Left flank :   GTATATAGGATACGATGTCGTTAAAAGCTATTCATTAAAAACAAAGAATGGAGATACTTTTACTATAGATGCAGATGTTAATTCTAAAACCGATTTTCATGACAGAGTAAAAATTAATATTTATTTTGATAATGAAAATGGTGAAGAGGTGAGTAAAAGATTTATTTATACTTTATTGGTATTAATGATTTGGGATTTTAGACTTACAGATTTATTTTGATTATAATAAATAATTTTTAAATTTATAATTAGGATATTAGATTATGAAAAAATACAAACCAGCAACAAAAGAAGAACTCAAAAAATTAGTATTTACTGACGGTATAAAGCTTAATTGTGTTGATACAAGTCTTATAACGGATATGAGCAATCTTTTTCATGAAAGTAAAAGAAAAGATTTTAAAGGCATAGAAGATTGGGACGTTTCTAATGTTGAGGATATGTCTTATATGTTTGCATATATGGACTATAATTTTATTTTAGACTTATCAAAAATAGAT
+# Right flank :  TAATTAGTATAGCATTTTTATTTCAATATGCCGATAAGTTTGATCATTATGAATCTTTAGAACATTGGAATTTAGATAAATTAAAAGATATAACTTTAATTTGTGATGATGAAAATAAATTGCATACAAGACTTAAAGTATATATGCAAGTTTTTTATCCTAAAGAAGATTATATAACTATAACAAAAGATAATGTTAAAGAAATATATAATCTTATTGCGAAAGACAAAAATAGAAGAATCTCTAGATTAAGAAAAAAACTTGAAAGTGATTTTTCTAAGGAGCTTTCATCTATTACAAAAAATTCTGATTAAAAAACTATAAAAAAATAATGAAAAATGCTATATTAAAATCAATTTGGAGAGAATTATGAGAAAATACAAACCAGAAACAAAAAAAGAATTAAAAAAATTAGTATTTACTGATGGTATAAAACTTTGTTATATTGATACAAGTCTTATCACAGATATGAGCAAACTTTTTTATGAAAGCAAAAGAAA
+
+# Questionable array : NO	 Score: 2.18
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.25, 5:-1.5, 6:0.29, 7:0.89, 8:1, 9:0.25,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTAATCAGCCTTTAAATAATTGGAATATATCTAAAGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.95%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.10,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [17-27] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-76.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [282,369] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_013113744 [1423021-1423761]; Endonuclease Cas2:WP_013113748 [1427590-1427874]; Endoribonuclease Cas6:WP_013113741 [1419576-1420334]; Helicase/endonuclease Cas3:WP_013113745 [1423758-1426052]; Unclassified_Cas_protein:WP_013113742 [1420351-1422111]; 
+# Array family : NA
+# Sequence source strain : DSM 12563
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Brachyspirales; Brachyspiraceae;Brachyspira.; Brachyspira murdochii DSM 12563
+//
+
+

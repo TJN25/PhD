@@ -1,0 +1,116 @@
+Array 1 911029-911238 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LJJF01000002-Streptomyces sp. MJM8645 8645_contig2_contig000001, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	===========================	==================================	==================
+    911029	    27	 100.0	    34	...........................	CTGCCCGGGCCGTCGTCGTTGGCCCTGCCAGTAA	
+    911090	    27	 100.0	    34	...........................	GTGAGCGGGCCAAGGCGGCCGAGCTGACGGCGGG	
+    911151	    27	 100.0	    34	...........................	CGACTTCATGCTCCACATCCAGGCGACCTTCGGG	
+    911212	    27	 100.0	     0	...........................	|                                 	
+==========	======	======	======	===========================	==================================	==================
+         4	    27	 100.0	    34	TCGGCCCCGCGCTCGCGGGGATTGCTC	                                  	       
+
+# Left flank :   AGGTGAGCCCCGCTTGACGGACCGCGGCCTCGCCGGCGGCATCGAGATGCTGAAACGCCGGGGTGGCCTTGCCACAGTCATGAATCCCGCACAACCAGGCGAACAGACGCCGCCCCTTACCCGCACCCCCCGCCAGAGCGTCCAGACGCCACCGCGTCACCGGCGGCAGGTAGCGGTCCCAGACAATCTCGGCCACCGCCGCAGTGTCCAGCATGTGCGACAGCAGAAGGTTGGCCGTCCCCCCAGCCCGCCCGGCAGACTTACCCCACAGCGCACCCAGCCACCCCCTGACCTCGGGCGGGTACCACTGCCAACGACCCTCAACCATCGTCTCAACCTCCACGTGCAGATACGCTTCGAGAGCGTAGGACACGGCACTGACAACTCGCCTCGGAGCAAAGAAATATGACGGTCATACATCGAATCCCCTCCGGGCTGCCATCCGATCGAACTGAATCAATCAGGCCCTTCTGCCGCTAATCACCGCAGGTCAGAAAGCA
+# Right flank :  CCGGCCTCGACCCGCCCACGCTCGACCAGCTCAGCGCGATCGCCCGCGCGATCGGGATCCCGCTCTGGCGCCTGTTCCTCGACGAGTAGCACTGGCCGGCCGCACCACCGTACGGCCGACCGGGGAGTCACTTCTCGGGGTTCGGCGGCGGGTCGGCCGGCGGCGGCGGGGTCTTCGGTGCCGCCGGCGGTGCCTTCGGGCCACCGATTCCGCCCGAACCGCCACTGGGGTCCTTCTGCGGGGTCATGTCGTCCTCCTCGATCTCCTCGTCCGCCGGGATCGGGATCTCGCCCGGCGGCGGCATCAGGGGGTGCCGCCCGCGGTTTGGGCCCGCGGTCTCACGGCGGCCCCGACTCCAAGCACCCTGGCGTTTAGGGGGGATGGTGGCGCTCATGGTGTCCTCTCTGTGACTGTCCTGCCGGGTCACCCATGATGGGGCCTCAGCCCCACCCGTTGCCGAACGTCCCCACCGGATGGCCGAGGTCCGCACACGGCGCACA
+
+# Questionable array : NO	 Score: 6.56
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:0.28, 7:0.68, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCGGCCCCGCGCTCGCGGGGATTGCTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.70,-9.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [48.3-23.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [174,440] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_063352765 [907941-910856]; Unclassified_Cas_protein:WP_063352463 [1214897-1216243]; 
+# Array family : NA
+# Sequence source strain : MJM8645
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. MJM8645
+//
+
+
+Array 2 912797-912948 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LJJF01000002-Streptomyces sp. MJM8645 8645_contig2_contig000001, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+    912797	    30	 100.0	    31	..............................	GTGCTGGCGAGCTGCTGGGCGAGCGCGGTCT	
+    912858	    30	 100.0	    31	..............................	CCACCAGGTCCGCGACGATGCCCACCTGGAC	
+    912919	    30	  96.7	     0	.........................C....	|                              	
+==========	======	======	======	==============================	===============================	==================
+         3	    30	  98.9	    32	ATCGGCCCCGCGCTCGCGGGGGTTGTTCCG	                               	       
+
+# Left flank :   ACAGCCGATCGGCCAGGCTCGCCCGGGACTTGAAGTCGACCCGCCACTCGGCGGAGTCCTGCACCGCACCGTCCCACCAGTAGACGGACTGGACACGGTAGACCTGCGCACACGCGGCCAAGCGGTCACGGATCACCGCCGAAGCGAGCTCACGGGCCTTCGTCTCGTCGTCATGGGTCGTCGTCACCACAACGAAGTCACTGGTCGTCATACCGTGACGGTACCCGGCATCAACCGCCGCCCCCACTCTGCCCGACGGACCTACCCCACAGCACGCCCAGCCAGCCCCTGACCTCGGGCGGATGCTGCTGCCAACGGTCCTCAACCATCGTCTCAACCTCCACCTGCGAGTACGCTTCGAGAACGTAGGCCACGGCACTAACAACCAGCCCTGGGGCAAGGAGAGATGGCAACAACGCATCGACTGTTCGACGGGCCCTCTACCAATCGAACTGAATCAATCAGGCCCCTCGCCCGCTAATCACCGCAGGTCAGAAAGC
+# Right flank :  GCGGCCTCCCACTCAGACGACCACAGCAGTTCGCGGTGCTCACTCCTTCGCCCGATGATGCTGGCCCGACGAGACGACAAAATAGGCGTGGACGCGTCAAACTGTTCGCGAATTGAGTCGCTGAATTCAACAGGTTCCCTGCGGAACTGGGCGTACGAGTCGCCAAAGGAGACCGCCGGCCGTGAGCCCGGCCGCGGTCCAGGGCCGTCCTGCCTAGCACGCCGAGCCAGCGCCGAGGTCTAGGAGAGAACAGCTGGCTCTCCCTCAGTGCCGCCCAGACTGCTGCGGGCACGGGATTTTTCCGAGGGTGGTTGATTTCTTTCAGGACCATCTTCGCGGCTTATTCTCCCTGGTCGGCCGCAGATCGCAATAACAGCACGGGAGTTAGACGCCTATGGGCGCTAACCACGTCGAGCGTGACCGAGTTCAAGGTCTTCCAGGCTTGGGAAGCCTTCGCTGAGAACGGTTCCGGACCCTCGATCCGCACCAGAGCCAGAGCA
+
+# Questionable array : NO	 Score: 6.13
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:0.99, 7:0.10, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATCGGCCCCGCGCTCGCGGGGGTTGTTCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [45.0-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [291,340] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_063352765 [907941-910856]; Unclassified_Cas_protein:WP_063352463 [1214897-1216243]; 
+# Array family : NA
+# Sequence source strain : MJM8645
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. MJM8645
+//
+
+
+Array 3 927026-926817 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LJJF01000002-Streptomyces sp. MJM8645 8645_contig2_contig000001, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    927025	    28	  92.9	    33	..A......................A..	AGGACGAGGGGCGCGCTCCAGCTTTCGCCGTCC	
+    926964	    28	 100.0	    33	............................	TCGGTGAATCTGCAAGCCGCACCACTTTTCTCA	
+    926903	    26	  92.9	    33	......--....................	CACACAGTCGACGGTCGTCACTGTCCGCAACCC	
+    926844	    28	  96.4	     0	.............A..............	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	  95.6	    33	GAGCAACCCCCGCGAGCGCGGGGCCGAT	                                 	       
+
+# Left flank :   CCCGTCGTCGGCACGGTCACGGTGACCCAGCAGACCCTGTCCATCGCCCGCTCACCAGACCAGGCGCTCATCGTCTGCACCACCCCCGCCAACTCCCCCTCCGAACAGGCCCTCACCCTCCTCCGCCACGCGGCCGCCAGCCGGGCACCGTACGCGTGCGGCGTGGGCGCTCGCCAGGCGTAGACCGGGTACGCGCTGCGGCCCGGGCCCGCTGTTACGGCGCCGCCCCGGTCTCCGCTGCGCGGGGCGCGGCAGGGCTCGCGGTCTTCCCCGAACCGCCCGCAATCCCCAAGCCGTCGGCACCGACACGGCCAGGCGGACGCAGGCCCACAAGCGCCCGCACGAGGCCAAGAGCACCAAGCGGACCTCGAAGGCGCGCAACGACCTGAAGCCCTCCCACGACCGGCGGCAAGAGCTCACCAGCCACCGCTCTCGGCGACAGCAAGGGACATCACCGGGAGGTCGCCGCTCCCACACGGACGCCGACCGTGAACAGAGTG
+# Right flank :  ATGGCGCGGAGCTTCGTCTTGCTGAGCTTGTGAGAGGGCGTTCTGCGAGTGTCGGTGGGTCTCGTCGTGCTTGAAGGCGGGTTGTCCGGTTTTAGGGCTTCCCGACCGGCCGGAAATGCGGTCCGCTGGTGGGCGTGAGTGGACGCGCTCCGTACCCGAGCGACCTGTCGGATGAGGCCTGGGAGCTGATCGGGCCGGTCATCGTCTCCTGGAAGGGCCGGCACACCTCGGTCAGCGGCCACCAGGGCGCCTACGACATGCGGGAGATCGTGAACGCGATCTTTTACCAGGCTCGCACCGGCTGCCAGTGGCGGTACTTGCCGCACGACCTGCCAAGGCATGGGTCGACGCCGGATTCAAGAACGCCGTCGTCGAGCACGGCGCCCGCCTGGGCATCGATGTCGAGGTCGTCCAGCGCGAGCCCGGCACACGAGGGTTCACGCCCGAGCCGAAGCGGTGGGTGGTCGAGCAGACGTGGGGCACGTTGATGCTGCACCGCC
+
+# Questionable array : NO	 Score: 5.20
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.78, 5:-1.5, 6:1, 7:0.63, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGCAACCCCCGCGAGCGCGGGGCCGAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-13.00,-12.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [2-2] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [38.3-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [136,318] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_063352765 [907941-910856]; Unclassified_Cas_protein:WP_063352463 [1214897-1216243]; 
+# Array family : NA
+# Sequence source strain : MJM8645
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. MJM8645
+//
+
+

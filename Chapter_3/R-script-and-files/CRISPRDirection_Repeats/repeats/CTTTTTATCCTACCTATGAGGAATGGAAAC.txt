@@ -1,0 +1,120 @@
+Array 1 2069951-2070245 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010003-Petrotoga mobilis SJ95, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+   2069951	    30	 100.0	    35	..............................	CATGAAAGGGGGGAGGAACGTAAAATTTACTTATA   	
+   2070016	    30	 100.0	    35	..............................	TGCTTTGCTCTGTTCGCATAAACCAGCTCACAAAG   	
+   2070081	    30	 100.0	    37	..............................	TTTGTTTTTCATAAGCTTTCTGCCCAGCGTAACCCGC 	
+   2070148	    30	 100.0	    38	..............................	GAGATATTGACAATGAGAATACAAATGTATATACAATA	
+   2070216	    30	  86.7	     0	.................A.........GTT	|                                     	
+==========	======	======	======	==============================	======================================	==================
+         5	    30	  97.3	    36	CTTTTTATCCTACCTATGAGGAATGGAAAC	                                      	       
+
+# Left flank :   AGGCTGTGTCACCTGCACCACTTGCGGATGGTCAAAGTGTTCTTAAATGATATACAATAAGAAACAATACTAGAATTTGGTTTTGAAACAGGGTATATGGTTTTATTAAAGTTTCATGGAACAAGCGGTATGGCACCTTTCGTTACAAATTAAAGCGATGTCGTGAAAGACAATTACCTTGTTGGAATAACTTTATAACCCGCCTTCATGGCGGGTTTTTTGATTTTATTAATTTTTTTGTTCACAGTTTTGATAAGTTGAACCGACTTAATATAAAATAATGTTAACAATTTAACCTAATAATAGCATAGAAAAGCAAATGATGAGAAAAATCGTCTGTCGACCTCCAATAGGGTAAAAATCCCGGGGGGATCGACAGACAAGCGAAAAAAGTCACAAGCCTTATTACATGAGTATTTGAATTGAATCTTAACAATTTCTCAAAGTTTTGCTTGACAATCGTAATTTTTTATGATATAGTATTTGTAAGTATCTTATGC
+# Right flank :  TAGGGGAGAGGAATGGAAACGAGATTGCTTCAGAGCTTCGATGCAGTATGTTCTCGCTTTAAACGGATTTTGATGAATTGAAAGTGGGGGAGGAATGGAAACGAGTAGTTTATGTTGTATTCTACTCTCTTTAATAAATATCAAAAAATGTCCGTACCTATAAGAACCGTTGATATTTGTAGTAATAAGAATCTTCCTTGTCTTTCCTTAATGCTTCAGAAAAATCCTTATTTAGGTTTAGGGCACCTAGAATTCACCGTTTTCATTCGGAAATATTTGTTACCCAAATAAGAGTTATTTTAAGAGCTTCTTTCGACTTTTCCAAGTTTAGAATTCTCTAACCAAGGGTAGAGTCTTTTGAATAATTTAATTTTTATACAGGATCTTCTTAAAAAAACAACGGCCCCTCTTAGGAATGATAAAATAAAATTCCAAAAAAAATTCGCCTAGGGTATTTTTTTTGAAAATTCCGTCTGTTGCGTGGATGCAGAGGTATTATT
+
+# Questionable array : NO	 Score: 8.53
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.86, 5:0, 6:0.99, 7:0.88, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTTATCCTACCTATGAGGAATGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTTATCGTACCTATGAGGAATTGAAAC with 94% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-2.60,-2.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [456,1070] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_012209662 [2075116-2075628]; Endonuclease Cas2:WP_041534156 [2073844-2074098]; Endoribonuclease Cas6:WP_012209668 [2081383-2082129]; Helicase/endonuclease Cas3:WP_041534157 [2075621-2077822]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : SJ95
+# Taxonomy hierarchy : Bacteria; Thermotogae; Petrotogales; Petrotogaceae; Petrotoga.; Petrotoga mobilis SJ95
+//
+
+
+Array 2 2082391-2085414 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010003-Petrotoga mobilis SJ95, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                                                    	Insertion/Deletion
+==========	======	======	======	==============================	===================================================================================	==================
+   2082391	    30	 100.0	    37	..............................	GATGGAAAAGAAAGAAAGACATCAAGAACGTTTGACC                                              	
+   2082458	    30	 100.0	    36	..............................	CTCATCCACATAGTAGATTATTTGTTATGGATTATG                                               	
+   2082524	    30	 100.0	    38	..............................	TTTTTTTCATGATAAAATCATCTCCTTTTTTAGTAAAA                                             	
+   2082592	    30	 100.0	    37	..............................	GAAATAGTTACTATGGTGGACGTACTGAATTGATTGA                                              	
+   2082659	    30	 100.0	    35	..............................	CTTCATATTTGTCTCCGAATGAATCAAAAAACACT                                                	
+   2082724	    30	 100.0	    37	..............................	AGGGCGAAAAGGAAATCATGAAACGTATTGGTGAATT                                              	
+   2082791	    30	 100.0	    38	..............................	AAGCAAGAAAAGGCGATAAAACTTCTAAAATATTCTAT                                             	
+   2082859	    30	 100.0	    38	..............................	AACAATGAGGATATAGAATATTGTAGGCGTGATGTTGA                                             	
+   2082927	    30	 100.0	    35	..............................	GATAATTGTATCCCTTCGGTACGATAAAAGAATAA                                                	
+   2082992	    30	 100.0	    39	..............................	AATGAAGATGATAAAAGGATTTGGCATGGTGATAAAAGC                                            	
+   2083061	    30	 100.0	    35	..............................	TTTTTTATAGAAAGTACACTGTACTTTCTAAGTCG                                                	
+   2083126	    30	 100.0	    36	..............................	TCTAACAATTAACAACGAGCCAGCTCGAATGAAAAT                                               	
+   2083192	    30	 100.0	    37	..............................	TGTGCATTCTTGACACCTTGGAAGTTTTCAGTTATTT                                              	
+   2083259	    30	 100.0	    38	..............................	TTCAATTGGATACTTTCAAATATCTACGTGGAGGGGTG                                             	
+   2083327	    30	 100.0	    37	..............................	CCCGTGCCGCTGACGTTGTATAACTTGAAAAAAGAAT                                              	
+   2083394	    30	 100.0	    38	..............................	TGGGTTAAGAATGAGAGCACTTTAGAAGAGAGACCTGT                                             	
+   2083462	    30	 100.0	    36	..............................	TTGTCTCAATAGGTTCTTTTGGTTGAGTCTGTCCTG                                               	
+   2083528	    30	 100.0	    40	..............................	CTTCCTGAAAAACCGTGTCGGTTTTTCCGTGTCGGTTTTT                                           	
+   2083598	    30	 100.0	    36	..............................	TTGAGGAACCTAAAAAAGAGGAGGCAAATAATAAAA                                               	
+   2083664	    30	 100.0	    40	..............................	ATAATATAACTTCCATCACCATTTTCAATTATCTTTGCCA                                           	
+   2083734	    30	 100.0	    36	..............................	ACCCGTCTCGCACGTCCGGCACTGTGATGCTGTATC                                               	
+   2083800	    30	 100.0	    35	..............................	ACTTGTATACAGAAACAGAAGCAGACATAAAAACA                                                	
+   2083865	    30	 100.0	    37	..............................	CGACACCAATTAGATCCATAACAGTTACCTCCTTAAG                                              	
+   2083932	    30	 100.0	    39	..............................	CAAGGCGTTTGTTTCGGCTCCGTGTTTGCGGCTCCGTGC                                            	
+   2084001	    30	 100.0	    39	..............................	ACCATGAATGAAACGCTTCTTTTGTCTTTCTTTGCTTCT                                            	
+   2084070	    30	 100.0	    35	..............................	TCTAACTTCCTTCTTTCAACTTCTTTTTGTAACTT                                                	
+   2084135	    30	 100.0	    37	..............................	CAAATACAGTATTCCCACAAGTAATAAGTAATAACAA                                              	
+   2084202	    30	 100.0	    38	..............................	TCAATAATTTCACAATAATAATTTCTCAACAAATCATC                                             	
+   2084270	    30	 100.0	    36	..............................	GTAGCTAAATTAGCAATTATAACTCCTTTTTCTTTT                                               	
+   2084336	    30	 100.0	    36	..............................	ACTTTATTCAACATATCAACATTATTTTCTTTCTCA                                               	
+   2084402	    30	 100.0	    37	..............................	CTCGATTTCTTCTATGTACATTTTTTCCGACAACTCG                                              	
+   2084469	    30	 100.0	    36	..............................	TTTAGATTTTTGTGTTGATATTTGTGTAGATATTTA                                               	
+   2084535	    30	 100.0	    38	..............................	TTATATCATCCTGTCTTCCTTCGTCTGTGATTTTCTCC                                             	
+   2084603	    30	 100.0	    38	..............................	TTCTTATTTCTTTAACTATTTCTGGTTCTAATTGTTCA                                             	
+   2084671	    30	 100.0	    41	..............................	CAAGAAATATCTCTTAGTTTTTTTTTTGAACCATATAGTAG                                          	
+   2084742	    30	 100.0	    37	..............................	AAGTAAAAAAAAGAGATGATTTCTCACCTCTTTTTTC                                              	
+   2084809	    30	 100.0	    37	..............................	GGTTCATTTAAACTAACAATCTTTGTATCTTCTTTTT                                              	
+   2084876	    30	 100.0	    36	..............................	ATATGAAAAGTAAAGTGAATACTGCTAAAACGCCCC                                               	
+   2084942	    30	 100.0	    35	..............................	TCTAAATCTGTGAATACTTTTACTTTTCCTTGAAG                                                	
+   2085007	    30	  96.7	    37	.................A............	AGCCCCTGAGCTGAAGCTAACATACCCTCGGTGTACC                                              	
+   2085074	    30	  96.7	    36	.................A............	TTTCCTTCACATATTGGTCTACTTCACCATGTATCC                                               	
+   2085140	    30	  96.7	    36	.................A............	GCACTCTCCTCTAAAGCTCCTCTTTGAGCAGCTAAT                                               	
+   2085206	    30	  96.7	    36	.................A............	GTATATACAGCATAACGCATTGCATCCATTGCATGG                                               	
+   2085272	    30	  90.0	    83	...........................GGG	GGGTGGAGAGGAATGGAGGGTGAGGGAAAAAATGGAAACAATACAATCTTCAACTTCCGGGAATTTCAAGTAGTTCGCTTCCA	
+   2085385	    30	  76.7	     0	.......A..A.G..T...T........GG	|                                                                                  	
+==========	======	======	======	==============================	===================================================================================	==================
+        45	    30	  99.0	    38	CTTTTTATCCTACCTATGAGGAATGGAAAC	                                                                                   	       
+
+# Left flank :   AAAGAAACATTATCAGAAAACTCTATTGTTTTATCCTTTTGATTTAAGCTGAATTTTCCGCTTAGCCTTGAAAAAGAAAACAATTTGTACTTTCTTTTATTATAGCTAAAACCCTCGTTATGAATGAAGTTTCTATATTCGGCATTATCTATTAAATCAAGAATGAAAGCTTGAATAATATGATTGTAATTTAATGGAAGTATTAAACTATTTAAAGAAAATTGAACGTTTAATCTCATTTCAATTCTCCCGATATTTTAAATTAAAAATTAGAATCTTTACTGTAATATATTTTATCATACGATAATAAAAAAAGCAAGAAGGTATAAAAAAATGTCTGTCGACCTCCAATAAGGTAAAAATCCCAGGGGATCGACAGACAAGTGTTAAAAGTCACAATCCTTATATTATGCATATTTGAGTTGATTTTTAACAATTTATCAAAATTTTGATTGACAATCGTAATTTTTTATGATATAGTATTTATAGGTATCTTATGC
+# Right flank :  GAAGGGAAGTAAGGCTAGCGAACTTAAGCATTTTTTCTACTTCTTTTTGATCTAAAGGATAGAAAATAGGGTAAGAATTTGGACCTCATTTTAGATCATTCTTAAGCTTCTACGAAGTATCCCCTAAATTTTTAATCACACTTTAATTAATCGAAAATAGGAATGAAGTGGAGATTGATATCTCCCCTTTTGCTCTAAATAATGTAAGATGTAGATAAAACAGAAACTACATTATTTCTTAACTTGCTAGGTTCTATACTGTGCAGTCCAACCTTTTAGACAAGCTTTGATGAAGGTAAAGTAGAAACGAAAATAATGCCTGCAAACATGAGTTTTTTTCTCTTTTCTTTACTTTGAAAAAGATTACAAATAGAGGGGAATAAGGGAAGCGATATTATCTCTCAGCTTCCAAGTAATGCTTCCTTCCTTCTAACCTTATTTTAATGAACTGAAAGTAGGAAAGAAAAGATAACCTGTAAATGTGAGACTTTTTTTCTTCT
+
+# Questionable array : NO	 Score: 8.56
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.95, 5:0, 6:0.99, 7:0.62, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTTTTATCCTACCTATGAGGAATGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTTATCGTACCTATGAGGAATTGAAAC with 94% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-2.60,-2.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [78.3-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [263,979] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_012209662 [2075116-2075628]; Endonuclease Cas2:WP_041534156 [2073844-2074098]; Endoribonuclease Cas6:WP_012209668 [2081383-2082129]; Helicase/endonuclease Cas3:WP_041534157 [2075621-2077822]; 
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : SJ95
+# Taxonomy hierarchy : Bacteria; Thermotogae; Petrotogales; Petrotogaceae; Petrotoga.; Petrotoga mobilis SJ95
+//
+
+

@@ -1,0 +1,43 @@
+Array 1 729793-729360 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JMER01000002-Rhodococcus fascians GIC36 contig2, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                                                            	Insertion/Deletion
+==========	======	======	======	=======================	===========================================================================	==================
+    729792	    23	  82.6	     7	.........A..G....G....A	GACCGCC                                                                    	CGA [729772] Deletion [729763]
+    729759	    23	  82.6	    28	...........AG...TG.....	GACCGCCCGCAAGGCCACCACCGCGGCA                                               	
+    729708	    23	  95.7	    34	.................G.....	TGCCGCCAAGAAGGCAGCTCCCGCAAAGACCGCC                                         	CGG [729695]
+    729648	    23	  91.3	    28	..............C..A.....	AACCGCACGCAAGACCACGACGGCTGCT                                               	CGA [729635]
+    729594	    23	 100.0	    34	.......................	GACCGCACGCAAGGCCGCAACCACTACGGCCCCT                                         	
+    729537	    23	 100.0	    34	.......................	AGCGGCCAAGAAGACCGTCGCCAAGAAGGCTCCG                                         	
+    729480	    23	  95.7	    75	......................A	GGCACCCGCGAAGCGCGCTGCAAAGAAGTAGCGCTCGACCGGCACCGGTCATCCAGGACCGGGTCGTTCTCGCAC	
+    729382	    22	  73.9	     0	T..........C...A..G-..A	|                                                                          	C [729379]
+==========	======	======	======	=======================	===========================================================================	==================
+         8	    23	  90.2	    34	GCCAAGAAGGCTCCGGCCAAGAC	                                                                           	       
+
+# Left flank :   GAGGAGCCTTCGAAAAGCTGACGGACGGGGGGTCCGACACGCTTTGCGGCCGTGAAGCATTCCGCGACACCGAAATGAAAATTGGCGTGGCGCATAGACTCTTGACGACTTGGGGTTTACCGTTGTAGTAGTCGGTCCGACGATGGGCCACAATATAGCGGAGGAAATCCATGAACAAGGCAGAGCTGATTGACGCCCTGACCGAGAAGTTGGGGTCTGACAGGCGGAGCGCCACAGAGGCTGTCGAGAACATCGTCGACACCATCGTGCGCGCGGTCCACCGCGGCGAAAGTGTCACGATCACGGGCTTCGGCGTGTTCGAGCAGCGTCGTCGCGCGGCGCGTGTCGCCCGTAACCCCCGCACCGGTGAGACCGTTCGCGTCAAGCCGACCAACGTACCGGCATTCCGTCCGGGCGCGCAGTTCAAGGCCGTCATCGCCGGTGGACAGAAGCTGCCCGCAACCGGACCTGCCGTCAAGCGCGGTTCGGCAGCAGCTCCG
+# Right flank :  TTTCGGTCGGGGCCTTCTGCTGTGTTCGTGATCCGAGGATCCTCGGATGCGACTCAGTCGTCGGCGACCAGGTTCGGTAGCGGGCTGGCGATGTGGTCGGCCGCGACGAGCCGACCGTCGTGGCGCGAGAGCACCCACACGCTCCCTTTTCGATTTCTGTTGGCAGGCAACGTGATGCCGTCCTTGTCGGCCCACCATCGCATGAGATCGGGGATCACCTTGCCTTGGCTGCAGATCACCGGTGTGCTCATGGTCTCGGCGATGTCGCGAGCCCGTTGGCGGCCCTTGCGGGGGTCCTCGGCGTACCCCTCCTCGGACAGCAGATGCTCCGGTTCGACCTGCACGCCCAGTGATTCGGCAAACGGCGCGACCGTCTGTTCGCACCGGACGCGGTCGGCCGCATACACCGAGTCGCCGCCGAACGCGCCCAGCAGTGAGACGAGTGCCTCGGCCTGACGTCTACCGGTCTTGTCGAGGGGGCGATCGGCGTCGTTGCCCTT
+
+# Questionable array : NO	 Score: 2.60
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.71, 5:0, 6:0.25, 7:0.35, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCAAGAAGGCTCCGGCCAAGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.10,-5.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [153,513] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.92   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : GIC36
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae;Rhodococcus.; Rhodococcus fascians GIC36
+//
+
+

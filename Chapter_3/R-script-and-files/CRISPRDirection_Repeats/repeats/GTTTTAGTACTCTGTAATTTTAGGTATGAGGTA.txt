@@ -1,0 +1,80 @@
+Array 1 748033-748516 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB821326-Staphylococcus aureus M0408 acrHk-supercont1.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                                                                         	Insertion/Deletion
+==========	======	======	======	=================================	========================================================================================	==================
+    748033	    33	 100.0	    33	.................................	GACTGGGAGGCAGAACAATGATCTATTTAGGCG                                                       	
+    748099	    33	  97.0	    33	.......................A.........	GACAAGTGATAAGTTCTGTTGCTGCTGCTACAG                                                       	
+    748165	    33	  97.0	    33	.......................A.........	GACATTTTGAATATAGATATAAAGTAAACGCAG                                                       	
+    748231	    33	 100.0	    33	.................................	TATAACCGGAAACGTTTATGTTCCCAGTCTACC                                                       	
+    748297	    33	  87.9	    88	.............................NNNN	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	
+    748418	    33	  75.8	    33	NNNNNNNN.........................	TATAACCGGAAACGTTTATGTTCCCAGTCTACC                                                       	
+    748484	    33	 100.0	     0	.................................	|                                                                                       	
+==========	======	======	======	=================================	========================================================================================	==================
+         7	    33	  94.0	    42	GTTTTAGTACTCTGTAATTTTAGGTATGAGGTA	                                                                                        	       
+
+# Left flank :   ATTATCAAGCAAAAGAAAAAGCATTTGTAATCTATTTATATCCAGAAGCTGGCCTAAGCATTAAAGAACAAATAAGATTTAGAAAAATACTAAATAACTTACCTGTTCCGGTCATTGTTTTAACCGAATCACCACGTTTTTTATCTGAAAGTATTAAAGGACTAAATTATTTTATTAATAATGTTCAAATGATCACAGAATCTTTTTTTGAAGATAGCTATTGGAATGCACCAATTAATGTAGAAAAAGAACAGATTGAAGAGAGGTTTGAATATTTATTTGTAAAATATTGTTCAGTTTTAGAAATAAAACCGATTATTTCTAACTATTTACTTGCGGATATCATTGTTTTTAACGATATTGATCTTTATATCCTTGTTTCATTTTTGAAACACTGTAATTTAGAGTATAAATTAGATATCGATAAAACAAAAATTTCATTAGCATTATCGTCATATCTATTTTCTTAATTATTTTGCGGATTTATAATGATGCTAGAG
+# Right flank :  ATATAGCAAAATCTCTGACAAGAAGAACCTTATCAAAAACCGCATCATTTATAATTTACTTCTTAAACACATAACAGCAATTCTCATAAACTTCATACGTTCCGATACGTTCAAAATCCCTTTATGAAGCGGCTGAAAAAACCGCATCATTTATGATATGCTTCTCCACGCATAATCTTAAATGCTCTGTACACTTGTTCAATTAACACAACCCGCATCATTTGATGTGGGAATGTCATTTTGCTGAATGATAGTGCGTAGTTACTGCGTTGTAAGACGTCCTTGTGCAGGCCGTTTGATCCGCCAATGACGAATACAAAGTCGCTTTGCCCTTGGGTCATGCGTTGGTTCAATTCTTGGGCCAATCCTTCGGAAGATAGCATCTTTCCTTGTATTTCTAATGTAATGACTGTTGATTGTGGTTTGATTTTGGCTAGTATTCGTTGGCCTTCTTTTTCTTTTACTTGCTCAATTTCTTTGTCGCTCATATTTTCTGGTGC
+
+# Questionable array : NO	 Score: 6.63
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.70, 5:0, 6:0.31, 7:-0.38, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGTACTCTGTAATTTTAGGTATGAGGTA
+# Alternate repeat :   GTTTTAGTACTCTGTAATTTTAGATATGAGGTA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.70%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.10,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [32,146] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_001573636 [746694-747002]; 
+# Array family : NA
+# Sequence source strain : M0408
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;Staphylococcus.; Staphylococcus aureus M0408
+//
+
+
+Array 2 887074-887342 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB821326-Staphylococcus aureus M0408 acrHk-supercont1.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                        	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=======================================================================	=====================================	==================
+    887074	    71	 100.0	    19	.......................................................................	TGACTCAGATTCAGATAGC                  	
+    887164	    71	  83.1	    37	..T.....T.....C..C..T..GG.........................T..C........T...A.C..	CGATTCGGACTCAGACAGTGACTCGGACTCAGACAGT	
+    887272	    71	  98.6	     0	.....G.................................................................	|                                    	
+==========	======	======	======	=======================================================================	=====================================	==================
+         3	    71	  93.9	    28	GACTCAGACTCAGATAGTGACTCAAACTCAGACAGTGAGTCAGATTCAGACAGTGACTCGGACTCAGATAG	                                     	       
+
+# Left flank :   ATAGCTACTATGCAGACCCAAATGACTCTAACCTTAAAGAAGTGACTGGTGAGTTTAAAGATAAAATTTCATACAAATACGATAACGTAGCAAGTATTAATTTTGGTGATATAAATAAAACGTATGTTGTATTAGTGGAAGGTCACTATGATAATACTGGTAAAAACTTGAAAACACAGGTTATTCAAGAAAATATTGACCCAGCGACAGGTAAAGACTACAGTATTTTCGGTTGGAATAATGAGAATGTTGTACGTTATGGAGGCGGAAGTGCTGATGGTGATTCAGCAGTAAATCCAGTTGATCCAACACCGGGACCACCAGTTGACCCAGAGCCAGAACCGGAGCCAACGCCGGATCCAGAGCCAAGTCCAGAGCCAGAACCGGAACCAACGCCAGATCCAGAGCCAAGTCCAGAACCAGATCCGGATTCGGATTCAGATAGTGACTCAGGCTCAGACAGCGACTCAGGTTCAGATAGCGATTCGGATTCAGATAGT
+# Right flank :  GCGACTCGGACTCAGATAGCGATTCGGATTCAGACAGTGACTCAGGTTCAGACAGTGAGTCAGATTCAGACAGCGATTCGGATTCAGATAGCGACTCGGATTCAGATAGTGACTCGGACTCAGATAGTGACTCAGATTCAGACAGCGATTCGGATTCAGATAGCGACTCGGATTCAGATAGTGACTCGGACTCAGATAGTGACTCAGATTCAGACAGCGATTCGGATTCAGATAGCGATTCAGATTCAGACAGCGATTCAGAATCAGACAGCGATTCGGATTCAGACAGTGACTCGGATTCAGATAGCGACTCGGATTCAGACAGCGATTCGGACTCAGACAGTGACTCCGATTCAGATAGCGATTCAGAATCAGACAGTGAGTCAGATTCAGATAGCGATTCAGAATCAGACAGTGACTCAGACTCAGACAGTGACTCAGATTCAGACAGCGATTCAGACTCAGACAGCGATTCAGACTCAGACAGTGAGTCAGATTCA
+
+# Questionable array : YES	 Score: 0.48
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.70, 5:-1.5, 6:-1, 7:-0.12, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACTCAGACTCAGATAGTGACTCAAACTCAGACAGTGAGTCAGATTCAGACAGTGACTCGGACTCAGATAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-13.10,-13.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-13] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-48.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [2181,891] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_001573636 [746694-747002]; 
+# Array family : NA
+# Sequence source strain : M0408
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;Staphylococcus.; Staphylococcus aureus M0408
+//
+
+

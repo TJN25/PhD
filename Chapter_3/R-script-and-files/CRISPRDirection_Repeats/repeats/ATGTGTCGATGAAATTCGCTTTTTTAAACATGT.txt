@@ -1,0 +1,44 @@
+Array 1 188177-188770 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB021459-Escherichia coli O104:H4 str. Ec12-0465 supercont1.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+    188177	    33	  81.8	    37	.CA.......A......AT..........G...	TGCCGGAATATGCTTATGGCATCGACACGTTCTTACT	
+    188247	    33	 100.0	    37	.................................	CTTCTGGATATGTTTACCGCATCGACACATTCCAGCC	
+    188317	    33	  75.8	    37	..A.......A..GCCTTA..............	TGCCGGAATATGCTTATGGCATCGACACGTTCTTACT	
+    188387	    33	 100.0	    37	.................................	CTTCTGGATATGTTTACCGCATCGACACATTCCAGCC	
+    188457	    33	  75.8	    37	..A.......A..GCCTTA..............	TGCCGGGATATGCTTATGGCATCGACACTTTCTGGCT	
+    188527	    33	  90.9	    37	..........AG...................A.	TGTCGAGATATGCTTAAGGTATCAACATGTTCTTGCT	
+    188597	    33	  97.0	    37	................T................	TGTCTGGATGTATTTACCGCATCGGCATGTTCCAGTG	A [188622]
+    188668	    33	  81.8	    37	..A.......A....GT.A.............A	TGACGTGACATGTCGATGACAACGACATATTATGGTT	
+    188738	    32	  78.8	     0	..A.......T...-A..G....A.......A.	|                                    	C [188760]
+==========	======	======	======	=================================	=====================================	==================
+         9	    33	  86.9	    37	ATGTGTCGATGAAATTCGCTTTTTTAAACATGT	                                     	       
+
+# Left flank :   TTATTCGCGCGAAAAACTTGAATTGGGGAATTTAACAATTTCCCGTTTCAGCTCGGTGATTGAGTAGAGTTCATTAGGTTAAGTCGTCTTTTTTACAGTCTATAGGGAGTATTGGTTAAAAACAGCTTATAGGCTGTAAAACGTTCTAGAAAATGGTGAATGCCTTATGAATACTGTTTATCCGTTGAAGACCTTAAATCAGTTACGTCCTCTTCTGATTGGCTTTCGTAAAGTAAATGGACTGACCCAAAAGGATATTGCAGAGAGGCTTGGCGTAACACAGCAAACCTATGCGCGATTGGAGGCGAACCCAGGTAGCGCCAGTATTGAGCGGTTGTTCAAAGTGTTTACTGTGTTGGGCGTTGAAATAGAACTTTCTTCTTCATTGGCTTCATCAGCCATAAATTCATATAAGTTAACTGATAAATATAGAGATTCTCTAGCCAGACGAGAAAAGTGGTGATGATGTCTATGTGATAGTCTATGGTGAAAACCTTCGA
+# Right flank :  TGAACTGGAATGCAGAAACCCCTTACAACGATTTGCCGATACTGCCGCCTGACCTGGAGCGCATTGAAACACGCAGCGTACTTAAAGCATGCATAAGTGCGCGCGCAGCAATCGCTGAGTTGAAAACTGCTGGTGAGTTGATCCCTGACCAAGGGTTGCTGATAAACATCCTCCCGATGCTGGAAGCGAAGGACTCATCGCGCATAGAGAATATCGTAACTACCAGCGATCAACTCTTTCAGTATGCTGACCGCGCAGATGGCGCAGATCCGGCCACTAAAGAAGCGCTGCGCTATCGTACAGCGCTCTATGATGGCTATACCCATCTTGAGGACTATCCACTCTGTACAAACACAGCGGTAGCTATCTGTACCAAATTACGTGCAGTTCAAACTGATATCAGGAAAACTCCGGGCACGGTATTGCGTGATCAGAATAATAACGTGGTATATACGCCGCCGGTGGGTGAAGACTCTATTCGTGAGCTACTGGCGAATTGG
+
+# Questionable array : NO	 Score: 2.96
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.35, 5:0, 6:0.31, 7:0.89, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATGTGTCGATGAAATTCGCTTTTTTAAACATGT
+# Alternate repeat :   ATATGTCGATAAAGCCTTATTTTTTAAACATGT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.70%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [14-19] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [58.3-46.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [39,1127] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Ec12-0465
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli O104:H4 str. Ec12-0465
+//
+
+

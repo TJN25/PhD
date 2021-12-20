@@ -1,0 +1,304 @@
+Array 1 215840-216301 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                 	Spacer_Sequence      	Insertion/Deletion
+==========	======	======	======	================================================	=====================	==================
+    215840	    48	 100.0	    21	................................................	GAGTGCAAAAGCACCTCGATT	
+    215909	    48	  97.9	    21	.......A........................................	GCGTGCAAAAGACCCATCTCC	
+    215978	    48	 100.0	    21	................................................	CTCTGCAAAAGCCTCATCTCC	
+    216047	    48	  97.9	    21	....................A...........................	CTCTGCAAAAGCCTGATCTCC	
+    216116	    48	 100.0	    21	................................................	ACTGAAAAAAGCACCATTTTC	
+    216185	    48	  93.8	    21	....TC............................A.............	GCCTACAAAAACATAATCTCC	
+    216254	    48	  83.3	     0	........................G..G..C.........TT.TTG..	|                    	
+==========	======	======	======	================================================	=====================	==================
+         7	    48	  96.1	    21	AATAGTAGTCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACA	                     	       
+
+# Left flank :   TAAAAGGTTAGCCGTTTGAAGCTAACCTTTTACTATGTAAAATATTTTTTTTAAAATTATTGTATAATAATTGTTTTTGTTGCCTTACCTTGGTTTGTTATTATTTCTACAAAATAATTGCCTTTTGCAAAGCTTGAAACATTTATTTCTGAATGATTAGTTGTTTTTATTAACTGCCCTAATGTGTTGTAAAAATTCACTTTTTCTAATTGTAAGCCCTCTTGTAAGGCTATGTTTAAAATTTCTGAAGCAGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAATTACCAGAAATAGGGCTAAAATTCCTCCAAACCGCGGCTGCCTGATAAACGGCTTGCGTACCAGTAGGAACATTTAAAGCACAGTTTGATTGAGTAACATTACCGAAGACATTTGCATTAATAACTAAAGGGCTTGTAATATGACAATTTACTGTCCTTAAACTGCTACAGCCTGTAAAAGCATTCCCTCG
+# Right flank :  AATGTTCAAAAGCAGATTCTCCAATAGCAGTCACGGCGTAGTTTTCCGAATTATAAGCTACTGTTTCTGGTATTTCTGCTGCTCCAGTAAAATTAGCGTTTCTAGCTACCTTAACAGTAAAAGGAGCTGTTGAAGAAGTAACAGTATATTTTATACGGTTTGCTGTAAAAGTTTGTGCTATTCCTAAAAAAGGAATTAAAATAAGAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTAAAAAATTATGGGGTTTACAAAAATAAGCTAGATTTAGAATAAATACAAATAATACTTTGTTTTTTTGAGATTGGTCTTTAAGTAGGTGTTGTTTCTATATGCCTGCAATTGTCTGGTTTTGCTGTTCTTTTTGTTGTTTTTTAGCCGTTGTATTTGGCTTTGCAAACGATTAATTAGGTGCTAAAATTCATTAAAATATTGGTTAATATTCTTTTTTTATTTAGAAGCTTTTTTTATATAATGTTATGAATAGAAAAAC
+
+# Questionable array : NO	 Score: 2.56
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.80, 5:0, 6:-0.25, 7:-0.84, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AATAGTAGTCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.75%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.20,-5.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [692,549] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 2 223571-223178 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                 	Spacer_Sequence      	Insertion/Deletion
+==========	======	======	======	================================================	=====================	==================
+    223570	    48	  83.3	    21	..CAA.AA.........G..C..C........................	GGAGATTATGTTTTTGGAGAC	
+    223501	    48	  95.8	    21	....T...................................T.......	AATCGAGGTGCTTTTGCCGGT	
+    223432	    48	 100.0	    21	................................................	CGAGAGAATGCTTTTGCAGAT	
+    223363	    48	  97.9	    21	..........................................T.....	GGAGATTATGTTTTTGGAGGC	
+    223294	    48	  95.8	    21	.................T....................T.........	AAGGAAGGTACTTTTTTCCAT	
+    223225	    48	  97.9	     0	..........................................G.....	|                    	
+==========	======	======	======	================================================	=====================	==================
+         6	    48	  95.1	    21	TGTTCTGGTTTAACATCAGTTACAATTCCTAATTCTGTGACTACTATT	                     	       
+
+# Left flank :   TTTCTGGTAGTTTACTTTCTAATCATTCATTTGCAATAGAAAGTAATCTAAAAATATACCCAAACCCAGTTTCAGAAATTTTAAACATAGCCTTGCAAGAGGGATTACAATTAGAAAAAGTAAATTTTTACAACACATTAGGCCAGTTAATAAAAACAACTAATCATTCAGAAATAAACGTTTCAAGCTTTGCAAAAGGAAATTACTTTGTAGAAGTAATCACAAACCAAGGTAAGGCAACAAAAACAATTATTATACAATAATTAAAAACAAAAAACATGAAAAAATTATTATTTTTTATTTTAATTCCTTTTTTAGGAATAGCACAAGATTTTACAGCAAACCATATAAGATATACCATTACTTCTTCAACAGCTCCTTTTACTGTTAAGGTAGCTAGAAACGCTAATTTTACTGGAGCAGCAGAAATACCAGAAATAGTAACTTATAATTCAAAAAACTATATTGTGACTGCTATTGGAGAATCTGCTTTTGTACAT
+# Right flank :  GGAGAGGATGCTTTTGCAGGCTGTAGAAGTTTAAAGACAGTAAATTGCCATATTACAAGCCCTTTAGTTATTAATGCAAATGTCTTCGGCAATATTACTCAATCAAACTGTGCTTTAAATGTTCCTACTGGTACGCAAGTCGCTTATCAGGCAGCCGCGGTTTGGAGAAATTTCAGCCCTATTTCTGGTGGTTTACTTTCTAATCATTCATTTGCAATAGAAAGTGCTTTAAAAATATACCCAAACCCAGTTTCAGAAATTTTAAACATAGCCTTGCAAGAGGGATTACAATTAGAAAAAGTAAATTTTTACAACACATTAGGCCAGTTAATAAAAACAACTAATCATTCAGAAATAAACGTTTCAAGCTTTGCAAAAGGAAATTACTTTGTAGAAGTAATCACAAACCAAGGTAAGGCAACAAAAACAATTATTATACAATAATTAAAAACAAAAAACATGAAAAAATTATTATTTTTTATTTTAATTCCTTTTTTAGG
+
+# Questionable array : YES	 Score: 0.33
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.75, 5:-1.5, 6:-0.25, 7:-0.88, 8:0.8, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTTCTGGTTTAACATCAGTTACAATTCCTAATTCTGTGACTACTATT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.75%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.20,-5.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [461,238] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 3 225258-225580 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                	Spacer_Sequence       	Insertion/Deletion
+==========	======	======	======	===============================================	======================	==================
+    225258	    47	  91.5	    22	.......................G.....C...G........A....	GCCAAAAAAAGCAAAATTTTCA	
+    225327	    47	 100.0	    22	...............................................	AGCTGAAAAAACACCCCTTCTA	
+    225396	    47	  87.2	    22	....T..................G....TC...G...G.........	ATGGAAAAAAGCACCATTTTCA	
+    225465	    47	  97.9	    22	...T...........................................	GCCTACAAAAGAATCTTTTCCG	
+    225534	    47	  76.6	     0	....T...TG.............A.....C...G.....TT.TTG..	|                     	
+==========	======	======	======	===============================================	======================	==================
+         5	    47	  90.6	    22	ATAGCAGTCACAGAATTAGGAATTGTAACTGATATTAAACCAGAACA	                      	       
+
+# Left flank :   CTAAAAAAGGAATTAAAATAAGAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTATTGTATAATAATTGTTTTTGTTGCCTTACCTTGGTTTGTGATTACTTCTACAAAGTAATTTCCTTTTGCAAAGCTTGAAACGTTTATTTCTGAATGATTAGTTGTTTTTATTAACTGGCCTAATGTGTTGTAAAAATTTACTTTTTCTAATTGTAATCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAACTGGGTTTGGGTATATTTTTAGATTACTTTCTATTGCAAATGAATGATTAGAAAGTAAACTACCAGAAATAGGGCTAAAATCTTTCCAAACAGCCGCTGCCTGATAAGCCGCTTCAGTACCAGTAGGAACATTTAAAGCACAGTTTGATTGAGTAACATTATCGAAGACATTTTTATTAATAACTAAAGGGCTTGTAATATGGCAATTTACTGTCTTTAAACTTCTACAGCCTACAAAAGAATCTTTTCCG
+# Right flank :  AATGTTCAAAAGCAGATTCTCCAATAGCAGTCACGGCGTAGTTTTCCGAATTATAAGCTACTGTTTCTGGTATTTCTGCTGCTCCAGTAAAATTAGCGTTTCTAGCTACCTTAACAGTAAAAGGAGCTTCTGAAGAAGTAATGGTATATCTTATATGGTTTGCTGTAAAATCTTGTGCTATTCCTAAAAAAGGAATTAAAATAAAAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTATTGTATAATAATTGTTTTTGTTGCCTTACCTTGGTTTGTGATTACTTCTACAAAGTAATTTCCTTTTGCAAAGCTTGAAACGTTTATTTCTGAATGATTAGTTGTTTTTATTAACTGGCCTAATGTGTTGTAAAAATTTACTTTTTCTAATTGTAATCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAACTGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAACCACCAGAA
+
+# Questionable array : YES	 Score: 0.80
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.53, 5:-1.5, 6:0.26, 7:-0.80, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATAGCAGTCACAGAATTAGGAATTGTAACTGATATTAAACCAGAACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.09%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.10,-4.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [4-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [462,238] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 4 228660-229193 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                    	Spacer_Sequence   	Insertion/Deletion
+==========	======	======	======	===================================================	==================	==================
+    228660	    51	  90.2	    18	.........................................CTGAA.....	CACCATTTTCAATATCAG	
+    228729	    51	  92.2	    18	..........................A.............GC........A	TACCCCTTCTAATAACAG	
+    228798	    51	  92.2	    18	.....................T....A.............GC.........	ACCCTTCTCCGATAGTAG	
+    228867	    51	 100.0	    18	...................................................	CATCCTTTCCAATAGTAG	
+    228936	    51	  90.2	    18	.........................................CTGAA.....	ACCCATCTCCAATAGTAG	
+    229005	    51	 100.0	    18	...................................................	CCTCATCTCCAATAGTAG	
+    229074	    51	  92.2	    18	..........................A.............GC..A......	CATACCTTCCAATAGAAG	
+    229143	    51	  78.4	     0	.TG.............A.....C.........TT.TTG....G.T......	|                 	
+==========	======	======	======	===================================================	==================	==================
+         8	    51	  91.9	    18	TCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACAATCTGCAAAAG	                  	       
+
+# Left flank :   TTAGCCGTTTGAAGCTAACCTTTTATTGTATAAAATATTTTTTTAAAATTACTGAACAATAATTGTTTTTGTTGCCTTACCTTGATTTGTCATTACTTCTACAAAGTAATTGCCTTTTGCAAAGCTTGAAACATTTATTTCTGAATGATTAGTTGTTTTTATTAACTGCCCTAATGTGTTGTAAAAATTCACTTTTTCTAATTGTAAGCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAACTGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAACCACCAGAAATAGGGCTGAAATTTCTCCAAACCGCGGCTGCCTGATAAGCGACTTGCGTACCAGTAGGAACATTTAAAGCACAGTTTGATTGAGTAATATTGCCGAAGACATTTGCATTAATAACTAAAGGGCTTGTAATATGGCAATTTACTGTCTTTAAACTTCTACAGCCTGCAAAAGCATCCTTTCCAATAGCAG
+# Right flank :  GCAGATTCTCCAATAGCAGTCACAATATAGTTTTTTGAATTATAAGCTACTGTTTCTGGTATTACCGCAACTCCACTAAAATCAGGGTTTCTAGCTACCTTAGCAGTAAAGGGAGCTTCTGAAGAAGTAATGGTATATCTTATATGGTTTGCTGTAAAATCTTGTGCTATTCCTAAAAAAGGAATTAAAATAAAAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTATTGTATAATAATTGTTTTTGTTGCCTTACCTTGATTTGTCATTACTTCTACAAAGTAATTGCCTTTTGCAAAGCTTGAAACATTTATTTCTGAATGATTAGTTGTTTTTATTAACTGCCCTAATGTGTTGTAAAAATTTACTTTTTCTAATTGTAATCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAGCTGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAATTACCAGAAATAGGGCTAAA
+
+# Questionable array : YES	 Score: 0.90
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.60, 5:0, 6:-1, 7:-1.17, 8:1, 9:0.47,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACAATCTGCAAAAG
+# Alternate repeat :   TCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACAACTGAAAAAAG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.20,-7.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [13-20] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [780,227] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 5 720705-720088 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                                                                                                                                                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================================================================================================================================================================================================================================================================	==================
+    720704	    29	 100.0	    56	.............................	AACTTCTGAAAATATTCTGAACTTTTGAACTGCCGAAAATTGAAACCTAAAAAACC                                                                                                                                                                                                                             	
+    720619	    29	  93.1	    27	.....G....................A..	ACTACTGAAATTGAATAGTTTGCGGTT                                                                                                                                                                                                                                                          	Deletion [720564]
+    720563	    29	  75.9	   277	.................AATC.A.A.A..	TAACAGTGCCGATTCTTAGCACCGTGCCATAACAGCTGCTACAAGCAATTTGGGTTTTAGTCTTGAATTTAAAATTCGTTTTGTGTCAGGAAAATTTGGTCAAACCGAAATTTTTGGCTAATTTAGTCCCAAACTGCTTTTAGCAACGAAACGTTATGGCACAGCGCCGAATCGACTCTGGTTACTTCAATCGTGAATATTTATCTTCACACTTTTGAGATTTTTACACCTAAAATCGCTTCCGAACTGACTCAATTCAAAGTCTGAAAAGTGTACC	
+    720257	    29	 100.0	    56	.............................	AACTTCTGAAAATATTCTGAACTTTTGAACTGCCGAAAATTGAAACCTAAAAAACC                                                                                                                                                                                                                             	
+    720172	    29	  93.1	    27	.....G....................A..	ACTACTGAAATTGAATAGTTTGCGGTT                                                                                                                                                                                                                                                          	Deletion [720117]
+    720116	    29	  75.9	     0	.................AATC.A.A.A..	|                                                                                                                                                                                                                                                                                    	
+==========	======	======	======	=============================	=====================================================================================================================================================================================================================================================================================	==================
+         6	    29	  89.7	    89	GAACTAAACGCAAAAAAGTGTTGAGAGAA	                                                                                                                                                                                                                                                                                     	       
+
+# Left flank :   TAGCGGTTACGATTGCGTAAAACCTGATTTGGTAGTAATGAAAGTTGCGAAAAAACTAAAATTTGTGGAAGAAGAAACTGGAGATAAGAATTTTAGACAAGCTGTTCGTGTAATTCAAGAATATTCATTGGAACGAAATGTAAGACCAACAATTGTCGATTTTTATTTTCTAATTGACGAAGCTCAACGTGGAGCAAAAAAATATGTGAATGAAGAATTTTACAAACGAAATAAATAAAAGTACGAACGCACAACAGTGGTTTGCAAAAATTGGGGTTTTAGTCTTGAATTTAAAGATTGTTTTGTACTTTTGAGGTTCGTGATTAACTGAAAGTTCGGGCTTACCAAATCCCCAACTTCTGCAAGCCACGGGACGTTATGGCACAGCGCCGAATCGACTCTGGTTACTTCAATCGTGAATATTTATCTTCACACTTTTGAGATTTTTACACCTAAAATCGCTTCCGAACTGACTCAATTCAAAGTCTGAAAAGTGTACC
+# Right flank :  TAACAGTGCCGATTCTTAGCACCGTGCCATAACAGCTGCTACAAGCAATTTGGGTTTTAGTCTTGAATTTAAAATTCGTTTTGTGTCAGGAAAATTTGGTCAAACCGAAAGTTTTGGCTAATTTAGTCCCAAACTGCTTTTAGCAACGAAACGTTATGGCACAGCGCCGAATCGACTCTGGTTACTTCAATCGTGAATATTTATCTTCACACTTTTGAGATTTTTACACCTAAAATCGCTTCCGAACTGACTCAATTCAAAGTCTGAAAAGTGTACCGAACTAAACGCAAAAAAGTGTTGAGAGAAAACTTCTGAAAATATTCTGAACTTTTGAACTGCCGAAAATTGAAACCTAAAAAACCGAACTGAACGCAAAAAAGTGTTGAGAAAAACTACTGAAATTGAATAGTTTGCGGTTGAACTAAACGCAAAAAAAATCTAAAAAAATAACAGTGCCGATTCTTAGCACCGTGCCATAACAGCTGCTACAAGCAATTTGG
+
+# Questionable array : YES	 Score: 0.78
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.49, 5:0, 6:1, 7:-3, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAACTAAACGCAAAAAAGTGTTGAGAGAA
+# Alternate repeat :   GAACTGAACGCAAAAAAGTGTTGAGAAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [680,263] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 6 1427110-1425322 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                               	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	==============================================	==============================	==================
+   1427109	    46	 100.0	    30	..............................................	TGCCAATGAGTGGTGTAGTGTACTTTTGAA	
+   1427033	    46	 100.0	    29	..............................................	TAAGTAGATTATATTTTTTTGTGCCGTTG 	
+   1426958	    46	 100.0	    30	..............................................	GCTAAATATTTCTTTTATTTTATTTTGCTT	
+   1426882	    46	 100.0	    30	..............................................	TATTGAACAGCAATTTTCATCAGATGATGA	
+   1426806	    46	 100.0	    29	..............................................	TACGGCATTCAAACCCCCCATCTATTACT 	
+   1426731	    46	 100.0	    30	..............................................	AAAGACTTATTTAAGTCTAAAGAAGTGCCT	
+   1426655	    46	  97.8	    29	.................G............................	GAATGCGTGCGCTGTATGTATTTCGTTTT 	
+   1426580	    46	 100.0	    30	..............................................	AATGTGTCTATTGTGAATACATTACCTACT	
+   1426504	    46	 100.0	    30	..............................................	ACGGAATAAACGGAAACGAGCAACTTATTA	
+   1426428	    46	 100.0	    29	..............................................	ATTACAGTTGCTTTAAATAAAAAGTAAAA 	
+   1426353	    46	 100.0	    30	..............................................	AAAACAATCATCTATGTTGCTAAATCTTTT	
+   1426277	    46	 100.0	    30	..............................................	GAACACATAACAGGACACAAGGCATTGGCT	
+   1426201	    46	 100.0	    30	..............................................	ACTTTGATATACGACATCTCGCTTACTGGA	
+   1426125	    46	 100.0	    30	..............................................	TAAGTTTTCCTACTTAACCATTTTTTAAAA	
+   1426049	    46	 100.0	    29	..............................................	ATAGTACTTTGATTTCACGTGCGAAAACG 	
+   1425974	    46	 100.0	    30	..............................................	GGTGGCAATGTGTATTCAAACACGGATATA	
+   1425898	    46	 100.0	    30	..............................................	GGAGCTGGTTCGGGTACAATTACATTAAAT	
+   1425822	    46	 100.0	    30	..............................................	ATTCTCTTTCAGTTTTTCGATATTGTTTTT	
+   1425746	    46	 100.0	    30	..............................................	CTGTCGTACGCTCTAGTATTAGATATATCT	
+   1425670	    46	 100.0	    30	..............................................	AGCGTAAGCTCGTGCGCATTTTCCATCGCT	
+   1425594	    46	 100.0	    30	..............................................	TAATATTTAGCATAAATTTATAATCGTCCT	
+   1425518	    46	 100.0	    30	..............................................	AGTGCTACCTTCGATAATTAGCGCATTAAT	
+   1425442	    46	 100.0	    29	..............................................	CACAAATGGGGAATTTGACGAAAACAAAA 	
+   1425367	    46	  69.6	     0	.......................ACCCG...GGT.T....A.ATTA	|                             	
+==========	======	======	======	==============================================	==============================	==================
+        24	    46	  98.6	    30	GTTGGTAATTATAAGCTAAAATACAATTTTGAAAGCAATTCACAAC	                              	       
+
+# Left flank :   TTGCGGGAGCCGCAAGAAAAATTTTATACCCTATTTATGTATGACGAACATTACACCCGTTTAAACCAGTATAGAAGTTTGTGGATATTAGTTTTTTTTGACTTACCTACCGAAACGCGGAAAGAGCGTAAAATTGCCAGTGAATTTCGCAAGAAATTATTGGACGATGGTTTTTCTATGTTTCAGTTTTCGATCTATATACGATTTTGTGCCAGCAGAGAAAATGCCGAAGTACATACCAAAAGAATAAGAAATAGTTTGCCCGAACACGGCAAAATTGGAGTAATGCAAATAACCGATAAACAATTTGGTATGATGGAGCTTTTTTATGGAAAAAAACCTGTAGAAACAGACAAACCTTCGCAACAATTAGAACTTTTTTGAAAAATAGGATTTAGAAATATTAGACCTACCAGAATATCAACACACAAACAGAACTGTTTTTTAATTTCAAAATAAGCATATAACCACCAACATATCAAACGATTAACTCGCGGTAT
+# Right flank :  TTTGATGACACTATCCCGCAAAGTGTGTAAGTTAAAAAGTTAGGCTTGGATTTTATAATCTGAGCCTTTTGTCAAATATAAGATTAAATTGATTTAAAACAATACCCCAATTTTGTATTGGCATTGACCATTTTTTTGTTGCTTCTTTTAAAGCTAAATAAACTGATTTTAGAACCGCATCATCAGTAGGGAATGACATTTTATTTTTAGTGTATTTTCTAATTTTTCCATTTAAATTTTCTATTAAATTTGTAGTATAGATTATTTTTCGAATTTCTAGCGGGAAGTCGAAAAACACGGTTAATTCGTCCCAGTTTTCTCTCCAGGATTTGATGGCATAACCATATTTGGATTCCCATTTTTGAGCAAAATCTTCCAAAGCTAATGCGGCAGCTTGTTTTGTTGGTGCTGTATAAACAAGTTTCATATCGGTTGTAAATTGTTTTTTGTCTTTCCATACCACATATCTACAAGCGTTTCTAATTTGATGTACCACGCAA
+
+# Questionable array : NO	 Score: 7.40
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.93, 5:0, 6:0.25, 7:0.22, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGGTAATTATAAGCTAAAATACAATTTTGAAAGCAATTCACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.91%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.00,-0.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [14-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [54,117] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+
+Array 7 2066098-2066271 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007627-Flavobacterium psychrophilum strain CSF259-93, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                    	Insertion/Deletion
+==========	======	======	======	========================	===================================================	==================
+   2066098	    24	  95.8	    51	...T....................	CTAAGAACAGAAAACCCTGAAATAAATAATCCTAGATCTAATTATTCTAAC	
+   2066173	    24	 100.0	    51	........................	GTTAGACCTGAAAATACTGCAATAGACAATCCTGGATCTCATAATTCTAGC	
+   2066248	    24	  95.8	     0	........C...............	|                                                  	
+==========	======	======	======	========================	===================================================	==================
+         3	    24	  97.2	    52	AATAATAATTATACCCCAAGACCT	                                                   	       
+
+# Left flank :   CCAACCAAACGGAAGTTCTAACAGATGTTGACAATTATTCGACTGTTATTAAAAATCAGAATGATAATTCTAATAACAACAATAATTATTCAGGTTGGGGCAATAATAGTAACGACCATCTTACTATAAATGTATATGATAACAGTTGGGGCTATCATAATTACGGATACTATAATAACTATTGGGGATATAACAGCCCTTGGAATAATGGCTATTACTCTAGTTGGAATAATGGATGGTACAATCCTTGGAGCTATTACGGATCAAATTGGGGTTGGAATAATTTATACTACGGAAATTATTATGGCTATAACAACTATGGCTATAATAACTGGAATAACTCTGGGTATTACAGAAACAATTATTCCTATGCCCACGGAAGAAGAGGTGCTATGTATTCAGACAGATATAGTCATGAAAATGGTGGCAAAAACTATTCTTCTGACATAAGAAACAACGCATCTGCAATAGACAATCCTAGATCTAATTATTCTAATAAT
+# Right flank :  TGTAAGAACAGAAATCCCAAGAACTTATGAAGTACCTAGAAACTACAATCCATCAAGTGGTGGTGGTGGCAACTACGGAGGCGGTCGTTCTGGCGGTGGAGGCGGACGCAGATAATAACAATTTATATAGCCAATGTATTTAAATTATAATACGTTGGCTTTTATTGAATTTAAAAACAAAATAAATGAAAAAATATATTTCTCTTTTTGCAATCACACTTTGTTTTTCCGGAATTCAAGCTCAAGATGTTGCAGATGCTTACAGATATTCGCAAGACAATCCTAACGGGACCGCTCGTTTTAGAGCCATGGGTGGTGCTTTTGGAGCCTTGGGTGGCGATTTATCGGCAATTACTGTAAATCCTGCAGGATCGGTTGTTTTTGCTAACAATCAGATATCTGTTACAGCAAGTAACTTTAATACAAAAAATAATTCTAATTATTTTGGTACTAACACATCTAAAAATAAGAATTCACTAAATTTAAACCAATTTGGCGGG
+
+# Questionable array : NO	 Score: 2.91
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:0.25, 7:-0.60, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AATAATAATTATACCCCAAGACCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.83%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [830,185] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.18,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_011963639 [1427226-1427573]; 
+# Array family : NA
+# Sequence source strain : CSF259-93
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum
+//
+
+

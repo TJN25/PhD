@@ -1,0 +1,82 @@
+Array 1 39845-40383 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH804812-Enterococcus faecalis R508 Scfld385, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===============================	===================================	==================
+     39845	    31	 100.0	    35	...............................	AAAACAAAACAGTAACGACGCTTGCTTGTTCGCTT	
+     39911	    31	 100.0	    35	...............................	AAAACACCATTTTAAACGCATTTTTGATTCCTGTT	
+     39977	    31	 100.0	    15	...............................	NNNNNNNNNNNNNNN                    	Deletion [40023]
+     40023	    31	  83.9	    35	NNNNN..........................	AAAACAATGTTAAGAGAAAATGAGGAACTCGCACT	
+     40089	    31	 100.0	    35	...............................	AAAACTGAATTCGTCTATTTCTAAGTATGGAACGA	
+     40155	    31	 100.0	    35	...............................	AAAACAGAGGAACAGCTAGATGCTGCTTTGATTGG	
+     40221	    31	 100.0	    35	...............................	AAAACTAGAAACTACGATTGAACAACTAAAAGAGG	
+     40287	    31	 100.0	    35	...............................	AAAACTAATTTCAAGTCATTCTTTTTCATAAAGTC	
+     40353	    31	 100.0	     0	...............................	|                                  	
+==========	======	======	======	===============================	===================================	==================
+         9	    31	  98.2	    33	GTTTTTGTACTCTCAATAATTTCTTATCAGT	                                   	       
+
+# Left flank :   ATTCATTATCTCTTTCAGCAGTTAAAGAAATTGGCTCAAGAAACAAAGCAGTTGAAGTTTTTTATTTTTAGTAATAGAAGCTTACCTTTACCGTATACGGAGGAAGATGTTGAGAAAACGATTTTGTTATATGATAAGTATCAGCAGTTGCCAGTTTTTGATGTTTTTCGTCAAAGTATCGAGCGACATTATCCAGATCAACTCTCTTGGACAAATCAACAACTAATTGATGCTTTTTATCGAGTCTGTCATTTTGTTGGGGATCAGTATACAAAAAATTATCTTTTACCTAAAGATATGATATTATTAAAATTGTTGAAGGAATTGCTAGATGACAATAGTGAGTGTGTCGAGACGTCGATGGAAAAGCTCACTGTGTTGGAAGAACAATATTTTCGCGAACGGTTATTGCGGAAAGATTGAGTCTGGAATTTTAACCGCGTAAAGTTATATTTTTTATCAAAAGGATTATTAATGAGATTTCAAATTTTAAATTTGAG
+# Right flank :  TNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTGTACTCTCAATAATTTCTTATCAGTAAAACCATTAGATTTTGAACATGGAGCTAGTCCTGGTTTTTGTA
+
+# Questionable array : NO	 Score: 4.76
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.91, 5:0, 6:0.34, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTTGTACTCTCAATAATTTCTTATCAGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:74.19%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [79,866] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.27,0.18   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_033591667 [38401-38709]; 
+# Array family : NA
+# Sequence source strain : R508
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis R508
+//
+
+
+Array 2 40979-40808 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH804812-Enterococcus faecalis R508 Scfld385, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                        	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	=======================================	===========================	==================
+     40978	    39	 100.0	    27	.......................................	GCCAGAAGTTCGAGAAAATTTGAATTT	
+     40912	    39	 100.0	    27	.......................................	CAGGACTAGCTCCATGTTCAAAATCTA	
+     40846	    39	  89.7	     0	..G.................................NNN	|                          	
+==========	======	======	======	=======================================	===========================	==================
+         3	    39	  96.6	    28	ATTGTTTTACTGATAAGAAATTATTGAGAGTACAAAAAC	                           	       
+
+# Left flank :   ACCGCGCCAGATTGGACTTGACTCAGACCTGTTCCGCTTCCGCCACCTTGGACATTAATAAATCTTCCCGGATTTTGGCTTTGATATTCCTCACTCGCTGTCTCTACTAATGGTTGTAAAGCTGATGAGCCTACCGCTGTGATGGATTCACCACGATCAATCCATTTTGCACATCCTGTCAAAGTAAGTATACTTGCCAAACCAATAAATAATAGCAATCTTTTTTTCATCGATTCATTATTCCTCCAATTAATTTCAATCCATTCTATTTTACCATTATATGTAGGACTTGAAAATTATAAGTTATCAATTTGTTGGTACAACTGAGAAAACTCTTAAATTAAATAACAAAAAGTATCTGAAGAAGCCAATTTGGCTGTTGCTTCAGATACAAATAATTATGCTAGAAAGATGACTATATTTAAGAATTTAGTGGGGATGGCTTTTTTGAAAATTATTGGGAGTATAAAAGCGAGTTCGTACATCCAACCTACTTCCTT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACTGATAAGAAATTATTGAGAGTACAAAAACGACTTTATGAAAAAGAATGACTTGAAATTAGTTTTACTGATAAGA
+
+# Questionable array : NO	 Score: 2.97
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.83, 5:0, 6:0.25, 7:-0.20, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTGTTTTACTGATAAGAAATTATTGAGAGTACAAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:76.92%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1042,271] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.05   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_033591667 [38401-38709]; 
+# Array family : NA
+# Sequence source strain : R508
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis R508
+//
+
+

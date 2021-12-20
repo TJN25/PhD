@@ -1,0 +1,83 @@
+Array 1 42626-42392 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AODJ01000004-Listeria weihenstephanensis FSL R9-0317 c4, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     42625	    36	 100.0	    30	....................................	GGATTTAACGTACTTCACAAGTACAGAGTT	
+     42559	    36	 100.0	    30	....................................	AAAATGGACGAGATTATTGTCGGAGAGTGC	
+     42493	    36	  97.2	    30	..............C.....................	TATGAAAATAATGTAACACCAATCGTTTGG	
+     42427	    36	  80.6	     0	..............C............A.A..TCCG	|                             	
+==========	======	======	======	====================================	==============================	==================
+         4	    36	  94.4	    30	GTTTTAGTCCTCTTTTGTTTTGAGGTACTCTAAATC	                              	       
+
+# Left flank :   TTATTTCTTTATTAATCGCTTTATTAATTGCCTGCTTACGCCTATTTTTTTTCTTTTTTCATCAGGTTTTCTCACAGTTTTATTGAGGATACTCTTATAAAACGATTCTTTTTTCTTATCAAATATAATTTCTGTTGTCTTATTTCCATCGATACCTTCATAAACCAGTTGACCTTCCTTACTTGTCCTCTCCATTACGATAGTTCTTCCATCTACTCTCATCTTTGTGATTTTCATCTGTCTACTCAGCTCCATTTGGTTTTATAGTCATGTACCTAATGCTTCATTATTGCTGAAACTTTAATTGGTTTCTTCATGCGTGTATGAAATTTCTATTATTTATCAATATATTCATTATACAAGAAGGCACGTTGCAAGACAACATTCGCTGACAGTTCATCTACAATACTAAGAATTGAATAAAGCCATAAAAACCAATAATCCAGTTCTTTGGATCACAGTTTTTATGGCTTTATTTCGAATACTTATCCACAAAAGAG
+# Right flank :  CCTATTCGCTTGCAACAACATAACTATACCAGATTATTAATGAATCTGCAGCTTGACAGATTAGCAAAACATAATTATTTTTTCATAAATTAAGAGACAGCTCAGCAGCCATCTCTTAAATTCAACCAATTATCTTCTGCTAACAAAATACCTTCCTTCTTGAAACTCTTCATAATAATTCAATACCTGTACCTCAAGTTTTTGTAAGTCAGCAACTGGGTTTTTAAGCAGATTTTCAGTTAACTGCTGCCAATGAAATTTTTACAATTACCGATATTAATAAATAGCAAAATTAAAAATCTAAGTTCAGAGAAAATGTTGCTAGTTCTGATTTCAATTAGATTTTTGTGTTGAATTATATCATAGGAATCTCAATATCATTTCCCTCTATACCATCCAAGAAAAAACCGGGTATGTTTGGATTCGATTTTTTCAATTTAAATAGTTGTACCTTAGTCAACTCTGGATAATATGAAATACTGCTGCGCTTGAAAACATCC
+
+# Questionable array : NO	 Score: 3.73
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.72, 5:0, 6:1, 7:0.41, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGTCCTCTTTTGTTTTGAGGTACTCTAAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.00,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [357,264] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FSL R9-0317
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria weihenstephanensis FSL R9-0317
+//
+
+
+Array 2 46672-46108 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AODJ01000004-Listeria weihenstephanensis FSL R9-0317 c4, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     46671	    36	 100.0	    30	....................................	CGGAAGATGTGGAAAAAACCATATTGGAAC	
+     46605	    36	 100.0	    30	....................................	CTGATTTAAGAAATCAAAAGGAAATTGATA	
+     46539	    36	 100.0	    30	....................................	AAATGATCTGATTGAGTGGATGGAGAGTGA	
+     46473	    36	  97.2	    30	.........................C..........	TTTGGGTGCCGATACGGATATAAACAAGAT	
+     46407	    36	 100.0	    30	....................................	GAAAAAGGTGAGTTAGCAAGCCTTGGAACA	
+     46341	    36	 100.0	    30	....................................	ATGACTGGGCTCAATAGTATCAGTATCTCT	
+     46275	    36	  94.4	    30	................T.......C...........	ACTTGTAGACCGTCTCACTCGATTATTCTA	
+     46209	    36	  88.9	    29	.......C......T.G..C................	ATATTTTTTGTAACGGCTTGCAATCATTT 	
+     46144	    36	  83.3	     0	.......T........G..........T.T.T...A	|                             	T [46111]
+==========	======	======	======	====================================	==============================	==================
+         9	    36	  96.0	    30	GTTTTAGACCTCTTCTATTTTGAGGTACTCTAAATC	                              	       
+
+# Left flank :   TATGGATTTCCCCACGATAAAAAGTCATTTCAGGACTGCCAAAATCGAGAATATTTGTCTTGCTATTCGCTATTTTTTCAGTTAGCGATACAAATGATGTTAGGATGTCATTTTGTGATGTGGTCATGCGTGCTTGCCTCCTTGGTAAAATGTTGTTTTGATATTGTCATCGTAGCATACAATATTTTTGTATGTCAAGCTGACAAAAAAACACTTAAATTATCCAAACGAAAAAAACACCATAAACCGTATCATATCAACAGTTTACAGTGTCTTCATTTCCTAAAAACGGAGAAACGGGGATTCTGATGGTTGGATGAAATGCACTCGTGGTGCTGATTTCAACGCTTATAATGTTGGCTGCGTGGCAATTTTGTGGCAAATATTTTTAAGAAGATGTCGAAGATTTTATTCGTCATCTTCTTTGTTGTGCGAGATTCTAATACTCTTCTGTTTAAAGGGCTCTAGATTTTTTACATAGCTCATCGTTTCAATTTGAG
+# Right flank :  GCAAAATGAAATTGCATTCTCCCATCCAATTTCATTTTGAAATTAACTGCAACATTCTATATCAAATTTCTAATAGTCTCTTTACTATACCACAATACTCTTCTGAAACTTGATTTGTTTCTATATAACCATTATCGATTTTTTTCTCACCTAGATGTCTCAATTTTTTTGGCTCTAAGCTTTTTATCACCAACCTATGTTTATTTTCTTTCAAGTTAGCAAATACGACGCTCATACCATGTCTATCTAAAATATCGATTAATGACTTGGAAACGGCATTCTTTAATTTACGATCATACTTAAAAATTTCTCTCAACCTCTCAGATAAATACAGCAACGTGCACTCAGATTTGAGTGATAAATAATTTAAATGCGCTATATGATTCCTTGCATTTTTCTCAGAAACAAACAGTCCTTCTTTTTTCAAGAATGTATCCAGCTTTTTAATACTTTTTAGTCTATTATCGCCCCAATATTCCACTCTCTCAGTTATTCCTGAA
+
+# Questionable array : NO	 Score: 4.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.80, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGACCTCTTCTATTTTGAGGTACTCTAAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.00,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [63,374] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FSL R9-0317
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria weihenstephanensis FSL R9-0317
+//
+
+

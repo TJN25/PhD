@@ -1,0 +1,50 @@
+Array 1 79161-80192 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ATYI01000014-Teredinibacter turnerae T8415 TerturDRAFT_scaffold_8.9_C, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=====================================	====================================	==================
+     79161	    37	 100.0	    34	.....................................	ATACAATGACCTCATCCCTATTTCTATGATGACT  	
+     79232	    37	 100.0	    33	.....................................	CCCGTCATTTATTCTAACAAGCACTTTAGCTGC   	
+     79302	    37	 100.0	    34	.....................................	TGCTATCGGGCTTTTTGTACAAGACTGTGATTGT  	
+     79373	    37	 100.0	    34	.....................................	CTCTACAATACTAAAATGCTCGCGTTTGTCACCG  	
+     79444	    36	  91.9	    34	....-....G....C......................	AACTGCAAAAAGAAGTAACCACGACTACAATCCG  	
+     79514	    37	  97.3	    34	.........G...........................	CACCCACCCACACATTAAAATCTTGTGCGAGCCG  	
+     79585	    37	 100.0	    33	.....................................	CTGTACAGCGCGAAATTGCCGTTATTTAAAAAC   	
+     79655	    37	  94.6	    34	.........G....C......................	AACTGCAAAAAGAAGTAACCACGACTACAATCCG  	
+     79726	    37	  97.3	    35	.........G...........................	GCTATGGGAGAACGAACCGCATTGACGTGTTGCGT 	
+     79798	    37	  97.3	    34	.....................T...............	TGGATCGTCTGGCGCTCAAATGTAATCCCGCCAT  	
+     79869	    37	  97.3	    35	.........G...........................	CGCCGTTATCACGGGCGTAAAGCCTTAAGGCGCGC 	
+     79941	    37	  94.6	    34	.........G...........T...............	CAGTTTTGAGTTTCATGATCATCACCTCCAGCTC  	
+     80012	    37	  91.9	    36	.........G...TC......................	CCCCTGAACCAGGTGTAACTAATAACCAGCCCCCAG	
+     80085	    37	  94.6	    34	..T......G...........................	TAAAACCGCTGCGGCGAATTCGAGAGGGTTTTTT  	
+     80156	    37	  97.3	     0	.....................T...............	|                                   	
+==========	======	======	======	=====================================	====================================	==================
+        15	    37	  96.9	    34	GCGTCGCTGAAGGCTTAGCCGCTAAGGCTGTTGAAAC	                                    	       
+
+# Left flank :   AATTGTAGCGCGAATAAAAAGCGGGCCGAAGCGAACTGCGGCACAGGGGTTTAACAGTAAAAATTCAAAACAAGTTAACCCGTAAATTGCGTAAGCCGCTACTATTATAAACCGGTGCAAAACGTATTAATGTTTGGGGGTTTGACCTCGCAATGCTTGCAGCGCCTTCAGGCAGGTTTTAAAAATAGCAGGCAACAAAAAAGGCTAACAAATAGCCGCTAACAAAGAACGGGTAGCAAAAACAGGCGGCTTTTCGCTAACCTCTGGTGCTGTTTGGGGCCTTATAGTGCACAGCGTAAAAAAGCCCCGTTAAAACAACGGGTTACCACCGATTTGCGGGCTATGTTTAAGAAGTTGGTTAGCGAGCAGTTAAAAATCAAAGAGTTAGTGTGGATATGGCACAGATTATCGGTATACTCGATATGCGACTATCAGGAAAAAGCGGGGTTAGCGAATATTGCACCTGCAAGCCGCTGCCCGCAAGGGTGCCAGCACCCGGC
+# Right flank :  CCCGATTCCGACGGCGAATGCCATGATTGATTGACCTTGCGGTTGTGGGGCTGGTAATTTTAGGCCGGTGGCCCGGTGTGGTTGTGGCCCCAACCCCCAAGGATACTTTTCGACATGGAGAGCAGATGCATGGGCGATTCGCTGCTGCCGTTACAGCACTTACTGCCGTTGCGCAGTGTGGTGGTTTGCTTGCAGTGTGTAACTGCGTGCGAGTTAAGTTTTTTCCATCAGCCCGCCATGAGCGCATTCCTGCGCAATTTACTGGATCACCCGGATCAGTTCGATCAGTTCCTGCTTGCCGATACGCCCGAAAGCGGCCGCCTCTGTTATAACGAAGGTGATTTTTACCGATTTACCGTGCTTGCACTGGCCGGTGGTGAGGTGCTGTTGGCGCGCCTGCTGGCGCGTTTGCGCAATTTACCTGCGGCGGCAGTTGCAGCCCGGTGCAGCGGCGCGTTTGCCGATAATTGGCGTTGCGCAGGCTTTAGTGATGGCTTTAA
+
+# Questionable array : NO	 Score: 6.92
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.56, 8:1, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTCGCTGAAGGCTTAGCCGCTAAGGCTGTTGAAAC
+# Alternate repeat :   GCGTCGCTGGAGGCTTAGCCGCTAAGGCTGTTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [8,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.10,-4.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [6-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [33.3-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [574,129] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cmr3:WP_028876587 [86017-87204]; 
+# Array family : NA
+# Sequence source strain : T8415
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales;Cellvibrionaceae; Teredinibacter.; Teredinibacter turnerae T8415
+//
+
+

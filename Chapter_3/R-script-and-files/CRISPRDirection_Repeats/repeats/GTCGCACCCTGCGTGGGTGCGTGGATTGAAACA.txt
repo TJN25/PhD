@@ -1,0 +1,39 @@
+Array 1 252-21 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBII01000020-Bacteroides coprophilus JCM 13817, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=================================	=================================	==================
+       251	    33	 100.0	    33	.................................	TGTTTGTGTGATTTTTTACAAAACTAGCTTATT	
+       185	    33	  97.0	    33	................................T	GAAAAGAATTGATGAACTCAAGGTGGTTTATCA	
+       119	    33	 100.0	    33	.................................	GCTAGTTATTAACAGAACTGACGAAACAGAGGA	
+        53	    33	 100.0	     0	.................................	|                                	
+==========	======	======	======	=================================	=================================	==================
+         4	    33	  99.2	    33	GTCGCACCCTGCGTGGGTGCGTGGATTGAAACA	                                 	       
+
+# Left flank :   ATATTGATGATTATCCTGTATTTTTAATTAAATAGTGTATTATGTACATTCTAGTAACATATGATGTGGACACGACAAGTAAAGAAGGCGCTCGTCGTTTACGATGTGTGGCTAAAGCATGCCTTAACTATGGGCAAAGAGTACAAAATTCTGTATTTGAGTGTGAGGTTACTGAAGCACAGCTCTGTACATTAAAAAATATAATTGGCAATGTTATTGATACAAAACAAGATAGTGTCAGGTTTTATTATCTTAATCGAAACATAGCCAGAAGAGTAGAAGTTTTAGGGAAAGAAACATCATACGATGTAAATGATGTAATGATTATCTAAAGTGCGAAACTTATGTAATACACGTTTCCTTGAGTTTTCGCACATATTGAAATATAAGGAATTACATTTTTACATTTAGTATAATATAATCAGAACTGTATCTTAATTATTAATTTCGCAAAAGCTACAGTTTAAATATCTAGAAAACTGATACATATCTAAGAATCA
+# Right flank :  AAATCTAGACATAGAAGGATG
+
+# Questionable array : NO	 Score: 7.50
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:0.31, 7:0.63, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCTGCGTGGGTGCGTGGATTGAAACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.70,-5.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [21.7-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [22,169] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.78,5.32   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:NA [1736-2400]; Cas8:WP_008143459 [3321-5084]; Endonuclease Cas2:WP_008143466 [420-710]; Helicase/endonuclease Cas3:WP_008143456 [5832-8054]; 
+# Array family : NA
+# Sequence source strain : JCM 13817
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Bacteroidaceae; Bacteroides.; Bacteroides coprophilus JCM 13817
+//
+
+

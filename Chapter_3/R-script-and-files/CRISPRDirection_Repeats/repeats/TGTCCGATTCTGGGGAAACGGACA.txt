@@ -1,0 +1,80 @@
+Array 1 48841-48664 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JGZL01000012-Bifidobacterium ruminantium strain LMG 21811 Contig12, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	========================	===========================	==================
+     48840	    24	 100.0	    27	........................	TCTGAACACCGTTTTTTGCCTCATGAA	
+     48789	    24	 100.0	    27	........................	CACAAGCATCCGATTGGGCACCACGTT	
+     48738	    24	  95.8	    27	.................T......	TTCGAGCGACAGTTTTGCCGGTTTGTT	
+     48687	    24	  87.5	     0	............CA...T......	|                          	
+==========	======	======	======	========================	===========================	==================
+         4	    24	  95.8	    27	TGTCCGATTCTGGGGAAACGGACA	                           	       
+
+# Left flank :   TTGCATGTCGACGATGCGGTCGAGTTGCTGGTTGAACTGCTCTCGATTGGCGTCGATGCGCGACCGTGCTTCGGCGAACTACCTGTCGGTTTTCGTACGCGCATCGACGATCCGTTTCTCACCCGCGTCGAGCAGCTCCTGTCGGCGGACCTTCTGCCGGTCGGTTTTCACGGTGCCGTCGATGCGGTCGACCACTTTCCCGACGGTGTCCTCGTACGATTCGCCGAACGTGTCGTCGGCCGCGGCGTCTTTGACAAGAAGGGTAGCGGACGTGTAGAGGGTACCGGTCACGCCATCGGAGGGAGCAAAGAACGTGTAGTCGGTGGTGGCGGTGGAGCGGAACGAGGTCATGGCGGAGTAGCCGTCCGGATTGCTCAGGTTCCGCGGATCAAGCACCACGCCCACAATGGTGAGACTGGTCGGAAAGCTCGGCGCCGCGTCGGCTTCGGAGGCTCCGCCCGTTTCGTCCGCGACCGCGATGGTCTCAGCGCCACTTTGAG
+# Right flank :  CTTGGGTATCCGAGGAGGAGGGCTCGGTGGCTTCGGGGTCTACGGTGAGGTGGCTGCCGATTTTCTTGCCGGAGTCGAGCATGAATTTTCGGGTCACCGCGATTTCGCCGGCTTTCCTCGGCAGGCGTCCTTCCTGCACGTACGGCTGGTCGATGCCATCCGTTCCGATTTCCTGCATGGTCGCCGATTTGCCGCCGTCCAGATCGAACGTCACTTCCTGCGACCGTTCCGCCTGCACTTTCGCGACGCCGTCGACGGCACGCAACGCGGCGATATCGCCATCCGTCAATCCCGCAGTGGACAGCACCTGGATGTCGTGCAGACCCTGCGCGTCAAAAAAGCGGTCAGTGCCGCGGAACGCATCGCGGCAGCCTGCGTAAATGCCGGTAAGCACGGCCACGCCAAGCAAGGTGATCATGGCGATTGAAATGAACCGTTTCCACGAATGCGCCCACATACGCAACATGTCTTTGACGAACGCCATCACGACCTCCCTCATA
+
+# Questionable array : NO	 Score: 2.49
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.79, 5:0, 6:0.25, 7:-0.15, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTCCGATTCTGGGGAAACGGACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [906,2689] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : LMG 21811
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium ruminantium
+//
+
+
+Array 2 109543-109263 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JGZL01000012-Bifidobacterium ruminantium strain LMG 21811 Contig12, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence           	Insertion/Deletion
+==========	======	======	======	=========================	==========================	==================
+    109542	    25	 100.0	    26	.........................	CTGAAGTACCAAATCGAAACCTTGTT	
+    109491	    25	  96.0	    26	...........C.............	TCGCGCGCCAAAATCAGGGTCCCAAA	
+    109440	    25	  88.0	    26	......T...CC.............	TCAAATGTGGTTCGAAGTACCCTGTT	
+    109389	    25	  88.0	    26	.........T.C...........G.	TTTGAGTGCGAAATCCGTATGCCACG	
+    109338	    25	  96.0	    26	.....A...................	CCAGGCGCGGTCCGAAGTGGCCTATT	
+    109287	    25	  88.0	     0	............GG..........C	|                         	
+==========	======	======	======	=========================	==========================	==================
+         6	    25	  92.7	    26	TGTCCGATTCTGCAGAATCGGACAT	                          	       
+
+# Left flank :   CGCCGAGGAGGCGGACCGGTACATCGAACCGGTTGGCGACACGTTGTTCGTGCCGGTGTTCTTCGTGGGCATCGGTTTGCAGACCACGGGCGTGGACGATCCGAAGATGATTGTCTTCATTGTGATCATGACGATTCTCGGCGTGATCACCAAGATCGTCGGCTGCGGACTGGGCGGACGCATGGCCGGCTTCGGCGGAGCTTCCGCGCTGATGATTGGCGCGGGCATGGTGCCGCGTGGCGAAATGGCGCTGATCACCGCGCAAATCGGCTTCAACGAGCACGTGCTCGGCAGCGAATACTATTCGACGATCATCTTCATCATCTCGCTGGTCACACTGGTCGCACCGCTGTTGCTGAAGCTGACGATCCGCAGGGTGCCGGGGGTGGGTGCTGTGGATGGGGTCGCGGGCGAAACTGTTGCAACCGTCGGAACCACCGAAGCCTCCGAAACCTCCGAAACCTCCGAAACCGTATCCGCGGAGTAACCGCCACACCGAA
+# Right flank :  TCGAGATCGCAATAACGCAATAAAAAACGCCTCCCGATTTCGGGAGGCGCGATGCTACGGAATTAGGCGGGTCAGGCGAGGATGCCGTCGACGAAGCCTTCCGGATCGAACGGGGCGAGGTCGTCCGGACCTTCGCCCAGGCCGACGAGCTTGACGGGCACGCCGAGCTCCTTCTGCACGGAGATCACGATGCCGCCCTTGGCGGAGCCGTCGAGCTTGGACAGGACCACGCCGGTGATGCCGATCGCTTCGGCGAACACCTTGGCCTGCGTCATGCCGTTCTGGCCGGTGGTGGCGTCGAGCACGAGCAGCACCTCTTCCACGGGCAGGTTCTTTTCGGTGACGCGGCGGATCTTGCCGAGCTCGTCCATCAGGTTGGCCTTGTTCTGCAGGCGACCGGCGGTGTCGATGATGAGCACGTCGGCGTTCGCCTCCTTGGCCTTGGCACTCGCTTCGAACGCCACGGAAGCCGGGTCGGCGCCGTCCTTGTCGGAGCGCAC
+
+# Questionable array : YES	 Score: 0.64
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.64, 5:-1.5, 6:0.34, 7:-0.25, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGTCCGATTCTGCAGAATCGGACAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.30,-3.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [73,119] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : LMG 21811
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium ruminantium
+//
+
+

@@ -1,0 +1,522 @@
+Array 1 1662874-1663119 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017482-Lactobacillus rhamnosus ATCC 53103 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                        	Spacer_Sequence                                                           	Insertion/Deletion
+==========	======	======	======	=======================================	==========================================================================	==================
+   1662874	    39	 100.0	    74	.......................................	GAGCTTGCATGTAAGGACCTAGCCCCCCAATGGCCGCGCCCTACATTCCAGCTAAACTGGGGGAGTCCCTGGGG	
+   1662987	    39	  89.7	    55	...........T.....T..............A..C...	AAACCTGCACATAAGGACCTTGGTCGCAATGGCAAGCCACTTTTCTGTTGAGCCT                   	
+   1663081	    39	 100.0	     0	.......................................	|                                                                         	
+==========	======	======	======	=======================================	==========================================================================	==================
+         3	    39	  96.6	    65	GAGTCCTATGACACTCCCATAACGCGCTCACCGGCGCAG	                                                                          	       
+
+# Left flank :   GATCCAATCGTTCTTTTGGTTGTTCTGCCATCGTGCTACCTCCTATAAACGTTCTAAACTGCAACCGGTACTATTAGAAATTAGCACTGAATTAATTGCCGGACTTTGGCCTTGACACTATCTGCGTATTTCCGACCGGTAAAACGTTCGATCATCAGTTTTGGTGCATCCTGCTTAGTTCAGTTGAACCGCGGTGTAGTGATAATGTGCGGCCTCATGATTAGGATAAGGCGCATTTTGCAACATCGCAACATATTCTGCGGCACGCCGCTGGGATGAGAAGGCTTTTAACAACTCAATCGGCGCTGACTGATCCGCATAGTAGACAACGTATATCCATTGATCATCCATAAGCCTTCACCTCGAGTCTGTAGCTGGGTGGCTTGAATGATGGGGGTTAAAAGGGTGCTTCAGGTGAGTTTATTTGTGTTTCACCAGCGCGGGAGCTTGCATGTAAGGACCTAGACCACAATGACCAAGCTTACATTCCAGCTGAACTG
+# Right flank :  GGAGCTTGCGTGTAAGGACCTAGAACCCAATGGCAAAGAACGCCATTGGGTTCTAGGCCACTTACACTTCAGCTCCTAAACGCGCCGGTTCGCGCTTCCAAAAAAAAAGACCGTTTCCGGCCTTTTCCATATTAACGACGCTTTTCGCGGATACGTGCTGCTTTGCCGCGGAGTGCGCGTAGGTAGTAGAGTTTTGCCCGACGAACTTGGCCGTGACGGGTTACTTCGATCTTTTCGACCCGTGGTGAGTGTAACGGGAAGGTTCGTTCCACGCCGACACCGTTAGAGATCTTACGGACGGTGTAAGTAGCTGAAATGCCAACACCGTGACGCTTGATAACAACGCCTTCGAACAACTGAATACGTTCGCGTTCGCCTTCAACGATCTTGGCGTGAACACGGACATTGTCACCTGCGCGAAAATCAGGAATGTCGTCGCGTAACTGTTTCTTAGTAATTTCTTGAATCAATGGGTTCATTGGTCTTTCTCCTTTGCCGAC
+
+# Questionable array : YES	 Score: 0.17
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.83, 5:0, 6:0.25, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTCCTATGACACTCCCATAACGCGCTCACCGGCGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.50,-4.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [50.0-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [471,131] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [2262578-2262883]; 
+# Array family : NA
+# Sequence source strain : ATCC 53103
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus GG
+//
+
+
+Array 2 1869639-1869906 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017482-Lactobacillus rhamnosus ATCC 53103 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                                                                                	Insertion/Deletion
+==========	======	======	======	===========================	===============================================================================================	==================
+   1869639	    27	 100.0	    92	...........................	CTTTGGTCATTGCGCCCAAGGTCCTTATGTGCAGGTTTCTGGGCTGGCGAACGCGTTATGAGCGTGAACCGGCGCGCTTAGGGATCGGAGTG   	
+   1869758	    27	  92.6	    95	.....................G..T..	GCTTGGCCATTGCGACCAAGGTCCTTACACTCCGATCCCTGCGCCGGTGAACGCGTTATGGTGAGCGTGAACCAGCCCGGTTAGAAACCGGAGCA	
+   1869880	    27	 100.0	     0	...........................	|                                                                                              	
+==========	======	======	======	===========================	===============================================================================================	==================
+         3	    27	  97.5	    94	TAAGTGGCCTTGGGCGTGATGACCGGG	                                                                                               	       
+
+# Left flank :   TGATCAAGTTGATAATAATGATGCCCTGCCCAAACTTCCTGAACCGCCTTATTCCCAACAAAGCCAGTGTATCGCTTACATTGAAAGCCGAATGACTGGCCTTTTTTTTGTGCAATAATGTCAATGCCTTGATCACCCGAAGCCTGAGTAAGTTGAATACGCTTGAAGCCATTGCGTTTTAATAAATAGGCACAAAATTCCTCAAACTTCTCACCTTCCATGATGTCCACGCTCTCCATCTTCAAATCTCGAAACCGAAAATGATGATGGTACAGCAACAACGCATTGATCACCACAAATAAACTAATAATAGTAAAACTGGCAGGATCGCCATAAGGTCGCAACTGCCGGGGCAAAATAGTGCGGCCCCAAAAACTGTAAATAAGGGCCAATACAAACAACCCCCACAACAAATGGTAGGCCTTTTTAAGTAAAATTCTCATGCTTCTAAACCCTTCTAGTTAAGTGAGCGTGAGCCAGCCCGGTTAGAAACCGGAGCA
+# Right flank :  GCTTTGGTCATTGCGCCCAAGGTCCTTATGTGCAGGTTTCTGGGCTGGCGAACGCGTTATGGTGAGCGTGATCCGACTTCTGCGCCGGGGAGCGCGTTATGGTGACCGCAAGCCGCCGCGACACACGCGATCTTCACACCATCAAATACATGATCCTTATCAAGCCTAGCAGATTCACGCCATGTTTGCATTGAAACTCAGGTAATTTTTCTGTAGGCTTAATTTATTGAGAAGGGAAGCGTTTTCGTCATGAAACTAAGCGCCAAAATTTTTGCCAAAGTTGGCAGTGAGCGCATTACGCAATACACATTAGTCAACGATCAGCAAATGACGCTGCGATTTTTAACTTTCGGCGCTCGCGTTCAGCAAGTCCGGTTGCCCAATACGACTGGGTTAGATCCTAACTTATTGCTTGGGTTCGTCACTTTAGAAGATTATCTGCATCAACCCGGTCTTTTTGGCGCCATGACCGGTCCGCTTGCACCAGACGACCCTAAAAC
+
+# Questionable array : YES	 Score: 0.25
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.88, 5:0, 6:0.28, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TAAGTGGCCTTGGGCGTGATGACCGGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.90,-2.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [48.3-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [59,249] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [2262578-2262883]; 
+# Array family : NA
+# Sequence source strain : ATCC 53103
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus GG
+//
+
+
+Array 3 2261881-2260258 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017482-Lactobacillus rhamnosus ATCC 53103 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   2261880	    36	 100.0	    30	....................................	AAGAAACGATCCCGAGTTTCTGGATTGCTT	
+   2261814	    36	 100.0	    30	....................................	TCATCAGTATTCATGGAAATATAGGATGCT	
+   2261748	    36	 100.0	    30	....................................	ATCATCGAATCTTTGGGGACCTTACCACTT	
+   2261682	    36	 100.0	    30	....................................	GATTGTTTCGGTTGCTTCTGTGATGCCACC	
+   2261616	    36	 100.0	    30	....................................	ATGACTGGTTGCCGGTAAGCGATGAGTTCA	
+   2261550	    36	 100.0	    30	....................................	CATACTTGTATGAGCACTTTGACTTGTCAA	
+   2261484	    36	  97.2	    30	....................T...............	ACCGTTTGTGTTGCATGAATATGATCACTA	
+   2261418	    36	 100.0	    30	....................................	AGGTGCTATGCCGCTTGGCATGACGATTGA	
+   2261352	    36	 100.0	    30	....................................	AATAATATTGTGCCAAAAGGTAGTATTCTA	
+   2261286	    36	 100.0	    30	....................................	TCCAAGGGCATTCCAGATTGCAGAAGCCCC	
+   2261220	    36	 100.0	    30	....................................	GGGTGATGCTGACAAGATCAAGACGGCTGT	
+   2261154	    36	 100.0	    30	....................................	CGCCTTACGGGCGACAGCTAGGCCTATGGG	
+   2261088	    36	 100.0	    30	....................................	AGATCGAGCATTACGGCTTGCAAGACTGCG	
+   2261022	    36	 100.0	    30	....................................	ACAGTTGAGAAAAGAAAATACGCATTTAAA	
+   2260956	    36	 100.0	    30	....................................	AAAAACACAAATGGCCGCTGCCACCTTATG	
+   2260890	    36	 100.0	    30	....................................	AAAAAAGCCGCGGAACTTCTCGGGCTAGAC	
+   2260824	    36	 100.0	    30	....................................	CACAGTGCCATTCCACAAACCCGACAGAAA	
+   2260758	    36	 100.0	    30	....................................	CGAGCTTGCGGCCAATATCAAGCTATATGC	
+   2260692	    36	 100.0	    30	....................................	GTGTGATCATCATTACCTCTCTGCCACTAA	
+   2260626	    36	 100.0	    30	....................................	ATCGCATACTTCATGATGATTGATGCCAGT	
+   2260560	    36	 100.0	    30	....................................	CTGTGTTCTCACGTGTCAACAATTATTTCA	
+   2260494	    36	 100.0	    30	....................................	TTGTGGTGCCAAAACGGGTTGTTGTCGAGA	
+   2260428	    36	  97.2	    30	...................................G	TTTCAGCAAATATGACGTCTAACATGCCTC	
+   2260362	    36	  94.4	    30	..................................AT	ACTTGGAAAAGTTGCTATGCAGTTTGAATA	
+   2260296	    36	  83.3	     0	.......................AA.A....G..AA	|                             	T,CA [2260261,2260267]
+==========	======	======	======	====================================	==============================	==================
+        25	    36	  98.9	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   GAGCTGGATTTGGACAAGTTATTCCAACGCTTGATCATCAAGAAGGTAAGTCAATTGATAGAGGATCGGCGGCTGATTGAGTTGATTGAGCAGTCACAACGACTGGCAATGAGCTTATTGAGAGAGCCGTTGTTAAGTGAACTTCCAGTCACAGTCGAACCTGGTGGAAAACTTGAACAAATCATGAAATACTGTAATGTTCATTTTGATGAAGAAGTACTCACGGAGCCTTTCTCGAAAGTTGAAGCGGCAATTAAGACTTTGGCGAAACTTGAGGAGAAACGTCTTGTCATTTTTACCAACATCAGTCATTATTTAGATGTTGATAGTTTGAACAAGCTGTTAGATCAGGTTAAGGAAACATCGTTAGAATTACTTCTCATTGAATTTTCGGATGTCGAACGTAGAAAGTTTTTTGAGAGGTGCCAGTATATCTATATTGACAAAGATTTCATGGATAGCCGTGAACTGATTGATTAAGAGACTGTGTGAAAACACCG
+# Right flank :  CCTCACCCCATAAATGCTATGCAAATCCCAAAAGAAGGCAACAGCAATGTCAAAAGCGAAACTAATCCTTTCCCCAGCCTTTTACACTGATCTCAAAGAAATCCGTCACATGTATCAACAGGCGTTCAAATCCATTTACGACAAATATCAAGATCGGGAAACCAACCCCTACTGTGAATCGTTGGAAAGCTTACAGAAAAAAGTTCAAACGGCATAACAATGCCTTCTTCTTTATAATCGTTAAAGATAAACACATAGGCCTGATTCGCGTTGTAACAGATCGCAAAAATTCGGCAGTCCGTATTTCACCATTTTTAATCTTGCCGTCTTATCAAGGAAAGGGATACGCTCAGCTCGGACTACAGTTGATTGAAGAACAGTTTCCGCTCATTCAAACATGGTATGTAGACACGATTGCGGAAGAACCTAAATTGGTACATTTGTATCGTAAAGTCGGCTTTCAGCAGCTGCCAGATCGGGAAACAACGATTAATGAGCAT
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [307,21] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [2262578-2262883]; 
+# Array family : NA
+# Sequence source strain : ATCC 53103
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus GG
+//
+
+
+Array 4 2622608-2622838 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017482-Lactobacillus rhamnosus ATCC 53103 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                                   	Insertion/Deletion
+==========	======	======	======	========================	==================================================================================	==================
+   2622608	    24	 100.0	    77	........................	GAGAGAATTCATGGCCTCAGGCGTGATGGTCGGACTTTGACCATTGCGCCTGAGGTCCTTACACGCAGGTTTCTGGC     	
+   2622709	    24	  95.8	    82	..T.....................	AGGTGGATGTACGTCCGTCCTAAAACGTGATGGCCCTGGCTTTGACCATTGCGCCTAAGGTCCTTATACGCAGATTCCTGCG	
+   2622815	    24	 100.0	     0	........................	|                                                                                 	
+==========	======	======	======	========================	==================================================================================	==================
+         3	    24	  98.6	    80	CCGGTGAGCGCGTTATGGGCGTAA	                                                                                  	       
+
+# Left flank :   GTCTTAGCCGTAAACAAAGGCGTATCCCCGCTCATAATCAGCGTGGAGCCTTCCTTTTGCCCCAACAATGGCTCTGCTTGTAATACCGCGTGACCGGTGCCCAACTGTTCCGCCTGCAACACGAATTCAGTCCGCTTTCCAAGTGTCTTTTCAACTTCTTCGGCACCATGGCCAACAATGGTCACGATAGCGTCAGGATGAATGGCTTCCACCTGGCTCACCACATGCTCGACCATGCTCTTACCACAGACCGGTTGCAAAACCTTATAATACTTCGATTTCATCCGCGTCCCCTTACCGGCCGCGAGAATGATGGTGAATTTCTTTGACATATGAATACTCCATTCCTAATTATCTTATTTCATAATAGCCCAGCCAGCCGATACTGACAACAACTGAGCGCGAGCCGGCGCGGTTAGAAGTCGGAGTGTAAGCGGCCTAAAACGTGATGGCCCGCTCTTGGCCATTGCGTTTTAGGTCCTTACACGCAGACTTCTGCG
+# Right flank :  AAGGTGGATGTACCCTAAAACGTGATGCCCGCGCCAGGTCCTTCCCCACAAACTCCTACCCTCTCCCAAAACCCAACCAAAACAAAAAACAGGCCCGTCGACATCCCAAGCCTGTTTTCCAAATACTATTCATTCGACCTGTCATGCTCTTCATCCACATCCGGTTTCGCATCGTCAACCTGCTGCTTAACCTCCGCTGGCACTTCAAACGTACTAACTTGAGTCGTATCAGCCCACGCATCATAAAAGAAGCGAAAATGCCGCGAGCCCACTTCCCAAACAAAATTAATCATGAACAGAAAGACCAAAACCGCAAAGAATCCTAGCGCAGCCAAATTAATCTGAGTTCGTTGAAACTTGGCAAAATACGCAATAAAGAAATTGTTCAACCCTACCAAGCTGGAAAAGGCCAGGCCATATAACAGTCCTTCGCGCAACAAAAGCCGCCAAAATCCGACAGCTTGACCATCAGTACGCACAATTTTAATGCGCACCAATCC
+
+# Questionable array : YES	 Score: 0.27
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.93, 5:0, 6:0.25, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGGTGAGCGCGTTATGGGCGTAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [170,125] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [2262578-2262883]; 
+# Array family : NA
+# Sequence source strain : ATCC 53103
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus GG
+//
+
+
+Array 5 2644542-2644791 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017482-Lactobacillus rhamnosus ATCC 53103 DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                                                                                  	Insertion/Deletion
+==========	======	======	======	=========================	=================================================================================================	==================
+   2644542	    25	 100.0	    97	.........................	CTTAAGGTCCTTACACGCAGGTTTCTGCGCCGGGGAGCGCGTTATGGTGAGCGCGAACAGGGCCGGTTAGAAACCGGAGTGTAAGCGTCCTTAGACG	
+   2644664	    25	  92.0	    78	........C..G.............	TCTAAGGTCCTTACATGCAGGTTTCTGGCCCTGTGAGCGCGTTATGGGCATAAGCCAGAACTTTAGCGGCCTTAAGCG                   	
+   2644767	    25	 100.0	     0	.........................	|                                                                                                	
+==========	======	======	======	=========================	=================================================================================================	==================
+         3	    25	  97.3	    88	TGATGGCCGGGCTTTGGCCATTGCG	                                                                                                 	       
+
+# Left flank :   TCTTGAACCCACAACTTAATTGATGCCGGTGAGCCATCAATCATGACACTTTTAATGCCTTGCGGGTCAAAGCTAGTCAGATAATACATCTCCAACATCCCGCCCCATGACTGACCGAGCATATGTAACTCATCCAAGTGCAGGAACTTACGCAAAGCAACAAGCTCTTCGGCCCAAGTTTCCTTCACATAAACCCCCGGATCTTCCGGAAGCGATGACTTACCACAGCCAACCTGATCATACATAATCAACTGCCGACCGGTTTCGGCATAGTCATCCATGAGCTCAAAATAATTATGCGACGAACCCGGGCCACCATGAATCAACAACAACGGCGCTTTATCGGCACTAGGTTCACCGACAATGCGATAGTAGGTTTTATATTCATGAAACGGCATGTATCCTTCTTTAATCTTCACAACCATCCAAACATTCGACCTTTCAAGAAAGTGAGCGCGAGCCGGCGCGGTTAGAAACCGGAGTGTAAGCGGCCTTAAGCA
+# Right flank :  GCTTAAGGTCCTTACACGCAGGTTTCTGCGCCGGGGAGCGCGTTATGGTGAGCGCGAACAAACGGTCTTCTACGCTAGCAAACACGTTACGTTATCGTTGCCAAAAATCGCACGCACGCAACCTAGCGTACTTACTGCGATTTTACTACGCATCGGCAATACTGTCAGACAAAATATGGAAATTGTCTAAAAAAACCATTAAAACGCTAAAACAAATCCAACTGCCGCGGCGCCAACCCGGGAAAATCCAGCCCTAACATTTCGATGAAACTTTGAGCGTTTGCTGCTGCGTCATGTCCGCCATTGTTATTGAAGATAACCGTCACATTTTTGCTCTTCAAATGCTTCACGATTAAGGCAAACGCCTCTAACTCGGCTTGACTATACCGATAATTAGTTCGTTCCGTTGTCTTAGCACCGCTTTGCCCCCAAGCCTGATTGCGTCCGTGCAACCGTAAAATTGTCAGTTCAGGGTTCGTTGCAATTGGCACCAATGGGAC
+
+# Questionable array : YES	 Score: 0.29
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:0.34, 7:-3, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGATGGCCGGGCTTTGGCCATTGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.40,-3.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [83,206] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [2262578-2262883]; 
+# Array family : NA
+# Sequence source strain : ATCC 53103
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus GG
+//
+
+
+Array 1 33536-34561 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNNV01000014-Lactobacillus rhamnosus K32 contig14, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     33536	    36	 100.0	    30	....................................	TCCAGGGCCCGCTCCTGTCCCGTCCCGGCC	
+     33602	    36	 100.0	    30	....................................	TGAGCGTGMTCATGAAGGCCGAGGCCGGCA	
+     33668	    36	 100.0	    30	....................................	TTCTTGTAAATCAGGGTAAACGTCAGAAAG	
+     33734	    36	 100.0	    30	....................................	YACGGCCACTTCATCGCGATCCACGTCATG	
+     33800	    36	 100.0	    30	....................................	TCTGCTTCAATCTCAACACGCGGTTGATCG	
+     33866	    36	 100.0	    30	....................................	YATACACCTTATTACCCTGTGCATTGTCGT	
+     33932	    36	 100.0	    30	....................................	TGTCATCTATTTTGAACGACAATGAAGATG	
+     33998	    36	 100.0	    30	....................................	TAAATTCTTCATATGTGACCATTTTTCCGT	
+     34064	    36	 100.0	    30	....................................	TCGTATACGCGTGAAATATTCGYAATTGAG	
+     34130	    36	 100.0	    30	....................................	TAAATCAGMGTKGGCAAGTTGTTTACACGG	
+     34196	    36	 100.0	    30	....................................	CMACGGGAATAATATCAATGCCTTGATGAA	
+     34262	    36	 100.0	    30	....................................	CACGAAGACTACAYGCAMGCKGATGACTCA	
+     34328	    36	 100.0	    30	....................................	GATGAAGAAGAACTGACAAAGATGATCAAG	
+     34394	    36	 100.0	    30	....................................	AAGCCGGTTAGAAGTGACATGCAAGAGCTG	
+     34460	    36	 100.0	    30	....................................	CATGCCGCAATCATTTGGGTGTCGTCATTG	
+     34526	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+        16	    36	 100.0	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   GAGCTGGATTTGGACAAGTTATTTCAACGCTTGATCATCAAGAAGGTAAGCCAATTGATAGAGGATCAGCGGCTGATTGAGTTGGTTGAGCTGGCACAGCAACTGGCAATGAGCTTATTAAAAGAGCCGTTGTTAAGCGAACTTCCAGTTACAGTCGAACCCGGTGGAAAACTTGAACAAATTATAAAATACTGTAATGTTCATTTTGATGAGGAAGTAGTCACGGAGCCCTCCTCAAGAATTGAAGCAGCAATTCAGACTTTGGTAAAACTTGAAGAGAAACGGCTTGTCATTTTTACCAACATCAGTCATTATTTAGATGTTGAGGGTATGAGCAGGTTGTTAGATCAGGTTAAGGATACATCGTTGGAATTGCTTCTCATTGAATTTTCAGATGTCGATCGTAGAAAGTTCTTTGAGAAATGCCAGTATATCTATATTGACAAAGATTTTATGGACAGTCGAGAACTGATTGATTAAGGGACCGTGTGAAAACACCG
+# Right flank :  CTTCCACGCCAGTGTCTGATGGTACTGTTGAGTCTCAGGTAGATGYCAKCTAACAACATGTCCATTGCTCGCTTGTATAATTTTTGTCGTTCTATTTCAATTACTTCCTTTCCTCTTCCACAACTATAGGAGACCCAAATAATGGATAGTTTAGCAATGTTAAGGTTTTTGAATTGATTGATCTGACATCTACCTGAGACTGTGAGTGAATTTGACCAGACCGTTACGGCGCTCTTGAACTGATTGATCTGACATCTGCCTGAGACAAAAAGTTCAATTTGTTTTTTGATTTTGCTGCTCTTGAACTGATTGAACTGACATCTACCTGAGACACGCGATACTATTCATTATCAAACAAGCTAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACTCAACAGTACCATCAGACACTGGCGTGGAAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCAATGACGACACCCAAATGATTGCGGCATGGCTCTT
+
+# Questionable array : NO	 Score: 8.29
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.29, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-51.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [22,1036] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_032965179 [32533-32838]; 
+# Array family : NA
+# Sequence source strain : K32
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus K32
+//
+
+
+Array 2 35355-34725 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNNV01000014-Lactobacillus rhamnosus K32 contig14, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     35354	    36	 100.0	    30	....................................	TAACGGGAATAATATCAATGCCTTGATGAA	
+     35288	    36	 100.0	    30	....................................	CACCATGTCTGATAGCGAGTAGATGACTAA	
+     35222	    36	  91.7	    30	.....C..G......................G....	CATGATGTAAGAATGTAAAAGAAGTGCAAG	
+     35156	    36	  97.2	    30	.G..................................	AAGCCGGTTAGAAGTGACATGCAAGAGCTG	
+     35090	    36	 100.0	    30	....................................	CATGCCGCAATCATTTGGGTGTCGTCATTG	
+     35024	    36	 100.0	    30	....................................	TTCCACGCCAGTGTCTGATGGTACTGTTGA	
+     34958	    36	 100.0	    30	....................................	TAGCTTGTTTGATAATGAATAGTATCGCGT	
+     34892	    36	  97.2	    30	..................T.................	AGCAAAATCAAAAAACAAATTGAACTTTTT	
+     34826	    36	  97.2	    30	........C...........................	GCCGTAACGGTCTGGTCAAATTCACTCACA	
+     34760	    36	  91.7	     0	..........................A.....A.A.	|                             	
+==========	======	======	======	====================================	==============================	==================
+        10	    36	  97.5	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   TGACATCTACCTGAGACCATCTTCATTGTCGTTCAAAATAGATGACAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACACGACAATGCACAGGGTAATAAGGTGTATGGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCGATCAACCGCGTGTTGAGATTGAAGCAGAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCATGACGTGGGCAAGTTGTTTACACG
+# Right flank :  CTTAACATTGCTAAACTATCCATTATTTGGGTCTCCTATAGTTGTGGAAGAGGAAAGGAAGTAATTGAAATAGAACGACAAAAATTATACAAGCGAGCAATGGACATGTTGTTAGKTGYCATCTACCTGAGACTCAACAGTACCATCAGACACTGGCGTGGAAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCAATGACGACACCCAAATGATTGCGGCATGGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCAGCTCTTGCATGTCACTTCTAACCGGCTTGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCTTGATCATCTTTGTCAGTTCTTCTTCATCGCTCTTGAACTGATTGATCTGACATCTACCTGAGACTGAGTCATCKGCMTGCYTGTAGTCTTCGTGGCTCTTGAACTGATTGATCTGACATCTACCTGAGACTTCATCAAGGCATTGATATTATTCCCGTMGGCTCTTG
+
+# Questionable array : NO	 Score: 8.10
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.88, 5:0, 6:1, 7:0.30, 8:1, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1211,243] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_032965179 [32533-32838]; 
+# Array family : NA
+# Sequence source strain : K32
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus K32
+//
+
+
+Array 3 35382-35549 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNNV01000014-Lactobacillus rhamnosus K32 contig14, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     35382	    36	 100.0	    30	....................................	TCTGCTTCAATCTCAACACGCGGTTGATCG	
+     35448	    36	 100.0	    30	....................................	CATACACCTTATTACCCTGTGCATTGTCGT	
+     35514	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         3	    36	 100.0	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   CTACCTGAGACACGCGATACTATTCATTATCAAACAAGCTAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACTCAACAGTACCATCAGACACTGGCGTGGAAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCAATGACGACACCCAAATGATTGCGGCATGGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCAGCTCTTGCATGTCACTTCTAACCGGCTTGCTCTTGAACTGATTGATCTGACATCTACCTGAGCCCTTGCACTTCTTTTACATTCTTACATCATGGCTCCTGAACTGATTGATCTGACATCTCCCGGAGACTTAGTCATCTACTCGCTATCAGACATGGTGGCTCTTGAACTGATTGATCTGACATCTACCTGAGACTTCATCAAGGCATTGATATTATTCCCGTTAGCTCTTGAACTGATTGATCTGACATCTACCTGAGACCCGTGTAAACAACTTGCCCACGTCATG
+# Right flank :  TGTCATCTATTTTGAACGACAATGAAGATGGTCTCAGGTAGATGTCA
+
+# Questionable array : NO	 Score: 7.94
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.54, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.50,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-48.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1868,48] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_032965179 [32533-32838]; 
+# Array family : NA
+# Sequence source strain : K32
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus K32
+//
+
+
+Array 1 661-31 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JDFQ01000009-Lactobacillus rhamnosus PEL5 contig00009, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+       660	    36	 100.0	    30	....................................	AAGAAACGATCCCGAGTTTCTGGATTGCTT	
+       594	    36	 100.0	    30	....................................	TCATCAGTATTCATGGAAATATAGGATGCT	
+       528	    36	 100.0	    30	....................................	ATCATCGAATCTTTGGGGACCTTACCACTT	
+       462	    36	 100.0	    30	....................................	GATTGTTTCGGTTGCTTCTGTGATGCCACC	
+       396	    36	 100.0	    30	....................................	ATGACTGGTTGCCGGTAAGCGATGAGTTCA	
+       330	    36	 100.0	    30	....................................	CATACTTGTATGAGCACTTTGACTTGTCAA	
+       264	    36	  97.2	    30	....................T...............	ACCGTTTGTGTTGCATGAATATGATCACTA	
+       198	    36	 100.0	    30	....................................	AGGTGCTATGCCGCTTGGCATGACGATTGA	
+       132	    36	 100.0	    30	....................................	AATAATATTGTGCCAAAAGGTAGTATTCTA	
+        66	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+        10	    36	  99.7	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   GAGCTGGATTTGGACAAGTTATTCCAACGCTTGATCATCAAGAAGGTAAGTCAATTGATAGAGGATCGGCGGCTGATTGAGTTGATTGAGCAGTCACAACGACTGGCAATGAGCTTATTGAGAGAGCCGTTGTTAAGTGAACTTCCAGTCACAGTCGAACCTGGTGGAAAACTTGAACAAATCATGAAATACTGTAATGTTCATTTTGATGAAGAAGTACTCACGGAGCCTTTCTCGAAAGTTGAAGCGGCAATTAAGACTTTGGCGAAACTTGAGGAGAAACGTCTTGTCATTTTTACCAACATCAGTCATTATTTAGATGTTGATAGTTTGAACAAGCTGTTAGATCAGGTTAAGGAAACATCGTTAGAATTACTTCTCATTGAATTTTCGGATGTCGAACGTAGAAAGTTTTTTGAGAGGTGCCAGTATATCTATATTGACAAAGATTTCATGGATAGCCGTGAACTGATTGATTAAGAGACTGTGTGAAAACACCG
+# Right flank :  CTCCAAGGGCATTCCAGATTGCAGAAGCCCC
+
+# Questionable array : NO	 Score: 8.29
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.30, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [21.7-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [32,21] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [1358-1663]; 
+# Array family : NA
+# Sequence source strain : PEL5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus PEL5
+//
+
+
+Array 1 829-3 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JDFR01000008-Lactobacillus rhamnosus PEL6 contig00008, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+       828	    36	 100.0	    30	....................................	AAGAAACGATCCCGAGTTTCTGGATTGCTT	
+       762	    36	 100.0	    30	....................................	TCATCAGTATTCATGGAAATATAGGATGCT	
+       696	    36	 100.0	    30	....................................	ATCATCGAATCTTTGGGGACCTTACCACTT	
+       630	    36	 100.0	    30	....................................	GATTGTTTCGGTTGCTTCTGTGATGCCACC	
+       564	    36	 100.0	    30	....................................	ATGACTGGTTGCCGGTAAGCGATGAGTTCA	
+       498	    36	 100.0	    30	....................................	CATACTTGTATGAGCACTTTGACTTGTCAA	
+       432	    36	  97.2	    30	....................T...............	ACCGTTTGTGTTGCATGAATATGATCACTA	
+       366	    36	 100.0	    30	....................................	AGGTGCTATGCCGCTTGGCATGACGATTGA	
+       300	    36	 100.0	    30	....................................	AATAATATTGTGCCAAAAGGTAGTATTCTA	
+       234	    36	 100.0	    29	....................................	TCCAAGGGCATTCCAGATTGCAGAAGCCC 	
+       169	    36	 100.0	    30	....................................	GGGTGATGCTGACAAGATCAAGACGGCTGT	
+       103	    36	 100.0	    29	....................................	CGCCTTACGGGCGACAGCTAGGCCTATGG 	
+        38	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+        13	    36	  99.8	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   GAGCTGGATTTGGACAAGTTATTCCAACGCTTGATCATCAAGAAGGTAAGTCAATTGATAGAGGATCGGCGGCTGATTGAGTTGATTGAGCAGTCACAACGACTGGCAATGAGCTTATTGAGAGAGCCGTTGTTAAGTGAACTTCCAGTCACAGTCGAACCTGGTGGAAAACTTGAACAAATCATGAAATACTGTAATGTTCATTTTGATGAAGAAGTACTCACGGAGCCTTTCTCGAAAGTTGAAGCGGCAATTAAGACTTTGGCGAAACTTGAGGAGAAACGTCTTGTCATTTTTACCAACATCAGTCATTATTTAGATGTTGATAGTTTGAACAAGCTGTTAGATCAGGTTAAGGAAACATCGTTAGAATTACTTCTCATTGAATTTTCGGATGTCGAACGTAGAAAGTTTTTTGAGAGGTGCCAGTATATCTATATTGACAAAGATTTCATGGATAGCCGTGAACTGATTGATTAAGAGACTGTGTGAAAACACCG
+# Right flank :  CAG
+
+# Questionable array : NO	 Score: 8.24
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.25, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [4,21] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_015765030 [1526-1831]; 
+# Array family : NA
+# Sequence source strain : PEL6
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus rhamnosus PEL6
+//
+
+
+Array 1 22281-21783 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV816075-Lactobacillus sp. HMSC075D02 Scaffold361, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     22280	    36	  91.7	    30	NNN.................................	GATGAAGAAGAACTGACAAAGATGATCAAG	
+     22214	    36	 100.0	    30	....................................	TAAATCAGCGTGGGCAAGTTGTTTACACGG	
+     22148	    36	 100.0	    30	....................................	TATAGCCCTTGCAATCATAAACAAGTATAT	
+     22082	    36	 100.0	    30	....................................	CAAAGTCATATGTATAAAGACCCTAAAGGT	
+     22016	    36	 100.0	    30	....................................	TGTTAATGCTAATGAAATTGCCACAAAAGT	
+     21950	    36	 100.0	    30	....................................	TGGCTTCCCATGTATTTGACACATTACCTT	
+     21884	    36	 100.0	    30	....................................	GCCGTAACGGTCTGGTCAAATTCACTCACA	
+     21818	    36	  91.7	     0	..........................A.....A.A.	|                             	
+==========	======	======	======	====================================	==============================	==================
+         8	    36	  97.9	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   ATCAGTTCAAGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCAGGTAGATGTCAGATCAATCAGTTCAAGAGCCAGGATCAGACTGTTACCTATGTTTACACGGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCCTGGCCTACACACAAGAAGTAGTCAGTGAGGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCTTACCGTGAGTGCCGTTTGGGACTACCAGCGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCACCAAGACACCGGTTACCACTCCTAAGGGCGTCTCAGGTAGATGTCAGATCAATCAGTTCAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  CTTAACATTGCTAAACTATCCATTATTTGGGTCTCCTATAGTTGTGGAAGAGGAAAGGAAGTAATTGAAATAGAACGACAAAAATTATACAAGCGAGCAATGGACATGTTGTTAGATGGCTATGCTCCGTTAGACGCAGAGACATTAAGAGTTATGAAGGTACGCGAAGTTTATAGTCCTATTAATCGCGTAGACATGACAGCAGAGCAGTTAGGTGTTTGCTTTCCATTAAGACTAGTCAATAGAAAGCAATTGCGTGAGCTTAGAGAATTAATTCCACGTGACTTAACCCCGACAGAGATTTTTCTAAGAACAGCACGGTTGAAGGGTCAGGCAAAGCCATTGCACAACTATGCGCCTGATTCCGATGTCTGGCTTGATGGCATTATCGGTTCTTTATATTTTGGCGGTTCGGATGATGGGCATGATGATTTCTATTGACCAGACGCTGAAACTTGGTCTGGTAGTCCATCCTCTGAGATCGATATACGCCACAACTT
+
+# Questionable array : NO	 Score: 8.22
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:0.32, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [3-3] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [757,609] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_032965179 [23566-23871]; 
+# Array family : NA
+# Sequence source strain : HMSC075D02
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus sp. HMSC075D02
+//
+
+
+Array 2 22674-22374 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV816075-Lactobacillus sp. HMSC075D02 Scaffold361, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     22673	    36	  88.9	    30	NNNN................................	CAGGATCAGACTGTTACCTATGTTTACACG	
+     22607	    36	 100.0	    30	....................................	CTGGCCTACACACAAGAAGTAGTCAGTGAG	
+     22541	    36	 100.0	    30	....................................	TTACCGTGAGTGCCGTTTGGGACTACCAGC	
+     22475	    36	 100.0	    30	....................................	ACCAAGACACCGGTTACCACTCCTAAGGGC	
+     22409	    36	  88.9	     0	................................NNNN	|                             	
+==========	======	======	======	====================================	==============================	==================
+         5	    36	  95.6	    30	GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC	                              	       
+
+# Left flank :   AATGTTCATTTTGATGAGGAAGTAGTCACGGAGCCCTCCTCAAGAATTGAAGCAGCAATTCAGACTTTGGTAAAACTTGAAGAGAAACGGCTTGTCATTTTTACCAACATCAGTCATTATTTAGATGTTGAGGGTATGAGCAGGTTGTTAGATCAGGTTAAGGATACATCGTTGGAATTGCTTCTCATTGAATTTTCAGATGTCGATCGTAGAAAGTTCTTTGAGAAATGCCAGTATATCTATATTGACAAAGATTTTATGGACAGTCGAGAACTGATTGATTAAGGGACCGTGTGAAAACACCGGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCGTTATTTGTCGCCCCACGTACTGCTCTATCGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCGATGAAGAAGAACTGACAAAGATGATCAAGGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCTAAATCAGCGTGGGCAAGTTGTTTACACGGGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCTATAGCCCTTGCAATCATAAACAAGTATATGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCCAAAGTCATATGTATAAAGACCCTAAAGGTGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCTGTTAATGCTAATGAAATTGCCACAAAAGTGTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGCTGGCTTCCCATGTATTTGACACATTACCTTGTCTCAGGTAG
+
+# Questionable array : NO	 Score: 7.94
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.78, 5:0, 6:1, 7:0.36, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTCAGGTAGATGTCAGATCAATCAGTTCAAGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [4-4] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1348,216] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_032965179 [23566-23871]; 
+# Array family : NA
+# Sequence source strain : HMSC075D02
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus sp. HMSC075D02
+//
+
+

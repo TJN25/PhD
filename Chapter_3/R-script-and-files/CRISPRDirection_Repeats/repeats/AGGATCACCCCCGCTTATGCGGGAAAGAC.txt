@@ -1,0 +1,92 @@
+Array 1 540-26 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JPVT01000076-Tetragenococcus muriaticus 3MR10-3 WGS_Sequence076_086, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       539	    29	 100.0	    32	.............................	TTCCAAAGTCCACGCGCAAGATTGACAACGGT	
+       478	    29	 100.0	    32	.............................	GCCTTGTTCCGGACGGTACCAACAGCTGATGT	
+       417	    29	 100.0	    32	.............................	TGTTTTGCTTCCTCAATACTTGGCATAAGCAT	
+       356	    29	 100.0	    29	.............................	TACCTCATTAATACTTCCTCAGTCCAATC   	
+       298	    29	 100.0	    32	.............................	ATTTGATCGATCTTTTGGACAATATGCTGAAA	
+       237	    29	 100.0	    32	.............................	TTATGAATTTCTCCGAAAGGGAAATGTATGAT	
+       176	    29	 100.0	    32	.............................	TGCAAGAGTTGGTAAGAAGTCAATCGATTTTG	
+       115	    29	 100.0	    32	.............................	AGGGTAGAAAAACTCAATCGTGTATCGTTGTT	
+        54	    29	  96.6	     0	G............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         9	    29	  99.6	    32	AGGATCACCCCCGCTTATGCGGGAAAGAC	                                	       
+
+# Left flank :   TTTTCGTAAAAGTTTGGACGAC
+# Right flank :  CGCCCAATTTTAGCTTATTTAAAAGT
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.98, 5:0, 6:1, 7:1.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGATCACCCCCGCTTATGCGGGAAAGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.90,-10.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-25.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 3MR10-3
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Tetragenococcus.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromJPVT01000076.FEATURES             Location/Qualifierssource          1..562/organism="Tetragenococcus muriaticus 3MR10-3"/mol_type="genomic DNA"/strain="3MR10-3"/isolation_source="Thai fish sauce fermentation process"; Tetragenococcus muriaticus 3MR10-3
+//
+
+
+Array 1 39-797 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JPVT01000246-Tetragenococcus muriaticus 3MR10-3 WGS_Sequence246_087, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+        39	    29	 100.0	    32	.............................	TAATCAATCCAAGCGGGTTTTCCACTCATGTC	
+       100	    29	  96.6	    32	G............................	AAATGATCGGCTTGAGATTTCCAATCGCTTCC	
+       161	    28	  93.1	    32	G......-.....................	CATTAATATCCGGCTTTAAGCTATCTGCTTCA	
+       221	    29	 100.0	    31	.............................	TTAATTCATCTATCTCATTTTGCTCTTGTTA 	
+       281	    29	 100.0	    32	.............................	TCATTTACTTCTTCTTTTTTATTCTCAATTGC	
+       342	    29	  96.6	    32	T............................	TAACAAAATCGGGCGTATATGATATACTTGAT	
+       403	    29	 100.0	    32	.............................	GATAGCATTTTAGACGGCATAGAATCCGAAGA	
+       464	    29	 100.0	    32	.............................	GATAAGCTTCACTGATAGGTTGCATAGGGCGT	
+       525	    29	 100.0	    32	.............................	CAGCCATAAGGTTTTAGCTCCGACTGGATAAC	
+       586	    29	 100.0	    32	.............................	GTGTTAGGATTTGTTTTATTATGGTTGTGTTT	
+       647	    29	 100.0	    32	.............................	CGTGATAAGCGCTATCGTGCAAATGCTTTTCA	
+       708	    29	 100.0	    32	.............................	GAAGTTGGATCTTGAGCAGGTAGAAGATGTAG	
+       769	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+        13	    29	  98.9	    33	AGGATCACCCCCGCTTATGCGGGAAAGAC	                                	       
+
+# Left flank :   AAAGACGCTAAGTAATCATAGTAACTCTTAGCATTCGTA
+# Right flank :  CAGTTAAAGATCCCTACAAAAACAGCATTTTTAATTCACCATTTTCAAAAATTTATTCACTTTTGTCGATAATTGATATATTATTTTCGCATCTTCCAGAGCTCGGTGAGGTACATAATCATCAAATCCATAACTTACTAAAGCTGTTTTTAATTTATAATCACTGAGAAGCATTTTTTCTCGTTTAATATACCGAATTAAATCATGAGGCTTATTTGATAACTTTATTAAGTCATGATCCTTTAAATATTTATTCAAAAAGCGAAGATCAAAGTCAAGTCCGTAACCAACTATAGGAAAATCTTCTATAAAGTCTACAAACTCCATTAATGAATCCTTTAAAGGTTGACCATTTTCATCTAATAAATCTTGAGTGATACCAGTTAACTTAATAATATCTGTTGGTAATTCCTTATCGTATTTAATTAATCGATGAAAATTTGTTAGTTTTCCTCCATCCAGCTTAACTGCTCCGATTTCAATAATTTGATTATCGTTAT
+
+# Questionable array : NO	 Score: 7.96
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.01, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGATCACCCCCGCTTATGCGGGAAAGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.40,-9.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [41.7-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [40,30] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0.68   Confidence: LOW] 
+
+# Identified Cas genes:  Cse1:WP_038024395 [5723-7414]; Helicase/endonuclease Cas3:NA [7401-10204]; 
+# Array family : NA
+# Sequence source strain : 3MR10-3
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Tetragenococcus.; Tetragenococcus muriaticus 3MR10-3
+//
+
+

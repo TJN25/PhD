@@ -1,0 +1,57 @@
+Array 1 836911-838333 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALWR01000001-Streptococcus parauberis KRS-02109 Scaffold1, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	====================================	===============================	==================
+    836911	    36	  97.2	    30	.A..................................	ATACATAGTTATTAGGATGTGCTTTGATGT 	
+    836977	    36	 100.0	    30	....................................	GATAAACCTTTGATAACTACTGTATGCCCC 	
+    837043	    36	 100.0	    30	....................................	CTAACATAAATGCCGCTCCTACATCTTATA 	
+    837109	    36	 100.0	    30	....................................	TTGCTGATTATGTTACTTAAGTCAGACAAC 	
+    837175	    36	 100.0	    30	....................................	ACCCATTCCGGTTCGTTCATTTTTTCCACC 	
+    837241	    36	 100.0	    31	....................................	GAAGCCTATTTTGCAGAGATTGAAGAAGAAG	
+    837308	    36	 100.0	    30	....................................	AACTTTTTTATTATTGTAAAACTTTATTTG 	
+    837374	    36	 100.0	    30	....................................	AGCATGTCAATTCTTGAAAAGAAGATTATG 	
+    837440	    36	 100.0	    30	....................................	ATTCTGTTGGGTCGTATCCGTGGATTTCTA 	
+    837506	    36	 100.0	    30	....................................	CTTGATAATCGATATTCTCAAACTCAAATG 	
+    837572	    36	 100.0	    30	....................................	CAAGCTACTAAATCTTATCTGTTAGGCGAT 	
+    837638	    36	 100.0	    29	....................................	AGGTTTTTAACTCTGAAATAGTCAAATCA  	
+    837703	    36	 100.0	    30	....................................	AGGCGCAGTAGTGACATCTAAAAAAACAGA 	
+    837769	    36	 100.0	    30	....................................	GAGCCAAAGTGGGTTGATATTTTGAGAACT 	
+    837835	    36	 100.0	    30	....................................	ACCAATGCAATGATGTTTTCTTTAACTTTT 	
+    837901	    36	 100.0	    31	....................................	AAAGAGAAAGTCACATCGTTTGAATCTGGCG	
+    837968	    36	 100.0	    30	....................................	TCCCTTTTAGGTAATCTCTGATAATTCGTT 	
+    838034	    36	 100.0	    30	....................................	TGTTGTCCTTGCTTAGTGTACGATAGTTGA 	
+    838100	    36	 100.0	    30	....................................	TTAATGCGGTCAATTCGTGGTGGTATTAAC 	
+    838166	    36	 100.0	    30	....................................	GCTGCTGCATAATCATATGTTGCGCCACCA 	
+    838232	    36	 100.0	    30	....................................	CAGACCTAGCGACTCCAGCTAGTGCGCCTT 	
+    838298	    36	 100.0	     0	....................................	|                              	
+==========	======	======	======	====================================	===============================	==================
+        22	    36	  99.9	    30	GTTTTGGAATCATTCAAAATAACATAGCTCTAAAAC	                               	       
+
+# Left flank :   TGTTTTTTCCATTAGAAGATCTCCTCTTATTTTTTCTCATTATAGCACATATGTAAGGGCTTGCAAAGAAAAAACTAGGATCATTTGTTAATTAACCAGAAGCCTTTATTTTACAAGCTTTTTACAGAAATTTTGCAAAGAAAATTAATGAAAATAGTGCTTTTTAAATTTATATTCTAGCCAAAAAACATAATAAATATTCAAAAAAAATCCTAGTTTGGATATTATGACAAAAATTTTCCAAAACCATACAAAAAGCCATTTTCATAAAAAATGGCCTTTATGATAACAGCTTTCACTTGAGTGATAATTTAATGATTTCCCAAAGGACCGCAACCCAGTAAAATGACAAAAAGAATCGTCCCAAGGAAAAAGACAATACAAAATGCAATGACTATCATTTGGATAAGCAGATCAAGCAAGTGGATACCTCATAAAATAGGCAAAAAGGACTTTAATAAACAACAAATCTAAGACTACAAAAACTTATTAACATAATG
+# Right flank :  CCTCGTGGAATAATTTTTCCAAAAGATTTCGTAATCGCGCTACTCATCTTAGCAGGACTTCAACTTTGAAAGATACCTATTTCGGGAATCCATTCTACTACTATTATACCACTTTAGGAGACATAAGAAAGAAATCTTGATCTAAAATATATTGAGGAAAATCATATAATTTCCGTGGTTCTAAAAATAAAACAGATTGATTCGACAATGAGATGTATTCAAACAATTGTTCTACTTCTTCCTTGCTCAAGTAGGAACCGGTATTGATAAAAACGAGCAATTTTTTCTTGTTTAAGTATTTATACACCTGTAGAATTTCAAGACATTTTTCAAAAATTGTGTCACTTTGTGTTTCAAATTTGACACCCAATGCTTTGATTAATTCGAGTACTGTTATTTCATCATATTCCAAATCAAGTTCACTTTCCAAACATTCAAAAGCAATTAGTTCTGTAATAGTCGCAGCAAGTTTATCGACCATTGATTTAACTTCTGGTTTT
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.25, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGAATCATTCAAAATAACATAGCTCTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:72.22%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [490,103] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_037621903 [839088-839432]; 
+# Array family : NA
+# Sequence source strain : KRS-02109
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus parauberis KRS-02109
+//
+
+

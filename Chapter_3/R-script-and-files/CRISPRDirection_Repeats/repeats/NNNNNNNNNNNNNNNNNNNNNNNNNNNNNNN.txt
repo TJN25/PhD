@@ -1,0 +1,191 @@
+Array 1 442181-442365 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HG426717-Kingella kingae KK3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                                                     	Insertion/Deletion
+==========	======	======	======	=========================	====================================================================	==================
+    442181	    25	 100.0	    42	.........................	ACACACAATCGCACATTTTGGCTGTGTTTACCACTTTTAAAT                          	
+    442248	    25	 100.0	    68	.........................	NNNNNNNNNNNNNGATTTTGAGTTGAAGCCTTAAACACACCACGGTCAGCTAATNNNNNNNNNNNNNN	
+    442341	    25	  92.0	     0	.......................GG	|                                                                   	
+==========	======	======	======	=========================	====================================================================	==================
+         3	    25	  97.3	    56	NNNNNNNNNNNNNNNNNNNNNNNNN	                                                                    	       
+
+# Left flank :   CCCAAAAGGCGCACATTATCTAGATTTTGCAGGCAGCGGTTTTCGTGATTTCACGCGCATTGCAGGCAGCAGCCCCGAAATGTGGAAAGACATTATGTTGGCAAACAAAAACAGCCTGCTGCAACTGATTGCCGCCCAGCAACAACAGCTCGCGCATCTTGCAGGCTGCTTGCAACAAGAAAACGCCACCGCCTTGCATGATTACATTGTCCAAGCCAGCCAACTGCGCGAACAATGGGGTGAGAAGAATCGGTAAACAAAAAATGCAGGCTGCTTTGTTATGCCTGGATTAAGACTGTCAGTTTATTTAAATCACTTGCTCATACGCTGCCATTTCGCGCTCGTTGAATGCGACAACATCGGCAATCACGCATTTTTCAATCGCACGTCCAATCAATGCCATGAGTTCCCAATCGGGTTCGCCGTCTTTTTCAGGCAGCATAATGTTTAATTCAGGTAGTTTATTTGTTGCATTTTCAGAATACGCAGTAAATAAAATN
+# Right flank :  GTAACGGATGGATATATTTTGAAATACCATTATTTTCATGTTGGTGACTAATTAATGGAATTGAACCCGAAAACGTAGTTCCGATAAAAACGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAATGCTTTCCAATTCAGGCTGTCTGAAAGCTGCGCCAATGCGTTTTCTTCGTCTTTACTCAAGTTTACATTGGTAAGATTTGACAATTTCAAAAAAGCGCGCAGTTGCTGAACAAAGCGTTCCATGTAATCAAAGGCGATTTCACCATTTTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAATTTGTTGCCATAATTAAATAACCCTTTGGTTTCTGCTNNNNAAATTGCCACAAAATAATGCAAAGTGTGTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+# Questionable array : YES	 Score: 1.40
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:0.34, 7:-1.89, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     NNNNNNNNNNNNNNNNNNNNNNNNN
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [0,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [246,743] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_038316236 [1713061-1713387]; 
+# Array family : NA
+# Sequence source strain : KK3
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Kingella.; Kingella kingae KK3
+//
+
+
+Array 2 814475-814769 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HG426717-Kingella kingae KK3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                                   	Insertion/Deletion
+==========	======	======	======	===============================	==================================================================	==================
+    814475	    31	 100.0	    66	...............................	NNAAACTGTCACATTCATGTGCAGGCTGCTCCAANNNNNNNNNNNNTAAAATCACGAAAATCGGGT	
+    814572	    31	 100.0	    52	...............................	NNNNNNNNNNNNNNNNNNNNNTTTTTTGCAACCAACAAACGCAACTACCCTN              	
+    814655	    31	  67.7	    53	.....................TGCTACATCC	GCGTATGGGCAAATGCCANNNNNNNNNNNCCCCCCAAAGTTCGCCTTACCAAT             	
+    814739	    31	 100.0	     0	...............................	|                                                                 	
+==========	======	======	======	===============================	==================================================================	==================
+         4	    31	  91.9	    57	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	                                                                  	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATTTCCAACTTGTTAATTTCCGCCTTTTCCTACTGTTCACGCAAAAATNNNNNNNNNNNNTTCATCAATTGCCGCTATCGTCGCCNNNNNNCCTTGGTATTTATTCAGCAAATACGCATTNNNNNNNNNNNNNNNNNNNNNCCAACGCCTTTGCCGCATTGCGTTGCGACAAGCCAGTTTGCTCCAAATACGTTTTTAATNNNNNNNNNNNNNNNNNNNNNNNNNNNAAATATCGTTAAACCACGTTTAAACCAACTATAGTGGATTCAATTCAACAGGACAAGGCGCACANNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGGCGTTGGTAACGCTGTACTAGTTTGAACTGAATTCACAATAATAACTANNNNNNNNNACGCAACTGCCACTCAACATCNNNNNNNNNNNNNNGGCTCATCGTCCCTGTTTTNNNNNN
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCTTTTTTCCGTCATACCCCGCCAATTCAGGCTATAAATACGAATTGCGCCACAACATCACCAAACCACGCCGCGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTATTCAAGCGATACTGGTAATAAGCCATCGGCGTAAAATGCTTACCTGTTTGCGGATTGATGGGCAAANNNNNNNNNNNNNNNNNNNNNNTTATACCAACGAATCATCTCCGTCAAATCCGCCACAAAATCACGCCATTTCGGTTACGCATGCTGGGCANNNGCCTGCACAGGTGTCAGCTCCTTGCCACGTTTTTCCGCCTTAATCATGCTCGTCANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGTCGCATACGTTTTTGCCAACGGAATCAAAGTCGTT
+
+# Questionable array : NO	 Score: 2.19
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.60, 5:0, 6:0.34, 7:-1.35, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [0,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [31.7-20.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1330,1261] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_038316236 [1713061-1713387]; 
+# Array family : NA
+# Sequence source strain : KK3
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Kingella.; Kingella kingae KK3
+//
+
+
+Array 3 1043694-1043850 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HG426717-Kingella kingae KK3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+   1043694	    32	 100.0	    36	................................	NNNNNNNNNNNNNNNNNNGTTTGGTGGCGAGTGCGT	
+   1043762	    32	 100.0	    25	................................	CGCAGCCACGCTGCACCATNNNNNN           	
+   1043819	    32	 100.0	     0	................................	|                                   	
+==========	======	======	======	================================	====================================	==================
+         3	    32	 100.0	    36	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	                                    	       
+
+# Left flank :   TATCAACGCATTTGTTTACGGTNNNNNNNNGAGTGAACGGAGCAAGCCGATCGCGCATGGGTTGCNNAAATCCGTGGCAGTTACGGCGATGNNNNNNNNNNNNNNNNNNNNNNNNNTTCCCAAAAATGGTGGTGGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGATAATTTCCAGTTACTGCCCGAACATCAACGCGTCGCCCAAGTGCAAGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTGTAGATTTAGCCCGAAATGGCGACCGCACCGCAATTGTGCCACTCATTCAACAGCCTGATTTAATGCACAAAACGCCCTTTATCTTGGAATTGGGCAATATGCCGTTTAAGCAGCANNNNNNNNNNNNNNNCGTATCTGTTAGTGGCTTTGTCAAATTTATTGGGTNNNNNNN
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCCTTTGAATTGATTAAANNNNNNNNNNNNNNNTCCTGACACGCGCAAACGTGGTGCGGACGCCAACAAACGCCACGGCGATACCGCAATCGCACTGCNNTTGGCGCATTATGCTAGCNNNNNNNNNNNNNGTTGGTGCGGTGCGTGTCAGCAGCCGAGCCGTGCGCCGAAGTACCCGNNNNNNNNNNNNNNTTTTGATTTCAGGCAGCCTGAAAACTGGAAAGATTTACTGAAAACCCACANNNNACTTAAAACCCCCAATGGCACAATTCTTGCCACACCCGAACAAATGGNNNNNNNNNNNNNNNNNNNNNNCGCGATTTGGTATGCACGGCTTTAACGGCTGGCTGCCCAACCCCGACCCGATTTTACGCAAAATGGGCAAACACATTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCAGACGCAAAGCAGCCGTTGCA
+
+# Questionable array : NO	 Score: 4.81
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.71, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [0,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [38.3-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [3344,476] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_038316236 [1713061-1713387]; 
+# Array family : NA
+# Sequence source strain : KK3
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Kingella.; Kingella kingae KK3
+//
+
+
+Array 4 1600949-1601189 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HG426717-Kingella kingae KK3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                                                                	Insertion/Deletion
+==========	======	======	======	=====================================	===============================================================================	==================
+   1600949	    37	 100.0	    51	.....................................	ACCATCTTGCGAAAATGGCACAATCNTGTTTTAGTTTCGCAAACCGTCCAA                            	
+   1601037	    37	 100.0	    79	.....................................	NNNNNNNNNNNNNNNNNNNGATGGGGCAAAAATCAACGGCAAACNNNNTGCCGCTGTTTCAGGCAGCCTGAAATTGCAC	
+   1601153	    37	 100.0	     0	.....................................	|                                                                              	
+==========	======	======	======	=====================================	===============================================================================	==================
+         3	    37	 100.0	    66	CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	                                                                               	       
+
+# Left flank :   CGAGCGCAACNNATAAGCGGTTTCCTCCAAAGAACGGTAATGCGCCAATGAAATCAAAANNNNNNNNNNNNNNNNNNGCGCGTGTAATCAACACANNNNNNNNNNNNNNNNACGACATTCGTTACATGGTTTTTGCCAAATTTTGTCTTACTTCTGANNNNNNNACCGTATTCATTTTATGCTCCCAAAGTATTATTTGTNNNNNNNNNNNNTACAATATTTTTCAAATTAGGAAAATACCATACAACGCCACAACCGCGAGCCGATGCGTCCGTTCGCCATTTTCTGGNNNNNNNNGGCAATACCCAACTGTTGAACCAAGACGGCGTTACCGAAGTCATCATCAATCGCCCGAATGAACTATTTATTGAACGCGCAACAGGCACGGAGCGGCTGGAAATGCCCGATTTATCGTTGGATAAATTGCGCCATTTAGCCAATATTTTAACCACATTCAACCAAAAACATTTAACCGAAAAAGACCCCATTCTTTCCTTTAC
+# Right flank :  NNTTGGAATACAAAGAAAATCNNNNNNNNNNNNNNNNNNNNNNNNNTGGCGGTGGAGAAACATTNNNNNNNNNNNNNNNGTGGGCGGCTCAGGTTCGAGGCAAAACCACCTTTACCAAAGCCATNNNNNNNNTGATTGACCCGAAAACGCGCATCATCACGATTGAAGACACGCACGAGCTGGATTTGCCTAAACACCCGAACCATGTTCACTTGTTCTACAAAGAACACATCACAGCCAAACAAATTATCGCCGCCTGTATGCGCCTGAAACCCGACCGCATTTTTCTGACCGAGCTACGCGGCGATGAAGCGTGGGATTATTTGTCTGCGCTGAATACNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCTAATAACGCGGAATCCGTATTTTACCGCATCGCACAACTGGCGAAAGAATCCGCCACAGGGCGCACAATGGACTATGATTTCATTTTGAATACTGTCCGTTCCACCATTGATGTTGCGTGTATTTT
+
+# Questionable array : YES	 Score: 1.40
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:-3, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [0,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-33.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [899,79] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_038316236 [1713061-1713387]; 
+# Array family : NA
+# Sequence source strain : KK3
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Kingella.; Kingella kingae KK3
+//
+
+
+Array 5 1712830-1712997 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HG426717-Kingella kingae KK3, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1712830	    36	  44.4	    30	NNNNNNNNNNNNNNNNNNNN................	GCACTGCACACTGAGTAGGTGTAATCGCAG	
+   1712896	    36	 100.0	    30	....................................	GATAACGTTCAACGCACCAGACAATCAAAT	
+   1712962	    36	  97.2	     0	...................T................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         3	    36	  80.5	    30	GTTGTAGTTCCCTTTCTCACTTCGCAATGCTACAAT	                              	       
+
+# Left flank :   AAGAGCCGATTTCTATGGAAACGCCGATTGGCGATGACGATGATTCACACTTGGGCGATTTTATTGAAGATGTGAACAACGTTGCACCAGCCGATGCAGCCATGTATTTGAGCTTGCGCGAAGTAACTTCCGATATTCTGGAAAGCCTAACGCCGCGTGAAGCCAAAGTGCTGCGTATGCGTTTTGGCATTGACATGAATACTGACCACACGTTGGAAGAAGTGGGCAAGCAGTTTGATGTAACGCGCGAGCGTATTCGTCAGATTGAAGCCAAAGCATTGCGTAAATTGCGCCACCCAACGCGCTCGGATAAATTGAAGAGCTTCTTGGATAGCGAAGAAGGCAAGTAAATCGTTGTAAATAAAGTGCAGGCTGCTTTTTCAGTAACACGAAAAGCAGTCTGCACTTTTTATTTAATTCAATTGAGTTTGAGAGTGTAGTTCCCTTTCTCATTTCGCAATGCTACAATATAANNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  TACCCCTGCCCGAAACCCTGATAAATTCAAGGTTTCGGGCATTTTGTCACTTCAAAAAATCACGCTAAAACAGCAAAAATTGCTGTGCATTCACCCGTTTTTCTTGCGTTGGTTTATCGCCAAGCAGCACTTTCATCGCGACAAATTGTTTTTCCGTTACTTCCAAACAGCGTACCGAACCTTCTTTTGGCAGATTCGCGCAAAGCCGTTTGTGGTGTTTTTCCAACATATCTCGCCCATGCACAATCCGTGTATAAACCGATAATTGCAACCGAATGTAACCGTCTTTTACCAAAAAACGGCGAAAATCATTAGCCGCCTTGCGTTTGGCGCGACTGGTTACGGGTAAATCAAAAAAGACGATGATTCGCATAAATTGGTTCTCACTCATAGTTATGTTCTTTCAAAGACAATAATTCAGGCAGCGTCAATTTTTGTGCATCTTTTTCTTTTAAAGCAGCCTGCAAACTCGCTACCGTGCGGTCTATCGCGCCCAATGT
+
+# Questionable array : NO	 Score: 6.66
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.03, 5:0, 6:1, 7:0.54, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTAGTTCCCTTTCTCACTTCGCAATGCTACAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.76%AT]
+# 	Reference repeat match prediction:         F [matched GTTGTAGCTCCCTTTCTCATTTCGCAGTGCTACAAT with 92% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [0.00,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [20-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [36.7-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [152,63] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.68,1.05   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_038316236 [1713061-1713387]; 
+# Array family : NA
+# Sequence source strain : KK3
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Kingella.; Kingella kingae KK3
+//
+
+

@@ -1,0 +1,445 @@
+Array 1 285109-285383 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI911499-Salinispora arenicola CNH941 B109DRAFT_scaffold_2.3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	==============================	================================	==================
+    285109	    30	 100.0	    31	..............................	CGTCGGAAACCATGTGCCGCGCGGCAGAATT 	
+    285170	    30	  96.7	    31	...............C..............	CAGCAGTCCGTCCCGGGTGAGGCCCTGATCG 	
+    285231	    30	 100.0	    31	..............................	TCCCGCTCCGTCGTCATCGGCTGCTCGAGGT 	
+    285292	    30	  96.7	    32	A.............................	GGGAGCGGAGCAGGTTCTGTCGCTGCGTTACC	
+    285354	    30	 100.0	     0	..............................	|                               	
+==========	======	======	======	==============================	================================	==================
+         5	    30	  98.7	    32	GCGGAGCACCCCCACGTGCGTGGGGAGGAC	                                	       
+
+# Left flank :   CCGGATTCGAACCGACGACCCCTTGTTACCAACCGTAGTCACACCGGGCATGTCATCGCTTGTCGCGAGTAAGCCCTGAGCTGCACCAACACGGTCAGATACTTGTTCCTCCTAGTCACTGTTCGTCAGCTCCTGGCAGGAGTTTTCGGGGGGTAAACGGGGGCCGACCGACCCCCAGCAGCGTCGCGTCCCGAAACGCCGGCAGCCAGCCCTTACGGCCCACACCGCGGATCCGCATGACCTGCTCGTCGGCGTAATCGATCAGCGCTCAGAGCTCATCAACGGTGAGCGCGCACTTGCGCGGATCGGACTCGCTGCTCTGCACGCGCACCGCGATGTTCCACTCGTCAACCATCTGCGGCAGCCACTGCCACGGGTGACTGCCGACGTGCTCGGCGAACGCCCAGATCACCCCTCAACCGCGCCGTGATCATGGCCAACGACAGGTTCCGCGCCGTCTGGGGAGGACGGTGTCAACCGTTTCAGTTTGTAGCCCGACG
+# Right flank :  CACTTACTGACCTGCGGTTTACCAGCCTTCCGGCCAGATGGTTTCTGCTGGGGTGGAAGCGTCGTTGTGGCGTTCATTGGGGCTCATGGCTACTAGGGTGAGGCCGTCGAAATCAACCGGGCGGCGTCTGCGTGCTCCTGCTGTCCGTAGGGAGAAGCCTTGCTCGGTGTCGTCTGGGTGGATAAGGACGGCGGCGCCGTCGCCGACGACGCTGCTTGCTGCGTTCCATAGCTCGTCGCGGACTTTGGCTGAGAGCGTTCCGACGAACATGCCGGGTGTTACTTCGATCATCCAGCGGCTGAGTGCGCCTCGTAAATGATCGGGTACGGCCGTGGTTGCCAGGACGACAAGGGAAGCCATGCTAGTCCCAGGGGTCTGAGCTGTAGTTGACTCCGGACGGCATGGCTCCCATCTCTGGATCCCAGAGTGAGGTGATTTCGGCGGCGGGTTGCCGCTGTTTAGGTGTGCTGTCGGGGTCGAGTAGATGTTGGATGTCGGTA
+
+# Questionable array : NO	 Score: 7.12
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.39, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [290,18] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_020608741 [291911-294700]; 
+# Array family : NA
+# Sequence source strain : CNH941
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNH941
+//
+
+
+Array 2 296643-298196 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI911499-Salinispora arenicola CNH941 B109DRAFT_scaffold_2.3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+    296643	    29	 100.0	    32	.............................	CCGGCGGCGTAGGGGGCACGGTGAGACCAGCG 	
+    296704	    29	 100.0	    32	.............................	CGAGCGCTGTGTGAGCGGCTAAGCAAGATCGA 	
+    296765	    29	 100.0	    32	.............................	TGCTACTAGAACAACGGGCTCGCACGGCACAA 	
+    296826	    29	  96.6	    32	..............T..............	ACGAGCTGGCCCGCGGCTGGCTCAACCAGCCG 	
+    296887	    29	 100.0	    32	.............................	CGGCGAGCGGTAGGCATCGAGTGGAAGACGTT 	
+    296948	    29	 100.0	    32	.............................	GCTATGGACCCCGTCATCGAGCCGGGGATGAC 	
+    297009	    29	 100.0	    32	.............................	TGGGCACCGTTCGTACCTGGTCGCGGTGACGT 	
+    297070	    29	 100.0	    32	.............................	AAGGCGGTGAAGCTCGCCGAGCGGGCCGCGGG 	
+    297131	    29	 100.0	    32	.............................	TCAATCGACGCGGCCCTGACGGACTGGCAGGT 	
+    297192	    29	 100.0	    32	.............................	CGTTCGTCTCGCGGGTCCAGGTGCAACCCGTA 	
+    297253	    29	 100.0	    32	.............................	AAGATCGACAGGCCGATGTAGACGATGCCGGC 	
+    297314	    29	 100.0	    32	.............................	TAGTTCAGTCGGAGAACAGCGGGATCTCGCCT 	
+    297375	    29	 100.0	    32	.............................	CCTGAGGCACGAGCCTTTCGCCGCTGGGTGAC 	
+    297436	    29	 100.0	    32	.............................	AACTGTTGGGGATGCCGGAGGCGGACGGGCAC 	
+    297497	    28	  96.6	    32	........-....................	CGTGGCTGCTGTCGAACGCGGGTTCCGATCGC 	
+    297557	    29	 100.0	    32	.............................	GTGTTGAACCCGGCGATCGACCCGCACACCTG 	
+    297618	    29	 100.0	    32	.............................	CGAATCTCGCGGGTGCCGGAGCCAGGCGCGTA 	
+    297679	    29	 100.0	    32	.............................	TACCTCGTCCTACGGGGTGCCGTTCGCACGGC 	
+    297740	    29	  96.6	    33	............................A	GGTCAAGAGCATGGTCACGGTGAACACCGCGCC	
+    297802	    29	 100.0	    32	.............................	TCGGTCAGCACCCCCTGCAGGGCCGTGGCTGC 	
+    297863	    29	 100.0	    32	.............................	CGAGGTGAGGTCGAACTTGGTCCGGTTGGCGT 	
+    297924	    29	 100.0	    32	.............................	TTGTAGAAAGCCCGTTCGGCGAGTGCGCGTTG 	
+    297985	    29	 100.0	    32	.............................	CTGAGGGAGAACGCGCCGGCCTGGGTGCGGCG 	
+    298046	    28	  96.6	    32	.....................-.......	CCTCGCGTCAGGCGGCGGGTGGGCGTGTCATG 	
+    298106	    29	 100.0	    32	.............................	CCGTGTTCTTCTCCCGGCTTGATGATGAGTGG 	
+    298167	    29	  96.6	     0	...........A.................	|                                	G [298184]
+==========	======	======	======	=============================	=================================	==================
+        26	    29	  99.3	    32	GTCCTCCCCACGCACGTGGGGGTGCTCCG	                                 	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  GCCCTCGTTCCTCGATCGCGTCCCCGGTGCCGGGTCCTCCCCACGACGCACGGGAGTGTGGCGTTTTCGGCCCTGTCTCAGAATGCCAAGCGGTTCTCAACTCTCTCGGGACTGTCCCGGGTATGGTGGATTTGATGCTCCCGGTGCGGTTCACTCGGCCGAGATCAGCGGTCCTCGCCGGAACGCTGGGATGAGCGCGGCTCTTCGGCTGTGGCAGGGCCAGCGCCACATCGTTGCCCGCCGCTCGACCGGCGAGCTGCTGGCTGGTCTCCGCCCCAGTGCCGCCGCCGCTCGGGGCGCTGACGGCCACGTGGCCGCTATCGCAGCGGTAATGGCGATGCGGTGGAGCCTGCTGGTGCCGCACGCTCGCTCGCATGGTCACGTCAGTGAGCAGCGTCGCCGAGCTGAGCCGCGCGGTGCGTGCGGGCGCCCGGGTGAAGTTCCTGTTCTTCTGGGGCCACCATCCGCAGCGCGACGGCAGCATCGGGGCTGGATGCTTG
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.03, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTCCCCACGCACGTGGGGGTGCTCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-26.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1944,375] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_020608741 [291911-294700]; 
+# Array family : NA
+# Sequence source strain : CNH941
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNH941
+//
+
+
+Array 1 80469-81230 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896022-Salinispora arenicola CNP105 C572DRAFT_scaffold00020.20, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+     80469	    29	 100.0	    32	.............................	CGTCGGAAACCATGTGCCGCGCGGCAGAATTG 	
+     80530	    29	  96.6	    32	..............C..............	CAGCAGTCCGTCCCGGGTGAGGCCCTGATCGG 	
+     80591	    29	 100.0	    32	.............................	TCCCGCTCCGTCGTCATCGGCTGCTCGAGGTA 	
+     80652	    29	 100.0	    32	.............................	TGACAGTTAAGAGCTGTAGTGGCCAATGTCGG 	
+     80713	    29	  96.6	    32	..............A..............	CGGCCTGCCAGACCGGAAGTGAACGCCCCCGA 	
+     80774	    29	 100.0	    32	.............................	GCGGTGTCACGGGATGGCCTCCCCGGTGATGG 	
+     80835	    29	 100.0	    32	.............................	GGCAGGGCGCTCGTACTGCCACCTTGAACAAA 	
+     80896	    29	 100.0	    32	.............................	GCAAGGGCATTGACCGTGCCTGCCTCTACTCG 	
+     80957	    29	 100.0	    32	.............................	GCCGACGAGCAGCGGCAGTCCGCCCGGGACAT 	
+     81018	    29	 100.0	    32	.............................	GTCACGGCAGATCAGCGGGCCGCCATCGTAGC 	
+     81079	    29	  96.6	    32	T............................	ACCTACGCCGGAGTCGACTACCTCGCCGCCGT 	
+     81140	    29	 100.0	    33	.............................	GGGAGCGGAGCAGGTTCTGTCGCTGCGTTACCG	
+     81202	    29	 100.0	     0	.............................	|                                	
+==========	======	======	======	=============================	=================================	==================
+        13	    29	  99.2	    32	CGGAGCACCCCCACGTGCGTGGGGAGGAC	                                 	       
+
+# Left flank :   CGGATTCGAACCGACGACCCCTTGTTACCAACCGTAGTCACACCGGGCATGTCATCGCTTGTCGCGAGTAAGCCCTGAGCTGCACCAACACGGTCAGATACTTGTTCCTCCTAGTCACTGTTCGTCAGCTCCTGGCAGGAGTTTTCGGGGGGTAAACGGGGGCCGACCGACCCCCAGCAGCGTCGCGTCCCGAAACGCCGGCAGCCAGCCCTTACGGCCCACACCGCGGATCCGCATGACCTGCTCGTCGGCGTAATCGATCAGCGCTCAGAGCTCATCAACGGTGAGCGCGCACTTGCGCGGATCGGACTCGCTGCTCTGCACGCGCACCGCGATGTTCCACTCGTCAACCATCTGCGGCAGCCACTGCCACGGGTGACTGCTGACGTGCTCGGCGAACGCCCAGATCACCCCTCAACCGCGCCGTGATCATGGCCAACGACAGGTTCCGCGCCGTCTGGGGAGGACGGTGTCAACCGTTTCGGTTTGTAGCCCGACGG
+# Right flank :  CACTTACTGACCTGCGGTTTACCAGCCTTCCGGCCAGATGGTTTCTGCTGGGGTGGAAGCGTCGTTGTGGCGTTCATTGGGGCTCATGGCTACTAGGGTGAGGCCGTCGAAATCAACCGGGCGGCGTCTGCGTGCTCCTGCTGTCCGTAGGGAGAAGCCTTGCTCGGTGTCGTCTGGGTGGATAAGGACGGCGGCGCCGTCGCCGACGACGCTGCTTGCTGCGTTCCATAGCTCGTCGCGGACTTTGGCTGAGAGCGTTCCGACGAACATGCCGGGTGTTACTTCGATCATCCAGCGGCTGAGTGCGCCTCGTAAATGATCGGGTACGGCCGTGGTTGCCAGGACGACAAGGGAAGCCATGCTAGTCCCAGGGGTCTGAGCTGTAGTTGACTCCGGACGGCATGGCTCCCATCTCTGGATCCCAGAGTGAGGTGATTTCGGCGGCGGGTTGCCGCTGTTTAGGTGTGCTGTCGGGGTCGAGTAGATGTTGGATGTCGGTA
+
+# Questionable array : NO	 Score: 8.01
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.05, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [291,18] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_018794019 [87758-90547]; 
+# Array family : NA
+# Sequence source strain : CNP105
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNP105
+//
+
+
+Array 2 90670-91311 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896022-Salinispora arenicola CNP105 C572DRAFT_scaffold00020.20, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=============================	===================================	==================
+     90670	    29	 100.0	    32	.............................	GCGAGCGATCACGGGCATGGACGACCGAGGAG   	
+     90731	    29	 100.0	    32	.............................	ACTGTCGGCCCAGCGCAGATGCTCGATCTGCA   	
+     90792	    29	 100.0	    32	.............................	CACGCGGGCGAGCCCTCCAACGTGCCGGCGAC   	
+     90853	    29	 100.0	    32	.............................	ACTGTCGGCCCAGCGCAGATGCTCGATCTGCA   	
+     90914	    29	 100.0	    32	.............................	CACGCGGGCGAGCCCTCCAACGTGCCGGCGAC   	
+     90975	    29	 100.0	    32	.............................	AAATTCCCGAGTTGGGCGGTGGCGATCAGCTC   	
+     91036	    29	  96.6	    32	............................C	GCGTCCGCGACGAGTACCGGGCCGGCACCCGA   	
+     91097	    29	 100.0	    32	.............................	CGAACCACCGCTGTTCTGCCAGACATACAGTT   	
+     91158	    29	 100.0	    32	.............................	AGTAATGAGGTACGGCAGATCACCGAACGGGC   	
+     91219	    29	  96.6	    35	............................T	AAGTCGAGGGATGAGCCTGCTAGGCGGGAGATTCG	
+     91283	    29	 100.0	     0	.............................	|                                  	
+==========	======	======	======	=============================	===================================	==================
+        11	    29	  99.4	    32	GTCCTCCCCACGCACGTGGGGGTGCTCCG	                                   	       
+
+# Left flank :   CAAAGGAGCAAGAAGATCCGGCATGGCCAACTGACCAGCGGTGTCGTGCCTCAACGAGCCATCGCCTACAACATCCTCATACGATCCGGCACTCCGCAGCGCATCGAACGCGCTCCCGTCCTTCTTCTGAAACCCTGGGATTGCCTTGCCGACATCGTGTAATCCCGCCCAAAACATGATCAACGATTTAGCGTGACTGTCGTCGGTGGCCAGCCCCTCCGCGATGACCCTCCGTTGGTTCGGAGCCAGATAGCGATCCCACAACGCACCAGCAACGGCCGCGGTATCAATCAAATGCCAGAGCAACGGATACGGTCTCGGGAGATGGTTAGACTTGCCCCAGATCCCAGCATCGACCCCGTCATGGTCGACCCCCAATCCGACCCCTCCATTCGTACCCGCTCGGCAAGGGCATCAGCATGCAACCACAGCCATACGACACCACGACTCGACCGACGCAAAACCGCTCCCACGGCTGATAAACGCGCAGGTCACGAAGT
+# Right flank :  GNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCCGTCCTCCCCACGCACGTG
+
+# Questionable array : NO	 Score: 8.06
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTCCCCACGCACGTGGGGGTGCTCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [124,793] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_018794019 [87758-90547]; 
+# Array family : NA
+# Sequence source strain : CNP105
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNP105
+//
+
+
+Array 3 92068-91793 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896022-Salinispora arenicola CNP105 C572DRAFT_scaffold00020.20, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	==============================	================================	==================
+     92067	    30	 100.0	    32	..............................	TAGAGGTCGTGCAGCTGCGCGAGGCGGTCCAT	
+     92005	    30	  96.7	    31	.T............................	AGGCCGCCGAGGTTGAAGGCGTTGTCGCCCA 	
+     91944	    30	 100.0	    31	..............................	ATGGCCCCGCCGGTTGAGGTACGCAGAGACG 	
+     91883	    30	  96.7	    31	C.............................	GCAGGTCCGCACCACAGCCGTTCTATAGCGT 	
+     91822	    30	 100.0	     0	..............................	|                               	
+==========	======	======	======	==============================	================================	==================
+         5	    30	  98.7	    32	GCGGAGCACCCCCACGTGCGTGGGGAGGAC	                                	       
+
+# Left flank :   TGCGCACCGTCGGGTTCCGTTGGGCCTGCGACAAACAACTGCGCGACGCCGTAGTCGACTTCGCCGGCGACTCCCGCCGAGCCAACCCCTGGGCCGCCGACCTCTACGACCGCGCCAGAGCCCGCGGACACAACCACGCCCACGCCGTCCGCATCCTCGCCCGAGCCTGGCTCCACGTCATCTGGCACTGCTGGCAAGACGGCATTGCCTACAACCCCGAAGCCCACCACGCACTCCAACGCGTCCTCACCCAGAACCGGGCGGCTTGACATAGGGCTTCTCATCGCGGCACCCCGGCTTGCGA
+# Right flank :  GGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGGAGCACCCCCACGTGCG
+
+# Questionable array : NO	 Score: 7.12
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.39, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1247,37] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_018794019 [87758-90547]; 
+# Array family : NA
+# Sequence source strain : CNP105
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNP105
+//
+
+
+Array 1 285109-285383 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896074-Salinispora arenicola CNP193 C571DRAFT_scaffold00003.3, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	==============================	================================	==================
+    285109	    30	 100.0	    31	..............................	CGTCGGAAACCATGTGCCGCGCGGCAGAATT 	
+    285170	    30	  96.7	    31	...............C..............	CAGCAGTCCGTCCCGGGTGAGGCCCTGATCG 	
+    285231	    30	 100.0	    31	..............................	TCCCGCTCCGTCGTCATCGGCTGCTCGAGGT 	
+    285292	    30	  96.7	    32	A.............................	GGGAGCGGAGCAGGTTCTGTCGCTGCGTTACC	
+    285354	    30	 100.0	     0	..............................	|                               	
+==========	======	======	======	==============================	================================	==================
+         5	    30	  98.7	    32	GCGGAGCACCCCCACGTGCGTGGGGAGGAC	                                	       
+
+# Left flank :   CCGGATTCGAACCGACGACCCCTTGTTACCAACCGTAGTCACACCGGGCATGTCATCGCTTGTCGCGAGTAAGCCCTGAGCTGCACCAACACGGTCAGATACTTGTTCCTCCTAGTCACTGTTCGTCAGCTCCTGGCAGGAGTTTTCGGGGGGTAAACGGGGGCCGACCGACCCCCAGCAGCGTCGCGTCCCGAAACGCCGGCAGCCAGCCCTTACGGCCCACACCGCGGATCCGCATGACCTGCTCGTCGGCGTAATCGATCAGCGCTCAGAGCTCATCAACGGTGAGCGCGCACTTGCGCGGATCGGACTCGCTGCTCTGCACGCGCACCGCGATGTTCCACTCGTCAACCATCTGCGGCAGCCACTGCCACGGGTGACTGCCGACGTGCTCGGCGAACGCCCAGATCACCCCTCAACCGCGCCGTGATCATGGCCAACGACAGGTTCCGCGCCGTCTGGGGAGGACGGTGTCAACCGTTTCAGTTTGTAGCCCGACG
+# Right flank :  CACTTACTGACCTGCGGTTTACCAGCCTTCCGGCCAGATGGTTTCTGCTGGGGTGGAAGCGTCGTTGTGGCGTTCATTGGGGCTCATGGCTACTAGGGTGAGGCCGTCGAAATCAACCGGGCGGCGTCTGCGTGCTCCTGCTGTCCGTAGGGAGAAGCCTTGCTCGGTGTCGTCTGGGTGGATAAGGACGGCGGCGCCGTCGCCGACGACGCTGCTTGCTGCGTTCCATAGCTCGTCGCGGACTTTGGCTGAGAGCGTTCCGACGAACATGCCGGGTGTTACTTCGATCATCCAGCGGCTGAGTGCGCCTCGTAAATGATCGGGTACGGCCGTGGTTGCCAGGACGACAAGGGAAGCCATGCTAGTCCCAGGGGTCTGAGCTGTAGTTGACTCCGGACGGCATGGCTCCCATCTCTGGATCCCAGAGTGAGGTGATTTCGGCGGCGGGTTGCCGCTGTTTAGGTGTGCTGTCGGGGTCGAGTAGATGTTGGATGTCGGTA
+
+# Questionable array : NO	 Score: 7.12
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.39, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [290,18] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_020608741 [291911-294700]; 
+# Array family : NA
+# Sequence source strain : CNP193
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNP193
+//
+
+
+Array 2 294823-298267 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB896074-Salinispora arenicola CNP193 C571DRAFT_scaffold00003.3, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	=============================	===================================	==================
+    294823	    29	  96.6	    32	............................C	GCAAAGTACTCGGATGGTGTCCGGTAGTCACA   	
+    294884	    29	  96.6	    32	............................C	TCGCCGCCGACCCGAGCGCGGTGGTGGAGCTT   	
+    294945	    29	 100.0	    32	.............................	GCACTTCAACTGCTGGTCAATGAGGGCTTGAT   	
+    295006	    29	 100.0	    32	.............................	GCGAGCGATCACGGGCATGGACGACCGAGGAG   	
+    295067	    29	 100.0	    32	.............................	ACTGTCGGCCCAGCGCAGATGCTCGATCTGCA   	
+    295128	    29	 100.0	    32	.............................	CACGCGGGCGAGCCCTCCAACGTGCCGGCGAC   	
+    295189	    29	 100.0	    32	.............................	AAATTCCCGAGTTGGGCGGTGGCGATCAGCTC   	
+    295250	    29	  96.6	    32	............................C	GCGTCCGCGACGAGTACCGGGCCGGCACCCGA   	
+    295311	    29	 100.0	    32	.............................	CGAACCACCGCTGTTCTGCCAGACATACAGTT   	
+    295372	    29	 100.0	    32	.............................	AGTAATGAGGTACGGCAGATCACCGAACGGGC   	
+    295433	    29	  96.6	    35	............................T	AAGTCGAGGGATGAGCCTGCTAGGCGGGAGATTCG	
+    295497	    29	 100.0	    32	.............................	CACCACGTCAGACTACGGTTGCGCAGGGGTAG   	
+    295558	    29	 100.0	    32	.............................	CCTGGAGCCCTCTCGGTCACGGACAGCTCGTC   	
+    295619	    29	 100.0	    32	.............................	AACCTGATCGGCGTAGCCGCGTGACCGGCCGC   	
+    295680	    29	 100.0	    32	.............................	TCCTGGGCCTGCGCCCAGTTCAGCACCAGCTC   	
+    295741	    29	 100.0	    32	.............................	GTCAGGTCCTGGCTGGTGCCGGTGGTGATGCC   	
+    295802	    29	 100.0	    33	.............................	GATCATGCCGGCGGCCAGGTCGCCGGCCTGGAG  	
+    295864	    29	 100.0	    32	.............................	TTGTACAGGCCGGACGCCAAATCACCGATGGC   	
+    295925	    29	 100.0	    32	.............................	GAGGTCGCCGCGCTCGATGAGGCCGGTAGGCC   	
+    295986	    29	 100.0	    32	.............................	GTCGTGACGCGGCCGGGGCCCGTGGTGCCGCC   	
+    296047	    29	 100.0	    32	.............................	CACGCTATAGAACGGCTGTGGTGCGGACCTGC   	
+    296108	    29	 100.0	    32	.............................	GCGTCTCTGCGTACCTCAACCGGCGGGGCCAT   	
+    296169	    29	  96.6	    33	............................A	GCGGAAACCGCCGCGCGGGCGGAGGCGGAAACC  	
+    296231	    29	  96.6	    32	............................C	AGGAAGGCGACTACCGCTGGCAGCGCCCCCCA   	
+    296292	    29	  96.6	    32	............................T	CACCCCCGAACACGGTTCACCCGGAACCGTCC   	
+    296353	    28	  96.6	    28	........-....................	CTTCGCAAGCCGGGGACCAGTGAGCGCC       	
+    296409	    29	 100.0	    32	.............................	TACGTGCTGTGCGAGTTGGAGACCTGCACGTC   	
+    296470	    29	 100.0	    32	.............................	TGTGTCATTACTCGCCCGTGCCGGATCCTCAG   	
+    296531	    29	 100.0	    32	.............................	TCACCAACGACGACAAGGGCACCGTCGAAGCG   	
+    296592	    29	 100.0	    32	.............................	GAACTGCACGACATCTTCACCGAGGCCGGTCC   	
+    296653	    29	 100.0	    32	.............................	CTGTCGACGACCAGGTCGTTGACCAGTTCGCC   	
+    296714	    29	 100.0	    32	.............................	CCGGCGGCGTAGGGGGCACGGTGAGACCAGCG   	
+    296775	    29	 100.0	    32	.............................	CGAGCGCTGTGTGAGCGGCTAAGCAAGATCGA   	
+    296836	    29	 100.0	    32	.............................	TGCTACTAGAACAACGGGCTCGCACGGCACAA   	
+    296897	    29	  96.6	    32	..............T..............	ACGAGCTGGCCCGCGGCTGGCTCAACCAGCCG   	
+    296958	    29	 100.0	    32	.............................	CGGCGAGCGGTAGGCATCGAGTGGAAGACGTT   	
+    297019	    29	 100.0	    32	.............................	GCTATGGACCCCGTCATCGAGCCGGGGATGAC   	
+    297080	    29	 100.0	    32	.............................	TGGGCACCGTTCGTACCTGGTCGCGGTGACGT   	
+    297141	    29	 100.0	    32	.............................	AAGGCGGTGAAGCTCGCCGAGCGGGCCGCGGG   	
+    297202	    29	 100.0	    32	.............................	TCAATCGACGCGGCCCTGACGGACTGGCAGGT   	
+    297263	    29	 100.0	    32	.............................	CGTTCGTCTCGCGGGTCCAGGTGCAACCCGTA   	
+    297324	    29	 100.0	    32	.............................	AAGATCGACAGGCCGATGTAGACGATGCCGGC   	
+    297385	    29	 100.0	    32	.............................	TAGTTCAGTCGGAGAACAGCGGGATCTCGCCT   	
+    297446	    29	 100.0	    32	.............................	CCTGAGGCACGAGCCTTTCGCCGCTGGGTGAC   	
+    297507	    29	 100.0	    32	.............................	AACTGTTGGGGATGCCGGAGGCGGACGGGCAC   	
+    297568	    28	  96.6	    32	........-....................	CGTGGCTGCTGTCGAACGCGGGTTCCGATCGC   	
+    297628	    29	 100.0	    32	.............................	GTGTTGAACCCGGCGATCGACCCGCACACCTG   	
+    297689	    29	 100.0	    32	.............................	CGAATCTCGCGGGTGCCGGAGCCAGGCGCGTA   	
+    297750	    29	 100.0	    32	.............................	TACCTCGTCCTACGGGGTGCCGTTCGCACGGC   	
+    297811	    29	  96.6	    33	............................A	GGTCAAGAGCATGGTCACGGTGAACACCGCGCC  	
+    297873	    29	 100.0	    32	.............................	TCGGTCAGCACCCCCTGCAGGGCCGTGGCTGC   	
+    297934	    29	 100.0	    32	.............................	CGAGGTGAGGTCGAACTTGGTCCGGTTGGCGT   	
+    297995	    29	 100.0	    32	.............................	TTGTAGAAAGCCCGTTCGGCGAGTGCGCGTTG   	
+    298056	    29	 100.0	    32	.............................	CTGAGGGAGAACGCGCCGGCCTGGGTGCGGCG   	
+    298117	    28	  96.6	    32	.................-...........	CCTCGCGTCAGGCGGCGGGTGGGCGTGTCATG   	
+    298177	    29	 100.0	    32	.............................	CCGTGTTCTTCTCCCGGCTTGATGATGAGTGG   	
+    298238	    29	  96.6	     0	...........A.................	|                                  	G [298255]
+==========	======	======	======	=============================	===================================	==================
+        57	    29	  99.2	    32	GTCCTCCCCACGCACGTGGGGGTGCTCCG	                                   	       
+
+# Left flank :   CAAAGGAGCAAGAAGATCCGGCATGGCCAACTGACCAGCGGTGTCGTGCCTCAACGAGCCATCGCCTACAACATCCTCATACGATCCGGCACTCCGCAGCGCATCGAACGCGCTCCCGTCCTTCTTCTGAAACCCTGGGATTGCCTTGCCGACATCGTGTAATCCCGCCCAAAACATGATCAACGATTTAGCGTGACTGTCGTCGGTGGCCAGCCCCTCCGCGATGACCCTCCGTTGGTTCGGAGCCAGATAGCGATCCCACAACGCACCAGCAACGGCCGCGGTATCAATCAAATGCCAGAGCAACGGATACGGTCTCGGGAGATGGTTAGACTTGCCCCAGATCCCAGCATCGACCCCGTCATGGTCGACCCCCAATCCGACCCCTCCATTCGTACCCGCTCGGCAAGGGCATCAGCATGCAACCACAGCCATACGACACCACGACTCGACCGACGCAAAACCGCTCCCACGGCTGATAAACGCGCAGGTCACGAAGT
+# Right flank :  GCCCTCGTTCCTCGATCGCGTCCCCGGTGCCGGGTCCTCCCCACGACGCACGGGAGTGTGGCGTTTTCGGCCCTGTCTCAGAATGCCAAGCGGTTCTCAACTCTCTCGGGACTGTCCCGGGTATGGTGGATTTGATGCTCCCGGTGCGGTTCACTCGGCCGAGATCAGCGGTCCTCGCCGGAACGCTGGGATGAGCGCGGCTCTTCGGCTGTGGCAGGGCCAGCGCCACATCGTTGCCCGCCGCTCGACCGGCGAGCTGCTGGCTGGTCTCCGCCCCAGTGCCGCCGCCGCTCGGGGCGCTGACGGCCACGTGGCCGCTATCGCAGCGGTAATGGCGATGCGGTGGAGCCTGCTGGTGCCGCACGCTCGCTCGCATGGTCACGTCAGTGAGCAGCGTCGCCGAGCTGAGCCGCGCGGTGCGTGCGGGCGCCCGGGTGAAGTTCCTGTTCTTCTGGGGCCACCATCCGCAGCGCGACGGCAGCATCGGGGCTGGATGCTTG
+
+# Questionable array : NO	 Score: 7.93
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:0.97, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTCCCCACGCACGTGGGGGTGCTCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-26.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [124,375] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_020608741 [291911-294700]; 
+# Array family : NA
+# Sequence source strain : CNP193
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNP193
+//
+
+
+Array 1 37361-37574 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB895931-Salinispora arenicola CNS051 C570DRAFT_scaffold00022.22, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	==============================	================================	==================
+     37361	    30	 100.0	    31	..............................	TTGGCATTGCCAGTAACGGTGTCCTTCGGCA 	
+     37422	    30	 100.0	    32	..............................	TCCAGTTACGAGCCTCGACTAGTGCGATGCAG	
+     37484	    30	  96.7	    31	T.............................	GTTCCGGGCAGAGGTCCGATCGTGGCTGACC 	
+     37545	    30	 100.0	     0	..............................	|                               	
+==========	======	======	======	==============================	================================	==================
+         4	    30	  99.2	    32	GCGGAGCACCCCCACGTGCGTGGGGAGGAC	                                	       
+
+# Left flank :   ACGACCCCTTGTTACCAACCGTAGTCACACCGGGCATGTCATCGCTTGTCGCGAGTAAGCCCTGAGCTGCACCAACACGGTCAGATACTTGTTCCTCCTGGTCACTGTTCGTCAGCTCCTGGCAGGAGTTTTCGGGGGGTAAACGGGGGCCGACCGACCCCCAGCAGCGTCGCGTCCCGAAACGCCGGCAGCCAGCCCTTACGGCCCACACCGCGGATCCGCATGACCTGCTCGTCGGCGTAATCGATCAGCGCTCAGAGCTCAGAGCTCAGAGCTCATCAACGGTGAGCGCGCACTTGCGCGGATCGGACTCGCTGCTCTGCACGCGCACCGCGATGTTCCACTCGTCAACCATCTGCGGCAGCCACTGCCACGGGTGACTGCTGACGTGCTCGGCGAACGCCCAGATCACCCCTCAACCGCGCCGTGATCATGGCCAACGACAGGTTCCGCGCCGTCTGGGGAGGACGGTGTCAACCGTTTCGGTTTGTAGCCCGACG
+# Right flank :  CACTTACTGACCTGCGGTTTTACCAGCCTTCCGGCCAGATGGTTTCTGCTGGGGTGGAAGCGTCGTTGTGGCGTTCATTGGGGCTCATGGCTACTAGGGTGAGGCCGTCGAAATCAACCGGGCGGCGTCTGCGTGCTCCTGCTGTCCGTAGGGAGAAGCCTTGCTCGGTGTCGTCTGGGTGGATAAGGACGGCGGCGCCGTCGCCGACGACGCTGCTTGCTGCGTTCCATAGCTCGTCGCGGACTTTGGCTGAGAGCGTTCCGACGAACATGCCGGGTGTTACTTCGATCATCCAGCGGCTGAGTGCGCCTCGTAAATGATCGGGTACGGCCGTGGTTGCCAGGACGACAAGGGAAGCCATGCTAGTCCCAGGGGTCTGAGCTGTAGTTGACTCCGGACGGCATGGCTCCCATCTCTGGATCCCAGAGTGAGGTGATTTCGGCGGCGGGTTGCCGCTGTTTAGGTGTGCTGTCGGGGTCGAGTAGATGTTGGATGTCGGT
+
+# Questionable array : NO	 Score: 7.11
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:0.99, 7:0.56, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGAGCACCCCCACGTGCGTGGGGAGGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.80,-11.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [304,19] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_012182158 [43738-46527]; 
+# Array family : NA
+# Sequence source strain : CNS051
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNS051
+//
+
+
+Array 2 46650-46860 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB895931-Salinispora arenicola CNS051 C570DRAFT_scaffold00022.22, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+     46650	    28	 100.0	    33	............................	CAGCGAGAACAAGCTCAACCGGTCGATCGCCGC	
+     46711	    28	 100.0	    33	............................	GTTCCTGTCGACCGTCCGCGTGGTCCAGTTCCG	
+     46772	    28	 100.0	    33	............................	GCCGATCCCAGCGCTGCCGCTCGTGCCCTGCCG	
+     46833	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         4	    28	 100.0	    33	GTCCTCCCCACGCACGTGGGGGTGCTCC	                                 	       
+
+# Left flank :   CAAAGGAGCAAGAAGATCCGGCATGGCCAACTGACCAGCGGTGTCGTGCCTCAACGAGCCATCGCCTACAACATCCTCATACGATCCGGCACTCCGCAGCGCATCGAACGCGCTCCCGTCCTTCTTCTGAAAACCTGGGGTTGCCTTGCCGACATCGTGTAATCCCGCCCAAAACATGATCAACGATTTAGCGTGACTGTCGTCGGTGGCCAGCCCCTCCGCGATGACCCTCCGTTGGTTCGGAGCCAGATAGCGATCCCACAACGCACCAGCAACGGCCGCGGTATCAATCAAATGCCAGAGCAACGGATACGGTCTCGGGAGATGGTTAGACTTGCCCCAGATCCCAGCATCGACCCCGTCATGGTCGACCCCCAATCCGACCCCTCCATTCGTACCCGTTCGGCAAGGGCATCAGCATGCAACCACAGCCATACGACACCACGACTCGACCGACGCAAAACCGCTCCCACGGCTGATAAACGCGCAGGTCACGAAGT
+# Right flank :  CGATCACCCGCTGGTGGGACCACGGCCCCCGTGTCAACGCCGCCTCAAACGGGACCACCGTGGTCCGGCTGAAACTGGACCACCTCGGTTTGGTTGATCTTTAGTCGTTGGTCTTGGTGGCTGCGGGGACGCGGCCGAGGTCGCGGTCTTTGAGTCGGTAGCTGTCGCCCTTCATGGAGATGACTTCGGCGTGATGGACGAGGCGGTCGATCATGGCTGCGGCGACGACGTCGTCGCCGAACACTTCGCCCCACCTGCCGAAGGGTTTGTTGCTGGTGACGATGAGGCTGGCTCGTTCGTAGCGGTTGGAGACGAGTTGGAAGAACAGGTTCGCGGCTTCGGCTTCGAAGGGGATGTAGCCGACCTCGTCGACGATCAGTAGCGGGATCCGGCCGAGTTTGACGAGTTCGTCTTGGAGGCGGCCGGCGTGATGGGAGTCGGCGAGGCGGGACACCCACTGGGCGGCGGTGGCGAACGCGACCCGGTGCCCGGCCTGGCAG
+
+# Questionable array : NO	 Score: 7.23
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.63, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTCCCCACGCACGTGGGGGTGCTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [124,100] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_012182158 [43738-46527]; 
+# Array family : NA
+# Sequence source strain : CNS051
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora arenicola CNS051
+//
+
+

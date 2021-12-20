@@ -1,0 +1,100 @@
+Array 1 396707-396938 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL397254-Streptococcus sp. oral taxon 071 str. 73H25AP SCAFFOLD1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence             	Insertion/Deletion
+==========	======	======	======	=====================================	============================	==================
+    396707	    37	 100.0	    28	.....................................	AAGTGTCAGCAGAGACATCAAGAGCCTT	
+    396772	    37	 100.0	    28	.....................................	CTTTAGACTCATATATTGGCTTATCTCC	
+    396837	    37	  94.6	    28	...............T...................G.	CTATCTGCTTTCTTTGCTGCAATTGGTC	
+    396902	    37	  94.6	     0	.A.............T.....................	|                           	
+==========	======	======	======	=====================================	============================	==================
+         4	    37	  97.3	    28	AGGTTTTATCGGTCACAATTTTGGAGACTACAAAAAC	                            	       
+
+# Left flank :   CCACCTTAACGAACACATCAAACAACATAAAAAAGACCACGCTACTTACCGTGGATTGATGAAGAAAATCGGTCGCCGTCGTAACTTGCTTGCATACTTGCGTAAGAACGACGTTAACCGTTACCGTGAGTTGATCAACTCTCTAGGACTTCGTCGTTAATCTGCTTTATTTTCCACTTACATTGCGTTGTCACCTTACCTCGATATACTCAAGTATTATCTTCGGTTACGGTTCCTAGAACTGTAAGGTAAAATAAACCAGATCATCTCCCTTCGGGGAGATTTTTTATTTTCACTAGTTTTATAGTACAATCTTCGGCTTGTCGCTTAGTCTATAAACGTTTTATCCAGCAAGAATCATGATGCTAAGGGCGTTAAAAATCCGTATGAAAATAGGGAAAGGAAACAGTGTTCGATGAACACAAGGAGTTTCATCTTTTTCACTAGGATTTTAGCCCGAGCTCAAATCAGCTCTCTGACTTCAGAGAGCTTTTTTATTG
+# Right flank :  CCTCAAATGGTATCAGCTAATGACACCATGAAGGTGCGCAGTTACTCGGCTTTTCAAGCCGAGTAACTGTCTGCAAGCCCCCTCGGAGAGCCCACACTTTACGAAGTAAAGTATAGTATGTTATACTCTACATGGAAGTAGTCACCGAATTCCAGTTAGAAATTACTTTGTAACTACGTTTTGAGGAGGAGTAAAATGCTTTCCTACGTTCGACATTACCCACTAGCGATAGCTAAATTAATGTGTCTGTGCTCTCCTAAAATCTGCTGATTTATTACTAACTAATACAGGAGGTTTTTATGGGACAGACAATCATATCTGCTATTGGTGTTTATATTTCCACCAGTATCGATTATTTAATTATTTTAATTATTTTATTTGCACAGCTATCACAGAATAAACAGAAATGGCATATTTATGCGGGGCAATATCTAGGAACAGGCTTACTTGTAGGGGCGAGTTTAGTTGCTGCTTATGTCGTTAATTTCGTGCCTGAAGAA
+
+# Questionable array : NO	 Score: 4.50
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.86, 5:0, 6:1, 7:0.04, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGTTTTATCGGTCACAATTTTGGAGACTACAAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.20,-1.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-51.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [342,299] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002876413 [1910156-1910500]; 
+# Array family : NA
+# Sequence source strain : 73H25AP
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus sp. oral taxon 071 str. 73H25AP
+//
+
+
+Array 2 1909414-1907728 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL397254-Streptococcus sp. oral taxon 071 str. 73H25AP SCAFFOLD1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1909413	    36	 100.0	    30	....................................	ACAGCTGAGACAGAGAGAACTGGTAAATCT	
+   1909347	    36	 100.0	    30	....................................	TTCGGTTTTATACCAGTCATGACCATCGTT	
+   1909281	    36	 100.0	    30	....................................	AAGGTCTTGCGTCTTAAACTTCATGCTCAT	
+   1909215	    36	 100.0	    30	....................................	TATAGTTGCAATCAAATAACCTTCCCTTAT	
+   1909149	    36	 100.0	    30	....................................	TGTAGGTTCAACAGTTGAACACCCTGCATT	
+   1909083	    36	 100.0	    30	....................................	TACCCCAATGGTGATTATCCAAAAGAGGAG	
+   1909017	    36	 100.0	    30	....................................	AGAATCTCTTTCAGTAATATTAATACCTGC	
+   1908951	    36	 100.0	    30	....................................	TAACGAGATCAAATCACGTGCATTGGAAGA	
+   1908885	    36	 100.0	    30	....................................	TCAGATACAAGAGGGGTTAAGGTCGTATAT	
+   1908819	    36	 100.0	    30	....................................	TTGAAAGTGTATCCTTCAGATGCTTGCATC	
+   1908753	    36	 100.0	    30	....................................	GAAAAGTCAGTTGGTTAGAATGACCCGCAT	
+   1908687	    36	 100.0	    30	....................................	GTGAAAGGTACATATTAACAATCTGATTGA	
+   1908621	    36	 100.0	    30	....................................	AGGGCAAGCGTGCAAGTAAGCAGATAAAAG	
+   1908555	    36	 100.0	    30	....................................	TTGAACGAATACAATGTAGTCAGCTACTTT	
+   1908489	    36	 100.0	    30	....................................	ATCTTCTGATGTGGAGATTATGACTTATAT	
+   1908423	    36	 100.0	    30	....................................	CGAACTGAACATTAGCATTGACATCGGCTT	
+   1908357	    36	 100.0	    30	....................................	CGAGGAACAGGGGTCGACATTGTCAAAGCA	
+   1908291	    36	 100.0	    30	....................................	CAGCCAGATTGAGTCCTTCAAAACTCATTA	
+   1908225	    36	 100.0	    30	....................................	ACATTTCAAGTATGGTTTTAACGATGTAAC	
+   1908159	    36	 100.0	    30	....................................	ACATTTCAAGTATGGTTTTAACGATGTAAC	
+   1908093	    36	 100.0	    30	....................................	AACAGAATATTGACGGGAACGCTGATTTCT	
+   1908027	    36	 100.0	    30	....................................	GAAACTCTTCTTCGAGCAAACCTACCCAGA	
+   1907961	    36	 100.0	    30	....................................	TCAGTCTGAGAAGAAAATGAGGGAGCTGGT	
+   1907895	    36	 100.0	    30	....................................	AATAGAGATGATGTTCAGCTTATGATTGAA	
+   1907829	    36	 100.0	    30	....................................	CAGAGAATGGAAATCTTCATCTTTACCATT	
+   1907763	    36	  97.2	     0	...................................A	|                             	
+==========	======	======	======	====================================	==============================	==================
+        26	    36	  99.9	    30	GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAAC	                              	       
+
+# Left flank :   ATCAACTCAATGACAAGCCCGAAGTCAAGTCCATGATTGAAAAGTTGGTTGCTACGATTACAGAATTACTGGCATTTGAGTGTTTGGAAAACGAGTTAGACCTAGAGTATGATGAAATTACCATTCTAGAGTTAATCGATGCACTTGGTGTCAAAGTCGAAACCCTGAGTGATACACCTTTTGAAAAGATGCTAGAAATTGTCCAGGTTTTTAAATATCTTTCTAAAAAGAAACTCCTTGTTTTCATCAATGCGATCGCCTATCTATCAAAGGATGAGTTGGTAAATCTGATAGAGTATATCCAACTCAATCAACTAAGGGTTTTATTTGTCGAACCTCGAAAAGTCTATGATTTTCCGCAGTATGTGATGGATCAAGACTATTTCTTGAACCCTGAAAATATGGTATAATAAGAGTAACAATTGGAACCTAACGAGCTGAAGTCTGGCTGGGACGAATGGCGCGATTACGAAATTTCGTGAGAAAAATTTTTCTACGAG
+# Right flank :  AAGCTACTCATTTTTTGAGTAGCTTTTTAACTATTCCATCCCTACACATAGCTCATTCCCTTATAGCAAAGGAAAATGGCTAGTGCGATAAAAAGTACAGTTGCTCCGATTCGCTGGCTGGTACTATACATCCTTTTTTCCCATTTGACTGGAAAGATGATCGCTAGAAAAGCCCCGCCTACTGCGCCACCAATATGCCCTGCTAGGCTGATTCCTGGGATCAGAACACTTCCAATGATATTTATCACGAAAAGTGTCAGATAGGATTGCCCCAACTGCTGAATATAGGGGTTGCGAGTTGCGTAACGCAAGACGATGATCGCAGCAAATAGTCCGTAAAGAGAAGTGGAGGCCCCTGCTGCTACAACTTTCGGTGTGAAAGCAAAAACAAAGAGATTGCCCATCATTCCTGATAAGAGATAAAGAAGGAAAAATTGCTTAGAGCCGAAAATCTCCTCCACCTGTTGTCCAAGAAAGTAGAGTGAAATCATATTGACAAT
+
+# Questionable array : NO	 Score: 8.28
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.28, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [43,91] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002876413 [1910156-1910500]; 
+# Array family : NA
+# Sequence source strain : 73H25AP
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus sp. oral taxon 071 str. 73H25AP
+//
+
+

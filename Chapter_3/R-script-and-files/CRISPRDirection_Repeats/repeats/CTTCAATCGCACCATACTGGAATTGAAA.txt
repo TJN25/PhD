@@ -1,0 +1,94 @@
+Array 1 63946-63655 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AUBW01000028-Algoriphagus terrigena DSM 22685 G459DRAFT_scaffold00027.27_C,		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+     63945	    28	 100.0	    38	............................	TGTAAGGGAAAATCTTCACCTGCTCCAGGAGCCGATAC	
+     63879	    28	 100.0	    38	............................	TTCTGTGAAGACGCAAGTCGAGGAAGCCAAGGCGGATC	
+     63813	    28	 100.0	    37	............................	TGTGGTTTGAGGGCAAGATGCACATCATGCTCCCTCC 	
+     63748	    28	 100.0	    38	............................	GAAAACACGTCAGTTAACATGCGGTAGAACTTGCGCGC	
+     63682	    28	  96.4	     0	..............C.............	|                                     	
+==========	======	======	======	============================	======================================	==================
+         5	    28	  99.3	    38	CTTCAATCGCACCATACTGGAATTGAAA	                                      	       
+
+# Left flank :   |
+# Right flank :  TTAAACACAACCTTAACAAAGGGAGTAAAAAGCTTAGGAAATGGCCCCAACCTGCACATAATCATCTCTATGTTGACGATCTTCCCGAGCATCTGAGTAAACGAAAAATTTATATTATTGGCGAAAAAAGGAACCGTGGATATTGCGATACTTTGTCCTCGTGGTTGCAACGATCTGATTCAACTAAATCTTCTCAAAGGAGCAAGTCCACGCTGGTGTTACTAAGTCACCAAGAACAACAAAATAATGGTCAAAGCTTCTGTTTGGAGAAATACAGGTTAAAAAAAGCCACTTCTACGTTCACAAGAGCAAAATCATTTGGGTGTAACTGCCGAAACAATCGATTTGAAAATCGGAGGTGACAGTCAACTACCTTCGGGAATTAGCTGGAATTTCAACTCCCACCCAACAATCCTGACCAATTCTCAATGTTTCATTCTAAGGACTTAAAAAAATTAAACAAATCTCTTAGAAATGATTCTTTTTTCTTATGTAGATCT
+
+# Questionable array : NO	 Score: 7.48
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.96, 5:0, 6:1, 7:0.72, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCAATCGCACCATACTGGAATTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [980,1] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,4.91   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 22685
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Cytophagia; Cytophagales;Cyclobacteriaceae; Algoriphagus.; Algoriphagus terrigena DSM 22685
+//
+
+
+Array 1 51-1264 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AUBW01000059-Algoriphagus terrigena DSM 22685 G459DRAFT_scaffold00057.57_C,		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	============================	=======================================	==================
+        51	    28	 100.0	    37	............................	CCTATCAACTCGCCGCACGCCTTGTCGACTCCTCCGG  	
+       116	    28	  92.9	    38	.............G.T............	TTCATTTTCAAATCAAGTTTGGGATCCGGGAACCGAAC 	C [117]
+       183	    28	  92.9	    38	...........A.....A..........	CTTCATTACATGATCGACATCGAGACCCTCGACGTCAC 	
+       249	    28	  92.9	    36	...........A.....A..........	CTGTTGAAACGATGTTGAAACCGATATGTCAAAAAC   	
+       313	    27	  89.3	    37	A......T......-.............	CACAAAGGTCAGTGACTGGGGCTGTTGGAGGATGGCA  	C [315]
+       378	    28	  92.9	    38	..............C..A..........	ATAGAAGATCTCAAACTGCTCGAAAAGCATCCCGTGGC 	C [379]
+       445	    28	 100.0	    38	............................	TGCGAAATAGGCAAGTTCGTTGGTTGCGCCTGAGATGG 	
+       511	    28	  96.4	    38	T...........................	TTTGGCCCGAGATGAAGAAGCGGAGTATTTCACTGATC 	
+       577	    28	 100.0	    36	............................	TATCTGGTAGTATTTCATAAAATCCGACACCCCGTT   	
+       641	    28	  92.9	    37	..............AT............	CTCTGTGTAGATGAAGTAGTGATATCCGTCTACCTTC  	C [642]
+       707	    28	 100.0	    38	............................	TGCGGCGAGCCTCTGGACACAAGCGTATCCGAGCGATC 	C [709]
+       774	    28	  96.4	    38	.....G......................	TTGAGTTGGCCTCATTCGCTTCTAAGTACTCCAGACCC 	
+       840	    28	  96.4	    38	.................C..........	TCAGTATGTCCGTCCGGTATGGAGCACGGCGGGGACTC 	
+       906	    28	  96.4	    39	.................C..........	TGGGACTTGATGCAACTCACATGCGTGTCTTTGATCGAC	
+       973	    28	  96.4	    38	.................C..........	TTAGCTTGGAGCGCCTGATTAAGGCTGCCGGCACTCTC 	
+      1039	    28	 100.0	    39	............................	TATAGCAAGCCTGTAGCCATTGTGCCGTCTTCTGCATGC	
+      1106	    28	 100.0	    38	............................	TGACATACCCTCGGATCTCCTTGATGGTATTGACTGAC 	
+      1172	    28	 100.0	    38	............................	TAAAATTATATTGTGTTGGAGTTCCCGGAACATTCAAC 	
+      1238	    27	  96.4	     0	...........................-	|                                      	
+==========	======	======	======	============================	=======================================	==================
+        19	    28	  96.4	    38	CTTCAATCGCACCATACTGGAATTGAAA	                                       	       
+
+# Left flank :   CCGGAATTGAAATGACTTCAGCTTCGCCCTGCATCTTGATCTCTGACCACC
+# Right flank :  |
+
+# Questionable array : NO	 Score: 6.96
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.82, 5:0, 6:1, 7:0.59, 8:1, 9:0.55,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTCAATCGCACCATACTGGAATTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [10-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [41.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.77,0.41   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 22685
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Cytophagia; Cytophagales;Cyclobacteriaceae; Algoriphagus.; Algoriphagus terrigena DSM 22685
+//
+
+

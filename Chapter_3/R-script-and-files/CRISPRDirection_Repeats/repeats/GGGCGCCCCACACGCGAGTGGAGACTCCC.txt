@@ -1,0 +1,39 @@
+Array 1 11497-11710 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BCAE01000002-Actinobacteria bacterium UC5.1-1B11, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     11497	    29	 100.0	    32	.............................	GCGTTCCGCGTCCTGCTGCGCCTCGCAGACGA	
+     11558	    29	 100.0	    32	.............................	TCTTTTGCGCTGTCGGCGGCTGACGTCGCGGG	
+     11619	    29	 100.0	    32	.............................	ACCGGGTGCAGCATATCATCGTCACCGCAGAA	
+     11680	    29	  93.1	     0	............G...............G	|                               	C,T [11685,11693]
+==========	======	======	======	=============================	================================	==================
+         4	    29	  98.3	    32	GGGCGCCCCACACGCGAGTGGAGACTCCC	                                	       
+
+# Left flank :   GATCCATGTGCAGCGCATCCATCTGGCACGCGGCATGCGACACCATGTGCTCGCCCAACCGTTGGCGGATGCCGCGTTCGCCGAGTTCACCCGCCAACTGGCGTACAAAACGGCACGTACCGGCGCCATCGTGCACATGCACGAACCAATGACGGTTGAACAGCATGTGGACGCCATGGCGTTGGCGCAACGTCTTGCCAATGGACCGTCGCCGGACGCATAACCACAACAGACAGCTGCATAAGAGGCTTGTGCAGGATACGAACCACACTGGTGGTGTGGGGATACGGACAACGGGCGTGGAGAACCCAGCGCCAACCACCCTCGGGTTTGCTGGACAGGTTCAATGAAACGCCTATCAAGCAGCCACCATCATGGTGGTGTCAGACTTGAAGCTGACCGTCGCAAGACGGTCATGTCCACATGCTCATGGGGCGAATCGAAGGTGTTCGGGCCTCCCCGATGATGATGAACCTTGGTTTTTCAACGGTTCGGACAGG
+# Right flank :  GGTATGACACCACCGGGCAGGCCGTGCACGATGTCGCGGCTTGGCTTATACAGGACCGTTGCCGGACGCATAATCAGGGATGACTGCATAAGAGGCTTGTGCAGGATACGAACCGCACTCTTGGTGTGGGGATACGGACAACGGGCGTGGAGAACCCAATGCCAACCACCTTAGGGTCGTTGGATGGGTACTGGGAAGCGCCTATCAAGCAGCCACCATCGTAGTGGTGGTGTGAGGCTTGAAGCTGGCCGTCGCAAGGCGGCCATATCCACGCTTGTAGGGCAAACCGAAGGTGTTCGGGCCTCTCGATGATGCTGGACCTTGGTTTTGCAACGGTTCGGACAGGGGTCGCCCCACACGCGAGTGGAGACTCCGCGATTGGCTGAGAATGCTCGCGTGGTTGCCCCACACGCGAGTGGAGACTCCCCGAAAACCAGCCGCTGAGATTACTGCGATTGCTACGATACCCCCACACGCGAGTGGAGACTCCTGTCCCCATA
+
+# Questionable array : NO	 Score: 5.02
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.91, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGCGCCCCACACGCGAGTGGAGACTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.20,-8.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [45.0-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [279,900] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : UC5.1-1B11
+# Taxonomy hierarchy : Bacteria; Actinobacteria.; Actinobacteria bacterium UC5.1-1B11
+//
+
+

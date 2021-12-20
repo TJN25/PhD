@@ -1,0 +1,40 @@
+Array 1 11-276 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ALRU01000123-Streptococcus agalactiae LMG 14608 ctg7180000003372, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	==========================	==============================================	==================
+        11	    26	 100.0	    46	..........................	GGCACTTGTGGAAGCACTGGTACTTGCTGATGTCGATGCACTCATT	
+        83	    26	  96.2	    34	.........G................	TACACTCGTTGAGGTGCTCATACTTGCACTTGTG            	
+       143	    26	  84.6	    34	........TG.G..G...........	GGCACTCGTTGAGGCGCTAATACTTGCACTTGTG            	
+       203	    26	 100.0	    22	..........................	AGCGCTAGCGCTTGCCGAAGTT                        	
+       251	    26	  80.8	     0	.....A..GG....A........A..	|                                             	
+==========	======	======	======	==========================	==============================================	==================
+         5	    26	  92.3	    34	GAAGCGCTAATACTTGCTGACGTGGA	                                              	       
+
+# Left flank :   TGCACTTGTTG
+# Right flank :  AAGCACTTTCGGATAAAAATTTTTTTTCAGCATTCGCATCTGATTCTCCATCTACTTGAGTATATCCGTAAAAATATTTAGAACCATTTGTTTGATTTATATCAGAAACAGTCGAATACAATACACCACTTTGTTTAGGTATTTTGACTAAAACAACATAAGATGTAGAGGAAGAAATAGAATTTGTTTTCCAATCTATGGTAATTTTAGAACCATCGTTAGTATAACTATACTGGGAAGTCACATCTTCAAACTCAGTCGAATCATAATTTTGATCCATACTATCTGTAAGATTTTTTGAATTAGTTTTTAGAATCTTTACTTCCGCATTTAATAAATTAACTGGTGAACCTGATGTTCCATCTGAACCGATAATAGTATATAGATTCCCAAGTCCTGATGCGAAATACATTTCCTTACCTTCAGGATTAATTTGAGTAATATAAGTTTCTGTCTGTTTTTCATCATCAATCTTCATGATCCGAGATCTTACATTTGTC
+
+# Questionable array : NO	 Score: 2.50
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.61, 5:0, 6:0.26, 7:0.11, 8:0.6, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAAGCGCTAATACTTGCTGACGTGGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.00,-0.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [10.0-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [12,2132] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0.45   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : LMG 14608
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus agalactiae LMG 14608
+//
+
+

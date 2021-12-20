@@ -1,0 +1,38 @@
+Array 1 155-5 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AUDD01000029-Acidipropionibacterium jensenii DSM 20535		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+       154	    28	 100.0	    33	............................	CGTGGTGTCTCTCAATGTCTGTGCTGCTCATGA	
+        93	    28	 100.0	    33	............................	ATCTCCTCGTCGGTGCCCGTCGAGCCCGTGATG	
+        32	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         3	    28	 100.0	    34	GGCTCATCCCCGCATTCGCGGGGAACAC	                                 	       
+
+# Left flank :   TGGGCAATCCGTGCCGGACCGACGAGGCCTTGGTCCGCCATCTGACCGCACAGATAGCCCATGCCCACCATCTCTGCTTTAAAAGCGAAGTGTGTGGAAGCTTTTCCGATGTCATGAACCCCAGCGCAGAATGTGAGGAACGCCACCGTGCTGTCTTCGCTACCGAGAGCCTCGACGAAGACTGACTGGATGCTGCCAGGTTGCTTCGCCCAGAGTTCACGCACGACGCCAGAAGCATCCTCAAGGTGCTGAACAAGTGGTAGCCAACCACCAGTGTCGGGATTTGTCTTACCCCAACAGGACCTGGTCGCAGCTGACCACGAGTCGAGCATCGATGCTCCTTCCCAAGGACCATCACCGTACTGTCCGGCGGTCGCGGGCGTCAATTCGGAAGGCGGCACTCAAGTCAAACTGCCGGTAGGGCTCTGGGAGCCGTAGAAGCTGAACGCAGTGCAAGCGACTGTATCGACACGTCCAGCAAAGAGGACCGAGGCTAACGT
+# Right flank :  CGCTG
+
+# Questionable array : NO	 Score: 7.24
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.84, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCTCATCCCCGCATTCGCGGGGAACAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [6,169] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_028703767 [323-3118]; 
+# Array family : NA
+# Sequence source strain : DSM 20535
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Propionibacteriales;Propionibacteriaceae; Acidipropionibacterium.; Acidipropionibacterium jensenii DSM 20535
+//
+
+

@@ -1,0 +1,41 @@
+Array 1 45487-45021 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HF922491-Clostridioides difficile T20, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                         	Insertion/Deletion
+==========	======	======	======	=============================	========================================================================================================================	==================
+     45486	    28	  93.1	    36	-..........................A.	TTCTGAATCATATGAAAACAAAATCTTATTTGTATT                                                                                    	
+     45422	    29	 100.0	    35	.............................	GAAATTATTAATGTTATTTCTACTCTTGCAGTTGC                                                                                     	
+     45358	    29	  89.7	    46	.......................A...AG	CATAGTCTATTGAACATTTATTAAGAGATAACTTTCGTTTTATATA                                                                          	
+     45283	    29	  75.9	    55	...........G...TA.T.A..T...A.	GTTTCACTATTGGACAACGGAAGTTTTTTCAGTGAGTAAAGATTGAATCACTTTA                                                                 	
+     45199	    29	  72.4	   120	TA.....C....T..T...A...A...T.	ATTATCTTATTTCTATTTGTAACTTTTTTAAGTATGTATTGTCCAGTTGTAATTTGTTTTTATTATTTTAAACTTTCAATTCCAAAATTATCTAATATAATTGAATTAACTTACTTTCTT	A [45177]
+     45049	    29	  65.5	     0	T......T...C..CCT..T.C.C...T.	|                                                                                                                       	
+==========	======	======	======	=============================	========================================================================================================================	==================
+         6	    29	  82.8	    59	GTTTTATATTAACTAAGTGGTATGTAAGT	                                                                                                                        	       
+
+# Left flank :   |
+# Right flank :  AATTTATACATTTTATTTATATTTAAGAATACATACTCTAATTTGATTACATAAAATAAAATGTTTTTCTACTATAAATTAAACTCTTTAAAAAATATGACTCAACTACTTTAATTTTTATTCTAATGATACATTAATTCTAGACATAATAAAACTCTCCTAGCTAGATGATTTTACATGTTTTAACTATCTCCTAAAAAAGTATAGTTTGATAAAAAGAGCATTTTTATATAAGCACCATACTTTTATTGTGGAAGATAATTATTTTATGAGGTATTGAAAACTTACATAAAATCTGTGGATAAAAACTCATACTTTCATTTTACTGACATACATCTAAACATAATAATATAAAACATTGAAAAATCGATTTGCAATCTGTTTTTATATAAGAAAATTTGAATAATATGGAAAAATATGATTAATGCATTATTAATTAGGGTATAAAGTATCATAAATAGAATGATAAGGGGTGGATGAAATGATTGTATACAATAAAA
+
+# Questionable array : NO	 Score: 2.51
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.14, 5:-1.5, 6:1, 7:-1.54, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATATTAACTAAGTGGTATGTAAGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:80.77%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [15-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [88.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [476,1] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,4.91   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : T20
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile T20
+//
+
+

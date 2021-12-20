@@ -1,0 +1,39 @@
+Array 1 52-303 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LGDH01000129-Streptomyces sp. IGB124 P428contig209.1, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=================================	==========================================	==================
+        52	    33	 100.0	    42	.................................	CCGGTCGTCACGACGGGGGTACGAGGGACGGTCCCCGCCACG	
+       127	    33	  87.9	    39	...G..A..............G.....C.....	GCGGTCGTCACGGCGGAAGGAGGGACGGTCGCCACCGCG   	
+       199	    33	  93.9	    39	...G..............G..............	ACCACGGTCGTCGCGCCCACCGCGGAACCCTCCACGGTC   	
+       271	    33	 100.0	     0	.................................	|                                         	
+==========	======	======	======	=================================	==========================================	==================
+         4	    33	  95.5	    40	GTCATCGCGACGCGGGTACGACGGACGGTCGCC	                                          	       
+
+# Left flank :   CGGACGGTCGCCACCACGGTCGTCGCGCCCACCGCGGAACCCTCCACGGTCG
+# Right flank :  CCGG
+
+# Questionable array : NO	 Score: 2.84
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.78, 5:0, 6:0.31, 7:0.35, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCATCGCGACGCGGGTACGACGGACGGTCGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.00,-3.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [20.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.01,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : IGB124
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. IGB124
+//
+
+

@@ -1,0 +1,43 @@
+Array 1 69734-69270 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB850959-Clostridium colicanis 209318 acBRg-supercont1.3, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     69733	    36	  97.2	    30	...............G....................	CAACATCTAAATCAAGTTGTTCTTGTAAAG	
+     69667	    36	 100.0	    30	....................................	AAAAATGCAGTAAATCCCCAACCGACACCT	
+     69601	    36	 100.0	    30	....................................	AAAAACGGAGTTGATTCAATGCCCCTTTTT	
+     69535	    36	 100.0	    30	....................................	CCAACCTTCTAATGATAATACTTTTATTTC	
+     69469	    36	 100.0	    29	....................................	CGTGTCCGTGATGTGATGTCACAAAGCTA 	
+     69400	    36	  83.3	     4	..............................NNNNNN	NNNN                          	Deletion [69361]
+     69368	    34	  83.3	    29	--NNNN..............................	CTTACGTGTCCGTGATGTGATGTCACAAA 	
+     69305	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         8	    36	  95.5	    26	GCTATAGTTCCTAGTAAATTTTTGATATGCTATAAT	                              	       
+
+# Left flank :   TTTGTATCATGTTATATTCATTTTTTACCTGGATTTCTATATTTATATGTTCTTTATTATTAGTGGTGGCTTTTATATCTAACCTACTAAACTTACTTTCTAAATACTCTTTATCTATATCATTGTTTCTTATTTCGACTTCTTGTATTGGATTTGTTGGTTTAATTACTGCATTTAAAAAATTTATTAATATAGGTTTATTCTTTTCTGACCCAAATATCTTTTTAAATACAAAATCTATTTGCGGATTAAGTAATGTCCTATATACCATGATAATATTCCTCCTTATTGGTTAGTTTTTATAGTTAATTATATTATAGACTATTATATAATTTTAAAATACTATATTTTCCTAAATTATCTGAAAAAGAACTAATTATATTATCAAAATATTTACCTAAATTACTAACTTATTCTTTTAAACTTCTAAGTTAATTATTAACGCCTTCAGTAGGAGTAATATCTTTAATCTAAATAGTTTCATTGATACCATTGTTATT
+# Right flank :  ATGAATTATAAAACCCGTTGAAATTACTTAGTTTCAACGGGTTTTAACTTTCTAAAAAATACTCAATTGTGATGAATTTATAGTCTTTTCTTGTTTTTTTGGCATACCTACTAAGAATTTCATTTCTGAAAATTGTTTTTCTGTTATCTTTAAATATCTAACTGATCCTTTTGATGGTAAATTATTTTCTAATCTATTTAAATGTTTGTTTATCCCATCTATTCCATTACATATTCTTGTATAAACTGAATATTGAAGCATGATATATCCATCGTTTAATAAAAATCTTCTGAAATTTTGATAATCTTTCCTATCTTCTTTTCTAACAACAGGCAAATCAAAGAAAACTAATATTCTCATAAATTTATTACTCATAAGAATGATATTCTAAATCTTTTATAATAGGAACTTTTAATAATCTAAAGTCTTTATTATTTACTGCTGTCTTATAGGAAGATATCATTTTATCTATTGCATTTAAAATAGAATGGTTTTTATTT
+
+# Questionable array : NO	 Score: 4.57
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.78, 5:0, 6:1, 7:-0.21, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTATAGTTCCTAGTAAATTTTTGATATGCTATAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [11-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [53,230] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.59   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002599693 [68910-69218]; 
+# Array family : NA
+# Sequence source strain : 209318
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;Clostridium.; Clostridium colicanis 209318
+//
+
+

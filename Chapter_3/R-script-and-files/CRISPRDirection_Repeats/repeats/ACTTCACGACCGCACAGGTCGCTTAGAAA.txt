@@ -1,0 +1,39 @@
+Array 1 32-240 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AERK01000011-Moraxella catarrhalis CO72 ctg00011, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	=============================	===============================	==================
+        32	    29	 100.0	    31	.............................	ACAATACCGCAGAAGGCATTTCTTTTGATAA	
+        92	    29	 100.0	    31	.............................	TACCTGAAATCAGACACGATCAAATTAAATT	
+       152	    29	 100.0	    31	.............................	CCAAAGACACCACACATCAGCTACTGCAAAC	
+       212	    29	  96.6	     0	C............................	|                              	
+==========	======	======	======	=============================	===============================	==================
+         4	    29	  99.2	    31	ACTTCACGACCGCACAGGTCGCTTAGAAA	                               	       
+
+# Left flank :   TAACAACCCCAGTGGGCGCAAACTTTTAAGGA
+# Right flank :  ATAACAGCAACAGGTACAACCGCCGATAAGAT
+
+# Questionable array : NO	 Score: 6.63
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:0.07, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACTTCACGACCGCACAGGTCGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.00,-8.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [26.7-30.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CO72
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Moraxella.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAERK01000011.FEATURES             Location/Qualifierssource          1..272/organism="Moraxella catarrhalis CO72"/mol_type="genomic DNA"/strain="CO72"/db_xref="taxon:857573"; Moraxella catarrhalis CO72
+//
+
+

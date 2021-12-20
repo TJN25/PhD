@@ -1,0 +1,51 @@
+Array 1 1614-370 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ959991-Gemella haemolysans strain DNF01167 Scaffold966, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                          	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=========================================	========================================	==================
+      1613	    41	  78.0	    36	.T...T.A...T..CT.GT................G.....	GTCCCTACTGGATCAGTGTACTCTAGAAATTCGTAA    	A [1575]
+      1535	    41	  78.0	    40	..C..T.G..GC..TT.G..............C........	TGCTTCTAATGGCTTAGTATATCCTGGAGTCTCTTCTCGG	
+      1454	    41	 100.0	    40	.........................................	TGCTTCTAATGGCTTAGTATATCCTGGAGTCTCTTCTCGG	
+      1373	    41	 100.0	    40	.........................................	AGTTGCTACTAGGTCAGTGTACTCTGGTAATTCCGGTTGA	
+      1292	    41	  85.4	    40	.TC..T.A...G.....T.......................	TGTTGACACTGGGCTTGTGTACTCTGGTAATTCCGGTTGA	
+      1211	    41	  70.7	    40	..C..T.AC..T..TT..T.C..CA.......C........	TACCGCCACTGGGTTTGTGTACTCTGGACTCTCTTCTCGA	
+      1130	    41	  78.0	    37	...A.T.AC..T.....G........C.....C..C.....	TGTCGTTATTGGATTAGTATACTCTGGTAATTCGTTA   	
+      1052	    41	  82.9	    40	..C..T.A...T..TT....A....................	TTTCTCCTCTAGAACTTTGTACTCTGGAGTCTCTTCTCGG	
+       971	    41	  80.5	    36	.....T.A...T..CT.GT................G.....	GTCCCTACTGGGTCAGTGTACTCTGGAAATTCGTAA    	A [933]
+       893	    41	  70.7	    40	..C.TT.G..GC..CT....C.....C.....C..A.....	GGTCGCTAATGGCTTAGTATATTCTGGAGTTTCTTCTCGG	
+       812	    41	  92.7	    40	.......A........T.........C..............	TGTTTCTAACGGCTTAGTGTATTCTGGTAACTCTGATTGA	
+       731	    41	  73.2	    36	.T.A...A...T..TCTGT.A..............G.....	GTCCCTACTGGATCAGTGTACTCTGGAAATTCGTTA    	G [693]
+       653	    41	  73.2	    40	..C....G..GC..TT....C....CC.....C..C.....	TGCCGCTAGTGGCTTAGTATATTCTGGAGTCTCTTCTCGG	
+       572	    41	  85.4	    40	....T......G..CT..T.A....................	TGTCGCTAATGGCTTAGTATACTCTGGAGTCTCTTCTCGG	
+       491	    41	  95.1	    40	.................T........C..............	TTTCTCCTCTAGAACTTTGTACTCTGACAACTCCGGTTGA	
+       410	    41	  82.9	     0	..C..T.A...C..T..GT......................	|                                       	
+==========	======	======	======	=========================================	========================================	==================
+        16	    41	  82.9	    39	ACTGCCGCTTCACCAACACGTCCTGGTTCTTGTGTTCCTTT	                                        	       
+
+# Left flank :   AGTTCGTGATAGTTCTTTAGTTTCTACTACATTACCATTTACGATGTAGTCTTCATATTGAATTGTACGCGTTCCTGCTTGACCTGGTTGTTCAGTTTTACGACGATTTTTCAAAAGTGTTGGATCTTGAATTTCTTCTGTTGTATAAGGAATATTTTCTGTTTCCGTTCTATTTCTTGTAGTAACTTCTAAAGTCGGAAGTTCTTCTGTTACTGCCGCTTCGCCCTCATGACCTGGTTCTTGCGTTCCTTTTGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTCATGACCTGGTTCTTGCGTTCCTTTTGTTGACACTGGAAGTTTATATTCTGGCAGTTCATTTGTTATCGATAACATTTCCTCTTCTACACTCTGTACCGTATGAACAGATATCGGCTTTGTATATTCTGGTAACTCCGGTTGA
+# Right flank :  TTGTTGACACTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTACTCTGGTAATTCGTTAACCGCTGATTCTCCCTCGCGTCCTGGCTCTTGCGTTCCTTTTGTTGCTACTGGATTTGTGTATTCTGGCAAGTCTTCTTGGACTGCTGATTCTCCTTCGTGCCCCAGTTCTTGTGTTCCTTTTGTCGCTACTGGATCAGTATACTCTGGAAATTCGTTAACCGCTGATTCCCCAATGCGTCCTGGTTCTTGTGTTCCTTTTATCGATACTGGATCAGTATACTCTGGTAATTCGTTAACCG
+
+# Questionable array : NO	 Score: 2.09
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.18, 5:0, 6:0.25, 7:0.42, 8:1, 9:0.24,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ACTGCCGCTTCACCAACACGTCCTGGTTCTTGTGTTCCTTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [15,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-4.50,-4.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [38-34] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [10.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [112,5107] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.86   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DNF01167
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XI.Incertae Sedis; Gemella.; Gemella haemolysans
+//
+
+

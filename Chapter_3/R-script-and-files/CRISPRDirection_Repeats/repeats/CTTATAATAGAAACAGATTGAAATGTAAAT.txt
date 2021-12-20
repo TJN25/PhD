@@ -1,0 +1,86 @@
+Array 1 1-425 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JAAG01000179-Fusobacterium necrophorum BFTR-2 contig0179, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+         1	    28	  93.3	    37	--............................	ACGACTAGGGGAATATGATATCCATAATCAAAATCAA	
+        66	    30	 100.0	    36	..............................	ACAGAAAACTTATTATTTGGGTTAAAGTATGCAGCT 	
+       132	    30	 100.0	    36	..............................	TTAAAGAGGTGGCAAATGATAGGATATGTGACACTA 	
+       198	    30	 100.0	    37	..............................	ACAAACAGGAGAAGAGTTGGAAGAATTGGGACGAAAG	
+       265	    30	 100.0	    35	..............................	GAGAAAGAAATCAGAAAATGTTGCCTCGTATGATA  	
+       330	    30	 100.0	    36	..............................	ATCATTAGGACAGGAACACAAAAAGGAAAACAAAAT 	
+       396	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         7	    30	  99.0	    36	CTTATAATAGAAACAGATTGAAATGTAAAT	                                     	       
+
+# Left flank :   |
+# Right flank :  |
+
+# Questionable array : NO	 Score: 5.00
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:0.99, 7:1.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTATAATAGAAACAGATTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:80.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.5,0.41   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BFTR-2
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromJAAG01000179.FEATURES             Location/Qualifierssource          1..425/organism="Fusobacterium necrophorum BFTR-2"/mol_type="genomic DNA"/strain="BFTR-2"/isolation_source="foot rot"; Fusobacterium necrophorum BFTR-2
+//
+
+
+Array 1 561-3 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JAAH01000091-Fusobacterium necrophorum DJ-2 contig0091, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+       560	    30	 100.0	    37	..............................	AATCTTGCTATTTTAAAGTTTCCACCCAACACATCTA	
+       493	    30	 100.0	    35	..............................	TTTGGAGATTTTAAAGTATTAGATCGAGAATATAA  	
+       428	    30	 100.0	    36	..............................	AAAATCAGAATAATAGCAAAAACAATGTTGATGAAA 	
+       362	    30	 100.0	    37	..............................	AATGGAAGGACGATTTTATTAGAGAACATGCAAGGAA	
+       295	    30	 100.0	    35	..............................	GTCAAAAATAAGAAATTCATCAAAAATTCCTGCAA  	
+       230	    30	 100.0	    36	..............................	TTGGAACATCTGTATAATATTGATTCACTTTCATAA 	
+       164	    30	 100.0	    36	..............................	CTGCTTTTCTGTATTTATAATTTCATTGGAAATTAT 	
+        98	    30	 100.0	    36	..............................	TAAATAATACTTCAATATTAAGTTTCTTGCATATTT 	
+        32	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         9	    30	 100.0	    36	CTTATAATAGAAACAGATTGAAATGTAAAT	                                     	       
+
+# Left flank :   AGTTTCTTGCATATT
+# Right flank :  TAA
+
+# Questionable array : NO	 Score: 4.99
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.99, 7:1.00, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTATAATAGAAACAGATTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:80.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [3.3-20.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,4.77   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DJ-2
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromJAAH01000091.FEATURES             Location/Qualifierssource          1..576/organism="Fusobacterium necrophorum DJ-2"/mol_type="genomic DNA"/strain="DJ-2"/isolation_source="jaw"; Fusobacterium necrophorum DJ-2
+//
+
+

@@ -1,0 +1,142 @@
+Array 1 7081-8259 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NFDH01000105-Bacillus thuringiensis serovar kim strain BGSC 4BP1		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                                               	Insertion/Deletion
+==========	======	======	======	================================	==============================================================	==================
+      7081	    32	 100.0	    35	................................	ACGATCGCTTTTGTAGCAAACACCCACGAAATGAA                           	
+      7148	    32	 100.0	    34	................................	AAAAGTAGCGGTAGGTTTTACAGCAACAGATTTA                            	
+      7214	    32	 100.0	    34	................................	CTAACTTATAAGGCATAGGTGCAATAAAGGTAAC                            	
+      7280	    32	 100.0	    34	................................	AATTACGTTGATTCGCTTGATATCAGATGTTCTT                            	
+      7346	    32	 100.0	    34	................................	ACTCACGGATACGTAATTATAAGTGGGATATAGA                            	
+      7412	    32	 100.0	    34	................................	TCTAAAAAGAAAGCATTAGCAGCAGAAGAAGGAT                            	
+      7478	    32	 100.0	    34	................................	AGTTGAGTGAATTAATGCTCGTGAGTGATTGTAC                            	
+      7544	    32	  93.8	    34	...........A......A.............	TGTATGATTACCTTAGCAAATTCAACGATAAGTT                            	
+      7610	    32	  93.8	    34	...........A.......T............	TTATCTTTATCTACTGCAACTACACCAAAATTAT                            	
+      7676	    32	  96.9	    34	...........A....................	CTAAAATTAGATTCCATGACTTACTACATACCCA                            	
+      7742	    32	  93.8	    34	...........A.A..................	CACATTAAGAATTTTGGAACAAAGATTGTAAAGC                            	
+      7808	    32	  93.8	    33	.........C..............T.......	ACTCCTATTCATTTTTCAAAGATCGTGCTTCAA                             	
+      7873	    32	  90.6	    33	...A.....C.........T............	TACACAGACAAAGAGGGCAACCCTACTCGCCTT                             	
+      7938	    31	  96.9	    34	..............-.................	CCCTGCTGATGCAACATCGCTACCTACATTTTGT                            	
+      8003	    32	  93.8	    35	.........C..........A...........	TCAGACGGCTTGTCTTTTTCCGTAGGCTTATCTGT                           	
+      8070	    31	  87.5	    34	......T.-..........TA...........	TACCTAGGGTTTATATTTATCTGGAAAGCTCATA                            	
+      8135	    32	  96.9	    62	.....................A..........	GGGGATATGCCAGGCGTTTGGCAAAGTGTTATTGGTTTATCAGGAGTCATTGACTTGTCATG	
+      8229	    31	  87.5	     0	.........C.-.A......C...........	|                                                             	
+==========	======	======	======	================================	==============================================================	==================
+        18	    32	  95.8	    36	GTCGCACCTTATATAGGTGCGTGGATTGAAAT	                                                              	       
+
+# Left flank :   TATCTAGTTATATATTAAAAGTTGAACACAAATAAAGAGAAGAATAATTAAAGTATTTTTGAGTTAGCAAAATAAAGGGATTTTTAGTATTCAATATTCTTAAGAATGTTATATCATAAAAAAAGATCAAACGATGATATAAAGAATAAACTTGATAGGTGGATAGAGAGACAATATATAGTGAATTTTATTGTAAATTACGAATCAATATATTAAGGGTATTATGAAACTATACATTTTGGTTATTCAATTAGGTAATAGCTATGAAAATAAGGTCGAACATATTGGTGTAAAAGAATCAATTGATTTAGAAAGCCCTTTAATTTTTTAGGTGCGAATGTATAGCAAACATGAAATTCCTAGTACATTCGCACCTTGAATTCTCATGCTTTATAATGGTGATTTATGATTTTTATACAAATTACTTTATTAAATAAAAACATTTGTATATTTTTGGATAAAACTAACGTATTTTTGGTTGATTTCGAACACAAATCGGT
+# Right flank :  TTAGCAATGCTCTGGCTTTAAAACGCTCTGCAGATGTAGATACTCAACTGGAAGTATCTATATCTGTAGTATCTAACACACATGTTATAAACATAAAATGGAGGGAGATTGAATGACCTACATTGCTCATATACGCGAGAGTGACAGGCAAGTACAAACAGTCGAAGAGCATTTATTAGGAGTAAAAGAACTAGCTGAAACCTATGGAGAAAAAATCGGTATAAAACATTTAGCTGGTTTAGCAGGTATGCTCCATGATATGGGTAAATACACCAATGAGTTTAAAGAATATATATTGGAAGCAGTAAATAATCCTAATTCTCCACCTAAAAGGGGGAGTGTTGACCATTCAACTGCAGGGGGGAAATTGTTATATCAATTATTCCATACAGAAAATATGATTCCTTACAAAGGGATAATATCTGAGATAGTGGGAAATGCCATTATATCTCACCACGGATACCTTCAAGATTTTTTAAATCCAGATTTAGAATCGCCCT
+
+# Questionable array : NO	 Score: 10.47
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.79, 5:0, 6:0.7, 7:0.39, 8:1, 9:0.59,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.10,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-17] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [286,112] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.73,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_000389015 [14461-15120]; Cas7:WP_088021455 [18006-18464]; Endonuclease Cas2:WP_000960662 [16158-16448]; Helicase/endonuclease Cas3:WP_088021453 [8371-10800]; 
+# Array family : NA
+# Sequence source strain : BGSC 4BP1
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus thuringiensis serovar kim
+//
+
+
+Array 2 16618-17377 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NFDH01000105-Bacillus thuringiensis serovar kim strain BGSC 4BP1		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+     16618	    32	 100.0	    35	................................	AACTTGTCGTTTAGTTTGAGTCCCTGTAGTTCCGC	
+     16685	    32	 100.0	    33	................................	TCGAAATGGTTTCCGAGCTTGGTTAGAATTAGG  	
+     16750	    32	 100.0	    34	................................	ATATACGCCTTGTGTATCACCTGTTAGACTCGAC 	
+     16816	    32	 100.0	    34	................................	CATTCCACCCCATTGTTTGTCTTGGACACCTTTT 	
+     16882	    32	 100.0	    34	................................	AATTAAATCATCAATTTCGTCATCTAAAGCATTA 	
+     16948	    32	 100.0	    35	................................	GCTGATGTACTCGCAATTATCCCTTGTGACGTATG	
+     17015	    32	 100.0	    34	................................	AGGGAAGATGGCTGAATACTATGAGTTACCACCT 	
+     17081	    32	 100.0	    34	................................	TATTATGTTAGCTGAAACGATGGCTAAAGAAATA 	
+     17147	    32	  96.9	    34	...........................A....	GTCCAGCATGTGCCTTGGCAAACTCAGGAGGAAC 	
+     17213	    32	  96.9	    35	...........C....................	TTAGATTATTTCAATGCAAAAATAGAAGTAAACAA	
+     17280	    32	  93.8	    34	...................T...A........	ATTAGACGAGATATATCCACAGAAGAAGAATTAC 	
+     17346	    32	  87.5	     0	.......T............C.AA........	|                                  	
+==========	======	======	======	================================	===================================	==================
+        12	    32	  97.9	    34	GTCGCACCTTATATAGGTGCGTGGATTGAAAT	                                   	       
+
+# Left flank :   AGATGAATATCCACCATTTTTATGGAAGTAGGTGTAACAGTTGCTAGTATTAATAACATATGATGTAAGCACAACTAACAGTGTTGGACAAAAAAGACTGCGAAAAGTTTCGAAAATATGTCAAAATTATGGTCAACGAGTCCAAAATTCAGTGTTTGAATGTGTTGTGGATGCAACTCAATTTGCTACTTTAAAGATGGAATTAATTAAAATTATTAACGAAGATGAGGATAGTCTTAGATTTTATCAGTTAGGTAATAACTATAAAAATAGGGTTGAACATATCGGTATAAAGGAATCCGTTGATTTAGAAAGTCCTTTGATTTTTTAGGTGCGAATGTATAGCACACATAAAATTCCTCGTGCATTCGCACCTGAATTTTCATAATTTATGAGCGAAGTTTAATATTTTTTATACAAATTCTCTTATTAAATAAAGAAATATGTATATTTTTGAACAGAATTAGTGTATTTTTGTATGGTTTTAAACAAAAATCGCT
+# Right flank :  TGAAATTACTTGCTGCCTTATCTAGATTACTTTCTTCGCATCTCAGGTGTGTGGAGTAAGACTGATAAAATAATTGATAGTAATTTAGTGCCTCTGTTGGAGAAAGGGGACCTGTTTCAATTCATAAAGCAACGAATGTTGATCCAATTGACATTACTAGTATGCAGATTACGAAAAGTGTAAATTCTGAGCATGGGAAGGATAAAGTTTTAGATACGATGGGGATGAAGCATCGTGTTGATTTCGCAGTCTATGTTTGTTGGTGGGATCATCATTCAAAACCTGGTCAATACTCCTCTGCAAAAGTACATCGTTTATTAGAGGTTAAACGGAATATTGACGAACAAAAAACAATCAATGATTATACTGTCTTGGTACATGAATTAGATGGTTTAAAAGTTGAGATTATTAAAGGAATGTAATAAAAAGCGTCAGAATAGTTGAAAGAAAGTATCCTTATAAAGATATACCCTATCAATTTATTAAAGGAAAGTCGCATT
+
+# Questionable array : NO	 Score: 11.17
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.90, 5:0, 6:0.7, 7:0.57, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.10,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [78.3-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [171,119] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_000389015 [14461-15120]; Cas7:WP_088021455 [18006-18464]; Endonuclease Cas2:WP_000960662 [16158-16448]; Helicase/endonuclease Cas3:WP_088021453 [8371-10800]; 
+# Array family : NA
+# Sequence source strain : BGSC 4BP1
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus thuringiensis serovar kim
+//
+
+
+Array 3 19341-19769 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NFDH01000105-Bacillus thuringiensis serovar kim strain BGSC 4BP1		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+     19341	    32	  78.1	    35	....T....CT.G.....A..T.A........	CAGGCTGCCGCTTAACGGTGTGGCTGGAGCGTTTA	
+     19408	    32	  90.6	    33	..........TC..G.................	GATAAAGGGTTTGCAATCATTAAAGATATTGTT  	
+     19473	    32	  90.6	    33	..........G........A.T..........	TATAAAAAAGAAGTATGTTGATTTAGTTAAGCG  	
+     19538	    32	  84.4	    35	.........C..TA..A....T..........	CGTAGTAGCACATATTTAAAACGCATATACGGACA	
+     19605	    32	  90.6	    34	......T..........A...T..........	TAACAGTCATTTGCTTATGTGCATCTCAATTTAG 	
+     19671	    32	 100.0	    35	................................	CGCTAGCGCTACAAGTCTAAAGGAATTGTATGGGC	
+     19738	    32	  71.9	     0	T..AT....CTC.......T.T.........G	|                                  	
+==========	======	======	======	================================	===================================	==================
+         7	    32	  86.6	    34	GTCGCACCTTATATAGGTGCGAGGATTGAAAT	                                   	       
+
+# Left flank :   GATCCGATTGATATTACTAGTATGCAGATTACGAAAAGTGTAAATTCTGAGCTGGGGAAGGATAAAGGATCAGATACAATGGGGATGAAGCATCGTGTTGATTTTGGAGTCTATGTTTTTTATGGAAGTATCAATACACAGTTAGCAGAAAAGACAGGTTTTACTAACGAAGATGCGGAGAAAATTAAAAATGCACTGGTTACATTGTTTGAAAATGATGTATCAGCAGCACGACCTGAAGGAAGTATAGAAGTACATAAAGCTTGTTGGTGGAAGCATAATTCAAAACTTGGCCAGTACCATTCCGCAAAAGTACACCGTTTACTGGATATTAAGCGGAACATTGACGAACCAAAATAATTGATGACTATAACATTTCGGTAAAAGAATTAGATAGTTTAAAAGTGACGATTATTGATGGACCGCAATGAAGAAAACATTAGAATGATTGAAGGAAAGCGTATTTATTAAAAAGTTAATCAACCATTTATTAAAGAAAA
+# Right flank :  GTGGTAAAACACTTATAGTATTTAATTATACCTTAACGCATTACCCAGATACTTTTTGACTATCACCCTTCACAAGCTTAAGGAAGCAGGATTCTTTTAGGTAAAGCGTTAACTTTAATTAAAACTTCTTGTAATATATAACATTATTATATAATATATAGGTATATTGTTAGTTTATTTGATTCCGTTTATTCCCACACCTTTTTTGTGTTGTGGTTGAGTTGTAGAAGCAAGTTGCGTCTTGTTTCAATTGTGAAAGGGCTTCTTTGAGCCGATTAGTGTATATATAGTTTTTTTTGCTATGCACATTTTTAATCGACTTGAAGAAGCCCTTTTTGTGTTGTTTTCAAGTTCGCAGGCGGGGTTATTTATGATTAATAAAATAACAAATTAGAGGAGATATGAAAATGAATAAAGATTGTAGACACTTAAAATTAGTACCAACAGTAGAGGAAAATAAAATACGAATGGAAAATAAGCAGAATTCATATGCATCATCA
+
+# Questionable array : NO	 Score: 8.55
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.33, 5:-1.5, 6:0.7, 7:0.68, 8:1, 9:0.34,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGAGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.10,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [10-17] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [71,407] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.28,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_000389015 [14461-15120]; Cas7:WP_088021455 [18006-18464]; Endonuclease Cas2:WP_000960662 [16158-16448]; Helicase/endonuclease Cas3:WP_088021453 [8371-10800]; 
+# Array family : NA
+# Sequence source strain : BGSC 4BP1
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus thuringiensis serovar kim
+//
+
+

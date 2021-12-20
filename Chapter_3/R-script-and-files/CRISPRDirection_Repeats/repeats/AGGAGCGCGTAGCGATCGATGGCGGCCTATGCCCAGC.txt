@@ -1,0 +1,40 @@
+Array 1 147-439 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LGDP01000079-Streptomyces sp. XY413 P411contig165.1, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence             	Insertion/Deletion
+==========	======	======	======	=====================================	============================	==================
+       147	    37	  97.3	    27	..A..................................	CACAAGGACTCGCAGACGCCCTCTCGC 	
+       211	    37	 100.0	    27	.....................................	CCAAGGGACTCGCAGACGCCGTCCTTC 	
+       275	    37	 100.0	    27	.....................................	CCAAGGGGCTCGCGGACGCCGTCTCGC 	
+       339	    37	  91.9	    28	................T.G............T.....	TACCGACGTCTCGCAGGCGCCGTCCGGC	
+       404	    36	  70.3	     0	................TTGAT...C..CCC.G..-..	|                           	
+==========	======	======	======	=====================================	============================	==================
+         5	    37	  91.9	    28	AGGAGCGCGTAGCGATCGATGGCGGCCTATGCCCAGC	                            	       
+
+# Left flank :   TGACCCAATTGCCCATGTCTGTACCGGGGGGTGGGGTCTCACTGTGGTCTTGGTGGGGGTTGGCATCGGCTGAGCCGATGGATGCCCCCTCCGCGTCCCTCGTATCGCCCTTCTCAGCCCCAGACGGGGGCCGGACGCCGTCGTCGA
+# Right flank :  CGCCGCGCATCTCCGACGCCCCGTCCCTGAAAAGCTGAGACCGGCCCGTTCCTTTGGGGGCTTCCCGGCAGTCTTTCGGATTTC
+
+# Questionable array : NO	 Score: 3.11
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.86, 5:0, 6:1, 7:-0.15, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGAGCGCGTAGCGATCGATGGCGGCCTATGCCCAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.30,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [25.0-28.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : XY413
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. XY413
+//
+
+

@@ -1,0 +1,81 @@
+Array 1 66141-66288 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB850235-Acinetobacter sp. CIP 102143 acLZg-supercont1.19, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+     66141	    28	 100.0	    32	............................	ACCAATAATGCATATTGAGTGGGGTTCTGTTT	
+     66201	    28	 100.0	    32	............................	ATAGGTGGGCCATGTTGAGAGTGATGTATAAA	
+     66261	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         3	    28	 100.0	    32	GTTCACTGCCGCATAGGCAGCTTAGAAG	                                	       
+
+# Left flank :   AGAAAGAAAAAGCCTGATAGGACAAGGATCCTATGAAATTTGTCGTGTACAGAGTAAATTAAATTAATACGAGCATTAATGGTTCACTGCCGCATAGGCAGCTTAGAAGTGTGGAAAGATCGGCATTAGTTTCGCATACCAGTTCACTGCCGCATAGGCAGCTTAGAAGAATTAAAAAACTCCGATATATGGAACGCCTATGTTCACTGCCGCATAGGCAGCTTAGAAGATTTATGCTGCTCAATCATTTGCGCATCCGCAGTTCACTGCCGCATAGGCAGCTTAGAAGATTGGGTGAAGTCGGTGGCTTTGCTTCTGGATGTTCACTGCCGCATAGGCAGCTTAGAAGTTTCAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTAG
+# Right flank :  GTATTATTTTCAGTTATACTTATGGAAGCGAGATATTCTGTAAGTAATTCTTGTAATAAAAAGCCAATTATCTCGGAAGATAATTGGCTTGAGCAAAGAGTTTGGCTATCCGATTATTCGTCGATCATCCCAATAACACGGTACTACAATCAAATTGTTTTCATGTAATCGTGACCATAATCGGATACCTAAATCCCGCTGCATATTTTGGACTGTGAAATTGGAAATTAGTAGAGTCGACTTCATACTGTCATAACGGCTATATAAAACCTTATGTACCATTTCTAGACGTTTTTCATGCCGGTCATGCAGGCCATATTCATCAATCACTAATAAATCAAAACTGGAGAAATGGTCGATAACTTCCTTCTCAGAACGTGAAGGATCAGACCAGGTATCCATCATTTTTTGAGCAATTTCTGCACTGGTATAGTAGCGTGCAGATTTTGTACTGTTATGCAGAATGTTGCGAATGATTGATGCACTCAGGTGGGTTTTGC
+
+# Questionable array : NO	 Score: 8.42
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:2.02, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCATAGGCAGCTTAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [3.3-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [466,104] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.83,0.27   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : CIP 102143
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter sp. CIP 102143
+//
+
+
+Array 1 518118-517670 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB849434-Acinetobacter sp. CIP 102637 acLrO-supercont1.2, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    518117	    28	 100.0	    32	............................	TGTGGAAAGATCGGCATTAGTTTCGCATACCA	
+    518057	    28	 100.0	    32	............................	AATTAAAAAACTCCGATATATGGAACGCCTAT	
+    517997	    28	 100.0	    32	............................	ATTTATGCTGCTCAATCATTTGCGCATCCGCA	
+    517937	    28	 100.0	    32	............................	ATTGGGTGAAGTCGGTGGCTTTGCTTCTGGAT	
+    517877	    28	 100.0	    32	............................	TTTCAAATGATTCATGCATAACAAGCTCCTTT	
+    517817	    28	 100.0	    32	............................	ACCAATAATGCATATTGAGTGGGGTTCTGTTT	
+    517757	    28	 100.0	    32	............................	ATAGGTGGGCCATGTTGAGAGTGATGTATAAA	
+    517697	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         8	    28	 100.0	    32	GTTCACTGCCGCATAGGCAGCTTAGAAG	                                	       
+
+# Left flank :   GACGTATTTGGGTTGGTCGAGTAAAACTGTATATTAGTGCGCTACGATTAGAAGATGGAGAACTTTTACTTGTTGTTTCTCCTATGTTTAATGCTTCTGCTATTCGTGATTATGCATTACGCTGGGAAATCGAAACCTTATTTAGTTGTCTCAAAGGACGTGGATTCAATCTTGAAAATACTCGTTTAACAGACCCTGGACGAGTCAAGAAATTGATAGCAGTGCTAGCTATCGGTTTCTGTTGGTGCTATTTAACAGGTGAATGGCAACATGATCGAAAAAAAGCGATAAAAATAAAGAAGCATGGACGACTTTCAGTAAGTTTATTTCGCTACGGTTTGGACTATGTTCAAATGGCTATTCTACGTTTGATTGGTTTTGGAAAAAAAGAAGAATTTAAGAAAGTGCTAGCAATTTTAAGAAAGAAAAAGCCTGATAGGACAAGGATCCTATGAAATTTGTCGTGTACAGAGTAAATTAAATTAATACGAGCATTAATG
+# Right flank :  TATTATTTTCAGTTATACTTATGGAAGCGAGATATTCTGTAAGTAATTCTTGTAATAAAAAGCCAATTATCTCGGAAGATAATTGGCTTGAGCAAAGAGTTTGGCTATCCGATTATTCGTCGATCATCCCAATAACACGGTACTACAATCAAATTGTTTTCATGTAATCGTGACCATAATCGGATACCTAAATCCCGCTGCATATTTTGGACTGTGAAATTGGAAATTAGTAGAGTCGACTTCATACTGTCATAACGGCTATATAAAACCTTATGTACCATTTCTAGACGTTTTTCATGCCGGTCATGCAGGCCATATTCATCAATCACTAATAAATCAAAACTGGAGAAATGGTCGATAACTTCCTTCTCAGAACGTGAAGGATCAGACCAGGTATCCATCATTTTTTGAGCAATTTCTGCACTGGTATAGTAGCGTGCAGATTTTGTACTGTTATGCAGAATGTTGCGAATGATTGATGCACTCAGGTGGGTTTTGCC
+
+# Questionable array : NO	 Score: 8.18
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.18, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCATAGGCAGCTTAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [108,46] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : CIP 102637
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter sp. CIP 102637
+//
+
+

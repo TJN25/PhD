@@ -1,0 +1,133 @@
+Array 1 1178728-1178363 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE332518-Treponema maltophilum ATCC 51939 aczIZ-supercont-complete, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1178727	    36	 100.0	    29	....................................	TCATCCGTTAAACGTTGCCATGGTGTGCA 	
+   1178662	    36	 100.0	    30	....................................	ACCGTTGCTGATTTATCCGCCGCTGGTTTG	
+   1178596	    36	 100.0	    30	....................................	CGCTCAATATCGTACACGTTTTTCAAGAGG	
+   1178530	    36	  97.2	    30	...................C................	AAGCGGCCGCGCGCGTTTTATGATTTTTTG	
+   1178464	    36	  97.2	    30	...................C................	AAGCGGCCGCGCGCGTTTTATGATTTTTTG	
+   1178398	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         6	    36	  99.1	    30	ATTATACCTGATTAATTTTTCTGGTCAACCTGCAAC	                              	       
+
+# Left flank :   CGTTTCAAAGTATGCAATATATGGCAAATACCTATGCACGTGCGCTGGAAAGCAAAAAAACGGATATCGAACTGCCCCTATGGGACGGAGATGAAAATGCGCGACTTGATTTTGAATAAGTATGAACTTATGTGGATGATGGTACTGTTCGACCTGCCGGTCATTGAAAAAAAAGAACGAAAAGATGCTACGGAATTCAGAAAATTTTTATTGGATAACGGTTTTTCAATGGTTCAATATTCCATTTATACAAAATTATTTTCGGGAAAAGATGCTTGTGAAAAATATTACAGAATGATACACGATAACTTGCCGATAAAGGGAAAAGTTGATATTATCACGATAACGGACAGACAATATGGCAATATTATCAGTTATAATGCAGGGGAAAAACAGCAAAAAAAACAGCCGGGGCAGTTCCTTTTATTCTGATTTTCGTTTAAAAATAACACGCCCGGCACAAACCATCTCCTTGCATGGCAACGGTTTACACCGGACGT
+# Right flank :  TAAACGCCAGCCGTAACGCCCTAGTACGGTTATTATAAAGACCGAAAAAGCCATTGCCAGTAAAACCTTGTTTAATTATGAATTGCTGTACAACGGAAAAAACATTGCAGGGCTTCCGCCTGCGATTGGACAGGAAAAAGAGAAAGTCGCCGGTCGGCAGTCCGTTCACAGTATCGATGCACAAAGAGAAAAAATTGCGGTACGCAAAGAGGAAAAAACTTGACATTATAACCAATATATGGTTATAATAAAAATAGGCAGACAAATGTACAGGGTAATACAAAAAAAGAAGATACAGAAAGCAGTTTTGAAAATGCCTGAAAAGGAACAAGAATTGTTTTCCTACCTGCTTGAAGATCTGGAGGAAAGCGGCCCGATACAAAAATGCTGGCCGAATTTCAGTATGCTGGGAAAAAACAAATATCACTGCCATCTTTCTTACCATTGGGTTGCCTGTTGGGAGGAAACTATAAGAGGAATTGAATTGGAGGTATATTATG
+
+# Questionable array : NO	 Score: 5.03
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:0.28, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTATACCTGATTAATTTTTCTGGTCAACCTGCAAC
+# Alternate repeat :   ATTATACCTGATTAATTTTCCTGGTCAACCTGCAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.00,-3.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-50.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [267,69] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_016525620 [1471621-1471932]; 
+# Array family : NA
+# Sequence source strain : ATCC 51939
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.; Treponema maltophilum ATCC 51939
+//
+
+
+Array 2 1891640-1892486 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE332518-Treponema maltophilum ATCC 51939 aczIZ-supercont-complete, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                                                                                                               	Insertion/Deletion
+==========	======	======	======	============================	==============================================================================================================================================	==================
+   1891640	    28	  89.3	    47	...................CTT......	ATAATTATTGATTACAAAAGACTGCGTACAGGCGGAAAAATCAAGAC                                                                                               	
+   1891715	    28	  82.1	    44	....T.T.C...........TT......	ATCCACTCCAACCGTTTCAAGTTTTGCAGGTAAGCTTACCGTTC                                                                                                  	
+   1891787	    28	  89.3	    41	........C........A...A......	ACCACCGCCTATCGTTTTAAGACTTGCAGGTAAGTTCACAC                                                                                                     	
+   1891856	    27	  85.7	   142	T........-T..........A......	ATAGGCGGCTATTTCTTCAAGCCCGTCCGAAAAGATAACCGATGTAACTTTCGGTATTCTGCATAACAACTTTGTCTTATCCTTAGTGTAGACGATATTGTCTATCGCGCATAAATGCGCACTTGCAGAATCCACCGTAAGG	A [1891860]
+   1892026	    28	  71.4	    41	.TTGT..GA...........TA......	GGAACTTGCAATCGTTTGAAGACTTGCGGGTAATTGCACTT                                                                                                     	T [1892037]
+   1892096	    28	  75.0	   119	G...T.T..G.......TTT........	GGCATAACCGATTTCAGTAAGCTGTGTACACTGCGAAAAATCAAACTTGTTTACCTTGTTACAGTCCTGAAAAGCGTTCTTCTTAATTGCTGTAAGTCCCGAAGAAAAACCTACCTGCC                       	
+   1892243	    28	 100.0	    47	............................	ATAATCATTGATTACAAAAGGCTGCGTACAGGCGGAAAAATCAAGAC                                                                                               	
+   1892318	    28	  89.3	    44	....T.T.C...................	ATACTCTCCAACCCTTTCAAGTTTTGCAGGTAAGCTTACTGTTC                                                                                                  	
+   1892390	    28	  92.9	    41	.......AC...................	ACTGTTGCCTATCGTTTTAAGACTTGCAGGTAAGTTCACAC                                                                                                     	
+   1892459	    28	  78.6	     0	T......ACTT..........A......	|                                                                                                                                             	
+==========	======	======	======	============================	==============================================================================================================================================	==================
+        10	    28	  85.4	    63	CCGTCAACTCCGTACAGCCGGCAAAAGC	                                                                                                                                              	       
+
+# Left flank :   CCATTCCAAAACGGGGTCAACACCGAATTTTTTAGATAATTCATTCACCAATTTACACTGAATTGAAGCTTCTTTATAATAGCGTTTATTATCTTTTTCAAGCTGACACAAAAATTCCTCCGTGATAATCTCGATTAACTCCTCTTTTACATTTTTAATCGTAAGCGCTTCCATAGATCTACTCCTTAGTATAATTGTATACGCGGTTGTCCGAAAATTTTCGATTTTCAGACAACACCGATGTAACCGGTACCCGGTATTTTAGTTTTTTTACGGAACCTCATCTATCTTATTTTCATCAACACCGCCAGCTATAAGTTTTTGTTTTAAGCCGCTGCCCGTTTTAACCTTGTATCTTGCCGCCGTACAGTTTGTAAAAGCGGAACTACCTATTTCAGTAAGCCGGGTACAGGATGAAAAATCAAAATTGCTTACCTTGTTACAGTCCCGAAAAGCGTTCTTCTTAATTGCTGTAAGTCCCGAAGAAAAACGTACCTGCC
+# Right flank :  CATAGGCGGCTATTTCGGTAACTCCTGCGGGAACATTCAGTACGGTCGGGGGTGTTTCCTTCCAGCCTTTAAGTACACCGCCTTCGATCCACAAATTGGGATCGGGCCCGCTTTGTGCTCCCCCCGACGGCCCGCTGTCTATCTTTTGCGGGCAGCCCGTAAACAAAACTGCACCGGCAAACAAAATCGCCGTTATAATTACGGCATATCTTTGTACGGTTTTCATCTTATCCTCCTATCAAAACCGAATGTATATACGTGAAAAAAGTGCACGCTATGCGCGCTATATGTCCGCACGTTTGTGCGGAAGAGAGAACAATTTCGTGAATGTAAGTTTGAATGTGAGTTATAAAAGCTGTATATCCGCGAGTTTCGCCGGCGCAGCCGGCGAAACTCGAAGCATAAAAGCGAGCGGCTCTGCAGCGAGCTTTTATGCAGGTATCGGGTATCGGGTATCGGGTATCGGGTATCGGGTATCGGGTATCGGGTATCGGGTATCG
+
+# Questionable array : YES	 Score: 0.01
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.27, 5:-1.5, 6:1, 7:-1.98, 8:1, 9:0.22,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGTCAACTCCGTACAGCCGGCAAAAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.80,-4.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [11-18] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [328,248] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_016525620 [1471621-1471932]; 
+# Array family : NA
+# Sequence source strain : ATCC 51939
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.; Treponema maltophilum ATCC 51939
+//
+
+
+Array 3 1949416-1948673 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE332518-Treponema maltophilum ATCC 51939 aczIZ-supercont-complete, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	===============================	====================================	==================
+   1949415	    30	  74.2	    34	TC.....T-...AATA...............	TGGTCGGCGGAACACCTTGCCAATCTTTCAGCAT  	
+   1949351	    31	 100.0	    36	...............................	CCGCCAAACGGATACGGTTGTAAGTGTTATACACGT	
+   1949284	    31	 100.0	    33	...............................	ATCGGAGATAGCCGCTTTTGCTTTTTGCAGATG   	
+   1949220	    31	 100.0	    35	...............................	AGATAGGCGTTAATTATGATTACAAATAAAACAAT 	
+   1949154	    31	  96.8	    33	............G..................	TTGACGCTCAATACTTCGGCGTGCCCCAAAGGC   	
+   1949090	    31	  90.3	    33	A.....T............C...........	ATGATCGCGGCCTTTTTTGACAATAAAACTAAA   	
+   1949026	    31	  93.5	    34	..........T........A...........	AATTCAACCTGCGTATCGTATGCTTTCATGTTTT  	
+   1948961	    31	 100.0	    33	...............................	CATGCGGCGGATTACTTCGCGCGCTTCCCAGTT   	
+   1948897	    30	  93.5	    35	...T............-..............	ATGCAAAAGCCTGCGTGCATTTAACAATTCATCTT 	
+   1948832	    31	 100.0	    33	...............................	ATTGTCTTTCGGAACTTTTTTTATTTTGAATGT   	
+   1948768	    30	  90.3	    35	...........GG......-...........	CGAAAGGAAATAAGCCGGGTTATGAAATGTCCCAC 	
+   1948703	    31	  77.4	     0	....................G.G...TTTCT	|                                   	
+==========	======	======	======	===============================	====================================	==================
+        12	    31	  93.0	    34	GTCGCTCCCTCACGGGAGCGTGAATTGAAAC	                                    	       
+
+# Left flank :   GAAAACCGGGCGTTTTGCACGGCTTCCGCAGCTATCTTTTGCAGGACGAAAAGGGAGAGCCCGCTCCGGTGTATTCGATCGCGTCCGGGCTCGATTATCCGGGAAGCGGTCCGGAACACTGCATGCTGAAGGATAAAAAACGCGTTGAATATACGAGCGTGAACGACGAGGAATGTTTGGAAGCCTTTTATAAATTATCGCGCTTTGAAGGCATTATTCCCGCGCTCGAGAGCGCCCACGCGGTTGCTTATGCGTTTAAGTATGCCGCACAGCACAAACGCGAATCGATTTTGGTAAACCTGTCCGGTCGCGGCGATAAGGATATCGACTTTGTCGTGGACAATTACGGCATAGGCGAAAAATACGCCGGATGATAAAGAGCTGTGCGTGCTGTCGGTTTTCCGTGTTTGCGGGCCCCTTGCCGATAGCCGCACGCTTCTTGTCGATATCCTGCTTGCCGGCATTTGCCGAGCAGCATTATAAAAAATATGTGCCGCACT
+# Right flank :  GTATACTGCCGTCTATCCCTCTATTTTCATGTCCCGCGCGAGGTCGGCGGCAGGAGCCCATTCGGTGCGGGCGCGGAACACGTCGCTTCCGTCATCTGCTCTTATGATCGAATGCACGCAGCCGTTGTCGCCGGTTTGCTTGCAGCGGCACACGAGCTTTTCGCCGTACAGGGCCGACGAAATAAAGTTCGTTTCGAGCGAACGGAGTAATTTGCCGCGGCAAAAGTCCGCATTCATAAACGATAAAATCCAGCGTACGTAATTCAAATTGTTTACATGGGAGTTTACGTCGATATCCAAGAGCGAGGGGCTGAAGGTTTCCTCAATATCCCAATCATCGCTCAAGGCGATTTTATTGAGCGAGGCGTTTTCCATGCGCTCGTCGCAAAAGGTGAGGCCTCCCATCGTATGTGCATCGGGTTTTATGAGGCGGCCCGATGCCGAATCCACAATGAGCCAGCATGAAGTTGCCCGCATGCAGGGACTTGCTTCGTCGGCTT
+
+# Questionable array : NO	 Score: 10.29
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.65, 5:0, 6:0.34, 7:0.61, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCTCCCTCACGGGAGCGTGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [6,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.90,-6.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [12-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [40.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [14,127] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_016525620 [1471621-1471932]; 
+# Array family : NA
+# Sequence source strain : ATCC 51939
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.; Treponema maltophilum ATCC 51939
+//
+
+

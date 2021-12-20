@@ -1,0 +1,78 @@
+Array 1 321444-321133 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYQC01000019-Rhodobacter capsulatus R121 seq0019, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=====================================	=================================	==================
+    321443	    37	 100.0	    32	.....................................	CCTTTCGGCATCGTAGAACCTCTTGTTTAGGT 	
+    321374	    37	  97.3	    31	.......G.............................	GAAGCCGTTGATTTTCATCGGTCTCTCCTGT  	
+    321306	    37	  97.3	    33	..A..................................	TGATGGTCGCCAGCGGTTTGGTATGCTGGGAGA	
+    321236	    37	 100.0	    30	.....................................	CATGATGTTCCTTTCTTGGGTATGGGGTAA   	
+    321169	    37	  75.7	     0	....................T........GAACCCAA	|                                	
+==========	======	======	======	=====================================	=================================	==================
+         5	    37	  94.1	    32	GCCTCACATCACCGCCAAGACGACGGCGGACTGAACC	                                 	       
+
+# Left flank :   TAGGATCGCTTGACAGATGAGCGGGCAGCTCCTTGCGGTTCTTGCCATCGGTGCTGATCTTGCGTTTGAGCCCCCCCGCCGGATCGCCGAATTCGCTGATCGTCCGCCCTTGAACCTTGCCAATCTGCATTGTCGCGCCCCCAGCACAAAACCCACCAAGGCAAGGATGCAAGCCGTCAAGCCCATTCGCAACAGTTCCGTTGGGCCGGGCCGATTTGCCGCACCATCTGCCCGGTTTTCGACGTTCGGGGCGCGACAAAGCCTGTAGCCATCGCATCGGACTTCGCCTAGGCTTGCCGAAACCCGCCGCCTGCAGCGGCATCGGGTCGGAAATTCGGCAAGGAGGGTTCAGAAAACGCGCAATACACTGACACGGAAAGAGTAATTGCCACTGGAGCGGCGCGGAAATGCAAAAAAGGTCTCAAAATACGGCCTTGATCGTCCAGGGTTCCGAAACCCTGCTTGAAGATCTTGGCGTCTCAATGGCTTGCGGGACCTGA
+# Right flank :  TGCAAACGGAGGTGCGGCAACAGCAAGGTTGCACCGGCTGGACTTCGGCGGCAGTCTGGCGCAACGGGGCGCAGGACACGGAAGATGTGGCGGGGGCAAGATGGACCTGTTTTTCAAGGCCACGGAATATGAGACCCTGCAGGCCTCATGGCTCAAGGTCCAGCAAAACGGCGGCGCGGCGGGGGGTGACGGCGTCACCATCGCCACCTTTGCCCAAGGGGCCACCGCATCTCTGCGCGATCTTGCGCTGGCATTGCGCGCGGGCGGCTGGCAGCAAGGCCCCTGCCGCCGCGTCGACATTCCCAAGCGCAAGGGCGGCACTAGGCGGTTGATGATCCCGCCGATCGCCGACCGCATAATTCATGGGACCGCATAATTCATGGGGCAATCGCCGAAACGCTGGAGCCGATCCTGGATGCGACGTTCGAGATCGGTGAGGGTGTCCGGCCGGGTCGCCAGCAGGCGCTCGAACTCGCTGCGGACCGTCAGCTGGAAGCGCA
+
+# Questionable array : NO	 Score: 4.00
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.70, 5:0, 6:1, 7:0.58, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTCACATCACCGCCAAGACGACGGCGGACTGAACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.90,-9.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [102,371] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : R121
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;Rhodobacteraceae; Rhodobacter.; Rhodobacter capsulatus R121
+//
+
+
+Array 2 325840-326015 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AYQC01000019-Rhodobacter capsulatus R121 seq0019, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	======================================	===============================	==================
+    325840	    38	 100.0	    31	......................................	AAGAACGGGGACAGTCGACCAGAAACCCCAA	
+    325909	    38	 100.0	    31	......................................	GCCGGGTCTCATTGAGGATAAGGGCAATCGT	
+    325978	    38	  73.7	     0	..................C........T.GGGATGG.G	|                              	
+==========	======	======	======	======================================	===============================	==================
+         3	    38	  91.2	    32	GGAGCACATCACCGCCAAAATGACGGCGGACTGAACCT	                               	       
+
+# Left flank :   GGCACAAGCCCCCCAAACCCGCGACCGCGCAAAGCCAGCCAGATCAAAAACCGCCCAACAAGGCACCCTCTGCGGGCTCCCGTCTTCCGCCCCCGCAGGTGGGGGAAGTCTACGAGGGCGTGGTGGTTAAGGTGATCGACACCGGATCTTTGGGGTTTCTTGCTGTCGAGGGCGTTGCGGGGAACATTGGCCTGCACATTTCCAGGCTGAGAAGGATCCGCGAAGATGCCATCATCGTCGGGCGGCGCTATCGGTTCCGGGTGGAAATCTATGTCCCGCCGAAAAGTAACACGTCGAAGCTGAATGCCGCCGATCTGGTGCGGATCGACTGAAAATGAGGGTTCAGGTTCAGAACATGTCCAGCGCCATGAAATATATGGATATAATTCGAATTTTGCGTCCGGATACCGTGCGGATGGGCGAGAAAATTCAGGCATTTGTCGTCACCCTCCGAAACCTGCCGCGGATCTCGATTGATTTCAGGGCGTTCCAGTGGTAAA
+# Right flank :  GACTTGCGGCAATCAAGACCTCCGCTCCGATGCCATCGGTCGCAGCCCCTGCCTTTGGCTTGTCAGCCCGCAAGCCCCGCCTTAGGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCTGGACAAGGTATCCCCGCCGATCAGAAAGCCGCGCTGCAGGGGCGTTATGCCGAAGATGCGCTTTGGGAAGCCGACGAAACCCTTTCGGCGGGTGACGATTTTCATGCGCATCTGCAGGAATTGCTGTCGGGCGCGCGCCCCGACTTGGTGAGGTTCCATCGCCTGACCGAGAGGGGCCACCGCTTTCTCTCGACGGCCTGCCTTTATGAGAAGACAACACCGCCCGCAGACCGGATCGCCAAGCGGCTGCGACTGAGCCTGACGTCAGCCGCCAAAGAACGCATTGCTGCGGCGGGTGTCGT
+
+# Questionable array : NO	 Score: 2.04
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.56, 5:0, 6:0.29, 7:0.10, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGAGCACATCACCGCCAAAATGACGGCGGACTGAACCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [12,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.50,-11.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [45.0-38.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [170,194] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : R121
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;Rhodobacteraceae; Rhodobacter.; Rhodobacter capsulatus R121
+//
+
+

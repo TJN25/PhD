@@ -1,0 +1,128 @@
+Array 1 58245-57750 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSJM01000003-Streptococcus cuniculi strain NED12-00049-6B 3, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+     58244	    37	  89.2	    29	............A.......T...C..A.........	GAGCCGTATGACATCGAGGACACCGTGAA	
+     58178	    37	  91.9	    29	....................T..CC............	AGCAACGAACTAAGCTACTATGAGTTCAA	
+     58112	    37	  97.3	    27	....................T................	CGTTATTTATATAGAGGGCGATGGTTT  	
+     58048	    37	 100.0	    27	.....................................	CGTTATTTATATAGAGGGCGATGGTTT  	
+     57984	    37	 100.0	    29	.....................................	TTTCTTTTGGCAGACCTGAAATAGTTTCG	
+     57918	    37	  89.2	    29	T..........T........T...C............	TGAAGAGCTAGAAACAGATGCTGTCGCAA	
+     57852	    37	  94.6	    29	...........T............C............	TTTTCTTAATGTTTCCATTACTGAAATAA	
+     57786	    37	  70.3	     0	T..........T.....A..T..CC.TA....T.T.G	|                            	
+==========	======	======	======	=====================================	=============================	==================
+         8	    37	  91.6	    29	AGTTTTAGAGCCGTGCTGTTCCAATTGGTTCCAAAAC	                             	       
+
+# Left flank :   ATTACCATGGCGATTCCAGCGGAAATCCCAGCTGCTACTGCGGAGCAAATGCGCTCTTACGCAGCTAGTGCCTTTCGTGCCATTGGTGGGGGCGGTCTATCGCGCTGCGATTTCTTCCTGACAGAGGAAGGAGACATTTTCCTCAACGAGTTAAACACCATGCCAGGCTTCACCCAGTGGTCAATGTACCCCCTCTTGTGGGACAATATGGGTCTTGCCTATCCTGATTTGATTGAAACCTTGGTAACTCTAGCCAAGGAAACCTTTGCTAAACGCGAACAACATTTGATTTAATAGAGTAGAAGATAGAAGTGAGGGGAGTTGGCTTTCCTCCTTTTTTCTAGATTTCTTACTAGAACAGGAAAACATTGCTATCCTCAACAAGATGCTGTCTTAATCACTAAACATATGGTATAATAAATAGAATATAAGGAATCGGTTGGAACGAGAGTCTAGTTGGGACGAATGGCGCGATTACGAAATCTAGCAGAAAATTTTCT
+# Right flank :  TATTAACATGAATGACCATTCGGTCATTCATTTTTTATACCCAGTGAGCAAAATTCTTGCAATTTGTTCTCATAAGAACTAAAATGGTTCTCATGAGAATTAAAAAGAGAGGATAGGATGATGTGGCAGTTATTTGAAAGACCGACCTAGTCGTCAATATAGGATAAAAAGAGAAAATATCAGAATGAATTTGTAATGAATAGAAATGAGGATATATGTTTTTAGCAATTGAAGAAATGCGCCAGAGCAAGCTCCGTTATGGCTTGGTCTTGGGCTTATTGGTATTGATTGCCTATCTCGTCTTTTTCTTGACGGGCTTGGCTTATGGCTTGATGCAGCAGAACCGAGCTGCGGTTGATAAATGGCAGGCAGACTATGTCTTGCTCTCGTCTGAGGCTAATAAATTGATGAGTGCATCGCATGTCGATAAGAAACTCGCAGATGAAGTGACAGCAGATGAGGTGGCTCTTATCAAGCAACAAGCAGGTGCTGCTTGGGTT
+
+# Questionable array : NO	 Score: 3.05
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.58, 5:0, 6:1, 7:-0.00, 8:1, 9:0.47,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTTTTAGAGCCGTGCTGTTCCAATTGGTTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.80,-5.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [17-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [66.7-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [217,207] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NED12-00049-6B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus cuniculi
+//
+
+
+Array 2 142704-142950 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSJM01000003-Streptococcus cuniculi strain NED12-00049-6B 3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence             	Insertion/Deletion
+==========	======	======	======	===========================	============================	==================
+    142704	    27	  81.5	    28	......C.C.....A.........G.A	TAGAGATAGAAGCTACGCTTCTTCTATC	
+    142759	    27	 100.0	    28	...........................	CAATGAAAGAAACTTCGTTTCTCCTATC	
+    142814	    27	  85.2	    28	............T.G.T.....A....	CAATGACAGAACCTGCGGTTCCTTCATT	
+    142869	    27	  92.6	    28	..................C.C......	CAATGAAAGAAACTTCGTTTCTCTCATT	
+    142924	    27	  85.2	     0	......C.C.....A.........T..	|                           	
+==========	======	======	======	===========================	============================	==================
+         5	    27	  88.9	    28	TCCAACTTGTAACACTCCACTGGACTG	                            	       
+
+# Left flank :   GCCTGAATCACCGCCTTTTCATCCTTGAGCGAAAAATACTGGTGACTCGGACGCTTACGAAAATTGGACACTTGACCCGTCAAATAAACTCGCTCCAAATAAGGATCTCGGTCAAACTTCAACTTCAAGTACTTCGTCAACGACGACACCGACAAATAATCTGGCATACCACTCCCTCATCCATTCGAACATGGTCTTTTCTGACATAATCCTCAACACAATGCAATACAAGTATCTTGTCTTTTATGTCCCTTATTATACCAAAAAGAGCGTAAAAAGACTAGGAAAGCAACATCTCGCTCCTTTATCACTCGCCAAGCAAGAAGCACTTCAAGCAAGAAGGAAGATAATCATAGCTAGGACCTTTTCACTTTTTTGTTCAACAAAAAACACCTAGTTCACTAAGTGTTTCGAATCATAGAAAAACGTCAAACGGAGCATTGGCTAAAAACGTCAAACTACATCTAGAGGGCAGTAAAAGAAACTGCGGTTCCTCTATT
+# Right flank :  GTTAGAGCCACCCATTTTCTTTGGCGATGTTGGCGGCTTCGGTGCGGTTTTCGGCGTCTAGTTTACTGAGGATGGTGGACATGTAATTGCGGACGGTGCCGTTTGAGAGGTACATCTGGTCGGCAATTTCTTGGTTTGAGAGACCTAGAGCGACTTTTTGCAGGAGGATTTGTTCTTGATTAGTCAGGGGATTTTTCGTCGTGAAAAAACTCTCCATCAGCTCAGGCGAATACTCTTTTTGGCCTTGTAAGACACGCTCGATTGTCCTCATCAGCTCAGCAATACTGCGTTCTTTCAAGACATAGGCATCGACATCTGCTCGTACGGCACGCTCAAAATAACCTGGCCGTAAAGGTCGTCACCATGATGACTTTAAGGCTAGGAAGAGCTGCTTTTGCCCATTCAAGGACATCAAGTCCTGTCATCTCTGGCATTTCAATGTCTAAAATCGCGACATCCACACTTTCCTTTTGTAAAATAGCTTGCGCTTCTAAGCCATT
+
+# Questionable array : YES	 Score: 0.38
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.45, 5:-1.5, 6:0.28, 7:0.04, 8:0.6, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCCAACTTGTAACACTCCACTGGACTG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.85%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [5-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-45.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [335,579] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NED12-00049-6B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus cuniculi
+//
+
+
+Array 3 153118-152488 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSJM01000003-Streptococcus cuniculi strain NED12-00049-6B 3, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    153117	    36	  86.1	    30	..........T......A...AC...A.........	TTCTTCTCGCGACCCCCATTTTCTAATAGG	
+    153051	    36	 100.0	    30	....................................	AAGAGATTGATTACTGGGTCAATGTCGCAA	
+    152985	    36	 100.0	    30	....................................	ATCATCTTTTTACTCCAATCTATGTTATAA	
+    152919	    36	 100.0	    30	....................................	TGCTGTAAGACACACCGTCACGCTTTTCTT	
+    152853	    36	 100.0	    30	....................................	TTAGTTGCTTTTCTGCTATGTAGTTGTTCA	
+    152787	    36	  91.7	    30	..........T..........A....A.........	TTTTGCATTATCAAAGATAGATAACCCTAA	
+    152721	    36	  91.7	    30	..........T..........A....A.........	TGCAATACTTTCTGCTTGAATATTCAAAGC	
+    152655	    36	  91.7	    30	..........T..........A....A.........	TCAAAGAATCGGACGTGTGGACGTTATCTG	
+    152589	    36	  91.7	    30	.........TT...............C.........	AATGTTTCAGGCTTCAAGGATTTCCAGATT	
+    152523	    36	  72.2	     0	..........T..A.A....TAC...C......TCA	|                             	
+==========	======	======	======	====================================	==============================	==================
+        10	    36	  92.5	    30	GTTTTAGAGCCGTGCTGTTTCGACTGGTTCCAAAAC	                              	       
+
+# Left flank :   TCGTTGAATTGACCATTCATGAGGGACGCAATCATCAGGTCAAAAAGATGTTTGAAGCTGTTGGTTTGCAGGTGGACAAGCTATCTCGGACCCGCTTTGGCAATCTCGACTTGACGGGGCTTCGTCCGGGAGAATCCCGCAAATTGAACAAGAAAGATGTCAGCAAGCTCCATACTCTTGCTGTCACGAAGAAACAGAAAAAATGACGGCTATCTTGATAGGACTGGTACGCTTCTACCAGCGCTTTATCTCGCCCCTTTTCCCGCCTAGTTGCCGCTACCAACCGACCTGCTCAAGCTACATGATTGAGGCGCTACAAAAGCATGGACTAAAAGGCTTTCTCATGGGAATGGCGCGCATCCTGCGCTGTCACCCCTTTGTGCCAGGAGGCAAAGACCCAGTACCAGAACATTTCAGCCTCAAGCGCCAGCAGGCAGATGAATAGGTGCTGTTTCAACTGATTCCAAAACAATCAGAGAGGCGATTGAGAAGTTTGATAA
+# Right flank :  TCATGAGAAAAAATTGAAAAAAATCAGGAATTTTCAACCATATTGCTTGACGCTTCTAACTGCTTGCGTTATAATAGTAACAAGATTTTCATTGATTTAAATCAAACCTGTTGTGATTTAAGTGAATGAAATCATCATTCACCATGCTGTTTGCTGAGCTTGACTCCGGGCAGTGTGGCTATTTTTTTGCATTGAATGTATGACCTGAAAGAGTATGAGGAAAGCTGATGAATATTGAAGAACTATCCTACCAAGAAGTAGAATCTCGCAACCATGTGGTCTTGTTTGAGCCACAGATTCCGCAGAACACGGGCAATATCGCTCGGACCTGTGCAGCAACCAACAGTCCGCTTCATATTATCAAGCCCATGGGCTTTCCCATTGATGATCGCAAGATGAAACGGGCAGGTCTGGATTATTGGGATAAGCTGGATGTGCGCTTCTATGATAGTTTGGAAGAGTTTATGGAGCAGGTAGGCGATGGGAAGGTTCATCTCATT
+
+# Questionable array : NO	 Score: 6.61
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.62, 5:0, 6:1, 7:0.30, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCCGTGCTGTTTCGACTGGTTCCAAAAC
+# Alternate repeat :   GTTTTAGAGCTGTGCTGTTTCAACTGATTCCAAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.78%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.20,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [229,74] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NED12-00049-6B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus cuniculi
+//
+
+

@@ -1,0 +1,85 @@
+Array 1 1314276-1314840 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006943-Mannheimia varigena USDA-ARS-USMARC-1296, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	================================	=====================================	==================
+   1314276	    32	  81.2	    34	A...T..G.TG.......G.............	TTTAAGTTGTAGCAGTCACACAACTAGCCATTCA   	
+   1314342	    32	  96.9	    33	.......................A........	TTGCAACGCATTTAAATGCGTGCGATTTTCCTT    	
+   1314407	    32	  96.9	    34	.......................A........	ATCCGTCTTATGCCTTTTGGTCCGGTGATAAATG   	
+   1314473	    32	 100.0	    34	................................	ATGGTATCAAAACCATATTCACAACGTGGCAAAT   	
+   1314539	    32	 100.0	    34	................................	GTGTGCCGACATTTAACTGACCGCTCACATTATT   	
+   1314605	    32	 100.0	    36	................................	TTATTACCTGACTTTTTAGAAATGCTGGACGATTTA 	
+   1314673	    32	 100.0	    37	................................	TGCCTGCGATTAAGTCGGACATATGCACATCAATCGC	
+   1314742	    32	 100.0	    35	................................	CATCGACATCTTTCATTACCTCTTTTAGAGGTCCT  	
+   1314809	    32	 100.0	     0	................................	|                                    	
+==========	======	======	======	================================	=====================================	==================
+         9	    32	  97.2	    35	GTTTCAACTCACAGCTACACGAAGGTAGCTGC	                                     	       
+
+# Left flank :   GGCATAAAAACCAAATAACGAGAAGGCAAGGTAATATCAGTAGTTAGTCTCGCACCTTTTGTGCCAATCGGATCTTTTACCACTTGAACAACAATGTCTTGCCCTTCACGCACTAACTCTGAAATATCTTTTACTACAAACTGCTTTTTCTCATTTTCATCAACACATTCAGTGTGAGAAACAATATCGGAGGCGTGTAAAAAAGCCGCTTTTTCTAAGCCAATATCCACAAAAGCAGATTGCATTCCGGGCAATACTCGAGTTACACGCCCTTTGTAAATATTCCCCACAATGCCACGTTTGGCCTCACGCTCAATATGCAACTCTTTTAATAGCCCATTTTCAACCAACGCAACCCTTGTTTCACTTGGGGTAACATTGACTAATAATTCTGTACTACTCATTTTGAAAATCCTTAATGATTCATTTCAATGAAGTGTACCATTTTGGATAGAAAAACAAAAATCCTTGTTTTATTTTAGAAGGGGTAGAAATAGGAA
+# Right flank :  CTCCCTATATAAGAAATCATTATGCTACAAGGCCTATTAGTGCCATTTTCGCTAGGCTCTTATACAACGAGTTGCTCTAGTATAACAGAATCAAAATTATTTAAGGTAAAATTTATAACATATTGATTATAAAAGAATAAATAAAATCGCTACCTACTATAATTTTAATGAGAACTATAGGTTAGCGAATTCATATATTACAATGGTATTTGTAGGATACTTAGATAATTTTTATAAAAAATCCTCTATTTCTCAATAGAGGATCTTAATTTTAAACTACACATCAATCTGGGCATATAACGCATTAGTCTCGATAAAATCGCGGCGTGGTTCAACTTCATCGCCCATTAGGGTGCTGAAAAGTTTGTCGGCAGCGATAGCATCGGTGATGTTTACTTGCAACATTTTGCGAGCGACCGGATCCATCGTGGTTTCCCATAATTGTTCCGGGTTCATCTCGCCTAATCCTTTATAGCGTTGAATGGTTAAGCCTTTGCGAG
+
+# Questionable array : NO	 Score: 8.23
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.86, 5:0, 6:0.7, 7:0.67, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACTCACAGCTACACGAAGGTAGCTGC
+# Alternate repeat :   GTTTCAACTCACAGCTACACGAAAGTAGCTGC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [6-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-61.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [98,276] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_025217636 [1500157-1500828]; Endonuclease Cas2:WP_025217631 [1496642-1496935]; Helicase/endonuclease Cas3:WP_025217642 [1506251-1508539]; 
+# Array family : NA
+# Sequence source strain : USDA-ARS-USMARC-1296
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Mannheimia.; Mannheimia varigena USDA-ARS-USMARC-1296
+//
+
+
+Array 2 1496445-1496080 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP006943-Mannheimia varigena USDA-ARS-USMARC-1296, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+   1496444	    32	 100.0	    36	................................	CGCTTGAACGCCTAATTTTTGCAGTAATTCGCTGGA	
+   1496376	    32	 100.0	    34	................................	GTCCACTTCGTCAAAGTCTTCACTCATCAACTCC  	
+   1496310	    32	 100.0	    35	................................	CAGGCTGTATTAGGTGTGGCATTAATTGGAGCTGC 	
+   1496243	    32	 100.0	    35	................................	CAAAGCTACGATGAAGTGTTGATTAAACTCAAAGA 	
+   1496176	    32	  90.6	    33	........G.T.G...................	CCATCACTTAAAACGCCAACAGACCAAGAAATA   	
+   1496111	    32	  96.9	     0	............G...................	|                                   	
+==========	======	======	======	================================	====================================	==================
+         6	    32	  97.9	    35	GCAGCCACCTCCACGTGGCTGTGAGTTGAAAC	                                    	       
+
+# Left flank :   AGCAAGGCTATGATGATGTTGATTACCTACGATATTTCTTTCGATGACCCCGAAGGGCAGAAACGCCTTCGCTACATTGCGAAACATTGCCTTGACTACGACGTTCGAGCCCAATATTCCGTGTTCGAATGCGATGTTACTCCCGACCAGTGGGTTAAACTTAAACAAAAACTGCTGGCGACTTATAACCCTGAGCTTGACAGCCTCTGCTTTTATCATCTCGGTAGTAAATGGCGTAACAAAGTGGAACACCACGGAGCGAAAAAAGCGGTGGATTTGTTCAAAGATACACTGATTTTGTAATATGTAGTACATCGCTAACCTGTTGTTCTCACCAAAACAGGGGGAGGTTAGCGATCATCAAAGTTCTTTAATAATCAATAAGTTATAAAAAGTATTAGCTCAATTTGAATTGTGCTATACTAAAAATACTTCCTATACAGGCGTTTAGCGAAAAGGCGGTAACAAAGCCTTGCAGCACAATGCTTTTGCATATAGGG
+# Right flank :  AACCCCTTTTTCTCTATCTGTTAAAGACATAAAAAGTGGTTACCTTCACGTAGCCATAAGTTGAAATCTTGGGATTCAGATATAATTTCTTAGACATTTTGTAGCTATTTTCATGTCACGATAATTGGAAATATAAATAAAGGTGCATTGCTGCACCTTTATTACTATTATTGAACCGTTGCTTTAGTACGCGACTTTTTCACTTTGATTTCCGCTTTCGGCAATACTTCAATTCCCATCGGTGGGTTTTCAAGAGCAATTGCAAGCACTTCATCAATCGTCTCTACGGCGTGAATACGTAATGCTGCTTTGGCATTTTCCGGAATTTCCTCCAAGTCTTTTTCATTCTCTTTTGGAATAATAACTGTGGTAATACCACCACGGTGGGCCGCAAGTAATTTCTCTTTTAAGCCGCCGATTGGCAATACTTTTCCACGTAGGCTGATTTCGCCTGTCATCGCTACTTCTTTACGAACAGGGTTACCTGTTAGGCTCGAAAT
+
+# Questionable array : NO	 Score: 8.42
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.90, 5:0, 6:0.7, 7:0.82, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCAGCCACCTCCACGTGGCTGTGAGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [169,198] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_025217636 [1500157-1500828]; Endonuclease Cas2:WP_025217631 [1496642-1496935]; Helicase/endonuclease Cas3:WP_025217642 [1506251-1508539]; 
+# Array family : NA
+# Sequence source strain : USDA-ARS-USMARC-1296
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Mannheimia.; Mannheimia varigena USDA-ARS-USMARC-1296
+//
+
+

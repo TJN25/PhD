@@ -1,0 +1,116 @@
+Array 1 693885-694125 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FR873697-Streptomyces sp. S4, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                              	Insertion/Deletion
+==========	======	======	======	========================	=============================================================	==================
+    693885	    24	 100.0	    61	........................	TCTTTGACCGCCCCGGTCGAACGGCCCGCACAGCCCGGCACATCCCAGCCCGGCAAACCCC	
+    693970	    24	 100.0	    40	........................	TCGTGAACCGGCACGGAAAGCCGGACAGCACCCCCACCGA                     	
+    694034	    24	 100.0	    43	........................	CCTCCATGACCGGCACGGTCAAGGGGCGCCCCCGCCAAGCGAA                  	
+    694101	    24	  83.3	     0	.......C.....A.A.....T..	|                                                            	G [694120]
+==========	======	======	======	========================	=============================================================	==================
+         4	    24	  95.8	    48	CAGCCCGGCCGGCGCTTGAGGCCA	                                                             	       
+
+# Left flank :   ACAAGGGCGAAGGCTCCGGCGGATCCAGCTCCTCCGGTGGTGGCGGTGGCGGCGGTGGTGGTGGCTCCGGCCCCACCGAAGACTCCGACGAGGACGCCAAGCCCCCCTCCAGCGCCCACCGCTACCGCAACGGCGAGAACGCCAAATGCCTCGCCGCCCCGTTCAACAGCCCGCCCACCACCGCCGACTGCAACGGCTCCGGCACGGTCTGGGCCTTCCGCCCCCTCTCGGACGGCTCCTTCGAGATCGTCCACGAGTCAGGCCGCTCCTGCCTCACCTCGGGCCCCGGCGGCATCCTGCTCCTCTCCTGCAACCAGGACGACAGCCGCCGCTGGCGCTCCGGCCCCGGCGGCACCCTCAAGAGCGTAGGAACCGGCGGCTGCCTCGGCATGGTCAACGGCTCCCGCATCACCGCCACCCAGTGCACGGGAAGCCCCGCTCAACGCTGGACAGCGATCTGAGAACGATCAGAACGGGGACACCCGAGACCGGCCAACGAA
+# Right flank :  ACACCCTGCCGACCACCAGCCCGCGAATCCCCTCCCCCACCTCTTCGGGGTACCGCACGACCTTCCCGAACCCCAGCCGCACCTCCTGGTGGCTGCGCCCGGCGTGCTCGAACCGCAGGGTGATCCCGTACTGGTCGAGCCGGGCGGGCCGCACCCGCACGGCAGCCGCCCGTACGTCGGCGGGGGCGAGCCGCGCCAGCGCACGCACCATGTCCTCGTGGGCCGAGTCGAGGTGGGAGAGGAGTTCGGCCTCGGCGCGGGCCAGCGGGTCGGGCTGGGCCACGACCAGTTCGTCGACGCCGATGCGGCGGCTGCGGCCGTGCTCGGCGAGGACGGCGTACTCGGTGTGCAGGTGCAGGCCGCGGTCGGCGGCGGTCCCGAGCCAGCCGTGCAGGCTGAGCCGGGCGCGGACACGGTCGCGCAGGTGGACGGGGGCCACGTCGGTGAACTCCACGACGGCGGGGAGGGTTCCGCCGAGGGAGGCGTCGAGTTCGGCCCCA
+
+# Questionable array : NO	 Score: 2.14
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.79, 5:0, 6:0.25, 7:-0.50, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGCCCGGCCGGCGCTTGAGGCCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [41,776] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S4
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. S4
+//
+
+
+Array 2 833413-833688 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FR873697-Streptomyces sp. S4, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                          	Insertion/Deletion
+==========	======	======	======	==================================	=========================================================	==================
+    833413	    34	 100.0	    57	..................................	GCACGGTCACGATCAGAAGGCCGGGAAGCCAAGCCCAGCCACCACTCACCGAATCTC	
+    833504	    33	  91.2	    53	.............A.........-.........C	GCAGGGTCGGGGTGGGCAGGCGGAGGCGGAGCCCAGCCACATCGCCACCCCAT    	
+    833590	    34	 100.0	    32	..................................	GTGCGGGCAGGCGGGCCCGAGGCAAAAGGACA                         	Deletion [833656]
+    833656	    32	  64.7	     0	...........G.GCC....G.C.C.GA--G...	|                                                        	A [833668]
+==========	======	======	======	==================================	=========================================================	==================
+         4	    34	  89.0	    48	AGCCCGGCCGGCGCTTGAGGCCAATCAGTGACCG	                                                         	       
+
+# Left flank :   CGCACCGGTCACCGATCGGCCTCAAACGCCGGCCGGGCTGTTGGTGGCCGGGCTCCGGTTTGCCCGCACCGGTCACCAATTGGCCTCAAACGCCGGCCGGGCTGTTGGTTGCGGGACTCCGGTTTGCCCGTACCGGTCAAAGACTGGCCTCAAACGCCGGCCGGGCTGTAGGGGTTCGCGGTGCGTTCGCCGGTTGGGTCGGGCGGGGTCGTCCCGCCGGTGGGAGGGGAAAAGACAGACCGTCCCCAACGAATCTTTGTGGCGAGCTGTAGCGATGGTGGTGGTCACTGTGGAGAGGCCCGTTATCGGTGACGGCCTCATCCGCCCTCCGGCGGTCGGCCGCGTACGAGACCGTGGGGTGGGGACGTGTCGGGGTGCCCCCGCAGCAAACTGCACACGAGGCAGCCATACTCCAACTCACCCCGCACCATGCAGTTTGTGAGGAGGTACCCCGGCGCGGCCCCACCCCACCCACGCACCGGAGAAACCGCGAACCTGAC
+# Right flank :  GGGCAGGCAAACCAGGGTTCAGGAACGCTTGCCAGACTTGTCCATCACCATGACCAGCCCAGCGATCACCAGGAAGAGCACGATGGGCAGCGCCACGTAGAGCCCGAGGGTCTCCACCACGCTCAGCCCCGGCCCCGGGTCATCCCCGTCATCGCGCGTCAGCGCCAGCGCGGGGGACGTCATGAGCAGCGTCGTCAGCGTCGTACCGGCGACCACCGCACCGGCGCGCAGAGAGTTCTTCTTGTCCACGGTGCCAACGTAGCGAACGCCTAGACGGGCCGCGCGTCCGGGGGTGCCGTACGGACCACGGGGGCGGGTGTCTGGTCCTCGGTGGCGACGGTGCGCAGCAGGCGGGCCACGCGCGGGGAGGCGGTCAGTTGTTCGAGGGTGACGGGGTGTCCCTGGGCGTCGGCGACGGGGAGCCGCCAGTTGGGGTACTGGTCCCAGGTGCCCGGGAGGTTCTGGGGGCGGCGGTCGCCGGTGCCGTCGGGGAGCCAGAC
+
+# Questionable array : NO	 Score: 2.12
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.45, 5:0, 6:0.26, 7:-0.19, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGCCCGGCCGGCGCTTGAGGCCAATCAGTGACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.30,-5.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [26.7-40.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [657,19] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.33,0.27   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S4
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. S4
+//
+
+
+Array 3 1357359-1357510 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FR873697-Streptomyces sp. S4, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==========================	=====================================	==================
+   1357359	    26	 100.0	    37	..........................	TTTGACCGGCACGGTCGAACCTCACCGCACCCACCCC	
+   1357422	    26	 100.0	    37	..........................	CCGAAGCCGCACGCACACGGCGACCTCAGCCCAATCT	
+   1357485	    26	  96.2	     0	........................C.	|                                    	
+==========	======	======	======	==========================	=====================================	==================
+         3	    26	  98.7	    38	CAGCCCGGCCGGCGCTTGAGGCCATC	                                     	       
+
+# Left flank :   GCAGGGCAGCAGCGCCGCCGAGCGCGGCAGCGGCAAGGGCAGGTCGGGTCCGGGCGCGTCCCGGCCGCCGTACCCGTGCCCCACGACGAAGCCGTGCTCGGCCGGCCCGTCCCCGGGCAGCGCCAGCCATCCCCCGAGCCGCACCCCGCCCACCGAGCTGAACGAGACCCGGCACACCCGCACCCCGTCCCGCACCTCCTCCACCGCCCCCACCTCAGGCGCGGTGACCACCTCCAGCGCCTCCTCGTACCGCCCCCGCCAGAACCCCGCGAACCCGCCCGGCACACCAGGCACCCCGACCCGCAACAACTCCTCCACCCCGTACCCGTACGAAGGATCGAAGCAATACCCATGCCGAAACCCGCCCCCAGCACCAGGAGCCCCGGCAACACCCGAGAACGATGACGATGGGGATGACGGTGACGGCGACGGCGACGGCCGTGACGGCGACGGTGACGGTGACGACGACATGCCGCCGACTGTAGACACCGCCCACTGAA
+# Right flank :  CGTGAAGCCGCACCCGGAGCGGCCCCTCAGCCAGAAGCCGGCCCAGCCACCCCCACCCCCGCCGCCGAAGGCGGCCCCCCTGCGAATTCCCTCACAAACCACCCCATCCCCCTCCCCCACCTGCTTGATTGGTTCCGGAACCATCCATTCCACCCCCGGAACGGCAAGGCACCCCCGACGACGCCGCAGGCGACATCCCCGTTACGGGAGTGTGACCAAACCCCCTCTTGCGGCGGGCGGAACCCCTGGTTCAGAGTCATGTATGCGCTTACAGACAGCGCATACATGTCCGGTAGCGCTCAAGGAGGAGCCGCCATGCACCGCGTCGCCAGAACCGCCACGGCCGTCATCGCCGCGAGTACGGCGTTGGCCGTCGTCACGGCCTGCGGGGGCTCCTCGGGGACCGAGGTCGCCGCCGACGCCGAGCAGACCCTGACCGTGTGGGCCATGGGGGCCGAGGGCGAGAAGCTCGCCGAGGTCGCCAAGGAGTACGAGAAGGA
+
+# Questionable array : NO	 Score: 3.85
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.94, 5:0, 6:0.26, 7:1.56, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGCCCGGCCGGCGCTTGAGGCCATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-1.10,-1.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [35.0-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [217,315] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S4
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. S4
+//
+
+

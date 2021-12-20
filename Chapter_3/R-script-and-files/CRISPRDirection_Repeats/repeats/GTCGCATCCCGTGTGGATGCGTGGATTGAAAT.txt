@@ -1,0 +1,53 @@
+Array 1 70569-71734 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JRNV01000021-Paenibacillus sp. P1XP2 CM49_contig000021, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	================================	======================================	==================
+     70569	    32	 100.0	    36	................................	TTTGACGTAAAGGAGGCGATGTAAATGAAGAAAGCG  	
+     70637	    32	 100.0	    35	................................	CATCATGTAGACGGAAAACGAGCAAATGCAAACGC   	
+     70704	    32	 100.0	    35	................................	CTTTGCGAAGTCCAGATCGAGAATGTACCCGTTAG   	
+     70771	    32	 100.0	    33	................................	ATTGTAATTACTCCTTTGTATTGGTTTTGCGGC     	
+     70836	    32	 100.0	    35	................................	TAAACCCAGAACACTTTTATCATGACGGACACCGA   	
+     70903	    32	 100.0	    35	................................	CTATCCCGGTACCGACCGGAGCGCTAGACACCCCC   	
+     70970	    32	 100.0	    33	................................	ACGCATCAGCTCATTGATACGAGTTTGAATATC     	
+     71035	    32	 100.0	    35	................................	ATCAGGCAAATCTAGCGGAAAAGGAAAATCGTCTA   	
+     71102	    32	 100.0	    35	................................	AACCAAGCAGTTTTAATATCATCATCCGCAGGTCA   	
+     71169	    32	 100.0	    33	................................	CCCATCGTAAAAACCACCCGGAGGCCGTATGAA     	
+     71234	    32	 100.0	    35	................................	TCTATAGATATCCGCAGCTCGCGCCGCTGATATGC   	
+     71301	    32	  96.9	    34	...........................A....	ATCCCGGTAAAGGAATATCACCACATCCGCGTCA    	
+     71367	    32	  96.9	    36	....................T...........	CGCTGGGCTCCGAACTCACTATCCGCCTGGCTGACG  	
+     71435	    32	  96.9	    34	.........T......................	GAAAGCTGCGTCGCCACACCGACCGCGTGATTGA    	
+     71501	    32	 100.0	    38	................................	GGAGATATAAAGAACACATACAACAGGGATAGCGACGA	
+     71571	    32	  96.9	    35	.........T......................	GAAATCGGATCGGCGGTTTCGTTATCGATTCTTTA   	
+     71638	    32	  87.5	    33	..T..G...T.....................C	ATGGCAAAACGCCTTCCTACCGACCCGAATGGC     	G [71658]
+     71704	    31	  75.0	     0	..........A.CC..CC......-..C...A	|                                     	
+==========	======	======	======	================================	======================================	==================
+        18	    32	  97.2	    35	GTCGCATCCCGTGTGGATGCGTGGATTGAAAT	                                      	       
+
+# Left flank :   AAAGAAGATCCGGCAATGAACTTTAAGGCGTGTTTGAAGCCGTTTTGATTCACCGTGGCCAAAATAACGATATTCGAGGGTCCCGGCGTGAAGGTGACGACGACGCAGTATAAGAGAAACGACATGATGTTCATGCTCCAAGGCTCCTTCAAGAATAAGTTTCTTGCATTATAGAGCCGAAAAGCCGATGGGGAATAGTACATTATTGCAAGGAGCTCAGGAGATAGATTTTTCGGGGATCAGCATGGTTTGGAAAAGGCACAATAGCTGTCCCGTACGGGTTATGCTAAGATAAAGAAGGAAGTGGTACCTTTTTACAGAGCGGTTTGGGAAGGTCTTTGGTGCGAATGTGAAGTGAACATGAATTCCCTGGGGGGTTCGCACCCGAAAAATCTTGATACCATTCCTTTTCTGTGAATAAATGTTTATTCTATGGGGCAGGAAATGTTGTTTGATGAAATAAAGAGCCTATTTTGAGGGAAGTTCGCCTGAAAATCGGA
+# Right flank :  AATAAGCCGTCGTAGCTATTACCTCCCGTTCGGCCGCATTTTATACACGGGAAGATCACGCGAAACGGGTACGCTAAGAAATTTACGGAAGCCCCAACGGCCACGTACCTTGAGGTATATTTCTCCATATGCTAAGATAACAATAAAGAAGGGACCGTGCTGGAACACGATCCCTTGGTACAACAGCCGCTAAAAGAGCGGTCGGCTTCGGAGTTAAGTCGTGAAATAGACCGTTGTCCTCACCAAGGGCGGTCTATTTCTTTTTCATGTAGGTGAGCAGCGCCAAAATGAACATGCCAAACATGAACATTAAGGAGAGTGCATCTTTTACCTCCATGGGCATCACCTCCCTTCCGGGAGATTAGCCGACCGCCCTTAAAGCCGAAATGTTGCACAATCCATATTATACCATAGGACTCTCTTCGGAGGGTCTTTTTCTATTAAGGTAGGGTCCTTATTTTGTCTCGTATTTCAAATCACGCCCGCTATGATTTACAATA
+
+# Questionable array : NO	 Score: 7.23
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.86, 5:0, 6:0.7, 7:0.67, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCATCCCGTGTGGATGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [6,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.10,-4.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-17] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [61.7-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [368,527] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.37   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : P1XP2
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae;Paenibacillus.; Paenibacillus sp. P1XP2
+//
+
+

@@ -1,0 +1,88 @@
+Array 1 8331-7911 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV814936-Neisseria sp. HMSC067H09 Scaffold915, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	==========================	==========================================	==================
+      8330	    26	  96.2	    39	......G...................	CCGTAACCATCGAAAGACGCGTCTCAAAATCAACCAGTC   	
+      8265	    26	  96.2	    39	......G...................	GACTTGGCAATGATGCTTGGCTACAACGATATGCCAGCT   	
+      8200	    26	 100.0	    40	..........................	GGGAAAAAACTATCAGTGTGTCTGTCGCCCTAAACCAGCT  	
+      8134	    26	 100.0	    39	..........................	GCAATCAACGCACGGCGCATCTCAAACCCCTAACCAGCT   	
+      8069	    26	 100.0	    42	..........................	TAAACGAAGCCTTAAAAAGGGCATACATAAACGACGCCAGCC	
+      8001	    26	  92.3	    39	............T............T	AGACGACCTCTACCGTACTGGCGATTGATTTTGCTAGCC   	
+      7936	    26	  88.5	     0	.........T.A...C..........	|                                         	
+==========	======	======	======	==========================	==========================================	==================
+         7	    26	  96.2	    40	GCCTTCAGGCGGCTGTGTGTTGAAAC	                                          	       
+
+# Left flank :   GCGGCTGTGTGTTGAAACGCGCCTGAATTGCTTGCGATGGGTATCCCATCTCCCAGCCGCCTTCAGGCGGCTGTGTGTTGAAACAATTTCAAGGATGGTAAAAGACGGTCGGCATTTCTCCAGCCGCCTTCAGGCGGCTGTGTGTTGAAACATTTAGGATGCCTGTATCGGGGGCGAGTCCGTCGACCAGCCGCCTTCAGGCGGCTGTGTGTTGAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGACCAGCCGCCTTCAGGCGGCTGTGTGTTGAAACCGTATTGTGGACGCGCATCCGCACCCCGAACGGCCAGTC
+# Right flank :  CCGTAGCCGAGGGAGCAGAGGTAGAGGCGCAGGCCCAGCCATCTTCAGCTAACCATATGTCGAAACCAGACTGTGTTTTCCTGATTTAAACCATCTGTAACCATTTACTTTTTGATGGTTATGTCTGAAAAATCATCTGTGGAATAGGAAATCGTTAATCCATCAAATCTCTGTTTTTCAGACGACTGTAATTGGATTTGTTTGGTTCTAATTAAATCAGATTTTTCCAGCTTCGGGCTGCCGGATAAATTTGATGCAATACAGGGTTTGATTAGCTAGGGGCTGGATAAAAACGGCAGCTTTGTTATAATAAAACTACTGGCAGTTACATACTTTTCTTGGCATTGCGCCGTTTTATTCATATTAACGAAAGAGGAAAACAAAATGTTTCCAGAATATCGTGATTTAATTTCCAAATTAAAACAAGAAGACGCCCACTTCGCCCGTCTGTTTGACGAGCATAATGAGTTGGACGATAAGATTACAGGTTTGGTTAATAA
+
+# Questionable array : NO	 Score: 7.23
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.81, 5:0, 6:0.26, 7:0.31, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTTCAGGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   GCCTTCGGGCGGCTGTGTGTTGAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.40,-1.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [386,1231] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_045072979 [12335-12991]; Endonuclease Cas2:WP_003762828 [9561-9854]; Helicase/endonuclease Cas3:WP_045072966 [18578-20860]; 
+# Array family : NA
+# Sequence source strain : HMSC067H09
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria sp. HMSC067H09
+//
+
+
+Array 2 8680-9371 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV814936-Neisseria sp. HMSC067H09 Scaffold915, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+      8680	    32	 100.0	    35	................................	AGAAATGCCGACCGTCTTTTACCATCCTTGAAATT	
+      8747	    32	 100.0	    34	................................	GAGATGGGATACCCATCGCAAGCAATTCAGGCGC 	
+      8813	    32	 100.0	    34	................................	CCCCGACAACCGAAACCCCAAACACAGGTTTTCG 	
+      8879	    32	 100.0	    35	................................	CTATTGCTAAATTGAATATAGCAAGGTTGAAATAT	
+      8946	    32	 100.0	    33	................................	GTCCCTGAAATCGACTTCACGGCGCAAACCGAT  	
+      9011	    32	 100.0	    34	................................	AACCAGTTTGAACACTATACAAGGCTGCGAGCCT 	
+      9077	    32	 100.0	    34	................................	CTAATCTGTGAAATACGGTCGGGTGAAGATATGG 	
+      9143	    32	 100.0	    33	................................	GTACCCCCCCTGTTAGATAAGGGGGGAAGATTT  	
+      9208	    32	 100.0	    34	................................	TCGCACCGACACGCAGCGAAATCATACCGACACC 	
+      9274	    32	 100.0	    34	................................	GAATGTGGGCGGAAAAATAAATTAGGGAAACGAT 	
+      9340	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+        11	    32	 100.0	    34	GTTTCAACACACAGCCGCCTGAAGGCGGCTGG	                                   	       
+
+# Left flank :   AACACACAGCCGCCTGAAGGCAGCTGGCATATCGTTGTAGCCAAGCATCATTGCCAAGTCGTTTCAACACACAGCCGCCCGAAGGCGACTGGTTGATTTTGAGACGCGTCTTTCGATGGTTACGGGTTTCAACACACAGCCGCCCGAAGGCGACTGGCCGTTCGGGGTGCGGATGCGCGTCCACAATACGGTTTCAACACACAGCCGCCTGAAGGCGGCTGGTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTCAACACACAGCCGCCTGAAGGCGGCTGGTCGACGGACTCGCCCCCGATACAGGCATCCTAAAT
+# Right flank :  GAGCCTCTCTCAAAAGCCTTGCTCCATCAGGTTTCGCAGCCCTGATTTCGCTAGGCTCCCAAGAAAAGCGCGAACGCGAGTATAACACAGCCTTTTCCGTTACACCCGCATTCACAATATCCTGATTGTTAAAGAACAATCCCGGTTCGCCAACCCTGCCGCATTTTCATGAGAACCGCAGGTTGGCGATTTACACAATCAACGTATCCTTGAACACATCCACCGCTGGTTTCGCGCCGTGGTGTTCCACTTTGTGCCGCCATTTGCTGCCCAGATGGTAAAAGCGCAGGCTGTCGGTTTCGGGGTTGTAGGTTTTCAAAAGTTTGTCTTTTAGAACAACCCACTGGTCGGGCGCGATGTCGCATTCGAACACCGAATACTGCACGCGTACGCCGTAGTCCAAACATAATTTCGCCACGCGCCGCAGCCTTGCCTGTCCTTCTGCGTCTTCCAGCGAAATATCGTAAGTAATCAGCATCAGCATTTTGTATTCCCATGTG
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.55, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACACACAGCCGCCTGAAGGCGGCTGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [7,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.20,-5.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [451,190] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_045072979 [12335-12991]; Endonuclease Cas2:WP_003762828 [9561-9854]; Helicase/endonuclease Cas3:WP_045072966 [18578-20860]; 
+# Array family : NA
+# Sequence source strain : HMSC067H09
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria sp. HMSC067H09
+//
+
+

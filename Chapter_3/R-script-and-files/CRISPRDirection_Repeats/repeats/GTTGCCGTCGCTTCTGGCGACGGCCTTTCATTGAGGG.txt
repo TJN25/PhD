@@ -1,0 +1,216 @@
+Array 1 687530-687389 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP011546-Corynebacterium uterequi strain DSM 45634, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	===================	==========================================	==================
+    687529	    19	 100.0	    42	...................	ATATCGGCTATAGTAGGCCCGCCGCGCACGCAAGCGCTACCA	
+    687468	    19	 100.0	    42	...................	AATTCCAAGATCTGGCCCGAGCCAGTATCAAACCAGAGGCAT	
+    687407	    19	 100.0	     0	...................	|                                         	
+==========	======	======	======	===================	==========================================	==================
+         3	    19	 100.0	    42	AACCGGCACGATCGTGCCG	                                          	       
+
+# Left flank :   TTCGCGGCACGCTTCAAGGTGGATAGCCGGCGCCCTTCCGGCAGAAGATTGGCAAAAAACGCGGGAAGCGCCCCGCCGGCGGTCAACACAGGCTCCGCACTCAGAGGAAGAGTGGAGGCAACAACAGGCCCATTGTTTTCCAATGCGTGGGAGGTGTAGGCAAACTGCGTGATGCCGCCTTCCAGCGCAGTAAGCGTGGCAGCCAGCACATCGCCGACGTAGACATCCGCCACCACGGTCACCGGGCCCCCATGCGCAGGGAGTTACTGAAGTTCGCGTTGTGGATCTCACAGGTGAGATCGAAGCCCAACACGCCGAGAACGGCAATGGTCTTATCCAGCCTTACCGTCGGCTTACCGGTCTCCAATTCGCGGATAAAGCGCTCCGAAACTTCGGACAGCTCCGCCACGTCAAGCTGTGTCATTCCCTGCTTGATGCGCTGGCTACGAACAAACTCGCCTACCTCGTGTGCTTCCACCGCCTGAGGACCTCCTTCCACG
+# Right flank :  GTTACTCGCCTGACGATTGAGGGCAAGGCGCCGTCGCCTCCGGCGAAGCCGTACCGCTGCACCCGCTGATACGCTATCCGCTCATGGACGCGTCCTCTTACCTCACCTTGCTCGGCGTATGGGTGGCGGCAATCGCCTCCCCCGGCCCCGACGTGGTGCAGGTGCTCCGCACCTCCCTTAAATCGCAGCGCGCCGGAGTAGCCTGCGCCGCCGGCATCATGACCGGCAACGCCGGCTGGGCACTGCTGTCCCTGCTGGGCGTCGGAGCCATACTGACCGCCTCACCGGGATGGTTCGGTGCGCTGCAAATCGCCGGCGGGGCCTATATCGCATACCTGGGCTTCTCCTCCTTGCGCTCCGGAGTGAGGAACGTGCGCTCTCCCTCCTCCCAGCAGGGACTGCCCGAGGAAACAGCGCCCCCGCGCAACCTGAGCCTCGCCCAGGGGTACCGGGCCGGGGTGAGCACGAACCTGGCTAACCCGAAGGCGGTGTTGTTCTTC
+
+# Questionable array : NO	 Score: 1.62
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:-1, 7:0.22, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AACCGGCACGATCGTGCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [31.7-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [85,23] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_052844158 [1851139-1853985]; 
+# Array family : NA
+# Sequence source strain : DSM 45634
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;Corynebacterium.; Corynebacterium uterequi
+//
+
+
+Array 2 1842018-1839144 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP011546-Corynebacterium uterequi strain DSM 45634, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   1842017	    28	 100.0	    33	............................	CGCAACCGCATCGACGTCGACCTCACCGATGTG	
+   1841956	    28	 100.0	    33	............................	GAGATCATCGACTGGGGAACCATCCTCGAGGAC	
+   1841895	    28	 100.0	    33	............................	TGCCCCAAATGGTGCATGTTTTAGACAGATCGA	
+   1841834	    28	 100.0	    33	............................	CCATGTCATCACCCACCCCCTGCCCGCGCCGTG	
+   1841773	    28	 100.0	    33	............................	CACCATGAGGTTGACCAGCAGCATCCCGCCGAT	
+   1841712	    28	 100.0	    33	............................	GGACGCGGAGGTCGATGAGCGGCCATCGGTGCA	
+   1841651	    28	 100.0	    33	............................	CCTCACCTGCGCATGGTGCGGCCTCCCCATCGA	
+   1841590	    28	 100.0	    33	............................	TAACCGTTCGTGCCGGTCGCTACTCAGTAGCGC	
+   1841529	    28	 100.0	    32	............................	CGGGTCTGAGGCGCTGCTCATTCCGTCCCAAC 	
+   1841469	    28	  92.9	    33	.G...T......................	TCCCCACCCGCGCGGGCGGACCTCTCGCACTCA	
+   1841408	    28	 100.0	    32	............................	CGGGTCTGAGGCGCTGCTCATTCCGTCCCAAC 	
+   1841348	    28	  92.9	    33	.G...T......................	TCCCCACCCGCGCGGGCGGACCTCTCGCACTCA	
+   1841287	    28	 100.0	    33	............................	CCCGAAGTATCTGATTCGGTTAGATTAACCTTG	
+   1841226	    28	  96.4	    33	......................G.....	TCCGTCGGGAGATTGAGCGTATCGGTAGTGAGC	
+   1841165	    28	 100.0	    33	............................	CCACCATGCACTTGCACACCATCGCCGACGCCA	
+   1841104	    28	 100.0	    32	............................	GCTGTAGTCTGCCTCGGCGGTATGTCTCTCGG 	
+   1841044	    28	  89.3	    33	TG...T......................	GAGATCATCGACTGGGGAACCATCCTCGAGGAC	
+   1840983	    28	 100.0	    33	............................	TGCCCCAAATGGTGCATGTTTTAGACAGATCGA	
+   1840922	    28	 100.0	    33	............................	CCGCGTCAAAGCGGCGCGTCTAGCGTTTCTCAA	
+   1840861	    28	 100.0	    33	............................	CCGCGTCAAAGCGGCGCGTCTAGCGTTTCTCAA	
+   1840800	    28	 100.0	    33	............................	GTTCCCTATCGTCACCCTCACCAACCAGCTCGC	
+   1840739	    28	 100.0	    33	............................	GTTCCCTATCGTCACCCTCACCAACCAGCTCGC	
+   1840678	    28	 100.0	    33	............................	CCCCACCCCGCTAGAATAGGGGCCAGCACCGAA	
+   1840617	    28	 100.0	    32	............................	CTATTTGGCCGCCAAAATAAACCCCCAAATAG 	
+   1840557	    28	  89.3	    33	AG...T......................	CAAGCAGCCCCAACGGTGCGTGAGTGGCTGGTG	
+   1840496	    28	 100.0	    33	............................	TCCACGGCCACTAATGTTTCGCCCCGGCTAGAC	
+   1840435	    28	 100.0	    32	............................	CCAGGTAGAGGTAAAGCTGGCTTAGGTGGTGT 	
+   1840375	    28	  92.9	    33	.G...T......................	CCACCCCGGTGACCACGTCGGCGAGATGCTGGC	
+   1840314	    28	 100.0	    33	............................	TTTTGCTGGGGACATCTGCCGCCGTAGTCGTGG	
+   1840253	    28	 100.0	    33	............................	CGATGACGAACTATCTTCTGCGCCACCGCCGAG	
+   1840192	    28	 100.0	    33	............................	CTAAAACAATAAACCCCCTTACCTAGCGCAAAA	
+   1840131	    28	 100.0	    33	............................	CGCCATCGCCCGTGAGTCGAACCGCATCGCCAT	
+   1840070	    28	 100.0	    33	............................	CTCCTCGCCCTCGCCGAAGCAGTCGGCGTCTAC	
+   1840009	    28	 100.0	    33	............................	GACCTCCCCGCCGACGCGCACGCCGTGCTAGGC	
+   1839948	    28	 100.0	    32	............................	GGCCGTCGCCTGAACCCGGAGATTCCGATGGG 	
+   1839888	    28	  89.3	    33	CG...T......................	CATTCGCTAACCCGTTCGGACTCAAGGAGCGCC	
+   1839827	    28	  96.4	    32	..................A.........	CACGGGGTTGATCCCGTCGGTGAACGCGTCCC 	
+   1839767	    28	  92.9	    33	.G...T......................	GGTGGGGGGAGCGGCGTATGGTGATCGTGGGTG	
+   1839706	    28	  96.4	    33	..............C.............	CCGACCAAGCAGCCCCACCCCCACCCCCACCAA	
+   1839645	    28	 100.0	    33	............................	CCTCCTCGCCGTCGGTGAAGGTGCCGAGCCACG	
+   1839584	    28	 100.0	    33	............................	TGCGCCGGGCAGGTCAAGAAATATGCGGGGTGT	
+   1839523	    28	 100.0	    33	............................	GAACTCCGAAGAATCATCACCGCGACCCAACGT	
+   1839462	    28	 100.0	    32	............................	CGCAAACCGGTTAGCACTAAATGTGAGCAAGA 	
+   1839402	    28	  89.3	    33	TG...T......................	CCATCCGGCTACGGCGAATACGGGGTGATGACC	
+   1839341	    28	  96.4	    33	......T.....................	TCATGACTGACCGCCCCACCCCTCAGCAGCCTC	
+   1839280	    28	 100.0	    21	............................	GAGACGATAAGGCCCCACCAT            	Deletion [1839232]
+   1839231	    28	  92.9	    33	.G...T......................	CCTCACGCGCTGGAAAGACGGGGCCCGGGCGGC	
+   1839170	    27	  89.3	     0	........-.............A.G...	|                                	
+==========	======	======	======	============================	=================================	==================
+        48	    28	  97.8	    33	GTTTTCCCCGCGTAAGCGGGGATGAGCC	                                 	       
+
+# Left flank :   CGACCACGCGCACCGTTATGCGCTGGCGTGGCAGCGCAACCGTGGGATTGTGCTCGACGAAGGTCGTGCGTGCACAGCCGGGTGCGGGGCAGGTATACCGGCGCTTGAGCCAGCAGATCCTCACCGGCCTACCGAAAGAGGGAATGTCTACCAGCGTTACGGGTACCCGCCCATGGGCGGCGCCTGGGCCGTGACAGTCGGGGCACGCCCGTGGTGTGGGATCGGATTCGACCGTGATTTCCCGGTACTCGTCGCGGTCGTGGACGCTAAGGACGTGCACCCCGTCTAGTCCGACGAGGTCGTCGCATCGCTTACAGTAACCGGCGGGGTCGAGGTTGATGGCCTGCTGGGGGTTGGTTGTAGGATCGGACATGGGTCGAGGCCTTCGTTTCAGGATTGGTGAGTGGTATCCCCTATCCTGCTAGGGCCTCGGCCCTTATTGTGTGCACGACACCCACCCCGGGATGAGACACTCACCCACACTCAAACGCGAAGAGCCA
+# Right flank :  CAGATAGCTGAGGCATCGTTCTGCTATCCTAAGCGTCTCCACAGCAACAGCCCGTCGGCGTGCTTACGCGCCAGGTCCTCAGGTTTAATCAGCCCGGATTACAGGAGCGGGACGCTAAACGTGGAGGTACCAGCGAACGGGTCGAGGATGCACACGCCTTCATCCGTAAGCCCCTTGCCGAAGTGAATACGCGACGCTTCATCCGCGGCACGCAGGATGAAGTCCACGATCTCCACCGGGGTGTAGACAATGCCCAGGGCTTCGGCCTGCTTCTTGAAGCCTTGCGGAAGAAGCGTTCATAGAGCTCTTTAATGACGTGCAGCTTACCCGAGGCGGATGTGACTTCGCTAGCGCGCACGCGCACGGACTCGTAGAACTTCTCCAGCTGGTCGGTCTCAGAGTCAATGTGGGTGCGGTGTAGGGCCGTTACCATCGTGTCCATGACTTGGGCTACGGGGTTGTGGGCGATGAAGTCGTAGTTGTCGAATAGGGCGTTAAAC
+
+# Questionable array : NO	 Score: 7.40
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.89, 5:0, 6:1, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTCCCCGCGTAAGCGGGGATGAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [16-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [41.7-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [23,221] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_052844158 [1851139-1853985]; 
+# Array family : NA
+# Sequence source strain : DSM 45634
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;Corynebacterium.; Corynebacterium uterequi
+//
+
+
+Array 3 1844725-1843537 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP011546-Corynebacterium uterequi strain DSM 45634, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+   1844724	    28	 100.0	    33	............................	GACCACAAGCAAGCAGACCCGTGGCGTGGCGAT 	
+   1844663	    28	 100.0	    34	............................	GGATCCCCCTCATGTTTCTCAAGCAGTTTACAGA	
+   1844601	    28	 100.0	    33	............................	ATTCCTGCGGCGTGTGGTGGGCGGCGGTCCAGC 	
+   1844540	    28	 100.0	    33	............................	CTTAGGGCCATCGCCAAGAGAGCGAGGGAAACT 	
+   1844479	    28	 100.0	    33	............................	CTCGGCCCCGCCGGGTTCGCGCGCGGCTATGGC 	
+   1844418	    28	 100.0	    33	............................	TCTCTAGCCATTGCCTTCCTCGATGAGTCGTCT 	
+   1844357	    28	 100.0	    33	............................	CCCCAACGTCCTGGAGATGATTTTCACCGCCGA 	
+   1844296	    28	 100.0	    33	............................	CCATGTCATCACCCACCCCCTGCCCGCGCCGTG 	
+   1844235	    28	 100.0	    33	............................	GGAATGGCCCCCAGGTGCGCACCCGGGGGCCGA 	
+   1844174	    28	 100.0	    33	............................	CCAGGTGCGGACCTGGAGCTTGCCACTGCTGGT 	
+   1844113	    28	 100.0	    33	............................	CGTGGGAAACCACCCCCCTACAGCCCGGCGCGC 	
+   1844052	    28	 100.0	    33	............................	CTGATCGATGAAACCATCGACGGGCGCGAGATC 	
+   1843991	    28	 100.0	    33	............................	CGACGAACTGGGAGCGTTTCGACCCGTCCTTGT 	
+   1843930	    28	 100.0	    33	............................	CCCAGCCGACGAGCTCCCCGAACAGGCTCAGCA 	
+   1843869	    28	 100.0	    33	............................	CTCCGGCGTTAGCTATTCTTCGCCGGGCGTCGA 	
+   1843808	    28	 100.0	    33	............................	CACATCCAACGACGCACCATTATCCATGCTCAT 	
+   1843747	    28	 100.0	    33	............................	CCGAATTTTCGACGGCATCCCGGGCAGCGACTC 	
+   1843686	    28	 100.0	    33	............................	CTTTCTTGGCCGCTGGTTTGTCGATACTGATGA 	
+   1843625	    28	 100.0	    33	............................	CAACGCCCGATCGTGGTGCGTTGCGACCACGCC 	
+   1843564	    28	  96.4	     0	.....................T......	|                                 	
+==========	======	======	======	============================	==================================	==================
+        20	    28	  99.8	    33	GTTTTCCCCGCGTAAGCGGGGATGAGCC	                                  	       
+
+# Left flank :   ATGAGCTTGAGCTGGTGGCTGCCGGTACGAACTGGAGCGGAGAAGCCGGTGATTGGAGGTGATTGTGTTGGTAGTTACCGCTGTACCGGCGGGTCTTCGCGGGGACCTGACGAAGTGGCTGATGGAACTAAGCCCGGGAGTCTTTGTGGGTAACCCTTCTGCCCGTGTACGAGATCTGTTGTGGGAACGCACGGTGAGTCTCTGCAAGGATGGTCGAGCGTTATTAGTGAAGTCGTCTAACAATGAGCAAGGGTTGGAATTCCAGACTCATCGGCACAGCTGGAAGCCTACCGATTTTGATGGCATCAAGCTGATGGTGCGTCCCGCTTCGTCGGAGCCGGCTGAACAGGATAGGAGAACTGGATGGTCGGCTGCGCGACGTCTACGTCGAGGCCGATAAGGGGAGGATCCTAGTATCCCGGCGCCGTGCCGGCGTCTGGGTGGCTACCAAGTTGTAGTAGAAGTGGGTCCACTGCTAGTATATTCGCAGGTTGGGCAGG
+# Right flank :  GAACGCCGCCACCACCGTCTGGGGCTGGATCCAGTTTTCCGGCTCTTCGTGTTTGAGTGTGGGTCACAGGCGTAGCCCCCCGGCGATCAACAGCATCCGTAGACGGTAGTTGTCACGGTTGCGAAACCCTCTTGCCAGGCGGCGATGAAGCTCGATCAGCCCATTGATCGCTTCCGTGCCACCATTGTTACTGCGCGCGGTGTCCCAGTACGCCAAAAAGGCATCCTTCCACCTACGCAACGTTCTGCCTAACCGGGCCATCTCCGGTATCGGACATGACGGCAGACTCCGCAACGCTTCACACGCCGCCCGCCGGCCTGCAGCCATATCCGGTTCGTGATACGCCGCCCGCAGGGCATGCGCCGCCTGCCAGGCAATAAACAACTCCTCGTGACGCGGATCGGCGGCGATAGCCGCATCAAAGCGTTGCCACTGACGCTCAGTGAGCCGACGAGGATCACAACGCACAATGGTACGAATGCCGTACAACGGATCTCCGC
+
+# Questionable array : NO	 Score: 7.43
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:0.44, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTCCCCGCGTAAGCGGGGATGAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-48.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [65,101] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_052844158 [1851139-1853985]; 
+# Array family : NA
+# Sequence source strain : DSM 45634
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;Corynebacterium.; Corynebacterium uterequi
+//
+
+
+Array 4 2380318-2380646 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP011546-Corynebacterium uterequi strain DSM 45634, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================	==================
+   2380318	    37	 100.0	    35	.....................................	GAGGCCACCTGGAGGCGAACTATCGAGGTGCAAGC  	
+   2380390	    37	 100.0	    36	.....................................	GAGCACAAGGTAGCCACCAACCCGGCGACGGGGGAA 	
+   2380463	    37	 100.0	    36	.....................................	GCCCCGGTCCCGGTGTTTTGCCACATGGCGGCCTGG 	
+   2380536	    37	 100.0	    37	.....................................	CCCGCTACGGCGGGTCAAAAAACACACCATGACCAGG	
+   2380610	    37	  94.6	     0	....T...............................C	|                                    	
+==========	======	======	======	=====================================	=====================================	==================
+         5	    37	  98.9	    36	GTTGCCGTCGCTTCTGGCGACGGCCTTTCATTGAGGG	                                     	       
+
+# Left flank :   CCCGGCGCGAGGTCACCCACCGGGTTCGGGGCGTGGAAGGTGCCATTGTCCAACCAGTAACGCTGCCACTTCGTCTCGATCTCGTTCGCGAGAGCGTTGGTGTAGCGGTGCTGCGGGGTCGCCGATGCCGGCGCGGTGTTCGTCATGCTTAGTCAGTGTAATCAGTAGGGGCGACGACGCTGGCTAGGCCCGGGGTTCGGCCTTTCGGCGCCGACGCGGCGCTGCAGTGACCTCACTCCTGTTCTGTCTGGCACCCTTATGTTTCATCATGTTTAAACTTTGGCGGAAAATCTGGCGTCATTGTTAAAGTTTTGGACGGAACCACCCGACACCCCTAGGGCGTCCTGGGGAGCCCTCGGAAGTCGATCCGGTGGACCGTCTCGTCCGGCAACCTGGGGGAGAGGGCGTGCGCGGGGACGCGGGCTAAGCTGGTCGGTGTCCTCGCGGCCTTTCATTGAGGGACGGGGTTCTACGCCCCGCTACGAATGGCGTCCGAGGGG
+# Right flank :  CTGCTCTCAGCCCCACAAGGCGCGAAGGAGGGTGTGTTGCCGTCGCCTTGAGCAACAGCCTCTACTGCAAGCCGAGCCCCTTCCCGCCGGCCCAGTCAGCCCCCTCAACCCCCAACCGACTAACCCAACCACCCAACCAACCACCCCGAATGTTTCACGTGAAACAAAAACGGCCGGCTCCCATCGGGAACCAGCCGCCTAACCGAGGAGCGCTACACGCACCCGCTCTAACGATTTAGTGAACGTCGATGAACTTCTTGAGCACCCAGCCCTTGAGCGCGATCATGATGAGGCCGATAACGATGGAGCCGATGCCCACCCAGAGGAAGAAGTTGAACTCGGCCGACGGGTCGTTCGGGTTGTACAGCCCGCCGAGGGTGCCGGACAGGGAGGTGCCCATCGACACGGCGAGCAGCCACACCGCCATCGTCTGCGATTGGAACTTCTCCGGGGCCACCTTGGTGGCCAGGGAGTTGCCCACGGGGGAGAGCATGAGCTCA
+
+# Questionable array : NO	 Score: 4.92
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:1.17, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGCCGTCGCTTCTGGCGACGGCCTTTCATTGAGGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,11] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-10.40,-8.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [356,235] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_052844158 [1851139-1853985]; 
+# Array family : NA
+# Sequence source strain : DSM 45634
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;Corynebacterium.; Corynebacterium uterequi
+//
+
+

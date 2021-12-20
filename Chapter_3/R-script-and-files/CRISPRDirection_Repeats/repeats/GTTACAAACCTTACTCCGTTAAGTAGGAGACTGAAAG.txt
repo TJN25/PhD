@@ -1,0 +1,197 @@
+Array 1 15475-15267 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019978-Halobacteroides halobius DSM 5150, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                            	Insertion/Deletion
+==========	======	======	======	==================================	===========================================================	==================
+     15474	    34	  94.1	    59	......T.........T.................	AGTTTATCACTGTCAAGACCTTTTCTGTTTTTTCTTGCTTGTCCCAAGAAAGTGATTTC	
+     15381	    34	 100.0	    47	..................................	TAATGTCTGTTGTCAAGAAAATTAATTTCTTATCTCAAAATAAATCT            	
+     15300	    34	  94.1	     0	....C.........G...................	|                                                          	
+==========	======	======	======	==================================	===========================================================	==================
+         3	    34	  96.1	    54	TCTTTTCAAGCGACATCTACTATATTAACAAATT	                                                           	       
+
+# Left flank :   AGCTTTACGACCCTAAGGCCTTCATCACTCACGCGGCGTTGCTCCGTCAGGCTTTCGCCCATTGCGGAAGATTCCCCACTGCAGCCTCCCGTAGGAGTCTGGGCCGTGTCTCAGTCCCAGTGTGGCCGATCACCCTCTCAGGTCGGCTACCCATCGTTGCCTTGGTGAGCTGTTATCTCACCAACTAGCTAATGGGACGCAAGCTCATCTTTAAGCAATAGTAATACCATCTTTCCTCCAAAGGAGTATATCTGGTATTAGCCCCTCTTTCGAAGAGTTATCCCAGACTTAAAGGTAGATACTTACGCGTTACTCACCCGTTCGCTGCTTTACTTGTTACCCGAAGGTAACTTTCTCGCACAACTTGCATGTGTTAAGCACGCCGCCAGCGTTCGTCCTGAGCCAGGATCAAACTCTCCGAATAAAGGATAAGAGTTTGAAACTGACTTAGATAGTCAAAACTCTACATTGTTTAGTTTTCAAAGACCAAATGTCTCTTG
+# Right flank :  ATTTTATCACTGTCAATAATTTTTCTGAATAATAAAGAATGTCTTTACATAGTTTAGTCGCAAAGAATGTATATTACTTATTAAACAGGAGGTATCTTAATGCTAGAATTAATAATAACAACCTTTAACTTTATTTATTCTCTATATTTTGTAATATTGATGTTGATCACAGGTGGACTTATTCTAACATTAGATCTCTATTACCATCAGCAACAGAAACAATCAAAAGGTTTTTTGATTTCCCGCACTATTGGACTTTCTTATATTATATTAGGAGGGGGTTTTTTCTTATTTAATAAAATAATTATTAGTCTCGATATTTAATCATCCCTACTTGTCTAATATAAGCTTGAGTTTCAACATCAATCTTTAGCTTTGGGTATTTATTGTGCCACTCTATGCTATTCCAATAATTTGGATAATAAGCTCTAACATACTCTCCGACCCCAAAAATATCTGCTTGAAACTTATCTTGAGTTTTTCGGATAAGTTTCTTTATT
+
+# Questionable array : YES	 Score: 0.89
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.80, 5:-1.5, 6:0.26, 7:-1.07, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCTTTTCAAGCGACATCTACTATATTAACAAATT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.53%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [2-2] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [76.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [101,5959] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Autoregulator Cas7:WP_015326645 [944189-945148]; Cas4:WP_015326639 [933862-934431]; Endonuclease Cas1:WP_015326637 [932585-933601]; Endoribonuclease Cas2:WP_015326638 [933603-933848]; Helicase Cas3:WP_015326643 [939971-942313]; 
+# Array family : NA
+# Sequence source strain : DSM 5150
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Halanaerobiales;Halobacteroidaceae; Halobacteroides.; Halobacteroides halobius DSM 5150
+//
+
+
+Array 2 935878-938288 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019978-Halobacteroides halobius DSM 5150, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	=====================================	=========================================	==================
+    935878	    37	 100.0	    39	.....................................	ATGACGGGCCAACTGCTGAAGATGTAGTTGATGACTTCT  	
+    935954	    37	 100.0	    35	.....................................	CACCTAATTCAACCGTCTTAACGTCGCTATTAGAC      	
+    936026	    37	 100.0	    38	.....................................	CTAGCTTGTAATTCTTCTTTGATTATTTGAGTTGTTCC   	
+    936101	    37	 100.0	    35	.....................................	ACTATATCACCTTCGTCTCCCGAAGTTTCAACAAG      	
+    936173	    37	 100.0	    37	.....................................	TTTAACTATATCAATCGGCTCTTCAAAAGGTGATAAT    	
+    936247	    37	 100.0	    39	.....................................	TTATATTATTAATCCAATCTAATCTGCAATAATCAGTAC  	
+    936323	    37	 100.0	    36	.....................................	ATGAACTGACCTATCCAACCTTGCTCGTTAATATAT     	
+    936396	    37	 100.0	    36	.....................................	TTTATAAAACCACCACCATCATTGGCTTTTTTAAGA     	
+    936469	    37	 100.0	    36	.....................................	TCAATAGTTAGATAATCTATTGCAGTAGTTACAATA     	
+    936542	    37	 100.0	    35	.....................................	ACTCCATAACTATAACCAGATAAGTCGATATTAAA      	
+    936614	    37	 100.0	    37	.....................................	CCAACTAGAACCAAAGCTATTGTTAATTACGTCAGTC    	
+    936688	    37	 100.0	    37	.....................................	GTAAATATTAGGTCTGCATTATCTATATTATTAACTT    	
+    936762	    37	 100.0	    37	.....................................	GATATTAGCAATCAATGGATTATAGATAAATCTTTAG    	
+    936836	    37	 100.0	    35	.....................................	GTCTATAAAATTGAATATACTGATTTTAATACTAA      	
+    936908	    37	 100.0	    36	.....................................	GCAGCTTGCAGCTCCAACCAATATCTGAGCATTGAA     	
+    936981	    37	 100.0	    38	.....................................	TTGTTGTTCCTGGAGATCATGATCATAGCTTATGATAC   	
+    937056	    37	 100.0	    41	.....................................	GATCCAGTTGAAGATGACCCTAGTGGACCAGTAGAAGAATA	
+    937134	    37	 100.0	    38	.....................................	ACGCCTGTCAAGGTGCTGAATGTTCGAGGTGGCAAGAT   	
+    937209	    37	 100.0	    37	.....................................	CTGACCTTAGCCCACATACATTACACCTCCTATAGAA    	
+    937283	    37	 100.0	    38	.....................................	TGTTCATTAACACAAGATACTATTGTAGACAATGGATA   	
+    937358	    37	 100.0	    38	.....................................	ATATTCTACCATTAGTTGTATTGTCAACAGGGTCAGAA   	
+    937433	    37	 100.0	    37	.....................................	ACGCTTGAGACGTCGCCTAACTCTACCTCTGCATTAA    	
+    937507	    37	 100.0	    38	.....................................	ATCTACCGAGAAAAAGGACTCAGCAACGATAATTACTT   	
+    937582	    37	 100.0	    37	.....................................	ACTAACTTGTTGCCGATTGAAGGAGAGGCTAATACTG    	
+    937656	    37	 100.0	    37	.....................................	GCAATGCAGGAGTTAATGAAGTCGCAGGAGTAGTTCA    	
+    937730	    37	 100.0	    39	.....................................	ATTCAATCGCCTTACAACAAGCAGTAAGGGATTTAGATA  	
+    937806	    37	 100.0	    37	.....................................	TATATTTCAGAATTGCATAATCGTACAGCAGAAGAAG    	
+    937880	    37	 100.0	    37	.....................................	ATTGCATTGAAAATATTCTCCCAAATGTAAGTTATAG    	
+    937954	    37	 100.0	    38	.....................................	CAAAAATTGATAGTTTCAGCCTAATATGATATAATAAA   	
+    938029	    37	 100.0	    36	.....................................	TTTAATATTAAAAACGGATATGCAATTCAAGTTTTA     	
+    938102	    37	 100.0	    37	.....................................	ACTCACCACCTACCTTATCAGCTAGTTTTAGCAACAA    	
+    938176	    37	 100.0	    39	.....................................	AGGAAAGTATGCAACTAGTTATAGAACCCCAGTAGATTA  	
+    938252	    37	  97.3	     0	....................................C	|                                        	
+==========	======	======	======	=====================================	=========================================	==================
+        33	    37	  99.9	    37	GTTACAAACCTTACTCCGTTAAGTAGGAGACTGAAAG	                                         	       
+
+# Left flank :   ACAATGTACAATTTACAATTAAATTATAAATACTATTTCAAAGAAAGAAGGGATTAGTGATGAAGGAGAAATATTGTGCTAAGTGTGATGTTTATTATTATACTCCAGAAGGGGAGAAAGAAATAGCTGATTGTCCATTTTGCAGTTTAGGTGGCCTAAAAAATGATAATTTAACAGTGAGAGATAAAATGGTGGAAAAAAATTATAAAAATTTTACTGATAAAAAAGGAATTTAAGAAGAATAATAGAAATAAAAAGTTAGTGATAGAAAAAGTGTTTTCGCAAACCTATCTAAAAAGAATTTTGAATGGAAGTTCTAAAAGTACTGGATAACACATAAAATACTCGTCAGCCCAGTAGTAACAGTGGTTGAGAAAGGTTTCGCAAAGCCCTAGGGGTTTGCTGTAAGATTCGGTTTGCGAAAATTTAGGTGTAGATTAGAGAAGGTGAAGTGCTGTGAAGCACTGAAATCATAGGGTTGGGATTATTCATTTCGCGCG
+# Right flank :  CAGTTTAATAAAAGAGATAAAGAAAATGATGAACGGGGAGGTTACAGCAACCACTTTAGAGTAATTATAAGTGTTTGTTTTTAACTGTAAATTGTACATTGTAAATTGTCAATTGATTTATTTACTCTGTTAAGTAGGAGACGAAAGAACAAAATATAGGAATAAATGAGGCCAACTCTCTTTTTTAAGGGAAGTTGGCCCCATTTTATATAAAAATCTAATTTTTTTATTGTTAATTCCCACCCAGTTGGGAATGGGATGTGTTATACTAATTTTAAGTTAGATTTGGTGGTAGGTAGTGGATTAAGAAAGATTAGGTCAAAGTGACAATAAATGTATACTTTTGGAGGAAACTGAAGTTATATCAAGAATAATTAATTATATAGTTTCTTTTATTAGGAGGGAGCTAGATGAGTAATAATTTAAAGGATGATAATTTAAAGAAAATAAGTAAATTGATTAAGTTTATTAATTTGACAGAAACAAAATATGCGACTTAT
+
+# Questionable array : NO	 Score: 8.68
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.68, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTACAAACCTTACTCCGTTAAGTAGGAGACTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.46%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.70,-4.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [531,410] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Autoregulator Cas7:WP_015326645 [944189-945148]; Cas4:WP_015326639 [933862-934431]; Endonuclease Cas1:WP_015326637 [932585-933601]; Endoribonuclease Cas2:WP_015326638 [933603-933848]; Helicase Cas3:WP_015326643 [939971-942313]; 
+# Array family : NA
+# Sequence source strain : DSM 5150
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Halanaerobiales;Halobacteroidaceae; Halobacteroides.; Halobacteroides halobius DSM 5150
+//
+
+
+Array 3 947122-948433 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019978-Halobacteroides halobius DSM 5150, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	=====================================	=========================================	==================
+    947122	    37	 100.0	    35	.....................................	CTAGATGAGCGGATGGGGAGTACAATCAGACATAA      	
+    947194	    37	 100.0	    37	.....................................	TACGGCGATGATCAAAAGAATGGGTTAGATCAATTTC    	
+    947268	    37	 100.0	    38	.....................................	CCTGTTTCCTTGACTTGTAATGTTAGTTTTCTGCCGTC   	
+    947343	    37	 100.0	    39	.....................................	CCTACATAACATTATATATAAAATTACCGTTTTTTTAAT  	
+    947419	    37	 100.0	    38	.....................................	GTACAGGAGTGGCGATCAGAACAGACGAAAGCCTTAAC   	
+    947494	    37	 100.0	    38	.....................................	CAATTCTCATTCCAAGCTTTGTAAGCCATAGCTGCTAC   	
+    947569	    37	 100.0	    38	.....................................	ACGACAGGGGATGAGTGATAGAAATATTAGTATAGTTG   	
+    947644	    37	 100.0	    35	.....................................	AATAAGTGATGAAATAAGTGTGACAGCTGGCAAGA      	
+    947716	    37	 100.0	    37	.....................................	GGTTACTTAACATGGGAAGCTCAACTTAATGCTAACT    	
+    947790	    37	 100.0	    40	.....................................	CGGAATCAGAATAGCAGTTGGAACCAGTTTGACGTAGACG 	
+    947867	    37	 100.0	    41	.....................................	GCCATTAGAAAGACAGGAAGTTATTCAGTAGACAATCAAGA	
+    947945	    37	 100.0	    38	.....................................	TCTTTTTATTCTCCAGCTCTAATTTTTGCTTTTCTTCT   	
+    948020	    37	 100.0	    37	.....................................	ATTTATTATTAGGATTTTTTCGTTCGATTAAGTAGCC    	
+    948094	    37	 100.0	    39	.....................................	ACTATTGCTTTAAGCTCCGGTTTGATTTTTTTAAACTTT  	
+    948170	    37	 100.0	    40	.....................................	CACATTAAGAGTCGTGCTCCATCATTAGTCAAAGCACCTT 	
+    948247	    37	 100.0	    38	.....................................	CTAATTCTTCCTTAGCAAACTTCTGTAGGTCTAACTCT   	
+    948322	    37	 100.0	    38	.....................................	CTAATTCTTCCTTAGCAAACTTCTGTAGGTCTAACTCT   	
+    948397	    37	 100.0	     0	.....................................	|                                        	
+==========	======	======	======	=====================================	=========================================	==================
+        18	    37	 100.0	    38	GTTACAAACCTTGCTCCGTTAAGTAGGAGACTGAAAG	                                         	       
+
+# Left flank :   TAGTTGGCAGAGTTGGGAGCGTTACTCTAATCGTCAAAATAAAAGGATAAAAATGAAAGGTTTAGTAGGAGAAGTAGAATATAAAGGTAACTTAGAAAAATTTTTATCTTATTTGATATTAGGCCAATATGTTAATGTAGGTAAGAATACTGTTTTTGGATTAGGGAATTATAAATTAATAAAGAATTAGATTTAAGAATAGATTTGCAATTAAATCTAAGGTTGTTGCAGGATTTAAGGTTAGAATCAAGAAGATTAAGCATAGAGATAGATTGCTATTTTCGCAAAGCTATCTCAAAAGACTTTTTTGTAATAATTTCAGACTGGATTGTTAGTATATAAAATGCTGGTCAGCCTAAGAATAATAGTGGTTGAGGGTAATTTCGCAAACTCCTAGGGTTTCTGTGCAAGATTCGGTTTGCGAAAATATAGAACGCTTTAGAAGCAAGTAACTGCTGTAAACCCTTGGTATCATAGGGTTGAAATTTTTATATCGCGCG
+# Right flank :  GATATAAGTTAAGTTACAAGCTTATTTATTAAAGCTAAAGCGTATAAAATAAGATAGTTTTGCAATGTTATCTTTCTATGGTATAATATTATTTAGGCTAAAACAAATAATAAACTTGAGTTTATATAGATGATAGGATAAAAGGAGCGATACATATGTCAACAGAGGGAAGATATTTCATAAGGACCTACGGGTGTCAGATGAATGAACATGATTCAGAAAAATTAGCTGGAGTTTTAAAGGATATAGGGTATAAGCCAGCTGATGAATTAGCAAAAGCAGATGTTATTATTTTAAATACTTGTTGTGTGCGAGAAAATGCTGAGCTTAAGGTTTTTGGAAAGCTTGGTGAAATAAAACAGATAAAAAAAGAAAATCCAGGTTTGATTGTAGGAATTTGTGGTTGTATGATGCAACAAGAAGAGGTAGTAAATAAGATAAAGCAAAGATATAATTTTGTTGATATTGTTTTTGGGACACATAATATTCATCGTTTTCCT
+
+# Questionable array : NO	 Score: 8.51
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTACAAACCTTGCTCCGTTAAGTAGGAGACTGAAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.90,-4.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-80.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [312,155] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Autoregulator Cas7:WP_015326645 [944189-945148]; Cas4:WP_015326639 [933862-934431]; Endonuclease Cas1:WP_015326637 [932585-933601]; Endoribonuclease Cas2:WP_015326638 [933603-933848]; Helicase Cas3:WP_015326643 [939971-942313]; 
+# Array family : NA
+# Sequence source strain : DSM 5150
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Halanaerobiales;Halobacteroidaceae; Halobacteroides.; Halobacteroides halobius DSM 5150
+//
+
+
+Array 4 2084686-2084471 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019978-Halobacteroides halobius DSM 5150, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                                 	Insertion/Deletion
+==========	======	======	======	==============================	================================================================	==================
+   2084685	    30	 100.0	    61	..............................	GAAGGAGTAGTTTTTTAGATAAATAAAAAATAGATAAAAATCTCTTGACAACAGACATTAA   	
+   2084594	    30	 100.0	    64	..............................	AGAGAAATCATTTTCTTGGGACAAGCAAGAAAAAGACAGAAAAAGTCTTGACAGTGATAAACTA	
+   2084500	    30	  93.3	     0	................A.........A...	|                                                               	
+==========	======	======	======	==============================	================================================================	==================
+         3	    30	  97.8	    63	ATTTGTTAATATAGTAGATGTCGCTTGAAA	                                                                	       
+
+# Left flank :   ACGAGCGTATAGTCAACTTCCTAAATACCCAGCCTTAAAGCGTGATATTGCTTTAGTTGTAAAAGAAGGGATTACTCATCAAGAGATTGAAGATCTTATTGAACAAGTAGGAGGAGCAATAATAGAGTCAGTTGAGTTGTTTGATTTATACCAAGGAGAACAAATTCCAAATGGATATAAGAGTTTAGCTTATTCATTAAGTTATCGAGTGACAGATAGAACTTTAACGGATAAAGAAGTTAATAAAGTACAAGAACAAATAGAAGAAGAATTAGATAATAAATTAGAGGCTAAGATTAGAGAATAATCTTTATTTAAATTATATTGATATATAGTGTAGGGAATTAGTGTGAGTGATACCAACTCACACTAATACTTAATATTGATTATGATTTTTTATTGACAAGATTGAAGTTATCTGTTAGAATACTAATCGTGCTGTTAAGGAGTACTAACCAAAGACTTAATTTTTGTAGAAAATCCTTGACGATAAAGAAAAG
+# Right flank :  AGACAAGAGACATTTGGTCTTTGAAAACTAAACAATGTAGAGTTTTGACTATCTAAGTCAGTTTCAAACTCTTATCCTTTATTCGGAGAGTTTGATCCTGGCTCAGGACGAACGCTGGCGGCGTGCTTAACACATGCAAGTTGTGCGAGAAAGTTACCTTCGGGTAACAAGTAAAGCAGCGAACGGGTGAGTAACGCGTAAGTATCTACCTTTAAGTCTGGGATAACTCTTCGAAAGAGGGGCTAATACCAGATATACTCCTTTGGAGGAAAGATGGTATTACTATTGCTTAAAGATGAGCTTGCGTCCCATTAGCTAGTTGGTGAGATAACAGCTCACCAAGGCAACGATGGGTAGCCGACCTGAGAGGGTGATCGGCCACACTGGGACTGAGACACGGCCCAGACTCCTACGGGAGGCTGCAGTGGGGAATCTTCCGCAATGGGCGAAAGCCTGACGGAGCAACGCCGCGTGAGTGATGAAGGCCTTAGGGTCGTAAA
+
+# Questionable array : YES	 Score: 1.07
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.89, 5:0, 6:0.99, 7:-2.90, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTGTTAATATAGTAGATGTCGCTTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [5442,194] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Autoregulator Cas7:WP_015326645 [944189-945148]; Cas4:WP_015326639 [933862-934431]; Endonuclease Cas1:WP_015326637 [932585-933601]; Endoribonuclease Cas2:WP_015326638 [933603-933848]; Helicase Cas3:WP_015326643 [939971-942313]; 
+# Array family : NA
+# Sequence source strain : DSM 5150
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Halanaerobiales;Halobacteroidaceae; Halobacteroides.; Halobacteroides halobius DSM 5150
+//
+
+

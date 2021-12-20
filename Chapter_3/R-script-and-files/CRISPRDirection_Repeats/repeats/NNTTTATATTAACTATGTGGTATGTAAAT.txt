@@ -1,0 +1,40 @@
+Array 1 1-329 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_HF926059-Clostridioides difficile E10, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                               	Insertion/Deletion
+==========	======	======	======	=============================	==============================================================	==================
+         1	    27	  93.1	    43	--...........................	GAAGTCAACAATTTGGCTATTGGTTAAGTACAACTAGNNNNNN                   	
+        71	    29	  93.1	    38	..NN.........................	TTGCTTAGCGCAATAACTTTTGAAAATACTACAGGAGT                        	
+       138	    29	  93.1	    42	GT...........................	AAAGAAAATTGGGTTTTTGATTAAGAACTTGCGANNNNNNNN                    	
+       209	    29	 100.0	    62	.............................	CTGCAACAAGTATAGGTAAAATACTCCAATAATTTATATAGCATTTTCTCCTTTAAAATATA	
+       300	    29	  65.5	     0	AT.A.T.T...T..T...A...A....T.	|                                                             	A [313]
+==========	======	======	======	=============================	==============================================================	==================
+         5	    29	  89.0	    46	NNTTTATATTAACTATGTGGTATGTAAAT	                                                              	       
+
+# Left flank :   |
+# Right flank :  TACCAGATAACATTGACTTTAGTCTTATTGATTAAAATATAAAAGTAGAATAATTATAAAAAGTATTGAAAAGTTTATAAATATATAGAATAAAACTTAATGACAAGATACTAGATATAAAAATAATTACCTTATAAATAGATTGAAATTTGTGAATATTCATACTATAATTTAGATATAAGGAGATGCTCTTATAAACTTAAAGGGTTTGTACTACTTGTACTATCAGTATTGATAATATTAAAGTATATATACCATTTGTATTTGTTGAAAAAGATTTTAATAGTAATACAATGTTAAACAACACAAATATCAAAATTTAATATTGATAGAGGTATAAACATTATAAAAATAATTGAAAATAAAAATTAAGAAATATTTAATCCAACTACAATATAAATTAGAACTACACTTAATAAGTATACAGAAATTAGATTTGGCTCAATATAAAATACAAATATAGAATTTAGGTGTTTTTTATGAAAAAATTTTTATATGCT
+
+# Questionable array : NO	 Score: 5.92
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.45, 5:0, 6:1, 7:-0.25, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     NNTTTATATTAACTATGTGGTATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:80.00%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 96% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [3.3-81.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [4,480] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0.45   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : E10
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile E10
+//
+
+

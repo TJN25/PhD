@@ -1,0 +1,40 @@
+Array 1 72670-72963 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP010111-Bacillus thuringiensis serovar indiana strain HD521 plasmid		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+     72670	    29	 100.0	    36	.............................	GTTGAAATGTATGAAGAAAGCACCCCTAAACTAAGG   	
+     72735	    29	  96.6	    39	........T....................	ATTCGTTGAATAATAAACTCACCAATAAGCACGGTGAGT	
+     72803	    29	  93.1	    36	.A......T....................	CTAGTAGTTAATTTGAACTGGGTATTTGACAGTGTG   	
+     72868	    29	  93.1	    38	..G...T......................	TGGGGGAATGCTCGGCACCTCACTAAATCATTGCGAAG 	
+     72935	    29	  72.4	     0	..T......C..G......A.T.A.G.G.	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         5	    29	  91.0	    38	TTAAAACAAAACAATAGATGTATTGAAAT	                                       	       
+
+# Left flank :   TCGTCGCACATTCATTGTTAATCATTCATATATTATCGGGGGTTAAAACATAACAATAGATGTATTGAAATTTTAAAGATTTTTGAACCTTTCCAGGAGTTAAACCCAGTTAAAACATAACAATAGATGTATTGAAATACTTATTAATAAGTCGGTAAGAGCCCTCTATTCAGGTTTTAACAAACTAATAGATGTATTTAAAAAGAAAACAAATCAATAAGAAACCCTGGGTGCTAGAGTGTGAATTATTAAATTTTTGGTGAATTTCCACGCCATAAATGGAGAAGTGATACACGGTAAATTTACCAAGTGTCAACGCTCCATAAGGTAGTATCGAATGTTAAATAAACATTGATACATAAGCATCCTGGATGCTGTGAAGGGTGTAACACAAAGACCGTTACATAATACATTAATTTGCTGGTGAAAAAGCAGGATATTGTTAAAATACAAGGGATCGTCGTACAATTCATTGTTCATCATCCATATATTATCGGGGG
+# Right flank :  TCTCATTGAACTTTGATTCGATTTGTATATAAATAGAGTAAATGTTATTATATAAGTAATCCAATACTGAAAAAATCATATTGCAAAAGGACACACCTACGCAGAACCATAGCGTAGGTGTGTCCTTTTTTTGTTTAAGGAGGAAAAAATTATGGGGAAAACGTTATTTATTGCAGAAAAACCAAAAGTGGCCAATGAAATTATGAAATCGCCACGATTCCGTCACTCACAAAAGTACATTGGTAGCAAACCTTATTACGGTTATTATGAAAATGATCATTATATTGTCAGTTGGTGCCGTGGACATCTGCTCGAACTAAAAAATCCGGAAGAGATGGATCCAAAGTATAAAGTGTTTCAGTTAGAACATTTACCTTTAATTTTTCAACCATCGTATAAAGTGATACAAGAAAATGCAGAGCAACTACAAATACTTGTTAAACTGTTACAGCGACCTGATGTTGACCATGCCGTGAATATTTGTGACGCGGACCGCGAGG
+
+# Questionable array : NO	 Score: 6.29
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.55, 5:-1.5, 6:1, 7:0.93, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTAAAACAAAACAATAGATGTATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [63.3-78.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [723,151] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.09,0.27   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas7:WP_080989225 [57722-58156]; Endonuclease Cas2:WP_044306554 [57218-57454]; Helicase/endonuclease Cas3:WP_050822395 [46901-49330]; 
+# Array family : NA
+# Sequence source strain : HD521
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus thuringiensis serovar indiana
+//
+
+

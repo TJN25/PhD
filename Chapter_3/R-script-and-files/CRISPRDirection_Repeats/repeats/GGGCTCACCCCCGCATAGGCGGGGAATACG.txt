@@ -1,0 +1,40 @@
+Array 1 187842-187568 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL383090-Propionibacterium acnes HL001PA1 Scfld70, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	==============================	===============================	==================
+    187841	    30	 100.0	    31	..............................	CTCCATCCAAGCCAGGCAAGCCGTTAACACC	
+    187780	    30	 100.0	    31	..............................	GAGGAAACGCCGACCACAACTCGTCATACGC	
+    187719	    30	  96.7	    31	C.............................	AGGTGCTAAAAGCGCCTGGTGTGCAGGCCAT	
+    187658	    30	 100.0	    31	..............................	AGGTGCTAAAAGCGCCTGGTGTGCAGGCCAT	
+    187597	    30	  96.7	     0	.............................A	|                              	
+==========	======	======	======	==============================	===============================	==================
+         5	    30	  98.7	    31	GGGCTCACCCCCGCATAGGCGGGGAATACG	                               	       
+
+# Left flank :   CGCTACGGGAGAGGAGCCGTCAGTAAGCGACTCGTTTGCCGAAGCCTGTTGTTTGAGCTCATCAAACTGTCGGTCTACTTCAGCCGTGCTTGTCGGGGTGTCGGCGGGCATGGCGTTCTTCATGCGTTCGGGTGTCCAGTAGGAGGCGACAATGGGGTCGCCGCTGCTCGCATTGAGGCCAACTTTGCTTGCGGTACTGGACGGTGTGTAGGTCCGATTTGTGTCGGGGTCCGTTACCTGTGCACGTACTGCTGTGGTGGCGGACGACAGTGGTGGATCACTCGGTGAGCTGGGCGATGCGGATGCCGGTGCAGTGATCGAGATGAGGAGAACGGCCGCTGATGCGAAGGTTGCGAGGGTGATGGATACGTTGCAGAACTGGGCCATGTTGATTTCTCCGGGGTGATGGTTCGTGCAGTAACTGGGGGATGGATCACGTCCGGGCTCACCCGCATAAGCAAGAATCACTAGTGTAGCACAGCTTCTGTTGCGATGGGAAT
+# Right flank :  CCAGCCGACTACGACTGATGCAGGAGCTGTTACCAGATACGAGTGTACTCGATCTAACGTCTCGAAACTCTGCGGCGCCGCGCAGCTGAACTCCACCCTGGCCGGAGTGTTGAGGTCTGACCTCGATTGTTTGGCCTCCGCATGAGCTTCAGCCCGTCGAAGTCGACCACTTCCCAGTCATGGCGGTGCACCCGGAACTCGAAGTGTTGTTCACCGCGTACCGTATACACCAAGATTGCGCGGCCATCCCGGCACATCTCGATGACCCTGTCCCACAGTGCATCCCTGACGCGAGTCGGAACGTGACCGACGAAAACTCCTGGGCTGATCTCGAGTAGCCATCGGGTGAGATGGCCGCGTAGACCCGCTGGGCATGCGGTGAGGACAAGCACGGTCATGATTAGCCCCAGGACCTTCCACCGGCCACTACGCCTTCCCGGTCGTCCCACAAGTCGACGATGTCCCAGCCGTATCCCTCGTCAGGATCACCGGGGGCGTTC
+
+# Questionable array : NO	 Score: 6.60
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.07, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGCTCACCCCCGCATAGGCGGGGAATACG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.50,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [48.3-48.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [55,114] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.33   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_002546991 [178656-181451]; 
+# Array family : NA
+# Sequence source strain : HL001PA1
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Propionibacteriales;Propionibacteriaceae; Cutibacterium.; Propionibacterium acnes HL001PA1
+//
+
+

@@ -1,0 +1,38 @@
+Array 1 53002-52849 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BAWB01000028-Bacillus sp. JCM 19046, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+     53001	    19	  59.4	    35	-------------...................	CTTCAAGAAGTAATCCTAAAAAGAAGATGGTACAC	
+     52947	    32	 100.0	    35	................................	TTGTTGTTCAATGGTGGCTTCCAGCGCTTCAATTT	
+     52880	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+         3	    32	  86.5	    36	GTCGCACTCCATGTGAGTGCGTGGATTGAAAT	                                   	       
+
+# Left flank :   |
+# Right flank :  ATTTGGGACTCGGTAGCGCTCACACAGGCAAAGTTTCGCACTCAAATGAATACACGAAATAAAACGAAGATGTTTTACTAATGAGCTGTAAACCATCTATATTTTTCAACAGGACATTATCAAACAAATAAAAACTTACCCAAAAATAGATTCATAATTCCAATTTATAAACTACTAAAAAAAGTACAAACTAGGAGTATTCACTATGCCCAAACAACCATTCTTCCCGCAATTGGAAACAGATCGACTGCGCTTAAGAGCGTTAACGGATGACGATGCGGTATTTATTTTCAAACTGTTTAGTAATGAAAAAGTGTGCGCGTTTTTGTATGATGAAGAGGTTTATACGTCGATGGATGATGCAAGGGAGTTTATTGAGTGGCATGCTGAGCCTGAGAAGAAAGGCGGAATCGTTGGGGAATTGAACGAAAGACGGATGGCGTGTTACTTGGGACCTGTGGGTTTGATTCGTGGGATCGCTACAATCACATTGCGGAAAT
+
+# Questionable array : NO	 Score: 9.52
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.33, 5:0, 6:0.7, 7:1.40, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCCATGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [9,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.50,-8.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [55.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [207,1] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [1.23,4.87   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JCM 19046
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus sp. JCM 19046
+//
+
+

@@ -1,0 +1,51 @@
+Array 1 161551-162715 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB976557-Bacillus cereus BAG5X12-1 acfXH-supercont1.5, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                                                                                                	Insertion/Deletion
+==========	======	======	======	====================================	===============================================================================================================================================================	==================
+    161551	    36	 100.0	    30	....................................	CTCGTTTCTTGCGTAATACGTTGTCCTTCA                                                                                                                                 	
+    161617	    36	  88.9	    30	...........A...........TT......A....	TACGCTGAATGTGAAACTAACCTTGCTTTT                                                                                                                                 	
+    161683	    36	 100.0	    37	....................................	TGCTGCTGAATCATTTCTTTAAGATCGTTAATCATAA                                                                                                                          	
+    161756	    36	  86.1	    30	........A.T...T..C.............A....	ATCACCATTACTAACATTTCTAGCTGAACT                                                                                                                                 	
+    161822	    36	  94.4	    30	................A..............A....	TCCGAGAACCTAACTTAACTTTATCAACTG                                                                                                                                 	
+    161888	    36	  86.1	    30	.C....T.A...........T..........A....	AAATCGTGTATGGACGTTGCCTGAAAAATA                                                                                                                                 	
+    161954	    36	  88.9	    31	..............T.......C........A...T	AAATCAAACACCTATTTTTTAGATATTCACA                                                                                                                                	
+    162021	    36	  83.3	    30	........A.T...T......C..T.....C.....	ACAAATTTACGACGTGTCCAGTATTCATAA                                                                                                                                 	
+    162087	    36	  94.4	    30	.....................C..A...........	CCAATTGCATACGGATTTCCTAATAACATA                                                                                                                                 	
+    162153	    36	  88.9	    32	........A.T...T................A....	ACGTTTACAATCATGCTGTCTTTATCATCTAT                                                                                                                               	
+    162221	    36	  86.1	    30	........A.TA.....G......A...........	ATAGTCTTTATCTTCTAATAAGTACCCTAT                                                                                                                                 	
+    162287	    36	  91.7	    30	........A.T...T.....................	TGAATCTTTATGAGGGAAATCCTAATTAGT                                                                                                                                 	
+    162353	    36	  88.9	    30	........A.T..A.................A....	ATGATGAAATTATATTACAACAAGTATATG                                                                                                                                 	
+    162419	    36	  83.3	    30	.G......A...TA...............T.A....	TATTCAGGAATCTAACGTTATCCTTTAATA                                                                                                                                 	
+    162485	    36	  80.6	   159	T.......A..........AT.C.T......A....	TCCCAACGACTCGACAATTGTCAGGAATCACATAGAACAGTGGGGAAATCTTACATAACAAATTCCTATCACTATTATTTCCAATCTCTTTATTTTTTATAATTATATGTTTATCTAGGTATAAAGTTTGTTTTTAGGGTTAATAATGCAACTATAAGG	
+    162680	    36	  80.6	     0	......T.A...............C.TT...A...T	|                                                                                                                                                              	
+==========	======	======	======	====================================	===============================================================================================================================================================	==================
+        16	    36	  88.9	    39	ATCATAGCTTAGCGATGTTTCTTAGGGAACTTTAGC	                                                                                                                                                               	       
+
+# Left flank :   TTATGAAGCAAGTCGGCTTTAAAACTCATGAATCGCTAAAAAGATATCGTAAGTTTTATACAAACTCTAACGAGAAGAAAGGTTAAAATTCTGTACTTGCTATATAAAATTTATATACCTACAGTTTTTTTAGATAAATGTAAGATGGGGCTGTTAAGATGAAGAATAATAAGGAATCATATTCTTTCCATGTATACACTTTGCGAGACAAGACTACTAAATCAATAAAAATTGAATCATGGCGAACTTTAAGGGAAGAAATGCAAGTATTAGGCATAACGGATAGTGATATTTTTCAAATACAAATGATAGAGATAAAGCCAAATCAAAAGTAACATAATGACATCCCTCTACTTCCATGTCTAGAAGTTCTATAAACAAAAATATATAGTGTTTTTTCAAAAACGAGAGAACTATGGGAATAAAATGATAGTAATCACTTCTTTTCTCCAAAGAAAAACCCTGTCTAGTTTTATTAAGACAAGGTTCTTTAGACAACT
+# Right flank :  TAAGGGCAATGACCCGTGGCGTTTGGGGATCGCCTTATCCTATATGGATATTCTCCCCATGAGAAAAGCACCTAAGCATAAGGCTAAGGTGCTTTTATTTTGAGAAACGTGAAGGAGGTTGTGTAATTGCGATATGTATTAGGATTGGATATTGGAATTGCATCTTGTGGTTGGGCTGTAATCAATCAAGAAAAAGAGAGAATTGAAGATTTAGGGGTTCGTATTTTTGATAAAGCTGAAAATCCCAAGGACGGAAAATCGTTGGCTGCACCTAGGCGTGACGCTCGCTCTACTAGGAGAACCCTACGCCGTAAAAAACATAGAATGCAACGGATAAAGATACTTTTAGTAAAACAAGGCTTACTATTCAAGACTGAACTTAACCATTTATATGAAAGTGCTACTGAATTCGATGTTTGGAACTTACGTTTAGATGCTCTAGAGCGCAAATTACATCCAAAAGAGTTTGCCAGAGTTCTTATTCATCTTGCTAAAAGAAG
+
+# Questionable array : NO	 Score: 2.21
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.45, 5:0, 6:1, 7:-0.45, 8:1, 9:0.21,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATCATAGCTTAGCGATGTTTCTTAGGGAACTTTAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.60,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [11-36] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [416,126] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BAG5X12-1
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus cereus BAG5X12-1
+//
+
+

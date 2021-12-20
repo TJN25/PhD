@@ -1,0 +1,99 @@
+Array 1 47267-48416 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AHNB02000020-Leptospira interrogans str. L0996 ctg7180000005480, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                               	Spacer_Sequence        	Insertion/Deletion
+==========	======	======	======	==============================================	=======================	==================
+     47267	    46	  93.5	    23	.........T...T......................G.........	AGAGTTGGATTTGAGTTTTAACT	
+     47336	    46	  82.6	    23	C...T...........C......G....G...T.GG..........	ACGGTTAAATTTGAATTCCCAAA	
+     47405	    46	  91.3	    23	.......G..C..T......................G.........	AGAGTTGGATTTGAGTTTTAACT	
+     47474	    46	  82.6	    23	C...T...........C......G....G...T.GG..........	ACGGTTGGATTTGCATCAAAACC	
+     47543	    46	  78.3	    23	G....G.......T..T.TG...........GT..A.A........	AGAGTTAGATTTGAATAGCAACA	
+     47612	    46	  89.1	    23	..........C..T...........AA.........G.........	AGAGTTAGATTTGCATCGAAACC	
+     47681	    46	  95.7	    23	................A...........................A.	GACCTTGAATTTGATTGTTACCC	
+     47750	    46	  76.1	    23	.G..A.....C..T..C........A..GG.G..T.........A.	GACCTTGAATTTGCTTGATAACC	
+     47819	    46	  80.4	    22	....T........T..C........A..GG.G..T.........G.	GATCTTGGTTTTGCGTGAAAAC 	
+     47888	    46	  89.1	    23	GGA.....G....T................................	ATGGTTGGATTTGCATCAAAACC	
+     47957	    46	 100.0	    23	..............................................	ACGGTTGGATTTGCATCAAAACC	
+     48026	    46	 100.0	    23	..............................................	AGAGCTCTGTTTAGATGAGAATC	
+     48095	    46	  82.6	    23	.......G.....T.............AG...T....A..C....G	AGTCTTGGATTTGGATAATAACC	
+     48164	    46	  78.3	    23	.......G.....T.........G..CT..GG.......GC..G..	AGTGTTGGCTTTGGGTAGTAACC	
+     48233	    46	  82.6	    23	G....T....C..T..................T.G.....C..G..	AGTGTTGGGTTTGATTAGTAACC	
+     48302	    46	  89.1	    23	.......G.....T..................T.......C..G..	AGAGCTCTGTTTGGATGAGAATC	
+     48371	    46	  80.4	     0	...........T.T..T..G......A.G.....GA.A........	|                      	
+==========	======	======	======	==============================================	=======================	==================
+        17	    46	  86.6	    23	AACTCACAACTCTCCCGAAAGAAATCGGACAACTACAGAATTTACA	                       	       
+
+# Left flank :   CCTAACGAAATCGAGCAATTGAAGAACTTACAAACATTGTACTTAAACAACAACCAATTCTCATCCCAAGAAAAAGAAAAAATTCGAAAACTTCTTCCAAAGTGCCAAATTTACTTTAAATAAAATTTCTCTTCTCTTTTGAACCTTAAACTAACTTGAATAAAATGAAAAATTATTAGATTTGAAACCAAAGATAAAGATTTATGAGATCTTTCTTTTAAAAACACTTAGTTCTTTAAAAAAGAACGTTTAAATTGAATGACGTTTGATTTTTATTTAGAAACTTGTCTTTCAATTTAATTCAATCCCAATCCAGATAACCTTTATGAACTTTCGCATAACGTTAATTCACTTACAAAAAATATCCATTTGTCTTTTTCTTCTAACCTGTTTTATTTACGAATTGCAAGCAGAAGAATCAGAATCAGGAACTTACACAGACTTAGCAAAAGCGCTTCAAAATCCTTTGAAGGTTCGAACCTTGGATTTGAGATACCAAA
+# Right flank :  AAGAGTTGCATTTGTATTTGAATCCTCTCTCATCCAAAGAAAAAAAAAGGATTCGAAGATTACTTCCAAAATGTGAAATTCATTTTGAAGAATATCATATATAGAATTCTTTAGTTTCCTCAAAATACAATTCTCGATCCGGAGAATCTTTATGAAATTTCGCTTAACTTTGAATTACTTACAAAATATAACAATTGGCCTTCTGTTTCTCATTCATCTTTCTTGCAAGATTCAAACGGAAAAAGTAGAACCAGTAACTTATAGGGATTTAACAAAAGCGCTCCAAAATCCTTTGGGTGTTCGAATTTTGAATTTGAGTCGTCAAAAACTCAAAACTTTTCCTAAAGAAATTGGGCAATTGAAGAACTTGCAAGAGTTGCATTTGAGTAGTAACCAATTCACTACTCTTCCTAAAGAAATCGAACAACTACAAAATTTGAAATCATTGGATTTATGGGATAATCAACTTAAAACCCTTCCTAAGGAAATTGGACAATTAC
+
+# Questionable array : YES	 Score: 1.23
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.33, 5:0, 6:0.25, 7:-0.54, 8:1, 9:0.19,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AACTCACAACTCTCCCGAAAGAAATCGGACAACTACAGAATTTACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.87%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.50,-6.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [38-40] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [379,151] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : L0996
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.; Leptospira interrogans str. L0996
+//
+
+
+Array 2 51542-52330 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AHNB02000020-Leptospira interrogans str. L0996 ctg7180000005480, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=============================	========================================	==================
+     51542	    29	  79.3	    39	........AA.......C.A...T..A..	TCGTTAGATTTGGCTAATAACCAATTTAAAACTCTTCCT 	G [51544]
+     51611	    29	  93.1	    40	.......C.........C...........	GAATTGAATTTATGGAATAATCAACTTAAAAACCTTCCTA	G [51613]
+     51681	    29	  89.7	    40	.................C.A...T.....	ACATTGATTTTATCTGTTAACCGACTCACAACTTTTCCAC	
+     51750	    29	 100.0	    40	.............................	AAGTTGAATTTAGATTATAACCAACTCACAACTCTTCTAC	
+     51819	    29	 100.0	    39	.............................	AAGTTGAATTTAGATAAAAACAGGCTCAAGGCACTGCCT 	
+     51887	    29	  82.8	    40	.......C......T..C....CT.....	GAATTGTATTTGAGTAATAACCAACTCACAATACTTCCAG	T [51889]
+     51957	    29	  86.2	    39	.G............T....A...T.....	GCATTGATCCTGGGTGATAACCAACTCACAATACTTCCA 	
+     52025	    29	  86.2	    40	..............T..C.....T..A..	TTGTTATATTCGGTTAATAACGAACTCACAATACTTCCAC	G [52027]
+     52095	    29	  82.8	    39	..............T..C.A..G..A...	TACTTATATTTAAGCCACAATCAACTCACAACTCTTCCA 	
+     52163	    29	  86.2	    39	.......C........GG.....T.....	GAATTGTATTTGAATGATAACCAACTCACCACTCTTCCA 	G [52165]
+     52232	    29	  89.7	    40	..............T....A...T.....	ACATTCATTTCGTTTAATAACCAACTTACAATGCTTCCAC	G [52234]
+     52302	    29	  86.2	     0	................CC.....T....G	|                                       	
+==========	======	======	======	=============================	========================================	==================
+        12	    29	  88.5	    40	AAGAAATTGGACAACTAAAGAATCTGCAA	                                        	       
+
+# Left flank :   GAACTTGCAAACGTTGTATTTGAGTAATAACCAACTTACAACTCTTCCAAAGGAAAAAGAAAAAATTCGAAAACTTCTTCCAAAGTGCCAAATTTATTTTGAATAAGATTTCTTTTCTCTTTTGAACCTTAAACTAACTTGAATAGAATGAAAAATTATTAAATTTGAAACCAAAGATAAAGATTTCTGGGATCTTACTTTTAAAAACACTTAGAAATTTAAAAAAGAACGTTTAAATTGAATGACATTTTATTTTTATTTAGAAACTTGTCTTTCAAATTAATTCAATCCCAATCCGGATAACTTTTATGAACTTCCGCACAACTTTGACTTACTTACAAAGAATAATAATTAGTCTTTTATTTCTCATTTATTTATCTTGCGAGATTCAAGCAGAAAAAATAAAACCAGGAACTTATAGGGATTTAACAAAAGCGCTCAAAAATCCTTTGGATGTTCGAGTTTTGAATTTGAGTAGTCAAAAACTCACCACTCTTCCA
+# Right flank :  GTGGCTTAAATTAAACAACAATCAACTCTCATCCCAAGAGGAAGAAAGAATCCAAAAACTTCTTCCAAAGTGCCAAATTTACTTTGAATAAGATTTCTCTTCTCTTTTGAACAATAAGCTAATTTGAATAGAATGAAAAATTATTAGATTTGAAACCAAAGATAAAGATTTCTAGGATCTTACTTTCACAAATACTTAGAAATTTAAAAAGAACGTTTAAATTGAATGACGTTTTATTTTTATTTAGAAACTTGTCTTCCTATTTAAATAAATTCCAATCCGGATAACCTTTATGAACTTCCGTATAACGTTAATTCACTTACAAAAAATTACAATTGGCTTTCTGTTTCTCATGAATCTTTCTTGCGAGATTCAAGCATGCGAAGAACCAGGAATTTATAGAGATTTAACAAAAGCGTTCCAAAATCCTTTGGATGTTCGAGTTTTGATTTTGAGTGAACAAAAACTCAAGGCTCTTCCTGAGAAAATTGGACAACTTA
+
+# Questionable array : NO	 Score: 2.99
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.42, 5:0, 6:1, 7:0.28, 8:1, 9:0.29,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAGAAATTGGACAACTAAAGAATCTGCAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.97%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [13-23] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [396,292] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : L0996
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.; Leptospira interrogans str. L0996
+//
+
+

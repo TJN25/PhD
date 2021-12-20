@@ -1,0 +1,169 @@
+Array 1 1413639-1414027 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_021036-Taylorella equigenitalis 14/56 draft genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	=============================	===============================	==================
+   1413639	    29	 100.0	    31	.............................	GAGGTAAAAAATAAATATGAGTATGCATATG	
+   1413699	    29	  96.6	    31	............................C	AAGAGTTCCTCCACTTGCCCAGTTAGCACTT	
+   1413759	    29	  96.6	    31	.........T...................	TATGGCGTATCAATTGTGTGCCACATTACAA	
+   1413819	    29	 100.0	    31	.............................	TATCGCTCATCACATAAGGGCATCCAGTAGA	
+   1413879	    29	  96.6	    31	...........C.................	GAAGAATATTTTGAAGCAATGCGAAGTGGTT	
+   1413939	    29	  96.6	    31	...........C.................	AATATGCCTAACACAGCCTAGTAATTACAGA	
+   1413999	    29	  93.1	     0	...........C................T	|                              	
+==========	======	======	======	=============================	===============================	==================
+         7	    29	  97.1	    31	GTTAACTACCGTATAGGTAGTTTAGAAAA	                               	       
+
+# Left flank :   GTACTGCAAAAAAGTCTCCTGGTTTCCTACGTTGCCTTTTTTTCTCAATCATCTTAATAACTCTCCGAATATTTCAATCGCAGCATTTAGGTACTTAGCTCTCTTAGAATTATTTTTAGATATTCCATTAATTGCATTACCCGAGGTACCCCCTTGTGATTTAGCTTTTCCATTATATTCAATTAAATGTTGCTCTCTGCCACGAATAGCTTCTTTATTGCAGGAACACTTATCAAGTTCAGCAGGACCAAAACCTTGTTTATTCATATGATGTCCCTTATCTCTTCTACGCATAACCTGTTCTGGATCACCGTATCCACTAGTTCTTCCAGAATAAATTTCACCTGTCGCTTCATTTAGTTTCGTGTATGTTACATATATTTTTGTAGGTTTATTCTCCCATCCCAAAGGATCCACCCATTCCACAGGGTTAGGAGCATATTGATAGTTATTCAACCCTCCCCACAATTAACCAAGATTATATCGAGCCGATAGGAGTT
+# Right flank :  TCCTAATTAGTTTATCACCCCCCTCCAAACATTTAAAATCAGTAAAGCCACGTATACAAGGCACAATACAATCCCAAGGCACAAAACCAATCACACCTCTATCATTACTACACCCTTCAGTTACAATATCTCACAAATTTATTCAAATAAAAATAAAAACAGGAGCTACATCTTGATATCAGCACTGATCATAGCCGCTATTGTCGTTTCTATAGCTATAGGTTATATCTTCAAAATAAATATAGGTCTTCTTGCAATATCATTTGCTTACATAATTGGCACATTCATACTTGATTTAAAACCATCTCAAATCGTAGCACTGTGGCCCTTGAAATTATTTTTCGTAATCATGGCTGTATCGCTTTTTTATAATTTTGCGACAGTAAATGGCACACTAGAAAAGCTAGCAGATAACTTGATATACAGGTCCAAGAATTATCCTTATCTTCTGACATTCGCCGTGTTTGTAGCCTCTACTCTAATAGCAGCTATGGGTGCGG
+
+# Questionable array : NO	 Score: 6.47
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.06, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTAACTACCGTATAGGTAGTTTAGAAAA
+# Alternate repeat :   GTTAACTACCGCATAGGTAGTTTAGAAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.97%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.20,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [46,172] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas5:WP_015555714 [1546074-1546943]; Csy3:WP_015555713 [1545039-1546064]; 
+# Array family : NA
+# Sequence source strain : 14/56
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Alcaligenaceae; Taylorella.; Taylorella equigenitalis 14/56
+//
+
+
+Array 2 1544249-1543921 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_021036-Taylorella equigenitalis 14/56 draft genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   1544248	    28	 100.0	    32	............................	GTAGACACCTAAAACCGTCTCAAACCGCTGTA	
+   1544188	    28	 100.0	    32	............................	AACTATATTGTCGGAGCATTCCATTTTGTTGA	
+   1544128	    28	 100.0	    32	............................	AAGATAGGCAATTAAGCGCAGGTACGATATCA	
+   1544068	    28	 100.0	    32	............................	ATTCTGTAATTGGAAATCCGACAGGTGTGTTT	
+   1544008	    28	 100.0	    32	............................	GTTGGGCAATGGTTTGCCTTACTGAATAAGAT	
+   1543948	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         6	    28	 100.0	    32	GTTAACTACCGTATAGGTAGTTTAGAAA	                                	       
+
+# Left flank :   GACTATATACATATTACTAATGTTAAGTCTGTCCCTAAAAATATTCAGGGCTACGCAAGCTTTTTTAGACATCACGTAAAATCAAATCCATTTACTGTTGCGAAGAGACTTTGCCTCAGAAAAAATAAAGGAAACGTTAATCTTGATGATTTAAAAGACATAAACAAATTAGCCTTACAAATCAAAATTGAACATACCAATCTACCTTATGTTTGCCTATCAAGTCATTCTAGCAAGCACCGTTTTAGGTTATTCATCGATAGGGAATTAGTTCCCCTTTCTGTTGAAGGGAAATTTAATTCTTATGGTTTAGCCGTTAAATCTAACCTGGTTCATGGGACTAATTCAATGGGAACAGTTCCCTTATTTTGAAGAATGTTTTTTAGATCTTTAAAAACCAGTTAATAATCAATAACATACAAAAATGTCAAAAATTTTGGTCTTTAGACTTAAATTAGTTAATATCTAATTAAATCAATGTTTTGAGACTTTTTTGTACA
+# Right flank :  ACATATACCAGCGAATAAGTAAGCTCTTAAGGAGAAGCGGTTGATTCAGCAAAAGATAAAGTAGATGAAGTGAAAGAAAAAGCTACAGAAAAGACTGAAGAAGCGGTTGATTCAGCAAAAGAAAAATACGATGCTATGAAGGATGCTGCTGGTGACAAAATTGATGCTATAAAAGAGTCAACATCCGAAAAGGTTGAAACTATCTCTCAATAATGTCTAATAACTCTATTCTGGTTTCTAAGCCAGAATACCTTCAATTTGAAGATACATTAGAGTTATCGAGTGGGCAATCCCTAAACTCATTTACACTTGCCATTGAAACATATGGCAAGTTAAATCCCTCTGCCACTAATGCTGTATTAATATGTCACGCACTTAATGCATCACATCACGTTGCAGGTGTCTATGAAGACAATCCAAAAGATGTCGGTTGGTGGGACAATATGGTTGGACCTGGTAAACCTGTTGATACTGATAAATTCTTTGTAATAGGTGTTAAC
+
+# Questionable array : NO	 Score: 8.26
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTAACTACCGTATAGGTAGTTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.70,-6.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [63.3-80.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [214,129] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_015555714 [1546074-1546943]; Csy3:WP_015555713 [1545039-1546064]; 
+# Array family : NA
+# Sequence source strain : 14/56
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Alcaligenaceae; Taylorella.; Taylorella equigenitalis 14/56
+//
+
+
+Array 3 1588978-1589663 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_021036-Taylorella equigenitalis 14/56 draft genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================================================================	==================
+   1588978	    28	  79.3	    86	C.A.......-...........A.C.G..	GCAGCAAAAGTACCACTCGCACAAATTTTTCTAAACTACCTATACGGTAGTTAACACTAGAGGAAAAAATAAGAGTAAATGACGAT	C,C [1588992,1589002]
+   1589094	    29	 100.0	    31	.............................	CATATACCAGCGAATAAGTAAGCTCTTAAGG                                                       	
+   1589154	    29	 100.0	    31	.............................	TATACCACAGAACCAATATCGGGTGATGCAT                                                       	
+   1589214	    29	 100.0	    31	.............................	AGATTCTTACTCTGACAAGAACCAACATACT                                                       	
+   1589274	    29	 100.0	    32	.............................	AATCGTCATTTACTCTTATTTTTTCCTCTAGT                                                      	
+   1589335	    29	 100.0	    31	.............................	TAACCAAGATTATATCGAGCCGATAGGAGTT                                                       	
+   1589395	    29	 100.0	    31	.............................	CGTTAAATATAAGAAACTCTATGAAGAGAGC                                                       	
+   1589455	    29	 100.0	    31	.............................	TTTCAGATATAAAATCTGTGTGTTTAAACAA                                                       	
+   1589515	    29	 100.0	    31	.............................	TTTAAATCAAGGGCTGAAGCGGAAAGTGAAG                                                       	
+   1589575	    29	 100.0	    31	.............................	TCCCCATCCCAGGCTTGCACCCAGCCCCTAT                                                       	
+   1589635	    29	 100.0	     0	.............................	|                                                                                     	
+==========	======	======	======	=============================	======================================================================================	==================
+        11	    29	  98.1	    37	GTTAACTACCGTATAGGTAGTTTAGAAAA	                                                                                      	       
+
+# Left flank :   ACCTTTATTTATACAGCTTTCTAAACTACCTATACGGTAGTTAACTAAATGACGATTTGGTAGACGTTGATTTATTTTTTCTAAACTACCTATACGGTAGTTAACAAGATTTAGAGTGTTGATGTCTCCATTTGATATTTCTAAACTACCTATACGGTAGTTAACAGTGGAGGGCTGTATATTGAGGTTCGTCCAGCTTTCTAAACTACCTATACGGTAGTTAACGGCAACAGAAGGCGATTCACCATAAACCACTATTTCTAAACTACCTATACGGTAGTTAACAATACTTATTTTAAGGTAGCAAATCAAGTATTTTTCTAAACTACCTATACGGTAGTTAACTTCTTTAGGCAACAAAAAACCCTGCTCTTGCATTTCTAAACTACCTATACGGTAGTTAACGATTATCATAAATACCCTCCCAGTCTTTATAATTTCTAAACTACCTATACGGTAGTTAACACGCCCTTGTTGTATATAACCTTAATACGATTTTT
+# Right flank :  AATAAAATTTTGACCAATTCGATAAGCACAGCAACAATTGCCTCAGAGGATAGGATTGGGGAGCAGTTAGCAGTTCAGGCTCAGATAAGAAAAGAATCAGGCTCAGAGACAAGAAAGTTAAGCTCAGAAGTTCAGTACTTGTATGAGGATGGAGAGTTTGTACCGCTTGTCATGAAGGGCATTCTGCCATGGCTGTCGGCTTTTCGACTATTTCTAATAACGGTAGATGGATTCTTAAGGGTAATATCTCTGGCAATGGTCGCGGACAGGTCAGTGCAGGCCTCGGTGCAGGTATTGTTTGGAAGTAGGTGCTTAAGGGGTAGGAGCTCTGCACTGGCACGGGCATAGGTGCAGGATGGATTCGGACCACACAATGGCTAGGATTCATATGTCACCTCCGAACCCCTCTAATTAACCGCCCCTAACTTGTAACAAACTTATAACCCACGGATTGTTTATTCGTGGGTTTTTTGCAAGCTTGAGTTGCCAAATTGTAAATA
+
+# Questionable array : NO	 Score: 7.18
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.18, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTAACTACCGTATAGGTAGTTTAGAAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.97%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.20,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [937,188] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.82,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_015555714 [1546074-1546943]; Csy3:WP_015555713 [1545039-1546064]; 
+# Array family : NA
+# Sequence source strain : 14/56
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Alcaligenaceae; Taylorella.; Taylorella equigenitalis 14/56
+//
+
+
+Array 4 1603755-1603487 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_021036-Taylorella equigenitalis 14/56 draft genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   1603754	    28	 100.0	    32	............................	ATGCACATGCCTCATCAGTTTTTTCTTTAATA	
+   1603694	    28	 100.0	    32	............................	TAAAGAAACGTGTGACTGTATCAATCACATTG	
+   1603634	    28	 100.0	    32	............................	TCTTTTGCGGTGTTAAAGTAAATTGGCATAGC	
+   1603574	    28	 100.0	    32	............................	ACCCGTTCTGCCACTTCCCACCTTACACTCCA	
+   1603514	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         5	    28	 100.0	    32	GTTAACTACCGTATAGGTAGTTTAGAAA	                                	       
+
+# Left flank :   CTCCACCAACACTTTTAGGTGTGTGTATGCTCTCTTAGTATGAGTAGGTATGATTTACAAAAGGATGTTTTATAAAGCGTATATTTAGTGAATGCACTAATGGTATGCGACTTATAAAGTATCTTTAAGATGCTTTAAGGCTGTTCTTTAACAATTTGGAAGAAGCACAACAAGTAAAACAACGAAAAAGAGGTTGTGTAAGTGCGAGAAAGTGCCACTATATGGTGCTTGATGGTGNNNNNNNNNNCAATTAAGTATATGGGGGGATTAGCTCAGTTGGGAGAGCGCCTGCTTTGCACGCAGGAGGCCGTCGGTTCGATCCCGTCATCCTCCACCAACACTTTAAACTGATAGGACTCTGAAGGGTGTTTTATTAATCGTTCTCTTTAACTTAAAAGAGAGTGATTTAATAAAGTATCTTTAAGATGCTTTAAGGCTGTTCTTTAACAATTTGGAAGAAGCACAACAAATCGTCATTTACTCTTATTTTTTCCTCTAGT
+# Right flank :  ACATATACCAGCGAATAAGTAAGCTCTTAAGGAGGTTAGATAGCTCATCGTATTCAAATCTCCATAGCTTGGTGACATGATGATCAAAGATGTCGTATGAGTGAATCTCCCTTAACACATTACCTAATGCATCAAGCTCAAACTGATTCTCTGATGATACTAACTATCTAATGAAAGAAAATAGAGATTGGACAAAACCTTTAATCAATGCCTACAAACACTTCTCTAATATGTATTGCCATAATAAGGCTAGTGTTTGTAAAAGCTTTTTAGAAATGATTCATTTAAAAGACTTAATTGAGATTCACGCATATCAAAGCAAACTTATTTTTAAAGATTTGGGGATTGAACCCATAGAATCTGGATTAGATTAAGTGTAGCTAAGCTCTCCTTTGCGACTATCTTTAATGTTGATTAACTGATTTGCTCCATCGTAATGATAGTCTTGATTTAGTATGCTTTTCTTGACGTATTTACCACTTTGAGTGTGTTGATTAGCT
+
+# Questionable array : NO	 Score: 8.15
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.35, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTAACTACCGTATAGGTAGTTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.70,-6.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [172,996] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_015555714 [1546074-1546943]; Csy3:WP_015555713 [1545039-1546064]; 
+# Array family : NA
+# Sequence source strain : 14/56
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Alcaligenaceae; Taylorella.; Taylorella equigenitalis 14/56
+//
+
+

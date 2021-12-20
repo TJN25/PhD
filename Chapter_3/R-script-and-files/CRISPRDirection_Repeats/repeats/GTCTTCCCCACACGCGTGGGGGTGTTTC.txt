@@ -1,0 +1,132 @@
+Array 1 1388543-1388216 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_018522-Klebsiella pneumoniae subsp. pneumoniae 1084, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                                     	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	====================================================================================	======================================	==================
+   1388542	    84	  94.0	    37	CAGC.G..............................................................................	ACTTAACGTAGTCTCCGCCGTGTAGAACAGAAAATTG 	
+   1388421	    84	 100.0	    38	....................................................................................	TTCTCGCCAGCTGGATTTTCTGTCAAAATGTGAAGTAC	
+   1388299	    84	 100.0	     0	....................................................................................	|                                     	
+==========	======	======	======	====================================================================================	======================================	==================
+         3	    84	  98.0	    38	AGAAGTGGGTGATTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCGGCGGTTCGATCCCGTCATCACCCACCACT	                                      	       
+
+# Left flank :   TATAACGATCGAAACGTTTGGTCTGGAAATAGGGGCCTTCGTCCCATTGCAGATTCAGCCAGTTCATGCCATCCATGATGGCTTCAATTGCTTCCGGGGTGGAGCGTTCGAGATCGGTGTCTTCAATACGCAGCACAAACTCACCGCCGTGGTTACGGGCAAAAAGCCAGGAATAGAGAGCAGTACGCGCACCGCCAACGTGCAGATAGCCGGTTGGGCTTGGCGCGAAGCGAGTTTTGATTTTCATGAATTGGCCTTACGTTTAATAAAGATGCCGATAGCCGGCAATGTCCGGTGGAAATTATGGGTCAATATTCTAACACCGTGGGCTGATTCCTCAATGTTGTTCCCATCGGAACGTCACGGTTTGCCATTTTTGTTTATAAATCATGCTATGGCGCCGGTTTCGCGATCGCTTTGTTTAATTTTACGACGAACGAACGAATTCTTTAGAAAAGGCGTTGACTCATTTTCAACTCTCCCTATAATGCGACTCCACA
+# Right flank :  TCGGGTCGTTAGCTCAGTTGGTAGAGCAGTTGACTTTTAATCAATTGGTCGCAGGTTCGAATCCTGCACGACCCACCAATGTAAAAAGGCGCCCTAAAGGCGCCTTTTTGCTTTGCGCCGAACTCAACGATTCGAACCTGCAGCAGGTTCGGGTCGAACGCAGTGAGACAACGGAGCCGCTTGCGGCGACGGCCCGAAGGGCGAGGCGAAGCCGAGTCATCCTGCACGACCCACCAATGTAAAAAGGCGCCCTAAAGGCGCCTTTTTGCTATGCGCGGAACATGGCCCTGCCACGAGTCCCTCCGCAGCAATCCCCCCTGTCAGCGCTGATATAGCGGATCTTCAACCCTGGCGGCGGTTAAATTCTCCCCTTCTTCACGCACAATTTCCCATAACGCCTGAGCGGCGGTCGACAGCGAGCGATTTTTCCTGCATGCCAGCATCAGCTGCCGCTCCATCACCGGAGTCAGCCGTTTCACCGTCAGATGGCTCCCCTGCGG
+
+# Questionable array : YES	 Score: 2.23
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.90, 5:0, 6:-1, 7:1.24, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGAAGTGGGTGATTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCGGCGGTTCGATCCCGTCATCACCCACCACT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [16,18] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-33.10,-35.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [322,254] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase Cas3:WP_015874888 [2320720-2323335]; 
+# Array family : NA
+# Sequence source strain : 1084
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Klebsiella.; Klebsiella pneumoniae subsp. pneumoniae 1084
+//
+
+
+Array 2 2319792-2320306 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_018522-Klebsiella pneumoniae subsp. pneumoniae 1084, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   2319792	    28	  96.4	    32	.............A..............	CGGCTCTTTTTATCTCCTTCATCCTTCGCTAT 	
+   2319852	    27	  96.4	    33	......................-.....	TGATCGGCGTGCCGTTTGTTGGACCCGAAATAG	
+   2319912	    28	 100.0	    33	............................	CGTCATCAGCGCCTTGTTCCAGCGGCGACCACC	
+   2319973	    28	 100.0	    33	............................	TATCGTGCAGAGTCACAACCTGACGGGATTATC	
+   2320034	    28	 100.0	    33	............................	TCGTGCATGGTGAGGATTCTACAGTCGCACCAT	
+   2320095	    28	 100.0	    33	............................	TACCTCCCGGCGTCCGCGCCAGGGCGATCACGT	
+   2320156	    28	 100.0	    33	............................	CCTGCAGCTGGCCGTCGAGCTGACGGATGCCGG	C [2320165]
+   2320218	    28	  92.9	    33	............T.T.............	TTCATCACGTGTGAGCGGATTTGGCTCTATCCT	
+   2320279	    28	  89.3	     0	............T......A.......T	|                                	
+==========	======	======	======	============================	=================================	==================
+         9	    28	  97.2	    33	GTCTTCCCCACACGCGTGGGGGTGTTTC	                                 	       
+
+# Left flank :   TTAGCGTTGGCGAGCCGGCGACGGCGGTGATCCGCGTCGAGCGCCTGCGACTCGACGGCGCAGCGCAGGATAACAGCCTCCAGCTACCGCTGCTGACCAGCATGTACCTCGGCGACCGCTGGGAGTACCTGTTCCGTACCGAAGGCGACGACTTTCCGCTGCGCGCCTACGGAACGGCGCTGCGCGATGCCGAACACTGCCATCTGACGCTCCCGGCGGAGGATGTGTGGATTTTTCCGCAGCGGTAACTTCGCGAAGCCACGGAAGGCAAGCGCCAGGATGACGCGCTACGTTCTGGGGATGACAAAAGCGTTTTACCCCCGGCTGCGGGCCGGGCAGGCCAGTAGGGTAGACCGGTCCAGGTCAGCAGCAAATCGACGGTGGTTATATGGTGACATACTTTTTCGTTTGATGAATGTTGATGCTGATGCGGAAACCCTGCGGAGTGCAATTGTTGTAAATCTGGCGTTTTAATACGCCGCTAAACACAATATGCTGGT
+# Right flank :  TCGCCTTTCAAGTGACGACAAGTCACGTCTGTGCGCATTTCTCAGATGAAAGGGGATTCCTGACGTAGAGGCATCAATGCCGTGACATAGTTATCCTTAATGTACATCAATGTCTTCGAAATTTCGTTTGGCCAGCACAGTCTCATATGTTTTTTGTATGATTTTACTTATAAATATTCGTGAACTATGTTTGTCCTATACTTTCTTTAGGGGCATCTAAATCATTCGAGTTTATTACTCGTCTGGAGATATTGTTCTTCATATTAATTATTTATAGCTTTTTATATTATTATTTTTGGCTTTTATCTTTAATTCAGTGTGTTGTGGACATTTTTGATTTTATAAAAAGTTATTTATAAGTTTCCCGGTTTTTAGTATTAATAAAGGGCACATGTTTTTTAAAGGAAAAATTCCATGAGGCGCTTGATCAGGGTTTCGCTACAAAATCAACATGCCATCGCGGCGATAAGTTTTGAAAACTGTCCAGCGAAAACCCGGAT
+
+# Questionable array : NO	 Score: 7.42
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTTCCCCACACGCGTGGGGGTGTTTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [5-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [56.7-50.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [254,179] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase Cas3:WP_015874888 [2320720-2323335]; 
+# Array family : NA
+# Sequence source strain : 1084
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Klebsiella.; Klebsiella pneumoniae subsp. pneumoniae 1084
+//
+
+
+Array 3 2329062-2329943 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_018522-Klebsiella pneumoniae subsp. pneumoniae 1084, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   2329062	    28	 100.0	    33	............................	CGCGACGACCTCGTCATCCTCCCCGCTGCGGCT	
+   2329123	    28	 100.0	    33	............................	TACACCCAGCTCTTTGACGCAAAGGCTCAGGAG	
+   2329184	    28	 100.0	    33	............................	TCCTTGGTTCGTTTCTTCTGATGTTTGCAAGGC	
+   2329245	    28	 100.0	    33	............................	CTGGTTGACGTATGCCGTGATGCTGCTGGTAGG	
+   2329306	    28	 100.0	    33	............................	CGCTGTATGCCCCCCATCCTTCGCAAGCACTAC	
+   2329367	    28	 100.0	    33	............................	CGATGACAACTTTGCCTACTTCGCTGCGCTGGC	
+   2329428	    28	 100.0	    33	............................	TTCCTCTTCTTCCTGACAATCAGCGCAGCGCTG	
+   2329489	    28	 100.0	    33	............................	TGCGGGTGGATGACAATAACGCCTGGCGCGCCG	
+   2329550	    28	 100.0	    33	............................	CCTGTTAAGGATGACGCGGGGAAATGGGTTATC	
+   2329611	    28	 100.0	    33	............................	TCGATGGCGAGCTGCTGGTGAAAAAGTCGATAC	
+   2329672	    28	 100.0	    33	............................	TCCAGGCCAGATCTGTTTGGGTTGGTGTCGAAG	
+   2329733	    28	 100.0	    33	............................	TGAAGGTGAGCGCCAAAAGGAGTGGAAGCATGC	
+   2329794	    28	 100.0	    33	............................	CGGCTGCGTTATCCGGCAGCACGAACTGGACCT	
+   2329855	    28	 100.0	    33	............................	TGACCTTAGAGGCTTCACTCAGTGCCACTTTTT	
+   2329916	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+        15	    28	 100.0	    33	GTCTTCCCCACGCACGTGGGGGTGTTTC	                                 	       
+
+# Left flank :   TTTACAAAGAACGGCTCTGTATTGATTTGGCATTTTCACTCTCGAGGGAAATGGCGGGCCGCTACGATAAACACAAAGTCTCTGAGGCATTCAGAAAGCGAGTGATAGCCCTGGATTTGCTCAACCTGATTGCGGCCGATATCAATGAGCTGATGGGAGGGAAAGGTGCTCGTCGTACTGGCAAATGATCTGCCGCCAGCGGTGCGTGGACGAATGAAGCTGTGGTTTGTCGAACCACGGCCAAATGTTTTTGTCTCAGGCGTCAAAGATTCGGTCGCGCAAACCGTTGTTGATTACCTGTTGCAGTACACGCCTGTGGAATCAGGCCTGATGCTGTTTCGCAGTATTCCTCAACCGCCTGGTTATGAAATTCGCTACAAGGGTGAGGTCAGAAAGCCGATTATTGATCTCAGTGGGTTACAGCTGATTATTGAAACCCTAAAACTGTCGTAATACGTGGATATTGTGGTTAAACTCTCGCTCTTTCACAATATGTTGGT
+# Right flank :  CTTGTGAGGGGTCTACCAGCATTGGCGTACTGGAGTCTTCCCTACACATGTGGGACTTAGCAATAAGCGGAATACTCGTATTAGAATAAATATTTTATAGCCAGCGAAACTTAAAATAATTTTTAGCTAATGAAACTGTCGTTTGGGAGAGGTAGGAATATTTTATTGCGAAAGAGAAGGGAACTGTTTAAAGCAATAACGGCGAATGATTCTTATAAAATGAAGGATAGGGAATTCATATGTTTCGACTTTACCAGTCACATGATTTAATACGCCAATTAAATCCTGAAGACTTTCAATATATTTTGACACCAGCAGGTTCGCTAAGAGAAGCGTGTATAAATTACGACCTCTCCTGTGAGGCGAATGGTCACAGCCTCGCTTTTGGCTTACCGAAGGAAATATACAACTCATCTCCACATAAAAGGCCATATGAACGAAGGCAACGTAGCTATGCAGATCCTATCTATGATGAGGTAGAGCACAGGTTACAAATTGGC
+
+# Questionable array : NO	 Score: 7.45
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.45, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCTTCCCCACGCACGTGGGGGTGTTTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-46.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [49,239] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase Cas3:WP_015874888 [2320720-2323335]; 
+# Array family : NA
+# Sequence source strain : 1084
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Klebsiella.; Klebsiella pneumoniae subsp. pneumoniae 1084
+//
+
+

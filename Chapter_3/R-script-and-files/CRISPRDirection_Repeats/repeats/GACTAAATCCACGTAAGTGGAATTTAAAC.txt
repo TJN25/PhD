@@ -1,0 +1,194 @@
+Array 1 554801-554506 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815232-Fusobacterium ulcerans ATCC 49185 supercont2.5, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                                      	Insertion/Deletion
+==========	======	======	======	=====================================	=====================================================	==================
+    554800	    37	  86.5	    53	.......GCC.................A....T....	TTTGAAGAAGTTACACATATTCCATAACTAAGACCAACATTACTACCAGAAGT	
+    554710	    37	 100.0	    53	.....................................	TCTGAAGTTACATATATTCCATAACCATTACCACCAGAAGAAGTACTATAAGC	
+    554620	    37	  94.6	    41	........C........................G...	CCTGAAGTTATATATATTCCATAACCAGAATTACTATAAGC            	
+    554542	    37	  86.5	     0	........C...............T.C...TG.....	|                                                    	
+==========	======	======	======	=====================================	=====================================================	==================
+         4	    37	  91.9	    49	AGTTATTTTTCCATTATTTGTTAGATTTCCATCTAAG	                                                     	       
+
+# Left flank :   TTATTGTTCTCTCCAGAAACTTTTAAAGTATTCTCTATTCCGTTTAAAACATATTGTTTGTCTGAAGAAAAATCACTTATTTCACTGCCAACAATATCATCAGCATCAGAATATAGCTTTCCCTCTTCCAAAGTTAAACTTTTAGTTCCTCCTATATTATCCTTATTGTCATTTTTAGCTTTAGCATTTATTACTGTATATTCCCCCTCTGTAGAAATTGTTCCAAATTTTGAAAAATCATCATCAGTAGCTGAATAAGTTCCACTTACATCTTTAAAAGCAAGTCCATAGTTTTTGGGATTAGTAACTGTTCCATCTATTACTTTATCTCCACTAGTTACAAGAAGTCCATAGTTATATAGATCTTTTAATGTTCCAGACTTAATATTTATAGCATTAGTTGAACCATATATAATTCCTGCATTTGTTATATTTGAATGGTTCGAAGATGACTTATCATATAGACGTATTCCATAACTATAACTAGAAGAACCATTACT
+# Right flank :  TTTACCACACTTATTCCATAACCATAAATACTCTTATATTGAGGATTACTAATTATAGTTATCACATTTTCTATCACTCCGTTATTTACTAGGTTTATTTCTGGAGCAGTCACTTTTAGTGTAGCTTCATAAACACCAGAAGTAGGATTCTCAACTGTACTTTCTCCAGAAATTACAGAATTATTTGTATATGTATTTGTACCAGCATTCCAGTTATTATCAGGATATGGATCCCCTTCAAGTCCCGGTGTAAATGAAGTTTCAGCTTTATCTTTAAATTGTATATTACCACTAGTATCTTTTGTTATTTCTAATTCTGTTGCTTTTGGATCTTCTGTTGCCCCCATTACAACTGTACAAGAGAGAAGCATTCCCACTACTGCTCCTACTGTAATATTTCTTCCCCTTTTTTTGTTGCCGCTTTTTACAGCCTTCATAATCTTTTCTATCATCTTTCCCTCCCCAAAATATTCATTCATAATTTTACTAAATATAGCTCT
+
+# Questionable array : YES	 Score: 0.97
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.60, 5:-1.5, 6:1, 7:-0.42, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTTATTTTTCCATTATTTGTTAGATTTCCATCTAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.68%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [7-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1364,2522] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 2 614969-615129 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815232-Fusobacterium ulcerans ATCC 49185 supercont2.5, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+    614969	    29	 100.0	    37	.............................	TAAAACAACAGTGGTTCAAGAATCTGTTCCAATTGGA	
+    615035	    29	 100.0	    37	.............................	ACTATATTCAATCATTTTTTGTATTTTTTCTACTTCC	
+    615101	    29	  89.7	     0	.....................T..A...T	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         3	    29	  96.6	    38	GACTAAATCCATGTAAGTGGAATTTAAAC	                                     	       
+
+# Left flank :   ATATCTCGTATCACAAGACTTGATGATGGAAGAATTCTTAAATATATAGATGAAAGTATGTATGCTTCCAGAATAAGTCATTAAATTTTAAAATGATATTGTGTTTAATATCCACCTTACATTTTTGGGTAAATTAGGATATAATTAAGTAACAACAAAAGAACGAATTTCAATATAAGCACCAAGTAGAGAGATATCTGTCGTAACCAGATATCTCTTTTTTTGATAATTTGAATACATAAAAGCTTTAAAAAAAATATTTATAGAAATAGAGAGAAAAATAGAATCTATATTAAGTGAATATGATATAATAGTTAATAGAGGGAATTGTCGCTCTGTAATGCTGTAAAAACTATAGAAGGCTGACAAAAAAAGAAGTTAGAAAATATGGGAGGTGAAGGAATAATAAAATAAAGTTAAAGAAAAAATAGAATAAAAAGGAGGGATAGACAAAAACTACTAGGAAACACATTGAAAAATAAGGGTAAAAAACCTAACGG
+# Right flank :  TATTTAAATTAATATAAAGTGAGGAATTTTATGGAAAATAAAAATAAAACTAAACCCAATAGAGGTTCAATAGTTAGAATTATAATTTCTAACTATGACACAAAAGGAATAAAAGAGATAAAAGTTCGTTATAGAAAACAAGCACAACTGGATACTTTTATTCTACAGACTACTCTTGATAAAGGTAATAACTCTATATTAATTAGTGAATTTAGAGTTAAAGCCAGAGAAAAGAATAGATATAGCTTTACATATGATGGAAAAGAGAAATTCTCTGCTCCATCTAATAGTGTTGTTATAACTAAAATAGATAATGCAGCTCCAGAAAAATTTAAAGAAATAAGAAAATATAAAATAACTTTAGAAATAGATGAAAAATGTAAAACTGGAAATATGATTACAGCTGCCATAGAAGACTTATTAGAAGATGACATAGCGAGAGAAGGAATAAGAAATCCTAGAAGAAAAGCATCAAAAACTGAAAGAAAACTTATAGCAGA
+
+# Questionable array : NO	 Score: 4.48
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.83, 5:0, 6:1, 7:1.56, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACTAAATCCATGTAAGTGGAATTTAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.97%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.80,-2.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [65.0-83.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [535,30] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 3 618959-618795 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815232-Fusobacterium ulcerans ATCC 49185 supercont2.5, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	==============================	====================================	==================
+    618958	    30	  93.3	    36	....A.T.......................	AGGAACTTATGAATTATAGACTTGAACAACTTAAAG	A,C [618943,618952]
+    618890	    30	 100.0	    36	..............................	CAAAGTGAATCAGGAATGAAAATAAAAAATGATAAT	
+    618824	    30	 100.0	     0	..............................	|                                   	
+==========	======	======	======	==============================	====================================	==================
+         3	    30	  97.8	    36	AGTTTAAATTCCACTTATGTGGATTTAGTC	                                    	       
+
+# Left flank :   CATATTATTGAAATTTATAGCTCCTAATAATCCGTTATCTATTTTAAGAAAATCTATATTATTTTTCATTTTTTTATGTTTTTCTTTTGGTGAAGTTAAAGGAATTATGTAATCAAGATTATCTATTTTAAGAACTATTCCAATAAATTTTCTATTTGATTTAGAATTGATGCTATCCATTATTTTTTTTTCAACTTTTTGAATATATTCCATATAATCCAAATCTACTTCATAAAATCTTAATCTTTCCATAAAATTTCTCCTTAAAAAAAGAAGAGTGATAAAACACTCTTCTTTATACTTTTTTAACTCCCACTCGATGGTAGGGTACACCGCTTTTTTAACTCCCACTTGATGGTAGGGTACACCGCTTTTTTAACTCCCACTTGATGGTAGGGTACACCGCTTTTTCTTAATTTATTATATCATTTTAATCCAAAACTGTCAATTTAGTTAATTTCTCTATTTCACTATATCCTACTTTAATCTTTTATTTTCTT
+# Right flank :  CCTGTTAGGTTTTTCACCCTTATTTTTCAATGCCTTCTCTACTGGTTTTTGTCTATTTCCCTTTATTTTCTATTTTTTCTTTAAATTATTTTTCCTCTTTTTCTTTTTATCCCTCTTATTCTATTATTTCTCCTTTGTCTATCTCCAGCATTTTTTTCACTATTGGTTAGTGACAAAAAAAACTGACTATCCAAAGACAATCAGTTTAAGCAGGATATCTTATTTACTCATACTGATATCCTGCTAAGATTACCCTATATTTATTAAAAAATTATAAGATTTTAATAGATAATTTTTACATTAAAACAGTAGTGATTATTTAACATAAGTTTATTTTCTTTATTTTTTTCAGTTTTAAATTCTTTTCCCTCTAGTTTTTTTGCTGGAATTACTTTTAATTCATTAGTTTCAGTTATTTCTAAAGTATAGTATTCAGTAACATATTTTTTATTATTATCCTCAAAAAAATATTCTTCCTTTGAATTATTTCTTTTTACTAA
+
+# Questionable array : NO	 Score: 4.99
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.89, 5:0, 6:0.99, 7:2.02, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTTTAAATTCCACTTATGTGGATTTAGTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:70.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.20,-6.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [63.3-78.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [283,251] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 4 620190-620352 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815232-Fusobacterium ulcerans ATCC 49185 supercont2.5, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+    620190	    29	 100.0	    37	.............................	ATGTCATCCCCGTTACTTCTAAAGCTTTTTCGCTTAT  	
+    620256	    29	 100.0	    39	.............................	GATTCAAAAGCTTCGACAGTTATCAAAGAAGATAACATG	
+    620324	    29	  93.1	     0	............A...............T	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+         3	    29	  97.7	    38	GACTAAATCCACGTAAGTGGAATTTAAAC	                                       	       
+
+# Left flank :   TATAAAAAGACAAATTAGATAAAAAGTTTATTTCATCTCCTTTATTTATAAATAGACTCTTTATATAATAAAGACACAGTAAAGTAATTTAAATTAGAATAGTATCAAGTGGAGAGGTATCTGTCACAACTAGATATCTCCTTTTTGTTTTAAAACAACATAGATAAGAAAATCTATTTTAGTAAAAAGTCGTCACTCATGAGGGAAATTTACCTTGTAGATGATTTTGGGTAAATATATGAAAATTTTGTAGAAAATATTTATAGGGATAGAGAGAAATAATATAATGATATTAAATGAATGTGGTATAATAGTTAGCATAGAAGATTGTCAGTCTATAATGCTCTAAAAATTATAACAGATTGACAAAAAAAGAAGCTGGAAAATATGAAAGGTTTAGAACTAATAAAATAAAGCCAAAAGAAAAAATAGAAAATAAAGGGAGATAGACAAAAACCAGTAGAGAAAGCATTGAAAAATAAGGGAAAAAAACCTAACGA
+# Right flank :  TTATTGAAGTAGCCCTTGTTTAAATAATCTATCTACGACTAAATCTACACACAAAAAAACTTATTTTAATAAAAAAATCATCACCCGTGAGGTTATTTTACCTTGTGGGTGATTTTTTGTTTTGGTGGTTTATTTCTTGAAATTGTGATGAAAATGATGAACTTTTTGAAATGAAAAAAACAAAAAAAATTTATTAAAAAAATGCCTTGAAAAACACTAAAAGAATAAATTGATTAAGAGCGATGTTAGAAGAATTTCAGAATTTTTTTTATTTGTGTCTTTATTTCAGATTTTATTTTTTTGATATACAAAAATAGAATGTTATGCTAGTATATGAATCGTTATTATTTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAAAGAACTGGGAGAATGGGCAACAATAAATGAGGTGGCAAAGTATTTT
+
+# Questionable array : NO	 Score: 4.06
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.89, 5:0, 6:1, 7:1.08, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GACTAAATCCACGTAAGTGGAATTTAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.00,-6.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [484,451] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 5 831188-830833 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815232-Fusobacterium ulcerans ATCC 49185 supercont2.5, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    831187	    28	  86.2	    37	..............-......A..T..G.	CCTGGAAAACTTTGAATAAAGAGGAAATGAAAAGAAG 	
+    831122	    28	  82.8	    37	............T.T..-...A..T....	AAAATAAAAAAGAAGGTATATTTCAACCTTCTTTTCT 	
+    831057	    28	  93.1	    36	T.............-..............	TCTTAAAATTTATAAAATACCATTAAATAAACCTGT  	A [831049]
+    830992	    29	 100.0	    38	.............................	TTTTGTATTAGCTAACAGATGGGGAAGAGCAGCATTTG	
+    830925	    29	 100.0	    35	.............................	TTTATCTACTGCTTTTATCTTTTCAGCACCACTTA   	
+    830861	    29	 100.0	     0	.............................	|                                     	
+==========	======	======	======	=============================	======================================	==================
+         6	    29	  93.7	    37	ATTTAAAAACTTATCAAGTTACTAGTCAA	                                      	       
+
+# Left flank :   CTCCTAATTATATTAAAATAAAAAATAAAATTCTCCATTAAAGTACCCTTGAAATATCATGTATACTTTACATCAACAGCAATTATGCTTTCTACTAAATAATATTTATATTTTTATCCCTCCTAATTGTTATCACAGGAGTATTTTTCCCCAAAGAAATTTATCCATGACTATTCATATATACTTTCTATTGCTGCATTATCCAAAGATGTTTTTAATATCTGTGATTTTTTATTTTAAAAAATTTTAAGTATTATAATTTATAACTAATCTTTATTTTTCTTTTTAAAATTCTTTTTTTAATGACATTTATTTTTTCTAAAACATTCTTAAAACAAAATATTTATTCGTGTAAATTCGACAATTAAATTAACATACATTAAATTTAATATTTTTGTATGTTAAAAAAATGTGATAATTATGTTGAAAATTATAAAAAAATAATGAGAACATTATTAAAAATTTATTTATTCAATCAAAAAAATATATTTAAAGAATAC
+# Right flank :  TATTCAGCAATTCACAACTTCTTTTTTCCTTTAGCTTCTCCATTGCTCTAATTATACCACTTTATATTTATTTTTCCAACCTAAACAAAGATTTTTTTCATTTTTATTTTTCTCTTCTATTTATATCTTTATTTCTTAACTTAATTTCCATTGGTATCTTTTCCCTTGGAAAATAAAAAATCCATCAATCATAAATTTTGCATGATCAATGGATTTTCAAATTAATCTATTTTTTTATTTATTGCTACTTCTCTATCTAAAGGAAGAACCTTATTTAAAACTACTCCTGCAAGAGCTGCAAGTGCAAGTCCAGAAAGAGAAACTGTTTTCCAGATAACAATATTATCTACTGCTATTCCAAATACAAATATTAATGATGCTATGATAAGATTTCTTGAGTTAGAAAAATCCAATCCTGCATCTACTAATGTTCTTGCTCCTACTGATGAAATCATTCCAAACAATATTATTGAAACCCCTCCCATTACTGGAGCAGGTAT
+
+# Questionable array : NO	 Score: 4.62
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.69, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTAAAAACTTATCAAGTTACTAGTCAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [66.7-88.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [223,507] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+

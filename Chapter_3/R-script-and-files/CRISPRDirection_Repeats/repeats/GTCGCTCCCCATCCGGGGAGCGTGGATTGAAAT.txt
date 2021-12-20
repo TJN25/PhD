@@ -1,0 +1,138 @@
+Array 1 9-514 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AFVV01000027-Bifidobacterium breve CECT 7263 contig00038, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=================================	=====================================	==================
+         9	    33	 100.0	    33	.................................	TATGTCCAGCTCATGCTCATGCTCAAATACGCC    	
+        75	    33	 100.0	    34	.................................	AGACTGTTTATCGCGCGTCTCACGCGCTTGCGTT   	
+       142	    33	 100.0	    33	.................................	TCTCGGACTCGCTGGCACGCGCTAACGCGGCCA    	
+       208	    33	 100.0	    37	.................................	TGATACGGCGTATTGACAATATCATGCGAAAAATCAA	
+       278	    33	 100.0	    35	.................................	CCTGATTTTAACGCGCCGAACGGTATCCCCGTAGT  	
+       346	    33	 100.0	    34	.................................	AGTGCTTTCCTGTCCTTGTCAGCAGGCATCGGAC   	
+       413	    33	  97.0	    36	....A............................	CAAGCCCCCATACCCCGCGCAGCCCTCAAATCCAGC 	
+       482	    33	  84.8	     0	.............T...........G..CCT..	|                                    	
+==========	======	======	======	=================================	=====================================	==================
+         8	    33	  97.7	    35	GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT	                                     	       
+
+# Left flank :   TAGCCGTTG
+# Right flank :  TGCCGGATTAATACGTTGGTTGATGTCGGTATCGTCCCATCTATCCTTGATATAAGGATTTGTGATGGGGGTAACGATACCAGCTTGGTTCCACTGGTCAACGTATGAGTATCGGATACGGTTCGGTGCGTATGTTTCGATCATTCGTTGATAGTAATCGCGTTCATTAAGAAGCAGGTCCACCAGATATCCGGGTTCGTTTGGGAAATTCTTTAGTGCGCGAGTATAAAGATTGTGGTGTTCGTCCAATACCAGAGCTGGAACGGAATCTAAGCGCAAGAGTTCTTTAAACATGACGAGCCGCCCAATTCGACCGTTACCGTCGGAGAATGGGTGCGTGGATTCGAACATCCAATGTGCTTTTGCGATTGCAAAAGGATCATCTTCCAATTGTGAGTACAAGCTGAATACCTGTTTCATGGCAAGAGGCACATCCGCGGGGAGTACCGTATGAATTCCCTCAAGTTGGCTGATGACGTTGGGCACTATTTTGTATCCGC
+
+# Questionable array : NO	 Score: 9.90
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.89, 5:0, 6:0.31, 7:0.70, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [6,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-8.50,-8.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [6.7-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [10,39] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CECT 7263
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium breve CECT 7263
+//
+
+
+Array 1 122900-122322 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AWFU01000012-Bifidobacterium breve MCC 1454 M1454_012, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=================================	====================================	==================
+    122899	    33	 100.0	    33	.................................	GCCAACGTGGGACGCATCCCCAACTTCGACAAG   	
+    122833	    33	 100.0	    35	.................................	AAACCGGGACGCAACCTCACCGCATGGCAGGCCGT 	
+    122765	    33	  97.0	    35	..................G..............	TTCGAGTCGCAGGCCAACGGTGCGAAAATCTACTA 	GG [122749]
+    122695	    33	 100.0	    34	.................................	AGTGCTTTCCTGTCCTTGTCAGCAGGCATCGGAC  	
+    122628	    33	  97.0	    36	....A............................	GTAAATCTCAGGTTGCGCGAAAACACATGTTTCGAC	
+    122559	    33	  97.0	    35	....A............................	TGGCTCGCCCACAACTGGTACTAAGGAGCGGGACA 	
+    122491	    33	  97.0	    35	............T....................	CTGTACGGCAAGGCTCAGACCGGCAGCGAGGGCTG 	
+    122423	    33	 100.0	    36	.................................	CAAGCCCCCATACCCCGCGCAGCCCTCAAATCCAGC	
+    122354	    33	  84.8	     0	.............T...........G..CCT..	|                                   	
+==========	======	======	======	=================================	====================================	==================
+         9	    33	  97.0	    35	GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   GCCTCCCGCTCCGCCGCGGCCTCGCGCCTGAGCCGCGCCACGGTCCGGGTCACCGTCGACAACGACACCCCGGCCCCGTACCCGTCGCGCAACCGCTCATGGATGCGGGTCGCGGTATGCCGCTGCTTGCGCCAGGTCTCCCGGTCCTCGGCGAGCATGCCCTCGATCATGGGCAGCCACTCGTCGATCACCGAACCACGACGTCGCCTCACGGGCGGCCTGGCCGATAGGTCGTCGACCCTCAGATACTTGCGCACGGTCGGCTCGCTGACCCTCTCGCTGCGCGCTATCGAGGCGATGGACTCACCGTTCCTGCGACGCGAACGGATAGACTGTATCTGGGGCATGCTGATCATTGCCTTTCCGGACCTTTCCCGAATGGAACTAGAAGCACCATCAGGCTAAGGCCCACGGGTGGTCGGCATGCCTTTCCGCCTAAACCCGAAAAACCTTCGTGACTAAAACCTCAACTTCCTATTGAACAAAAACATCCCGCCACC
+# Right flank :  GCCGGATTAATACGTTGGTTGATGTCGGTATCGTCCCATCTATCCTTGATATAAGGATTTGTGATGGGGGTAACGATACCAGCTTGGTTCCACTGGTCAACGTATGAGTATCGGATACGGTTCGGTGCGTATGTTTCGATCATTCGCTGATAGTAATCGCGTTCATTAAGAAGCAGGTCCACCAGATATCCGGGTTCGTTTGGGAAATTCTTTAGTGCGCGAGTATAAAGATTGTGGTGTTCGTCCAATACCAGAGCTGGAACGGAATCTAAGCGCAAGAGTTCTTTAAACATGACGAGCCGCCCAATTCGACCGTTACCGTCGGAGAATGGGTGCGTGGATTCGAACATCCAATGTGCTTTTGCGATTGCAAAAGAATCATCTTCCAATTGTGAGTACAAGCTGAATACCTGTTTCATGGCAAGAGGCACATCCGCGGGGAGTACCGTATGAATTCCCTCAAGTTGGCTGATGACGTTGGGCACTATTTTGTATCCGCC
+
+# Questionable array : NO	 Score: 9.78
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.85, 5:0, 6:0.31, 7:0.81, 8:1, 9:0.81,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT
+# Alternate repeat :   GTCGATCCCCATCCGGGGAGCGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     F [7,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-8.40,-8.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [6-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-55.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [40,154] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.78,4.68   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : MCC 1454
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium breve MCC 1454
+//
+
+
+Array 1 826-1870 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AVQE01000009-Bifidobacterium breve MCC 1604 M1604_009, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=================================	====================================	==================
+       826	    33	 100.0	    35	.................................	AACGCGTACGACAGGGAGACGAACCCGAAACCCGA 	
+       894	    33	 100.0	    34	.................................	TGCACGACCGGGACATGAACGCCGCCCTGAACAT  	
+       961	    33	 100.0	    33	.................................	GCCAACGTGGGACGCATCCCCAACTTCGACAAG   	
+      1027	    33	 100.0	    35	.................................	AAACCGGGACGCAACCTCACCGCATGGCAGGCCGT 	
+      1095	    33	 100.0	    33	.................................	TACGCGTCAATGTACGGCAAAGGCGACGTGTAT   	
+      1161	    33	  97.0	    34	...................A.............	TCGTCAAGCAGGGTCTTCAAAATCACACCCGGAT  	
+      1228	    33	 100.0	    33	.................................	CTTTCATCTGATTGGAACGACGCTTCCGATTCT   	
+      1294	    33	 100.0	    35	.................................	AGGTACAGCCAGTTGAACACGGCTCCCATCCCGTT 	
+      1362	    33	  97.0	    35	..................G..............	TTCGAGTCGCAGGCCAACGGTGCGGAAATCTACTA 	
+      1430	    33	  97.0	    34	..................G..............	AGTGCTTTCCTGTCCTTGTCAGCAGGCATCGGAC  	
+      1497	    33	 100.0	    34	.................................	GTCCACCCACTGGTCGATGGCGCCGTCCGAACCG  	
+      1564	    33	  97.0	    36	....A............................	GTAAATCTCAGGTTGCGCGAAAACACATGTTTCGAC	
+      1633	    33	  97.0	    35	....A............................	TGGCTCGCCCACAACTGGTACTAAGGAGCGGGACA 	
+      1701	    33	  97.0	    35	............T....................	CTGTACGGCAAGGCTCAGACCGGCAGCGAGGGCTG 	
+      1769	    33	 100.0	    36	.................................	CAAGCCCCCATACCCCGCGCAGCCCTCAAATCCAGC	
+      1838	    33	  84.8	     0	.............T...........G..CCT..	|                                   	
+==========	======	======	======	=================================	====================================	==================
+        16	    33	  97.9	    35	GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   CTCCCGCTCCGCCGCGGCCTCGCGCCTGAGCCGCGCCACGGTCCGGGTCACCGTCGACAACGACACCCCGGCCCCGTACCCGTCGCGCAACCGCTCATGGATGCGGGTCGCGGTATGCCGCTGCTTGCGCCAGGTCTCCCGGTCCTCGGCGAGCATGCCCTCGATCATGGGCAGCCACTCGTCGATCACCGAACCACGACGTCGCCTCACGGGCGGCCTGGCCGATAGGCCGTCGACCCTCAGATACTTGCGCACGGTCGGCTCGCTGACCCTCTCGCTGCGCGCTATCGAGGCGATGGACTCACCGTTCCTGCGACGCGAACGGATAGACTGTATCTGGGGCATGCTGATCATTGCCTTTCCGGACCTTTCCCGAATGGAACTAGAAGCACCATCAGGCTAAGGCCCACGGGTGGTCGGCATGCCTTTCCGCCTAAACCCGAAAAACCTTCGTGACTAAAACCTCAACTTCCTATTGAACAAAAACACGTTCAACGCGT
+# Right flank :  TGCCGGATTAATACGTTGGTTGATGTCGGTATCGTCCCATCTATCCTTGATATAAGGATTTGTGATGGGGGTAACGATATCAGCTTGGTTCCACTGGTCAACGTATGAGTATCGGATACGGTTCGGTGCGTATGTTTCGATCATTCGCTGATAGTAATCGCGTTCATTAAGAAGCAGGTCCACCAGATATCCGGGTTCGTTTGGGAAATTCTTTAGTGCGCGAGTATAAAGATTGTGGTGTTCGTCCAATACCAGAGCTGGAACGGAATCTAAGCGCAAGAGTTCTTTAAACATGACGAGTCGCCCAACTCGACCGTTACCGTCGGAGAATGGGTGCGTGGATTCGAACATCCAATGTGCTTTTGCGATTGCAAAAGGATCATCTTCCAATTGTGAGTACAAGCTGAATACCTGTTTCATGGCAAGAGGCACATCTGCGGGGAGTACCGTATGAATTCCCTCAAGTTGGCTGATGACGTTGGGCACTATTTTGTATCCGC
+
+# Questionable array : NO	 Score: 9.85
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.90, 5:0, 6:0.31, 7:0.66, 8:1, 9:0.98,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCTCCCCATCCGGGGAGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [6,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-8.50,-8.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [157,39] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.09,0.37   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : MCC 1604
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium breve MCC 1604
+//
+
+

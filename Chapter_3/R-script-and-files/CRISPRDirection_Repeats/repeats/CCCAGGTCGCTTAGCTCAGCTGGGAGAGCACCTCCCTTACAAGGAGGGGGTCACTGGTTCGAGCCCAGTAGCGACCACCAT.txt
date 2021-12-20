@@ -1,0 +1,152 @@
+Array 1 1710765-1710450 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_008750-Shewanella sp. W3-18-1, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                                  	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	=================================================================================	========================================	==================
+   1710764	    81	 100.0	    32	.................................................................................	ATAACTTAATTTACAGGACTGTGTAAGTCATT        	
+   1710651	    81	 100.0	    40	.................................................................................	TCTTCAGTGAATAATGACTCCAATTGTGTAGTGTAAAATA	
+   1710530	    81	 100.0	     0	.................................................................................	|                                       	
+==========	======	======	======	=================================================================================	========================================	==================
+         3	    81	 100.0	    36	CCCAGGTCGCTTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCACTGGTTCGAGCCCAGTAGCGACCACCAT	                                        	       
+
+# Left flank :   TAAATAAAGACAAGTACGATAAAAAGTGGGCTTATTCTAACAGTCAAAGCAGGCCCTGCAAATGGGGCAAATATCCCATCTCATTAAATTGGATCTCTGAATTATGACCTTTAATACACAAACCACCTGAAGGCGCAGGATTCAGGTGGTTTGGATACATATGAAAACGAAAATCAATGATGACTTTGCTGACTTTATCTCAGCCCATATGAATGATCTATGCCGATAAGTCTCTGCACGGTACAACCCCCTGAAATAACACTTTAATCGGTGATATGTTTAACATTAAGTCAATGCGAACAAAAATAGCGCGACCAATGCTTTTTTCATTAAAAAGCGTTGACACTAGATCGAACCTCCCTATAATACGGCTCCACACAGCGAGGTCGATTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCACTGGTTCGAGCCCAGTATCGACCACCATTTATTTGAAAGAAATAACCGCTGTAGATAATAGTTGTAT
+# Right flank :  ATTCTGCAATACCTAATTAAAATCCCAGGTCGCTTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCACTGGTTCGAGCCCAGTAGCGACCACCATATCCCCCTGTTGTTCGAAGCCCCAAGCTAAATCTACGCTCAAGATCTAACTACAACACCCTTGCCTGTAAATATCTTTTCCTCATTTAATTAACCACAAACAATACTTATAAAATACGCCATAAATACAGCCAGCTCAGTACAAATGCCCTCTTAAATGCTTTTTAGCCCTGCTATGTACCGGCAATAATTCCAATTAACACCGATGACAAAATAGCAACCGCGGCAAGTTTTGATTTATAGAGCATTGATCCATAAATCACATTTTGATCTAAAAATAACGCATTCTGCTCACTTAGTCGGCACTCTATATTCAATAGAAATAAAGCCACTATTAACTTTTGGGTGGGTTCCCACCCATTCATGATACTAGTGTGAGCGAGATCTCACCCACCAA
+
+# Questionable array : YES	 Score: 2.63
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:-1, 7:1.23, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCAGGTCGCTTAGCTCAGCTGGGAGAGCACCTCCCTTACAAGGAGGGGGTCACTGGTTCGAGCCCAGTAGCGACCACCAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [14,17] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-29.40,-29.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [51.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [278,531] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_011789482 [2524930-2525958]; 
+# Array family : NA
+# Sequence source strain : W3-18-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella sp. W3-18-1
+//
+
+
+Array 2 2524106-2522576 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_008750-Shewanella sp. W3-18-1, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   2524105	    28	 100.0	    32	............................	ATTGAACATTATGAAGCTCAAATTCTCTTACT	
+   2524045	    28	 100.0	    32	............................	ACCACGGCCACCATTGCAGCGACCGCTTTTGT	
+   2523985	    28	 100.0	    32	............................	GATTGGCAAAACCTCGAAACATGGCGTGAGAC	
+   2523925	    28	 100.0	    32	............................	AGGTGAAGCAATTATGGCAATTGCTGAAGGTT	
+   2523865	    28	 100.0	    32	............................	GATTTGGCAACAGGGTTTAGCGTTACCGTTTG	
+   2523805	    28	 100.0	    32	............................	GTCTGTATAAGCTAGACGGGCATAATCACAAT	
+   2523745	    28	 100.0	    32	............................	GATCACACCCATGGGCGATTGATACCCATACC	
+   2523685	    28	  96.4	    32	A...........................	AAAATTTATTTGGAAACTAATATGAAAATATT	
+   2523625	    28	 100.0	    32	............................	AATAAAGCAAATTGACTGCACCTTTACTGCTC	
+   2523565	    28	 100.0	    32	............................	TAGCTGTTTGACCTAAAGCTGTTCTCATATCT	
+   2523505	    28	 100.0	    32	............................	TGTTGGTGCTGCGGTTTTAGCTGTTGCGGCTA	
+   2523445	    28	 100.0	    32	............................	ATTGGTGCCATGCCTAGTTGAACCATTTCAAC	
+   2523385	    28	 100.0	    32	............................	TCACAAATGGTATTAATTGAAGAATAAAGCGA	
+   2523325	    28	 100.0	    32	............................	ATTCCAGCCTGTTTTATTTTTGTCACAATGGC	
+   2523265	    28	 100.0	    32	............................	GATCCGCTGCAAATGGCGGCATCACTTAATTC	
+   2523205	    28	 100.0	    32	............................	TTCATGAAAAAGCACGTTGAAACGGCGATTCG	
+   2523145	    28	 100.0	    32	............................	TACAGCCGCCCACAAGGTGGCGTCAAGCTGGC	
+   2523085	    28	 100.0	    32	............................	ATCTGGCAGTACGACGAGCTTAAGATTATGAC	
+   2523025	    28	 100.0	    32	............................	ATTGGTCGGAAACTCGAACTGGTCGAATACGA	
+   2522965	    28	 100.0	    32	............................	TAACTGAACAAGATAGGTATCTGCAATCGCTA	
+   2522905	    28	 100.0	    32	............................	TAGGGGATAAACTACACCGCTATGTACAACCT	
+   2522845	    28	 100.0	    32	............................	TGTACAGCCGTGATTTTAGCAATCGCTTTGGT	
+   2522785	    28	 100.0	    32	............................	TACTGGCGGTACTTGTTCTCCATTTCAATTTG	
+   2522725	    28	 100.0	    32	............................	GACTCTATGAGTAGCGTTTTACCACCTAACAC	
+   2522665	    28	 100.0	    32	............................	CACAAGAGAAGGTGAAGTATTTAAAAATTCAA	
+   2522605	    28	  89.3	     0	..........G...T...........T.	|                               	TG [2522581]
+==========	======	======	======	============================	================================	==================
+        26	    28	  99.5	    32	GTTCACCGCCACACAGGCGGCTTAGAAA	                                	       
+
+# Left flank :   AATATGCTTACTTTAAACGCCGCCACTTTAAGTCACCTGACAAACTGCGCAGAAATATCGATGCTCGTGCGATAGTGATCGCCCAAAAAAATGGCTTTGCTATTAATGAAGTTAAGACGCGTTTATTAGCGTCGATAGATAATCTCGATACTAAATCTAAATTGCCGTTTATCAACTTACGAAGTTTATCAACGGAGAAAGATGTCAGTCCCGCAGATCGCAGAAAGTTTTTATTGTTTATTGAGTGTGAAAAAGTCACCAAACCTAGTCAAAATAATGGGCTATTTAATTGCTACGGGCTTAGCCGTCGTGCTCAAACAGAACAAGCCGCAGTCCCTTGGTTTGAAGGTTAATTTAGAGACCTAAAATACCCTTTATTTTTGCTCTTTAAAAAATTAGTTTTAAAACAAAAAGTTACAACAGTTGATATTTAGAAAGGTAAAAGTACGTTTTTTTACCTATCTGCCTGTTGTAACTTATTTTTTTGCAGATAAGCTATT
+# Right flank :  TAGCGGTAAGGGTGAGTGCTAATATTGGCGTTAATGTCGTTGTTAACTTGTAGTCTTATCTTAAATCAGCATAATGCTTCGAACTCCCTTTTAACTTTAAGCCTAGTATTGTGATGTATGGCGTCAGCTAGAGAGTGCCAGCCCATATCGGCTATTGATGAGTTCAATAATTGATTACGGCCTTACGATACTTTTTGAATATTTTATAACACCTTGATAAAGGATAGATTTCCCCTTTGACTCGCTCCCGCCAATCAACCACTCAAGCCTCAGTGGTTAAGCCTTTAGCCTCAAACGGTTCTGTATCGGTAAGTCGACTCTCGACTGAAGTGCAACGTGCATTTTTGCAAGGAGGGGTATTGTCGACGCATATTCAAGGGTTTAGTGCTCGGGAAAGTCAAATGCAGATGGCACAAGGGGTAAGTGAGGCCATTGCATCAAAAGGTAATTTGGTGATTGAGGCGGGAACGGGGGTTGGAAAAACCTTTGCCTATTTGATC
+
+# Questionable array : NO	 Score: 8.02
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.05, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACCGCCACACAGGCGGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.90,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [331,148] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,1.05   Confidence: LOW] 
+
+# Identified Cas genes:  Csy3:WP_011789482 [2524930-2525958]; 
+# Array family : NA
+# Sequence source strain : W3-18-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella sp. W3-18-1
+//
+
+
+Array 3 3946758-3947805 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_008750-Shewanella sp. W3-18-1, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3946758	    28	 100.0	    32	............................	CGCGCCAAAGTTGTAAATTAGGCTTAGGTACG	
+   3946818	    28	 100.0	    32	............................	TCCTCCATTTGTTGTTGATGTAGTTATTACTT	
+   3946878	    28	 100.0	    32	............................	TGTGTCAGTAAAAGTATCAGGCATTAATTCAG	
+   3946938	    28	 100.0	    32	............................	GACATGAGAGTATAGTTCCCGTTTAGCTTGTG	
+   3946998	    28	 100.0	    32	............................	ATAAATTCACCTTAACCAAGTTCGCGCCATTT	
+   3947058	    28	 100.0	    32	............................	TGAGACTTAAACCATTGCTCGCCCCAGAACGA	
+   3947118	    28	 100.0	    32	............................	TGCTAGGTCGTTGGCATAGTGTTTTGGCTAAG	
+   3947178	    28	 100.0	    32	............................	ATTAAATTCATTAGCAGTAACATAAACCTCGA	
+   3947238	    28	 100.0	    32	............................	TTACTTAGCACGACTCGCCGTAGTTCTCAGCG	
+   3947298	    28	 100.0	    32	............................	TTAACACGAGCGTGAGCGGCGTCACCATAGCG	
+   3947358	    28	 100.0	    32	............................	TTTACCGTTTCTTTGGCTGCTGCAATCTTCTT	
+   3947418	    28	 100.0	    32	............................	CAAGTGACACACAGCAGACGAAACAAATTCAA	
+   3947478	    28	 100.0	    32	............................	ACGGAGTTTAAATCTGCATACTTAGATTTAAA	
+   3947538	    28	 100.0	    32	............................	ACCAAAGGCGGCATCATGTGGCGAGTAAATAC	
+   3947598	    28	 100.0	    32	............................	TCCATGCGAAGGGTGACATCCAGCGACAACAA	
+   3947658	    28	 100.0	    32	............................	AATGTACCGCGACCATCGATACCATACGGATA	
+   3947718	    28	  96.4	    32	....T.......................	AGTGCCATCGATGGCGCAAGATAATAGCGACC	
+   3947778	    28	  85.7	     0	...............A....T.....TG	|                               	
+==========	======	======	======	============================	================================	==================
+        18	    28	  99.0	    32	GTTCACTGCCGCACAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TACGGGGTCTGCAGCGATAACCAATTTGTAGAACGCTATAACCAAGGGCATCAACAGTATCTCGTCAATAAGCGTTTGGCGGAAATCGCAGACCGTTTACACACTATTGATAGTGAGATCAGCAGCATTAATACCAAACTCAATAATCTCACCGATAAAGCCGACTTATTAAGGCAAAAAAATATCCTCTTAAATGAAAAAAATCATCTTCTAGATGAAAAAGCCCGCCTACGCCAAGGAAATATTGAGTTTAAATTTAGATTCTAACCATAAAAATCTAGCCATCCACAAAGCCAATTCAAAAGAGTAAACCCAAACAAAAATGTTAAAAGGAACAGGCCGTAAATAAGGCTATTTTAGGATGACTCACCCATACTTCTATTGCATTTAGAAATAAGCTATAAATACAAAAGGTTACAATAGATGATTTTTAAGAAGGTAAAAATACGTTTTTTATCCTAACTGCCTGTTGTAACTTTATTTTATTGATTTATTCTACA
+# Right flank :  GTCACCAACAATGCAAAACTGATCTACCTGTTTTCACTATCAAAGATGGGACATACCCAACTCTCTATGGATTAACAATCAAAACCGAGGTGACAGTATTCTACTCTTCCCTTCGAAATTGCCTCAGGGCATTTGCATTCGTTGCGTGAGCGAGGCATGGTCATTCTCGTGCATATCTGGACCCATCCATGCACTTCACGACATTCTGACATCCTGCCTATCAGATGCCGAGATAGCGTCAGTCGAATCAAGGACGAGCGTCTGACGCTATAGCATAAGAACGCTAAATGCCCAAGGGGCTTTCAACTCCGTTAGGGGCGTCTTGGCTGATGTGAAAACAATAGCAAGGAAGATAGGACGAGCAGTCCTCCTTGGTCGACTCTTGATTAAGAATAAGGAGGGAAAGCCCCACGACTTTTATTCACCTCGGCCGTAAGGCCGCAATGACTAACAATGTAGAAAGATGGGACACTCTAACCACCAGCAAAAGTATACAATGT
+
+# Questionable array : NO	 Score: 8.02
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.07, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCACAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [235,64] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [6.1,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_011789482 [2524930-2525958]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : W3-18-1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;Shewanellaceae; Shewanella.; Shewanella sp. W3-18-1
+//
+
+

@@ -1,0 +1,380 @@
+Array 1 242961-242601 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894093-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00001.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    242960	    30	 100.0	    35	..............................	TGGTGGACGCCGCGGGCGATGTGGCGGATGAGTCG  	
+    242895	    30	 100.0	    37	..............................	TGATCACGCACGCGTAGGTTCCCGGCGCGATGGCCAT	
+    242828	    30	 100.0	    36	..............................	ACGCTCGACGTGCTGGCGCCCGGCCGGGAGGCCGAA 	
+    242762	    30	 100.0	    37	..............................	GCAAGGGCGCCGGCGGTCTGTAGCCCGCGCCGCTCGC	
+    242695	    30	  93.3	    35	...............GA.............	GTCATCTTCGCCAGGGTTCGCCCGGCGCCGCTGGC  	
+    242630	    30	  73.3	     0	...............GA......CAA.GTT	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         6	    30	  94.4	    36	GTCCCCATCGCCCCTACGAGGGGTCGCAAC	                                     	       
+
+# Left flank :   GTGCAGGACGATCGCGGGCAGGTAGGTCTGTTCGAACCGGCAGCGCTCGAAGTCGGGGTCCTCCACGTCTTCGGCGGTGATCGTCACCGGGCCGTAGGCGAGCGAGAGGTACTTCCCGTCGTGGACCAGCTCGGTGTCGGCGGCGGTCGCCGGTGTCAGGGACGTGGGGATCTCGGGTGCTTTCGGCTCTCGGAGGGGGCGACCAGTCTGCATGGCGCGACCTTACAAGTCAGTCGCGTGGATGCTGGCTCGTCGGTGATGCTTGTGGCGGACGGGTCGTCGGACTGTCGGGTGCGCGTCGGCGCCTGGGTGGCGCTTCAGGCGAGGCCCCATTGCGGACATGGTGACCCGAAGCCATCCTGACCGGCGTACGCTGAGCACGGACTTGAGCTCCGGATTTCAGCGACACACCGGGGTTTGCGACACGACCGGAGGGTCGCTGAAAACTGCCACGAGAACTTGCGGTTTCGCGGGTGGTTGAGCTGCGACTTTACCGTGGG
+# Right flank :  TTGGGTGGGTGTGGCATGGGGCTTTGTGTGGTGTGGGGTTGTTGGTTTGTGCGTTGAAGGGGGTGCTGGGGGTCTTAGGTGAGTAGGTGGTTCACGACGCGGGTGGTGGCTTGGCCGTCGTCGTGGGGGGCGTAGGTGGTGGCGAAGGTGTGGAGGCGGTGTTTGGAGGAGGTCGCTACGGCGTCTAGGTCGGTTAGGGCTTCGATTAGGTCGTCTCCCTTGGTGTAGAGGGGGCCGGGGGCTTGTTCGGTCAGGTTCAGGGTCAGGCCGCGGACGGACGTCTGGTAGTCGGTGATGTCCGGGGTGTACAGGAGGATCGGGCGGCGTAGGCCCGCGAAGTCGCACATCGCGGATGAGTAGTCGGTGATCAGGGCGTCCGAGGCCGCGTAGAGGGCGGTGATGTCGGGGTGGTCCGAGACGTCTACCAGGAAGCCCGGCAGGGACGGTAGCGGCTCGGTGTTCAGCAGGTGGTGGGAGCGGAGCAGCAGGACGGTGTCGTG
+
+# Questionable array : NO	 Score: 4.70
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.72, 5:0, 6:0.99, 7:0.99, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCCCATCGCCCCTACGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [76,288] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.33   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6:WP_026313348 [246907-247650]; RAMP Unclassified_Cas_protein:WP_081639688 [260494-262983]; 
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 2 484498-484991 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894093-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00001.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence                                                                                                                       	Insertion/Deletion
+==========	======	======	======	===================	======================================================================================================================================	==================
+    484498	    19	  68.4	   134	.G..C.A...A...CT...	CCGCGACGCGGACGATCTCCCAGAGCGGGTCGTGGCCGCGCCGCCGGACGGCCCGACGGTGCGACGGTATCGGCACCACCACGACCCACCCGTCCGGCACCTCCGGCGCCGCCACCGTCCTCGCCCACCGCCAT	G [484506]
+    484652	    19	  68.4	   101	.G..G.A...G...C...G	ACGGCGGCCACCGCAGCCCCGCCCCCATCAACCGCTCCCCCGACTCCGCGCACCGCTCCCCCGATCCGCATGCGGCGCACCGATCGCAACCCCGCCGCTCC                                 	
+    484772	    19	  78.9	    16	.T.AG.A............	AACCCCACGCACGCCC                                                                                                                      	CT [484780] Deletion [484807]
+    484809	    19	  89.5	    26	.T.T...............	CCACCTCACACCGCCACACACCGCCG                                                                                                            	
+    484854	    19	 100.0	    29	...................	CCGCCCCCTCGCCAACTCACGCACCGCCA                                                                                                         	
+    484902	    19	  94.7	    16	...............A...	ACCCAACGCACCGCTA                                                                                                                      	Deletion [484937]
+    484937	    19	 100.0	    17	...................	AACCCCACGCATCGCCG                                                                                                                     	
+    484973	    19	  84.2	     0	...T......G.......G	|                                                                                                                                     	
+==========	======	======	======	===================	======================================================================================================================================	==================
+         8	    19	  85.5	    49	CACGTCGCCACCTCACGCA	                                                                                                                                      	       
+
+# Left flank :   CACCGGGCGCCGCGCCCGCCACCACGCTCTTCCCCGACCCCGACCCCGGCCCCGGCCCCGGCCCGGCCCCGGCCCGGGCCTGGGCCTGGGCCTGAGCTGGCCAGCGCGCGTTTCTCCGGCGGCGCGCGCGTCGCTGGCGCCTACCGGCCAACGCCCCCTCCGGTGCCGTGCTCGCCAGCGCGCGTTTTCGGCGTCGCGGTCCTGTGTTAGCCCGTCAGGTCTTCGCTAGGCCCGTCAGGTCTTCGGGGTGCGGGGGTGGCGGCGATGGTGGCGGTGGCTTGGACGGTGGCGCCTGCGTGGTGGAGGGCGCGGGTGGCTTCGGCGAGGGTGGCGCCGGTGGTGACGACGTCGTCTACGAGGACGACGCGCCAGCCCGGGAGTGGGAAGCGTGCCTCCAGCGCGCCGCGCAGGTTGGCGGCGCGGGCCGTGCGGCCGAGGCCCGCCTGATCGGCGACGGGGCGGGTCTGGCGTAACGCGTCGACGGCGAACACGTGCTCCCC
+# Right flank :  GATCCCTGTACCGACGCGCCCGTTCATGCCTGCGGCCCCTGCACCGACGTGTCCGCGTTCACCCATGCGGACCACCGCGCACACCGTCCCCGACCGGCGCGGCGCCGCTCTCGTTGGCCCGGCAGCGACCCGGCGCCGCGCGAGGTGCCCGGGAGATGGATGAGAGCACAGCGGGGGCGCTGGGGCGGGCTCAGGGGCGCGCAGGAGGGGTCAGGGAGGGAGGGCCGACCTGACGCCTGCCGCGAGAGCGTGGCCCAGCGGGATGGCGAGGGACGTGCGCGCCTGCTCCTTGTAGGCGTTGACGATGTCGCTGACGGGATGGTCGTAGGTCGCGACCGTCCAGAGGCGGGGCACGTCGCGGCGGTGGTCGGGCCGGGGCGGGAGCGTCAGCGGCATCGCGCAGGCGGAGCACAGGTCGGTGCCCGGCGCGCGGCAGCCCGCGCAGTGCCGGGGCAGAACGAGGTCGAAGGCTTCACGCAAGAGTTCCATGCCCTGATCGT
+
+# Questionable array : YES	 Score: 0.59
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.69, 5:0, 6:-1, 7:-0.82, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CACGTCGCCACCTCACGCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [112,210] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6:WP_026313348 [246907-247650]; RAMP Unclassified_Cas_protein:WP_081639688 [260494-262983]; 
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 3 522004-521316 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894093-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00001.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+    522003	    30	 100.0	    36	..............................	CGGTCGCCCACGATCGGCGCCACGGCGCACCCGCAC   	
+    521937	    30	 100.0	    35	..............................	TGGTGGACCAGATCGGGTGGGGCGGTGACGGCGAG    	
+    521872	    30	 100.0	    33	..............................	CGTCGCCGCAGTAGAGGGCCTGCTGCGGGGCGA      	
+    521809	    30	 100.0	    37	..............................	AGGCCCTCGCCAACGTGCGCCGCGTCGAGATGGCCGG  	
+    521742	    30	 100.0	    37	..............................	AGGCCCTCGCCAACGTGCGCCGCGTCGAGATGGCCGG  	
+    521675	    30	 100.0	    35	..............................	CGGCGGCGGCCAGCTCACGCACCCGCGCGGCAGCA    	
+    521610	    30	 100.0	    34	..............................	GTGCTCGGGCTTTTCACTGACTTGGACCCACCCG     	
+    521546	    30	  93.3	    39	......G..............A........	ATCCCCAGCGGCGCCCGGTAGACCTGCACCTTCACCCGC	
+    521477	    30	  96.7	    35	....................A.........	CGGTCCAGCAGTTCGGCCGCGCGCTCCCGCGTGAG    	
+    521412	    30	 100.0	    37	..............................	ACGCCGCAGCGGCCGGACGACGCCGCGCGAACGCCAC  	
+    521345	    30	  86.7	     0	..........TT......G........G..	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+        11	    30	  97.9	    36	GTCCCCATCGCCCCTACGAGGGGTCGCAAC	                                       	       
+
+# Left flank :   GCCGCTGCCTGTGGATAACACTCCTACCGAACTCGGAGGCAGCCCGAACAGGGGCGTCGCGGCTAGGCGCGCTTCTTCGGCTCGCCGCCGGTCTTGGTGTCCCCATCGCCCGTGGTTGCGGTCGGGGCGCGTCGCGCTGGGCGTGCGTGGTGCGGGCGTGAGTCTCGATCGAGGCTGTGGGTCGCGCGATGCGGGCTGGTGGTCTGCTGGGCAGTTGCGGGGTGTTCTCTGCGTTCGTGCTGGGGTCGTGTTGTGGTGGCCTTGCGCGTGGTTGACCGGCGCTGGACCAGGTGGTGTCGGCTGTGTTCTTTGGCCGGGAGTCGGTTCGGTCTGAGGCGTCCGGGTCGCTGCGGAACGCGCCGGGACCGGCGTACGCTGGGTACGGATTTGAGCCTTGGTTTCAGCGACACGCCGGGGTTGACGACACGACCGGAGGCTCGCTGAAGATCTCTTCAAAAACCGGGGGTTAGCGGTTGGCCGACCTGCGGCTTTACTGTGGG
+# Right flank :  GATGGGTGGTTCTCAGCGGGTGACTAGGAACGTTTCGGGGTCGCGTGGGGGGCGGTTGGGGGGTGGGGATGCTGCGTGGCCTATGCCTACTGTGCCCATCGGGTCCCAGTCGGGGGGGAGGGTGAGGGCGTCGCGGACGACGTCTCGGCAGAACATCGTGCTGGAGACCCAGCAGGAGCCGAGGCCCTGGACGGCGAGCTGGACCAGGAGGTTCTGGACGCCCGCGCCGGTGGCGACGACGAACATCTCGCGTTCGGCCGAGGCGCGGCGTTCGTCCGGATAGGGGTGCGAGCCGTCCATGACCAGGCACGGCACGACCAGGTACGGCGCGCGGCGCAGGACGTCGCCGCGGCGCAGGCGCTTGGCGATGGACTCGGCGGAGAAGCCGTCGCGGCGCAGGTCGGCCTCCCACGCGTCGCGCATGGCGTCGAGCAGGCGCACCCGCGACTCGGGGCTCTCCAGCAGGACGAACCGCCACGGCGTCGTGTGGTGCGGGGCGG
+
+# Questionable array : NO	 Score: 4.63
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.90, 5:0, 6:0.99, 7:0.74, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCCCATCGCCCCTACGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [33.3-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [14,635] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.6   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6:WP_026313348 [246907-247650]; RAMP Unclassified_Cas_protein:WP_081639688 [260494-262983]; 
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 4 1735319-1734690 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894093-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00001.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+   1735318	    30	 100.0	    36	..............................	GCCATGGTGCGGCAGATCCACGAGGAGATCCCGCAG   	
+   1735252	    30	 100.0	    37	..............................	GGGATCACCTGGGCGCGCACGAGCCACCGGACCCAGA  	
+   1735185	    30	 100.0	    34	..............................	CAGCGGTACCGCCGAGCTTCAGCGCGGCGTGGCT     	
+   1735121	    30	 100.0	    39	..............................	GCCAGCATGGCGGCAGCGGTGCCCATCACAGCACCTTCC	
+   1735052	    30	 100.0	    36	..............................	CTGGATGTGTTCGGTGACGGGGAGGTCGGGGCGTGG   	
+   1734986	    30	 100.0	    36	..............................	TGCTCGACCAGGACCCGGCGCTGGCCGAGCACGACC   	
+   1734920	    30	  96.7	    36	..............C...............	ATGGTGATCTTCACCGGGTCGCCTCGCTGTCCTGCT   	
+   1734854	    30	 100.0	    39	..............................	ACGTCGCCCCATTTCTGGACCGCCTTCACGGCGGCTGTC	
+   1734785	    30	 100.0	    36	..............................	GCTGATGGAGCCGCTGGACCGCGCCGCCGCGCGCTT   	
+   1734719	    30	  90.0	     0	...........................GCG	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+        10	    30	  98.7	    37	GTCCCCATCGCCCCTACGAGGGGTCGCAAC	                                       	       
+
+# Left flank :   TGGCGAACCTGGTAGGCCACGACTCGCCTGTTCTCCACCTGCGCCGAACACAGTCCGATGGCCTCTACGACCGCTACGCCCACCACGTGACCGAACTCTGGAACGGCGGTCGGCCCGAGAACGAAAGGCCGCAGCAGCCGTCCTGATCACGGGCCGCCAACGCGTGCAACAGGCCCATGACCGTCGCCGCGCCGACGGGCACCGTCGAACTGGACCCCCTCGCGTCGTGACCGACCGTTCTCTTGGTCCCCTGTCGACATAACGCAGGCACCAGACACAGCTCGCCTACGCCGACTCAATGCTCGACGTCCACCTCTCGCTAGGCACCAGCCCGTCTGTCCCCCGGGTACACAACCTCTCCCGACCGGCATACGCTGAGCACGGACTTGGACTCAGATTTCAGCGACACGCCGGGGTCCACCGCACCACCGGAGGGTCGCTGAAAACTCCGCCAAGAATCACGCACCTCACGCGCACCTGAACTGTGGCTTTACCGTGGG
+# Right flank :  TGCTGGCGCGGGGATGTGCCGCCTTCCCGCACTGTGAGGGGGTTGTTGGGTTCTGGGGTCGGCCCGGCCCCGGCGGCCCCTGGCGTCGGGGGCGGGTCTCGCGCCCTTCAGGAAGGGGGTTGACCCGTCATAGTACACAAGTTATATATGAGCCATGCCATATAGCGGAGTGGGTCGGGTTGTTGTGCTTGGGGCTGGGGTTGCTGGGTTGATGGCGGCTCGGGTGTTGGCTGAGCACTACGACGAAGTGGTTCTGGTGGATCGGGATGAGTTGCCTGAGCGGGCGGAGCATCGGCGGTTCGTGCCGCAGTCGCATCATGCGCATGGGTTGTTGGCGTCCGGGCGGCAGGTGATGATTCGGCTGTTTCCTGGATTGTCGGCGGAGCTGGACGCGGCCGGGGCGATCACTACCGGGTCGAACGATCCGGAGATGGGGGATCGGTCGATCTTCGTGGTGCGGGGTGGGACCACGATTCGTATTCCTGTTTGGTGGACGGGTG
+
+# Questionable array : NO	 Score: 4.79
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.94, 5:0, 6:0.99, 7:0.86, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCCCATCGCCCCTACGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [31.7-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [156,355] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.6   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6:WP_026313348 [246907-247650]; RAMP Unclassified_Cas_protein:WP_081639688 [260494-262983]; 
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 1 18595-18297 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894095-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00003.3, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+     18594	    30	 100.0	    35	..............................	CAGCGGCTGCTGCGGTGCGACGGGTGCGGGCGCCA    	
+     18529	    30	 100.0	    39	..............................	GCGTCCACGGCCCACTGCGCGAGCGCGCTCACCTGCCGC	
+     18460	    30	 100.0	    37	..............................	GCTGCTGCCTCGTCCAGGCGCGCGCGGATGTCGCGGT  	
+     18393	    30	 100.0	    37	..............................	CGCGCCCGCGACCGGGTGGTCACACGGCGCTTGACCG  	
+     18326	    30	 100.0	     0	..............................	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+         5	    30	 100.0	    37	GTCCCCATCGCCCCTAAGAGGGGTCGCAAC	                                       	       
+
+# Left flank :   ACGGCCTCGCCGCCAAGGCCGACGACGCGACGCTGAAGAAGACCCTGAAGTCCGAGTCCACCACCCTCCGCGCCGCCGTGACGCCTCTCACAACGGGCGACACCACCCAACTGACCAAGTCCACCGCCGCAACCCCCCGCAACCTCGGCCGAGCCTGCGACTGACCCGCCCCACCACGACCAGCCCGTGTCACACGGCAACACCGGGCAGGCCCCAACCGCGCCGGGCCGCCGCCGGCAGAGCAAGCCCCCGGCGGCGACCACCTCCGCCAGCGGACGGGATCACACCGAGCATCACACCCCGGCACCCGGCGGCCCATTCCTCACATCGCTCTTCGCGCCGATGCTGCGGAACGCACGCAGCCGACGTACTCTGAGCGCGAACCCATGGCCCCGGATTTCAGCGACACGCCGGGACCCACAGCACGACCGGAGGCTCGCTGAAATCCGCCCCCAAAATCCGTGGCATCACGAAGAACTGAGCTGCGGCTTTACCGTGGG
+# Right flank :  AAATGCGGGATCCACAGGCTTTTGTGGGTCCCGGGTGGTGGCCGGGACCCACGGGGGTGGGGTCGGGTCAGCGGTGGAGGTCCAGGTTGGGGACGCCGCCGCCGGGGAAGCCGCCGCCTCCTCCGCCTCCACCGCCACCGCCGCCACCGCCGGGTGGGTCGCCGCCGCCTGGGTTGGGTGGGAGTTCGGGTTCGGTCGGGGGGCGGGGTGGGCTCGGTTCGGATGGGCGGGGCTGGGTCGGGCGGGACGGGGTGGACGGGCGCTGCGGTTCCTGCGGGCGGTACGAGGGCACCGACGGGCGGCCCTGGTAGGGGTCGCCGGTGTAGCCGCCGCCGGGACGCAGGGACGGTGAGCCGAACTCCTTCGGCTCCATGTTCTCGATCGACACCGCCTCGCGCATGTACGAGTTCCAGATCCGCGCGGGGAGCTGCCCGCCGAACACGCTGTAGCCGGGGATCGTCATCGGCTTGCGGTCCTTGTGGAACATCGTCACGCTCGTC
+
+# Questionable array : NO	 Score: 4.64
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.99, 7:0.85, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCCCATCGCCCCTAAGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-7.20,-8.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [31.7-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [69,337] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.19   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 2 300279-300637 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894095-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00003.3, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+    300279	    30	 100.0	    37	..............................	TACGTTACCGCCGGAATGCGCCCGCGAGGCGCAACCT	
+    300346	    30	 100.0	    36	..............................	CTCGTGAGGTGTTCGCCCAGGATCGCGTGCGTCTCC 	
+    300412	    30	 100.0	    35	..............................	GCGGGGATCGGGCGGACCGGCCGCGCGACCCAGCG  	
+    300477	    30	 100.0	    34	..............................	CGCCGTGGGCAGGGCGCATGGCGTGCGGGTCGAT   	
+    300541	    30	  96.7	    37	.................A............	AGCTTGGGCGGGGGCCGCGCTGGCGCGGCGCGCACCC	
+    300608	    30	  93.3	     0	...........................G.T	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         6	    30	  98.3	    36	GTCCCCATCGCCCCTACGAGGGGTCGCAAC	                                     	       
+
+# Left flank :   CCACTCCACGAACCTGTGGACAACTTTCTCACCAGGCTCAGAGACAGCCTGAACAAGGGGGTCGCGCCTAGGCACGCTCGCCCGGCTCGCCACCGGTCTCGGTCGCCCGACCGCCCCTGGGGGGTCGGGCCGTGTCACGCCGGGCGGGCGCGGTGCGGGCGTGAGTCTCGATCGGGCTGTGGGTCGCGCGATGCGGCTGGTGGTCTTCTGGGCGGCGATGGGGTGTTCTCTACGTTCTCGCCGGGTCGTGTTGTGGTGGCCGGGCGCGCGTTTCACCGGCGCTGGACCAGGCCGTGTCGCTGTGTTCTTTCGCCGGGAGTCAGCTCGGTCCGAGGTGTCTGGGGCGCTGCGGAACGCGCTGTAACCGGCGTAGGATGAGCACGGATTTAAGCCTTGGTTTCAGCGACACGCCGGGGTTGGCAACACGACCGGAGGCTCGCTGAAGATCTCTTCGAAAACCCGGGGGTTCACGGTTGGCCGACCTGCGGCTTTACTGTGGG
+# Right flank :  TGCCTGCGCTGCCCGCGATAGGTGACGGGGGCGTGCGCCGCTGCGGGGTTCGCAAGCTCTCTGGGGACCCCCTTGATTCGATTTTCTCGTGTTGGTGTCTCGCGGGTGGGCGGTGGCCGTGGCCTGTGGACAACTCTTCTCGCCGTGTCCGGTGGGGTCGTCGCGTACGGCGGGCGGTTTTTGCGTTCGGCGGGGGGCGTTGTGCTCGGCGGAGGGTCGTTGTGCTCGGCGGGAGGGTTGTTGTGTTCGGTGGGCGATGGCTGGGGCTGGGGGTGTGTTGGTGGTTCGCTGGGGTGGGTCAGGTGAGGAAGCCTCTTAGTAGGGATGCTGTGGCTTCCAGGTGTTCTGTTACGGCTTTGCGGGCGGCTTCTGGGTCGCCCAGGAGGATGGCGTCGAGGATGGCGGCGTGCTGGGTGGCGGCGTGGGCGATGTTGGCGCGGAAGAGGGGGATGGCGTTGAGGAGGTCGGTGACGCGGAGGCGGGCGTCGGCGCAGGTCTCG
+
+# Questionable array : NO	 Score: 4.83
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.91, 5:0, 6:0.99, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCCCATCGCCCCTACGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.70,-7.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [41.7-25.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [649,298] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.6,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 3 337550-337980 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894095-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00003.3, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+    337550	    32	  96.9	    33	..........A.....................	GTCGCGGTGGTGACGTGGGTGCTGCGGCACCCG   	T [337552]
+    337616	    32	  93.8	    34	..........A..............C......	CGAGCCCGCCCCGTCCGCTCGCCGTCACGGGGAC  	
+    337682	    32	  96.9	    35	................G...............	GCCGAGCTGAGGTTCCTGGCCGAGGCCAGCGCCTG 	
+    337749	    32	  96.9	    34	.A..............................	GCGGACCCAGCGCGGCGTCTCGCGGACCTCGACC  	
+    337815	    32	 100.0	    34	................................	TCCCACCCGAGCCCGCACGCCTCACCGCGGCGTA  	
+    337881	    32	 100.0	    36	................................	ATGTGCAGACGGTGGCGCGATCCGGCCAGGAGGCCC	
+    337949	    32	  90.6	     0	.C...........................GG.	|                                   	
+==========	======	======	======	================================	====================================	==================
+         7	    32	  96.4	    34	GGGTCCCCATCGCCCCTACGAGGGGTCGCAAC	                                    	       
+
+# Left flank :   CCAACCTCACCGGCACCACGCTCGGAACCCGCGACTCAAAGAACCCGGACGCCGGCCACCTCACCTTCACCCGCCCGTCCTTCGCCAACCTTCTAGCCACCGTCAAGACAGGCGCCTTAGACCTCCCCTAACCCGAACACCGCGCCACCACCCCACCCACGAACACCTGGATGCCCGACTACAAACCCACCGCGAGACCCAAGACCTCGTCCAGCCAGCCGACGCCCGGCCGCACTCGTCGTCACCACGGAACGCAATGCGCTCACCAGACACGGTCGCCAACGCCAGCCGGGGTTTCCCCGCTAGGACTCCCACCCACCGTCACCCCGACCCCGTCACCCGTGGCCGCTACAAAACCCAACCCAACCGGCGTACTCTGAGCACTGACCGAAGCCCGAGATTTCAGCGACACGCCGGGTTCCACAACACAACCGGAGACCCGCTGAAAACCTCACCAGAAATCTGGGCCTACAAGGGCGGATGAGCTGCGGCTTTACCCT
+# Right flank :  CTCGCCGTCGTCGTTCATCGCCATGATCTTCGTGGCGGGCGGCGACCCGGGCCAGGCACGCACCCACCTGGAGAAGTGTTTGGCCTTCGTCACCGAATGCGTAGGCGTCCAGTGACCGCGGAATCGCTGGCGACACGATGGGCGCCCGCGACTCGATGAACCCGGACGGCCGCCGACTCTCTCACCGCCCGCCCGAGCATGATGGGCTGAGCCATGCCCTCGTCACCGTCGTCCTCCGCACAGGCCGCCCGCGAACTTTTGGGAGCCAAGCTACGAGCCCTCCGTGAAGCTCGCGGGCTGTCCGGCCGCGACTTCGCCGAAGCGGCCGGCTGGAAGTCCCCTCCCTCGTCTCAATGATCGAAAAGGGCCAACGCCCCATCAGCGCCCAGCACATCGAGACCTGGTGCACGATCTGCGCCGCCCCCGAATCCCAGAGAACCCGCCTCATAGCCGAACAAGCAGCCGTAGCAGGCATGTGGATTCCCTACGAAGACCTGAAC
+
+# Questionable array : NO	 Score: 3.78
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.82, 5:0, 6:0.7, 7:0.70, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGTCCCCATCGCCCCTACGAGGGGTCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-8.70,-8.80] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [4-4] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [43.3-28.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [371,473] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 4 342762-343181 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894095-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00003.3, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    342762	    29	 100.0	    35	.............................	CGTGACGAAATTCGTCATCAGAGCAGACATGGCAG   	
+    342826	    29	 100.0	    35	.............................	TGGAGATCTGGCGGGGGTCGCGGCGGCTGAGGTGT   	
+    342890	    29	 100.0	    36	.............................	CGAGCACGTGCCGCGCGTCGGCGGCCGGTTCGGGTG  	
+    342955	    29	 100.0	    35	.............................	TGGAGATCTGGCGGGGGTCGCGGCGGCTGAGGTGT   	
+    343019	    29	  96.6	    38	............................C	CGTGACGCAGCAGGTGCGCCACGATGGCGGCCCGGCGT	
+    343086	    29	  96.6	    38	............................C	GCACAGCAGGAGCGCGTGTGGGACCACGCAGAGCAGCT	
+    343153	    29	  89.7	     0	...A.....G......G............	|                                     	
+==========	======	======	======	=============================	======================================	==================
+         7	    29	  97.6	    36	CCCCATCGCCCCTACGAGGGGTCGCAACA	                                      	       
+
+# Left flank :   CGAACGGCTCCTGGGCGTCGGTCACCTCCGGCCCGTCCGGCCTCCACACCGTCACCCAGTACGGCGACCGCCGCCTCTGGGACGAGGTCGAATCCGCCTTCACGCAGTGGACCGACACCGGCTCACCCGGCCTCGACCGCTTCGGCCTCCTCATCACCGAGCACGAAACCCGCCTCTGGCTGGACCACCCGCCCCGGAGTTGACCTCCCGCCGGAGTCCGATCTCACCCATCCGATCACCCCACCGGGCAGAGAAGCACACGGTGCCGCGCTCGCCCGGTGTTCGGCCGGGCGCCGTTCCCCAGAGCCTCCCGCTCGGCGTCACCCCAACTCCTCACGCGAGGACACTGCGGAACGGACCCCACCGGCGTAACCTGAGCACTGATCCAAGCCTGGATTTCAGCGACACGCCGGGCTCTGCAACACGACCGGAGGCCCGCTGAAATCCTCGCGAAGAATCTGGACCTGCATGAGCGGATGAGCTGCAGCTTTACCGTGGGG
+# Right flank :  AGCGGCCTGGCTGAACGTTCGAGGTCGCCCGGGTGCTGGTGCGGCCACCGGCGGGCGTGCGGCGGTTGACCGGGGGCGCTCGCGGGCGCCGGGGTGGCTAGTGGACGGCGTTGACCAGGTCGTCTTGGAGCATTGTTAGCCAGTCGTAGGCCGCGTAGAGCGGGAGTAGTGGGTCGCCCGGTGGGGGGAGGGGACGGTCTTCGGTGATGTTCAGGCGGGTGCCCAGGGTCAGGCGGAGGTCGTTGAGGCTGGTGAGCCAGGCCCGGGACTGTTTTTCGTCCAGGACGGTGCGGACGTGGCCTCGGGCGTCGGTGTGGTCGTCCAGGGCGGACAGCACCGTGCGGGCGGCTTCGCGTTTGCCGTCGCGCAGGCCCATCTCGGTGTAGCGGCGGAACTCGTCGGCCGCCTCGCCGTCGCCCTGGTAGGCGTCCGGGAAGAGACGGGCCAGCACCGGGTCGTCCGGGGTCTCGGCCGAGTCGCTGATGCCGAGCGCGGCCAGC
+
+# Questionable array : NO	 Score: 4.69
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.88, 5:0, 6:1, 7:0.81, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCCCATCGCCCCTACGAGGGGTCGCAACA
+# Alternate repeat :   CCCCATCGCCCCTACGAGGGGTCGCAACC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.70,-9.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [43.3-21.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [299,97] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+
+Array 5 363615-363352 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB894095-Actinomadura flavalba DSM 45200 C229DRAFT_scaffold00003.3, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=======================	======================================	==================
+    363614	    23	  87.0	    36	...T....A...C..........	CGCCCGACGTCCGTCGGTGTCGTGGTCTCGGTCTCG  	
+    363555	    23	  91.3	    38	..T.............T......	GGCCCGAGGGTCCATCGTCGTTGTGAGCTCGGTCCACG	
+    363494	    23	 100.0	    37	.......................	CTTTCGAGGTCCATCGTCGTCGTGGTCTCGGTTCGCT 	
+    363434	    23	 100.0	    37	.......................	GGCCCGGCTCCCATGGACGTCGTGGTCGCGGCCCACC 	
+    363374	    23	  78.3	     0	...............TTC..CT.	|                                     	
+==========	======	======	======	=======================	======================================	==================
+         5	    23	  91.3	    37	GGCCGCCTGCGTTGGCCTGTTCG	                                      	       
+
+# Left flank :   GACTCGTCGGCTCGACGACGATGCGCCAGCGCGCCCTCGTCTACGGTCGCGTCCGCGGTCTCGTCCAGGCGACCCCGCCGGCGGCGGCGGCCTGGGCGCAGCGCGCGATGGCCGTCCGATCCGACGCGTTCGCGACCCTGCGCGACGTGAAGGTGCCCGCCCTGATCCTGCACGGCGACGAGGACGCCCTCGCGACCGAGGACGAGGCCCGCGCCATCGCCGACGCCCTCCCGAACGCCGAACTCCAGACCATCCCGCGCTCGGGCCACCTCACCCCGGTCGAACAGCCCGACCTCTTCAACCAGACCGTCGCCGAGTTCACCGCCGCCCTGGGCCCTTAGCCGCCGAATCGTCCGGACCGTCCCACGCTCCGGTCACTTCGTCCCGGTCGAACAGCGCGACCATTTCAACCAGGCCGTTGTCGAGTTCACCGCCGCCCTGGTCCCTGGACGCCGGATCGGCCGCGCGCGACGCTCATCGACGTCGTCGTCTCGGTCTCG
+# Right flank :  CTCGCATGTGCGGTCACCGGGTGCGCGCTCGCAGGTTCGTGTCGTCGTGCGGGTGTCGGTCACATGGTTTCTTGGCGGGGGAGGACGACCTCTCGGATGATCAGGGCGATGGCCGCGGCCGTGGGGATGGCCAGGAGGGCGCCGACGACGCCCAGGAGGGTGCCGCCCACCAGGGCCGCGACGATGGTCACGGCCGGGGCCACGTCCACCGTGCGCTTCATGACGCGGGGGTAGAGGAGGTAGTTCTCGACCTGCTGGTAGACGACGTAGAAGATGATGGCCGCGATGCCCTCGTAGAGGGAGCCGGACAGGAAGACGACGAGGCAGACGAGGGCCGCGCCGATCGTCGCGCCGACGAGCGGGATCAGGGCCGTGACGGCGACGATGAGGGACAGCGCCAGGGCGTAGGGGACGTCGAGGATCGTCAGGAAGACGTACGACGCGACGCCCGCGATGAACGCGATCGTGGACTGGCCCGCGACGTAGCCGCCGATGCGCTC
+
+# Questionable array : NO	 Score: 3.54
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.56, 5:0, 6:0.25, 7:1.01, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCCGCCTGCGTTGGCCTGTTCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.50,-1.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [5-5] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-26.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [61,160] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 45200
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;Actinomadura.; Actinomadura flavalba DSM 45200
+//
+
+

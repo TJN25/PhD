@@ -1,0 +1,109 @@
+Array 1 23081-23315 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AXSW01000009-Streptococcus mutans PKUSS-HG01 PHG01_scaffold4, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+     23081	    37	 100.0	    28	.....................................	AAGTGCACTTAAAAATGCTTTGAATGCT 	
+     23146	    37	 100.0	    29	.....................................	CTTGCCAGCTGGGGCAGAAGTTTTGAACG	
+     23212	    37	 100.0	    29	.....................................	GGCCCCTTAGTTGAATATGTAATTGCATG	
+     23278	    37	  86.5	     0	..........T.................AG.T...A.	|                            	A [23306]
+==========	======	======	======	=====================================	=============================	==================
+         4	    37	  96.6	    29	GTTTTGGAACCATTCGAAACAACACAGCTCTAAAACT	                             	       
+
+# Left flank :   AAACATTCAGATTTATGGTGAAGTTTCAGCTGGTACTGGTATCTGGGTTGGACATGAAAAACAAGAAACCATTAAATACCCAATACCAATTCCAGAACATGATATTGCTCTTACTGTCAATGGTAATAGTATGGAACCTTTATTTTACAACGGTGACGTTATTTTTGTTAAAAAGACTAAAGCTATCCATCACGGACAAATTATCGTTGTTATTGTAAATAATGAGGCATATGTCAAAAAACTCTACCGAAAAAACAAAGAAATTCGACTCATCTCATTAAATCCAGATTATGATGACATCATTTTAAAAGAAGATGATACAATTGAAGTCATCGGAACGGTCATTACCTAAAAATTAAAGAAAGTCCCATAAAAGACACTTGAATTATTGCTTCAAGTGTCTTTTGCTTATTTAAAAATCTTTCGCATAATGCATTTTAGTAAATCAGTAACTAACATGGTTCTAAAACTTAACTGACTTAGGAGAATTTGATTCTATT
+# Right flank :  TAAGGTTTATCCGTATTCAACTTGAAAAAGTGCGCACCGATTCGGTGCTTTTTTATTTGCTTTACTGTAAGCGTTTCTATTATACCACTATCTGCGAAATATTTTAACAATATAAATGAAAAAATATAGAAATATTTCTGTATTTTTTCATTTCAGAAAGCAAATTAATGTGTTCATCCTTATTTCTACTATAAAATTGACTGACAGTTGCTTCTCAAGTTTGATTCCATATTGAAAATGCCTAAATATTCAGTGATATTTGAGCATTAATAAAAAATTAACCCAAATGTAAGTTTACATTAACCATGATTTAGTCAATAAGAAAGAGCCAAACTTTCGAGGTTTGGCTCTTTCTTATTAATTTAGTGTTTCTACTTCAATAGTGCATCCAGCGGATCGGTTGTTTCGATACCTAAATCTTTTCCAAAGATATTGTCTAAAGCTTTTTCAAAAGGTATTGGTTGTTTTTTGATTGCTTTGTATTGGGCATCCAAAACCTT
+
+# Questionable array : NO	 Score: 6.49
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.83, 5:0, 6:1, 7:0.06, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGAACCATTCGAAACAACACAGCTCTAAAACT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.16%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-61.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [150,372] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_032526075 [124469-127255]; 
+# Array family : NA
+# Sequence source strain : PKUSS-HG01
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus mutans PKUSS-HG01
+//
+
+
+Array 2 115740-117842 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AXSW01000009-Streptococcus mutans PKUSS-HG01 PHG01_scaffold4, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+    115740	    28	 100.0	    33	............................	TGCTATTCTTGGCTCTTTTTATGCTAAGAATGT 	
+    115801	    28	 100.0	    33	............................	GTCTGTATCTATATCTACGCATTGCATGCCGTA 	
+    115862	    28	 100.0	    33	............................	TGGCTAGATTGGCAATGTGAAAAAGGTAAAGTC 	
+    115923	    28	 100.0	    33	............................	CAGAAATAAATAATTTAGAATATAAATTATCCA 	
+    115984	    28	 100.0	    33	............................	AATGACAAAGGATTTATTGGGGAAAGATTACTA 	
+    116045	    28	 100.0	    33	............................	GGGTACTTGGCGTTTAGCTGGTCATGATAGACA 	
+    116106	    28	 100.0	    33	............................	TTTGCAGACTTACCAAAGAATGCGCAGAAAGCA 	
+    116167	    28	 100.0	    33	............................	GAAGGTTCTAAGAATTTTGACCGCGACAAAGTA 	
+    116228	    28	 100.0	    33	............................	TCGCTGTCAATTAACGCTATACATGTATTCGTG 	
+    116289	    28	 100.0	    33	............................	ATCGTTAAGCGCTTTTCAGCATTAGCGACCCGA 	
+    116350	    28	 100.0	    33	............................	GTAATGTCAAGTAAAAAATTACGGATTTTTACA 	
+    116411	    28	 100.0	    33	............................	TAACTAACGCTCAAAAAGAAGCATTAGACCAGC 	
+    116472	    28	 100.0	    33	............................	TATCCAATAACTCTGATGTTGTACACTACAGTA 	
+    116533	    28	 100.0	    33	............................	GATAAGTTGATGTTACATACCCAACTAAGTCAG 	
+    116594	    28	 100.0	    33	............................	GATATTGGCAACGCTGGTAAAGCAAGTAAATTA 	
+    116655	    28	 100.0	    33	............................	AGAAACAATTAGCAGACAATGACAAAATCACAA 	
+    116716	    28	 100.0	    33	............................	TGGCTAGATTGGCAATGTGAAAAAGGTAAAGTC 	
+    116777	    28	 100.0	    33	............................	TCTTTCATATCGCTCTTTGAGTTCCTGCTCGTA 	
+    116838	    28	 100.0	    33	............................	TTACAGAATATTTTTTCTTTTTTCTCATTTTTA 	
+    116899	    28	 100.0	    34	............................	TCGTTTTCTAACTCAGTTTCAAGAACAGCTTTCA	
+    116961	    28	 100.0	    33	............................	TTCTTTAAGTTTTGCGGGTTCATAAAATTGTGG 	
+    117022	    28	 100.0	    33	............................	TTCAGAAAACTACTGACAGCCTACTAAACCGTA 	
+    117083	    28	 100.0	    33	............................	TTGGCTGATACCGCAGGAAAAGTCATGACTGCA 	
+    117144	    28	 100.0	    33	............................	CTGTCAGTGCTTACATTTAACACGTAAGGCGCG 	
+    117205	    28	 100.0	    33	............................	GTATTCGTTTCACCACTTCGTCTAGTACTAATA 	
+    117266	    28	 100.0	    33	............................	TAGTTCTTAGCTTCGTCAAAGCTTGCGCTCATA 	
+    117327	    28	 100.0	    33	............................	TATTTGTTTTTGGCAAGTGGAGCGTCAACTGCA 	
+    117388	    28	 100.0	    33	............................	TGTGCTGATTTTAAATTCAGGCGGCGGCTCTTA 	
+    117449	    28	 100.0	    33	............................	TGACCGTTAACGTTTACTTTGTTGATTAATTTA 	
+    117510	    28	 100.0	    33	............................	TTCAAAAAACTACTGACAGTCTACTAAACCGTA 	
+    117571	    28	 100.0	    33	............................	TTACAGGCGCTGTCAATTCACGCTTGATTTCTA 	
+    117632	    28	 100.0	    33	............................	GCTTGCTTTTGATTTTGATTTTTGACTTTTGCA 	
+    117693	    28	 100.0	    33	............................	TAAAGTTTTAGCTTGTGGACTAGATAAAGACTA 	
+    117754	    28	 100.0	    33	............................	TTAACTTCTGACAAGACTTCTAGCGACAGGTTA 	
+    117815	    28	 100.0	     0	............................	|                                 	
+==========	======	======	======	============================	==================================	==================
+        35	    28	 100.0	    33	GGATCACCCCCGCTCGTGCGGGTAAAAT	                                  	       
+
+# Left flank :   CGTGCCATCTGCTCAAAACGCGTAATGGTAATAGCAAAGGAAGCCCGCTCAGGCAGGGTCTCCAAAACAGCTCGCTCCTTCTCAAAAGACAAGGAGTTGGGAGCAATATAAAAGACCCGCTTACCAGCCTTAGCAGCTATTTGTGCTTCCTCGGCCAAAATCTCTGTTATGTTGTATGGAATGTCGGTATATAAAAGTTTCATTATTACCTCTATCAGATTGAAATAATTGGTAAGCATGTCGCTTCTTTATATTATCACAAAATTGATCAAAAAAATATTCGTATCATTATAATGATTTTAGGTTTGACGACTAAACATTTTCCAATTCTTTATAATTCTTAATCTCTATTATCTAATATTTTACTTTTATTGTCATCCACTTAATATATATATTTGATTTCCTTCTATCCAAAAGAATCAATTTCAATCGGTCTAACATCACAAGTCTATATGTGTAGGTAAAACATGATTTCTGTATCTGATTCGTTGTTGTCACTG
+# Right flank :  TACTAAAAGATCCCAATAAAACCGCTACTTCTGATTGATCCCTTTCAAAAATTTATTCATTTTAGTTGACAAGTCATAAATCAGTTTAGAATCGTGAAGAGCTCTATGAGGCACCTCATCCTCTATTTCGTATGCTTTTAATACCGTCTGCAATTTATAATTATCTAAAAATAATTTTTCTTTTTTAGCGTATTGCATTAAGTCATATACTCGATTTTTCAATAAGGGCTGATTTAATTCTTTCAACTTTTTATTTATAAATTTTATATCAAAATTTATCCCATATCCGACAAGATCGTGATTTCCGATAAAATTCAAAAATTCCTGAAGTACAACTTGAAGGTCTTTACCATCACGATCCAAAAGTTCCTGACTAATTCCTGTTAATTTCGATATCTGTTTTGGTAGAATTTTATCATATTTCACAAGATAATTAAACTCTTCCAATTGAGAGGGACCAATCTTGACAGCGCCAATTTCTATGATGCTATTTTCATTTT
+
+# Questionable array : NO	 Score: 7.43
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.43, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATCACCCCCGCTCGTGCGGGTAAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.90,-9.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [299,24] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.55,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_032526075 [124469-127255]; 
+# Array family : NA
+# Sequence source strain : PKUSS-HG01
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus mutans PKUSS-HG01
+//
+
+

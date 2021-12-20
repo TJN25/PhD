@@ -1,0 +1,51 @@
+Array 1 12121-10933 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JXTH01000022-Anoxybacillus thermarum strain AF/04 contig000022, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	======================================	===========================================	==================
+     12120	    38	  97.4	    38	.................................G....	TTTGTGGAAGAGCTCCGTTTGACGGAGCTTCTTCACAT     	
+     12044	    38	  97.4	    39	.................................G....	AATGATTGCAGCGATGATTAAAAAGATTTTTTTTGTTTT    	
+     11967	    38	  97.4	    43	.....................................T	TTTTTCTCTCCCTTTCTTTTTTCTTTTTTTTGTTTTTTTTTGT	
+     11886	    38	 100.0	    39	......................................	AGTTGTCCCATCCGTTGTTTTCATAATGTTCCAACACGA    	
+     11809	    38	 100.0	    38	......................................	CCTTCTAGTCTCATCCAATCGGATGATGTGAATGAAAC     	
+     11733	    38	 100.0	    39	......................................	TGTGTTCCCTTGCGGAACACAACGGTTCCGCAAATGAAA    	
+     11656	    38	 100.0	    36	......................................	ATTCGATCAAGCGGCATTGTTGCCAGCTCGATCTTT       	
+     11582	    38	 100.0	    37	......................................	ACAAATAATGTTCTGCGAAGGGCGATCCTGTTTTCCC      	
+     11507	    38	 100.0	    39	......................................	TTCCTCCGTTCTTTTTATTTTTTCCTTTTCTGTTTTTAT    	
+     11430	    38	 100.0	    39	......................................	CAATAATCATTGAACTGTGTGTTTCCGACAGTTCAATGC    	
+     11353	    38	 100.0	    38	......................................	ACACATATAAGTTACGAGTTACTTGATCGAGGTAGTCC     	
+     11277	    38	 100.0	    38	......................................	CAAGTATTTGTTTTTCTTTCACACAAGGGAAAAACATC     	
+     11201	    38	 100.0	    39	......................................	TTTCCGGGTTCTGCTGGGCAAAAGACACTAACAGAGGAT    	
+     11124	    38	 100.0	    38	......................................	TTGAATTTTCCGTCAGAGTTTTTTTGAGGGAAAAAAGC     	
+     11048	    38	 100.0	    40	......................................	ATTATTAACTTGCTTTAAAGCGGCAACGGTTGTGTTAAAA   	
+     10970	    38	  89.5	     0	................................G..CGC	|                                          	
+==========	======	======	======	======================================	===========================================	==================
+        16	    38	  98.9	    39	GAGAAAATGAAACGGGCCTCGTGTAGAGGATTAACACA	                                           	       
+
+# Left flank :   GGATGGGCGGAAGCGCATTTTGTTTCCCTAGATTCGCATAGGTTTGCACATCGATCTCTAAGTCATACAACTGAATCACGATCTCGTCCTCCCCCTCCGAAACAATTCACTAAAAATTTAGCATACTGTTTCAGAAAAGGGGAGGGGGACATTCCAAAGGAATTTACAAAAAAAGAAAGCGTTTCGGGGATAAAATGATAATTTACATAATTGAAAAAAGAAGGGGGTGTGACACGGGCATTGCAACTGTATGAAACATTAAAACTTTAGTTGTGAGTATATGCACGCCTTCAAAAAGTAAAAAAAGATAAGGGGGTGTACAATGTCTCACATGCAAGAAAATGAGAGAGGAATTGTTGAACATGAGCAACTTGACTGCTTGAATAAAATAGTCGATCATTTAAGTTTACATAACGTAAATATTGAAATTCGAGCTAGAATCAACTTGTACAAAAACAGGCCTTGATTTCTTACAGATACAACGCTAGAATGAGGATGGA
+# Right flank :  CTTTCATACAAGGGCGGTTTTTTTGTTACATAAATGTTAATGCATTTGACAATGAAAATGTATTCGAAAAAACTTTTTAAAATATTTTGCATAAGAAAGAAGGAATTTGTATTTTTTTGTAGAATAGTGCGATATTCCTAATGAGAGGTGAAAAATGAAGATGAGTCAACCGAGTGTATTTTTTGATCATCGTCTTTTTTACGAAGCATGGGACAGATTAGTGAGAACGACAACTGATGCGGCGGGAGTAGATGGAGTACGAATAGACGAAGTTACTGTGCCAAATGAGTGGGTTGAATCTGTACAAACAAAACTTCTTTCTAATTCGTACAAACCTTCCCCTGTGAAAGAAGTACAAATTAAGAAAAATGGAAAATCAAGAACAATTGGTATTTTGACAGTAGAAGATCGTTATGTCCATATGCTAGTGAAATGTTGGCTTGAACCGTTATGTCTTCCGAAATTCAGCAAGTACAGTTTTGCTTATCAACCTAAAAAAT
+
+# Questionable array : NO	 Score: 4.68
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:0.29, 7:0.44, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGAAAATGAAACGGGCCTCGTGTAGAGGATTAACACA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.26%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-4.00,-5.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [156,422] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_043965951 [7039-8034]; Endonuclease Cas2:WP_052585019 [6789-7085]; RAMP Unclassified_Cas_protein:WP_084221275 [16750-17577]; 
+# Array family : NA
+# Sequence source strain : AF/04
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Anoxybacillus.; Anoxybacillus thermarum
+//
+
+

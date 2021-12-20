@@ -1,0 +1,38 @@
+Array 1 348193-348365 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FRBI01000004-Streptomyces paucisporeus strain CGMCC 4.2025, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                                	Insertion/Deletion
+==========	======	======	======	===========================	===============================================	==================
+    348193	    27	 100.0	    45	...........................	ACGATGTCGGGAGAGAAGCGACGTCTCGGCAAGGGGCACCCCCCC  	
+    348265	    27	  92.6	    47	.....................C..C..	CGAAGAGGCGGGAAGGAAAGCAACGCACCGCACGGGGCAGCCACCCG	
+    348339	    27	 100.0	     0	...........................	|                                              	
+==========	======	======	======	===========================	===============================================	==================
+         3	    27	  97.5	    46	AGGGGCGCGGGGAACTGCGCGACCAGC	                                               	       
+
+# Left flank :   CGCTGCCCTTCCCCGCCGACCCGCCCCGCCCCCTCGTCACCGGCCCCGGACCCGACCCCGTCCGCTACGACTGGCGGGCCGTCGCCGAGGCGGCCCGCCAGCGCAACGCGCCTGCCGCGCGGCACTGGGACGGCCTCGCGGAGATCACCGCGCCGACCCTGATCATCGCCGGCGGCCCCACCAGCCACCTCCGCCAATCCGACCTGGCCCGAGTCGCCGCCCGCATCCCGGCCGCCCGCCTCGTCACCATCGACGCCGGCCACATGATCCACGACACGCGCCCTGCGGACTACCTCTCCGAAGTCCGCGCCTTCCTCCACGACGACGCCCCCTCCCCGCGCCCCCGGGGGTGACTGCCCCATCCGGTGCGTTGCTCGCCCGCGGCGCGGTGGTGGTTGCGCGCGCAGTTCCCCGCACCCGAGAAAAGCGTGCCTACCGCGGGCAGAAGGGCAAGGCCCAAGCCAGGGGCCACCTCTGGGCGTAGGAGGACGCAGGCCCGT
+# Right flank :  CCACGGCGCCGGGAAGGGGGCGACGCACCCGGAAGGGGCACCCCCAGGGCCGCGAGGGACCGCGCCCGCACCGCGGGGGAGCGCACCCCGCAGGGCCCGGCGCGAGGGGCCGCCCCCTCACCCGGGCCAGGGCGCGCCCAGCGCCGAGGAGGGATTGCGGCGAAAGATCGCATCGACCGCCGCATCACCGAGTTCCCGGGTGAGCCGCGGGCGCAAAGTGTGGAGGAGGTAGGGCGCGCCCGGGCCGGCGCCCGGGGAGGTCGTGTCGGCGCCGAGCAGCAGCTGGGAGGTGTGGCCCGCGGCAGCGAGGGCGACGAGGCTGTCGACCAGCCACGGGTCCGTGGCGTGGTGGGCGCGGCTCGGGCCGTCGAAGGCGAGGTAGGCCCCGGCGGCGGCCAGTTCCCGGTGCACCCCGGCATCGGGGAACCGGTTGAGGTGGCCGAGCAGCAGGCTGCGCGCGGGCACCCCCAGCTCGCCGTGGAGCAGGGCGAGCACGTCGA
+
+# Questionable array : NO	 Score: 2.33
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.88, 5:0, 6:0.28, 7:0.08, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGGGGCGCGGGGAACTGCGCGACCAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.70,-3.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [28.3-18.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [149,117] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.42,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CGMCC 4.2025
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces paucisporeus
+//
+
+

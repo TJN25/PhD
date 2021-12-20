@@ -1,0 +1,51 @@
+Array 1 1473989-1473008 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016625-Burkholderia sp. YI23 chromosome 2, complete sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                                       	Insertion/Deletion
+==========	======	======	======	============================	======================================================================	==================
+   1473988	    28	 100.0	    33	............................	GGGAGCGAGTCGCCCTCTGTCGTCAGGGGTGGG                                     	
+   1473927	    28	 100.0	    33	............................	CGCATCGCGCAGGGCATGGGCTACAGCGCGCTC                                     	
+   1473866	    28	 100.0	    33	............................	CGATATCCATCGTCAATTGCACCAATCGTTTCA                                     	
+   1473805	    28	 100.0	    33	............................	CCGGACCCTCCTCGTACTGAACGACGCCCGGCG                                     	
+   1473744	    28	  96.4	    33	.................A..........	GTCGAGGCGCAGCGTGTAAGGGCCGAAATCTGT                                     	
+   1473683	    28	  96.4	    33	................T...........	ATACTACTGCGTGAAACTGGATCGGATCGACGA                                     	
+   1473622	    28	  96.4	    33	..........T.................	CGTCACGGGGACGTATCATGATCCACAAGGCCG                                     	
+   1473561	    28	  96.4	    33	..............C.............	GTGGGGGCTTTACGCCATCGGCCAGTACTGCGA                                     	
+   1473500	    28	  96.4	    33	...........................T	CCCAAGACAGAGGGCGTTACACGGAGCCGTCTA                                     	
+   1473439	    28	  96.4	    70	........T...................	CGGCGCATATGACTATGCGCGTGCTTTGCGCAAGACCGTGAGGAAGTTGCTGGACGAACACGACCGCATG	
+   1473341	    28	  92.9	    33	..........T..............G..	CGCAGGGCCTCGACAAAAGCGGCGGCAGCGGCG                                     	
+   1473280	    28	  89.3	    33	..............G......T...G..	TCCGATGATGGCCGGCGCGGCGACTTTTGTGCC                                     	
+   1473219	    28	  96.4	    33	..........T.................	CTTGTGTAGCTCTTCCATCGTCATCACCTCCAG                                     	
+   1473158	    28	  92.9	    33	............C.C.............	CACCGAGATCGACGAACGGCTCACGCGCTGCAA                                     	
+   1473097	    28	  92.9	    33	...........C..C.............	TTTGCCGTTCAGAATGGGCGACTGAGACTGCCC                                     	
+   1473036	    28	  85.7	     0	...........T..CA.........C..	|                                                                     	T [1473010]
+==========	======	======	======	============================	======================================================================	==================
+        16	    28	  95.5	    36	GGTTCCTCCGCGTGTGCGGAGATAGACC	                                                                      	       
+
+# Left flank :   GTGCGGCGCGAGGCGGCGCGCGTGTTTCGAAAGAAAGCGGTCATTCCCGCGATGATCGATCGCGTGAAGCAGGTACTGCGTGTTGACGAGAAGCGGGAGGCGGGCGATGGCGCTGGTCGTCGTGGTGACGAGTGATGTCGCGGACCGGTTTCGGGGATTTCTCGGATCGGTGATGCTCGAAGTATCGGCGGGGTTGTATGTCGCGCCGCGCATGAACAAGGGCGTGCGGGAACGGACGTGGTCGGTGCTTGCCGACTGGCACGGGCATGAGCCGCGAGGCAGCGTGGTGATGGTGTGGCGGGATCTGGATGCAGTTGGGGGGATCGGTATCTCGCATCTCGGTGCGCCGCCGAGAGAGCTTGTGGAAGTGGATGGGATGTATGTCGTCAGGCGGATGATGGTGGGGTAGGTGGGGGTGGTTTTGTTCTTTGAAAATTGGGATGGTTTTACTGGATGGAAATGGGGTATTTGCCTTTTCTGTCATGGGGTTATGAGGGAGA
+# Right flank :  CCAACGACTGGCACCTCACCCCCCAACCCCCACCCGCTCCACCCCACCTCCCACCGCCCGCGCCCTTCTCCCACCCGCCACAAAATAATCCGTACTCACCCTCTCCAACGCCGCCACTCCCCGAATCCGATCCGCGATCTTCTCCGCCAGCATAATCGTCGGCGCATTGAGATTGCCGGTCGTGATCTGCGGCATGATCGACGCATCCACGACGCGCAAGCCTTCCATCCCGTGCACGCGTCCTTCGCCATCGACGACGGCCATATCGTCATAACCCATCTTGCAGGAACACGAAGGATGAAAAGCCGTCTCCGCCTTCGCGCGCACGAATGCATCGAGCTCGGCATCGCTCTTGAGATCATCGGAAGGATGAAGCTCGCGCCCGCGATACCGCGCCAAAGCCGGCTGCCGCATGATGTCCCGCGTGATGCGAATCGCATCGCGGAACTCGCGCCAGTCCAATGTATCGGCCATGTAGTTGAAAAGAATGCTGGGATGCG
+
+# Questionable array : NO	 Score: 6.41
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.78, 5:0, 6:1, 7:0.26, 8:1, 9:0.37,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGTTCCTCCGCGTGTGCGGAGATAGACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.00,-10.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [25.0-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [17,92] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.23   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cse2:WP_014251512 [1477972-1478550]; Helicase/endonuclease Cas3:WP_014251514 [1480150-1482759]; 
+# Array family : NA
+# Sequence source strain : YI23
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;Burkholderiaceae; Burkholderia.; Burkholderia sp. YI23
+//
+
+

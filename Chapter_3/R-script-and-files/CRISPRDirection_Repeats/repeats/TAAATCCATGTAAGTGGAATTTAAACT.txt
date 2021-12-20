@@ -1,0 +1,40 @@
+Array 1 52035-52322 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV801621-Fusobacterium sp. HMSC073F01 Scaffold537, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	===========================	========================================	==================
+     52035	    27	 100.0	    38	...........................	AATCTAAAATTATCTTTTTACCTTGTAAGAATATAGAC  	
+     52100	    27	  96.3	    40	.........A.................	AAAGTAATACTTTTACATTCCCAAAATTGGTACGCTTGAC	
+     52167	    27	 100.0	    37	...........................	TTTCTTTACAGAATATAAAATCTTTATTATCCTTGAC   	
+     52231	    27	  96.3	    37	.............A.............	ATTTTTTTAAAATTAAATCACAGATTTCTTTATAGAC   	
+     52295	    27	  85.2	     0	.............T...G...AG....	|                                       	A [52306]
+==========	======	======	======	===========================	========================================	==================
+         5	    27	  95.6	    38	TAAATCCATGTAAGTGGAATTTAAACT	                                        	       
+
+# Left flank :   TATGGAACTTTTAAAAAATGTTGAATTGAAATCACCAGTAAAAAGAGGAGATATAGTTATAAAAAATATACTTAATACTGGTGTAGATGTAGTTGTAACAAGAGATATGTAGGAAAATAAATAGACTAAATTCATGTAAAGAAAGAAATTATTTTAATAAAAAATTATCACCCATGAGGTAAATTTACCTTGTGGGTGATTTTTAGTTACGGTAGGTAATTTTTAGCAAAAAATTTTGTAAAAAAATATTTTATAAAATAAAAAAAAATAGAATTTTTTAATATAACTATATTAATTGAATGTGATATAATAAATACAAGGAATTGTCATTCTATGATAATGTAAAAATTATAGGAGATAGACAAAAAAAGAAACTGGAAAATATGGGAAGTGGAGAAACAATAAAATAAAGTCAAAGAAAAAAATAGAATAAAAAGAAGAGATAGACAAAAACCAGTAAAGAAAGCATTGAAAAATAAGACTGAAAAAAGTAACGAGAT
+# Right flank :  TTCAAGAAAAAGAGTTAAATAGGATGTAAAAATTTTATAATAAAAAAAGTACAGATAAAATAGGAGAAAATAATGTATGATATAGAAAAATTAAAAGATTATTTAAACATAAAAAGACCTATTCCAGCTTCTGTTTTAGAAAAAATATATGAGAATATAAAAATTGAATATACTTATAATTCTAATGCAATAGAAGGGAATAGTCTTACTTTAAAGGAAACAGAAGTTGTTTTAGAATATGGAATAACTGTAAAAGGAAAGCCTTTAAAAGATCATATAGAGGCAAAGAATCAAGCATATGCACTTGATTTTTTAAAAGAAGAAGTAAAATTGAGAAAAGAAATAGATAAAAAATTAATTAAAGAATTTCATCAGATAATAATAGGGGATATAGACAGAGAAATAGCTGGAAAATTTAGAACATATCCTGTTGTTATAAAAGCAAGTGAAACCAAAACATCATCTCCTTTACATATTGAAGAAGACTTAGATAAACTTAT
+
+# Questionable array : NO	 Score: 3.53
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.78, 5:0, 6:0.28, 7:0.75, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TAAATCCATGTAAGTGGAATTTAAACT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:74.07%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.20,-0.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [71.7-83.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [390,73] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC073F01
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium sp. HMSC073F01
+//
+
+

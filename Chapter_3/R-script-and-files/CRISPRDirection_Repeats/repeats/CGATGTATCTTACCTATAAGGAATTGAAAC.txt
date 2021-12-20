@@ -1,0 +1,85 @@
+Array 1 62391-62574 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LQYU01000003-Anoxybacillus flavithermus strain B4168 NODE_3, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+     62391	    30	  80.0	    37	GTTCT....G....................	TTATCTCCTGCAGTAATTGCTCCATTTAATGTTGAAT	
+     62458	    30	  90.0	    13	GTT...........................	ACTATTACATATA                        	C [62472]
+     62502	    30	 100.0	    13	..............................	ACTATTACATATA                        	
+     62545	    30	  93.3	     0	.........................C...G	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         4	    30	  90.8	    21	CGATGTATCTTACCTATAAGGAATTGAAAC	                                     	       
+
+# Left flank :   CATAACTTTCATGTGAGCCAGTCCACTTTTGAACAATACAGAAAAGCCATCAAAGAAAACGAAGCCTCCTTGTAGTAACCCCACCTTCTCGTTTGAGAAGGGATTTTTATATGGAATCATCTTCGTCGCCCTCAAAAAACGGATATTTCAGGAGCATTTTCTGGAATGGACCTTCATCTTTGATCGGGAGTCGACGCAGAGATTTGTAGTAGCATTTCTGATGGATGACAGTGTTGATGATGTCGAGGAACACTTTGTCATCAATCGTAACTATTTCAGAACAAATGGGGCAACGCAATCTACCAACGATTTCGAACACGGAATCACCTCCTCATATTGTTTATACCTCACCAAAAATTCAAATTCCTCTCAATAAATACAAAAAAGCCCCTCCCGAATGAGAAGGGCTTTTTGCGTATTCCATTGACTAAATTTTCTAAATTACGTATGCTGGATGTAGCCATTTCAGAAAAACGTTGATACATCAACGCTTTTTTGGG
+# Right flank :  GCCCTTCTCCGATGAGAAGGGCTTTTCGCGTATTCCTCTATTAAACAAAAGACTGAAGTAGTTACGACTCTTTTGGCACGTTGTTCACGTTAGTTTCCCTCTAACATCAATCTTGTTAAATCTACCCGTTACTTATTTATTATTATTAAGAACAGTTGTTAGCTCGTCAATTGCCCGCCGAACTTCATCCTGCGTATTGTAAAAATGGGGAGCAATTCGGATCACATCGTTTCTGGCAGAAACAATAATATTTCTCTCTTTCATTATGGATTCTATCTGCCCAGCATTTTCTACATAAAAAGCAGTCATGGCACCTCGTTGATCAGCAGATAGAGGACCAACAACTTGTAATCCCTTTTCTTGCCCATAATCCAATGCGAATTGAGCTAATTGATTTAGATAAGAAGATATATTCTCTACCCCTATCTCAAGAAGCAAACGAATAGCGGCAGTAGCTGCATAAGCACTGATAAAAGATGGTGTTCCGGTCTCAAAGCGGC
+
+# Questionable array : NO	 Score: 6.01
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.54, 5:-1.5, 6:0.99, 7:-1.11, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGATGTATCTTACCTATAAGGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:71.43%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTTATCGTACCTATGAGGAATTGAAAC with 92% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [10-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [188,129] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [9,0.41   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : B4168
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Anoxybacillus.; Anoxybacillus flavithermus
+//
+
+
+Array 2 229468-228742 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LQYU01000003-Anoxybacillus flavithermus strain B4168 NODE_3, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                                  	Insertion/Deletion
+==========	======	======	======	==============================	=================================================================	==================
+    229467	    30	 100.0	    36	..............................	ACAGCCGATCATAAAGATCGGTTGAAATTTTTTACA                             	
+    229401	    30	 100.0	    37	..............................	GAAGTACAGGATAAAAAGCCTGTACGGTAACATTTTG                            	
+    229334	    30	 100.0	    38	..............................	TATGAATCAGACAGGAGCGACAAAACAAATTGTAGTCG                           	
+    229266	    30	 100.0	    35	..............................	TTGCTAACGGCGAATCATATGTTGTTATCGACGTC                              	
+    229201	    30	 100.0	    39	..............................	CGTCTAGCGGGATACGTTCGTCTTGAAGTATTTCTAAGA                          	
+    229132	    30	 100.0	    36	..............................	TGATATGTGATACTTGATATTTGTTTCATCCCCCTC                             	
+    229066	    30	 100.0	    36	..............................	GCTGCCACAACCGCAGAGACGGGCTTCATCGCCCGA                             	
+    229000	    30	 100.0	    38	..............................	TGAAATAATGTCCGATGAGAAAGAAGGTGAAAAACTTG                           	
+    228932	    30	 100.0	    37	..............................	CGATCATCAAGTCGCAGCAAGAAGCGGAACAAGCGCT                            	
+    228865	    30	  96.7	    65	....T.........................	GTGGTCTGCGATTTGACAGCTTTCGTGTCGCGTGCATGTTTATATCTTATGGACCGATTTTGCCT	
+    228770	    29	  73.3	     0	....T.......G...C..A..-...TCC.	|                                                                	
+==========	======	======	======	==============================	=================================================================	==================
+        11	    30	  97.3	    40	GTTTGTATCTTACCTATGAGGAATTGAAAC	                                                                 	       
+
+# Left flank :   TTTTGCACATTATTTCCGAATCCGCCTGAAATAATTTGAAAAAGGGATTCTGAAATAATGTGCTAGTTTACATTATTAGTCCAACATAAAGAAAAAGGGAACG
+# Right flank :  CTTCTTGGCGCTTGCCGCTGTGAAGGGCTTTTTTGTTGTAATTCACCGCCACATTTGTTATAAAGGTGAAAAAGGGAAACAATAACAATAAAACAAACATGGAAAGAAGTTTTGAAAGCATGTTCCGTATTCTTAAAGCAGAAAAGACGGTTGATGTTTAAAATGCGGAAGTTTGCTGAATTGGAAGTAATATAACGGAAAGGGTAGAGTGTGGATGGGAGTATTGGACAGTAAAAAAATTATGGAAATAAGAAGCCGTATTGAAAAACGAGTAGTGACGCTGCCCGATGGCACTACTGTTCCATGCATAGGTCAAGGAACATGGCACATGGGAGAAAAGCCCCAAGAGAAAGCGAAGGAAATAAAAGCCTTACAACTTGGAATAGAATTGGGCATGAAAGTTATTGACACAGCTGAGATGTACGGAAATGGCGCTTCTGAACGCTTAGTCGGCGAAGCCATCAAAGGGCGCAGGGATGATGTGTTTTTAGTCTCTAAAG
+
+# Questionable array : NO	 Score: 10.79
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.99, 5:0, 6:0.99, 7:0.81, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTGTATCTTACCTATGAGGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTTATCGTACCTATGAGGAATTGAAAC with 94% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [55.0-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [310,105] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,9.68   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : B4168
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Anoxybacillus.; Anoxybacillus flavithermus
+//
+
+

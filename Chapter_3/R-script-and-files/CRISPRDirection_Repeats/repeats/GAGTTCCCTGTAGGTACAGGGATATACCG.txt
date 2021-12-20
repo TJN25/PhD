@@ -1,0 +1,215 @@
+Array 1 7456-7244 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NASK01000091-Gilliamella sp. A-4-12 NODE_14, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+      7455	    29	 100.0	    32	.............................	AACTTTTTTTGTTTCACTTAGAATTTCTCTTT	
+      7394	    29	 100.0	    32	.............................	TGCTTTAATGTCGGAATTGGTAATCCATGTGC	
+      7333	    29	 100.0	    32	.............................	GTTTATCATTTACTAATACTGTATATTCATAC	
+      7272	    29	  93.1	     0	..........................A.T	|                               	
+==========	======	======	======	=============================	================================	==================
+         4	    29	  98.3	    32	GAGTTCCCTGTAGGTACAGGGATATACCG	                                	       
+
+# Left flank :   TGTATTATCTATGGTGCATCATGGTATAGATTCCTAGGAGCTGGCAATGAAATGATAAAATTAGTTGAAGAAAAGAGAATACGACCTGCATTGATTACGGGCTTGATTACAGTTATATTATTGAGCTGGAGTCTTTATGATCTATCAGCAGCTAATGTCATTCCCCCGTTGCCTTTTGTTAAATTCATGCTGTATTTTATCAGTGTTGCGTATATCACAAGAGGAGTAATCGGATTTGCTTCCCAGCGATTTCGTTTATGTTTTACAGGGAATAGCGAAACCTTTTGGCGAATCAGCTCATCTATTTGTTTAATCATAGGTATTATCCATAGCATTGGTATCTATCAGTTGTATCTGCAATCACATAATTTATGATAGACAACTAATTTTATAGAGTTCTTTTAGATAAGCTTGTCCGCTTTTGTACTAAGCGGTCTCGCTGTCAGATTAGTTCGAAATCTACTCTTTAAAATTGTCAGATTAAATCGGAACTAATACAT
+# Right flank :  TTATTAGCTAATAAAATTACATCCAAATGGTTTTAAATTATCTACCTTTATGTGAGTAGATGGTATACACTCCTCAATATTTTTTACAAGGCTCTAATGATAGCTATTTATAAAAATAAAAGTTAATAATCATATGTATAGATAATATGAAATAGAGGTTTTTTAGTTAAACTAAAATAATTATTAAAAATAGCGTACAATACTCAACATTAATCGTAAATTCATTATCAATCATTTAGGAATTTTGTATGACAGGTAAATTTATTGTCATCGAAGGTTTAGAAGGTGCTGGCAAAACAACAGCCATCAATACTGTTGCACGTATTTTAAAACAACATCATATTTCTGATTTACAATTTACCCGTGAACCTGGCGGTACACCAATTGCAGAAGCATTACGAAATATTATTAAAAATGGTTTAGATAATGAGCCGCTAACTGATAAAGCGGAATTGCTAATGCTTTATGCTGCTCGTATTCAATTGGTTGATAATGTAATT
+
+# Questionable array : NO	 Score: 5.02
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.91, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCTGTAGGTACAGGGATATACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [7,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.20,-8.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [76.7-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [250,126] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : A-4-12
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae;Gilliamella.; Gilliamella sp. A-4-12
+//
+
+
+Array 2 8276-8126 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NASK01000091-Gilliamella sp. A-4-12 NODE_14, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+      8275	    28	 100.0	    33	............................	GATACGAAAAATCATATCTTGATGTTATATCAA	
+      8214	    28	 100.0	    33	............................	GTTCTTGCATCGCTTGCGAATGCTGGTGCAAAT	
+      8153	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         3	    28	 100.0	    34	GAGTTCCCTGTAGGTACAGGGATATACC	                                 	       
+
+# Left flank :   CTTATCGAAGAAGTTTTATCTGCTGGTGGAATTGAACCGCCCCCAGCTCCAGATGATGCCCAACCACCAGCTATCCCAGAACCTCAATCTCTTGCTGACAGTGGCTTTAGGAGTCGCTAAAAATGAGTATGTGTGTTGTAGTAACTGAAAATGTCCCTCCAAGGTTACGAGGTCGTTTAGCAATTTGGTTACTTGAAATTAGAGCCGGGGTTTACATCGGTGATATATCAAGACCAATAAGAGAAATGCTATGGCAACAAATCACTAAACTTGCTGAGGAAGGCAATGTTGTCCTTGCTTGGGCGACTAATACTGAGTCAGGATTTGACTTTCAAACTTATGGTGCAAATAGAAGGGTTCCGGTAGATTTAGATGGACTAAGGTTGGTCTCTTTTTTACCTATTGAAAATCAATAGGTTAATGTTCTTTAAAAATTAGAAAAATTTGGTAGATTTTAACTAACTAAAAAATATTATATAAAACAAATATCTATATTTAGA
+# Right flank :  TTAATCTGACAGTCAGCTTAAGAGCAACAATTGAATTTAGTATTTCGAATGCGTATAATGACTCGGAACCTATGCAAATAATATTCTTTCATAAAGTTACAATCTAAAAGGGCTCTATGCTAATTTTTGTAGGTATTTTAAATTTCTTTGCAGCGCTCCTTCACCTTGGATGTATTATCTATGGTGCATCATGGTATAGATTCCTAGGAGCTGGCAATGAAATGATAAAATTAGTTGAAGAAAAGAGAATACGACCTGCATTGATTACGGGCTTGATTACAGTTATATTATTGAGCTGGAGTCTTTATGATCTATCAGCAGCTAATGTCATTCCCCCGTTGCCTTTTGTTAAATTCATGCTGTATTTTATCAGTGTTGCGTATATCACAAGAGGAGTAATCGGATTTGCTTCCCAGCGATTTCGTTTATGTTTTACAGGGAATAGCGAAACCTTTTGGCGAATCAGCTCATCTATTTGTTTAATCATAGGTATTATCCAT
+
+# Questionable array : NO	 Score: 4.24
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.84, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCTGTAGGTACAGGGATATACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [7,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.20,-8.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [68.3-86.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [118,85] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : A-4-12
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae;Gilliamella.; Gilliamella sp. A-4-12
+//
+
+
+Array 3 26305-26577 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NASK01000091-Gilliamella sp. A-4-12 NODE_14, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+     26305	    28	 100.0	    33	............................	GTGATGATCAACCGAGTCAACACCAACGGTCAG 	
+     26366	    28	 100.0	    33	............................	GAAAAACCAGATTATTTAATATTTGCTGATTCA 	
+     26427	    28	 100.0	    34	............................	AGTAATTTAGGCACTCCATGGAATAACCGCCCAT	
+     26489	    28	 100.0	    33	............................	GCAATTACTAAATTTTCAAATACATTAAAATAT 	
+     26550	    28	 100.0	     0	............................	|                                 	
+==========	======	======	======	============================	==================================	==================
+         5	    28	 100.0	    34	GTGTTCCCTATACACATAGGGATGAACC	                                  	       
+
+# Left flank :   GGACAAAGTTCACAAGCTAAAAGTATTATATTGAATTTTAATAAATGCTATAGCCGTGAACAGTTCAATGGTGAATGGGATAAGGAAATTGAAGTTTCAACCCGTTTATCAAAAGATAATATTGATCTTTATTTAGCATATCAACTAGATGGAAAAGTTATTCCTTACTGTAGTAGTAACGAATACGCATGGGAACAAAGCCATGTTACAATTAGTGCATCTAAATGGGCTAGAGTTAAAAAAGCCGTCCCACAACTTGACCAACAGCATCTAGAAAAATTGAGACAACAAATACATAGACCAAATGCCATTATTGTGTTAATTGAGACAGAAAAAGAACCTTCTTTTTATTCCAAGGAATTAGGCTTTTATCTAAATTAATTTAAAGTTAAATATTAATAATTTTAACTTGCAATAAGTTGAGTGAATTTCATACAAAAAAAATCGGTAAAAAATTACTCTCTTATATTTCAATTATAAAACAAATGGTTATAATTAGG
+# Right flank :  CTTATTACTGGCTAATTCGTTAAAACTACCTGACGAGATTTGGGTGAGGATGGAATACTTTGATCATCTGCAAAATCAGTGGTTCGCCGTCGCTATATCTAACGTTTTATGATTGATGGTGAGGTTAAGCCAATGTTAGCTGTATTAGAGTATTTAAATGAACATAAAATAAAACCCAACCGCCGACACGTTGGGTAGGCTGCGCGTGGGATTGGAGGTCCTGTCGGAGACTGCCCGCGAATACCTTTTAAATAGTATAGGTAAAAAAATGACTGGCGTAAATATTGAATTCAATGTACAAGACGCACTAATCAACATAGAATTTGCTTTGCTCGATACACATGGTTTATTCAATCATATAAGTGGAACATTACTTGATATTTATGAAGCACGCTTTAATGCACAGGAATCACCAGATGGTATAACACCATGGCAAGCATTATCACCATGGTATCAAGAAAGTAAGCCAAAACAAAAAAATAAAATCTTAACGCTCGATG
+
+# Questionable array : NO	 Score: 4.37
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.57, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCTATACACATAGGGATGAACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.90,-6.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [80.0-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [121,268] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : A-4-12
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae;Gilliamella.; Gilliamella sp. A-4-12
+//
+
+
+Array 1 48359-47903 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NASG01000011-Gilliamella sp. NO13 NODE_11, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     48358	    29	 100.0	    32	.............................	CTTCTTTTTCTAATTTTAATCCATCAATTCAA	
+     48297	    29	 100.0	    32	.............................	GGTGAATTCGTTTTTACAAAAGAAGCAACCAA	
+     48236	    29	 100.0	    32	.............................	CCATTTGATTGGGTGCTAGGTATTAGCTGGAA	
+     48175	    29	 100.0	    32	.............................	CGCATACAAGATGCCCCGTTTTGTCTAATTCG	
+     48114	    29	 100.0	    32	.............................	GAAAACGGTAAACGTTTCTAATAATACTATGA	
+     48053	    29	 100.0	    32	.............................	TTAGCCGAGGGGTATAACCATTTGGCTAAAAA	
+     47992	    29	 100.0	    32	.............................	CCGGTTATCGAACTGCACGAAAATATATGGGG	
+     47931	    29	  96.6	     0	............................T	|                               	
+==========	======	======	======	=============================	================================	==================
+         8	    29	  99.6	    32	GTGTTCCCTATACACATAGGGATAAACCG	                                	       
+
+# Left flank :   GGACAAAGTTCACAAGCTAAAAGTATTATATTGAATTTTAATAAATGCTATAGCCGTGAACAGTTCAATGGTGAATGGGATAAGGAAATTGAAGTTTCAACCCGTTTATCAAAAGATAATATTGATCTTTATTTAGCATATCAACAAGATGGAAAAGTTATTCCTTACTGTAGTAGTAACGAATACGCATGGGAACAAAGCCATGTTACAATTAGTGCATCTAAATGGGCTAGAGTTAAAAAAGCCGTCCCACAACTTGACGAACAGCCTCTAGAAAAATTGAGACAACAAATACATAGACCAAATGCCATTATTGTGTTAATTGAGCCAGAAAAAGAGCCTTCTTTTTATTCTAAGGAATTAGGCTTTTATCTAAATTAATTTAAAGTTAAATATTAATAATTTTAACTTGCAATAAGTTGAGTGAATTTCATACAGAAAAAATCGGTAAAAAATTACTCCCTTATATTTCAATTATAAAACAAATGGTTATAATTAGG
+# Right flank :  TATTACTGGCTAATTCGTTAAAACTGCCTGGCTAGATTTGGGTGAGGATGGAATACTTTGATCATCTGCAAAAATCAGTAGTTCGCCGTCGCTATATCTAACGTTTTATGATTGATGGTGAGGTTAAGCCAATGTTAGCTGTATTAGAGTATTTAAATGAACATAAAATAAAACCCAACCGCCGACACGTTGGGTAGGCTGCGCGTGGGATTGGAGGTCCTGTCGGAGACTGCCCGCGAATACCTTTTAAATAGTATAGGTAAAAAAATGACTGGCGTAAATATTGAATTCAATGTACAAGACGCACTAATCAACATAGAATTTGCTTTGCTCGATACACATGGTTTATTTAATCATATAAGTAAAACATTACTTGATATTCATGAAGCACGCTTTAATACACAGGAATCACCTGATGGTATACACCATGGCAAGCATTATCACCATGGTATCAAGAAAGTAAGCCAAAACAAAAAGATAAAGCTTAAGGCTCGATGGCA
+
+# Questionable array : NO	 Score: 5.16
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.98, 5:0, 6:1, 7:1.18, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCTATACACATAGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.30,-6.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-78.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [269,120] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.05   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NO13
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae;Gilliamella.; Gilliamella sp. NO13
+//
+
+
+Array 2 66388-67577 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_NASG01000011-Gilliamella sp. NO13 NODE_11, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+     66388	    29	 100.0	    32	.............................	GTAATGTCACATTTAGTACATTCGATGGTTCT 	
+     66449	    29	 100.0	    32	.............................	TTGCTAGGTTGGACTCCACAACATGCAAACGA 	
+     66510	    29	 100.0	    32	.............................	CATAAATTTGCACGTGTTGATATGGACTATAC 	
+     66571	    29	 100.0	    32	.............................	GATGCAACAATGCAACAGCAAGATTTTTATAT 	
+     66632	    29	 100.0	    32	.............................	TATAAAATGCACATTATACAAACAACATCAGA 	
+     66693	    29	 100.0	    32	.............................	CAATTAGTTTATAAAAATTCTCTAAAAAACAT 	
+     66754	    29	 100.0	    32	.............................	TGCCATAAAAATGCTCCAATAAATTGATATAG 	
+     66815	    29	 100.0	    32	.............................	ATCGGTTTCGTTACCACCGTTTTTATACCGTT 	
+     66876	    29	 100.0	    32	.............................	CTAGGCAACACGCAACCTAAGGACAGGTTACC 	
+     66937	    29	 100.0	    32	.............................	GCAATTCAGAGAACTATACAAAGAAAAACGCA 	
+     66998	    29	 100.0	    33	.............................	CGCATTAATGGTAAAGATAAACTTGTTTTAGTC	
+     67060	    29	 100.0	    32	.............................	GGTTTAGTATGAGTAACGATATGGAAAATAAT 	
+     67121	    29	 100.0	    32	.............................	TGGTTGGGTGGAGTTACAAAAGCAAGAAAAGA 	
+     67182	    29	 100.0	    32	.............................	ATGTGATTGATCTCGACATGTCAGAAGATGGC 	
+     67243	    29	 100.0	    32	.............................	CGAATTAATAACTACCTCAGTCGTGTAGTGGT 	
+     67304	    29	 100.0	    32	.............................	CCGTCTTTGATTTGAAATGTTTTAGCCCAGCC 	
+     67365	    29	 100.0	    32	.............................	GCTTATACAGTTTATATAAAAGGCCCTACTAA 	
+     67426	    29	 100.0	    32	.............................	ATGTGCCATAGCGCCGCGAATATCAAAGGCTA 	
+     67487	    29	 100.0	    33	.............................	TCTTCTTTATAATTTGCCGATAGACTGTCTAAC	
+     67549	    29	  93.1	     0	..........................A.T	|                                	
+==========	======	======	======	=============================	=================================	==================
+        20	    29	  99.7	    32	GAGTTCCCTGTAGGTACAGGGATATACCG	                                 	       
+
+# Left flank :   CTTATCGAAGAAGTTTTATCTGCTGGTGGAATTGAACCGCCCCCAGCTCCAGATGATGCCCAACCACCAGCTATCCCAGAACCTCAATCTCTTGCTGACAGTGGCTTTAGGAGTCGCTAAAAATGAGTATGTGTGTTGTAGTAACTGAAAATGTCCCTCCAAGGTTACGAGGTCGTTTAGCAATTTGGTTACTTGAAATTAGAGCCGGGGTTTACATCGGTGATATATCAAGACCAATAAGAGAAATGCTATGGCAACAAATCACTAAACTTGCTGAGGAAGGCAATGTTGTCCTTGCTTGGGCGACTAATACTGAGTCAGGATTTGACTTTCAAACTTATGGTGCAAATAGAAGGGTTCCGGTAGATTTAGATGGACTAAGGTTGGTCTCTTTTTTACCTATTGAAAATCAATAGGTTAATGTTCTTTAAAAATTAGAAAAATTTGGTAGATTTTAACTAACTAAAAAATATTATATAAAACAAATATCTATATTTAGA
+# Right flank :  TTTATTAGCTAATAAAATTACATCCAAATGGTTTTAAATTATCTACCTTTATGTGAGTAGATGGTATACACTCCTCAATATTTTTTACAAGGCTCTAATGATAGCTATTTATAAAAATAAAAGTTAATAATCATATGCATAGATAATATGAAATAGAGGTTTTTTAGTTAAACTAAAATAATTATTAAAAATAGCGTACAATACTCAATATTAATCGTAAATTCATTATCAATCATTTAGGAATTTTGTATGACAGGTAAATTTATTGTCATCGAAGGTTTAGAAGGTGCAGGCAAAACAACAGCCATCAATACTGTTGCACGTATTTTAAAACAACATCATATTTCTGATTTACAATTTACTCGCGAACCTGGCGGTACTCCAATTGCAGAAGCATTACGAAATATTATTAAAAATGGTTTAGATAATGAGCCGCTAACTGATAAAGCGGAATTGCTAATGCTTTATGCTGCTCGTATTCAATTGGTTGATAATGTAAT
+
+# Questionable array : NO	 Score: 4.99
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:1.00, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCTGTAGGTACAGGGATATACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [7,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.80,-8.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [86.7-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [86,249] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NO13
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae;Gilliamella.; Gilliamella sp. NO13
+//
+
+

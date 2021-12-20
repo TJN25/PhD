@@ -1,0 +1,43 @@
+Array 1 11576-12049 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV441794-Akkermansia sp. KLE1605 Scfld263, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===============================	===================================	==================
+     11576	    31	 100.0	    33	...............................	CCCAGACCGGGCCGACGCCCTTGTGATGGCCTG  	
+     11640	    31	 100.0	    35	...............................	TCCCAGCCCGCTCCTACTCCCAAGCCGGGAGAAAA	
+     11706	    31	  93.5	    21	.............................NN	NNNNNNNNNNNNNNNNNNAAA              	Deletion [11758]
+     11758	    31	 100.0	    35	...............................	CAAACCACAGCCACGCATCCGGAGTCAGGGGGTCG	
+     11824	    31	 100.0	    33	...............................	AGGCCGCAACTTACGCGCCGCGGCCTGAATGGA  	
+     11888	    31	 100.0	    35	...............................	CGCTCCCCATGAAGGGGTCGAGAATTCGTGATTTT	
+     11954	    31	 100.0	    34	...............................	ACCGCGGGGAAGGGAACCCCCTCCCGCTCCTCAT 	
+     12019	    31	 100.0	     0	...............................	|                                  	
+==========	======	======	======	===============================	===================================	==================
+         8	    31	  99.2	    32	GTCGCACCCTCACGGGTGCGTGGATTGAAAC	                                   	       
+
+# Left flank :   GCTTTTTTCTTCATTTCACAGGCTTTCCGCTCCAAGAACGGAAAGCCTTTTTTATGCCGGAATGTTGTCATGCACGGCGGTCCCTCGTGCCGCACGGTCGGGAATTGTCCGGAAAACGAATGTGGGAGGTCCCATGGAATCATGGAAGGGGGCCTTTTTCCCGACCTTCTTCCTGTTCCGTCTTCATCGCACACGCGGGAAAGTTTCTGGACGAAAGGCGCGGGACGGAATACTATGGCCTCTGCATCGCAGCAGGTGCGGGTTGTCGGAACGGCTGGAACGACTCCGTGGTGGAACCTTCTTCCGTCCTTCTCACTCCCCGCGCCAACCCCTAGCTCACAGAAAAATCCCGGAACACCGGCGATTCCTGTAACGCTCAGGGTATCTTAGATTGACATCTCCCCATATACCATTTTAGGCATGGAATATGCATCTCCGCGGACAGGTTGGCGCAAAATACCTTTTGCGTGCCTGACTCTCAATATGTATATCTCCCCGCC
+# Right flank :  CAANNNNNNNNNNNNNNNNNNNNTCGCACCCTCACGGGTGCGTGGATTGAAACAACCGCACCCCGCGGGAGTCGATAATCACCTGAGGGACGACAGGATAGTTGATCAGTGTTGAATTAAGGTTGAAATCCGTTGGAAGCTTGAAAACAAAAGAGGTTGCAAGCGATGCCGAGCACAAGTAGGTATCTGATCAAAACGGAGGGCAAAACACGGGTCAATGACAAGTATCTGATCAAAACGAATCACCCAGGAAAGATCTATGCAGATGGTGTGCAGACGCCCTGCACAGATATGGGTCCACGCTGCAAGAAATCGAAATCGCCAAGGATTACCCGACGAAAAATTAAAAATGTCCGGATAGACTGGACTGTGAGGTTAATCAGAGCGATGTGTCGGTCATGGACGACAACATCACATCGAGACTAATCAATTATCATCAACAACGCCGGGACCTCATGGACCTGCTCAATGATGCCATAGACAAATTGCATGCCATGCGA
+
+# Questionable array : NO	 Score: 9.75
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.96, 5:0, 6:0.34, 7:0.45, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCCTCACGGGTGCGTGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.30,-5.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-28.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [508,398] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.77,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : KLE1605
+# Taxonomy hierarchy : Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales;Akkermansiaceae; Akkermansia.; Akkermansia sp. KLE1605
+//
+
+

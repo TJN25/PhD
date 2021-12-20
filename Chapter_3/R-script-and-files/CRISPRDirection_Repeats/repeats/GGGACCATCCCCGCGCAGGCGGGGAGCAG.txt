@@ -1,0 +1,213 @@
+Array 1 4159456-4159585 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP010407-Streptomyces vietnamensis strain GIM4.0001, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence    	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===================	=====================================	==================
+   4159456	    19	 100.0	    37	...................	TCCAGTCCTGCGGGACGAGTTTTCGCGTCCCAGCCCC	
+   4159512	    19	 100.0	    36	...................	CTCAGTCCTGCGGGACGGGCCTCGCGTCTCAACCCT 	
+   4159567	    19	  89.5	     0	..A...A............	|                                    	
+==========	======	======	======	===================	=====================================	==================
+         3	    19	  96.5	    37	GCGTGCCGGGCCTTCGCGT	                                     	       
+
+# Left flank :   CGGCGCTCAGGGCGACGACGAACCCCGCGAGGTCCCGGTGACGGAAATGGTCGAGCAGCCTGCGAAGGTCATGCGGATCGGCAGCATGATCAAGCAGCTCCTGGAGGAAGTACGGGCGGCCCCTCTGGACGAGGCGAGCCGGGTCAGGCTCAAGGACATCCACGCCAGCTCCGTGAAGGAGCTGGAGGACGGGCTCGCACCCGAGCTCGTCGAGGAACTGGAGCGGCTCTCCCTGCCGTTCACCGACGAGGCGATTCCCTCCGAGGCGGAGCTGCGCATCGCGCAGGCGCAGCTCGTGGGCTGGCTCGAAGGCCTGTTCCACGGCATCCAGACGGCTCTGTTCGCGCAGCAGATGGCGGCCCGCGCCCAGCTGGAGCAGATGCGCCGTGCACTGCCTCCGGGCGCGCCGCACGACGATGACGACGACCACGGCCACGGCCACGCGGTCCGCTCGGGACCGTACCTGTAGGTCACGTACGCACGAAGGCCCGGCACGGACG
+# Right flank :  TCTCAGCCCCGCGGGACGAGCAGCAGCACCTTGCCGACGTGACGGCCGTCCTCAAGCGCCCGGTGGCCCTCGGCGGCCTCCGGCATCGGCACCGTGCGGTCGACGACCGGCCGGACCGTGCCCGCGCCGATCAGCGGCCAGACGTGCTCCCGTACGGCCGCGACGATCGCCGCCTTCTCCTGCGCCGGACGGGACCGCAGCGTGGTCGCCAGGACGGCGGCGCGCTTCGCGAGCAGCGCCCCGAGGTTCAGCTCGCCCTTCACCCCGCCCTGGAGGCCGATGACGACCAGGCGGCCGTTCACGGCGAGCGCCTTCACGTTCCGCTCCAGGTACTTGGCGCCCACGATGTCCAGGATGACGTCCGCGCCCGCCCCGTCCGTCGCCTTCGCCAGCTCCTCGACGAAGTCCTGCTCGCGGTAGTCGATGAGAATGTCCGCGCCGAGCTCGGCGCAGCGCGCCAGCTTCTCGGGTCCTCCGGCGGTGACCGCCACCTTCGCGCC
+
+# Questionable array : NO	 Score: 2.70
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.82, 5:0, 6:-1, 7:1.79, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGTGCCGGGCCTTCGCGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [30.0-26.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [33,2] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_041134761 [8846226-8849048]; 
+# Array family : NA
+# Sequence source strain : GIM4.0001
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces vietnamensis
+//
+
+
+Array 2 8853260-8849245 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP010407-Streptomyces vietnamensis strain GIM4.0001, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                                                                                                                                                                                                     	Insertion/Deletion
+==========	======	======	======	=========================	====================================================================================================================================================================================================================	==================
+   8853259	    25	  80.0	    33	...CT......CA...A........	CAATCGGAGCCGTCCCTGAAGCGCAGGACGGGA                                                                                                                                                                                   	G [8853244]
+   8853200	    25	  88.0	    36	...........CAG...........	TCGATCGCTACCTCGCAGTCGCGAGCGTTATACGGA                                                                                                                                                                                	
+   8853139	    25	  88.0	    36	..........A..C.....A.....	TTCGGTCTCGGCTACGAGGGTGACCTCGGCCAGGGG                                                                                                                                                                                	
+   8853078	    25	  92.0	    36	...........C.A...........	GCCGAACCCTGGCACCTCGAAACGACCACGATGGGA                                                                                                                                                                                	
+   8853017	    25	  96.0	    35	........A................	TGCTCCCTGCTGCGGGACCAGTGGACCGACGGGGA                                                                                                                                                                                 	
+   8852957	    25	 100.0	    36	.........................	GTGGGGTGGGGGCGGTAGGACATGTGCCCCTCCGGA                                                                                                                                                                                	
+   8852896	    25	 100.0	    36	.........................	GGATTCACGAGCGACCGCAGGTTCGCCGTCGCGGGG                                                                                                                                                                                	
+   8852835	    25	 100.0	    36	.........................	CGGCCGGGCCCTCGCTGAGCTTGACCTGGCACAGGA                                                                                                                                                                                	
+   8852774	    25	 100.0	    36	.........................	ACCCTCGCGGGCGGCGGTGTCGCCAGCCCGGGGGGG                                                                                                                                                                                	
+   8852713	    25	 100.0	    36	.........................	TGCACGGTTCCGAGCCACCCGTCGCGCAGCTCGGGA                                                                                                                                                                                	
+   8852652	    25	 100.0	    36	.........................	CGCCGGCCGTAACGCCTTTCGCTGCGGGTGCGGGGG                                                                                                                                                                                	
+   8852591	    25	 100.0	    36	.........................	CCCTTAGGGGCGGCTTCGCACTGGGCGGGTTCGGGG                                                                                                                                                                                	
+   8852530	    25	 100.0	    82	.........................	GCTCCGTGACCTGCAGTTCTACCCCACACACAACACCATCTGAACTACTTTCACCGAAACCGGCAAACCAGACACCCCCACC                                                                                                                                  	
+   8852423	    25	  72.0	    38	...A......CAAC..A..A.....	CCGCCGGGCGCACCAGCTCGTCGACCGGCGGCGAGGAA                                                                                                                                                                              	G [8852421]
+   8852357	    25	  80.0	    39	...........CAG..A....A...	GTGAGGAACAACGTATTCACGTCCCGGATCTGCTCGGGA                                                                                                                                                                             	A [8852337]
+   8852292	    25	  88.0	    36	.......A.....G.....A.....	AAGTGGTGGCGCAGGTCGAGGACGATGTGCGCGGGA                                                                                                                                                                                	
+   8852231	    25	  96.0	    36	A........................	TAGCAGCTCCGGGCGTCGCGGAGGATCGTCCCGGGA                                                                                                                                                                                	
+   8852170	    25	  88.0	    36	..........A..C.....A.....	AAGGGCCTGACGGACACCGTCATGGCCCTGTGGGGA                                                                                                                                                                                	
+   8852109	    25	  92.0	    36	..........A..A...........	CGCGACTGGATGCAGTTCGCCGCCACCACCATGGGA                                                                                                                                                                                	T,ATA [8852092,8852095]
+   8852044	    25	  92.0	    36	.....T......A............	ACCGCCGACCCGCGCGGCACCGCCTTCGCGGCGGGA                                                                                                                                                                                	
+   8851983	    25	  96.0	    36	.......T.................	TCCATGCCGCGCCGGACCGCAAGCTCCGAGAAGGGA                                                                                                                                                                                	
+   8851922	    25	  92.0	    36	..........A..C...........	GGCGCGTCGGCCTTGAACGCGACGGTCGCCGCGGGA                                                                                                                                                                                	
+   8851861	    25	  84.0	    36	...........CAG........T..	GCGTCGATGTGCAGACCGTCCAGGAGGATGCCGGGA                                                                                                                                                                                	
+   8851800	    25	  88.0	    36	..........A........AT....	CCGGCGTAGCGTTCCTTCACCTGGGCAGCGTTGGGG                                                                                                                                                                                	
+   8851739	    25	  80.0	    36	............CC...AA.....A	CGCATCAGGTCATCCAGGCACGTCTGTGAGATGGGA                                                                                                                                                                                	
+   8851678	    25	  64.0	    36	T.......A.AAA.T......A.GA	CTCTTCGCCGACGAGCTGTAGTACCTGTGCAACGAA                                                                                                                                                                                	
+   8851617	    25	  88.0	    36	............AC..A........	CGGTCGCGGGCGGTCAGCTCGCGCAGGTCCTTGGGA                                                                                                                                                                                	
+   8851556	    25	  84.0	    36	..........A.AC....A......	AAAGCCGCGGCGCTCAGGTCGCCAGCGTCCTGGGGA                                                                                                                                                                                	
+   8851495	    25	  84.0	    36	...C.......CAG...........	TCGATGGCGAGCATCCCGGCGGACCCCCCGAAGGGA                                                                                                                                                                                	
+   8851434	    25	  96.0	    36	...................A.....	ACGTGCACCTCGTCGATCACGCCGCCGTGGACGGGA                                                                                                                                                                                	C [8851426]
+   8851372	    25	  88.0	    72	T............C....A......	GCATGGTCAGTACACCGGTCGATACCCACCACACCTGGCACCACACAGCGACCGAAGCGACCGGAACACCGA                                                                                                                                            	
+   8851275	    25	  84.0	    36	........A...AC.......C...	TACTGGTACGTCGCATCCGGCGCAGGCGGAAGGGGA                                                                                                                                                                                	
+   8851214	    25	  96.0	    35	..............A..........	CCGGCCGTGTCGGTCCAGGCACGAGCACGGCAAGA                                                                                                                                                                                 	
+   8851154	    25	  84.0	    36	A............G..A.......C	GGGCACGCCCACGCGCGCCAAGTCCCCGGCTTGGGA                                                                                                                                                                                	A [8851143]
+   8851092	    25	  80.0	    57	........A..CCA.......A...	ACTCTCCCGTCGGCGATCGCAGGCGCGGGGAGTAGCGGCTCGGCCGAATGCCAGGCC                                                                                                                                                           	
+   8851010	    24	  68.0	   212	A.........CCCG...C.-.A...	CAGCGCTGCTACAGGCGTTTCTTGCCCACCACAGCGTACGGTCAGAACAGGGCACCCGACAGGACAGGTGCCCCAACGACCGGCCGTCCGCAACCCCACCCCCGAGCACGGACGGCCGGCCCAGAACCCCACACGAAATGACACAGGTCGCCCCAGGCCCCCAGTAAACAGGAGCAGCCCGCCCGGGCATTGACCCCAAAGAAACCAAAGGA	A [8851006]
+   8850773	    25	  96.0	    36	..............A..........	GGCGGCATCAAGTCCGGCGAGCTCGGCTGCGAGGGA                                                                                                                                                                                	
+   8850712	    25	  96.0	    36	..............A..........	ATGCCGTGGGGGCCGGAGCCGGTGATCCACGCGGGA                                                                                                                                                                                	
+   8850651	    25	  96.0	    36	...................A.....	ATCGGCATCGCGGCCGAGACGACCTACGGCACGGGA                                                                                                                                                                                	
+   8850590	    25	  92.0	    36	..........A.....A........	GTCCGTTGCTCGGAGCAGGTGGGTCCGGTGGAGGGA                                                                                                                                                                                	
+   8850529	    25	  88.0	    36	...........CAA...........	AACAGGTCGATGCCCTCCGCACCCTCCACCGCGGGA                                                                                                                                                                                	
+   8850468	    25	 100.0	    36	.........................	CCACCTGTCTTGGCCATGTACCAGTCAGCGTCGGGA                                                                                                                                                                                	
+   8850407	    25	  96.0	   137	..................A......	CCATAGTAAGCACGGTGGTAAGGCCCGGGGTATGACCGCAGCAGACAGCGACCCAAGCGACCAGGTACTCACCATCCCTGCACAAGCAGGGAACGGGACCCAGCCGCCAGCGAGCGCGACCCCTGGAAGGGACTACC                                                                           	
+   8850245	    25	  84.0	    95	..C.......A.......AA.....	CAGCGCCTCGGCGACGATGTGACCCCGCCCGCAGAGCCATCCCCTCGCGCAGGAAGCAGATTAGGACGCCGACCCCGATAACGAGACAGTCAGAA                                                                                                                     	T [8850237]
+   8850124	    25	  88.0	    36	.......TA....C...........	ATGTCGCCGATGTAGTGCGCGACGCCCGGGAAAGGA                                                                                                                                                                                	
+   8850063	    24	  92.0	    38	........-....G...........	CAGCCCAGCCCGGGGGAACGTAGACGCCCACCTCGAGA                                                                                                                                                                              	T,T [8850047,8850049]
+   8849999	    25	  92.0	    36	...........C.A...........	ACGGTGTAGCGGCGCTCCAGGGCGAGGCCGGTGGGA                                                                                                                                                                                	
+   8849938	    24	  88.0	    36	.......T...-.A...........	TCCAGGGCCAGGACCTCGTACGCAGAGGGGTCGGGG                                                                                                                                                                                	T [8849925]
+   8849877	    25	  92.0	    36	.............CA..........	AAGAGGCCGTTGTCGGAACCGAAAGCGGTCGCGGGG                                                                                                                                                                                	
+   8849816	    25	  84.0	    36	..........A..G...A.....G.	AACCGGGCGCCCCACTCCCTCGGCACGCGGGAGGGA                                                                                                                                                                                	
+   8849755	    25	  88.0	    34	T.....T.A................	AGGTCGAGCCAGTTCAGGACGCGGTGTTCGTAGG                                                                                                                                                                                  	
+   8849696	    25	  88.0	    36	...........CA......A.....	AGGGCCTCCTCGACGACCTAGCTCCCAAGCCAGGGA                                                                                                                                                                                	
+   8849635	    24	  76.0	    36	...C......-CA.A.A........	AGGTACAACACGCTGGAGCCCAAGCTCTTCAAGGGG                                                                                                                                                                                	G [8849623]
+   8849574	    25	  88.0	    36	..........A..G...A.......	CCGGCGTGGACGCTCGTTCCCGGAGTCACGGAGGGA                                                                                                                                                                                	
+   8849513	    25	  84.0	    97	..........A...AT........A	CTCCGCCGGCGCCTTCTTCGAACCGGTGACGCGAGACCATCCCCACGGATGCGGGCAGCAGTTGAACCGCTCGCGGTCCCCCGGGGTGCTCTGGAGG                                                                                                                   	
+   8849391	    25	  92.0	    36	.......T..A..............	GACGCGTTGTCGCGCCGCAGCATGACCGTGGTAGGA                                                                                                                                                                                	
+   8849330	    25	  88.0	    36	.............C.......AT..	ACGACCCGGTCCTTGAAAGCCCAGCCAGTCTGGGGA                                                                                                                                                                                	
+   8849269	    25	  84.0	     0	...........CAA..A........	|                                                                                                                                                                                                                   	
+==========	======	======	======	=========================	====================================================================================================================================================================================================================	==================
+        58	    25	  89.3	    45	CCATCCCCGCGGGTGCGGGGAGCAG	                                                                                                                                                                                                                    	       
+
+# Left flank :   ATCAACGCGGACACCTGCCTGTTCCCCGACAACGCCGACAGAGCCGTCACATCGAGAACCAGATGGTGCAGGATCACGCGGCCGCACCCCGCCGGCCGGCAAACGCCTCACGCAGCCTGGCGCCCATCGCCGCGCTCTCCTCGTCACTCACCTCGACACCGAAATGCTCGGCGAGATACCCCCGAGTCCGCTCCGCCCGCTCACGACGCTCCTCCTCCGTCAACGTCGACTCCGCGAACTCCTGAACCAGAGACCGGATCGACACCCCGCGGGACTCGGCAATCACCGCCAGCCGGTCACGAACCTCAGCAGGCACCCTGATCATCGCATCAGACATAACCCAAGTATACATTCACGTATACACGGGTGCGGCAAACCTGCCGCCCCTGCTCAACAGCACCCACCACGCCCCGAAGAACGACGACGCCGACGCGCGGGACCCTCCACTCACAGACAGGGAGCAGCACGATGCCAGCTCGAACCAGACCCGGGCCTCGAGA
+# Right flank :  ATGAGGTCCCGCGAAGGGTAGCCGACCCTCGCAGGACCAGCCCCAAGGGATTGGTATACCGCTTCTCGCCAGTCCCGGCGGAGCCACCCCTGCGGGGAAAGCAGCTGAGGTTCCTCGCATGAAGAGAGTACCGCCCACGTGCGTCTTCCTCCGGTTGGGCCACCGCCTGTCAGTGGCGGCCCCTACCGTTCGGGTCATGCTGGAAATCTGTGCACGCCTGGGTCTTTCTTCCGGTGAGATGGCCCGCTTGGGAGTTTTGTGGGGGAAGTCCGCCGAGAAGGGCGGAGGGACCATGTCGTTGCTGCTGTGTCACATGCTCGACACCGCGGCCGTCGCCGAGTTCATGTTCGACCGCTTCCTGGCGCCGGCCACGAGGGACATGCTCGACCGGGTGTCCGGCGGCAGGGGGCGGCGGTTCTTCGCTTGGCTCTGCGGGATGCATGACTGCGGGAAGGCGACACCCGCGTTTCAGCGGAAGTCCGGTGCCGAAGCCGCGGCTC
+
+# Questionable array : NO	 Score: 5.86
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.49, 5:0, 6:0.34, 7:0.73, 8:1, 9:0.30,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCATCCCCGCGGGTGCGGGGAGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.00,-9.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [48-15] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-35.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [2021,165] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_041134761 [8846226-8849048]; 
+# Array family : NA
+# Sequence source strain : GIM4.0001
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces vietnamensis
+//
+
+
+Array 3 8857153-8854102 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP010407-Streptomyces vietnamensis strain GIM4.0001, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                                                           	Insertion/Deletion
+==========	======	======	======	=============================	==========================================================================================================================================================================	==================
+   8857152	    29	  75.9	    32	CA.....C......A..AC....A.....	ACCGCCGGCGTGAACGCACACGCCACGCACTC                                                                                                                                          	
+   8857091	    29	  82.8	    73	.......A......A..AC....A.....	CCGTACCCACGAAGTCGGACACCCTCCGCACGGGGAGCGGCCAACCAAGCGCGGGCCGGTGCTCGACACCGCC                                                                                                 	
+   8856989	    28	  79.3	    32	...-........A.AG.C..A........	TCGCCGACCAATTCGCCGACGACGATCACGCC                                                                                                                                          	
+   8856929	    28	  79.3	    34	.......C....-...G....C....A.C	AGCCGGTGACGCAGCCATGGCGCCGGCGCTTGGC                                                                                                                                        	
+   8856867	    28	  89.7	    32	A...........-.......A........	AACGCTGAGCTCGTCGAGGAGGGTGGCCCAGC                                                                                                                                          	T,G [8856849,8856852]
+   8856805	    29	  93.1	    32	...G.............C...........	ACCGCCCGGTTCCTACGGCAAGAGTTCTTCGA                                                                                                                                          	
+   8856744	    29	  82.8	    32	....A..C.......G.TA..........	GAGGGCGCAGTACGCACCTTGACGGTACGGTC                                                                                                                                          	
+   8856683	    29	  86.2	    32	A..............GGT...........	GACTGGGCCAACCGTGCGGCGGACGTCGCATC                                                                                                                                          	
+   8856622	    29	  89.7	    32	...............GGT...........	CCTTCGTGGTAGCCAGCCTGGGACCGGAGCAG                                                                                                                                          	
+   8856561	    29	  82.8	    32	..............AGGT...A.......	GTGTTCGGGGCGGTGAGGTAGACCACGGGCCA                                                                                                                                          	
+   8856500	    29	  86.2	    32	....A......T...G.C...........	ATCAGGTCGGTCCACTGATCGCGGATCTCCGC                                                                                                                                          	
+   8856439	    29	  89.7	    32	...............GGC...........	TACTTGCGAGCCGCGGCCTGCCACGTGTGGTG                                                                                                                                          	
+   8856378	    29	  86.2	    32	...............GGTA..........	CCAGGCACGGCGGGGCTGAACTTCTGGATGTT                                                                                                                                          	
+   8856317	    29	  93.1	    32	................GA...........	CTCATCCCGGCGAGGTTGTGCGCCGCGCCGGA                                                                                                                                          	
+   8856256	    29	 100.0	    32	.............................	TGGATCGCCTTGGTGACCACGGCGTCCATCCG                                                                                                                                          	
+   8856195	    29	 100.0	    32	.............................	ACCGTGGTCTTGGGCTTCCCCTCGATGGGCTC                                                                                                                                          	
+   8856134	    29	 100.0	    32	.............................	GGAGTCCGGATCGGGGACAAGCCGATCCGCAC                                                                                                                                          	
+   8856073	    29	 100.0	    32	.............................	ACGGTCGGGCACATGGCCGACGGGATCGACTG                                                                                                                                          	
+   8856012	    29	 100.0	    32	.............................	CCGCCCCCAGGTCTCCGCCGCCCACTCCGGGT                                                                                                                                          	
+   8855951	    29	  96.6	    32	...................T.........	ATGCCGTGGCGCGGGTCCGAGGAAGAGGGCGA                                                                                                                                          	
+   8855890	    29	 100.0	    32	.............................	GTCCTCGCGGGCCTCGCCGTGATGGGCGTCGT                                                                                                                                          	
+   8855829	    29	 100.0	    83	.............................	ACTTCGTGACCTGCAGTTCTATCCCACCAACAACACCATCTGAACCACTTTCACCGAAACCGGCAAACCAGACACCCCTCCCC                                                                                       	
+   8855717	    29	  72.4	    36	CAC....A......CA.C.....A.....	GTCCTCCGGGCGCACCAGCTTGTCGACCGGCGGTGA                                                                                                                                      	G [8855711]
+   8855651	    28	  79.3	    32	....A.C.....-.A...A....A.....	TAGGACGCCATCAACCTCCTGTAGGCGCAGCT                                                                                                                                          	AT [8855632]
+   8855589	    29	  96.6	    32	...............T.............	TTCGAACCCGGGGGCGGGCTCTAATCCATGCC                                                                                                                                          	C,G [8855570,8855573]
+   8855526	    29	  75.9	    32	....A.........AG.TA......A..C	GTCGCGTTGGCGTTGCCGCGCAGGTCCGTCGC                                                                                                                                          	
+   8855465	    29	  96.6	    32	.................A...........	CCGGTGAGTTCGAGGTGCGCGGGGTTGACGCA                                                                                                                                          	
+   8855404	    29	  93.1	    32	...............GT............	CGTGGTCTTCACGTCCGGGTGGAGCGCGGCCA                                                                                                                                          	C,A [8855385,8855390]
+   8855341	    29	  79.3	    32	........T.......GA..A.....G.C	CTCTCCAGCAGGCCATAACCGAGCGCCGTGCT                                                                                                                                          	
+   8855280	    29	  82.8	    32	CT......T........A.......A...	ACGACGGCGATGGAACCTTCTCCAGACTGCCT                                                                                                                                          	A,C [8855258,8855266]
+   8855217	    29	  86.2	    28	..T....A....A........A.......	ACCAGCGCCGCCCCGGACCCGGTCAGAA                                                                                                                                              	
+   8855160	    29	  79.3	    32	C.A.........A.A..C.......A...	GAGAGCTTGCCCTTGACCTCGGGAAGGACCTT                                                                                                                                          	G [8855156]
+   8855098	    29	  82.8	    32	............A..GGC.......A...	CTGACGTAGAACAGACCAAAACCGCGCTGCCA                                                                                                                                          	
+   8855037	    28	  82.8	    32	...G.......-...G.C.....A.....	TTCGGTACGAAGAGCGAGGACACCCAGAAGGC                                                                                                                                          	
+   8854977	    29	  86.2	    32	A..............GGT...........	GGCATCTGGCTCCGCGAGGGCGTGGACTACGA                                                                                                                                          	
+   8854916	    29	 100.0	   170	.............................	CCATGGTAAGCGCGGTGGTAAGCGCACCGCAGGCATGGTCAGTACACCCGTCGGTACTCACCACACCCCACGGAGCACCGCGACCAAAGCTACCTAAGCGACCGGAACGCCGACCGCCCCCACGCGAGCGGAGGACAGAGCCCGGTGACGGCCTGGGCGTCAACGAGCGC	
+   8854717	    29	  72.4	    32	....GT......T.A.GC...A.A.....	TACTACGACGAGGTCACCTTCTTGCCCGAGGG                                                                                                                                          	
+   8854656	    29	  89.7	    32	A.................A.A........	TCCACCTATCCCCGTGGGAAGGCATGACCCAG                                                                                                                                          	
+   8854595	    29	  89.7	    32	..............A..C..A........	ATCGGCTCCTTGGCTGGTCCGTCCAGCCAGAC                                                                                                                                          	
+   8854534	    29	  96.6	    32	.........................A...	AGCAGTAGGAACCGCCGGCGGTTCCGGTCGAC                                                                                                                                          	
+   8854473	    29	  82.8	    32	............A...GAA.......T..	AGGCAGCCGTAGGCGTTCGTGATGGTCACCGT                                                                                                                                          	
+   8854412	    29	  86.2	    32	.........T.....G.T.......A...	CACGAGCGGCAAGTGTTACGGCCCCCGTCAGT                                                                                                                                          	
+   8854351	    29	  79.3	    32	C.......T.T....GGT...........	AGGGAGTGCTTGGGCACGCCGCGGGGGCAGTC                                                                                                                                          	
+   8854290	    29	  82.8	    32	....A.........AGGT...........	CCGATGTCGCGGACTTCGATCCAGGCCGGGTT                                                                                                                                          	
+   8854229	    29	  93.1	    32	................GA...........	AGCGCCGTCGGTAAGAAGTTCGGTCGCGGCCC                                                                                                                                          	
+   8854168	    29	  96.6	    10	..........................G..	TTGGGGGTCT                                                                                                                                                                	Deletion [8854130]
+   8854129	    28	  75.9	     0	...G.-...G.T....C...CA.......	|                                                                                                                                                                         	
+==========	======	======	======	=============================	==========================================================================================================================================================================	==================
+        47	    29	  87.9	    37	GGGACCATCCCCGCGCAGGCGGGGAGCAG	                                                                                                                                                                          	       
+
+# Left flank :   CCGCCGCGTGAGCACCCTGCCATGCCAAAGACTCAGCCCCGTCACCTCACGCACAGCCCGCACCACATCCAACTCACACGGCCCGCAACCGAAGAGCACAACCGTGTAGGACGGGTCATCACAGACCAACGTGAAGTACTCAGCGACATCCCCAGCGACATCCCCGTCACCCATCCCAACCCCCACCCCCCTCATCAACGAAGAGCGTATGCGCACTCGACAAAGGGCAACCACGGGATAACACTCCCAGCCACCCGGCATCAGGAAGCGGAGACACCCGCAAAATCACACCCCAGACACCCCGCCTACCCCAGACACTCCACCAGAGCCCTGACGCTCCCGGCCACATCCAGACACACCCAAACCCGCCCCCACCGATACAAAAACCCACACCGCCGACAAGCAGTTGAACGAGGACTGCCGTGGCAAGCCCGACCGTAAGCAAACCGCAGACATCGCCAACACACCCCCACCACACAGCGACCGAAGCGACCGAAACA
+# Right flank :  TCGTCACTCTGGCCTGGAGGTGGCTGGTGGTCTCAGCGGTTGAGGTCGAACAACGCCACGCCGTGTCCCTCGTACGCCTTCGGATCGACGGTGGCCACGAGTGCGTCCGTGCCCCACTGGGGCAGATGCCGCACGACGTGGATCGCAGCCCCGATACCCGGCGCCACACCCTCGCCACGAAGCCGGGCCACGGTCAGCATCGCGGGATAGTCCAGGTCCACCGTGTGGAGGACGTCGAGCTGTCCCAGGTGCTCCGCCAGCCCGGGATGCTCGCGGTCGGCCTCCAGAGCCGACAGCACCGGCACCCACAGCCGCGTCTCCACCTCGAAATGAGCCCGGTGGATCAACGCGGACACCTGCCTGTTCCCCGACAACGCCGACAGAGCCGTCACATCGAGAACCAGATGGTGCAGGATCACGCGGCCGCACCCCGCCGGCCGGCAAACGCCTCACGCAGCCTGGCGCCCATCGCCGCGCTCTCCTCGTCACTCACCTCGACA
+
+# Questionable array : NO	 Score: 3.07
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.40, 5:0, 6:1, 7:0.46, 8:1, 9:0.21,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGACCATCCCCGCGCAGGCGGGGAGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [66-61] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [34,327] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.33   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_041134761 [8846226-8849048]; 
+# Array family : NA
+# Sequence source strain : GIM4.0001
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces vietnamensis
+//
+
+

@@ -1,0 +1,92 @@
+Array 1 128998-129497 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ATKG01000043-Fusobacterium hwasookii ChDC F300 Contig043, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================	==================
+    128998	    36	 100.0	    40	....................................	TGAAACAAGATTGTATACTACACTAGCAGTTTCTGGTATA   	
+    129074	    36	 100.0	    41	....................................	TTGAGAATAAGTTTGCTATACCATTTATCTATATACCGTAT  	
+    129151	    36	 100.0	    41	....................................	ATTAAACCTCTCATAGTCATAGCCTCCTATACCACAGGTGC  	
+    129228	    36	 100.0	    43	....................................	CTATGAAACTCACACCCATAGCCTTCAGATAGCATTTTGGCTA	
+    129307	    36	 100.0	    43	....................................	CTCTATTATTGCAAACTTGCTTTCTATTTTCATAATATACCTC	
+    129386	    36	 100.0	    40	....................................	TTATTTGGTTATGAAAAAGGTTCTTTTGAAGGAGCAGCAT   	
+    129462	    36	 100.0	     0	....................................	|                                          	
+==========	======	======	======	====================================	===========================================	==================
+         7	    36	 100.0	    42	ATAAGTGAGAATATAACTCCGATAGGAGACGGAAAC	                                           	       
+
+# Left flank :   GCCAATATATACAAATCAGTTTTAATCAGGTGATATTTATGGATAATTGGGATTTTTTAGATGAAGATTTTGAAAAGGAAGTTTTTGAAGATAACTTTACGGTTATCATAATTTATGATATTATATCCAACAAGAGAAGAACACAATTATCTAAACTTTTGAGTGCATTTGGATTTAGAATTCAAAAATCTGCATTTGAATGTCTTTTAACAAGAGAAAAATATAAATTACTCATTGAAAAGATTGATAGATATGCAAAGCCAGAAGATTTAATAAGAATCTATAGATTAAATCAAAATGTAGTAACTCAAATTTATGGAGAAAAATTAGAAATTGAAAATGAGATGTACTACTTTTTCTAATGAAAAGTAGACGATATGATAAAAATGGGAAGTTCAATATGATTTTTGATAAAACAAAATATAAATTTTTAAAATTTAAAAAGTCACACGATAATAGTTTTATAAACTATTGCAAACAAAAGTTTTTTTGAGTATAGG
+# Right flank :  T
+
+# Questionable array : NO	 Score: 5.18
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.18, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATAAGTGAGAATATAACTCCGATAGGAGACGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.60,-4.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-1.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [140,2] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.82,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6:WP_029491189 [125400-126122]; Endonuclease Cas1:WP_029491191 [127523-128530]; Endonuclease Cas2:WP_029491192 [128536-128859]; Unclassified_Cas_protein:WP_029491190 [126115-127509]; 
+# Array family : NA
+# Sequence source strain : ChDC F300
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium hwasookii ChDC F300
+//
+
+
+Array 1 73-1148 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ATKG01000044-Fusobacterium hwasookii ChDC F300 Contig044, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                            	Insertion/Deletion
+==========	======	======	======	====================================	===========================================	==================
+        73	    36	 100.0	    35	....................................	TGTATCTAGGTTGTCATCTGTAATTGTATTATTTA        	
+       144	    36	 100.0	    35	....................................	TGTATCTAGGTTGTCATCTGTAATTGTATTATTTA        	
+       215	    36	 100.0	    41	....................................	TCTTCATCACCGTTCAATCTATACTCATCTCTATTACTATC  	
+       292	    36	 100.0	    37	....................................	TATAAAGTTTTTCTAAATTTGCTAAAGCTATTTCTAA      	
+       365	    36	 100.0	    37	....................................	TATAAAGTTTTTCTAAATTTGCTAAAGCTATTTCTAA      	
+       438	    36	 100.0	    34	....................................	TTAGTATTTTTTACACCTCTTGAATTTAAAGTTG         	
+       508	    36	 100.0	    43	....................................	TCACAAACTTGTGTACTAACCATTGTACGATTATCACCATATA	
+       587	    36	 100.0	    40	....................................	CAACTGAAGAATAAGATTCTAACATTATATCTTCTAGTGA   	
+       663	    36	 100.0	    42	....................................	CCAATATTTCTAATTTTTTGTCTTTCATTACGTGAGTGTAAA 	
+       741	    36	 100.0	    39	....................................	TATCTAAAGAAAATTCTCTCATTAGAGGCTGTTCTTCCT    	
+       816	    36	 100.0	    40	....................................	CAGTACCACACGGCTTTTAAAAACCATTTAACTTTAAATT   	
+       892	    36	 100.0	    40	....................................	CTTTACCTACTCCGTTGATAGTATCATTTTTATTTAATAC   	
+       968	    36	  97.2	    40	.....A..............................	GGTAATTTAGAAACAAATTCTTGAACTGCTTTCTTTTTGA   	
+      1044	    36	  97.2	    33	.....A..............................	AATTTTATTTTAGATATCTTAAACTATACATTA          	
+      1113	    36	  72.2	     0	.....AA.....................TTCCTTTT	|                                          	
+==========	======	======	======	====================================	===========================================	==================
+        15	    36	  97.8	    38	ATAAGTGAGAATATAACTCCGATAGGAGACGGAAAC	                                           	       
+
+# Left flank :   GTGAGAATATAACTCCGATAGGAGACGGAAACATACTTACAAGCCATCTTGTATTAAATGTATTTTAGAAGTA
+# Right flank :  TATTGACAAAAAATCAATATATTTTTATAATATTAGTATAAGAAAATAAAAAGATAGAAAAGTCTAAAAACACTACCATGTTATAATATTTAATCAAGAATTTCTCACAATTGAAATTTTTATAGAAAGAAATAAAAACTATTTAAGGAGGAATTTTATGAAAAAATTATTATTTTTAACATTATTTGTAGGAATTTGTATAACTGGAGTAGCAAGTACAAAAGAAAAAAATCCAATTCTTATGAAACAAGTATTTAAAAAGGAAGAATTAATAACATTAGACAAAGAAAATGTAGCAGGGGGAAAAGGAACTTTAAAGGGAAAATTTGCTTTTACTAGAGATATGGCTACTGAAGATGAAGCCATAAAAGAAATAGGTTGGATGACATTAAACAAAGGAGAATCTGTTGGAGTACACCCTCATAAGAATAATGAAGACACTTACATTATTATTTCTGGAGAAGGAATATTTACAGATGGTTCTGGAAAAGAAACAGTAG
+
+# Questionable array : NO	 Score: 4.30
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.89, 5:0, 6:1, 7:0.41, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATAAGTGAGAATATAACTCCGATAGGAGACGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.11%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.60,-4.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [65.0-88.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [74,199] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ChDC F300
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium hwasookii ChDC F300
+//
+
+

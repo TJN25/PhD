@@ -1,0 +1,40 @@
+Array 1 583-292 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AJTF01000018-Bifidobacterium longum subsp. longum 1-6B contig00163, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	=====================================	===========================	==================
+       582	    37	 100.0	    26	.....................................	AGAAGTGCAGATTCGTTCCTGCAAAC 	
+       519	    37	  97.3	    26	....................................A	GGACGTGCAACGCAAGTATTCAAGAT 	
+       456	    37	 100.0	    27	.....................................	CGTCGATGTGTTCCAAGAGGTTTGGTG	
+       392	    37	 100.0	    27	.....................................	ATTGTTCGGGTGCGATGGTGATGATCA	
+       328	    37	  83.8	     0	..............................TTG.ATG	|                          	
+==========	======	======	======	=====================================	===========================	==================
+         5	    37	  96.2	    27	CAAGCTTATCAAGAAGGGTGAATGCTAATTCCCAGCT	                           	       
+
+# Left flank :   |
+# Right flank :  GCTGGAATGCTTGGGTTGATTTGGCTGATTTAGCTGTGATGGCCGCTGCGGGAATGGCCCTTGCGCGGTTGGCGGCAGAGGTTGCGGCGCGGATTGCGGCACTGATTGTTGTGCCAATTGCGTCTGCGGTGAAAAATATGGCGACGGCTGTGTCTGACTGTTTATCGGCGGATGTTCCGGCTCAGGTTGTGGCTGGAATGGAGAATATTGCGGTTGCGCCATTGTATGCCCCTGCCCCTTCATTGCCATTTCATTGGCGCATGGCGAGGCTGAAAACCAAGATGATGAATCC
+
+# Questionable array : NO	 Score: 6.41
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.81, 5:0, 6:1, 7:-0.20, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAAGCTTATCAAGAAGGGTGAATGCTAATTCCCAGCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.30,-1.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [45.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 1-6B
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAJTF01000018.FEATURES             Location/Qualifierssource          1..582/organism="Bifidobacterium longum subsp. longum 1-6B"/mol_type="genomic DNA"/strain="1-6B"/isolation_source="biological product [ENVO:02000043]"; Bifidobacterium longum subsp. longum 1-6B
+//
+
+

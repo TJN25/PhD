@@ -1,0 +1,55 @@
+Array 1 54841-56126 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH370363-Aggregatibacter aphrophilus F0387 supercont1.5, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	===============================	======================================	==================
+     54841	    31	 100.0	    37	...............................	AGAAAAAGTGGTTGCTGAATATTACCGCATTAAAGTG 	
+     54909	    31	 100.0	    32	...............................	AGTGCAACACAAGGTGGAAATGCTAATAAAAC      	
+     54972	    31	 100.0	    38	...............................	ATATAAGTTACTCTATTTTAGGTAACTTAAGGTTAAAC	
+     55041	    31	 100.0	    33	...............................	ATATGCCGACCGAACCTTTAAAAGCCTTATTAG     	
+     55105	    31	 100.0	    34	...............................	CACATCCTACGTTAAAGGTGATTGAAACTAATGC    	
+     55170	    31	 100.0	    33	...............................	GGACCCGTGCACAAAGAGGCACTGCGCCTTGAA     	
+     55234	    31	 100.0	    36	...............................	CACAATTCCACATTGGAATATGTCAGTCTTGCAAGA  	
+     55301	    31	 100.0	    35	...............................	CACGGTGCCGTCAGTATCAATCACAAAGTGATAGG   	
+     55367	    31	 100.0	    34	...............................	CATTTTCACACTCTTTATAAATTATGACCGTTTG    	
+     55432	    31	 100.0	    35	...............................	CGTGGAGGTGTCACGCAATAAGCCGCGTTTCCAGG   	
+     55498	    31	 100.0	    35	...............................	CGTGCTGCTTTATGGTATGGAGACGCACGATAGCG   	
+     55564	    31	 100.0	    36	...............................	TGATTTATACCTAACTTAACACAAGCCCAATTAATG  	
+     55631	    31	 100.0	    35	...............................	GAAAAATTAGGTTCAACGGCTGGACCTGCGTTTAG   	
+     55697	    31	 100.0	    36	...............................	GATATTCTTTGGAATGCGATCCAATGGAGATACCGG  	
+     55764	    31	 100.0	    36	...............................	CACGGTGCCGTCAGTATCAATCACAAAGTGATAGCG  	
+     55831	    31	 100.0	    36	...............................	ATCCGGGTTTTGTGCGTCAAAAGCGGTTGCCATTTG  	
+     55898	    31	 100.0	    35	...............................	TGCGGATTTTTAAGTACACATAGCCAATGACGGCG   	
+     55964	    31	 100.0	    35	...............................	TTGGTAGTAGATGGATAAGTTATCCAAGCGGGTAG   	
+     56030	    31	 100.0	    35	...............................	ATCTATGTAATCCTTATTTATTACATAGCCATTGG   	
+     56096	    31	  83.9	     0	.....A...T..G.A......A.........	|                                     	
+==========	======	======	======	===============================	======================================	==================
+        20	    31	  99.2	    35	CAGCCGCCTCCGCGCGGCTGTGTGTTGAAAC	                                      	       
+
+# Left flank :   TTGATGAGATAAACCATGTTAATGCTGATTACTTATGATATTTCTTTTGACGATCCAAACGGGCAAGCGCGATTACGCCGTATCGCAAAACATTGCTTAGATTACGGCGTGCGGGCGCAATATTCAGTATTTGAATGCGATGTCACGCCTGACCAATGGGTCATGTTGAAAAATAAACTGTTGGAAACCTACGACCCCACATGTGACAGCCTGCGTTTTTATCATTTAGGCAGTAAGTGGCGCAATAAAGTGGAGCATCATGGGGCAAAACCGGCAGTGGATGTATTTAAAGACGTGCTTGTCATTTAGTTCGCTAACCTGTTGTTCTCATTAAAACTCTGATGGGATAGCGATCCTTATTTTCTTTAACAATTTGGATGAATTAATCTATTTGTATAACGACAATGTGGCCGTTATACTTACCAAACTCCTTATCATAAAATCAGTTAGCGAAATACGGTGTTTAATACGCTGATTTTTCTTGCTTTTTTAGGTAGGGA
+# Right flank :  CAAGATGTCGAGCAAGTCGCGCTCATTTTGTGCGGTGGCAACCACCTTCGGGTGAGTATATATTTTGTCTTTACGAAAAATAAGTGATCTATAAGTTTCAAGCCTTTCTACAAAAACGTCTGGAAAATCCACCGCACTTTTCTTTCATAAAAATAAAAAGCTGAACCTCTTTCGAGATTCAGCTTTTCTTTTGGGGTTAGATCATTTTAACTGCCCTTTTTGTTTATCTATGCTGAAATATTGTTACATTTTCGGAATTTCAACGCCTGAAGAGAGCAGGTCTTGAATATCCGATTTCAGTACATCAGCTTTTGGCCCATAAATGGCTTGAATGCCAGTGCCTTTGACGATAAAACCCATTGCGCCTGCTTGTTTCCAAGAGGCTGCATCACCTACCAACTGAGGGTTGTGAACGGTGATACGTAAACGGGTCATACAAGCATCCACCTCGGCAATATTGTTGCGTCCACCGAGAAGATTGATGATTTGCACCACTTGTG
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:0.34, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGCCGCCTCCGCGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,-4.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [65.0-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [193,243] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005702615 [51460-52110]; Endonuclease Cas2:WP_005702619 [54356-54649]; Helicase/endonuclease Cas3:WP_005702609 [43834-46125]; 
+# Array family : NA
+# Sequence source strain : F0387
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Aggregatibacter.; Aggregatibacter aphrophilus F0387
+//
+
+

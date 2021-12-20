@@ -1,0 +1,124 @@
+Array 1 325-537 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ANAE01000081-Nocardiopsis prasina DSM 43845 contig_81, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+       325	    28	 100.0	    33	............................	TTATCGAGGGCATGACTGAAATCGGATTCGGAT 	
+       386	    28	 100.0	    34	............................	CCGGCACACCGGTCTACGCGCGTACCGGTACACC	
+       448	    28	 100.0	    33	............................	CGTGGCGGCGGCCCTCAGCCGGTTCATGCGGCC 	
+       509	    28	  82.1	     0	.....................T.CTC.T	|                                 	C [521]
+==========	======	======	======	============================	==================================	==================
+         4	    28	  95.5	    34	CTGCTCCCCGCGCACGCGGGGATGGACC	                                  	       
+
+# Left flank :   CCGCGACACGCGACCCGCTCACCACAGGCCCGGGGGCGCGCCTTCCTTCGCTGCCGCTTTTCCGTCCACCACCCCCACCACCACGACACGCGAAACGATGAACACCAGCCCTGGTCCCGCACTCTCCTTCGCTGCCGCTGTTGCGTCGGAAAGCGTGACCGGCCGCGACACGAATCCCGGTCAGCGCCGGCATGGAGAAACACAGCGCTGTGGCCGTAGGCTCACCCGTGACAGCAATAACGAAGGTGGATGTCGGTTTTGTCTGTTTCTCGACAAGTTGGAAAAACGAGCGCTTGCCACCGGTAAGTTCCCAGGTGAAAGAGTC
+# Right flank :  TCTTACTGGGCGGCGGCTGCGCGGACTCGGCGACGGATGAAGACGGCCAGCACACAGGTGGAGAGGAAGGTGGCGACGGCCATCGGGGTGAAGGCCCACTGGTAGGAGGTCGGATCCTCCGGCAGGGCCTGGAGGATGGCTCCGGCCGCCACTGTGCAGATCACGGCGGTGGTGAAGCCGCTCATGTTGACCAGACCGGAGGCGACACCGGTCCGGCTGGCCGGAATGCCGTCGCGGGCGAAGTCGAAGGAGACCGTCGGTGCCATGGTCTGTCCGAGGGCGCTGACGGCCAGTACCGCCACACCCACGACCACGGGGGCTCCGCCGGGCCAGGCCACCAGGAGCAGCCAGCCCAGGGTCAGGACGCCGCTCAGAATGAGGGCGAAGTACACCCGCACCCCCGGCCAGCGGCCGACGAGGACACCCGCGACCGGGGCCAGCCAGAGAGCTCCACCGGCCAGGCCTGTGAGGGTGAGGGCCGCGGTGCCCTCGGACAGTCC
+
+# Questionable array : NO	 Score: 7.03
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.78, 5:0, 6:1, 7:0.65, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCACGCGGGGATGGACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [326,3] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 43845
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis prasina DSM 43845
+//
+
+
+Array 1 628-896 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ANAE01000174-Nocardiopsis prasina DSM 43845 contig_174, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	============================	==================================	==================
+       628	    28	 100.0	    34	............................	CGGCCCGGATGCGTCGGTCGCGGGCCTGGGCGGG	
+       690	    28	 100.0	    29	............................	TGGCGTTCGCGGTGGTCCCACTGGGTGCG     	
+       747	    28	 100.0	    33	............................	CCTCCAGTGCACCTTGAGGACCGTGGACGGCGC 	
+       808	    28	 100.0	    33	............................	CGCGGCAAGTGGCTCGTCTGGGACGGGCACCGG 	
+       869	    28	  85.7	     0	..............TT.........CT.	|                                 	
+==========	======	======	======	============================	==================================	==================
+         5	    28	  97.1	    32	CTGCTCCCCGCGCACGCGGGGATGGACC	                                  	       
+
+# Left flank :   CACCCCAAAACCGCCCCACACCAGCACCCCTGAGCGCCCGTGCCCTAAGCCCCCGTGCCTCTGTGCGCCCGCTCATGCCCTGCCACCCACACTCGCCACACACGACCCACACCCCGGGGAGAGGAGGCCCACCCATGAACCCCGCCCCACACCCCACCGCAGAAGCACCCACCACCGGACCCGGGCCAGCTTCCACTCCTACCCCCCCGCACGCTGCCTGCCTTCGCTGCCGCTGTTGCGCTAGCACGAATGACCAGCCGCGACACGCGACCCGCTCACCACAGGCCCGGGGACCCGCACTCCTTCGCTGCCGCTGTTGCGTCGGAAAGCGTGACCGGCCGCGACACGAATCCCGGTCAGCGCAGGCATGGAGAAACACATCGCTGTGGCCGTAGGCTCACCCGTGACCGCAACAACAAAGGTGGATGTCGGTTTTGTCTGTTTCTCAACAAGTTGGAAAAACGAGCGCTTGCCACCGGTAAGTTCGCAGGTGAAAAAGC
+# Right flank :  GTGCTCAGCTCAGAGAGACAGGAGTACAGCTGCCCCAAGGGCAGGGAAGGGCCACGCGACGCTGGCGGGGGGCGCCGGGGTGGGGGTCCCCCCC
+
+# Questionable array : NO	 Score: 7.09
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.44, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCACGCGGGGATGGACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-35.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 43845
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptosporangiales; Nocardiopsaceae;Nocardiopsis.; Nocardiopsis prasina DSM 43845
+//
+
+
+Array 1 308674-309249 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE384251-Streptomyces sp. CNH287 H299DRAFT_scaffold00001.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    308674	    28	 100.0	    33	............................	TGGTGGCCGCTGTACCCGCTGGACACGCATTCC	
+    308735	    28	 100.0	    33	............................	CCGATCGGTTCGGCGACGAATCATCGACGGAAA	
+    308796	    28	 100.0	    33	............................	CCACGTCGGTGCCGACGGCAAGCCATATCAGCC	
+    308857	    28	 100.0	    33	............................	TGGTGGCCGCTGTACCCGCTGGACACGCATTCC	
+    308918	    28	 100.0	    33	............................	CCGATCGGTTCGGCGACGAATCATCGACGGAAA	
+    308979	    28	 100.0	    33	............................	CCGGGGTTCCGCACGTCCGCCGCCGCGAAGGCA	
+    309040	    28	 100.0	    33	............................	CTTGGGTGAGTAGTTCGATCACGAGGTCAGGAT	
+    309101	    28	  96.4	    33	............T...............	CACGACTCCTCCACCACCCCGGACACGGACGCG	
+    309162	    28	  92.9	    33	............T............G..	CTCACCGCCGCGCCGGACCCTTGAGGCGCACGA	
+    309223	    27	  96.4	     0	.......................-....	|                                	
+==========	======	======	======	============================	=================================	==================
+        10	    28	  98.6	    33	CTGCTCCCCGCGCACGCGGGGATGGACC	                                 	       
+
+# Left flank :   ACCGGGCTTGACAGGTCGGACTGCTCCCCGCGCACGCGGGGATGGACCCCAAGACCGTCCTTGACGCCTCACTGCGCATCCCTGCTCCCCGCGCACGCGGGGATGGACCCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAGCCATATCAGCC
+# Right flank :  CCAACCCGTTGTCACGCTGCTCGCCCGCTGGCCTCATGAACTGACGGCCAGCGGCGGGGGTTTCGTCGTGTCCGAGGTCGGTCGGTGTCTGCGTAGGGCCATAGGTCAGCTCGCCAGGTCCACATCGGTGCGGCCGAGGTAGCCGGGGGCCATGAACGTCGCGCCGAACGTGCCGGGACCGGATCTCTGGTCCAGCCACAGGCGCAGTGCGGGCAGGTCGCCGCCGAGTATCGCGGTCAAGAGCACCGAGTGAAGTCCCTCCGCCTCCGGCTCGCCCATGCGGTCGGGGCGAGGACTTCGGGGGTCAGTCCGTCGGCTGTCCGAGGATCAGCGTGCGGTGTGAGGGCTGTAGGCCGTCGGGTAGGGAGTCGGGGGAGTGCCATGATGCCTCCAGGATTTCCAGCGGGTCGATCTTGAGGGTGCCTCCGGTGCAGAGCGCTTCGTAGGCGATCTCCACGCGGAGCTTGTAGCCGCTCTTGACGTGCACGAGCCTTCCGGGC
+
+# Questionable array : NO	 Score: 7.40
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.93, 5:0, 6:1, 7:0.47, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTGCTCCCCGCGCACGCGGGGATGGACC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [3,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [11.7-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [639,304] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNH287
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNH287
+//
+
+

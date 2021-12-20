@@ -1,0 +1,83 @@
+Array 1 2387288-2387656 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM001798-Treponema denticola AL-2 chromosome, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                              	Insertion/Deletion
+==========	======	======	======	========================	=============================================	==================
+   2387288	    24	 100.0	    45	........................	GCCATAGAGCTTTTTGGCACTGTACGGGCTTAACAAGTATAAGTC	
+   2387357	    24	 100.0	    45	........................	ACGATAGTGCTTTTGAAGGCTGTACGAGCTTAACAAGTATAACCC	
+   2387426	    24	  95.8	    45	.................G......	GCTATGGTGCTTTTTTCGGCTGTACGGGCTTAACAAGTGTACATT	
+   2387495	    24	  95.8	    45	.................C......	GCTATGGTGCTTTTTTCGGCTGTACGGGCTTAACAAGTGTACATT	
+   2387564	    24	 100.0	    45	........................	AAAGTGGTGCTTTTGAAGGCTGTACGGGCTTAACAAGTATAACCC	
+   2387633	    24	  70.8	     0	.................NNNNNNN	|                                            	
+==========	======	======	======	========================	=============================================	==================
+         6	    24	  93.7	    45	TGCCTGCAAATCTTACCAAAATAG	                                             	       
+
+# Left flank :   GATTCGGCAAAGCTCTTACCCGTAATTCGTAAGGTAACTGTAACTTACCCTATAGGGTAAGTCAAGCTTACTGCATAAGGTAAGCCGCACTTACCCTGTAGGGTAACACCGGCTTACCGCATAGGGTAAACAAAATAAATTTTTAAGGAGGTTTGACATGAAAAATGCAAACACAAAATTAAGAGCAAGCTCGGTTTCAAAATCAAGAGGAAGACTCTTAAAATCTTGGGCGGCAGTTAGTGTACTTGCCGCATCGTTATTATTTATAGGGCTTTTGACAGGCTGTCCTCACAATCAACCTTCTGCGGTAGATCAACCTCCTGCCAAACCCGTAGATCCTATTTTTAAAACCGACGGGAATGGCAAAATAACAGGCTACAAATGTGCACAAGAGGCATTGCCTGCAAATCTGGTAATACCGGCAAAAATCGGGGATGAGGAAATTAAAGAAATAGACAGATTTGCTTTTTCCGACTGTACGGGCTTAACAAGTATAAGTT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+# Questionable array : NO	 Score: 3.60
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.69, 5:0, 6:0.25, 7:0.06, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGCCTGCAAATCTTACCAAAATAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.50%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [470,641] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002666293 [1397764-1398069]; 
+# Array family : NA
+# Sequence source strain : AL-2
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.; Treponema denticola AL-2
+//
+
+
+Array 2 2743468-2743054 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM001798-Treponema denticola AL-2 chromosome, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence            	Insertion/Deletion
+==========	======	======	======	====================================	===========================	==================
+   2743467	    36	  80.6	    27	T...GT.CG......A.T..................	TTCGGTAAGCTGATTGCCTCCGCACCC	
+   2743404	    36	 100.0	    27	....................................	TTCGGTAAGCTGATTGCCTTCGCACCT	
+   2743341	    36	 100.0	    27	....................................	GGCGGTCAGCTGATTGGAGCTGCAGGA	
+   2743278	    36	  88.9	    27	....CA.C.........T..................	AGCGGTGAGCTGATTGTCGTGGCAGAT	
+   2743215	    35	  75.0	    27	...A.AGCA........-......T..T..G.....	CCCGGTCAGCTGATTGTCGAAGCACCA	C [2743196]
+   2743152	    36	  97.2	    27	.................T..................	GGCGGTGAGTTGATTCCTGTCGCAGGA	
+   2743089	    36	  91.7	     0	....C...G........T..................	|                          	
+==========	======	======	======	====================================	===========================	==================
+         7	    36	  90.5	    27	CAGCTCTTTCAAAGCGGGTAAGCCCTGCACATTAAG	                           	       
+
+# Left flank :   TGACCGAAGCACAGCGGACTGTTTTGGAGCCCGAGACGGCTAATACTCCTTGTTCCGCATCTTTCGGGTCGAATTTTAAGCGGCTGCCGAGTATTTCCATAACCGAGTCTATTGTGATGGTGCCGTTCTGTTTGTCCGAAACGCCCATGATGCACGGGCCGATATTTGCCGTCTCGGTTTTTAGTGAATACTTCAACATAAAAGCTTCCTCATTTTTAGTTGATAATAGGTTATCAATTATTCATTACCCACTAGAATTAAATCTCAACCCCGGGCCAGCTTCCATTCCACTTATACATCTTCCACTTCTTGACGATTTTAGCATTATCAAAGGCATCCTTTAAGTCTTGCGGAGCGGTAAAGTCCGTGTGATTGCCTTCGGTAATGCCGGTTTGTTCGGTGTAAAGAATACACTTCGCATCATCACTATCCTGCCGAACCGGTAAATCGTCAAAGAGTTTGGTAAAGGCTTGTGCGGCGAGCTTATTGTTGTAGCAGCG
+# Right flank :  TTCGGTCAGCTGATTGTTGTCGCAGCCCAGCCCTTGCAAAGCGGTTAAGCCCTGCACATTAAGTTCGGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAAGCGGTTAAGCCCTGCACATTAAGTTCGGTCAGCTGATTGTTGTCGCAGCCCAGCCCTTGCAAAGCGGTTAAGCCCTGCACATTAAGTTCGGTGAGCTGATTGTTGCCGCAGATCAGCGTTTGCAAAGCACTTAAGTCCTGCACGTTAAGGGCGGTAAGCTGATTGTTGTGGCAGGGCAGCGTTTGCAAGGCGGTTAAGCCCTGCACGTTAAGGGCGGTAAGCTGATTGCTGTCGCAGTCCAGCTCGATAATTTTGCCTTTGAGGATAACCCTTCTGCCTTTTGCGCTCAGCACGGTTTCGGTACCGCTTGTAAGCTCCGTTTCGGTAC
+
+# Questionable array : NO	 Score: 3.97
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.53, 5:0, 6:1, 7:-0.12, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGCTCTTTCAAAGCGGGTAAGCCCTGCACATTAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [8,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.00,-7.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [4-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [45.0-51.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [985,302] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.59,0.74   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002666293 [1397764-1398069]; 
+# Array family : NA
+# Sequence source strain : AL-2
+# Taxonomy hierarchy : Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.; Treponema denticola AL-2
+//
+
+

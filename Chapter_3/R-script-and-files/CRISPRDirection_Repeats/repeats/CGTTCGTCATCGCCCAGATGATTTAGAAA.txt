@@ -1,0 +1,84 @@
+Array 1 183-33 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JHQK01000014-Acinetobacter oleivorans strain PF1 c14, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       182	    29	  96.6	    32	A............................	AAACTTTCTATATTTGAAGAAAAGCACGACCT	
+       121	    29	 100.0	    31	.............................	AAGTTCATGTGCAAGTTTACCTTGCCACTGA 	
+        61	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         3	    29	  98.9	    32	CGTTCGTCATCGCCCAGATGATTTAGAAA	                                	       
+
+# Left flank :   GACGTTGGGCTAAAACGTTATACAAACAACTTGCTAAAGGCTTTGGAGTTGAGTTTATTCGGGATGAAGGAAAAAATTCTCACGACACTATTGCTGATATAGCCAACAGCTACCTCGATCATGGAAACTATATTGCCTATGGCTATGCAGCAGTTGCTTTAAATGGAATGGGAATTAGCTTTGCCCTCCCTATTTTGCACGGTAAAACACGTCGTGGAGGTCTAGTCTTTGACCTAGCTGATCTAGTTAAAGATGCTTTTGTTATGCCACTCGCTTTTACATGTGCAGCAAAAGGATTAAATCAAAAAGAATTCCGAATGCAGCTTATTGAAACATGCCAAGACCAAGATATTTTAGATTACATGTTTAGCTTCATTACTGAAATATGTAGTAAAATCAAATAAAATCATACATTTAACCCAAGTACCTCATAACGAAGTATTTTCACTCATTAAAAACTTATATAATTGATTTTAAGAGTTTTGTTTTAACTTAACTCT
+# Right flank :  AWMGATCGACTCAAGCAGGTACATGCGGTTCTG
+
+# Questionable array : NO	 Score: 4.10
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:1.06, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGTTCGTCATCGCCCAGATGATTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.80,-6.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [23.3-81.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [34,97] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas6f:WP_042898142 [1244-1852]; 
+# Array family : NA
+# Sequence source strain : PF1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter oleivorans
+//
+
+
+Array 2 5288-5914 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JHQK01000014-Acinetobacter oleivorans strain PF1 c14, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+      5288	    28	 100.0	    32	............................	ATCTTCCTGAGCAATCACACTGACTTTAGTTC 	
+      5348	    28	 100.0	    32	............................	ACCAGGATTGCATCCTGAATATTTACCGTTTT 	
+      5408	    28	 100.0	    32	............................	TATGAAGCTATCAGAGTTCATTAACGGTTATT 	
+      5468	    28	  89.3	    32	...G.......CC...............	TTATTCAAATCTGTCATGCTGCCTTCTCCATA 	
+      5528	    28	  82.1	    32	...GC......CCC..............	CACCAAGTTGTACACACAGCAAGTGACCAGTC 	
+      5588	    27	  85.7	    33	....C......C.C..........-...	ATGATAGTTCAGAGCATGTGAATCTCCAAAATG	
+      5648	    28	  78.6	    32	A...A....T.CCC..............	ACAAATTCCGCGACATGTTCAGCAAAATGCCC 	
+      5708	    28	  89.3	    32	....C......CC...............	GGTACTGACGCCAGTGGGATGATTATTTCGAC 	
+      5768	    28	  85.7	    32	...GC.....AC................	ATGAAAAAGATTAACGAAGTTGAAAACAACGC 	
+      5828	    28	  92.9	    32	...A.......C................	AAAGGGGAAAGTAAATACAATCTTATTAAATA 	
+      5888	    27	  85.7	     0	...A.......CC...........-...	|                                	
+==========	======	======	======	============================	=================================	==================
+        11	    28	  89.9	    32	GTTTTTCATCGTATAGATGATTTAGAAA	                                 	       
+
+# Left flank :   AAAAATAGAAGCCGTTTTACCTGCATTTGCCTGATAATCGGTTGGAATAAGGAAGTCTTCATTTAATAAAGTTCGAGCACTAAGATAGGGTAAATCAAGTGCTTGTTGTTTACTTAAACGAATCCCACCTTTTTCAATATTGGAATTAATCGTCTTTAAACTAAAGTGTACCGATTCTTCTAAAGCGTTTATAAAAATATCAGTTTGTGGTTCAGGCATTATCTTCCCCGTTTTTGTTATCTAGCCAATTTTTAACACATTATTTAAAAAATGAAAGTGTTGAAGTAGAGATCTACGACAAATTAAGTCGTAGAGACAACTGGAGGAAAATATTATATGCTCTATAAATTTAGCCTAAGACGATTAGGTTATATTTTTTGAAATTAGAAAAAATTAATATAATTCAATGAATTATACTGTTGTTTTGTTTTGAATTTTTTTGATTCATTAAAACTTTATATTATTGTTTTTTAAGAGTTTTTGTTTTTTACTTAGCTCTA
+# Right flank :  AGAGTTCCTTTCAAAATTTAAGACGACGTATTTTGTCGTTAAAAGGCCGTATTAAGCTGATAAAAACTTTCTCTTTTTAAAACAAAAGATTATATTTTTATTATATTCGAAGTTTAACAATAAACTATGCATGTCATTCTCATCTCTGCTTGTGAAAAAAGAGCTTTAAAGAAAACTCGAGCGATCTTGGATAGCTATGCTATTCGTACAGGACATTCGTCTTGGCAAGCACCAATGACAATGGATGGCTTAAAAGAAATTCGTAGTGCATTAAAAAAAAGTAGCCACTCGACAAACTGCGGTAGCCGCTTACATTAATTTTGGTGTACGAAGAATGAAGCTGGCATGGGTTGTGGGAGCAAAACATAAATTTGCGCACGACGGTGCATATCCAGTTGCATCGACCAAAAAACAGCAAAAACTACTGATGCTAGATGAATGGGTCAAAGTAAGTAGCTTGTTGGCGGGTGCAGCAGGAGACATGCATGATATTGGTAAAG
+
+# Questionable array : NO	 Score: 7.01
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.50, 5:0, 6:1, 7:1.06, 8:1, 9:0.45,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTTCATCGTATAGATGATTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,-3.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-19] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [283,126] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas6f:WP_042898142 [1244-1852]; 
+# Array family : NA
+# Sequence source strain : PF1
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter oleivorans
+//
+
+

@@ -1,0 +1,291 @@
+Array 1 451361-451647 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016011-Listeria ivanovii subsp. ivanovii PAM 55, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=============================	====================================	==================
+    451361	    29	 100.0	    35	.............................	CTGTATAAATTTCATCCGATGAATTTCGACATCGT 	
+    451425	    29	 100.0	    36	.............................	AAATCGTTGTGAGATAATTATTTCAGATTGAGAATT	
+    451490	    29	 100.0	    36	.............................	GTGATAGAAATGTGAGGACTATCCGTTGCCACGCCA	
+    451555	    29	  96.6	    35	................A............	ACATACAAAGCGGTTTGGAAATTTTCTGAACCAAC 	
+    451619	    29	  82.8	     0	.......C....C..GA.....A......	|                                   	
+==========	======	======	======	=============================	====================================	==================
+         5	    29	  95.9	    36	GTTTTAATTACTTATTGTGAAATGTAAAT	                                    	       
+
+# Left flank :   TCAGCTGACGTTCTATTAGAAAAAGGTGCTGTAGAAGTAATCGCCTGTGCAACTCATTCAGTTATGGCTGGAGATGCAACAGAACGATTACAAAACTCACCAATCAAAGAAATAATCATATCCGACTCCATCGACCTTCCAGAAGATAAACAATTCGAAAAGCTAACAACTATCTCCATTGGTCGAATCTTAGGTCGTGCAATCGAAGGGGTTCAAGAAAATCGCTCGTTGCATCCACTTTTTTAAGGAGATTAATAGTAGGAAATTGGGAACAGGGCTTCTATTGGGGCTCTGTTTTTTTATGAACTATTATCTGTCGACCATCAGTAGTGCAGAAAACAGGGGAGGTCGACAGAAAACTGGATTGACTGTGAGAGAATGAGTTTGAAGCTTTTAAAGTTAGTTATTAGTAGTTAGACATTCAAATTTCACCCGATTTGAAGAAGGTCGACAATAATAGGCGTTTGAGGTAAGATGGGAGTAAGGAAAAAATGAAGCGG
+# Right flank :  TTTGTCTAACCTTTAAACATATCTACAATATTAGCCAACTCAAAAACAACAAGAATACATAAAAAGGGAGGAAACACCAATGAAAAAAGCGCTTTGCCCCATCCTATTGCTATTGATCCTACTAGCCAGTTGCTCCACGCAAGATGAAACTCTATCCCCGAATACCAAAATTCATAAAAATAGTGTCATTAGAGCTGATTATAAGATACCACAAAACCTGGCAGAACTAGAATCAGACAGCGAAGATATTGTCCAAGTAAAATTAATACGAAATAAAGAAATTGGTAAAGGAAACAACAGCTCAATAACGGAAGTAGAAATAATCAAAAACTACAAAGGCAGTTTTGAGCCCGGTGATAAAGTGGATATTTCAGAACCGTGGCTTTTAACTTCAGGAGAATACCAAGCGGTGGAAAATTACATTGCACTCGAAAAAGGTCAAGAATATATCCTGTTTTTAAGTGGTGGACATGGCACGGATAAAGTAAGCTCAATCACGA
+
+# Questionable array : NO	 Score: 8.74
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.80, 5:0, 6:1, 7:1.14, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAATTACTTATTGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.20,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [58.3-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [256,79] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_014091947 [467859-468347]; Endonuclease Cas2:WP_014091949 [469355-469633]; Endoribonuclease Cas6:WP_014091942 [461516-462238]; Helicase/endonuclease Cas3:WP_014091946 [465638-467848]; 
+# Array family : NA
+# Sequence source strain : PAM 55
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria ivanovii subsp. ivanovii PAM 55
+//
+
+
+Array 2 470315-469832 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016011-Listeria ivanovii subsp. ivanovii PAM 55, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+    470314	    29	  96.6	    37	..........T..................	AATCACAAACCCGCTTTATTTCAATGAGCAATTTGAC	
+    470248	    29	 100.0	    36	.............................	CGTGTCAGACGGCGTTGTAGTCGCATCTATGATATT 	
+    470183	    29	 100.0	    35	.............................	AAAAACGATAAATTTACTTTTGTACCAATATCGTT  	
+    470119	    29	 100.0	    36	.............................	ATATGCGACTTCTATCACTGAAAAAATGCAAAGCTA 	
+    470054	    29	 100.0	    34	.............................	TAATATCCGAGCCGAAACCGGTCGCTGTTCCTCC   	
+    469991	    29	 100.0	    37	.............................	GCTGAAAATGTTGCTAATTTCTTAAAAAAAGGAAGCT	
+    469925	    29	 100.0	    36	.............................	TTTATTCCATCCGTTTATAGCGAACAAGGGAATTGA 	
+    469860	    29	 100.0	     0	.............................	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         8	    29	  99.6	    36	ATTTACATTTCATAATAAGTAATTAAAAC	                                     	       
+
+# Left flank :   GACTCATTTACTACGTTCATTATAAGTTTAGAGTTATGTTACTGCAAGCGGTTACAAGTATTTCGAAAACGGTTTTCGCTGGACGAAAAAATTAGGAATATGGGGATGGGCCAGTAAAAGAGAGGTTTTTGGAGATAAAAATACCCTTAAAGCTTTTTATCTGCTCTAAAGGTATCGCTATATTCGTTAGTCCTCTGAGTCTGTGATTGCTCCTTTGATTTTTCGGGCCAATTTTTACTATTGTATTGCTACCTCTTAACCTGTAAATATAACCATTTAGTTCGGTGATGTCTTTTCGCCGCATGCGCTTTACTTCTTTTGCAAGGTACTTACTGGATTTCTAGTTCGCAAACTTTTGCTTTGTTTTCTTCTAGCCTATACCATCTTATTTCCCACATTTACTTTGACAAAGAGATTTAGAAATTCAATGAATATTTTATCTATTAATGTTAAGAAGCTAAAATTCAAATACACAATTTAATTGGCTCGACACAAAAAAT
+# Right flank :  CCGTCAACTTTTTACCCTACTCCCATCTTACCTCAAGGGCCTATTTTTGTCGACCTACGCTAAAATGTGGAAAACTTATTTCACTTTTTCTTTTTTAAGAATCGAAATCTCTGAAACCCTTTCTCCTCCAGCGAATTCCGCATTTCTGTCGATCCCTAGTGTTTTTCACACTACTAGAGGTCGACAGAAACAAGCCACCTAAAAGAAATTCGATGTTTTTTCATCTGCTAGTCCCCAAAATTCTTTTTCTAACCATTTTTGTTGTCTACTAGAAAACAAAATCACAGAATCTACATCTGCACGAATATAATTATCTAATTCCATTCGTAATTTCACTAAAAGCGCTGGAGTTATTTCCCCTTCAAATACTGATTTTTGAACATGTGTTAAATATCTTTTGCAAATTTTAAATACATTGCGCCAAACTTTGGCACCTCCATTTTCCACCGAAATATCGTAAATTAGGATAACATACATATATCTACCACCAAATTTTAAAC
+
+# Questionable array : NO	 Score: 8.94
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.98, 5:0, 6:1, 7:0.96, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTACATTTCATAATAAGTAATTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:86.21%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [51.7-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [200,608] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_014091947 [467859-468347]; Endonuclease Cas2:WP_014091949 [469355-469633]; Endoribonuclease Cas6:WP_014091942 [461516-462238]; Helicase/endonuclease Cas3:WP_014091946 [465638-467848]; 
+# Array family : NA
+# Sequence source strain : PAM 55
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria ivanovii subsp. ivanovii PAM 55
+//
+
+
+Array 1 437351-437703 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_013891-Listeria seeligeri serovar 1/2b str. SLCC3954 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+    437351	    29	 100.0	    37	.............................	AACTTTTTAGTTCGAGGTTGCTACTATATTTATTATT	
+    437417	    29	 100.0	    35	.............................	TTAACCCAATCCCCTCCTAAATTAACTTAACTTTT  	
+    437481	    29	 100.0	    35	.............................	TTGAAACTTTAATTATGATGCAGTACGGCTATTAT  	
+    437545	    29	 100.0	    36	.............................	AGTTTTGTGGATGATTTCCATTGGAGACTTACCAAA 	
+    437610	    29	 100.0	    36	.............................	CCGTCAGATTGATTATAATAGATTGTCCGTTTTTCT 	
+    437675	    29	  96.6	     0	............C................	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         6	    29	  99.4	    36	GTTTTAATTACTTATTGTGAAATGTAAAT	                                     	       
+
+# Left flank :   CGCAACAACTTCAGCCGATGTCCTGCTAGAAAAAGGCGCTGTAGAAGTCATTGCCTGCGCAACCCATTCGGTTATGGCCGGAAGCGCAACTGAACGCTTACAAAACTCAAAAATCAAAGAAGTTATCACCTCTGATTCCATTGATCTACCAGAAGATAAACAATTTGATAAACTAACAACCATCTCCATCGGCCGCATCCTAGGCCGCGCAATCGAAGGCGTTCAAGAAAACCGCTCATTGCATCCGTTATTTTAAGAAAATCTATAAGCAGAGACTCAAAATTGGGTCTCTGCTTTTTTGTGCGTTAACATCTGTCGACCGTTAGTAGTGTAGAAAACAAGGGGGATCGACAGAACATTGGATTCCTTTGTGGGAGAATAGGTTTGGTGGGTTTTGAGTTATGAAATTAAAGTTTGGTGCTTTGATTTTAAGAGGTTTTTTGGAGATCGACAAAAATAGGCGCTTGAGGTAAGATGGGAGTAAGAGGAAAAGTGAACGG
+# Right flank :  TGTCTCCCAGTCCACTTGCTTCAAGTGACCAGAAGTGTTTTAACTACTTTTAACCATCCGAAAAACACCAAAGAGGAGGAAACACTCATGAAAAAAGCATTTATCCCGCTACTATTTCTACTAATCCTACTAGCTAGTTGCTCCGCGCCTGATGAAAAATTAACAAAAGACACCAAGATTTTTAAAGAAGGCGTCATCAACGCGGATTATCAGGTTCCAAAAAACCTAGCAGAGCTTGAATCGAACAGTGAAGATATCGTAAAAGTGAAATTACTACAAAATAAAGAAATTGGTAAAGGAAATAACACAATAAGTGAAGTAGAAATTATCGAGAAATACAAAGGGAATTTCAAATCAGGTGCGACAATCGACATTTCAGAACCTTGGCTTTTAAACACAGGAGAATACCAAGCTGTGGAAAACTACATTGCACTTGAAAAAGGTCAAGAGTATATCTTGTTTTTAAGTGGAGGACATGACGCGGATAAAGTAAGTTCTAT
+
+# Questionable array : NO	 Score: 9.02
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:1.05, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAATTACTTATTGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.20,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [246,87] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_012984914 [452335-452823]; Endonuclease Cas2:WP_041176152 [453830-454108]; Endoribonuclease Cas6:WP_012984909 [445992-446714]; Helicase/endonuclease Cas3:WP_012984913 [450113-452323]; 
+# Array family : NA
+# Sequence source strain : SLCC3954
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria seeligeri serovar 1/2b str. SLCC3954
+//
+
+
+Array 2 443925-445697 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_013891-Listeria seeligeri serovar 1/2b str. SLCC3954 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    443925	    29	 100.0	    36	.............................	AATAATGTTCAATACAATGGTGGTAATACCATGAAG  	
+    443990	    29	 100.0	    35	.............................	AAAACCAACGACGTATAACAAAATTGGCGATGGAT   	
+    444054	    29	 100.0	    36	.............................	ACTAACGTAGAAGCGGGGGCGGTAACGACTACTAGC  	
+    444119	    29	 100.0	    35	.............................	AGATTTGAAAAAGGCAATCAAGTTTTTGGAATTTG   	
+    444183	    29	 100.0	    36	.............................	CTTCAAAGAGCAAAATAAACAAGCACTAAAACGTTT  	
+    444248	    29	 100.0	    35	.............................	TCTAATGGGACATGATGGTGATATCGTTGATACTT   	
+    444312	    29	 100.0	    38	.............................	ACCTGTTAGGTCGGGAGGATTCGAGAGGTTTAGTTGTT	
+    444379	    29	 100.0	    34	.............................	CGAACTTGTAGCGTATGCCGTTACCTACAGTGCA    	
+    444442	    29	 100.0	    35	.............................	GACTTAGAGGAGTTAGGAGCCGTAGAATCCTCATC   	
+    444506	    29	 100.0	    34	.............................	ATGAAACCAGAAACAACGGAAAACCTTCACGAAT    	
+    444569	    29	 100.0	    36	.............................	ATAGCATCCCCAGCCTCATAGTTCCCCATGATAAAC  	
+    444634	    29	 100.0	    35	.............................	ATTTACTTATACATGGGTCACCATGCCAAGATTTC   	
+    444698	    29	 100.0	    35	.............................	AAAAACACAAGTGGTTCCTGAAATCGACAAATACC   	
+    444762	    29	 100.0	    36	.............................	TCCTTTAGATACTCTCCCTCATCAAACACTATCTCC  	
+    444827	    29	 100.0	    36	.............................	TCATTCATTCCGCTATTCCAAATCTCAATAGTATCG  	
+    444892	    29	 100.0	    36	.............................	ACGGTCTATCGAGCGAAGGCGGGAAATTTTGGTAAA  	
+    444957	    29	 100.0	    36	.............................	TCATATTGCCCTTTCAATCCCCATCTTGCATTCATT  	
+    445022	    29	 100.0	    34	.............................	CCCCTCGAATGGCTTCATCATCGCATGTGCCTAG    	
+    445085	    29	 100.0	    34	.............................	ATCATTATTGATGTTACTAGCAAAATTCCACTTG    	
+    445148	    29	  96.6	    37	............C................	TAGTAGGAATTTCCGGTTCTTCAGTTTCCGGTAAAGA 	
+    445214	    29	 100.0	    37	.............................	TTGCCAGTTGTCCCAAAAACGCGCCCCAATCTTCTCG 	
+    445280	    29	 100.0	    33	.............................	GAAAAAGAATATGTATTCCACAATGCTAGTTTT     	
+    445342	    29	 100.0	    36	.............................	GTAATTAAAATTGTCCTATTTTCTAAATCTATCAAG  	
+    445407	    29	 100.0	    37	.............................	TCTGCATTATCTGAATCTGATTTAGCTTGCTCCATCT 	
+    445473	    29	 100.0	    37	.............................	GTTTTTGGTAATGGTTTTGGTGGAATTTTTTCATTGA 	
+    445539	    29	 100.0	    36	.............................	CCAGAAAAGTTGCATATAATCTTTCCGCTTGGGTTC  	
+    445604	    29	 100.0	    35	.............................	ATATACGGTATCCGGTATACTCGCCGTCCCATTCT   	
+    445668	    29	  86.2	     0	........C....C..A...........G	|                                     	T [445694]
+==========	======	======	======	=============================	======================================	==================
+        28	    29	  99.4	    36	GTTTTAACTACTTATTGTGAAATGTAAAT	                                      	       
+
+# Left flank :   AAAAGTAACCGTTCCATCTTTTTTCTCTTTTGTATCCGCTTTGCTCGTTGTTGAATCATTCCCACAGCCCGCAATCAAAAGTAAAGCGCAAAACATCACCATCAATTTCCAAACATTTTTCTTCATCCTTTTTCTCCTTTTTTCTATAAGTTTTTAGCAAAATAAAAACCTAGATAAATCAAAAAATAGCCCAAAAGCCATCTTCCAATCCATCTAGGTTATGCCCAAAATAGGTAACATTCCTGAGTGAGGTATTTGTTTATAGGATGATTTTAGCATAGATGGTAAGCGTTTACAAGTTTGCGCAATTTCTGTCGATGTATGGTAGCGTAAAAAGTACTGGAGACCGACAGATTTGCGGGATGCATTGGGAGAGAATGAGAGTGGGGGATATTTGGGTTTTGAATAGTAATTTTAGGAAGTTAAAAAGCCGATTTTGAGATAGGTCGACAAAAATAGCCTTGTGAGGTAAGATGGGAGTAGGGATGAAAATGGATGGG
+# Right flank :  GCCCTTCAATCATGCTAGTAATGCTACAAAAATAATTATTTCGAATTATAAATTCATCCAGCAACTAAAACATAGATAGTAGCACTATAATAAATTTCCCAGTCAATAAAAAATTAAAAATCAAATTCTTTACTAGTTTTAAGGTATAAATCTTTTTAACAAAAAGTGAAAAATTTCAATTAATCATATAGCAAATGTTAAGTAAAACACTGGTATTTTCAGTGTTTTTTTTTCGCTAGCATTCACTCTTTTTTTGTGTTAAATTAAACACAAGCAACAGATGGGGGTGACAAAAATGAGACTGAAAATAAATTGTGATTTCGAATCCAACATAATACCGAAAGACTACAGAGGTAAAATAGTCAGTTTATTCAAAATAGGAATTGAGAAATCTAGTCCAGAAAGATATGGAGATTTATTTGGTAGTAATAAGCGGAAAAATTACACTTTTTCGATATACTTGCCTAAACCTAAAAATAATAAAAATGAAATTTATCTTG
+
+# Questionable array : NO	 Score: 8.77
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.80, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAACTACTTATTGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.10,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [55.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [376,296] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_012984914 [452335-452823]; Endonuclease Cas2:WP_041176152 [453830-454108]; Endoribonuclease Cas6:WP_012984909 [445992-446714]; Helicase/endonuclease Cas3:WP_012984913 [450113-452323]; 
+# Array family : NA
+# Sequence source strain : SLCC3954
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria seeligeri serovar 1/2b str. SLCC3954
+//
+
+
+Array 3 454307-456081 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_013891-Listeria seeligeri serovar 1/2b str. SLCC3954 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================	==================
+    454307	    29	 100.0	    35	.............................	GAATACTGAAACGGCTGTTCAAGCTAATTATTTTT   	
+    454371	    29	 100.0	    37	.............................	CTTTTTAACTTAAATTATATTATACTAATTAAGTTTG 	
+    454437	    29	 100.0	    34	.............................	AAATTTAGGAGGAACTTAAAAATGAACAGATACG    	
+    454500	    29	 100.0	    37	.............................	CTCTTCCGCGAGTGCCTTTTGACTCTTGTAGCGCTTT 	
+    454566	    29	 100.0	    37	.............................	CAGGTAATCAAGCTGAAACGATTAAAGGAATTAAAGA 	
+    454632	    29	 100.0	    37	.............................	TTGGGAATTCGTGGTAATATTGTACTACGGGAATAAG 	
+    454698	    29	 100.0	    36	.............................	GCACGAGGCGAATCGGCAGGAATAGGTTCCTTCATT  	
+    454763	    29	 100.0	    36	.............................	ATACCCAATTGCCATTCTCATCTCGTTCATAGTCCC  	
+    454828	    29	 100.0	    38	.............................	GTATTTAGGTTGAGATTAACATACCCGAAATAACTATC	
+    454895	    29	 100.0	    36	.............................	TTGGACTTTAGTTTGACTGTCTCTGGTACTTTAGTC  	
+    454960	    29	 100.0	    34	.............................	TCAGGCAACACCTTAAGCGCCTTGAATAGATTCA    	
+    455023	    29	 100.0	    37	.............................	CAGAAGCAATGCACCAGCCACCGCTAAAAATGTAATC 	
+    455089	    29	 100.0	    37	.............................	GCAGTTACAAATTTAATAATTTCATTTCTATATTTTA 	
+    455155	    29	 100.0	    34	.............................	TCTTGTATTGCTTCTTTAATACACATGCGCATAT    	
+    455218	    29	 100.0	    36	.............................	CCTCGAAAGTACGTATGAGCTTGTAACGGGATTCAT  	
+    455283	    29	 100.0	    35	.............................	CTACCTTGCAGCGACAGCGCGTAAGTCGCAACATC   	
+    455347	    29	 100.0	    35	.............................	TCTGTTGCAAACGCTATGCGTATTGCAGAAGTGCT   	
+    455411	    29	 100.0	    36	.............................	CGCTGTCATGGCATAAGTATGGACCGTGGAATTATA  	
+    455476	    29	  96.6	    36	.......................A.....	ACGAGATGGTAAGAACGCATTGTTTGACTCGCTCCA  	
+    455541	    29	 100.0	    37	.............................	AAAAGTATTCGCTTCTTTGATAAATCAATTCCATCAA 	
+    455607	    29	 100.0	    36	.............................	GCAGGAAAGGGAGAAACTTCATTAGATGGGCTAAAG  	
+    455672	    29	 100.0	    34	.............................	AGATGTGCCGGACTTCACCTATGTGCCAGTTAAG    	
+    455735	    29	 100.0	    37	.............................	TTCAAAAACGGGCAAGGAGAACAAGAAGCTGATTTTA 	
+    455801	    29	 100.0	    29	.............................	ATAATTTCTTTTATCTTTTCATTCTTATC         	
+    455859	    29	 100.0	    37	.............................	CGAATAAGTAGAGCTGGGATTATAATAATTTCCTTCA 	
+    455925	    29	 100.0	    36	.............................	AAAAATGGATGAAGCAGGGTATGATGCAGAATGGGA  	
+    455990	    29	  93.1	    34	............C..........A.....	AAAAGTTCGATTGCTTTTTAATCGTCCAAATATT    	
+    456053	    29	  75.9	     0	.......AC......CA......A...CC	|                                     	
+==========	======	======	======	=============================	======================================	==================
+        28	    29	  98.8	    36	GTTTTAATTACTTATTGTGAAATGTAAAT	                                      	       
+
+# Left flank :   CTTCAAGATTTGGTGGTGACTATATGTATGTGATTTTAATTTATGATATTTCTGTGGAAAACGGTGGGGCAAAGGTATGGCGCAATGTGTTTAAGATTTGTAAGCGATATTTAACACATGTCCAAAAGTCTGTATTTGAGGGTGAAATAACGCCAGCTCTTTTAGTGAAATTACGGATGGAGCTAGACAAATATATTCGTTCAGATATGGATTCAGTGATTGTCTTTTCCAGCAGGCAACAAAAATGGTTAGAAAAAGAATTTTGGGGACTGACTGATGAAAAAACATCGAATTTTTTCTGAATAAATATTTCTGTCGACCTCCAGTAGTGCAAAAAACACTGGAGAACGACAGAAACGTGGGAAGCCTTGGGGGAGAATGGTTTTTGGTGAATATGCTTGTTTAAGTCGAGAAAATAAGATAGATTTTACCTGCTTTTTACGGCGGTCGACAAAAACAAGCCCGTGAGGTAAGATGGGAGTAGGGAAAGATATTGGCGG
+# Right flank :  CCCGCCCACCCTCAAAGCCAATAATCTGTTTTAAGGATTTTTCATCTAAAAACCACACCACAATCCTCCCATTTTTTTCATCCAGCGAAAACCGTTTTTGAAATATTTGTAACCGCTCGCATGGATTATATGCAAGAAGAGAGCTATTATTTGTTAGATGCAAAAGAGGATGTTACATAGGTTTGAAGGATGGTGTGCGGGAAAGCGATTTAATTGGAGCACTTGAAGAAGCGCAAACCGGGGCAGTCAAGCTGGATGCAACACGTTACGTGAATACTTTCCCAGAAAAAAACACGCCCATTTCTTAATACCATCGGGGACTGTTCATTGTTCTGGCGCTGATTCGATGATTCTCGAAATAAGCTTATCTGCCTACATTTTTACATTTAAGCTGTGGGATTGGGGACGATTAGGCTTAGACGGCAAACCACGGCCAGTGCATATTGATCATGGAAAAAAAGTGATTAATTGGAACCGTTCTGAAAAATGGGTGGCGGAAA
+
+# Questionable array : NO	 Score: 8.71
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.77, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAATTACTTATTGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:82.76%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.20,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [46.7-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [200,120] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_012984914 [452335-452823]; Endonuclease Cas2:WP_041176152 [453830-454108]; Endoribonuclease Cas6:WP_012984909 [445992-446714]; Helicase/endonuclease Cas3:WP_012984913 [450113-452323]; 
+# Array family : NA
+# Sequence source strain : SLCC3954
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria seeligeri serovar 1/2b str. SLCC3954
+//
+
+
+Array 4 1174058-1174422 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_013891-Listeria seeligeri serovar 1/2b str. SLCC3954 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1174058	    35	  86.1	    30	A..C..T.-........A..................	CCGCCAAAAGTATCAGAAAATGTTATTGCA	
+   1174123	    36	 100.0	    30	....................................	CATATTTCCAAACTCCACTTTGACTACACC	
+   1174189	    36	 100.0	    30	....................................	GGTCCCACTACTTGAGGTACGAACATATCA	
+   1174255	    36	 100.0	    30	....................................	TTAGTCAACCCCTCGCTGCATTTTCACATT	
+   1174321	    36	 100.0	    30	....................................	GATGGATAATAGGGATAGATCATTAGTCCG	
+   1174387	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         6	    36	  97.7	    30	GTAAGAGACTACCTCTATATGAAAGAGGACTAAAAC	                              	       
+
+# Left flank :   TTTATCACTGTAGAAATGGTTCCTTACTTTCAACAAGGGGAAACAACGAGTGATTCTAAAAATGTAGTGAAAGTACAGAGTAATTTAACCAAACAAGAAATAGGACATTACTTTTTAGAAGGTGAAAAGTGCCAAGTAACTGTGCGAGCCTGGTCTGCTTTTCAAGTCGACAATCAAAAGAAAACCGAAAATCAAGTATTGTTAGATTTGGAGTTGGTTAAAATTGAAACCGGAAAATGGTTTATAGATTCTCAAGAAATTGCTACAATAAATTAAATGTTTTTAACACAAATCATGCTGAAAAGTTGCTGTACTGTGTGCATAAGTCTTCCTTAGATCCATAGGTACAGCAGTTTTATTTATTAGCCTTAGAAAATGGAAAATAGAGCTTATAAATGATATGATATTTATGAATAAAATGATTGCATTCTCGTGCAAACTTTAAATATATTGATTATATCCTTTACATTGGTTGTTTTAATTACTATTATTAAGTAGGA
+# Right flank :  CGTCTAATGTGGATAAGTATAAAAACGCTTATCCATCATTTAGGTGTTTTATTTTTTTGTGATTATATGTACAATAGAAGAGAGAAAAAAATCATTGAGGTGAAAACTATGAGAATTACTAAAGTAGAGGTTGATAGAAAAAAAGTACTAATTTCTAGGGATAAAAACGGGGGCAAGTTAGTTTATGAAAATGAAATGCAAGATAATACAGAACAAATCATGCATCACAAAAAAAGTTCTTTTTACAAAAGTGTGGTAAACAAAACTATTTGTCGTCCTGAACAAAAACAAATGAAAAAATTAGTTCATGGATTATTACAAGAAAATAGTCAAGAAAAAATAAAAGTTTCAGATGTCACTAAACTTAATATCTCAAATTTCTTAAATCATCGTTTCAAAAAAAGTTTATATTATTTTCCTGAAAATAGTCCTGACAAAAGCGAAGAATACAGAATAGAAATAAATCTCTCCCAATTGTTAGAAGATAGCTTAAAAAAACA
+
+# Questionable array : NO	 Score: 5.23
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.89, 5:0, 6:1, 7:0.34, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTAAGAGACTACCTCTATATGAAAGAGGACTAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.89%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-5.50,-5.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [226,6] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_012984914 [452335-452823]; Endonuclease Cas2:WP_041176152 [453830-454108]; Endoribonuclease Cas6:WP_012984909 [445992-446714]; Helicase/endonuclease Cas3:WP_012984913 [450113-452323]; 
+# Array family : NA
+# Sequence source strain : SLCC3954
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria seeligeri serovar 1/2b str. SLCC3954
+//
+
+

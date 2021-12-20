@@ -1,0 +1,122 @@
+Array 1 380687-380257 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010120-Neisseria meningitidis 053442, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                                                                                                                                                                                                                             	Insertion/Deletion
+==========	======	======	======	==========================	============================================================================================================================================================================================================================================	==================
+    380686	    26	 100.0	    48	..........................	CGGCTTGTTCGGTTTCGGTTTTTTTTGAGGTTTCGGGCAACTTCTAAA                                                                                                                                                                                            	
+    380612	    26	 100.0	    42	..........................	TAGACCTTAGAACAACAGCAATATTCAAAGATTATAAAAGAC                                                                                                                                                                                                  	
+    380544	    26	 100.0	   236	..........................	TAGACCTTAGAACAACAGTAATATTCAAAGATTATCTGAAAGTCCGAGATTCTAGATTCCCACTTTCGTGGGAATGACGGAATGTAGGTTTGCGGGAATGACGGTTTAGGTATTTTTATAGCAAGCCGTAGGGTGGGATGCCGCCGGAGGGCATCATATTCTTGGAATAGCGCATTAAAAAGAGTATGATAATGGAAACACAAAAGATTCCGGCAATGCCCGTGCGCCGTTCCCGT	
+    380282	    26	 100.0	     0	..........................	|                                                                                                                                                                                                                                           	
+==========	======	======	======	==========================	============================================================================================================================================================================================================================================	==================
+         4	    26	 100.0	   109	CCGTCATTCCCGCGCAGGCGGGAATC	                                                                                                                                                                                                                                            	       
+
+# Left flank :   CATTTTAGGCGTATTGGAAAATATGTCCGTCCACATCTGCACCAACTGCGGACACAGCGAAGCCCTGTTCGGCACGGACGGCGGCAAAGATTTAGCCGCACGCCTCAACGTCCCCCTGCTCGGACAGCTTCCCCTAAGCCTGCCCGTGCGCGAAGCCATGGACGGCGGCACACCGGCGCAACTGTTCGACGAACACCCCGCCATCGCCCGAATCTACACCGATGCCGCATTCCAAATCGCCCTGGGCATTGCCGACAAAGGCAAAGACTTCAGCAGCCGGTTCCCTAAAATCGTCGTCGAATAAAGCCGCGTCCGAAACCGCAACAGCAATGCCGTCCCAAGCCCCGCGCCTGCCGGCGGGCAAACTTGCCGGATAAAACGGTTTTTTTGAGATTTTACGTTCCGGATTCCCACTTTCGTGGGAATGACGGAATGTAGGTTCGTGGGAATGACGGGATTTGAGATTGCGGCATTTATCGGAAAAAACAGAAACCGCTCCG
+# Right flank :  CAGACCTGTCGGAACGGAAACTTATCGGATAAACGGTTTCTCTAGATTCCGCATCCTAGATTCCCGCCTGCGCGGGAATGACGGTTCGGGTATTTTTATAAGGCAGATTCGCAAGGTGCGCCATAGAGTGGGCTAAAGCCCGCCCTACAGCCCGCCCTGCGAAACCCACGAAACACCCTGCGAAACATATGTTCCAACACGCAGGGCGGCACATAAGGCGCCGCCCTGATTCGGAAGGGCTTGCACCCCTCCCGGACAAAGCCTGATCCTGCCGCCCCGAAGGACGGATGCCCGAAGGGCGGGGGGTTTGACCGAAAAGGAAATACGATGAATAAAACTTTAAAAAGGCGGGTTTTCCGCCATACCGCGCTTTATGCCGCCATCTTGATGTTTTCCCATACCGGCGGGGGGGGGGGGGCGATGGCGCAAACCTATAACTACGCTATTGTCATGAACGAACGAAATCAGCTGGATGTAAGGAGGGATGGGCAATATCAAAA
+
+# Questionable array : YES	 Score: 0.66
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:0.26, 7:-3, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGTCATTCCCGCGCAGGCGGGAATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.00,-6.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-51.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [57,197] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002214566 [401433-401759]; 
+# Array family : NA
+# Sequence source strain : 053442
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 053442
+//
+
+
+Array 2 400740-401369 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010120-Neisseria meningitidis 053442, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    400740	    36	  94.4	    30	........G...A.......................	GCGGAACGGGTTGACAGACTGAATTTGAGT	
+    400806	    36	  97.2	    30	............A.......................	CGACAACAAAGCCGTCTATGACCTGACCGA	
+    400872	    36	 100.0	    30	....................................	TTGGGAGGTGGAAAACCGAATCCTGCACGA	
+    400938	    36	 100.0	    30	....................................	ATGCGCGTAAACACTTTACGCAAGGCGTTG	
+    401004	    36	 100.0	    30	....................................	CTTCTGCCTTTTTACAAGCTCGCTTTCTTT	
+    401070	    36	 100.0	    30	....................................	GCCACGCACCTACACGGGGTGGTTTGTTAA	
+    401136	    36	 100.0	    30	....................................	TCGCACACGCAATGGAGCTTATCGTTTACT	
+    401202	    36	  97.2	    30	..................C.................	TTCATTCCGATTGCCTTGCGTTCAAGGTGT	
+    401268	    36	  97.2	    30	..................C.................	TGCAATCTGATTTTCCGCCGTCTATACATC	
+    401334	    36	  97.2	     0	..................C.................	|                             	
+==========	======	======	======	====================================	==============================	==================
+        10	    36	  98.3	    30	GTTGTAGCTCCCTTTCTCATTTCGCAGTGCTACAAT	                              	       
+
+# Left flank :   GGAAACGGTCGATGTGTTTGGCAATCATGGCTTGTGCGGTTTGCCGGAAGAAGGTGCTCATGGAAAATCCCCTAAATGGCTTGGTGGGAATTTAGGGGATTTTGGGGAATTTTGCAAAGGTCTCATTTTGCAAGATTTTAGTTTAATCATCAAACAGGGAACAGCAAAAATCCCCGCTGCAACGGGGATTTTTGTTCGGCTCTCGCCTGTGTGATTAACTTCACTAGGAGAAGCTAAAATGCTTAAATTCCTTATGCGTGGGAAAAAGTTGCTGCTGTCCGTTGAAGTGAACCACAAGTTCATTTTAGCGGTTGCTTTGCTGTTAAGTCAATGCAGTAGCTAACCCGACCACAATCAAAAAAACGCAAGTTTTCCGCCTACTCTGTGAGTGGGCGGTTTTTTCTTATTTCAAATCTGTGACACAATATCTGTCGCCTTTCTTGCCATAATTGCACTGTGTCTCAATGACTTTAACGCACGTTCGCTTATCGCAACGGCTG
+# Right flank :  TACTTCGACGGGAAATCCTTATTTCATAAGGGTTTCCCGTTTTATTTGTTATGAAAAAATGGGCTTAAAATAACAATAATTGGTCTGAATTGACCTTTTTTTCTTGGGTTTTCAGCTCGCCCAACAGCAGTTTCATGGCGGCATATTGCTTTTCTGTTATCTCCAAACAGCGGATTGAGCCTTCTTGCGGAAGGTTTGCACATAGTCTATTGTGGTGTTTTTGCAACGAATCGCGGCCTTTGACGATACGGCTGTATACGGAAAGTTGCAGCATTTGGTATCCGTCTTTTAATAAAAACTGGCGGAATTGATTGGCGGCTTTGCGCTTTGCCGCCGTGATAACCGGTAGGTCGAAGAAGACGATAATCCTCATAAATTTGGCCTCACTCATATTGGTATGCTTTCAATGGTAGGATTTCAGGCAGTTTCAGTTGTTTGGCGTTTTTATCAGTTACGCCGGCTTGAAATGACGAAACCATTTTGTCGATGGCAGCCAAGGT
+
+# Questionable array : NO	 Score: 8.13
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.91, 5:0, 6:1, 7:0.30, 8:1, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTAGCTCCCTTTCTCATTTCGCAGTGCTACAAT
+# Alternate repeat :   GTTGTAGCTCCCTTTCTCCTTTCGCAGTGCTACAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         F [matched GTTGTAGCTCCCTTTCTCATTTCGCAGTGCTACAAT with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.40,-0.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [288,64] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.68,0.68   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002214566 [401433-401759]; 
+# Array family : NA
+# Sequence source strain : 053442
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 053442
+//
+
+
+Array 3 1548647-1548854 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_010120-Neisseria meningitidis 053442, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                             	Spacer_Sequence                                     	Insertion/Deletion
+==========	======	======	======	============================================	====================================================	==================
+   1548647	    44	 100.0	    24	............................................	AAAAGACCCGTCATTCCCGCGCAG                            	
+   1548715	    44	 100.0	    52	............................................	CTGAAAATTTAGAGGTTCTAGATTCCCGCTTTCGCGGGAATGACGAAAAGTT	
+   1548811	    44	  77.3	     0	.............A.G.C..GC.A..............A.CCC.	|                                                   	
+==========	======	======	======	============================================	====================================================	==================
+         3	    44	  92.4	    38	GCGGGAATCCAGACCTTGGGATAGCGGCAATATTCAAAGGTTAT	                                                    	       
+
+# Left flank :   CAACCGCTCAAGCTACGTCGATTTGCTCGAAGGCAACAAAATCGACATCGTCGTCTCCCCCCACCTCATCACCATCGGCTCGATACTCGCCCACATCCGGCGCGGCGACATCGTTGCCGTCCACCCCATCCGGCGCGGCACGGCGGAAGCCATCGAAGTCGTCGCACACGGCGACAAAAAAACTTCCGCCATCATCGGCAGGCGCATCAGCGGCATCAAATGGCCCGAAGGCTGCCACATTGCCGCCGTCGTCCGCGCCGGAACCGGCGAAACCATTATGGGACACCATACCGAAACCGTCATCCAAGACGGCGATCACATCATCTTTTTCGTCTCGCGCCGGCGCATCCTGAACGAACTGGAAAAACTCATCCAAGTCAAAATGGGCTTTTTCGGATAAACCGCCCCATTCCGGACACATTGCCGCCAAGCGGTATGGAAGCGGAATAATGGTAGGTGGGCTTCAGACGGCATCCGCCCTCCCCGTCATTCCCGCGTAA
+# Right flank :  TTGGATTCGGATTTCAAGTGCAACACTAGTGTATTAGTGGTTGGAACAGATTCAAGAATAAAACACTTGGCGTTTCGTAGCCAAGTGTTTTTCTTGGCCGGTGGTTCAACTCATCTTGAACCCTGCGTATCTCCCGATCACTGATGTTACGGAAATCGGTTTGTTTGGGGAAGTATTGCCGGATGAGTCCGTTGGTGTTCTCATTCAGCCCTTTCTCCCAAGAATGGTAAGGGCGACAAAAATAAGTCTCCGCTTTCAATGCTTTGGTTATTTTGGTGTGTTGGTAGAACTCTTTGCCGTTATCCATGGTGATGGTGTGCACCCTGTCTTTATGTGCCTTTAATGCCCTAACAGCTGCCCGGGCAGTGTCTTCGGCTTTGAGGCTATCCAATTTGCAGATGATGGTGTAGCGGGTAACGCGTTCGACCAAGGTCAATAATGCGCTTTTCTGTCCTTTGCCGACAATGGTGTCGGCTTCCCAATCGCCGATATGGGATTTC
+
+# Questionable array : NO	 Score: 2.16
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.62, 5:0, 6:0.25, 7:-0.80, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCGGGAATCCAGACCTTGGGATAGCGGCAATATTCAAAGGTTAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.27%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.20,-2.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [40.0-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [102,25] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_002214566 [401433-401759]; 
+# Array family : NA
+# Sequence source strain : 053442
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 053442
+//
+
+

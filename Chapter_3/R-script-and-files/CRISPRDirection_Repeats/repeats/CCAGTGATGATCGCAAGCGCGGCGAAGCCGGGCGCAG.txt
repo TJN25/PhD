@@ -1,0 +1,256 @@
+Array 1 484391-483913 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KK353529-Mycobacterium tuberculosis KT-0019 adrQb-supercont1.2, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	====================================	========================================	==================
+    484390	    36	 100.0	    35	....................................	CTGACGGCACGGAGCTTTCCGGCTTCTATCAGGTA     	
+    484319	    36	 100.0	    36	....................................	CCTCATGGTGGGACATGGACGAGCGCGACTATCGGG    	
+    484247	    36	  97.2	    37	......G.............................	TGGACGCAGAATCGCACCGGGTGCGGGAGGTGCAGCA   	
+    484174	    36	 100.0	    40	....................................	GCATATCGCCCGCCACACCACAGCCACGCTACTGCTCCAT	
+    484098	    36	  97.2	    40	...C................................	ACACCGCCGATGACAGCTATGTCCGAGTGACATCCTCCCA	
+    484022	    36	  97.2	    38	..................A.................	TTGAACCGCCCTTCGCGCGGTGTTTCGGCCGTGCCCGA  	
+    483948	    36	 100.0	     0	....................................	|                                       	
+==========	======	======	======	====================================	========================================	==================
+         7	    36	  98.8	    38	GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC	                                        	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTGCCCT
+# Right flank :  TACGACGACTGGGTCGCCACCGCGTCTGTTGACCGGCATTCAGGATGAGCATGATGGCGGCGTTGACGGTGAGGACGTTTGGTCATGAAATGACCCCGCCGGGAGATGTCCGGCGGGGTCGGTGGTGTTCGGGGTGTCGGTGTGGTGTTCAGTCTGCCGTGACTTCGGCGATGGCGGTGCGGGTGGTGGATTCGTCGACGATGGCCTTGTCGGCGGCGAAGGCGGCGACGAGGGCTTGCAGGGCGAGGTTGTTGACCGCGCGGGGGTAGCCCCGGCTGGTCTGGTGGATCAACCCGATGGCGTCGTCGGAGAACAGGGCATCGTCGCGTCCGGCTAGCTTGAGGTGGTGGCGTAGGTAGCTGCCGGTGTTGGTGTCGGTCATGGGCGGCATGGCATATCGGAGTCCGATGCGCTGGTCAAGCGCGGCGAGCACGCCGAGTTTCATCCGCCGCCGCAGGGTGGGTTGGCCGATGAGCAGGCAGGCGAACGGGCTTGACGAG
+
+# Questionable array : NO	 Score: 7.62
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.68, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,12] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.40,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [38.3-3.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [150,656] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.92   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endoribonuclease Cas6:WP_003899496 [489169-490113]; 
+# Array family : NA
+# Sequence source strain : KT-0019
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis KT-0019
+//
+
+
+Array 2 598145-598440 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KK353529-Mycobacterium tuberculosis KT-0019 adrQb-supercont1.2, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	=====================================	==========================================	==================
+    598145	    37	 100.0	    18	.....................................	CGGGTCATCACCATCGAA                        	
+    598200	    37	 100.0	    27	.....................................	TCCCCCCATCCAGTGATGATCGCAAGC               	
+    598240	    37	 100.0	    42	.....................................	GCGCAGTCCCCCGCAAGCGGGAGGTGCCCCCAGGTCATCACC	
+    598325	    37	 100.0	    42	.....................................	TCCCCCGCAAGCGGGAGGTGCCCCCAGGTCATCACCATCGAA	
+    598404	    37	 100.0	     0	.....................................	|                                         	
+==========	======	======	======	=====================================	==========================================	==================
+         5	    37	 100.0	    32	CCAGTGATGATCGCAAGCGCGGCGAAGCCGGGCGCAG	                                          	       
+
+# Left flank :   GAATGCTTGCGCCGCAACACTTTAACTACAGCGTCACAATCGAACCGCGGGTCAAGCGGGTCGCGCGCCAGGTGGGCGACCGGCACCGGTACCACGCTGCCGTCCACCGTCACCAGGTCGGCAAGCAGCCACCCTCCGAAGGTCCGTTGGTCAGCGAAGCTCAGCACGGTCCCGTCGTCGAGCAGCGCGGAAATCCGGACGTGAGCGGCACACGGCACCGCCCCGAGCAGCATCTGCCCACTCATGCCCAGGTGCACCACGAGTGCGGTGTCCGTCGGCCTATGGACCCCAGCCGTATTGAGTGTCAACCACAGGTACTTGCCGCGCCGATCGGTTCCGTTGATCCGCGCTCCCCGCAGCCGCGCCGTCAGATCCGCGGGCCCGGCATCGTGGCGGCGCACAGCGCGGGGGTGGTGCACCCGAACCTCGGTGATGGTCCGGCCGGTCACGTGAGCCTGCAAGCCGCGCCGCACCACCTCGACTTCGGGCAGCTCGGGCAT
+# Right flank :  GTCCCCCGCAAGCGCGGCAAAGCCGGCGCCCCCAGGTCATCACCATCAATCCAGTTAGGCGGAGGTTTTGCCCGGCATGGCGTTGTCGAGCACTTCCAGGGCTTTCCAAGCGGCCGCCGCGGCTTTTTGCTCGGCTTCTTTTTTGGACCGGCCCACTCCTGAACCGTATTCGCTGTCCATCACGACAACCACCGCGGTGAATTCCTTATCGTGGTCCGGGCCGGTGGAGGTGACCAGGTATGACGGCGCACCCAGCCCTCGCGCTGCAGTCAGCTCCTGCAAGCTGGTCTTCCAATCCAATCCCGCACCCAGGGTCGGCGCGGCGTCCAGCAACGGGCCAAACAGCCGCAGGATCACCTCACGGGCCTTCTCCATACCGTGTTGCAGGTAGATCGCGCCCAGCAGCGATTCCATACCGTCGGCCAGAATGCTGGACTTGTCGGCCCCGCCGGTGTTCGCCTCGCCGCGACCCAATAGCACGTGAACACCGAGGCCTTCCG
+
+# Questionable array : NO	 Score: 3.31
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:-0.29, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCAGTGATGATCGCAAGCGCGGCGAAGCCGGGCGCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.10,-4.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [28.3-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [2,54] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endoribonuclease Cas6:WP_003899496 [489169-490113]; 
+# Array family : NA
+# Sequence source strain : KT-0019
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis KT-0019
+//
+
+
+Array 3 1106076-1101180 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KK353529-Mycobacterium tuberculosis KT-0019 adrQb-supercont1.2, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                                                                                                                                                                                                                                           	Insertion/Deletion
+==========	======	======	======	=========================	==========================================================================================================================================================================================================================================================	==================
+   1106075	    25	  72.0	     2	...T.C.G.T.....T.TG......	AA                                                                                                                                                                                                                                                        	Deletion [1106049]
+   1106048	    25	  84.0	    35	.........G.....TG.......T	GGTGGCGGCGCCGGCGGCACCGCGGTCGCCGGCAC                                                                                                                                                                                                                       	
+   1105988	    25	  80.0	    11	..C......G.C...GG........	GCCGGCGGTGA                                                                                                                                                                                                                                               	Deletion [1105953]
+   1105952	    25	  76.0	    80	.........G.C...TG.T.....A	GCCGGTGCCGCCGGTGATGTGACCTTGGCCGTCAACCAGGGTGCCGGCGGTGACGGCGGCAACGGCGGTGAAGTGGGCGT                                                                                                                                                                          	
+   1105847	    25	  72.0	    68	T........G..T..GGC......T	GTTAGCGCGAACCCGGCCCTGAACGGTTCGGCCGGGGCGAACGGCACCGCGCCCACCAGCGGCGGCAA                                                                                                                                                                                      	
+   1105754	    25	  76.0	    23	...T........A..TGC.....C.	ACCCCCACCGTCGCGGGAGAAAA                                                                                                                                                                                                                                   	
+   1105706	    25	  84.0	    38	.......GC...T..T.........	CATGGCGGGTCGGTCGGTAACGGCGGTGCGGGTGGTGC                                                                                                                                                                                                                    	
+   1105643	    25	  72.0	    14	......A..T....T.GC....AC.	GGCCTTGCCCTCAA                                                                                                                                                                                                                                            	Deletion [1105605]
+   1105604	    25	 100.0	     2	.........................	AT                                                                                                                                                                                                                                                        	Deletion [1105578]
+   1105577	    24	  92.0	    15	...............-.T.......	CGGCACGGGCGGGGA                                                                                                                                                                                                                                           	Deletion [1105539]
+   1105538	    25	  92.0	    47	.........G...........G...	GCCGGAGCCAACGGCCAAGACTTCTCCGCGTCCGCCAATGGCGCGAA                                                                                                                                                                                                           	
+   1105466	    25	  84.0	     2	T.....AC.G...............	AA                                                                                                                                                                                                                                                        	Deletion [1105440]
+   1105439	    25	  84.0	    32	........T.........G..T..T	GACGCCTTCGCCACGTTCGCTAAGGCCGGCAA                                                                                                                                                                                                                          	
+   1105382	    25	  88.0	     2	......TGC................	GC                                                                                                                                                                                                                                                        	Deletion [1105356]
+   1105355	    25	  76.0	    44	..C...T..T......GG.....C.	GCCGGTGACGTGACCTTGGCCATCAACCAGGGCGCCGGCGGTGC                                                                                                                                                                                                              	
+   1105286	    25	  88.0	    95	..................T.TG...	GTTGCCGGCCAGGGTGGGGCCGGCGGCAAGGGCGCCATTCCAGCCATGAAGGGTGCGACCGGCGCCGATGGCACCGCACCCACCAGCGGCGGTGA                                                                                                                                                           	
+   1105166	    25	  96.0	    14	.......................C.	AGCCCCACCGTCGC                                                                                                                                                                                                                                            	Deletion [1105128]
+   1105127	    25	  88.0	    11	G..............TG........	AAGGGCGGCAG                                                                                                                                                                                                                                               	Deletion [1105092]
+   1105091	    25	  84.0	    95	......G..T.T......T......	AATGGCGGGGCCGGCGGCAACGGCGCGGCCGGCCAAGCCGGTACGCCGGGCCCTACCAGCGGTGATTCCGGCACCTCGGGCACCGACGGTGGGGC                                                                                                                                                           	
+   1104971	    25	  80.0	    13	T..............GGCG......	GCCGGCGGAACAC                                                                                                                                                                                                                                             	Deletion [1104934]
+   1104933	    25	  84.0	    11	T......C.............T..T	AAGGGTGGTAA                                                                                                                                                                                                                                               	C [1104930] Deletion [1104898]
+   1104896	    25	  84.0	    59	.......C.G..T....T.......	GCCGGCGAGAGAGGCGCCGACGGCGCCGGCCCCAATGCTAACGGCGCAAACGGCGAGAA                                                                                                                                                                                               	
+   1104812	    25	  80.0	     2	......T.G...T..T.....T...	GA                                                                                                                                                                                                                                                        	Deletion [1104786]
+   1104785	    25	  88.0	    50	.......GC.........T......	GCGGGCGGCAAGGCGCAGGCGGCCGGGTACACCGACGGCGCCACGGGCAC                                                                                                                                                                                                        	
+   1104710	    25	  96.0	     2	.......G.................	GA                                                                                                                                                                                                                                                        	Deletion [1104684]
+   1104683	    25	  76.0	     1	T........A.C...TG.......G	C                                                                                                                                                                                                                                                         	Deletion [1104658]
+   1104656	    25	  72.0	    32	.....AA......CTA...A....G	GCCATGCTGCCGGGCGGCGGCACCGTAGGAAA                                                                                                                                                                                                                          	
+   1104599	    25	  84.0	     2	.CC...T.C................	AA                                                                                                                                                                                                                                                        	Deletion [1104573]
+   1104572	    25	  88.0	     2	...........C....GT.......	AC                                                                                                                                                                                                                                                        	Deletion [1104546]
+   1104545	    25	  76.0	    38	...A.....G.C.....C....TC.	TTGACGGGCTTGGACGGCACCGACGGCATCACCCCCAA                                                                                                                                                                                                                    	
+   1104482	    25	  92.0	     2	......T...........T......	AA                                                                                                                                                                                                                                                        	Deletion [1104456]
+   1104455	    25	  88.0	    17	.........G.......C..C....	AACGGGAGCGGCGCGGC                                                                                                                                                                                                                                         	Deletion [1104414]
+   1104413	    25	 100.0	    20	.........................	TCCGGCCTCAACGGCGGTGA                                                                                                                                                                                                                                      	Deletion [1104369]
+   1104368	    25	  92.0	    32	..C.....................T	GGGGCGCTGAACCAGGCCGGCTTCTTCGGCAC                                                                                                                                                                                                                          	
+   1104311	    25	  88.0	    11	G........A.....T.........	AATGGCGGTGC                                                                                                                                                                                                                                               	Deletion [1104276]
+   1104275	    25	  84.0	     2	....AT..........CT.......	TT                                                                                                                                                                                                                                                        	TAG [1104267] Deletion [1104249]
+   1104245	    25	  76.0	    29	.......GC......TGG.....C.	GTTGACGTCGCCGCGACAACGGGCGGCGC                                                                                                                                                                                                                             	
+   1104191	    25	  80.0	    26	T........T.....TGC.......	TTCGCTAGCACCGGGTTGGGTGGCCC                                                                                                                                                                                                                                	
+   1104140	    25	  76.0	    32	A......GC......TCC.......	GCGGGCGACTTTGCTAGCGGTGTTGGCGGTGT                                                                                                                                                                                                                          	
+   1104083	    25	  80.0	    20	.......GC......GG.......T	GCCGGCGGGGTCGGCGGCTT                                                                                                                                                                                                                                      	Deletion [1104039]
+   1104038	    25	  84.0	    11	.......C.G.......T......G	GAAGGGCGCAC                                                                                                                                                                                                                                               	Deletion [1104003]
+   1104002	    25	  88.0	    32	A..............T.G.......	GACGGCGGTGGCGGCATTTCCTTAGGCGGCAA                                                                                                                                                                                                                          	
+   1103945	    25	  92.0	    26	.......CT................	GTCTCCGAGACTGGGTTTGGCGGCGC                                                                                                                                                                                                                                	
+   1103894	    25	  92.0	    38	................T.......T	CCGGGAGGCCCCGAAGGCAATGGCGGCCTCGGCGGCAA                                                                                                                                                                                                                    	
+   1103831	    25	  92.0	    29	.......GC................	GTCAGCACCACGGGCGGCGACGGCGGCGC                                                                                                                                                                                                                             	
+   1103777	    25	  96.0	    38	.........G...............	GACGGCGGGAACGTCGGTTTGGGCGGTGACGCCGGCTC                                                                                                                                                                                                                    	
+   1103714	    25	  80.0	    32	.......GCG........T.....T	ATCGGCACCGACGCGGGCGGTGCCGGAGGGGC                                                                                                                                                                                                                          	
+   1103657	    25	  76.0	    35	...T...GCT.....T........T	AGCAGCAAAAGCACGACCACCGGCAACGCCGGCTC                                                                                                                                                                                                                       	
+   1103597	    25	  72.0	    26	...T..TGC......T..T..G...	ACTGGCCTCAACGGCGCGGGCGGTGC                                                                                                                                                                                                                                	
+   1103546	    24	  76.0	    39	T.....GGC...........-...G	TGTCGCCGGCGTGTCCTTCGGCAACGCTGTGGGCGGCGA                                                                                                                                                                                                                   	
+   1103483	    25	 100.0	    29	.........................	CACGGCGGCGACGGCACGACGGGCGGCGC                                                                                                                                                                                                                             	
+   1103429	    25	  92.0	    56	.........G............A..	AGCGGTGCCGCCAGCGGCTCAGGCGTCGTCAACGTCACCGCCGGCCACGGCGGCAA                                                                                                                                                                                                  	
+   1103348	    25	  96.0	    44	.........T...............	AACGGCTCCGCGGGCGCCGGCGGCCAGGGCGGTGCCGGCGGCAG                                                                                                                                                                                                              	
+   1103279	    25	  92.0	    17	..C.............C........	GGTGCCACCGGCGGCGA                                                                                                                                                                                                                                         	Deletion [1103238]
+   1103237	    25	 100.0	    44	.........................	AACTCCGGCAACAGCACCGGCGTCGCGGGCTTGGCCGGTGGTGC                                                                                                                                                                                                              	
+   1103168	    25	  88.0	    32	..C....GC................	GGCACTTCCAGCGCCGCCGGCCACGGCGGCAG                                                                                                                                                                                                                          	
+   1103111	    25	  96.0	    38	.................G.......	AGCGGTGGCAGCGGTGGCAGCGGCACCACGGGCGGCGC                                                                                                                                                                                                                    	
+   1103048	    25	  84.0	    38	.....CGGC................	GCCGGTGCTGGCGGGGGCAGCCTGAGCACAGGCCAGTC                                                                                                                                                                                                                    	
+   1102985	    25	  84.0	     2	.......C.........G...T..T	CC                                                                                                                                                                                                                                                        	Deletion [1102959]
+   1102957	    24	  72.0	     0	...T............GCT...TC-	-                                                                                                                                                                                                                                                         	Deletion [1102934]
+   1102933	    24	  80.0	    11	-...............GC...T..T	GCCGGTGGCAA                                                                                                                                                                                                                                               	Deletion [1102933]
+   1102898	    25	  84.0	    26	......TGC............T...	GGTGGCGATGCCGGCAACGCCGGCTC                                                                                                                                                                                                                                	
+   1102847	    25	  88.0	    23	A........T........G......	GACGGTGTCGGCCCTGGCTCCAC                                                                                                                                                                                                                                   	
+   1102799	    25	  84.0	    47	.......GCG........G......	GCTGGCGCCAACGGCGGTTCCAGCAACGGCAACGCTCGCGGTGGCAA                                                                                                                                                                                                           	
+   1102727	    25	  88.0	     2	..C...T.........C........	GC                                                                                                                                                                                                                                                        	Deletion [1102701]
+   1102700	    25	  84.0	     2	........G.....A..CG......	GC                                                                                                                                                                                                                                                        	Deletion [1102674]
+   1102673	    25	  68.0	     2	.......GCA..T...C.G..T..G	TT                                                                                                                                                                                                                                                        	Deletion [1102647]
+   1102646	    25	  80.0	    17	...T....C...G....G....A..	GGCATTGGCGGCGGCGC                                                                                                                                                                                                                                         	Deletion [1102605]
+   1102604	    25	 100.0	    23	.........................	GCCGGCGGCACCGGCGTCGTGCT                                                                                                                                                                                                                                   	
+   1102556	    25	  84.0	    29	T........G......G....G...	AACGGTGACCACGGTGGGCCTGCCACCAA                                                                                                                                                                                                                             	
+   1102502	    25	  72.0	     2	.CCG....G....A..CG.......	GC                                                                                                                                                                                                                                                        	Deletion [1102476]
+   1102475	    25	  88.0	    23	.......TC............T...	GCCGGGGGTAACGCCACCGGCTC                                                                                                                                                                                                                                   	
+   1102427	    25	  80.0	    65	A........G......GC...T...	AATGGCGGTGATGGGAGCTTCGGCGCTACCAGCGGCCCCGCCTCCATCGGGGTCACGGGCGCCCC                                                                                                                                                                                         	
+   1102337	    25	  96.0	    35	..................G......	GCCGGTGGCAGCAACCCCAACGGCTCAGGTGGCGA                                                                                                                                                                                                                       	
+   1102277	    25	  92.0	    11	.........G..............T	GCCGGCGGCAA                                                                                                                                                                                                                                               	Deletion [1102242]
+   1102241	    25	  84.0	    32	...G....T.....C....A.....	ATCGTCGGCGGTTCCGGTGGGGCCGGTGGCGC                                                                                                                                                                                                                          	GCT [1102232]
+   1102181	    25	  80.0	    14	T......GC......A......A..	CTTAGCTCCGGCGA                                                                                                                                                                                                                                            	Deletion [1102143]
+   1102142	    25	  84.0	     8	G........G......G....T...	CACGGCGG                                                                                                                                                                                                                                                  	Deletion [1102110]
+   1102109	    25	  72.0	    26	T.A....GT..........A..TC.	GTCACCCAAGGCGGCAGCGGCGGTGG                                                                                                                                                                                                                                	
+   1102058	    25	  84.0	    11	.......GC.......GC.......	AGCGGCTTTTT                                                                                                                                                                                                                                               	Deletion [1102023]
+   1102022	    25	  88.0	     2	.........G......TT.......	GA                                                                                                                                                                                                                                                        	Deletion [1101996]
+   1101995	    25	  88.0	    26	......TC.G...............	GGTACCGTCGGCACCGTGGCCGGTGG                                                                                                                                                                                                                                	CCC [1101977]
+   1101941	    25	  88.0	    47	...............TGT.......	CGGGGCGGCGACGGCGTCTTTGCCGGTGCCGGCGGCCAGGGCGGCCT                                                                                                                                                                                                           	
+   1101869	    25	  80.0	     8	...T..GC.G........T......	GGCTCCAC                                                                                                                                                                                                                                                  	Deletion [1101837]
+   1101836	    25	  88.0	    38	................CTT......	GCGGGCGGTGGCGGAGGCAACGCCCCGGACGGCGGCTT                                                                                                                                                                                                                    	
+   1101773	    25	  84.0	    39	...T...........T..G..T...	GGGCGGCATTGGCGGCGGCACTCAGAGCGCGACCGGCCT                                                                                                                                                                                                                   	
+   1101707	    25	  80.0	     2	......TG.......TG.......T	GA                                                                                                                                                                                                                                                        	Deletion [1101681]
+   1101680	    25	  96.0	     8	...................A.....	GCCAAGGC                                                                                                                                                                                                                                                  	Deletion [1101648]
+   1101647	    25	  88.0	    33	.......GC.........A......	CGGCCAGCCCAACTCAGGCACGGAGCCAGGGTT                                                                                                                                                                                                                         	A,G [1101624,1101626]
+   1101587	    25	  88.0	   250	.......G........CT.......	GCCGGCGCAACACCCTGATCACCGGTTGACAGCGATGTTGGGAACGCACGGGAAAGGGCTGGCGGCATGAGTTTTGTCGTAATGCCGCCAGAGATCAACTCCCTGCTGATATATACCGGGGCGGGTCCGGGCCCCCTGTTGGCGGCGGCCGCGGCCTGGGATGAGCTGGCCGCCGAGCTGGGCTCGGCGGCGGCGGCTTTCGGGTCGGTGACCTCGGGGCTGGTCGGTGGTATCTGGCAGGGGCCGTCCT	
+   1101312	    25	  72.0	    26	...TC..G.T......GG....C..	CCCGTATGCGGGGTGGTTGAGCGCGG                                                                                                                                                                                                                                	
+   1101261	    25	  72.0	    32	.......CT.C..C.AGT.......	CGGGCAGGCCCGGGCGGTGGTGGGTGTGTTCG                                                                                                                                                                                                                          	
+   1101204	    25	  68.0	     0	A......GTT...C..G....T..A	|                                                                                                                                                                                                                                                         	
+==========	======	======	======	=========================	==========================================================================================================================================================================================================================================================	==================
+        93	    25	  84.5	    28	CGGCGGCAACGGCGGCAACGGCGGC	                                                                                                                                                                                                                                                          	       
+
+# Left flank :   GGCGGCGACGGTGGTAAGGGCGGCGCTGGCGATCCGAGTTTCGCCGTCAACAACGGTGCCGGCGGTAACGGCGGTCACGGCGGCAACCCCGGCGTGGGCGGGGCCGGTGGGGCCGGCGGCCTGCTGGCGGGTGCGCACGGTGCCGCCGGCGCCACCCCCACCAGCGGCGGCAACGGCGGCGATGGCGGCATCGGCGCCACCGCCAACTCACCCCTACAAGCCGGCGGGGCCGGCGGTAATGGCGGTCATGGCGGGTTGGTCGGCAACGGCGGCACCGGCGGCGCCGGCGGTGCCGGTCATGCGGGTTCCACCGGCGCTACCGGTACCGCCTTACAACCGACGGGCGGTAACGGCACCAATGGCGGCGCCGGGGGCCACGGCGGTAATGGCGGAAATGGCGGCGCCCAGCACGGCGACGGCGGCGTCGGCGGCAAGGGCGGTGCCGGCGGTAGCGGCGGCGCCGGCGGAAACGGATTCGACGCCGCCACCTTGGGTTCGCC
+# Right flank :  CCCCTTCGTCATCGCGGCCAATCGGTCGAGGTTAGTGTCGCTGGCGTTATCGAATCTGTTCGGCCAGAACACGCCGGCGATCGCGGCCGCGGAGTTCGACTACGAGCTGATGTGGGCCCAGGACGTGGCCGCGATGCTGGGGTACCACACCGGCGCCTCGGCGGCGGCCGAGGCGTTGGCGCCGTTTGGCTCGCCGCTGGCAAGCCTGGCGGCCGCCGCCGAGCCGGCCAAGTCGCTCGCCGTCAATCTGGGTTTGGCCAACGTTGGCCTCTTCAACGCGGGAAGCGGCAACGTCGGCAGCTACAACGTGGGGGCCGGCAACGTCGGGAGCTACAACGTGGGTGGCGGCAATATCGGTGGCAACAATGTCGGGTTGGGCAATGTCGGGTGGGGCAACTTTGGGCTCGGGAATTCGGGGTTAACGCCGGGTCTGATGGGTTTGGGTAATATCGGGTTTGGTAATGCCGGCAGCTACAATTTCGGTTTGGCGAATATGGGTG
+
+# Questionable array : YES	 Score: 0.52
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.25, 5:0, 6:0.34, 7:-1.14, 8:1, 9:0.07,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGGCAACGGCGGCAACGGCGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [143-134] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [43.3-23.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [5537,2196] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.45,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  Endoribonuclease Cas6:WP_003899496 [489169-490113]; 
+# Array family : NA
+# Sequence source strain : KT-0019
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis KT-0019
+//
+
+
+Array 4 1291132-1291856 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KK353529-Mycobacterium tuberculosis KT-0019 adrQb-supercont1.2, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                                                 	Insertion/Deletion
+==========	======	======	======	===============================	================================================================================	==================
+   1291132	    31	  83.9	     8	.A..A.G.......T.........G......	GATGGCTA                                                                        	G [1291141] Deletion [1291171]
+   1291172	    30	  83.9	    80	TT.....G................-C.....	CGGCGGGCCAGTCCGGCGGTAACGGCGGGTCAGCCGGACTGTGGGGTAACGGCGGCGCGGGTGGCGCCGGCGGCAGCGGC	C [1291192]
+   1291283	    31	  90.3	    62	....C.G................T.......	GGTGGCTGTTCGGCGCCGGCGGCACCGGCGGTATCGGCGGCACCGGTGCTCCCGGCGCCATG                  	
+   1291376	    31	 100.0	    65	...............................	CGCTGCTGATCGGCGGCGGCGGCCTCGGCGGCGCCGGCGGCATGGGTGGCACCGGCGGCGGCACC               	
+   1291472	    31	 100.0	    35	...............................	CGCTGCTGATCGGCGCTGGTGGTGTCGGAGGTGCT                                             	
+   1291538	    31	  77.4	     5	.....G.T...T...C.G......GC.....	GTGCC                                                                           	TAC [1291558] Deletion [1291574]
+   1291577	    31	  87.1	    32	.C....G.........C...G..........	GCGCCGGGGGGTTGTTCATGAACGGCGGCGAC                                                	
+   1291640	    30	  87.1	    26	......G..........-......G....T.	CGGCCGGCGACGCGGCTGCCAGCGCC                                                      	T [1291654]
+   1291697	    31	  90.3	    53	.................A......C.A....	GCGACGGCGGCACCGGAGGGGCCGGCGGCGCAGGCCCAGTGCTGTTCGGCCAC                           	
+   1291781	    31	  83.9	    14	......G.........TG......C.A....	GCACCGGTGGAATG                                                                  	Deletion [1291826]
+   1291826	    31	  74.2	     0	......G.......AG.....AC..C..T.A	|                                                                               	
+==========	======	======	======	===============================	================================================================================	==================
+        11	    31	  87.1	    38	GGCGGCACCGGCGGCAACGGCGGCAACGGCG	                                                                                	       
+
+# Left flank :   GGTGGACCCGAATAATCGGGTAGAACCGCCGAATGAGCTGCCCGGATCGCGATACGATCCATTCCTAGCAATTGCACCGATGATGCACGGCCGCGGCCGGGTTCGGCTTGGGCTGGTGCGAGGTACCGGATGTCGTTTGTGTTGGTTTCGCCGGAGACCGTGGCGGCGGTGGCCACGGATCTCAAGCGCATCGGCGCCTCGCTGGCCCACGAAAACGCGTCGGCGGCCGCTTCGACGACGGCGGTGGTCTCCGCGGCCGCCGACGAGGTATCGACGGCGGTCGCCGCTCTGTTCTCCCAACACGCCCAGGGCTACCAAGCGGCGGCCGCTCAGGTAGCAGCGTTTCATAGCCGGTTTGTGCAAGCCCTGACGGCCGGTGCCGGGGCGTACGCATTTGCCGAGGCGGCCAACGCGTCGCCGCTACAGTCAGCCATGGGTGCGGTAAGCGCGTCTGCGCAGACGCTGTTGTCGCGCCCGTTGATCGGCAATGGCGCCAATGC
+# Right flank :  TCGCGGCCGGTACCGGGGGGGAGGGCGG
+
+# Questionable array : YES	 Score: 0.79
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.35, 5:0, 6:0.34, 7:-1.22, 8:1, 9:0.32,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCGGCACCGGCGGCAACGGCGGCAACGGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.40,-5.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [15-25] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [35.0-6.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [543,29] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.6,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endoribonuclease Cas6:WP_003899496 [489169-490113]; 
+# Array family : NA
+# Sequence source strain : KT-0019
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis KT-0019
+//
+
+

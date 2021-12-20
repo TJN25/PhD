@@ -1,0 +1,38 @@
+Array 1 49703-49902 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBCB01000005-Desulfovibrio brasiliensis JCM 12178, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence                                           	Insertion/Deletion
+==========	======	======	======	===================================	==========================================================	==================
+     49703	    35	 100.0	    58	...................................	GGAAGCCAAGAAGATCAGCGAGACCAAGAAGGAACGAAAGGTCGTCGTCAAGGAAAAG	
+     49796	    35	  91.4	    37	........A..A....................A..	GAAGCCCGAACCGAAACCAGAGCCGAAGCCCGAACCA                     	
+     49868	    35	  94.3	     0	.....A........A....................	|                                                         	
+==========	======	======	======	===================================	==========================================================	==================
+         3	    35	  95.2	    48	AAGCCCGAGCCGAAGCCGGAACCCAAACCGGAGCC	                                                          	       
+
+# Left flank :   CTCACGGTCAAGGCGGACGGGACCATCATGCTCGACAAGTATGAGGTCCCGGAAGGCGAGCTTGAAGACTTCCTGACCCGGCTGGTGGCCTCGCAGAACAAGCAACTCTTCCTGCGCGCGGACAAGGCCGTTGCCTACGGCGTGGTGGTGGATGTGATGGGCGAGATCAAGGCCGCAGGTATCGACAAGCTCGGCATTGTGGCTGAAGAGAAAAAGGACCGGAAGGAACGCTAGGCGTTCGGGACGTGTCACCTATCATGAAATTTTTCGGCCTCTTTCTATCCATCGTCTTCCATGCGGCGGTCATAGCTGCGGCGCTGTTCTGGACAACCGTCCCGGACCGGCCCGTGAACCTTGACCGTCCCGTGTATTCGGTGGACATCGTCAACCTTGCCCCTCCCGGGCCGCCACCGCCGCCCGGCCGTACTTCGTTGGCAAAGACAGACGCCACCCCGGCTCCCAAGCCTTCCAAGCCGGAAGCCAAGGCCGTTGAGGTGGAA
+# Right flank :  CCAAGCCTGAGCCGACTTCGGATGAACTGCTGGCTGACGCGCTTAGTGACGTCAAGCAGAATGTGAGCGCAGAGGAGCGCAAGGAGCAGCAGGAGCTGGCCAACGAACTGGCTTCGCTGCGCCAGCAGGAGGGCAAGGAAATCTATTCGCACGGCGGAAAGCCCGGCGGCGGAGGTGCCGTGGGCGGCACCGGCTCCGGGCTTGCGCAGGTCTATGCCATGATCGTGGCCTCGACCATCAAGCAGAATTGGCGCTACCCGGCCTTTGCGGGCGATGCGAACATGCTGGTGTCCGTCGAGATATCCATAGACGACGCGGGTATGATTACCGGATCGCGCGTGGTGGAGGCTTCAGGGAACGCGGAGTTCGACAGTTCCGCGCTGCGGGCGGTGCGTGAGACCGAGAAGGTCGAGCCGCCGCGTACCGAGCGCGACAGAACCATAGTCATCAATTTCAACAGCCAGGACCTCAACGAGTAGGGACGACATGAAACGATACGC
+
+# Questionable array : NO	 Score: 2.33
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.76, 5:0, 6:0.39, 7:-0.22, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAGCCCGAGCCGAAGCCGGAACCCAAACCGGAGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [11,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.90,-3.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [35.0-43.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [268,486] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JCM 12178
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;Desulfovibrionaceae; Desulfovibrio.; Desulfovibrio brasiliensis JCM 12178
+//
+
+

@@ -1,0 +1,118 @@
+Array 1 2150044-2150428 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019427-Anabaena sp. 90 chromosome chANA01, complete sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                        	Spacer_Sequence                                                                                                                                                             	Insertion/Deletion
+==========	======	======	======	=======================================	============================================================================================================================================================================	==================
+   2150044	    38	  79.5	   172	.........CT.TA......C..C.-......G......	TGCAGCAAGAATTAAATATTACATCTATAAATATTACTCAATTCGTCAAAACCTGAATACTCATATCCTCAACAACTTTAAGACGTTGAGCATTTCGTGATGAAGTGTAACTAATTTAGCCAGAAAATTGAAAATAGCCAAAAATAAATTTATATCTTTATGCCATTTACAG	T,C [2150074,2150081]
+   2150256	    39	  97.4	    28	...........................C...........	ACAACATTGAAGTATTTCTTATTTCCAA                                                                                                                                                	
+   2150323	    39	 100.0	    28	.......................................	GCAACATTCGAGTACATTTTATCTAGAT                                                                                                                                                	
+   2150390	    39	  97.4	     0	...........C...........................	|                                                                                                                                                                           	
+==========	======	======	======	=======================================	============================================================================================================================================================================	==================
+         4	    39	  93.6	    76	TTTTGTAAATCTCCCTTGTGACAGTATTTAAATAGTCAT	                                                                                                                                                                            	       
+
+# Left flank :   CCATACTTCTTGACTCGCAATCTTTGGTCTAACTACAAACCAAGTATTTTCACCATCTAAAATTATTTCATGGGTGTATTGAATGAATGTCCCTAAAGAGGAAGAGTGATAAAAATAAGCGGGTTTTGGGAATTGGTGACAATAATCTGCAAAAGCTTGTAAAATCTCATTTCTTAAAAAGTAACGTTTATGATCCTTGCCTAATTCTAAGATAAAGTCACCTAAAACATTTTTTTCATCACTGTTAACAATAGTTTGCACTAATTTATACATTGTACATTACCAAACTCTAGCTAAAGTTAGGATTATTGAGATACTATTTCAGGTTAATAGTAAATAAGTTACTCAATTATTTACTTCTAGCTAAAGGATGAACCCTTACCTCCTCTTATAGATAGAGAAGTATCTATTAGTTAGATGACAGGGAATAGATAAAATTTTAGCAATCACTAATTTCAACTCAATAACTACCAATTTGGCTTTGTTGCTATTAATTACCA
+# Right flank :  TTTAATACGCAATTTAGAACTGACATTTTCTGTACTATTTAGAGTAACAAATTGCCAATTTGGCGTACCAGACAGGGAAAACATAGTATTCTGCATATAATAGTGTCACAAGGAGTATTTACAAAACTGAAGCCAGGAAAAATTTCAATGTTGTATGACTATTTAAATAGTGTCATAATCCAAATATCTGTATTTCCTATTTTTTACCAAACAATCAAGTTGGACAGGAAATGCTAGGAATTTGCCTATATTTTTTACTAACACAAGGGTAATGTGGTTAGTAATTTTCCAGTCTTTACAATCAAAAATTTCAGAACTTAATCTATTTAGATCATCAATTGCCAATGATACACCCCTAATTAAATGGATAACACTGCTCACTAAACCTCACAGAAAATTCATAAAGTTCTCTGATAACCACAAATAATGTTGATATTTAATCGGTAAGTTATCGCTATACTCGGACTTAGATATCGAAGTTATTTACCAAGAGAATTAAA
+
+# Questionable array : NO	 Score: 2.62
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.91, 5:0, 6:0.25, 7:0.06, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTTGTAAATCTCCCTTGTGACAGTATTTAAATAGTCAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.89%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-3.20,-3.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [2-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [441,675] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 90
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Anabaena.; Anabaena sp. 90
+//
+
+
+Array 2 2308866-2309113 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019427-Anabaena sp. 90 chromosome chANA01, complete sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                              	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	=============================================================	============================================	==================
+   2308866	    61	 100.0	    44	.............................................................	TTATTTGTCTGATAGCGTAGCGTGGCGTTAGCCATATCAGGATT	
+   2308971	    61	  95.1	    21	..C.........................G.....................G..........	TTATTTGTCTGAATCAGGATA                       	
+   2309053	    61	  90.2	     0	..C...............T.............................T.....AA.G...	|                                           	
+==========	======	======	======	=============================================================	============================================	==================
+         3	    61	  95.1	    33	TCTAGGATTTGAGGATTTACAGGATGTTATTGGATGATTTTTGGTGGGGATTTGGTGATTT	                                            	       
+
+# Left flank :   ATTCCCTGTCTTATGTATTCGTAACTGCGTCCCATATTAGGAAATTGCAGTAATTTTTCACACTTTTTTGTGAAATCTTGAAAGAGTATTTCTCCCGCTTCAATATTTCTGTTTAAAAAGTATTCAGAAATGCTATCTAAATCTCGAATTGCTAGAGGTGAAATCAAACATTGATTCATTTTTTCTCCTCTCGCGCATGACGAAATTTTGCCTGTATCTGTTCAACAACTGTTTCTAAAGGAACTCCTTCCCCTCGTTCTAGTTCTGCTGCGGCTTCATTAACTTTAATTTTCACATCTTCTACCCAGTCTTCATATTCTCGTTGTTTTTCTTGTAAAAGTTCTAGAGCTTGATTAATGACTGCTTCAGCATTAGGAAATCTCCCTTGAGCTAACTGGTTGTGAATAAACTGTTCTTGTTCTGGTTTTAGGGTAATATTCATTGTCTATTTCCTATAACTGATAATTTTCATTATAAACGTAATTGTCTGAATCAGGATG
+# Right flank :  TAACTCTCATGTTTTCAATTTTAAAATTGATGATTACATATTCAATAAATATTCTTTAATAATTTAGAAATTTAAAATATTATATTGTAAATCAAACATTTCAAAATAATATCCTGTTAATCCTTTAATTCTGTACTTCGACTTCGCTCAGTAACCAGTTATCCTGATTCTGACAAATACAACTTTCATCACCAACAAACCATCTAAAAATTACCATCCTGAAAATCCTTTAATCCTGGACATCCTGATTCAGACTTAATAATTTACTGTAATCCTTAAATGCTACAAGTTACAAGTCTGGACGCGAGAGAAGAACCAAGCAAACCCTCCACCGCAACAACCAATACCAATCAACCACCCCCCAAAAATAATCCTCGTCCCAAAACAACACAGGGAGGTGTCCTTTTGCTGCTTTTATATCAAAAGTAATATTTTTGTAGTATAAGCAATCGTCTTCTTTTCTCCATCCTACCTTGTCCCCGAACTTCTCCCAGATTTCA
+
+# Questionable array : YES	 Score: 0.52
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.75, 5:0, 6:-1, 7:-0.63, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCTAGGATTTGAGGATTTACAGGATGTTATTGGATGATTTTTGGTGGGGATTTGGTGATTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.93%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.80,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [73.3-83.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [60,289] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.45   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 90
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Anabaena.; Anabaena sp. 90
+//
+
+
+Array 3 4084241-4083692 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_019427-Anabaena sp. 90 chromosome chANA01, complete sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                        	Spacer_Sequence                                                	Insertion/Deletion
+==========	======	======	======	=======================================	===============================================================	==================
+   4084240	    39	  97.4	    63	.............T.........................	AATGCCTACATCAATCGAGGAAATCTTCGTGATGCTTTAGGAGATAAACAAGCAGCGATACAA	
+   4084138	    39	  94.9	    63	.....T...........................T.....	GAAGCTTACCTCAACCGGGGACTTACCCGTGATGATTTAGGAGATAAAAAGGGAGCTATAGAG	
+   4084036	    39	 100.0	    63	.......................................	GTGTCCTACCGTAACCGGGGAAATGCCCGTGATGATTTAGGAGATAAAAAGGGAGCTATAGAG	
+   4083934	    39	 100.0	    63	.......................................	GTGTCCTACCTCAACCGAGGAAATCTCCGTGATGCTTTAGGAGATAAACAAGCAGCGATACAA	
+   4083832	    39	  92.3	    63	.....T..............G............T.....	GAAGCTTACCTCAACCGGGGAGTTGCCCGTGATACTTTAGGAGATAAACAAGCGGTGATACAA	
+   4083730	    39	  94.9	     0	....T............................T.....	|                                                              	
+==========	======	======	======	=======================================	===============================================================	==================
+         6	    39	  96.6	    63	GATTACAACCAAGCTCTCAAAATTAATCCTAACGATGCC	                                                               	       
+
+# Left flank :   TAATTTATTATAAGAACAGTATCAAATTAATATCACAAAAATTACCTAAAGTTATGAAACAAAGGTTATTTAGTCAAGGGTGGATAGGGTTGACGCAAATTGTCACTCTGGCTTCCCTGACAGCATTAACGACAATTGCGACAATCAACCAACCCAGTTACGCTGAAAGAACTCTGGTTGAGAACCGAAATTTTAAAATTGATATTGATTTTGATAAGATCAATACCTCTAGTGCGACTGTCAAATCTGGAAGAAATTCCGGTATTCCTATTAATATTTTAATTCAACTGTCTCAAGGTTTATCTGAACCACCAAAGACGACAAAACAAAAAGCTGATGATTTCTTAGTTCAGGCTGCGGATAAGTATGAAATAGGAGATTATCGCGGGGCAATATTAGCTTATGACGAAGTAATTCGCCTTACTCCTAATAATTCTGAAGCTTTATTCTATCGCGGTATGGCTTATTATAATTTAGGAGATAATCAAGCAGCGATACAA
+# Right flank :  AAAGCCTACTATAACCGGGGAAACGCATACGCTACTTTAGGAGACAAATTTCAAGCGATATCTGATTTTCAACAAGCAGCAAAAATATATCAACAACAGGACAAAAATGAAAATTATCAGGATGCTTTGAATAGAATTAGGGAATTACAACAATAGTATTTTTGTCAGAATCAGGATATCCACCGATTTAAGGATTAACAGGATGTTTAATTGTAATTGAATAATAAAATTTTGATAATTTTCTATTATTCTCACAGTTAATTTCTTCTTTGCGTCTTTGCTCCTTTGCCACTTTGCGCGAAACATAGCACACCGAAACACACGAAAAGAATGTTAATTTCATCCTGAAAATCCTTAAATCCTGGATATCCTGATTCTGACAATTAACATACACGGATACACCAAGAGAATATTATTGTTAAGACTCACCCTTTAGTCAAAAAGTCATTTTCCCCCCAGTTAGGGTTGATTATGACACAAATTTGACATTAAAAGTCTAT
+
+# Questionable array : YES	 Score: 0.49
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.83, 5:0, 6:0.25, 7:-1.88, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GATTACAACCAAGCTCTCAAAATTAATCCTAACGATGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.54%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [5-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-65.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [565,902] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 90
+# Taxonomy hierarchy : Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Anabaena.; Anabaena sp. 90
+//
+
+

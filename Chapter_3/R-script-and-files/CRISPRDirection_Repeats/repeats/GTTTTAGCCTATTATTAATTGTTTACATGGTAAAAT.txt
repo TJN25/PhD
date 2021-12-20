@@ -1,0 +1,40 @@
+Array 1 48201-48566 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MJWZ01000069-Campylobacter sp. BCW_6889 PROKKA_contig000069, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                               	Insertion/Deletion
+==========	======	======	======	====================================	==============================================================================================	==================
+     48201	    36	  88.9	    94	A........................T..T....T..	TCTTTTACTTAAAAAAATATTATATTTTTAAATAATACTTTATTAAATATTTGCATAAAAAAATAAATATAAAATATTATGCAATATGTTTGAA	T,GAA [48221,48227]
+     48335	    36	  94.4	    30	.........................T..A.......	TGGTAAAATTCAGATAATTTAGAACATACA                                                                	
+     48401	    36	  94.4	    29	.........................T...A......	TAGTATTCTTTGCGCGGTCGACCTTTTGT                                                                 	
+     48466	    36	  97.2	    29	........................C...........	AAAAGGAGTTTTTTATGTTCAAAGAAGTT                                                                 	
+     48531	    36	 100.0	     0	....................................	|                                                                                             	
+==========	======	======	======	====================================	==============================================================================================	==================
+         5	    36	  95.0	    46	GTTTTAGCCTATTATTAATTGTTTACATGGTAAAAT	                                                                                              	       
+
+# Left flank :   ATTTGGTGATAAATTCTGGCTAATACGAGATAATTTAGCAGTTTGTGAAAATGGCAGAATTTTTGATTATGATGATTTAGGAAAATTGATAGAAACTCAATATGAGTGCATTTTAGATAATGTTTCCAAAGTAAGTTCTAAAAAAATTTTAGCAAATATAATAGATTTGAAAAATATCATCATTGATAATTATTTTATTAATTTGATAGAACATACTATAGATGGTAATAAATTTGAATTTAGCCATGATATGAATTTAATCAAACATAAAGGCTATGTAGCAAATTTAAACACTTTAGAGATTGCAGGACTACCGCAAGAGATGGAAAAGGTAGGAGATGAACTGATTTTGTCTGATTTTCCAAAAAGGCTAGATGAAAATCTTATAAGAGAGTTTCAAGCCCTGATAAAGTTAGTCTTTAGAAAGGATTGTAATAAAATTAAATTGTAGAAAACGCACTTTTTAACGAATAAACGCTCAGGTGAAGTGCTAAACCTTT
+# Right flank :  TAGACTTATCTCAAAAGCCTATTTTATCAATGTTTTTTTCTTATTTTTTGAGCAAAAACTTACGCATACCCTTTTTTCATTTTTTGTTTCTTTAACCTCTCAAAAAAAATTTGCGCCTCATTAAAACTTGGAAATACATTATTTTTTCTTCCTGTACAACTTTTAAAACGCACATTTCCGTAAACTCTCTCAACCATATATTCCTCAAATAGAGTGGCAATAATTTCTATGCTATAATAGCGAATGTTTCCTTTCTCAGTTATTCTGTGCAACAAAACATTATTCATAAAAAAACCTAATTAAAAATTATTTATTTTATTCAAAAAATCATTTTTAAACATTTTTTCTATAGCAAGCTTAATCATTTGATTAATTTTCTCATTTTCTTTATTTGTATTAGAAATTTCATCTTTGTAAGTAGGAATCATCATTTCTATCATTTTTAATGTTTTTTCATCAAATAATACTCTTTTTGGAATTAATATTTCATTTTTTTGAAT
+
+# Questionable array : NO	 Score: 3.29
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.82, 5:0, 6:1, 7:0.18, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGCCTATTATTAATTGTTTACATGGTAAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.78%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.70,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [4-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [88.3-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [185,59] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BCW_6889
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;Campylobacteraceae; Campylobacter.; Campylobacter sp. BCW_6889
+//
+
+

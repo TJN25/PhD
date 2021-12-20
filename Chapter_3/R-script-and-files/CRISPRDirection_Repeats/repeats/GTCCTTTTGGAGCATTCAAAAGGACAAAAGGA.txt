@@ -1,0 +1,44 @@
+Array 1 136688-137138 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ANAP01000223-Bacillus coagulans XZL9 contig000229, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence      	Insertion/Deletion
+==========	======	======	======	================================	=====================	==================
+    136688	    32	  84.4	    20	..TG...A........T...........T...	GTCACGGGACTGGAGCAATT 	C,A,G [136695,136698,136701]
+    136743	    32	 100.0	    21	................................	GCCGTAAACCGGAGCAAAATG	
+    136795	    32	 100.0	    21	................................	GCCGTAAACCGGAGCAAAATG	
+    136847	    32	  93.8	    20	............T.................A.	CTCGTGAACCGGAGCAAATT 	
+    136899	    32	  96.9	    20	..T.............................	GCCATGAACCGGAGCAAAAT 	
+    136951	    32	  90.6	    20	...T........T.................A.	CTCGTGGACCGGAGCAAATT 	
+    137003	    32	  96.9	    20	........A.......................	GCCCGTAGACCGGAGCAATC 	
+    137055	    32	 100.0	    20	................................	GCCATTGACCGGAACAAAGT 	
+    137107	    32	  87.5	     0	............TG...............AT.	|                    	
+==========	======	======	======	================================	=====================	==================
+         9	    32	  94.5	    20	GTCCTTTTGGAGCATTCAAAAGGACAAAAGGA	                     	       
+
+# Left flank :   TCCCGGAAACGGAAGTGGTGGCAGGCACGGCAACTGCCGGGATTGCCCACGCCGCTTTTGTCAGCGACCTGATGAACCTGCCAATGGTATACGTCCGTTCAAGTGCAAAAACACACGGCAAGGGCAACCAGATCGAAGGGCGGATTGCAGCCGGGCAAAAAGTTGTCGTTGTCGAAGATTTAATTTCAACCGGCGGCAGCGTGCTCACCGTTGTCCGCGCATTGCGGGAAGCCGGCTGCGAAGTGCTCGGCGTTGTCTCGATTTTTACATATGAACTTCCGGCCGGGGCTGCAAATTTTGCGAAAGAAGGCATCATCGCTTACTCCTTATCGAATTACTCCGCGCTACTTCAAGTTGGCGTGGAAAGAGGGCTGATCCGGGAAGAAGACTTGGCGACACTCGAGGAATGGCGGCGGGCACCGGAAAAATGGGGGAAATCCAAAAAGGGCTGAACAAGATACTTTGGTTTGCTATTAAAATATGGCAAAAGTAAGCTTACT
+# Right flank :  AACGGGGGAACAGAGCATATTTGGTCTTTTTGAAGTGTTAAAATACCAAATGCTTTTCCCCCCGGTAGAATTTGTAATTCATAAGTTTGTGATCATCAATTACTCATAGTAAGACCACCTTCCACCTCTGAACTTATTAAAATTTTTTGCCAGTATCCTGCTCACCCTTTTTTTCGACCCCACAATCCTGCACCAGTCAAAAATATCATTTGTTGTAATCTTCCGCTCTGGAAACAGCATCCGAAATTCTCTGACACTGCGGAGGACCGCGGCCTCAACAGATTCAGCCTGTCCACAATCCTCACAAATAACTGAGCGTCCTTTTACCGCACAGGAAAAAGAACCACAAGTGGCGCAAAAAATGCCTTTCCGCAATTGATCATACCTATATTTCGGCAAATGAAGAAAAGGCGATTCTTCTATATGCAGCGAAGATAGCTTTTCTGCCAGCCTTCTATGCTTTCCGCTCAGCTTTGCAGAAATTGCATTCAAATCTTTCA
+
+# Questionable array : NO	 Score: 2.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.79, 5:0, 6:0.7, 7:-0.90, 8:0.8, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTTTTGGAGCATTCAAAAGGACAAAAGGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.38%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.10,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [105,99] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : XZL9
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus coagulans XZL9
+//
+
+

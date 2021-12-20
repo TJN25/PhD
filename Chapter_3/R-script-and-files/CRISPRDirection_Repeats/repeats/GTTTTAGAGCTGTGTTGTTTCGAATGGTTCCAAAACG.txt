@@ -1,0 +1,39 @@
+Array 1 23062-23296 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_GL732492-Streptococcus sp. M334 supercont1.7, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+     23062	    37	 100.0	    29	.....................................	CAGGAAGCATATTTTAGAGGCATGCATGA	
+     23128	    37	 100.0	    29	.....................................	TAACACCTAATTACCAGATGAACATCACA	
+     23194	    37	 100.0	    29	.....................................	GGTAAAAGGGCAAGTAAACAGATTAAAGG	
+     23260	    37	  94.6	     0	..................................T.A	|                            	
+==========	======	======	======	=====================================	=============================	==================
+         4	    37	  98.7	    29	GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAACG	                             	       
+
+# Left flank :   ATCAACTCAATGACAAGCCCGAAGTCAAGTCCATGATTGAAAAGTTGGTTGCTACGATTACAGAATTGCTGGCATTTGAGTGTTTGGAAAACGAGTTAGACCTAGAGTATGATGAAATTACCATTCTAGAGTTAATAGATGCACTTGGTGTCAAAGTCGAAACCCTTAGTGATACACCTTTTGAAAAGATGCTAGAAATTGTCCAGATTTTTAAATATCTTTCTAAAAAGAAACTCCTTGTTTTCATCAATGCATCCGCCTATCTATCAAAGGATGAGTTAGTAAATTTGATAGAGTATGTCCAACTCAATCAACTGTCCGTCTTGTTTGTTGAGCCTCGGAAAATCTATGATTTTCCGCAGTATGTATTGGATCAAGACTATTTCTTGAACCCCGAAAATATGGTATAATAAAAGTAACAATTGGGACCTAGCGAACTGAAGTCTAGCTGGGACGAATGGCGCGATTACGAAATTTCGTGAGTAAAATTTTTCTACGAG
+# Right flank :  ACATTAAAAGCTACTCATTTTTTAAGTAGCTTTTTTCTTATTCAAGTTTATATATTAGTCGTCACAATCCCATTCCCTTGTAGAGAAGCAAGACTGCAAGTCCTACGAACAACACTGCCGCTACCAGTCTCTGACTAGCACTATACATCCGTCTTTCTCCTCGAACTGGAAAGATAATTGCTAGCAATGCTCCACCAACTGCACCACCGATATGGCCTGCTAGGCTGATGCCAGGAATCAGAACACTTCCAATAATGTTAACCACAAAAAGTGTCAAATAGGATTGCCCCAACTGCTGGATATAAGGATTACGCGTAGCATAGCGAAGAACAATAATCGCAGCAAATACCCCATAGAGAGAAGTCGAGGCTCCTGCTGCTAAGGATTTGGGACTAAATACAAAAACAAAGAGATTGCCCATCATTCCAGATAATAGATAGAGAAAGAAAAACTTCTTGGATCCGAAAATCTCCTCTACTTGCCTACCAAGATAATAGAGG
+
+# Questionable array : NO	 Score: 7.60
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.06, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGTTGTTTCGAATGGTTCCAAAACG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.46%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [58.3-76.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [92,61] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_000122199 [21975-22319]; 
+# Array family : NA
+# Sequence source strain : M334
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus sp. M334
+//
+
+

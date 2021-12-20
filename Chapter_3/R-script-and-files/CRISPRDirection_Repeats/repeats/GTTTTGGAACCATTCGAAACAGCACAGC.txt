@@ -1,0 +1,122 @@
+Array 1 42168-41540 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE376148-Streptococcus agalactiae MC628 Contig23, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     42167	    36	 100.0	    30	....................................	AGTTATCAATGCTATATGGTTTCTCATCTT	
+     42101	    36	 100.0	    30	....................................	TTTTATAAGTGATAGAGTGTGCAACACCGT	
+     42035	    36	 100.0	    30	....................................	TACTTGACGAATTGAAGATGACGGAATTTT	
+     41969	    36	 100.0	    29	....................................	CCCCAAAGTTATCAAAGAAGATGACCATT 	
+     41904	    36	 100.0	    30	....................................	TGGTTATACATTTACTAATCCATCAGCATT	
+     41838	    36	 100.0	    30	....................................	ACTATAAGTATTTTGTTTTATCCCTAGTAT	
+     41772	    36	 100.0	    30	....................................	ATTACTTTCAAGATGTCTATGACTATATGC	
+     41706	    36	 100.0	    30	....................................	TATTTCATCATAGAAAATCCTGCTAGTGGT	
+     41640	    36	 100.0	    29	....................................	TTTTACCAATGCTTCCATATCGCTTATAT 	
+     41575	    36	  91.7	     0	.................................NNN	|                             	
+==========	======	======	======	====================================	==============================	==================
+        10	    36	  99.2	    30	GTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAAC	                              	       
+
+# Left flank :   TGTTTCGAATGGTTCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGAGCTGTGCTGTTTCGAATGGTTCCAAAACAACGATTTGCACAATAATCCAGGACAATTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACAACACAGCTTCCTCGAAAGGGATATATCTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACTATCTACGAGACGAAAACAATTGCCAATGTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGAGCTGTGCTGTTTCGAATGGTTCCAAAACAATAGGCTTAGGCGCATCTGGTTCTTTACT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGAGCTGTGCTGTTTCGAATGGTTCCAAAACAAGCTAATTCTCATCTCACCGAGATGGATAGTTTTAGAGCTGTGCTGTTATTATGCTAGGACATCATTGTGGTGTTCTAGTTTTTTGTTATACTGAAATAAATTTTCAGAGAATGTGGGGGAAGGCGGTAATTAGATTAATTCAAGACGTAATTCAGAACTTAGTTGGCCAAGCTAACGAAATCACCCCAATTTATCAGTTTGATTGGGAAACTTATATATTGGCGACTAAAAAATATGAACGTCATTTAGAGGTGTGTCTATTAGTAGAAAATTCGAATTGTTTTTCGGATTCAAAGAGAATGTGTCAATAAAAGAGATATGAAAGGCTATAATTCCAACCTTATGGTTAAAGGGCTAGGTTGTTCTACGC
+
+# Questionable array : NO	 Score: 8.21
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:0.25, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.46%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTAGAGCTATGCTGTTTTGAATGGTCCCAAAAC with 92% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-0.20,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [182,1069] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.73   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_001242359 [43889-44215]; 
+# Array family : II-B [Matched known repeat from this family],   
+# Sequence source strain : MC628
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus agalactiae MC628
+//
+
+
+Array 2 42557-42389 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE376148-Streptococcus agalactiae MC628 Contig23, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+     42556	    36	  86.1	    30	NNNNN...............................	AACGATTTGCACAATAATCCAGGACAATTT	
+     42490	    36	 100.0	    30	....................................	AACACAGCTTCCTCGAAAGGGATATATCTT	
+     42424	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         3	    36	  95.4	    30	GTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAAC	                              	       
+
+# Left flank :   TGTTTCGAATGGTTCCAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCTGTGCTGTTTCGAATGGTTCCAAAACATTTCTCGCAACTCATTGTTTTCTTTTCTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACTCCTCGCCGTCGACATAACCAGCCATTTCTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACAATATTGAAATAGTTTGTGCAGATGGATTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACTTGGACTGATATGGTCGGAACAGTCGTTGTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  TATCTACGAGACGAAAACAATTGCCAATGTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGAGCTGTGCTGTTTCGAATGGTTCCAAAACAATAGGCTTAGGCGCATCTGGTTCTTTACTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACAGTTATCAATGCTATATGGTTTCTCATCTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACTTTTATAAGTGATAGAGTGTGCAACACCGTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACTACTTGACGAATTGAAGATGACGGAATTTTGTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAACCCCCAAAGTTATCAAAGAAGATGACCATTGTTTTAGAGCTGTGCT
+
+# Questionable array : NO	 Score: 7.71
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.77, 5:0, 6:1, 7:0.54, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTGTGCTGTTTCGAATGGTTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:60.53%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTAGAGCTATGCTGTTTTGAATGGTCCCAAAAC with 92% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-0.20,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [1031,679] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.68,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_001242359 [43889-44215]; 
+# Array family : II-B [Matched known repeat from this family],   
+# Sequence source strain : MC628
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus agalactiae MC628
+//
+
+
+Array 3 42713-42938 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KE376148-Streptococcus agalactiae MC628 Contig23, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+     42713	    28	 100.0	    38	............................	TCTAAAACAAATCCATCTGCACAAACTATTTCAATATT	
+     42779	    28	 100.0	    38	............................	TCTAAAACAGAAATGGCTGGTTATGTCGACGGCGAGGA	
+     42845	    28	 100.0	    38	............................	TCTAAAACAAGAAAAGAAAACAATGAGTTGCGAGAAAT	
+     42911	    28	 100.0	     0	............................	|                                     	
+==========	======	======	======	============================	======================================	==================
+         4	    28	 100.0	    38	GTTTTGGAACCATTCGAAACAGCACAGC	                                      	       
+
+# Left flank :   GAAACAGCACAGCTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGAACCATTCGAAACAGCACAGCTCTAAAACACATTGGCAATTGTTTTCGTCTCGTAGATAGTTTTGGAACCATTCGAAACAGCACAGCTCTAAAACAAGATATATCCCTTTCGAGGAAGCTGTGTTGTTTTGGAACCATTCGAAACAGCACAGCTCTAAAACAAATTGTCCTGGATTATTGTGCAAATCGTTGTTTTGGAACCATTCGAAACAGCACAGCTCTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGAACCATTCGAAACAGCACAGCTCTAAAACACAACGACTGTTCCGACCATATCAGTCCAA
+# Right flank :  CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTGGAACCATTCGAAACAGCACAGCTCTAAAACTTTACAAAAGAAATTTATTTTATTAAGTATGTTTTGGAACCATTCGAAACAGCACAGCTCTAAACATCGTAGAAAATTTTCTTTTGAGCTTTCGTAATCGCGCCATTCGTCTCAGCAGGACTTCAGTTTCGATGATTCCTTGTTATTACTGTGCTTTTACTAATATTATACCATATTTTCGCCTATCAAGAAATAATCCTTATCAATAACATATTGCGGTAAATCATAGAGTCTTCTAGGTTCTAGAAAGAGTACTGACTTTTGCATTAAATTGATGTATTCACATAATTTTATAACTTCATCTTTGGTAAGATAAGCTCCGCTATTAACAAAAACCAAGAGATTCTTTTTCGTTAAATAATGGTA
+
+# Questionable array : NO	 Score: 8.29
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.69, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTGGAACCATTCGAAACAGCACAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [55.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1355,299] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_001242359 [43889-44215]; 
+# Array family : NA
+# Sequence source strain : MC628
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus agalactiae MC628
+//
+
+

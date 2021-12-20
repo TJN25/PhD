@@ -1,0 +1,361 @@
+Array 1 2906117-2905773 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                         	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	========================================================	========================================	==================
+   2906116	    56	  96.4	    40	...A.............................G......................	GGGAACGAGTGGAACCGACACGTTGCCAGGCGAAACAGAC	
+   2906020	    56	 100.0	    40	........................................................	AGTAATCGCTGGAACCGAGGCGTTGCCGGGAGAAATGGAA	
+   2905924	    56	  92.9	    40	...............................A.G.G..G.................	AGTAATGTCTGGCACCGAGGCGTTGCTGGGAGAAATGGAA	
+   2905828	    56	  91.1	     0	.........................A.....A.G................A..G..	|                                       	
+==========	======	======	======	========================================================	========================================	==================
+         4	    56	  95.1	    40	CAAGAAGAAGCGAACGAACGGTATGGACGCGGGAAACCAGAGATTGAAGAGGCAGA	                                        	       
+
+# Left flank :   CTCAAAAAAAGGAAAGGCCAGAAGAGAAGCGGGACGAGCTGCCAAAAGTGGTACAAAAGAAAAGGTCTGCCGCTGGTAAAGAGCTGTTTCAAGGGACATTTAAGTCGACAGAAATCCCTTCTCCTGTCCACGGCATTCAGAAACCGGAAAAAACACATGAAAACAGTGATTACGACTGGCTCATTTTTTCAACGAAGGATAAGCAGGCTGAATACGCAGAGCGCCTGTTACACCGGCAAAGACCTCCGCAAATTGATAGAAAGCCTGCTTTTTTGCGCAAAGAATCACGCTCCCTTGAAGAGGACGTGTTGAAGCGGGTGCGTGAACATGCCCTACAGTCGCTTCCACTTGCCGAAGCACAGCAACAACAAAGCAAAGAAATCCGTCCCCAAGAAGAGGCAAGTGGTGACGAAAACGAGCGTACATATAAACACGAGGAAGCAGATATGGATGAAGGAGAAGCCATCGTTGCGACCGAAGCTATGCCAGGCGAAACAGGC
+# Right flank :  GGGAACGAGTGGAACCGACGCGTTGCCAGGCGAAACAGGCCAAGAAGAAGCGAACGAACCGTATAGAACGGAAATCGACCCAACTGCTGAAATTCCTGCTCCTTTCAACCGTAATGCCGCGGATAATGAAAGAATAGAGACAAAGCCGATTCAGCCTATTAGTGATGATCCGACAACATCAACTAGAGAGAACGAAGAAGCACAAGCTCCGTCTAGTGAAAAAAAAGTTTCCCTTAGCAGTGAAACGAAAAAGCAAGATAGGCTAAGTAACCGAACGAGCAATGACAATACGCAGCCTGGCATTCCTTATAATGTGCTGATGTTGCCAAAGGACCGTAAAAAAGCGCCAATTAAAAAAGGGCAGCACACAAAAAATGGCTACGAAGCGCCACCGCTTCATTTGCTAAAAGTTCCTGAAAAAATCGATCAAGATGATTCTCTTTGGCTTGACGAGCAAGCGCAATTGCTTGAAGAAACACTATCAAGTTTCCACGTTGATG
+
+# Questionable array : NO	 Score: 2.17
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.75, 5:0, 6:-1, 7:0.33, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAAGAAGAAGCGAACGAACGGTATGGACGCGGGAAACCAGAGATTGAAGAGGCAGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,23] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.10,-4.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1983,832] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 2 3669272-3668510 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+   3669271	    32	 100.0	    34	................................	CGGTTGACTCTCCCAGGTAATAGTCAATCGCCTT  	
+   3669205	    32	 100.0	    34	................................	GAGAATTTGCTTGTTGAATTTCAGTATACACAGA  	
+   3669139	    32	 100.0	    36	................................	AGCTACCCAACGTAAATATCTCAAGTGTTCGATCAA	
+   3669071	    32	 100.0	    35	................................	TTGCCTCTTTTAATAACGCCTGATGCGCCGCTTCA 	
+   3669004	    32	 100.0	    33	................................	AAAAAGTACAAATTATACTAAAGCATCTATTAA   	
+   3668939	    32	 100.0	    34	................................	AAAAGTCAGGATTGGAAAAACAGCAAGACGGTAG  	
+   3668873	    32	 100.0	    35	................................	GCTTGAAATTGGCAAGAAGCCAGCAAACTTTTTAA 	
+   3668806	    32	 100.0	    33	................................	TCTACTGGAATCCCCATCTATACCAGCTCCTTT   	
+   3668741	    32	 100.0	    35	................................	AATCGCAATGACTCGCGCCTGTATCTCGATGGGCC 	
+   3668674	    32	 100.0	    35	................................	GGAAATGAGTCCGCGGTTTTTTCGAGATACAATAA 	
+   3668607	    32	 100.0	    33	................................	AAATGCATCGCCGCCGTCCGAGCCTTTCATGAG   	
+   3668542	    32	  90.6	     0	..A...........................TC	|                                   	A [3668514]
+==========	======	======	======	================================	====================================	==================
+        12	    32	  99.2	    34	GTCGCACTCTTTGTGAGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   TTCCGCGGTGAATAAGATAATGAATGGTGTCGGCATCGTTCTTATTTCAGGCTTGCTTAACTATCCATTGACGTACCTGCTAGGGACTGAAAAATCGGATGGCATCCTTGTTTTTAGCATCATGGCTGCAGTCGGGTTGTTTTTACTAAGTTCTTGGCTATTTGAAATTTTTCTAGGCGCTGTTTCCTTTGATGCACTACAAGGGATGAATCTAGATAAGCTGTTCTCTGGAAGTTTTTTAGCGGTCACGTTTGTGCTATTCATGGCCTCCTACGTAATTGCACTGCAAGTGTATAAAAGGAAAGAATTCTAAGCGAGTAGGTGCGAACCCCAAGCACACATGAAATCCCAGGGAGGTTCGCACCAAAATTCACTTTTAATATGTAATAATGTGTGTAAAAATGAATTAATGTGAGTGGGACCACATGGTAAAATAGGAGAGAAAAACGAAATTCACGCTTTTTTGGATGTTTCATTCCATAAATTCGTTGAAAGTCGCT
+# Right flank :  GCGCTCTTCTCAGCTGCCAAACGTTGGTAGCCGCACTCTTCATGCGTGCACACATGAAGAGAAGAACGCCCGGTTAGACTGAATCATCACCATCTATACAGCAGCCAAAACCCTTATTTTACAGCGTTTTGGCTGTTTTTTTATTTGTTTTGTTGGGCTGCTTGACAAGGTATGGCTATGTTCTGTAAAGTAGTTATCACACTAACTACTTAGAGGTGCTGATATGGAAGAGGCAGTCATTCAGGAGCTGCAAAAGCACGGTTTTTCCAAATATGAGTCAAAAGCGTATATTGGGTTATTAAAGGCGCCAGCGATTACAGGTTATGAATTAAGCAAGCGCTCAGGCGTACCTCGGTCGATGATTTATGAAGTGCTTGGCAAGTTGCTCGATAAAGGGGCTGTGCATACCGTGCCCGCTGACCCAATTGTCTATAAGCCAGTGGACCCGCGGCAGCTATTGACGAAAATGAGGGAAGATCTTGATGCTTCTTTGACCTCAT
+
+# Questionable array : NO	 Score: 11.30
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.96, 5:0, 6:0.7, 7:0.64, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTTTGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [45.0-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [225,188] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 3 3721874-3720845 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+   3721873	    32	 100.0	    33	................................	GCGGATGTTTTGTCGCTGATGTAAATGCCGAGG   	
+   3721808	    32	 100.0	    35	................................	AGTCTGTCACCTCAAATGTAAATCTAAAATCAAGC 	
+   3721741	    32	 100.0	    36	................................	CAGGTAGTAGGCTCCTTTACAGCGCGGGAATTTGAA	
+   3721673	    32	 100.0	    34	................................	TAAAAATCCAAGGTACTTGTTCAGTCGCCGCAGA  	
+   3721607	    32	 100.0	    35	................................	AGACATTTCCATAGTTTTTCTATTTTTCTTTGTTG 	
+   3721540	    32	 100.0	    35	................................	TAGTATCTAGAATCGGCATATCCAAAACGACTATA 	
+   3721473	    32	 100.0	    35	................................	TCATTTTTATCACCTTCCATATTTTAACTTTTAGT 	
+   3721406	    32	 100.0	    35	................................	TTGCATTCCTTTGACTAAGCCTTTGATTGCTTCTT 	
+   3721339	    32	 100.0	    33	................................	TTGTGTGTTCATAGGGTTTTCACCACCGTTTGT   	
+   3721274	    32	 100.0	    34	................................	GTCGTGGACTAACCACTCAGACAATTCTTGTTTT  	
+   3721208	    32	 100.0	    34	................................	AACCTATTGACACCCGGCTGCAACTTAAACCAAT  	
+   3721142	    32	 100.0	    36	................................	AAAAGCGAGCGCTGCAATCCAAGCATCAAATGCAAT	
+   3721074	    32	 100.0	    34	................................	CACTATCACGGTGCCAAAATACAAATACATTGGT  	
+   3721008	    32	 100.0	    33	................................	ACAGCTCCTTTTTGGTTCAAATAACCTTCAAAT   	
+   3720943	    32	 100.0	    34	................................	TTGCATTTCCCGTAAACGGGCAAAAAAAGGCGGC  	G [3720931]
+   3720876	    32	 100.0	     0	................................	|                                   	
+==========	======	======	======	================================	====================================	==================
+        16	    32	 100.0	    34	GTCGCACTCTTTGTGAGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   TTTACGCATGCAGGTCAAGCACTGCTACTGAGAATGTATACACCAGGGGTCATTACCGCCATTATCGTGACCCTTCCATATTCACTATATTTGTTTTACCGGTTAGAAGCGGAATATAATATTCAGGTTAATGATCTAATTGCCAGTATCCCATACGGACTGACCATTATTCCAATCGTGGCTTTCGGTCATCTACTAGCTAAAAAAGTGATTCGGTAAAAAATGTTGAGGTATTTCGTGGTTCGTTTTTGGATTTAACATTGATAACAAGTGAGCAAACAAATATAACTTTGAGAAAGGTTGTCTAAACCTATTATTTTGGTGCGAACCCCAAGCGCACATAAAATCCCTAGATCACCCGCACCAAAAAAGAACCTAAATATGAAATAATATGTGTAATATTGTTTAAATGTCGTTTGTGTCCTATGATATGATAGAAGAAAAGGGTGATTTTTCCCTATTATTTATAGTTTCACTCCAAGAAATAGGGAGATTTCGCT
+# Right flank :  CCATAGTCTTTGGATAGGGCATCGATAGGGTTAGCCGGAGAACTCTATGTTTATGCCATTTCCATTAGGCCACACGGCAGTTTTCTTTTGTGGGTTGTGAAAATAGTGTCCACGTAAAACGAGAGCCAGGAGGAAAACTCCTGGCTCTGTCTGCTCTTTTTAAGAAAGTACAAACTCCCTTGGATTTGCTAAATCATGATTAAATGCATGACTAAACAGCTGAACCAATCCGTTCGATGTGGATTTTTTGCTGATACTGTTCGGCTTGTGAAAAATCAATCGTTGGCAGCCAGTGGAGGCAGTTTGCCAATGAGAGGGCGCTGCCTGCTAATAGAGCTGCTTTTACATCGTTTGTTTTTCGCCACTCGCGTATAAAGGTGCCGAGAAAAATATCGCCTGAGGCGGTAGCATTTGTTACGTTAATCGTTGGGAGCGTGACACGCCAGATGTCTCCGTTGATTTTGGCGACTGTTCCTTCGCCGCCTAATGTGACGATGCAG
+
+# Questionable array : NO	 Score: 11.34
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.7, 7:0.64, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTTTGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [55.0-66.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [213,282] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 4 3729522-3728825 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	================================	=====================================	==================
+   3729521	    32	 100.0	    33	................................	ACAGTGGATTTAATTCCCGCTTGAAATCCTCGC    	
+   3729456	    32	 100.0	    33	................................	TGTTGGCTTACCAACAGTTCTCACGCTGTTAAT    	
+   3729391	    32	 100.0	    35	................................	CGCTTACGTTACAAAGATAAAACCACAGGGGAGTG  	
+   3729324	    32	 100.0	    37	................................	ACTCGTCAATCTGTGCCTGTAGTCCATCAAGGATATT	
+   3729255	    32	 100.0	    34	................................	TAAACGACGAATAGGGTCTAGACTTGCGTTTGCT   	
+   3729189	    32	 100.0	    34	................................	ATCGTAGTTGGTGGCAGTATTATGACGCCCCTCC   	
+   3729123	    32	 100.0	    35	................................	CTTACCCGCCCCGGCACCTTTTCGCGTTCTAAATC  	
+   3729056	    32	  93.8	    34	..........TA....................	AGTAAATTTAGTTGGACGTTTGACAAAAGACCCA   	
+   3728990	    32	  93.8	    34	..........TA....................	TCAGGAATTTGGGCTACCCACAGCTTTGCCCCTC   	
+   3728924	    32	  90.6	    36	.C........TA....................	GAAAGAACGATAACTTCATGTGTTCCAAACAGCAAC 	
+   3728856	    32	  93.8	     0	..........TA....................	|                                    	
+==========	======	======	======	================================	=====================================	==================
+        11	    32	  97.5	    35	GTCGCACTCTATGTGAGTGCGTGGATTGAAAT	                                     	       
+
+# Left flank :   CATCGCCACAAAAGAAAAGTGCCTCCCACGAGAAATTGATGTGAAGCACTTGCAAGACACGCTGGTGAACCAAGGGGCGATATTAAGCTGACATTTTCGAATAAAAGGATTTGCAATGGTGCTTGAAGATGGACTACCTATAAAAATGAGACGAACAAGAAACTCCAAACATTGGGTTATGGAGTTTCTTTTTTGGTGTTCGTGGTATTAAAATTTAAGTGGGATTAGAAGGATGAGGGAGCAACGGTTTAATTTGGTCAACCTAAAGAAGTTTGCCATTGAACATTAACGCCGTCGAAGACAAAAGCTTAAATCAGACGGTGCGAACCCCAAGCGCACATAAAATCACTAGATTACCCGCACCAAAAAAGAGTGCAAATATGAGCTAATGTGTATAAAGATGTGAAAATGCGGCTCGTGTTCCTTGATATAATGAAGGGAAAGCGCGACTTTCCTATATTATCTGTGGTTTTATTTCCAGAAAATAGGGGAATTTCGCT
+# Right flank :  TTGCTTCCGGCGAACGGAATGTGGCTTTCTGCTCGGCGCACTTTTTATAACTGCGCCAATTAACATCCACATGAATCGACGTTCGCTTGCGATAACGACTAGTCATGCAAAAAGCAAGTTCGAAAAACCAAATAAGCAATATAGGCGCACCGACGCCCATATTGCTTTTCGTTTTTATTGTCTATTTCAACGCTGGCCAAAATGCTTTATTCGCTTCGATTAAGTCGTCTAGTATATCTTTTGCTACTTTTGCACTTGGCACGGTTTTCGATAATGTGATGGCTTGCCATAGTTTTTGGTAGGAACCTTCTTCAAACGCTTCTACTACTAATTTTTCGACGCCAACTTGTTGCTCCATGAGGCTCTTTTGGAATCTAGGGATTTCTCCGACAACTAGTTTTTCTGGGCCATTGCTGCCGACGAGGCACGGGATTTCTACCATTGCTGTTGGGTCGAAGTTCGGAATGGCGCCATTGTTTTCGACAATCATTAACATCCGT
+
+# Questionable array : NO	 Score: 11.23
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.88, 5:0, 6:0.7, 7:0.65, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTATGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   GTCGCACTCTTAGTGAGTGCGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-5.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [48.3-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [183,410] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.73   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 5 3740347-3739180 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+   3740346	    32	 100.0	    34	................................	CCTCATGGTATTTGTACAATTTCTTGAAATGGCC  	
+   3740280	    32	 100.0	    35	................................	CGCCCCAAATATTGTGTATTTACTCAACTGCAGCA 	
+   3740213	    32	 100.0	    34	................................	CGCCTAATCCATCAATCGCGTCTTTTGCCCCCTT  	
+   3740147	    32	 100.0	    36	................................	TGCATCGATACCCTCTTGTGTGGTAAAGCGGTCATC	
+   3740079	    32	 100.0	    33	................................	TCTTTTGCGTAATGAAGCAATTGCCTATCATTA   	
+   3740014	    32	 100.0	    34	................................	ACCTAATGATGTACCCACAGGAATACAGGCTTGA  	
+   3739948	    32	 100.0	    35	................................	TCTTACGTTCTGAGGCGGAAGAGATACTAGGCTTT 	
+   3739881	    32	 100.0	    35	................................	ATATGCCTGCACAAAATGACCACGCAATGCGTTTT 	
+   3739814	    32	 100.0	    36	................................	TGTCCACAATGTTGGCCACTATGATGATGCCTAGAA	
+   3739746	    32	 100.0	    33	................................	ATTGTAGAGGCGACACTGTTCGCGATGCCTCTA   	
+   3739681	    32	 100.0	    36	................................	AGGAGGCGGTTCAGGCGGTTCAGGCGCTTCAACGGT	
+   3739613	    32	 100.0	    34	................................	TCGATCAACGTTAAGATCGCCTTTGTGTAGTCCT  	
+   3739547	    32	 100.0	    34	................................	CATTACTTGTTTCTTCTCAGCATGAATTAACAGA  	
+   3739481	    32	 100.0	    35	................................	TGAACAACCACTTGTCCATCCTCATCCAAGATGAC 	
+   3739414	    32	 100.0	    34	................................	CTATGAATGACGAAGTGAGAGAAAGAAACATAGA  	
+   3739348	    32	 100.0	    35	................................	TCCGCTAGACGCTCGATAAAATCCACTACCAATCA 	
+   3739281	    32	 100.0	    35	................................	GCAGGACGAGTTCAGAGTTTCGACGGAAATTTGAT 	
+   3739214	    32	  90.6	     0	.......................C..C..T..	|                                   	C,AC [3739182,3739189]
+==========	======	======	======	================================	====================================	==================
+        18	    32	  99.5	    35	GTCGCACTCTATATGAGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   AAATCGGTGAAGCTTTAGGCGGAGTATCGCAGCAACAGGTGACCGCCTGGAATCGTAGTATTGCCAAAAAGATCTATCAAAAGCTTCAAAAAGAACCGCCATTTAATAGTAGGGGTGGCAAACGTTACTGGAATGTACTATTTGATGGAGCTGTCGAGAGGGAGCTTGATGATAAAGGGAATTTTATCTGGAAATTAAGGCCTTCTCTTGTCTCTGCTTTAAAAAGATTGGGAACTTCTTGTAATAAAACGGCTAAAATTGAGAGTTGAAGATTAAATCCCAAATTGCAGAAATATTTGTAGGGTAGATCCCTTTTATTTGGTGCGAACCCCAAGCGCACATAAAATCCCTAGATCACTCGCACCAAAAAAGAGTTTGAATATGAGATAATATGTATTAAAGTGTTAAAATGTTGTACGCGTTCCGTGTTATGATTAAGGAAAGAAGCGACTTTCCCTAATATTTATTGTTTTATTCTCAATAAGTAGGGGAAATTCGCT
+# Right flank :  TTGTAGAAAAAGTCACCCTCGTTGGGTAGGCGTAGATTGAAGACGTCTCCTTCCATTTCACCTTTGAAGTTGCATTTCGAGAAAGTCGTCATACTTATTGCTTTGAGCGGATGGTTTCAACATCCGCTCTTTTGCGTGAATCCTTTTTTAACTCAAGGGACTTCTTTGACAAGCGTCTTCTTAGAAAGTCATAGCGATATGAACCCAGGCAATTACAAATGATTACCAACGAGAAAACGATTATGATGCATGTTCTAGTTTCTGAAGAGGTGCCTTCCTAAAAAGTGATGCAACTACCGATCAGTTCAATCAATCTAAAAAACCCCTTAAAAAAACACCACCAGATCTTAATCCAACAGGAATATCTACACCCTTGCTTGACGCTATAATGAGTAGACATATGAGAGGAGGAGTTAAATGAAATCTCCATTGAAAGCGCTTACTGTTTCGGTGATTTTATTGTTGGCTGGTCTGGTTTTGGGCGATGATCGTATGGAGGC
+
+# Questionable array : NO	 Score: 11.37
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.7, 7:0.67, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTATATGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [50.0-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [489,232] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,5.14   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 6 3741604-3741106 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+   3741603	    32	  96.9	    34	........................A.......	TACTCAGACAAAGACAAAGACAATCCACTTTTTG 	
+   3741537	    32	  96.9	    35	........................A.......	CTGAATTATGCGCTAATGGAATAGAAGACGGTACC	
+   3741470	    32	 100.0	    34	................................	GTGGGTCTTGACTACTGTATCATTCGAAAAGCTG 	
+   3741404	    32	 100.0	    35	................................	TCGACGAGACACCGCATGTCTTACGTCTTATTATG	
+   3741337	    32	 100.0	    34	................................	AAAACGCGGTTTTAAGACTAAAGCAGAAGCCAAA 	
+   3741271	    32	 100.0	    35	................................	TTTTGTGGCGAACGTGCTGCGTATTTCATACGTCA	
+   3741204	    32	 100.0	    35	................................	CCTTTTATAAGTCTTGAAGGATTTTGGATCGATGT	
+   3741137	    32	  96.9	     0	........................A.......	|                                  	
+==========	======	======	======	================================	===================================	==================
+         8	    32	  98.8	    35	GTCGCACTCTTCGTGAGTGCGTGGGTTGAAAT	                                   	       
+
+# Left flank :   GCCATTTTTGTGGAAGTAGGTGAAAACATGCTCGTCTTGATTACATATGATGTCCAAACGTCAAGCCTAGGAGGGTCCAAAAGGCTGCGCAAAGTGGCCAAAGCATGCCAAAACTACGGACAACGAGTGCAAAATTCCGTTTTCGAGTGTATTGTGGATTCAGCTCAGTTAACATCATTAAAACTTGAACTAAGTAGTTTAATTGATAAAGAAAAAGATAGTTTGCGCATTTATCGATTAGGAAACAACTATAAATCGAAAGTGGAGCACATTGGTGCAAAACCGACCGTAGACATAGAGGATCCTCTGATTTTTTAATGGTGCGGACCCCAAGTGAACATAAAATCCCTAGGGGACCCGCACCAAAAAACAATTAAAATATGTGTTAACGTGTATTAATTTGAAGAAAGATGTTATTGGTTTTAAAGGATTAGAGTAGAATCAATGAAGATTTCCTACTTTAAGAGCTTTTTTTCCCTTTTAATTAGAGGATTTCCGCT
+# Right flank :  TTTAAGCACTCCATCGTAGCAGCAGCTTGTACCTGTCGCACTCTTTATGACTTCGTGGAAAAACAGAAAATATCGGTTATGTACTAAGTAAATACAGAGGACGTGAAATTTTATATGACTTGGCATAACCAAGATCCTTTAAACCTGAGTAAGGAAGAGTGGATAAATCTCTTGCAGGATGAAAAAGTTTTCAACAAGATCGGCTTAGAGATGGTTTTCTTTGTATATAAGCAACCTAATTATCAATCAAATGCAACGGAAATCGGTGAAGCTTTAGGCGGAGTATCGCAGCAACAGGTGACCGCCTGGAATCGTAGTATTGCCAAAAAGATCTATCAAAAGCTTCAAAAAGAACCGCCATTTAATAGTAGGGGTGGCAAACGTTACTGGAATGTACTATTTGATGGAGCTGTCGAGAGGGAGCTTGATGATAAAGGGAATTTTATCTGGAAATTAAGGCCTTCTCTTGTCTCTGCTTTAAAAAGATTGGGAACTTCTTG
+
+# Questionable array : NO	 Score: 8.33
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:0.7, 7:0.69, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTTCGTGAGTGCGTGGGTTGAAAT
+# Alternate repeat :   GTCGCACTCTTCGTGAGTGCGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [53.3-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [116,183] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.05   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 7 3752130-3751899 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	===============================	====================================	==================
+   3752129	    31	 100.0	    36	...............................	TCATCTTTCCATAAATGATATAGTGGTAGATACCCA	
+   3752062	    31	 100.0	    36	...............................	GCGGCGTCTCCTAAAACGCAAATCGATTCTATTTTA	
+   3751995	    31	 100.0	    35	...............................	CATACTTGCACCATGGAAATCAATATGTCGTCCGG 	
+   3751929	    31	 100.0	     0	...............................	|                                   	
+==========	======	======	======	===============================	====================================	==================
+         4	    31	 100.0	    36	TCGCACTCTTTGTGAGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   GGGTTAATGGGCATCCCAATCATCGCGATTCAAATACTGACGATCATCGCCGCCAAAAAAATGATGGACGAAGACAAAGCATGGATTAATAACGTTAGAAAAGAGAAATAGGAAAGGGCGATTTGTAGAAGTTAGCTGAGCCTGCCGGTATAAGTAGCCGGCAGGCTTTGTATTTTTGGGGAAAGCACGTAATTATGAGTGGCGGTGAGGCCAGTGTTTGTGGAATGGGCGATTGCTTGCAAAAAGACATTAGATTTTGATCTATGATCATTAAAAGTGGAGGACGTGATATAATTTGGATAGTCTGACACGCTGAGAGGTGCGAACCCCAAGCACACATAAAATCCCTAGATCACCCGCACCAAAAAAGAGCTCAAATATGAGAAAATATGTGTAAAAGTGGTGAAATGTTGTTAGTTTCCCATGATATGATAAAGGAGAAGAGCGGCTTTTCTCTATTATTTGTGGTTTAAATTCCAAAAAATAGGGAGATTTGGCTA
+# Right flank :  GTATTTTCAATTCGATACAAAAAAAGCCTCGGCACAAAAATGCCGGGGCTACAGTTTTTAGAATGGTATGTTACTTTTGCCTGTTGATTTAAAGGTACTTAATTTCGCCTGCAGTTGAATCAAAATTTGGTGGGGTAAATTGGCAACGATGGCTGGCAGTTCATTCTACCAAGGTCCATTTCTGAAAGATAGTCTGTGTTAACAACAAGGGAACATGCTATAATTGAAAAACAATAGCATAACGGTTACTCAAGGGTGGTCGGCACACTCCCATGAAAGGGGGTGTTGCTGTATGACAGTATTTGAAGGAATTTCCCTTATGTTGACGTTTGGGCTTCTGATCGTTGCAATGCTGTCATTTCACAACCACAAAAAATAATCCACCCTTGAGTTAGTGGCTCAGGTGGATTATTCGTCCAATCGGCCGATCCCTTGCAGGGATCCGAGCTATTGTTTGACTGAAGGTGTGACAGCACCTTCAGTCTTTTTACTTTACTCAT
+
+# Questionable array : NO	 Score: 11.30
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.34, 7:1.36, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCGCACTCTTTGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.84%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.40,-1.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [838,390] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+
+Array 8 3821325-3820779 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_006582-Bacillus clausii KSM-K16 DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                                                                         	Insertion/Deletion
+==========	======	======	======	================================	========================================================================================	==================
+   3821324	    32	 100.0	    33	................................	CACAAAGTAACCAAGCTCCGTTTTCATGTAAGG                                                       	
+   3821259	    32	 100.0	    33	................................	TGCCGCCATGTAATCATCTCCTTTTGTATATAA                                                       	
+   3821194	    32	 100.0	    34	................................	TTTGATGCTGGGTTTACATCCATCACCTTGTCGC                                                      	
+   3821128	    32	  93.8	    35	..........AT....................	AGTCCATTCCTGATAGAACTCTTGTTCATTCTCAC                                                     	
+   3821061	    32	  90.6	    34	..........AT.......T............	TGTTCTACGTCGCTTACTCTGTGCAACTTCGTCC                                                      	
+   3820995	    32	  93.8	    33	..........AT....................	GTATTCAAGTTGAGTCATTAAGCATCATTCCTT                                                       	
+   3820930	    32	  81.2	    88	..........AT.C........C.......TC	TCTTTGACAGATGCTACCGATTCCGCATCTAAAGGTCACACGTGTGTAAGTAGTAGAGTTTGGCCCCCACTCTTTTTCACGCAAAAAC	
+   3820810	    31	  75.0	     0	...........TT........AC...-..TCA	|                                                                                       	A [3820798]
+==========	======	======	======	================================	========================================================================================	==================
+         8	    32	  91.8	    42	GTCGCACTCTTAGTGAGTGCGTGGATTGAAAT	                                                                                        	       
+
+# Left flank :   AGCCCAGCAAGCCATTCGGTTAGTTACACAACTTGAATTAGAAACATCGTCGATCCCGATCATAGTAAAAGGGAGTTTATTAGAGAAAAACGAATTTGTGCGCCACCATTTTGCCGAAAAGCTAAAACAATGTTCAGCTGACATTTCGATTGTTTGTAAAAATAGACCAGCCGTAACAGGCGCTTTGCATGCATGGAAGATTTCAAATCACCATTAAATAGGACCAACTTTTGTGCCTGGGCCGTTTCTTTAAAACGATTCAAGAGACAATGTTGAACCCAAGGGAAAGGATCACCTAAACGAGGATAACGAACATTCAAAGTGCGAACCCCAAGCGCACATAAAATCCCTCGATCACCCGCACCAAAAATGGCCTTAAATATGTGTTAATATGTACAAAGATGTAATAATATGTTCTCATTTGCCGTGCTATGATAGAAAATAGAAGCGAAATCAATCGTTTTCGATTGTTTATTTTCCAGAAAATGGGTAAATGTCGC
+# Right flank :  CTTCTACCTCTTGTTTGATTCCTTTCCTAACAAACCCATTTTCTTCTTGTAAAAGGTCTTTTGGATAAATGCAACTACCATTCCCGTGTGGAGAGTGCAAAATGGCGTAGCCATTAAAGCGAATGTGCTTGCTGGCGCAATTGGGTTGTAACGAATTGGACAAACGCTTTGACGACTGAAAGGTCGAGTGCGGAATTGGAATAGATTAACCACGTTTTTCTTAATAGTGGGTGGTTATCAATGGCAAGGATGCGGTTGTATAATTGGTCATGCGGACGAAGGGAAATTTGAGGGATGATTGCGTATCCTAAGCCATTGCGTACCATTTCTTTGCAAGTCTCGATACGGTCGACTTCCATCGTTACCATTGGTGGCTGGCTAAAATGATGGTTCCACCAGTCTTTGATCATATTATCAAAGATTGGATCGGTTTTATAGGATATCCTTCCAATAGAAGGGAGATCACCCATATGAATCTTATTCTTTGAAATTAAACACAC
+
+# Questionable array : NO	 Score: 9.79
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.59, 5:0, 6:0.7, 7:-0.19, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTTAGTGAGTGCGTGGATTGAAAT
+# Alternate repeat :   GTCGCACTCTATGTGAGTGCGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.12%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [17-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [115,284] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_041824141 [3743113-3743772]; Endonuclease Cas2:WP_041824839 [3741786-3742076]; Helicase/endonuclease Cas3:WP_011248435 [3747648-3750062]; 
+# Array family : NA
+# Sequence source strain : KSM-K16
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus clausii KSM-K16
+//
+
+

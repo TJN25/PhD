@@ -1,0 +1,83 @@
+Array 1 810335-810898 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP015285-Azospirillum humicireducens strain SgZ-5, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	====================================	===============================	==================
+    810335	    36	 100.0	    31	....................................	CCTACCGGTGGGAAATCGGGTGGGGCCGGAA	
+    810402	    36	 100.0	    30	....................................	TCTCCGACCGTTCGCTTGTGTCGCTGGCGA 	
+    810468	    36	 100.0	    30	....................................	GTTTTGTCGTCCCGCGCCAAGCCGAGCCGC 	
+    810534	    36	 100.0	    30	....................................	CCTTCTTCGCAGGTGGCGGAGAAGGCGGAG 	
+    810600	    36	 100.0	    30	....................................	GAGCTTAACGGGGGCCTCCAAATTAGCCGG 	
+    810666	    36	 100.0	    30	....................................	TATCGACCGCTTCGTCCAGCGACAGGCGCT 	
+    810732	    36	 100.0	    29	....................................	AACTGGCCACCGTATGCGAGCTGCGCAAG  	
+    810797	    36	 100.0	    30	....................................	GGCGCTGGCGCGTCCATCCTGGACCCGTTC 	
+    810863	    36	  97.2	     0	........................G...........	|                              	
+==========	======	======	======	====================================	===============================	==================
+         9	    36	  99.7	    30	ATTGTAGCCGCTGGGGGATCGGGGTCCAGCCGCAAC	                               	       
+
+# Left flank :   ACAGGTTCTTTCTGGCGAGCGCCAGGTTCTCGATCTTCCGCTGTCTCCGCTTCCCCTCGAAATCGCTCGTGGACCGTCAGGCAAGGAGGGCGCGCATGCCACTCAGCGCGTATCGGCTCATGTGGATGATGGTGATGTTTGATCTGCCAACCGTGACCAAAACCGACCAGAAAGCGGCGACTCGGTTTCGCAATTTTCTGTTGGATGAGGGATTCGAGATGTCGCAATTCAGCGTCTATATGCGCTTCTGTGCCGGCACTCCGCAGGTCGAGGCGCGAATCGGACGGATCAGATCCAACCTGCCGAAGCGGGGAAAGGTGCAGATCCTGACCTTCACCGACCGTCAATACCAGACGATGGTGTGTTTCGAAACGCGCACGAAACAGGAACCCGCCGCGAAGTACGAACAGTTCAAGCTGTTTTGATGGGCATCCGATGGAAGGTCTTCAGAAAAGAAACCCGGATAACCCTTTTTACTTCAGAGGGTTATCCGGGGTCCG
+# Right flank :  CAGCTGGGCGCAACCGGTGCCATGGAGGGCACCCAGGCCCACGGCGCCATCCTCGACCCGCGCGCCGGCCAGCAGGCCCTGAAGGTCTTCCCCAAGAGTTGGATCGAAGAGAACCCGGGCCGGCGCCTGCTGCTGAGCCAGTCGGCGCCGCTGGTCTAGGGGATGCCGCATATCATGCTGCAGGCCAATTCAACCCCTCAGCATCATTTCAGAATGTGAAGTGAATATGTGGTGAATTTTTCTGCGCCGACACGCGTAAATTTGTGGAGTGCTTTCAGTCTCGCGCGCCACTTGCGTTGCATTGTCCGATGACAATGAAAACCACGCCTGGGTGTCCCAACCATTCTGCAAGGCTCTTGCACTGGCGTTCACCCGTGTCGATGACAGTGACCGTACCCGCCTTGATGCTGCGGCATCACAGACCCGGAGAGTCCGGCGGAGCGTTGGCGTTGAAATGGGGAAAGAAGGCGACTCGCACCTTTCGCCACTTTTATTACCGA
+
+# Questionable array : NO	 Score: 5.23
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.24, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTGTAGCCGCTGGGGGATCGGGGTCCAGCCGCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.20,-7.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-25.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [77,599] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_063636106 [809954-810259]; 
+# Array family : NA
+# Sequence source strain : SgZ-5
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;Rhodospirillaceae; Azospirillum.; Azospirillum humicireducens
+//
+
+
+Array 2 1723264-1722996 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP015285-Azospirillum humicireducens strain SgZ-5, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                                                 	Insertion/Deletion
+==========	======	======	======	===============================	================================================================================	==================
+   1723263	    31	  83.9	    80	TC........C..TG................	CAGCCCGGCCGCCGTTGCGGCGCCTGCCCCCGCGCCTCCGCCTCCTCCGCCTCCTCCTCCGCCCCCCGCACCGGTGAAGG	
+   1723152	    31	  96.8	    32	.......A.......................	TGCGCCGGCGCCCGCCGCCGCACCGGTGAAGG                                                	
+   1723089	    31	 100.0	    32	...............................	CGCGCCGGCCCCTGCCGCCGCACCGGTACAAT                                                	
+   1723026	    31	 100.0	     0	...............................	|                                                                               	
+==========	======	======	======	===============================	================================================================================	==================
+         4	    31	  95.2	    48	CGAGCCAGGCGGACATCGACAGCATGTTCGA	                                                                                	       
+
+# Left flank :   CGAAGCGGTGGAGGCCGGCAAGCATGTCGGCGTCCTGCGCCGCGAGCTGATGGAAATGGCGGCATCGATCGAACAGGCGCGGCGGGAAGTTGCGGCACTGCGGCCACCCGACGGCTCCGGCGACAAGATCCTCTCCGCCACCAACGAACTCGACGCCATCGTCATATCGACCGAACGGGCGTCCTTCGAAATTCTGAATGCGGCCGAACGGCTGATGGATCTGGCGGGCAAGCTGCGCGCGAGCGGGGCCGATCCCGCCATGTGCGGCGAGATCGACACGCAGGTGAACGACATCTTCACCGCCTGTTCCTTCCAGGACCTGACCGGCCAGCGCACCAGCAAGGTGGTCAACGCGCTCCGTTACATCGAGCAGCGCGTCATGGCCATGATCAGCATCTGGGGCGAGGACGGCCTGGCCGGCATCGTCATCAAGGAAGAGCAGACCGACAGCCGGCCGGATGCGCATCTGCTGAACGGTCCGCAGCTGGACGGACACGGCG
+# Right flank :  CAGCCCGGCTCCGGCGCCCGCGCCGGCGAAGAAGCCGGTACCGAAGCCGCCCGGCGCGGCGCCGAAGGCCAAGGCCGCTCCCAAGCCCGCCGCACCGCCCCCGCCGCCCGCGGCGGCGGAACCGCCGGTGCCCCTCGATCAGGCGGCCATCGACGCTCTCTTCGGATAGGGCGGGGAAGCCGCGCCGGCCCGCCCGGCCGACCTCTCCCCCCTAGGTTTCCCCCGATTGACCCGCCCGTCCGGCCGATGGCCCCATGGGGCGCGGACGACGGTTCCAGAACGCAGACCCGGTACGCAACCAGACGATCAACCACCCCACATAGCCACCACCCAGGCCATAGGCGGCCGTTTCCGAGAGGCGGGACCGAGGATGAAGCAGATGACCAAGCCCTTCATGGCCGAGCTTCAGAAAGCCCGCAAATCCGGGCACCCGTTCCAGGCATTGATCGAAGACGGTGCCGCCGCGGCGGCGCTTCCGGTGCCGGCCCAGGTGGTCCATG
+
+# Questionable array : NO	 Score: 2.91
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.76, 5:0, 6:0.34, 7:-0.59, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGAGCCAGGCGGACATCGACAGCATGTTCGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.50] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [16.7-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [372,807] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_063636106 [809954-810259]; 
+# Array family : NA
+# Sequence source strain : SgZ-5
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;Rhodospirillaceae; Azospirillum.; Azospirillum humicireducens
+//
+
+

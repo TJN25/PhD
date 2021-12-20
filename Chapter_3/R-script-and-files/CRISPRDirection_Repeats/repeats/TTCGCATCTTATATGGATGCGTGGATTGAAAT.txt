@@ -1,0 +1,139 @@
+Array 1 54773-54412 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CCDM010000002-Oceanobacillus jeddahense strain S5, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	================================	==================================	==================
+     54772	    32	 100.0	    34	................................	CCACTCTGGAAGAAGCCAAAGCTGCTCGCCTTGA	
+     54706	    32	 100.0	    33	................................	ATTTTTCGTCTGTTCACCATTGGAAGAATTTTG 	
+     54641	    32	 100.0	    34	................................	TCACCCAAGTGCTATAAGGAACCCACTCTCTATA	
+     54575	    32	 100.0	    34	................................	CTATTGACCAGGAACGTGATGCTTTCGGACATCG	
+     54509	    32	  93.8	    34	..................T...A.........	GCATCTACTGGTTCAGTAACTCCCGCCATCACAG	
+     54443	    31	  78.1	     0	...............-..TAA.AA.C......	|                                 	C [54433]
+==========	======	======	======	================================	==================================	==================
+         6	    32	  95.3	    34	TTCGCATCTTATATGGATGCGTGGATTGAAAT	                                  	       
+
+# Left flank :   CTCACCTTATGTAGGTGAGTGGATTGAAATAGAAAGGCCAGCAAACACTTTAAATTTCTTGCGATTCTCACCTTATGTAGGTGAGTGGATTGAAATCGGATACCGGGGCGCATTCCAGCATACAAGTTTCTTCTCACCTTGTGTAGGTGAGTGGATTGAAATCTAACCGTTTGTCTCTGACGTGGCGGTCTGTGCTTTCTCACCTTGTGTAGGTGAGTGGATTGAAATCTTATGGAATGAATAAAGTATTATCAAAAAGGTGGATGCCTATCTTATTTAGGTACGTAAGATGTAACCATTCTTGTTAAAGGAAGTTTTGGACAAACAGGATATGGTGCTAACCTTAGGCAAACATAAGTTACTAAGTAGGTTAGCACTTCAATAAATACAAGGATTTAAAGAGCGTAAGTACAGAAAGCAACCAAATTTTATTATTTGAAAAAAGGTCAGCACTTTTAAGCAGCTGATCCTTTGATGTATTAGTTCTTTCTTTGTACGCT
+# Right flank :  ATTAATATTGCAAATGGAAATGGAGTGTTAAATTTCAGCAAAAAAAGAAACACAAATAAGAGGGGCTCCATCCCAACTCCTCTTTCTAAAAACTCCTTCATCACAACCCCTTACCAATAATAAAAGGAGCTGGCCCATGACAAAAATAATTTGGCTTAACGGTGCTTTTGGTGCAGGAAAAACGCAAACAGCCTATGAACTTCATAGAAGATTGGAAAACTCCTTTGTATATGATCCGGAAAACATTGGTTTCTTTTTAGATCAGAATTTGCCTGATAAGTTAAAAAAGAAGGACTTTCAAGATTACGAAATATGGAGAGAATTTAATTATAAAACCCTAAAATATATCGCGGAAAACGATCAAACTCCAATCATCGTTCCAATGACAATTACGGATACATCTTATTTTAAAGAAATTACCGGTAAACTCGAATCGGAAGAAATCCAATTACATAAATTTGTCTTATCCGCTTCCAAAGAAGTAATCGAACGTAGGCTAA
+
+# Questionable array : NO	 Score: 7.02
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.76, 5:0, 6:0.7, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCGCATCTTATATGGATGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.50%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [138,1654] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Oceanobacillus.; Oceanobacillus jeddahense
+//
+
+
+Array 2 55671-55045 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CCDM010000002-Oceanobacillus jeddahense strain S5, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+     55670	    32	 100.0	    34	................................	ATATATCTTAAACTGTTTACGATACGGAACTGCA 	
+     55604	    32	 100.0	    35	................................	CATTCTGGATAAAATACGCTGTGCATTTCGATCTC	
+     55537	    32	 100.0	    33	................................	TCCGAGCTAAACGTCAGCTCAAACGCCTATATC  	
+     55472	    32	 100.0	    34	................................	TCCCAATGAAACCACCTCATAATTTACTTAATTT 	
+     55406	    32	 100.0	    33	................................	CGGCGCATCTGCATATGAGATGGAACAATTGGA  	
+     55341	    32	 100.0	    35	................................	TATTGACATCTAATTCATCCATCAAACTGGCGAAT	
+     55274	    32	  96.9	    34	..........A.....................	AGAAAGGCCAGCAAACACTTTAAATTTCTTGCGA 	
+     55208	    32	  96.9	    34	..........A.....................	CGGATACCGGGGCGCATTCCAGCATACAAGTTTC 	
+     55142	    32	 100.0	    34	................................	CTAACCGTTTGTCTCTGACGTGGCGGTCTGTGCT 	
+     55076	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+        10	    32	  99.4	    34	TTCTCACCTTGTGTAGGTGAGTGGATTGAAAT	                                   	       
+
+# Left flank :   CGCTTTAGATTATAGATTCCTTTTTTCTGTTCCTACTCCTCTCCACTTTTATTTGCTCTTGTCAAACGGACTTTTTCATTTGGAAAACAAGAACTTTCTATATTTTATCGGAAAGTAGCTTTTCCGGTCAACCTTTTTCTTCCTTTCCGATAAGATAGTTTATGAAATCCTTCTAAAATGTTGCAAAATCTACACAAATGACTGCGTTAATGCAAGTTAGTAAGTTCTTAGACTTAGATAAGAGAATATTTGAAGAAGGATCAAGCATGGTGGTATAATAAAGGAAATATTATGAAAGTTTTCGATAAAGTTTTTAGCTGGATAGATGAATTAGTGCTAACCCTAGGCGAACATAAATTACTAAGGAGGTTAGCACCTCAATGTACCAAAGATTTTTGAAGGTTTTATTGAGAATAATGATTCTTTATTTTTAATTTAATAAAAGGCTAGCACTTTTTATTATTTGAGGGTTTGATGTGTAACATTTTATATTAGTCGCT
+# Right flank :  CTTATGGAATGAATAAAGTATTATCAAAAAGGTGGATGCCTATCTTATTTAGGTACGTAAGATGTAACCATTCTTGTTAAAGGAAGTTTTGGACAAACAGGATATGGTGCTAACCTTAGGCAAACATAAGTTACTAAGTAGGTTAGCACTTCAATAAATACAAGGATTTAAAGAGCGTAAGTACAGAAAGCAACCAAATTTTATTATTTGAAAAAAGGTCAGCACTTTTAAGCAGCTGATCCTTTGATGTATTAGTTCTTTCTTTGTACGCTTTCGCATCTTATATGGATGCGTGGATTGAAATCCACTCTGGAAGAAGCCAAAGCTGCTCGCCTTGATTCGCATCTTATATGGATGCGTGGATTGAAATATTTTTCGTCTGTTCACCATTGGAAGAATTTTGTTCGCATCTTATATGGATGCGTGGATTGAAATTCACCCAAGTGCTATAAGGAACCCACTCTCTATATTCGCATCTTATATGGATGCGTGGATTGAAA
+
+# Questionable array : NO	 Score: 7.23
+# 	Score Detail : 1:0, 2:0, 3:3, 4:0.97, 5:0, 6:0.7, 7:0.56, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCTCACCTTGTGTAGGTGAGTGGATTGAAAT
+# Alternate repeat :   TTCTCACCTTATGTAGGTGAGTGGATTGAAAT
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.38%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.50,-3.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [771,756] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,4.87   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Oceanobacillus.; Oceanobacillus jeddahense
+//
+
+
+Array 3 353806-352647 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CCDM010000002-Oceanobacillus jeddahense strain S5, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+    353805	    32	 100.0	    34	................................	CGTTTGGGTAGGCCGCCCTTAATGCAGGTAACGT  	
+    353739	    32	 100.0	    35	................................	AACCTCTGCACCCTCTGCAGCTGCTTCGGGGTTAG 	
+    353672	    32	 100.0	    35	................................	CGGGCGATTACGTGAAGTATGAGTATGTATATGAC 	
+    353605	    32	 100.0	    33	................................	CGAGTGAGACAGATAAAGAAGACTACGAAATGT   	
+    353540	    32	 100.0	    33	................................	TTTCCATCGCACCCTTTAAAAATCCAATCATGT   	
+    353475	    32	 100.0	    34	................................	TCCGCCTTTTATTATAGTTATCACTGATTCGACA  	
+    353409	    32	 100.0	    34	................................	GATATGATGCAAGTTAAGTCATATTTCTATAAGC  	
+    353343	    32	 100.0	    36	................................	TAGTAACACTTGGGCGTCCGGCGTTTCTGCCCTGGC	
+    353275	    32	 100.0	    34	................................	CTTTATGGCTACTTGTTGATTCAGAAAAATACTA  	
+    353209	    32	 100.0	    34	................................	CACTGATTGGAGAACTACGTACATTCTTCGTGCT  	
+    353143	    32	 100.0	    36	................................	CGTTAATAGCGATGGTACTAGCGTGCGAAAGAGGGA	
+    353075	    32	 100.0	    35	................................	TATTTGGTTAAATGGCATATCATAAACGAATGTAT 	
+    353008	    32	 100.0	    34	................................	AGATAACGTATCAAGGTTTGCAGCACCAGTCGTT  	
+    352942	    32	 100.0	    34	................................	AAATGCTGCCGGCGCTGATAGAGTCTGGGATTCA  	
+    352876	    32	 100.0	    34	................................	TCCAACTTGTTCACTGATAAATACTGTGTTGCCT  	
+    352810	    32	 100.0	    34	................................	CTTGATATTTCTTGCTGTTTTTCAAATTCTTGTA  	
+    352744	    32	 100.0	    34	................................	AATACATTAAAACGCCATGACACAGTGCGAAAAG  	
+    352678	    32	 100.0	     0	................................	|                                   	
+==========	======	======	======	================================	====================================	==================
+        18	    32	 100.0	    34	TTCGCACTCTATATGAGTGCGTGGATTGAAAT	                                    	       
+
+# Left flank :   TTTTGCAGATGGGCAAGAGGCAATTCATTCGGGCAATCTTGTCATAGATGGTCAAGTTGTAGAAGACTTATATGAGGGGCCAGAAGGGAAAATTAGTCCCGGAGAAACGATAGAAGGAACAGTATATCTCGAAGTAATTGATGAGAATATGGAGGAGGTCGAGTTACTCTACCTAAATCCGACATTGCTCACTTTCCCGGATTATGCCATGCGTATCAATTATAATTAGGAGGATGAAGCATAACTTGTTTGTGTAAAGCATCCTGTTTTTCTTTATAAATAGAATAGGATAAAATAGCAGTAACACGTATGATAAGCCTAGATGAATATTTAGTGCTAACCTCAAGCACACATCAATTACTAAGGAGGTTAGCACTTCCTTTACAGCAAGAGGTTTAGCGAAATATCCTAAGAATAAAAGGAAATAATTTTAACTTTTGATGCGGTTAGCACTTTTTCGTTTTTTAAACCTTGTTGTATTAGGGTGTATGATTTGTGCT
+# Right flank :  GGTTAATTACCAACCTACACGGATCCTAAAACTAACATTATCAATACGAAAAAAAACGAGGAGTCATAATTGATACCTCGTTTTTCGTATTTGTGTCCCTCCTAACCTTTTTTCTTCACAGCAATCCAAATCTCACTATAGACTTGATCAAGATTGCTATAATCTTCTACAAAAGAAATTTCAGGTGCCTCCACCAACTCATAATCCGAAGAAGGAAGCCATTCTGCTGCTATTTTCGCCCATGTTTCCTGCATTGTTTGAGGGAATGGCCCTTGAGATGAAAACACAGCCCAAGTATGATCAGGCACCTCTATCACATCCAGCCCTTTAAAAGGCCCTTCTTCATCTGTCAATACGCCAATCATATGCTCCAAATAGCCTTCTTCTTCCATTCTTCCATCATCAAAGTTATAGGAAGCATTAATTACCTTCGTTGGATCTACATTAGCGTGTTGGTGCATCTTTTCTTTTTGAGACTCGGTAATACTTTGCGCCAATTT
+
+# Questionable array : NO	 Score: 10.29
+# 	Score Detail : 1:0, 2:3, 3:3, 4:1.00, 5:0, 6:0.7, 7:0.59, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCGCACTCTATATGAGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:59.38%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.60,-3.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [66.7-65.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [103,272] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.05   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : S5
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;Oceanobacillus.; Oceanobacillus jeddahense
+//
+
+

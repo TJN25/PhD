@@ -1,0 +1,139 @@
+Array 1 125230-124225 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADKF01000018-Escherichia coli E704 supercont1.18, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+    125229	    29	 100.0	    32	.............................	ACGGCTTCATGTTCTTGGTGATGGGGTTCACC	
+    125168	    29	 100.0	    32	.............................	AAAAAATGCGACGACCGCAGCCATTCCGATCT	
+    125107	    29	 100.0	    32	.............................	AGATCAACACGGTAGATATTTCCGTGATTGGG	
+    125046	    29	 100.0	    32	.............................	TCATACGCCTGGTATAGCGATCATCCCGATGA	
+    124985	    29	 100.0	    32	.............................	GCGTTGGAGTTCGCGGCGGCATTATTGAGCCT	
+    124924	    29	 100.0	    32	.............................	AGTCTTTAATCAAAATGGATTTTTATAATGAA	
+    124863	    29	 100.0	    32	.............................	GGTTACGCCTGCACAGAGTACAATGCGTGGGG	
+    124802	    29	 100.0	    32	.............................	CGGTGGCAGTGATGAGGCGTTCCCAATTAATG	
+    124741	    29	 100.0	    32	.............................	CGCACTCAAAATAGTAAATTAATTTATGAATT	
+    124680	    29	 100.0	    32	.............................	CATCCGGCGCTGAACATCGCCACCTGCCTAAC	
+    124619	    29	 100.0	    32	.............................	CGGTGATGCGCGGTATCGATCAGCATCCGGCT	
+    124558	    29	 100.0	    32	.............................	GGCACGGAATTGTTATGCTGTTCCCCTGACCG	
+    124497	    29	 100.0	    32	.............................	TACAGTTTCCATAAATTCACCTCGTTTATATA	
+    124436	    29	 100.0	    32	.............................	ATCGGACGATGGCGATCGCAATCGCGCGGGAA	
+    124375	    29	 100.0	    32	.............................	TTTTTGTTCTCTTCAAAACGCCGAACAACCAA	
+    124314	    29	  93.1	    32	............T.....A..........	GACGCACTGGATGCGATGATGGATATCACTTA	
+    124253	    28	  75.9	     0	..A........C..T....T-.G.....C	|                               	C [124228]
+==========	======	======	======	=============================	================================	==================
+        17	    29	  98.2	    32	GAGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   CGTGCTTGCTGCTGGAGAAATACAACCGCCGGCCCCACCTGAAGATGCACAGCCTGTTGCCATTCCGCTTCCTGTTTCACTGGGAGATGCAGGCCATCGGAGTAGCTGAAATGAGTATGTTGGTCGTGGTCACTGAAAATGTACCTCCGCGCTTACGAGGCAGATTAGCCATCTGGTTGTTGGAGGTACGTGCAGGGGTATATGTAGGTGATGTATCCGCAAAAATTCGTGAAATGATCTGGGAACAAATAGCTGGATTGGCGGAAGAAGGCAATGTAGTGATGGCATGGGCAACGAATACGGAATCGGGATTTGAGTTCCAGACATTTGGGGTAAACAGGCGTACCCCGGTAGATTTGGATGGTTTAAGGTTGGTATCTTTTTTACCTGTTTGAAAACAAAGAATTAGCTGATCTTTAATAATAAGGAAATGTTACATTAAGGTTGGTGGGTTGTTTTTATGGGAAAAAATGCTTTAAGAACAAATGTATACTTTTAGA
+# Right flank :  AGCTCCCATTTTCAAACCCATCAAGACGCCTTCGCCAACTCCTTCACCAGAGGTAGCATTATCCGCATAACGTCACGGCAGCGACGTTCTATTCTTCCAGGAAGTGCCTTATCAATATGCTGTTGATTATCCAGTCTTACGTCATGCCAGCTATTTCCCGCAGGGAATGCGGCTGTTTTTGCGCGTTGCTGATAACCATCCTTATTCCCAAGATTCCAGTTAGTCGCTTCCACCGAAAGTACAGCAATGCCCGCTTTGTCGAATATTTCTGCGTCATTACAACACCCAGTGCCTTTCGGATAATTTTTATTCAAACCCGGATTGGTCGTTGCGGCTATTCCGTGACTGCGTGCAATTGCCAGCGCCCTGTCGCGCGTTAATTTCCTTACTGCTTCAGGGGTTTTTACACCGCTGTTGAAATACAATTTATCGCCAACAATTAAGTTATCGAGATTAATCACCAGCAGCGTATTTTTCTTTTCGGTGTCACTCATCCGCTT
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.91, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [50.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [22,106] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase Cas3:NA [132136-134276]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : E704
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli E704
+//
+
+
+Array 2 240674-241007 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADKF01000018-Escherichia coli E704 supercont1.18, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+    240674	    29	 100.0	    32	.............................	CGCGAGCGCGTTAGCTGACGACATGATCCAAA	
+    240735	    29	 100.0	    32	.............................	CAACATATTTAAACGATTTAAGCCAGGCATAT	
+    240796	    29	 100.0	    32	.............................	TTCTGGGTAACTGGGCGTGGATATCCGGCGAT	
+    240857	    29	 100.0	    32	.............................	CAGCCCCTGAGTCAGTGGATGATTGCGAATGA	
+    240918	    29	 100.0	    32	.............................	AACTTTTTAACAGTGTGGCGCAGGCGATGGGC	
+    240979	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+         6	    29	 100.0	    32	GAGTTCCCCGCGCCTGCGGGGATAAACCG	                                	       
+
+# Left flank :   TGGATGAACTACTGGCAACGCTGACCGATGATAAACCGCGAGTCATTGCACTGCAGCCGATTAGCCAAAAGGATGATGCCACACGTTTGTGCATTGAAACCTGCATTGCGCGTAATTGGCGTTTGTCGATGCAAACCCATAAATATTTAAATATTGCCTGATTAAACATTTATAAGCGTTATAAATGGGTGGAACCTGTAAAGACTTCTACTCATTTATATTGTTTGTCGCCTCTGAAAACTCCTCCATTTTACCCATCCAGGGCTAATCATTAGCATTCTCTACAAATTCTGTGGCATTAATTTTTCGCTGGAGTGAAAATTATTGCGGTAAAGTTTGGTCGATTTTAGTTTGTATAGAGTTATTTTAATTATTTACTTTTTCAATCAATGGATTAAGTGCTCTTTAACATAATGGATGTGTTGTTTGTGTGATACTGTAAAGTTGGTAGATTGTGACTGGCTTAAAAAATCATTAATTAATAATAGGTTATGTTTAGA
+# Right flank :  GCAGCCCCTGAGTCANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGAGTTCCCCGCGCCTGCGGGATAACCGCAGCCCCTGAGTCAGTGGATGATTGCGAATGAGAGTTCCCCGCGCCTGCGGGGATAAACCGAACTTTTTAACAGTGT
+
+# Questionable array : NO	 Score: 8.26
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCCGCGCCTGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [75.0-8.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [341,1138] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.92,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase Cas3:NA [132136-134276]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : E704
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli E704
+//
+
+
+Array 3 241462-242099 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADKF01000018-Escherichia coli E704 supercont1.18, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+    241462	    29	 100.0	    32	.............................	AACTTTTTAACAGTGTGGCGCAGGCGATGGGC	
+    241523	    29	 100.0	    32	.............................	GTGCGGCAGATATTGACCGTGAAGCGGTTATC	
+    241584	    29	 100.0	    32	.............................	CATATCGCGATCGCGCCGGGTACGAAAATCAC	
+    241645	    29	 100.0	    32	.............................	AAACACCTGAACGATGTCATCAACGACGTAAA	
+    241706	    29	 100.0	    32	.............................	CTATGAAGGCGTAGTGGATTCAGTCATAAAAA	
+    241767	    29	 100.0	    32	.............................	AGGACGTAAACCCAATGAAAAACATGATTGCG	
+    241828	    29	 100.0	    32	.............................	CGCGGCAATGGATGCGCAGGTACGCGAATTAA	
+    241889	    29	 100.0	    32	.............................	GTGTTTGAGGTGCCGCAGCCAATCTGTACGTC	
+    241950	    29	  96.6	    32	..............A..............	ATCTCGCTTCTGATGGTGCACCTCATCAATAG	
+    242011	    29	  96.6	    32	..............A..............	AGATTTTGGGACAACGTATTCAGTCTGGACGA	
+    242072	    28	  86.2	     0	............T.A........-....A	|                               	
+==========	======	======	======	=============================	================================	==================
+        11	    29	  98.1	    32	GAGTTCCCCGCGCCTGCGGGGATAAACCG	                                	       
+
+# Left flank :   TGGCGCAGGCGATGGGCGAGTTCCCCGCGCCTGCGGGGATAAACCGCAGCCCCTGAGTCANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGAGTTCCCCGCGCCTGCGGGATAACCGCAGCCCCTGAGTCAGTGGATGATTGCGAATGA
+# Right flank :  ATTTAGGTATGTTCAGGCCGGGCAGTTTTCCGCCCGGCCTACCTCATTCACACATTCGACCAGCTCTGGATCGAATCCGCATTCCCCAATTCCCCATGCATCACTTCATACGATTTTTTCAGAATCACATCAGTGTGTTTGGTTAAATCTTTGAAAATGCCTTTATTCATCGCGTCGTAGCGTTTGGCATTGCTCTCAACAGGCATAAAGATATCTTTCACGCGAACCATTTTATCGACAGCCGTTGCGTAATCCGGGTATAGCCCCAGACCTACCGCTGTATTAATCGCTGCCCCCAGGCTTGCACAACCGTTAATGGCGTTACGTCGTGCCGGAAGGTTGAACACGTCGGCAAAAATCTGCATAAACAGATCGCTGTTCGAACCGCCGCCAGTAATGATCACATGCTTCGCAAAGTGATTCATTTCATTACACATATTGTCGTAATTGTTCTTCAGCGTCAGCGCCACGCTTTCCAGTATCGAACGATATATCCATGC
+
+# Questionable array : NO	 Score: 8.02
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:1.12, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GAGTTCCCCGCGCCTGCGGGGATAAACCG
+# Alternate repeat :   GAGTTCCCCGCGCCAGCGGGGATAAACCG
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [38.3-45.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1129,47] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.83,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase Cas3:NA [132136-134276]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : E704
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Escherichia.; Escherichia coli E704
+//
+
+

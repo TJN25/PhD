@@ -1,0 +1,83 @@
+Array 1 2433-2827 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB895134-Salinispora pacifica CNS996 C553DRAFT_scaffold00041.41, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+      2433	    29	 100.0	    32	.............................	CTGACCGCCTCCCTGCCCCCTCAGGGCCCCAA	
+      2494	    29	 100.0	    32	.............................	TTGAGTGCGGTGATGCCGAGCGCGAAAGCGGC	
+      2555	    29	  96.6	    32	......................A......	TGCAGGGCCTCCTCCATGAGCCCATGCATGGC	
+      2616	    29	 100.0	    32	.............................	GTAGAGATCACCCGGGAGGCGTGGGAGCAGGG	
+      2677	    29	 100.0	    32	.............................	TAGCGCTTCAGCCTGCTGAAGTAGCGCTTCGC	
+      2738	    29	 100.0	    32	.............................	CCATTCGTGTTCGCATGATCACCGTCCGGAAT	
+      2799	    29	  93.1	     0	.................A....C......	|                               	
+==========	======	======	======	=============================	================================	==================
+         7	    29	  98.5	    32	GTCCTCCCCACGCACGTGGGGGTGCTCCG	                                	       
+
+# Left flank :   AACCGGGATCGGCTGAGGTGGGAACCACAGATCACACTGGGCGACCTCACCCGGGTCGTACTCCACTCGGTCGGTCGGGTCCGGCGGAACGAACAACGGACGCAGCTCCCGAACCCGGTCCTTGAGGATCGTCAGCGACTTCGTCCACCCGATCCGCTCAGCGATCACCGTCGCCGGCATCCGCGGGAACTCCGCGAGCAACGCCCGGACCTGCGGCTCGACCCCATCCACACACGAACCGCGAGGGCCGCGCTCACGCGACGGCGGCGCCTCGGCCCGAAGCGCCGAACGGACCGTGTTACGCGCCAAACCCAACCGACGCGCAATCTCCTTGATCGGAACACCCTCAGCCCGATGCAACCGACGGACCTCAGCCCAGTCTTCCAATGCGATCACCCCTCCAGCCTCGGAGGGGTCAGTCCCAATCCGCCGCTAGAGGGTCAGTCTCAGCGCGTCGTCGACACTCCGCAACGCAACGCCTTGGCGGCTCAGAACGTGCA
+# Right flank :  GTCCTCGACGCTGTCCGCACCGGTTACACCAGCGTCGGCCTGGCCGTTTCTGAAAGTCCTGGCCATACAGTAAGCGGCGTTGTGGTTGGCAGGTTGTCGTGCTGGGAGGGGTGTGGGCGCGGTGAGGACAGTTCAGGTTCGTACGTATCTGGTGCGGGTGGGTCGGTTGGATGAGTGGGTTGATGCGTGGCGGAGGTTGATTGTTCCGTTGCGGCGGGAGTTCGGTTTTGAGGTGCACGGTTCGTGGGTGGACCGGGACGCGAACGCCCATATTTGGGTGCTTTCCTACGAGGGGGGTCGGTCGTTCGCGGAGGCTAACGCGGACTATTGGGCGTCGCCGCAGCGGGAGCGGTTGGGGGTGAATCCGGCGGAGTTCCTGGTGGGTGAGCAGGTCCGTGAGGTGGAGCAGGTCTTGTAGCTACTCCGCTGCCGGTAGGCGGTGGGCGGCGCGTTCGTCGGGAGTGAGGGTCCGGACGACTCGGTGGCGTGCCGCGCGCAGG
+
+# Questionable array : NO	 Score: 9.14
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.93, 5:0, 6:1, 7:1.21, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCCTCCCCACGCACGTGGGGGTGCTCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.50,-10.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [36.7-36.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [271,112] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_018738830 [30780-31928]; Endonuclease Cas2:WP_018738831 [31925-32227]; 
+# Array family : NA
+# Sequence source strain : CNS996
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica CNS996
+//
+
+
+Array 2 32814-32413 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB895134-Salinispora pacifica CNS996 C553DRAFT_scaffold00041.41, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	====================================	========================================	==================
+     32813	    36	 100.0	    35	....................................	CTGGCTGCCGGAATGGCGCCGTTCGGGCTGCTCAA     	
+     32742	    36	 100.0	    38	....................................	TGGGAAGCCACGCCATACATCTTCGGCGTTGGCGTGAC  	
+     32668	    36	 100.0	    35	....................................	CGCATTGCTCAGGAGGTGCCGGGCCTGCGGATCGC     	
+     32597	    36	 100.0	    40	....................................	CCGCGGCGGTCTTGCCCGTACGCAGAGCCCGCGCTAGCCG	
+     32521	    36	 100.0	    37	....................................	CATTCGGCGACGCCACCATCCCCCCGGTGCCGATGGG   	
+     32448	    36	 100.0	     0	....................................	|                                       	
+==========	======	======	======	====================================	========================================	==================
+         6	    36	 100.0	    37	GCCTCAATGAAGGGCAGCTCCGCTGGGAGCTGCGAC	                                        	       
+
+# Left flank :   CGGTGACCGCGCTGACCAAGCCGCTGCCGTTACGCGACGAGGTGTTCCTGCTAGGCCACGACGGCGACACCGGCCGCACCCACATCCACCGGCAAGCCCTCGCCCTCGGCCTAGCCGGCGCAGTCCTCATCGACCTGTTCCTCACCAGACACATCACCCTCACACCAGCCGGCGACCCACACCTCTACCCACACCGATACCCCAAGCGCCCTACCGGCGACCTGATCGCCGACACCGCGATCACCTCAATCCGCCACGCGAACACCCCGCCACCGCTACGCGGCTTCCTACGCGGATTCAGCACCGACCTCTACGAACGCACCCGCGCCACCCTGGTCACCGCCGGGATCCTGCACCACCACCAACGACGCCGCATGGCCGGACTCATGCGCACCGACACCTACCTACCCAGCCACCACCGTTGGCAGATCATCCCCCGCGCCCGACTATGCGCCCTCGCCCGAGGACGAGAACAACCCGACAACCTCCACGATCAGCGG
+# Right flank :  TGGGTCAGAATTATAGCCGCTCTGACCTGCACCTGAACCGGTCTGCTGCGAAGGGTGCGCTTCCTGCGAGGCGGAGTAGCGCTCAAGGCCGCGTACCCGCAGACCTACCCGGCATGTGAGCTGGGCTGACACCCTGGCGACGGGTCCGCGCTTAGCGGCGAGACGACGCAGGCTTCGCCGGTGGTTCAGAGGATCGCTGGTCCGTGGTTGGTGATGGTGCGGCTGCAGCCGATCACGTCGAGTGGTCGACGGTTGTTCTCGCGAAGGGTGCCCAGGTTGCAGAAGATGACGGAGTCTCTTTCCTCGTCGATCATTGCGGTGAGTTGGGTGCGGAGTCGTAGGAACTTTGCTGGCCGGGTGTCCACGATGAACACGCTGTGCTGTATGCGGTCGCCGTATGATTCGAGTTTCTTGGCGACCTTCGTTCGGCGGATGTCGTCGGATATGTCGTACGCGATGAGGTAGCGTCGCACGTCGTCAAGGTTCATCGGGTTTTGATG
+
+# Questionable array : NO	 Score: 5.71
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.71, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCTCAATGAAGGGCAGCTCCGCTGGGAGCTGCGAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-9.10,-10.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [40.0-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [187,16] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.74   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_018738830 [30780-31928]; Endonuclease Cas2:WP_018738831 [31925-32227]; 
+# Array family : NA
+# Sequence source strain : CNS996
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;Salinispora.; Salinispora pacifica CNS996
+//
+
+

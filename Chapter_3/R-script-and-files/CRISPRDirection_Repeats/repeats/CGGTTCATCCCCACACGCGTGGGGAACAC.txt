@@ -1,0 +1,43 @@
+Array 1 472-13 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JMIO01000066-Methanoculleus sp. MH98A c66, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       471	    28	  86.2	    32	G..............AA-...........	GAGGGCCGGCACGGAGAGATACCGCAGGATGC	T,AG,G [463,465,468]
+       407	    29	 100.0	    32	.............................	TCCAAGCCGTATAACGACAACTGACGATACCA	
+       346	    29	 100.0	    32	.............................	AGGTGCGGCGCGTCCTGGACGACCTGGAGTCC	
+       285	    29	 100.0	    32	.............................	ATCGCCCGGCAACCGTGAGTGTCGGCCAGCGC	
+       224	    29	  96.6	    32	...........................T.	GACCCCGCCCGGGCGACCGGGCTGGACCGGGC	
+       163	    29	  89.7	    32	..............GT...........T.	TGGCAAAAAGTCGATCAGGATCTCAGTGAGAT	
+       102	    29	  89.7	    32	..............GT...........T.	GGCCGCCTCTTCGAGGATCTCGAAGGCCTTCT	
+        41	    29	  89.7	     0	..............GT...........T.	|                               	
+==========	======	======	======	=============================	================================	==================
+         8	    29	  94.0	    32	CGGTTCATCCCCACACGCGTGGGGAACAC	                                	       
+
+# Left flank :   GCCTCCCCGCCTCGTTGAGATTGCCTGGCTGGTCTGCGATGTCATGGGAGAAGTCTTGGAGAGGGACAACCGGGTCATTCGTCCGGATGGCTTCACGATCCCGGTGAGCGCCTCCCGGATCCACGGGATCACCACCGGGTACGCCCGGCGGGCTGGTGTGCCCGTCCGCGAGGCTCTTGATGCTCTCTCTCTGGCTGCAAACAAGAGTTCTACGATTGTCGCGCATAATCTCAGGTTTGACCTTGCAGTCATCGCGGGTGAATACAGGCGTGTCGGCGTTCCTGACCCGCTCGCCGCTTTTCCCGGCATATGTACAATGGAGTCAACGTCGTCACTCTGCAAGATCCGGCGGGGAAGTGGATACAAGTGGCCGACACTCTCTGAACTTCATCAAACACTCTTTAGCCACCCCTACGGGGGTGCTGCTCATCGCGCAGCTGGCGACGCAGAGGCGTGTGCACGTTGTTTTTTTGCTCTCAAAGAGACGGGTTTTTGGGAAC
+# Right flank :  CCCGACCCGGCCC
+
+# Questionable array : NO	 Score: 7.26
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.75, 5:0, 6:0.45, 7:1.21, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGTTCATCCCCACACGCGTGGGGAACAC
+# Alternate repeat :   CGGTTCATCCCCACGTGCGTGGGGAACTC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-11.20,-10.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-38.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [14,57] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : MH98A
+# Taxonomy hierarchy : Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales;Methanomicrobiaceae; Methanoculleus.; Methanoculleus sp. MH98A
+//
+
+

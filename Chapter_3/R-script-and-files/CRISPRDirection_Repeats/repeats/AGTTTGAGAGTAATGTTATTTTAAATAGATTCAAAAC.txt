@@ -1,0 +1,41 @@
+Array 1 398-31 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ATKB01000131-Fusobacterium nucleatum subsp. vincentii ChDC F8 Contig131, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+       397	    37	  97.3	    29	T....................................	AAGCAAGATTTTCTATACTTATAAACTTA	
+       331	    37	 100.0	    29	.....................................	GGGGAGGTGTACACAATTTGATAACAGAT	
+       265	    37	 100.0	    29	.....................................	TCAAGCCTATCAATATAAGTAAACACTAT	
+       199	    37	 100.0	    29	.....................................	CAATTTCTAATAATTGTCCTATTTTTATA	
+       133	    37	 100.0	    29	.....................................	GAGCAGCAACTCAATCTACTGACATGAGT	
+        67	    37	  97.3	     0	G....................................	|                            	
+==========	======	======	======	=====================================	=============================	==================
+         6	    37	  99.1	    29	AGTTTGAGAGTAATGTTATTTTAAATAGATTCAAAAC	                             	       
+
+# Left flank :   ATAGATTCAAAACTTCTGAGAAGACATTTGAAAGAGAAATT
+# Right flank :  CATTATTTAGAAAAGGTAGGGGATTAATCCT
+
+# Questionable array : NO	 Score: 7.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.05, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTTTGAGAGTAATGTTATTTTAAATAGATTCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.38%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [35.0-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ChDC F8
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromATKB01000131.FEATURES             Location/Qualifierssource          1..439/organism="Fusobacterium nucleatum subsp. vincentii ChDCF8"/mol_type="genomic DNA"/strain="ChDC F8"; Fusobacterium nucleatum subsp. vincentii ChDC F8
+//
+
+

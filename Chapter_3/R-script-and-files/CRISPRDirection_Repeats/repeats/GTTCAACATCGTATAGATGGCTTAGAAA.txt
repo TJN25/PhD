@@ -1,0 +1,150 @@
+Array 1 1638421-1637373 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP004391-Pasteurella multocida subsp. multocida OH4807, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   1638420	    28	 100.0	    32	............................	TTTTTCACCAACGAGATATGCACGACCACCAC	
+   1638360	    28	 100.0	    32	............................	AACTATCACTTGCCTTTTCTTTTACTGCAATG	
+   1638300	    28	 100.0	    32	............................	GAAACCAAAAGCAAAAACACAAGCAGAAAGCG	
+   1638240	    28	 100.0	    32	............................	TTACTCGTTCTAATGTTGGTATGACAGCGTAT	
+   1638180	    28	 100.0	    32	............................	TTGCAGTCTGCTAACGTTTTTGAGCAAGTCGG	
+   1638120	    28	 100.0	    32	............................	TAGCCCATCATTGACTACTTTTAAAGGGGTAG	
+   1638060	    28	 100.0	    32	............................	GTTAGTCGATGAGAAAGAAAAAGACAAACAGA	
+   1638000	    28	 100.0	    32	............................	TCCAGTTTTGACTTTTTCAATCATTATAAATC	
+   1637940	    28	 100.0	    32	............................	AGCCACTCTACCAACTGAGTTAACTATCCTAA	
+   1637880	    28	 100.0	    32	............................	AATCCGTGCTGATATGATCAATCAAAGCTCTA	
+   1637820	    28	 100.0	    32	............................	ACTGTCACCTGCCATTGCTCTCTTATATGCAA	
+   1637760	    28	 100.0	    32	............................	TTAAATTAAAATCCCTAATCACAAAGCACAGA	
+   1637700	    28	 100.0	    32	............................	GTATGCCATTGTTAGACTGAACGATGCAACGC	
+   1637640	    28	 100.0	    32	............................	AACGCCAATTTGTTCTAAATGACCGATTAAAT	
+   1637580	    28	 100.0	    32	............................	ATATTATGGTCTTGATTTTGGGTTTGCCAAAG	
+   1637520	    28	 100.0	    32	............................	GCTTTTCACGCACACTGGCAGCGGCTATCAGC	
+   1637460	    28	  89.3	    32	................ATG.........	AGACATCAGGACTTAAAGGATAATCCAGAAAA	
+   1637400	    28	  78.6	     0	GT.A..CAT...................	|                               	
+==========	======	======	======	============================	================================	==================
+        18	    28	  98.2	    32	CATCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   CCATATAGTGCGGATACATATTTACACCGTATTGGACGTACCGCGCGTGCAGGTAAAAAAGGCGTGGCAGTTTCTTTTGTGGAGGCTCATGACTATAAATTACTTGGTAAAATCAAACGTTATACAGAAGAATTATTAAAAGCACGTGTGATTGACGGCTTGGAGCCTCGCACTAAGGCACCTAAAGATGGCGAAGTCAAAACAGTAAGTAAAAAACAAAAAGCACGTATTAAAGCGAAACGTGAAGAGAAACAGAAGCAAACTCAGCAGAAAAAAGTCAAATTACGTCATAAAGATACGAAAAATATTGGTAAGCGACGTCAACCCAGCGGACAAGTTCATCAACTTGAGTCCTAATTTCTATTAAAATAACCCTTTTTTCTTAGGGTCTTTTTAAGTCAATAAGATCAAAGGGTTATGTTTATCTCTGAAAAAAAGAGTTTTGTCTGTAAAATAAGCTAAAACGTGATAGATTAAGGGGGGTGAATGACACTGCTTTA
+# Right flank :  GATAAGTCTCGCTCAGAGCACCAAATTAATAGCATCGCTAGCGGTGTTCAGTGAAATACTGTGCAGTGTGTTGCAGGTGTTTTCCCCCTTATGTAATAAGAGGGGGAAATGGGGATTTTATTGAGATATAGTGCTTTCTTTTGGATAAATTGCCCCCAAACTGACCGCACTGGCGCCGGTGACACTTGGCAAATTGGCGGGCAGGTTGTTGAGGCGTTGGTAGGCGAGCCACGCAAAAGCGGCGGCTTCGACATAGTCTGCATCTAAACCGTAGTCATTGGTGGTTTGGACTTGCCATTGAGGTAATAAAGCTGTGAGGCGTTCCATTAATAAGCTGTTTTTTACGCCACCGCCGCACACTAATAAGTGGCGTGCTAAATCCGTTTTAATCTGATTGAGCTGATCCACAATGCTTTGTGCAGTGAGTTCCACAAGGGTGGCTTGCACGTCTTGCGGTAAAAGTGCGGTGTGTTTTTCTAATTTTTTATGAAGCCAAGCTA
+
+# Questionable array : NO	 Score: 7.98
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.91, 5:0, 6:1, 7:1.07, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CATCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [56.7-65.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [119,144] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.28   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_046339713 [1642796-1643800]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : OH4807
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Pasteurella.; Pasteurella multocida subsp. multocida OH4807
+//
+
+
+Array 2 1642093-1640745 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP004391-Pasteurella multocida subsp. multocida OH4807, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   1642092	    28	 100.0	    32	............................	TTTTTATATTGACAAAGAGGCAGATTGTTATA	
+   1642032	    28	 100.0	    32	............................	TTCTTGTGTCATGAAAATGGAGATGTTCAAGT	
+   1641972	    28	 100.0	    32	............................	AATTTCAAGTTTTATATTTGTCATCATCTACT	
+   1641912	    28	 100.0	    32	............................	AATTCTTCCCGCGTAATTTCCAACATTTTGAT	
+   1641852	    28	 100.0	    32	............................	AATTAGTAGTTCGCTTTTCATTTTATCTGCTC	
+   1641792	    28	 100.0	    32	............................	TGCTTTAGCGGAAACAGGTATCAATACTACAA	
+   1641732	    28	 100.0	    32	............................	TTCCAAGGTACTACTCTTTCGGTTATCAACCA	
+   1641672	    28	 100.0	    32	............................	TGCATGACTAATGCTGAATCAGTACCTGAGTT	
+   1641612	    28	 100.0	    32	............................	GCCATCGGTTTTCTGTTTCTGATCGAGTTTCA	
+   1641552	    28	 100.0	    32	............................	CATATAGTTATCTTTTCCTTCTATATATACGA	
+   1641492	    28	 100.0	    32	............................	TATCAGCCTGATAGTCGGCACATCCTTTAGGT	
+   1641432	    28	 100.0	    32	............................	TTTCTCGCAATCTGTCTGATCGCGTTTGCTGC	
+   1641372	    28	 100.0	    32	............................	AACATTAAAACGAGTAAGGTTTGGCAATCTAT	
+   1641312	    28	 100.0	    32	............................	TGAATCAATCAGCTACCTTAAGCGAAATGGTG	
+   1641252	    28	 100.0	    32	............................	CAATTCAACTGCAATGATACGACTTGCTTGCC	
+   1641192	    28	 100.0	    32	............................	AGCGTTAGTAATCTCACCAAACGCTTTAATCC	
+   1641132	    28	 100.0	    32	............................	AATTCTTGTTGATACCAATCGCGCACGAAACC	
+   1641072	    28	 100.0	    32	............................	CCTTTTTTTTAATTGCCTACTGCAACCCAAAA	
+   1641012	    28	 100.0	    32	............................	CAAACGTGAATCACAACAAAATTTTCTTCTTC	
+   1640952	    28	 100.0	    32	............................	TCATTTTTTCAAGCAGTGGGGACATTATTCGA	
+   1640892	    28	 100.0	    32	............................	AACGATAAGTCGCATCATCTAGGCGTTTTCTA	
+   1640832	    28	 100.0	    32	............................	GCCGAATCCGTCTGGCACAAGCTGATCACAAT	
+   1640772	    28	  82.1	     0	.....................AGT.TT.	|                               	
+==========	======	======	======	============================	================================	==================
+        23	    28	  99.2	    32	GTTAACCATCGTATAGATGGCTTAGAAA	                                	       
+
+# Left flank :   CAGCTTTATCAACACTTATTGCAAGCAGGATTACAGGATTATGCCTTGATCAGTGGTGTGAATGAAACGCCTTTTGTGACCGAATATCGTTGTTATAGCCGTGTTCACCGCAAGGGACAAAGTGCGATTCGTCGTACGGAGAAGTTTTTAAAACGTATTAATAAATGGCATGAGGGCGTTCGTGATGAAATGATACAACATCAACAAAATACCCCTTATTTTCCACATGTTCATTTAAAAAGTGCTAGCACGAATCAACGTTTTATCTTAGCAGTAAAAGTCAATAAAACGGTTACTCCTTATATTGCACCATTTAACAGCTATGGGCTAAGCAATACCGCTACAGTGCCACACTTCTAACCCTATTTATAACCCTTTTTTCTGACTGGTAGAATTTACTAATAAGATCAAAGGGTTATAAATGTCTTAGAGAAAAGGGGTTTTCTTGTATATGTTCTTTAACAAATTGAAGAATAAACTGATTTTGATTATGTTATATA
+# Right flank :  TTAAGTTGAGAGACGATCTTGTCTTATCAATACTTTAAATAAAACGCGCTTGTGAGTTGAATGAAGCTTGGATGATATTGATTATTTTTGTCATAAATAATCACCTGACTTTGTTTTAATGGTTGGGGTTGTTGTGCAAACGTCAAGAGTAAACGTTGTGGCGCTTTATCGATTTTAGTCATGATGTCACAACGTTCAATACAAGGAAGTGCGGTTTGTTTTAATAAGATTTCACCTGCATTAAATGGAAGTACTATACTAATTTTACCCAATGGGTTCACACACTTAGCCGCGAAGTTGAGCCAATCTAAATGGCTATGTGATGTTGTATAACGTGCTAAATTACGTTGTTGGCTCCCACAATCGACGCCAGGTATAAAATAAGGTGGATTTGCCACAATTAAGTCAAATTTTTCCACGGTGTGAGTGCAAAAATGGGCAATGTCTTGTTGGTGTAGGTGAATTTTAGTCGCCCATTTGGATTGTTGAATATTCTCTTG
+
+# Questionable array : NO	 Score: 8.02
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:1.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTAACCATCGTATAGATGGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.70,-6.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [66.7-81.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [28,141] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.23   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy3:WP_046339713 [1642796-1643800]; 
+# Array family : NA
+# Sequence source strain : OH4807
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Pasteurella.; Pasteurella multocida subsp. multocida OH4807
+//
+
+
+Array 3 2052069-2052276 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP004391-Pasteurella multocida subsp. multocida OH4807, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   2052069	    28	 100.0	    32	............................	ATGGTATTTTTGTCCATTTGACACTTGGGTAG	
+   2052129	    28	 100.0	    32	............................	ATTGCTTTTATTTTGATGACTTAATCCAGGTA	
+   2052189	    28	 100.0	    32	............................	TAGTAAATCATGTAGGCATGATAACCGCTTAC	
+   2052249	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         4	    28	 100.0	    32	GTTCAACATCGTATAGATGGCTTAGAAA	                                	       
+
+# Left flank :   AGTCAGTCAGAAAGGTTTAATCTATTCAGATGCCTACTCACTTATTCACCAACGCTTTAATGTGCAACATATTGATGAACTGACAGCAGAACAAGTCCCAATGGCGGTAGAGTATATTCATAAGATCGTTTTAGAGGGCGAACTGATTACAGATACATCGCCAAAAATTAAAGAAGATGAAATTGTCGTGCCTTACAATGTGTTTTATTCTTTATATAAACACGGACAACGTGGGCGACAATTAGGATATGAGGTGAGTATTTTATTGGATTCCTTGTTGAAATTATTAGGTGCAGAATACGGAAGACCTAAGCTCACAGGCTTAGCCTATGATTGCCAAGCGCAATGTATCCACTGGTTAGATTTAGCTGAAAAGATTATTGATAAGAGAAATTTAACTGGAGTAAGAGCATAAAACCACTGAAAAACCGACCGCACTTTTTATAGTGCGGTTGAAAGAATAGACTGTTTTTGTTATGTTTGAAGATAAGTATTGATTT
+# Right flank :  ATTATCTGCAATTTATGAAATCTCAATATAGAAAATAGGCTTGACGTGAAACTTAGATAAAATGGCGTTTAGCCCTTTATATTAATCTTTGACATTGTCTTGTTTTCGGTTCTTACTCTTAATAAAGCTTTACAGTGTCACATTGAGTTTTTCGGAAAAATTAATATAGTATCGGAAATAAAAGATGCATTATAGCTATACTTTATTGATTTTAAAGACATATTATCTAAAATATTAAAAAAGCACACATTTATTTTAAACCTCAAAATTTAGGAGAAATGATGAAAAAATCAGTATTAGCTGCATTAGTATTAGGCGCAAGTTTAACTGTAACGGGTTGCTTTGATAAAGAGAGCAAAGCGGGTCAAGAAGTTGAAAAAGCAAAATCTAGCGTTGTTGAAGCGAAAGATGCCATAGTAAGCGCAGCTGGTGAAGTGAAAAACTCCGCAGCAGAGAACGCAAAAGAAGTGAAAGACGCGGCAGCAGTGAAAATGGAAGAA
+
+# Questionable array : NO	 Score: 8.11
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCAACATCGTATAGATGGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.80,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [87,281] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Csy3:WP_046339713 [1642796-1643800]; 
+# Array family : NA
+# Sequence source strain : OH4807
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;Pasteurellaceae; Pasteurella.; Pasteurella multocida subsp. multocida OH4807
+//
+
+

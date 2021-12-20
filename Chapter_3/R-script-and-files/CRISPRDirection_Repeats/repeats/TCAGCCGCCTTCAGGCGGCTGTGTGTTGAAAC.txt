@@ -1,0 +1,85 @@
+Array 1 168-3 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AEPI01000057-Neisseria lactamica NS19 contig00057, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	================================	====================================	==================
+       167	    32	 100.0	    33	................................	TGCGCCCCAATCTTCGGCTATTTCGACATCAAC   	
+       102	    32	 100.0	    36	................................	ATGTTGAAATATTTTAAATATATTATCTATGCAGGG	
+        34	    32	 100.0	     0	................................	|                                   	
+==========	======	======	======	================================	====================================	==================
+         3	    32	 100.0	    35	TCAGCCGCCTTCAGGCGGCTGTGTGTTGAAAC	                                    	       
+
+# Left flank :   GCATGGAGGGGCAAGAAAATGCTGATGTTGATAACTTATGATATTTCGCTGGAGAATACCGAAGGGCAGGCAAGGCTGCGGCGCGTAGCGAAACTGTGCCAAGACTACGGCGTGCGCGTGCAGTATTCCGTGTTTGAATGCGACATCGCACCCGACCAATGGGTAGTTTTAAAAGACAAACTTTTAAAAACCTACAACCCCGAAACAGACAGCCTGCGCTTTTACCACTTGGGCAGCAAATGGCGGCGCAAAGTGGAGCATCACGGCGCAAAACCGGCGGTCGATATATTCAAGGACACGCTGATTGTGTGAATCGCCAACCTGTTGTTCCCATAAAAATGCGGCAGGTTGGCGAATTTGGATTGTTCTTTAACAATCAGGATATTGCAAATGTGGGTATGGCGGATAAGGCTGTGCTATACTCATATTTGTGCTTTTTTCGGGAGTTTGGCGAAATCGGGGCTGCGAAGCCTGATGTAGTAAGGCTTTCGGAAGGAGCT
+# Right flank :  CTA
+
+# Questionable array : NO	 Score: 8.53
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:1.43, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCAGCCGCCTTCAGGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.20,-5.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [3.3-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [4,189] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_029609261 [356-649]; 
+# Array family : NA
+# Sequence source strain : NS19
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria lactamica NS19
+//
+
+
+Array 1 148641-149396 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ADBE01000112-Neisseria polysaccharea ATCC 43768 N_polysaccharea-1.0.1_Cont223.1,		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+    148641	    32	 100.0	    34	................................	GATTTCACCTCGCGCGGTGGTCAAATTTGAATCC 	
+    148707	    32	 100.0	    33	................................	CAAGTTGTTAAAGAGTGTTCACGCTTGCCCGTT  	
+    148772	    32	 100.0	    35	................................	CCTTCCCCTCTGTACAATGCGCTCCATCAGTTAAG	
+    148839	    32	 100.0	    34	................................	CCAAAAAGGGTAGGCGTGTTGTAGCACCATTTTC 	
+    148905	    32	 100.0	    33	................................	TTATTTGCACGCCCTGCCCTTATATAACACGGC  	
+    148970	    32	 100.0	    34	................................	TTCCCAGTTGTCATACATCAAGTTTTGTTAGGGC 	
+    149036	    32	 100.0	    33	................................	TAAGCTGGTTACGCATTTGTACCACGAATATTG  	
+    149101	    32	 100.0	    34	................................	CCATAGGCGTTTTGAAAATATTTCAATATGGCAT 	
+    149167	    32	 100.0	    34	................................	AAAATGTTATCTTTGGATGACAGACACCGGAGAG 	
+    149233	    32	 100.0	    34	................................	CTTTTCCTTCGGCGGCGCGGGTTTTTGTACGGTT 	
+    149299	    32	 100.0	    34	................................	GAAGCACCGTTGCAACTGACGGGCGGCGAACCGC 	
+    149365	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+        12	    32	 100.0	    34	TCAGCCGCCTTCAGGCGGCTGTGTGTTGAAAC	                                   	       
+
+# Left flank :   CATGGAGGGACAAGAAAATGCTGATGTTGATAACTTATGATATTTCGCTGGAGAATACCGAAGGGCAGGCAAGGCTGCGGCGCGTAGCGAAACTGTGCCAAGACTACGGCGTGCGCGTGCAGTATTCCGTGTTCGAATGCGACATCTCACCCGACCAATGGGTAGTTTTAAAAGACAAACTTTTAAAAACCTACAACCACGAAACAGACAGCCTGCGCTTTTACCACCTGGGCAGCAAATGGCGGCGCAAAGTGGAGCATCACGGCGCAAAACCGGCGGTCGATATATTTAAGGACACGCTGATTGTGTGAATCGCCAACCTGTTGTTCCCATAAAAATGCGGCAGGGTTGGCGAATTTGGGTTGTTCTTTAACAATCAGGATATTGCAAATGTGGATATGGCGGATAAGGCTGTGCTATACTCATATTTGTGCTTTTTTCGGGAGTTTGGCGAAGTCGGGGCTGCAAAGCCTGATGTAGTAAGGCTTTCGGAAGGAGCT
+# Right flank :  ATCTTTTTGATACCGGCCAGCGTTTTGAACTGGGTC
+
+# Questionable array : NO	 Score: 8.21
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.51, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCAGCCGCCTTCAGGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.90,-5.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [43.3-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [191,37] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.82,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_025456912 [148158-148451]; 
+# Array family : NA
+# Sequence source strain : ATCC 43768
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria polysaccharea ATCC 43768
+//
+
+

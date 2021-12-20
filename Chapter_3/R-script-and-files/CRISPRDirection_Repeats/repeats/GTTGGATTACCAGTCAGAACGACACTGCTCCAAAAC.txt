@@ -1,0 +1,85 @@
+Array 1 1481079-1481444 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LT635494-Olsenella sp. Marseille-P2936, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1481079	    36	 100.0	    30	....................................	GGAGTGGCTCTCGCACGGCGCGACGGTGGG	
+   1481145	    36	 100.0	    30	....................................	CAGCTGGACAACGCTACGACCTCGGGCTGC	
+   1481211	    36	 100.0	    30	....................................	TAAAGAGTTAGGCTTATGAGAACCAAGGCC	
+   1481277	    36	  97.2	    30	.C..................................	GAGCGTGCGCGGCTGCACGCCCAGCGCCGC	
+   1481343	    36	 100.0	    30	....................................	CGCGTGGCGCGCCTGACGGCGTCCCTCGTG	
+   1481409	    36	 100.0	     0	....................................	|                             	
+==========	======	======	======	====================================	==============================	==================
+         6	    36	  99.5	    30	GTTGGATTACCAGTCAGAACGACACTGCTCCAAAAC	                              	       
+
+# Left flank :   GGTACCGCCCGTCGGGTACGACTCGGACGCGACCAGGGCGAAGAAGTCCAAGGACAAGGCACATGCCAAGGAGTTCAGGACCGCCACGAAGCTCGCGGCCCATGGCTACTCCGTCACGTTCTGGGACGACGAGCTGCATGAGCCGAACCCAGACGGGAAAGGGACCGTTACCATTGGACGTTCCGACCTTGCGTCAGGCGTCGAGATAAAGACGCTAGATGGGGCAAGTTCCTACTCGACCGTCGACGGGCACATGAGAAATGCAAGAGGAAAGAGGGGTGTTTCCCTCGTCGTTCTCGACTTCAGCCAAAACAAGGCACTTGATGACGAGCAAGCCGTGTCATTCACGCGGAAGGCGATGAAGAACCGTCGCATCAGCGAAGTGGCCGTGATCGACCACGCGGGAGTGATAAGCAGACTTCATCTAGAAAAATAATGACGGGTCCCTGCTCCACAGCTGGTGCATAGACCCGTCTGACGGAATTGTACCCAATCTCACA
+# Right flank :  CTGGTAGTAAAGCTCTAGCGTTCGCTTTAAACCTGCGAAAGGGCATAGAGAATTGCGTCGCAGTCTTGACCATACTCGTTCAGGCCATCGTCCGATAGGCCCCGGAGCTGCAACTCCTCAGTTACCTTGTCATCCGCATCCAGCCACTGCGAATCTGTGAGGGACGATATGTCGTGGGGGATACGGAGAGTGTCAAGAATCTGCTCCTGCCTCTTCGTCAGTGCCATACCGCCTCCTCATCTTCTTGTTCGTCGGGTATGCCGTGATTATATCCCTGGTCGTTGGATTGATAACTACTGTGACATCGCTCCCAACAATTTTCTGGGCCTTACGGCCTTGCGAGTCGACCGTAACGGGAAAGGTATGCATTGGACTTGCGATTGCCCTTTTAACCTGTCCGTCTGTGATTCCCCTTTCGGCCATCCGCTCGGCGGCGTGCCTGGTGGCCCTCGGCGCGTTCTTCGCGCCCCTCGGCTGCACGGAGAGCTCCGGGGCCCTCT
+
+# Questionable array : NO	 Score: 7.31
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.34, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGGATTACCAGTCAGAACGACACTGCTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.78%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.90,-3.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [43.3-51.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [512,26] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Marseille-P2936
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales;Atopobiaceae; Olsenella.; Olsenella sp. Marseille-P2936
+//
+
+
+Array 2 1485757-1485222 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LT635494-Olsenella sp. Marseille-P2936, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===============================	=====================================	==================
+   1485756	    31	 100.0	    37	...............................	TCGATGCCCGCCGACTCGGTGAGCCTCTTGTACTTGT	
+   1485688	    31	 100.0	    37	...............................	TCGACGTCGGAGGAGCGCGAGCGGGCCGTCGAGATGT	
+   1485620	    31	 100.0	    36	...............................	TCGACTATGCTCATGAACTCGCAGAAGATGATGTGT 	
+   1485553	    31	 100.0	    36	...............................	CCGTACACGTTTGTTGACCACACGTCTCGTTACCGT 	
+   1485486	    31	 100.0	    17	...............................	CCGTGCGGAAGCCGGCA                    	Deletion [1485439]
+   1485438	    31	  77.4	    15	.AGAAG.GC......................	GGCGAGCGCAGGGAG                      	Deletion [1485393]
+   1485392	    31	  83.9	    37	....TGGT..G....................	GAGCGCGTGATACGCGACGCCTTCGCGCTCGGCGGGT	CGTG [1485378]
+   1485320	    31	  96.8	    37	.........T.....................	TTGCTCGCCTTGTAGTCGTCCCCGCTCGTTATCTCGT	
+   1485252	    31	  90.3	     0	.........T.................T..G	|                                    	
+==========	======	======	======	===============================	=====================================	==================
+         9	    31	  94.3	    32	CGCGCCCCGCACGGGGCGCGTGGATTGAAAC	                                     	       
+
+# Left flank :   TGACCGCCGACGAGGAGGAGCTCCACAACATCGCCCCCGCCGACGTGCCCGTGGACCCCAAGACAGGCAAGTTCGTGGCCGTCGACTCCAAGGGCAACATCTACGCGCCCGAGACCGTCGTCGCGCGCACCCGCAACTTCGACGGCTCCTTCGGCGCACCCGCCCAGATCGAGGTCTCGGCCGTCGACTACATGGACGTGTCGCCTCGCCAGATGCTCTCCGTCGCTGCCAACCTCATCCCCTTCCTCGAGCATGACGACGCCAAGCGAACCCTGATGGGTGCCAACATGCAGCGCCAGGCCGTGCCCCTGATCACCTGCAACGCCCCCCTCGTCGGCACCGGCCTCGAGGCCCGCGCCGCGCTCGACTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGCGGCGAGGCTGCGCAAGGCGGGCCACGT
+# Right flank :  AGGAGCCGTATTGGGGCTAGGTTTCTCGACCTGGAAGGTCCGGGTTGATTTTCATAGTCATCCGAACAGGCTGCCCCGACTCCGCACTCTCGCAGCCAGCCGGACGGCGGGCGCCCGGTCCGGCCGTCTCGTCCCGGGCACGTCGGCAGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCGCCGTGCCCCCGCTCTATCCGGCGGCACACCGTCGACTGGGGCACCCTGAGCTCGGCGGGGCGGGCGTCGGCTATCTGCGCGGGGGACAGGCCGCGGGCGATGTCCGACCCGATGGCCCCCATCATGCATTCGAGCTGGCCCTCGTCGCGGTCGACGCCCGTCCGGGACTGCGAGAGCAGGGTGTCGGCGGGCGCCCGGGCCCTCGCGGCCGAGTGCTCGCGCCTCCACCTCCTCGAGCAG
+
+# Questionable array : NO	 Score: 9.44
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.71, 5:0, 6:0.34, 7:0.39, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGCGCCCCGCACGGGGCGCGTGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [3,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.60,-6.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [13-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [48.3-10.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [258,131] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,5.28   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Marseille-P2936
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales;Atopobiaceae; Olsenella.; Olsenella sp. Marseille-P2936
+//
+
+

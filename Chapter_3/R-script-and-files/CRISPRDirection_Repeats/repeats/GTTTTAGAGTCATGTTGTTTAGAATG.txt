@@ -1,0 +1,79 @@
+Array 1 196625-196782 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB944758-Enterococcus faecalis EnGen0356 strain B-4-111 acArH-supercont1.2,		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	==========================	========================================	==================
+    196625	    26	 100.0	    40	..........................	GTACCAAAACGAATCAAAAGTGGACATGGCGAACAATTGC	
+    196691	    26	 100.0	    40	..........................	GTACCAAAACGGATATTTTGAATTTATGTTATAATTATTG	
+    196757	    26	  76.9	     0	...................ATCTTC.	|                                       	
+==========	======	======	======	==========================	========================================	==================
+         3	    26	  92.3	    40	GTTTTAGAGTCATGTTGTTTAGAATG	                                        	       
+
+# Left flank :   TAGCTATGGATAAGTGATGCGAGTACGGAACTTTGGAGAAAAAATAATTCTCCGAGGTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAACAAGCTTGCGTAAGTGCCTTATTCGCCATCTGTTTTAGAGTCATGTTGTTTAGAATGGTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  GAATGAAGAAGAGGAGTGCTAAAAGGTTACTGTTTCCAGTAGCCTTTTTTGTTATTTTTATTTCTTTCATTAAAAAAGTTTAGTAAAATGAAAGTATCTTAAATTTTAAGTGAAATAATTTTAATAAAGGAGAACAATGATGGAAGGAAAGATTGTTTCAAGTACGAGTTCAGCCCAAAGTGCTGTCTCAAAGTTGACTGGTATCAACGAGCGTTTAGAAGCCCCAAAGGTAACCTTTTCAGGAAGTACAGTTTCAGGAATGACCAAAGGCAAACAAGTAAATGCTCAAGTTTTAACAAACTTAACAGATTTAGCCAATTGTGTTTGGAAGCAAGCCGAGAAATTCCCACAAATTGCAGAAAAAATTGCTTATCGTGATCAACAATCTGCGGAACAATTCCGAGGAGGTGGGCGTTAAGTATGAGTGAAAAAGAGAGAAATGATGAATTACGTGCGACAATTACAAGAAAAATTGCCCAAGTAGAAGAACAGGAAGATAT
+
+# Questionable array : NO	 Score: 6.40
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.61, 5:0, 6:0.26, 7:0.44, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGTCATGTTGTTTAGAATG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.23%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-68.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [539,136] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.59,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_010824396 [195098-195427]; 
+# Array family : NA
+# Sequence source strain : B-4-111
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis EnGen0356
+//
+
+
+Array 2 202680-203129 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB944758-Enterococcus faecalis EnGen0356 strain B-4-111 acArH-supercont1.2,		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                                                                                                    	Insertion/Deletion
+==========	======	======	======	====================================	===================================================================================================================	==================
+    202680	    36	 100.0	    30	....................................	TGAATCTTTAGACATGTGGAACAAAGACAC                                                                                     	
+    202746	    36	 100.0	    30	....................................	ACAAACAAATTGGCGCTACTACCTTTCACG                                                                                     	
+    202812	    36	 100.0	    30	....................................	GTAAATTTCTAGTGAGCGTTTTTGGTTTTC                                                                                     	
+    202878	    36	  97.2	    30	..........................A.........	TTAAACGTTCTATTCCCATTCGTTCCGACT                                                                                     	
+    202944	    34	  83.3	   115	......................--.TT.CG......	GATATGATTGATGTAAAAATATCATTGATATGTATAAATATGGTTATTATATAAAAAATATAAGTAACGAATTAAAGCTTTGCTAGAGCAAGTGATGCGATTACGAAATTATTTA	T [202978]
+    203094	    36	  69.4	     0	A...........C...A....TT.CTT...G..T.G	|                                                                                                                  	
+==========	======	======	======	====================================	===================================================================================================================	==================
+         6	    36	  91.6	    47	GTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAAC	                                                                                                                   	       
+
+# Left flank :   ATGGCGTGTTTAAAGACTTAATTAATAAAAGATATGTGGTTACTTTATTTATTGAGTTAGAGGAAGGCGAAGATTTTCAGTATCCAGTAGAAGATATTTTAGATAGGTACTATGTGAATTGTACAGATTACATTTTTGAGAATGAGCAAGACAGAACGATGGTAGTTGAAATTGAAGATGGTAACGATGACAATTTTGATAGTTTAAAAACGATTCAGGAAATTGCGGGTTTAATGGGAAAGAGGGTATACAACCAAGAAGAAGGAGAATATTTAATTCTTAAAATAGAATAACAGTGAAGTTTTATTTTTTTCTTTCTCAAGATTTAAAATATTTTTCTATTTATTTGAACAAAAAACGGCTCTTTGTCAAATAATGTTGGTAAAGAGAAAGTTTGGTATAATGAAAGAGTAGAAACAAATCAATACATTCTAAACTGAAATCTAGCTATGGATAAGTGATGCGAGTACAGAACTTTGGAGAAAAAATAATTCTCCGAG
+# Right flank :  GAGAGTACGATTAGTTAAATATTTAGTTTTACAGCTATGTTGTTATTATATGTGTTGAACGAAGTTATTGATTTTAAAAGTAGTTGTTCCTCCTTTTTTTATATGCTACAATTTTTCTATATTAATTATTAGTTAAATATTTAAGGAGGTGATTATAATAAGAAGGAAAGGATTTAACAAAATAAAAAAAGAAATGGAATATGTTAAAGTAGTTACGAATTTACTAATGGTATCAAAATTTTTTACGCTACAGTCCGATGAAGATTTACATACATTAACTCTGTTTGGAACATTACTTATTTATATTTATAGACGCTTTGTAATGAATGCGCTTTCTACGAAACTGGATAATAAAAATTGGCATTTTTCAAATGCTACTTTATGTAGTTTACTTTTTTATAGTGGCTATGTATGTTCGCATTTATTTCTTTTGAATAAAAATCACTTATCTATAAATCAAGAATTAATCCCCAATTTATTGAAAATGACACTCCCTGTTT
+
+# Questionable array : NO	 Score: 6.17
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.58, 5:0, 6:1, 7:-1.41, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGTCATGTTGTTTAGAATGGTACCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-18] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [63.3-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [209,193] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_010824396 [195098-195427]; 
+# Array family : NA
+# Sequence source strain : B-4-111
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;Enterococcus.; Enterococcus faecalis EnGen0356
+//
+
+

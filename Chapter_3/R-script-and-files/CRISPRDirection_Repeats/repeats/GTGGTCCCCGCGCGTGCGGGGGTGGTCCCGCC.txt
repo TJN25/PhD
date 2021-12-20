@@ -1,0 +1,87 @@
+Array 1 1548-1149 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB899009-Streptomyces sp. CNB091 D581DRAFT_scaffold00020.20, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	================================	=============================	==================
+      1547	    32	 100.0	    29	................................	TCAGACGCCCACACCACCGGGCTGATCGT	
+      1486	    32	 100.0	    29	................................	CCGTCGCGGGTGTGCGACGGGGCGTTCGG	
+      1425	    32	  96.9	    28	.............................T..	TCGGCGGTGCGCACCATCAGGGCCTCAG 	
+      1365	    32	  84.4	    29	..T..................A.......CGG	GCATCCGGCTGCTCGTCACTGCGGAACCG	A [1364]
+      1303	    32	  87.5	    29	....C........................AGG	ACCGGGTTCTGACGCTGCTCACCCCGTAT	
+      1242	    32	  87.5	    29	.............AC....C......T.....	ACACGCTGATAGCCGTAACGCTGCCGGAG	
+      1181	    32	  84.4	     0	.........C....C.....C...TA......	|                            	T [1151]
+==========	======	======	======	================================	=============================	==================
+         7	    32	  91.5	    29	GTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCC	                             	       
+
+# Left flank :   CAGTGGTCCCCGCGCGTGCGGGGGTGGTCCCTGGGCGTGCTCCGAGAGGCCCACCGCCCACCAGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCCAAGCCCGGCGACATCCTGTTCACCAAGCTGTGGTCCCCGCGCGTGCGGGGGTGGTCCCAGGCGCTGAACGAACCGGAGAAGGAGGGTGTCGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGTCGCCGGTGGCCGGGCGTCGTCCCACTCGCGGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGAGGAATGCGGGCACAGCCAGCGGTACACCAAGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCCTCAGACGCCCACACCACCGGGCTGATCGTGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+# Right flank :  GAATCATGCAGGCGCTGTCCGGCCGACCGGGGTCCCAGAGCATTCGGGGCTGCTCCCAAGCCTTGCTAAGCCCACCAGACCCAATAGCCGGCCGCCCGGCGTGTCACACGTCCGTTCGCCGGCTCCCCAGCGCGGTCCGTGTCTCGCTCGCCAAGTTCGCACGTAGACAACGAGTAAGGGTCTGCACAGCGGCCATCACGCCGACTACGTCCTGGCGGGCCGGATGACTTCGACTGGGTCCCGGAGCCATACCTGCTGGCCCCGGTCGGTCACGGTCAGCCCGAACTGCCCGGCGTCGGGCCGCCCCACCGACTCGTACTCCCACCAGACCTGCTCGATCTCCTCCCACAAGAACCCGGGTCCGTACTGCCACACCTCCTCCCCGGTGGCGGTCATGGCAGCACCTCCGTCCTCCCGGGTCACCCACACCCGGGCCCCGCCGGCGGTGCTCTGGTGGATGAGCCGTACGCCGGGCAACCGCGCCCCCGCGTACAGGGCGA
+
+# Questionable array : NO	 Score: 5.88
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.57, 5:0, 6:0.7, 7:0.05, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [31.7-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [206,1166] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.96   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNB091
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNB091
+//
+
+
+Array 2 2229-1651 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KB899009-Streptomyces sp. CNB091 D581DRAFT_scaffold00020.20, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+      2228	    29	 100.0	    32	.............................	TTGGCGTGCGTCGTAGCTGCCTCGTCTACATC	
+      2167	    29	 100.0	    32	.............................	TCGCTCCGCTCCTGCGGCCCGACACCGGCCGT	
+      2106	    29	 100.0	    32	.............................	CAGCCCGAGCCGATCGCCCAGTGGCGCACTCA	
+      2045	    29	 100.0	    32	.............................	TGGGCGTGCTCCGAGAGGCCCACCGCCCACCA	
+      1984	    29	 100.0	    32	.............................	GCCAAGCCCGGCGACATCCTGTTCACCAAGCT	
+      1923	    29	 100.0	    32	.............................	AGGCGCTGAACGAACCGGAGAAGGAGGGTGTC	
+      1862	    29	 100.0	    32	.............................	GTCGCCGGTGGCCGGGCGTCGTCCCACTCGCG	
+      1801	    29	 100.0	    32	.............................	GAGGAATGCGGGCACAGCCAGCGGTACACCAA	
+      1740	    29	 100.0	    32	.............................	GCCTCAGACGCCCACACCACCGGGCTGATCGT	
+      1679	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+        10	    29	 100.0	    32	GTGGTCCCCGCGCGTGCGGGGGTGGTCCC	                                	       
+
+# Left flank :   ATGGCACGGCGAGTAGCCCCGGCGTTCCCTCGCACCCCTCCTCGTCCTTGACGCGCAGCGACTTCCCCTCCCGGCCGACCAGGACCGCAGGACGACGCTGACACGCAAGGTCGCCGAAGCCGAGGGGTACGCGGCCGCCATCTCCACGGTCAGCATCGCCGAAGTCCGCCGCACCGGACATGCCACGAACCACATGCGCCGACTCCGTTCCCGGCTCACCGTCATTCCCACGACCAAGGTCATCGCCGACCGCGCGGTGAAGCTGCTGGAAGACGCGGGCCTGGACGTCCACGAAACGTCGCGGCCACGCTTCGTGGTCGCCACGGCGCCCACGGCTCTCCCTCAGGGGGGCTCCTGCTACGGCTGAAGAGAGGCAGAATGGCTGTTGCCGCACAGCGCTCTCCGAGCACGATTCGCCTTCGGGGTTGGGGGATATGTCCTTTTCTAAAGAAGTGGGTAAATTCAGCCCCGTCGCCACGTAAACCCGCAGGTCACGAACT
+# Right flank :  GCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCCTCAGACGCCCACACCACCGGGCTGATCGTGTGGTCCCCGCGCGTGCGGGGGTGGTCCCGCCCCGTCGCGGGTGTGCGACGGGGCGTTCGGGTGGTCCCCGCGCGTGCGGGGGTGGTCCCTCCTCGGCGGTGCGCACCATCAGGGCCTCAGCGTTGTCCCCGCGCGTGCGGGGATGGTCCCCGGGCATCCGGCTGCTCGTCACTGCGGAACCGGTGGCCCCCGCGCGTGCGGGGGTGGTCCCAGGACCGGGTTCTGACGCTGCTCACCCCGTATGTGGTCCCCGCGCACGCGGCGGTGGTTCCGCCACACGCTGATAGCCGTAACGCTGCCGGAGGTGGTCCCCCCGCGCGCGGGCGTGTACCCGT
+
+# Questionable array : NO	 Score: 8.14
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.14, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGGTCCCCGCGCGTGCGGGGGTGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.30,-13.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [708,485] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CNB091
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces sp. CNB091
+//
+
+

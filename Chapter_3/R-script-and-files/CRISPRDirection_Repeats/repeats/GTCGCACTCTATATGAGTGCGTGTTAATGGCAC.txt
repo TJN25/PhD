@@ -1,0 +1,83 @@
+Array 1 2783-3086 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSRF01000185-Bacillus sp. VT-16-64 NODE_200, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=================================	====================================	==================
+      2783	    33	 100.0	    36	.................................	TAAAGAAATGTCTTGCCGGGATAGTGATTACCAATT	
+      2852	    33	 100.0	    33	.................................	TCGCTCTTGTTTCAAATGACTCGAATCATTTTT   	
+      2918	    33	 100.0	    36	.................................	CTCCAACATCTTTTGGCTGCATGACTGATTTTGGTC	
+      2987	    33	 100.0	    34	.................................	TTTGATTTAAAGGAAATGTTTGGTCGTCCATCTC  	
+      3054	    33	 100.0	     0	.................................	|                                   	
+==========	======	======	======	=================================	====================================	==================
+         5	    33	 100.0	    35	GTCGCACTCTATATGAGTGCGTGTTAATGGCAC	                                    	       
+
+# Left flank :   CAGGAAGGTAGAACAAGATGGTATTCCTGAATTTGAGAAGGCTATCCGTACATTCAAAAACTGGCAGACAGAAGTACTAAACAGCTTTTTACTCAAATGGTTTTTTGGAGAGAATTAATAACCTAACGAAAGTCATGAAGAGGAACGCCTTTGGATTTAGGAACTTCCTAAGGGGAAGAGCAAGAATACTTCTTTTACATAAGTATAAAAAAATTGGAAGTCATGTTGGGTAAAGTGAGATTCTATCTCACCCCACTCCAACATTTGACATAGAACCATTTTAATTAAAAAGAGAAACGTCAGTTTGTATAAAATTGAACGTAAACTTTGCTGCGGACCCCAAGCGAACATAAAATCTCCGGGGGACCCGCACCAAAAAAACCCAGTATAATACGAAAATATATGGTAAAATTGAAAAGAAGATAGGCGAAATATCCCCAAAAACAGGTTATCCTACTAGATTTAGGGAATGATTTTCCTTTTATTAGGAGATTTTCGCT
+# Right flank :  CGTCGCATATTCTTTGTTTGTTGTGTGTATATTTCAGTGTCTTGTATTTTGTATTGTAGCTGTCGTAACGATAGAAATAAGAACGCACAAGGACATGTTGTAGTCGCGAAATTCCATTAAGGCCGATCATTTCCTCTTACTCGTGGTTATATGGGATGACACTCTGCATGTTCTTGATCCGCCAGTTGCTGACAGATTGGCTCAATATCATAGCCGGCATTGAACAGGCCTGTTACTTGCTCATTTTTCGATATTTGGAGAGGTACTCCTTTTTCTATCCTCGAACTTTTAAGGGCAAATGGTGACATTCATTCATTTATATGAAAGGGGGATTCTTCATATACTGCTCAACATGTTAACGCTTGTTTACTCGGAGTCTCTCGGTTAGCGATCATGTAAACAATATGAATCCACGCAAATTGTTGCTAGTGTTTGAAAATCGAACTTGGCTTTCTTTATCTAAAGATTGAAGTTTTTGTTTGTCGTAAATATCATATTAT
+
+# Questionable array : NO	 Score: 4.07
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.31, 7:0.96, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACTCTATATGAGTGCGTGTTAATGGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.52%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.40,-2.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [269,829] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : VT-16-64
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus sp. VT-16-64
+//
+
+
+Array 2 12344-12839 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSRF01000185-Bacillus sp. VT-16-64 NODE_200, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+     12344	    30	 100.0	    37	..............................	CTATAACAACAAGACTTGAAAAAGTAGGGCTGATGCG 	
+     12411	    30	 100.0	    38	..............................	AGCGAAAGAGTGGCAATATCCACTGACTGCCCATCAGC	
+     12479	    30	 100.0	    37	..............................	TCGTAGGCCGTAGTGAAAGCACTAACAACACCGTCCC 	
+     12546	    30	 100.0	    37	..............................	TGGTGAGTTAGTTTCACTTAGTAATAGAGTGGACAAT 	
+     12613	    30	 100.0	    35	..............................	AATGCCAATAAAAAACAGAAATCCAGCTAAATATC   	
+     12678	    30	 100.0	    35	..............................	CTAAAGGCGAGATTACAAACATAAGCGTGCAGCGA   	
+     12743	    30	 100.0	    37	..............................	CTCAACGGAGCTGGCGGTCGAACTGTCGGCTGGCATT 	
+     12810	    30	  96.7	     0	.....A........................	|                                     	
+==========	======	======	======	==============================	======================================	==================
+         8	    30	  99.6	    37	GTTGACATCTTACCTAAGAGGAATTGAAAC	                                      	       
+
+# Left flank :   AACCGCTGCATGCCTGGATGTTCCCGCATTCCGAGTAGTAGAAATCAAGGACGGCCAAGTGAATATCGACATGATTTCGATTGATGACGAGACGCTTATGGAGCAGATCGCGATTGTCAACACAAAAATACCAGGATTTGTCCCTATCGAGCAACCGCATGGAGAAGAATCCGACCGCAACTTGCTCGTAGAGATTCAAGAACCAGTTACAGAAACTGGGAAAGTGTTCTGAAAATCGTCTAGGAGTACTGTTGGCCAAAGAATGAGCAGCGATATATGACAAGCTTGATGTTGTATCATGAAAAAACACCCATTGTCGTCGATCCATCTCGTGACACCAAACCCGCGGGATCGACGACAAACCAACATGGGACAAAAGGCAGTAAACACAATGAAGCGAAGTTATTTGGAAATGAAGTGAAGCTATTTGTAAAAATAATTACTTTTTTTCGCGAAAGATGTGATATACAATAAGATGGTAAGAGCCATGTTGTTTGGGG
+# Right flank :  CCGTAAGATCCCCCAGGAAAGCGACCTTTGCTTTCCAAGGAAGCTGAGAGACCTGTGGAAAGCGAAATATGTTGACGTAGCGATGATAGGGATTTTTTTAACAAATAAACCGAACAATTATAAATGAATTGTACGGTCGTATTTGCTTATGTCCCAGCCCGTCCTTCCCCTTGGGTTTCCGTTGATCAGACGTGTATTTATAAAAATCAGGATGCTTGCCTATCATTCTATTGGAGTGATAGGTTTTTTATTGCGGAAATTTTTACTTACTCTTAACATAATTTTTATTTGGGATTTGAATTTTTGTTATATACTTTTGCTTTAAGGGATCATGATTGGATCTCGAAGCATTTTGTTTGAAACGATCATTCGTCTAAAAGGAAGGCACCATGCTATTATGCCGTATGACTAGATGCTTCAATTTTTATTTTCACTATCCTCCACGATCATGTGAGTCATTGGAAAATAGAAGAATCTTCTGTTAAAAATACTATGATAAA
+
+# Questionable array : NO	 Score: 10.80
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.98, 5:0, 6:0.99, 7:0.83, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGACATCTTACCTAAGAGGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:63.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.60,-0.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [28,628] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.18,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : VT-16-64
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus sp. VT-16-64
+//
+
+

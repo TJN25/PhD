@@ -1,0 +1,40 @@
+Array 1 3-303 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBII01000116-Bacteroides coprophilus JCM 13817, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                                                                                             	Insertion/Deletion
+==========	======	======	======	=======================	============================================================================================================	==================
+         3	    23	  91.3	   108	.A............C........	TTTCCGGCAGCTTATTAGGGTATAAAACCATACCTTAAAAGCGTAATTTTTATCCGTTCATCCCCTAAAAGGATGAAAAAATGGATAACCAGACATTAAAATCTCAAT	
+       134	    23	 100.0	    28	.......................	CTCCGAGAATTGCAGGTTGTAGCACCCT                                                                                	
+       185	    23	  95.7	    20	..............C........	TTTAGACGTATGCTTTCAGA                                                                                        	
+       228	    23	  91.3	    30	..........T...........G	CCGTGCATGGAATTGTGAGCGTATATCTTC                                                                              	
+       281	    23	  91.3	     0	G.....................T	|                                                                                                           	
+==========	======	======	======	=======================	============================================================================================================	==================
+         5	    23	  93.9	    47	TTTTCCGGAGCATATCCGTTCAC	                                                                                                            	       
+
+# Left flank :   CAT
+# Right flank :  TTCTTTCCCCGGTTTCAGTTTCCTTTGTGCTGGTAAGCTAACAAGAAACAGCACAGTCATGGCAGGAACAACAAAGGATATGAGTCTGATAAAACAAGTACTCCAGCTCAAGCAGGCCGGAGAATCCAACCGCGGTGTAAGCCGCAAGTTACCGATTGACAAGGAAACCGTCAACGGTTATGTGAATACAGTAAAAGCCAACGGATGGAACATCAGCGACCTCCTTGAGATTGACGATCCCGAGTTGGAACGGATGTTCCATGCTGGTTCTCCGGCATATACGGACAGGAGAATGGAAGAGTTTCTGATCCTGCTACCCAGATACAGGGAACTGCTGGCGGACCCCAAATCCCATGTAAGCCGTCAGGTCCTGTTCGATGAATACCGTGCGACTCATCCCGATGGTTACGGCAAGTCACAGTTCTATTACCATCTGAAGCAGAATCTCGTTGCGAAGAAGGATGTTACGGCCGTACTGGCCAACACCTACAAACCGGGTG
+
+# Questionable array : NO	 Score: 2.02
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.73, 5:0, 6:0.25, 7:-0.25, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTTCCGGAGCATATCCGTTCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.10,-3.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-55.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [135,58] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JCM 13817
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Bacteroidaceae; Bacteroides.; Bacteroides coprophilus JCM 13817
+//
+
+

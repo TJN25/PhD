@@ -1,0 +1,39 @@
+Array 1 252-18 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_APSF01000092-Neisseria meningitidis 69155 gnm69155.contig.91, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                                     	Insertion/Deletion
+==========	======	======	======	==========================	====================================================	==================
+       251	    26	 100.0	    50	..........................	TCGGGGGTTTCCGTTTTTTCCGATAGATTCCCGTGGTTTTTCGGTTACTA  	
+       175	    26	 100.0	    52	..........................	CGGCGGGGGGTTCTGTTTTTTCCGATAGATTCCTGTGGTTTTTCGGTTACTG	
+        97	    26	 100.0	    28	..........................	GGTGTAAGTTTCTGCTCCCACGGGGCTG                        	Deletion [44]
+        43	    26	  84.6	     0	........TT...A...........A	|                                                   	
+==========	======	======	======	==========================	====================================================	==================
+         4	    26	  96.2	    44	GATTCCCGCGTTCGCGGGAATGACGG	                                                    	       
+
+# Left flank :   ACGAAACCGACGGCGAACGCCCCGAAGAATAAAACCTGAAATCCCGATAAACGGTACTTCTGTTGCGAAGTACCGTTTTTTTTGAGCAGCCTCCGAACGGCTTGATTTGAGTTTTGGTATAGTGGATTAACAAAAATCAGGACAAGGCGACGAAGCCGCAGACAGTACAGATAGTACGGAACCGATTCACTTGGTGCTTCAGTACCTTAGAGAATCGTTCTCTTTGAGCTAAGGCGAGGCAACGCCGTACTGGTTTTTGTTAATCCACTATATTTTTGCCCGACGGGGTGAAAAATACAGTTGCTACAGCCCGACCTACGCCCGCTTTGCCTCTATCCTGCGCCCTTTTATGTGCAACACTTTGCACTTGCTGAACAAAATTCAAACGACCCTTTATATCAAATGCAAAAAATATGCCGTCATTCCCGCGAAGGCGGGAATCCAGACCCCTCGGCACGGAAATTTATCGAGTAAAACGGTTTCTCAGATTCTACGTTCTA
+# Right flank :  AAGTTTCAGACGGCATTT
+
+# Questionable array : NO	 Score: 2.18
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.81, 5:0, 6:0.26, 7:-0.29, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GATTCCCGCGTTCGCGGGAATGACGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.70,-6.40] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [16.7-55.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [19,469] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.23   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : 69155
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria meningitidis 69155
+//
+
+

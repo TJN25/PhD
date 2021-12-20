@@ -1,0 +1,89 @@
+Array 1 34478-35240 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AJLC01000123-Cronobacter sakazakii ES35 csa35_123, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	=============================	==================================	==================
+     34478	    29	 100.0	    32	.............................	CTATCGTGCGGCTTATTCCGGTATGGGAGGCA  	
+     34539	    29	 100.0	    32	.............................	CGCATTCATGGGAATGCTTTTGCGAGAACGAA  	
+     34600	    29	 100.0	    32	.............................	CACGTAATTCACGCGGGCGGCGTATTCCCGAA  	
+     34661	    29	 100.0	    32	.............................	GTTTATCCGAACGTTTAGCCGGGAAGCTGCTG  	
+     34722	    29	  96.6	    32	............................T	CGTGGAGGGGGATTCCGGTAGAGGCGCGATCG  	
+     34783	    29	 100.0	    32	.............................	AGCATCGTCCCCGGCTCTGCCTGGTCTGAGTC  	
+     34844	    29	 100.0	    32	.............................	TATCCATTTTCATTCCCTCGATAGTTAGTTTA  	
+     34905	    29	 100.0	    34	.............................	GGGTACATATCTGTCTATCCCACCTCTCAACGCA	
+     34968	    29	 100.0	    32	.............................	TATGGAACGTAAATTTATCGACTGGCACCCCG  	
+     35029	    29	 100.0	    32	.............................	CGCAAAAACGGCGGCCCGGTATCAGCGGGTGG  	
+     35090	    29	 100.0	    32	.............................	AAATCAGTTTTGCCGCCCGCTGCGCCCAGCGG  	
+     35151	    29	  93.1	    31	.T......T....................	TCGGCGGGATTATTGACGCAGCGACGCCGCG   	
+     35211	    29	 100.0	     0	.............................	|                                 	T [35213]
+==========	======	======	======	=============================	==================================	==================
+        13	    29	  99.2	    32	CCGTTCCCCGCGCGAGCGGGGATAAACCG	                                  	       
+
+# Left flank :   TGAAAGCTTTAAATGGATGATGGCAAACAACATCGCGTTTATTGTCGCCAATATCAATATCAACTACCGTCGGCCCGCCGTGCTTGGCGATCTGCTGACTGTCACGAGCCAGGTGAAGCAGCTTAACGGTAAAAGCGGGGTCTTAAGCCAGGTCATTACGCTTGAGCCGGAAGGCGAAGTGGTCGCCGATGCGCTGATCACCTTTGTCTGTATCGATCTGAAAACGCAAAAAGCCTTACCGATTGAGGGCGAGCTGCGTGAAAAACTGGAAAAAATCACAGGGTAAATTCTGCAAAAGTGGCGCGTGTGCTGGCAATCATGGATTTATCACCGCACAGGGTGAACAATCCGGTAGATGTTAACAGCCCACAAGCGTCGCGAAAAAACGCCTTCAAAATCAACAGGGCAGCCGTTCTTTAACAAGATGGGTTGTTGTAAAAATGTTGGTAGGATGTGGAAGGCGAAAAAATGCCATTCAGTATAAAGGGTTACCGTTAGTG
+# Right flank :  GAACGCTGACCTGGCGAACACGCTGCAAAATCTCCGTTTCCCGCCATCCGTAATAAACCGCCCAGGCTCTTCGCGTCTGTCACTCGCCGCCCCCTTTCCTGCCACATTCTTCAGCAACGTTTATACTTCAAAGCCCTTGTTAAATTTTGAACACTGCGCAACGAAGGAGAGGCTATGCGAGTACACCATCTCAACTGCGGTTGTATGTGTCCTTTGGGCGGCGCGCTGTACGATGGCTTCAGTAAAGGGCTGCATGCGCACCTCATCTGCCACTGCCTGCTGATTGAAACCGACCATCACGGGCTGGTGCTGGTGGATACCGGCTTTGGCTGTGACGATATGCGCCATCCGCGCCGCCGTTTACCACTTTTTTCCGGGCGCTGAATAATATCCAGTACCGGGAATCATTAACGGCGCTGCACCATATTAAAGCGCTCGGCTTTAAGCCGGAGGACGTCCGACACATTGTGCTGACGCATCTGGATTTCGATCACGCCGGC
+
+# Questionable array : NO	 Score: 7.92
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.96, 5:0, 6:1, 7:0.96, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGTTCCCCGCGCGAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [58.3-45.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [216,175] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.92,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : ES35
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Cronobacter.; Cronobacter sakazakii ES35
+//
+
+
+Array 1 1-332 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AJLB01000123-Cronobacter sakazakii ES713 csak713_123, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+         1	    28	  93.1	    32	-T...........................	CATCCACTTCGCGCCGCGGCGGTATTTTTTGC	
+        61	    29	  96.6	    32	.T...........................	ACCGCTATCCAGTGGGGGATTTACAGCCCTAA	
+       122	    29	 100.0	    32	.............................	GCTTATATCCTCTCCTGCCTGATTGCCTCCGG	
+       183	    29	 100.0	    32	.............................	GGCGGTTTGGATTTGGAAATTTGATACAACTG	
+       244	    29	 100.0	    32	.............................	AGCTCATGAAGCGCAACAGCTTCGGCTCTCTG	
+       305	    28	  79.3	     0	G........-...C...C.TA........	|                               	
+==========	======	======	======	=============================	================================	==================
+         6	    29	  94.8	    32	CCGTTCCCCGCGCGAGCGGGGATAAACCG	                                	       
+
+# Left flank :   |
+# Right flank :  GCCCAGGCTCTTCGCGCCTGTCACTCGCCGCCCCTTTCCCGCCACATTCTTCAGTAACGTTTATACTTCAAAGCCCTTGTTAAATTTTGAACACTGCGCAACGAAGGAGAGGCTATGCGAGTACACCATCTCAACTGCGGTTGTATGTGTCCTTTGGGCGGCGCGCTGTACGATGGCTTCAGTAAAGGGCTGCATGCGCACCTCATCTGCCACTGCCTGCTGATTGAAACCGACCATCACGGGCTGGTGCTGGTGGATACCGGCTTTGGCTGTGACGATATGCGCCATCCGCGCCGCCGTTTACCACTCTTTTTCCGGGCGCTGAATAATATCCAGTACCGGGAATCATTAACGGCGCTGCACCATATTAAAGCGCTCGGCTTTAAGCCGGAGGACGTCCGACACATTGTGCTGACGCATCTGGATTTCGATCATGCGGGTGGGCTGAGCGATTTCCCGCAGGCGCAGGTGCATCTGATGCAGCGTGAAATGACGGCTGC
+
+# Questionable array : NO	 Score: 8.00
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.74, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGTTCCCCGCGCGAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-7.20,-5.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [1.7-38.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [3,153] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.65,0.45   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : ES713
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Cronobacter.; Cronobacter sakazakii ES713
+//
+
+

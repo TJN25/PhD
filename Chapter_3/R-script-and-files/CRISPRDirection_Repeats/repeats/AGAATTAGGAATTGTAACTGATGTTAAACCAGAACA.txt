@@ -1,0 +1,143 @@
+Array 1 217405-217923 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009613-Flavobacterium psychrophilum JIP02/86 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	====================================	=================================	==================
+    217405	    36	 100.0	    33	....................................	ACTGAAAAAAGCACCATTTTCAATATCAGTCAC	
+    217474	    36	  97.2	    33	......................A.............	AGCTGAAAAAACACCCCTTCTAATAGTAGTTAC	
+    217543	    36	  94.4	    33	.................T....A.............	GCCTGCAAAAGACCCTTCTCCGATAGTAGTCAC	
+    217612	    36	 100.0	    33	....................................	CTCTGCAAAAGACCCATCTCCAATAGTAGTCAC	
+    217681	    36	 100.0	    33	....................................	ACTGAAAAAAGCACTATTTTCAATATCAGTCAC	
+    217750	    36	 100.0	    33	....................................	ATCTGCAAAAGCCTCATCTCCAATAGTAGTCAC	
+    217819	    36	  97.2	    33	......................A.............	GCCTACAAAAGCATACCTTCCAATAGAAGTTGC	
+    217888	    36	  80.6	     0	............A.....C.........TT.TTG..	|                                	
+==========	======	======	======	====================================	=================================	==================
+         8	    36	  96.2	    33	AGAATTAGGAATTGTAACTGATGTTAAACCAGAACA	                                 	       
+
+# Left flank :   CCGTTCGAAGCTAACCTTTTATTGTGTAAAATATTTTTTTTAAATTATTGTATAATGATTGTTTTTGTTGCCTTACCTTGATTTGTGATTACTTCTACAAAGTAATTTCCTTTTGCAAAGCTTGAAACATTTATTTCTGAATGATTAGTTGTTTTGATTAACTGCCCTAATGTGTTGTAAAAATTCACTTTTTGTAATTGTAAGCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAACTGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAACCACCAGAAATAGGGCTGAAATTTCTCCAAACCGCGGCTGCCTGATAAGCGACTTGCGTACCAGTAGGAACATTTAAAGCACAGTTTGATTGAGTAATATTGCCGAAGACATTTGCATTAATAACTAAAGGGCTTGTAATATGGCAATTTACTGTCTTTAAACTTCTACAGCCTGCAAAAGCATCCTTTCCAATAGCAGTCAC
+# Right flank :  AATGTTCAAAAGCAGATTCTCCAATAGCAGTCACGGCGTAGTTTTCCGAATTATAAGCTACTGTTTCTGGTATTTCTGCTGCTCCAGTAAAATTAGCGTTTCTAGCTACCTTAACAGTAAAAGGAGCTGTTGAAGAAGTAATAGTATAATTTATACGGTTTGCTGTAAAATCTTGTGCTATTCCTAAAAAAGGAATTAAAATAAGAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTAAAAAATTATGTGGTTTACAAAAGTAAGCTAGATTTAGAATAAATACAAATAATACTTTGTTTTTTTGAGATTGGTCTTTAAGTAGGTGTTGTTTCTATATGCCTGCAATTGTCTGATTTTGCTGTTCTTTTTGTTATATTTGGCTTTGCAAACGATTAATTAGGGACTAAAATTCATCAAAATATTGCTTAATGTTCTTTTTTTTATTTAGAAGCTTTTTTTGTATAATGTTATGAATAGAAAAAGGTTAGCCGTTCGA
+
+# Questionable array : NO	 Score: 4.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.81, 5:0, 6:1, 7:0.49, 8:0.8, 9:0.98,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGAATTAGGAATTGTAACTGATGTTAAACCAGAACA
+# Alternate repeat :   AGAATTAGGAATTGTAACTGATATTAAACCAGAACA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.44%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.90,-0.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-8] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [771,536] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JIP02/86
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum JIP02/86
+//
+
+
+Array 2 227251-227845 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009613-Flavobacterium psychrophilum JIP02/86 complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                            	Spacer_Sequence           	Insertion/Deletion
+==========	======	======	======	===========================================	==========================	==================
+    227251	    43	 100.0	    26	...........................................	CCGGCAAAAGCATTCTCTCGAATAGT	
+    227320	    43	 100.0	    26	...........................................	CCGGCAAAAGCACCTCGATTAATAGT	
+    227389	    43	  97.7	    26	.A.........................................	CTGAAAAAAGCACTATTTTCAATATC	
+    227458	    43	  97.7	    26	............................A..............	GCTGAAAAAACACCCCTTCTAATAGT	
+    227527	    43	  86.0	    26	...T...................T....A.....T..A....G	CCTGCAAAAGACCCTTCTCCGATAGT	
+    227596	    43	  97.7	    26	..................G........................	TTGAAAAAAGCCTCATCTCCAATAGA	
+    227665	    43	  90.7	    26	G.................G.........A.........T....	CCTGAAAAAGCCTCATCTCCAATAGA	
+    227734	    43	  86.0	    26	G..............G..G.....G.........T...G....	TCGGAAAAAGTATAATTTCCAATAGT	
+    227803	    43	  81.4	     0	.........G.....G..G...............TT.TTG...	|                         	
+==========	======	======	======	===========================================	==========================	==================
+         9	    43	  93.0	    26	AGTCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACAA	                          	       
+
+# Left flank :   GGTTAGCCGTTCGAAGCTAACCTTTTATTGTGTAAAATATTTTTTTTAAATTATTGTATAATGATTGTTTTTGTTGCCTTACCTTGGTTTGTGATTACTTCTACAAAGTAATTTCCTTTTGCAAAGCTTGAAACGTTTGTTTCTAAATGATTAGTTGTTTTGATTAACTGCCCTAATGTGTTGTAAAAATTCACTTTTTGTAATTGTAAGCCCTCTTGCAAGGCTATGTTTAAAATTTCTGAAACTGGGTTTGGGTATATTTTTAAAGCACTTTCTATTGCAAATGAATGATTAGAAAGTAAACCACCAGAAATAGGGCTGAAATTTCTCCAAACCGCGGCTGCCTGATAAGCGACTTGCGTACCAGTAGGAACATTTAAAGCACAGTTTGATTGAGTAATATTGCCGAAGACATTTGCATTAATAACTAAAGGGCTTGTAATATGGCAATTTACTGTCTTTAAACTTCTACAGCCTGCAAAAGCATCCTCTCCAATAGC
+# Right flank :  ATGTTCAAAAGCAGATTCTCCAATAGCAGTCACGGCGTAGTTTTCCGAATTATAAGCTACTGTTTCTGGTATTTCTGCTGCTCCAGTAAAATTAGCGTTTCTAGCTACCTTAACAGTAAAAGGAGCTGTTGAAGAAGTAATAGTATAATTTATACGGTTTGCTGTAAAATCTTGTGCTATTCCTAAAAAAGGAATTAAAATAAGAAATAATAATTTTTTCATGTTTTTTGTTTTTAATTAAAAAATTATGTGGTTTACAAAAGTAAGCTAGATTTAGAATAAATACAAATAATACTTTGTTTTTTTGAGATTGGTCTTTAAGTAGGTGTTGTTTCTATATGCCTGCAATTGTCTGATTTTGCTGTTCTTTTTGTTATATTTGGCTTTGCAAACGATTAATTAGGGACTAAAATTCATCAAAATATTGCTTAATGTTCTTTTTTTTATTTAGAAGCTTTTTTTGTATAATGTTATGAATAGAAAAAGGTTAGCCGTTCGAA
+
+# Questionable array : NO	 Score: 2.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.65, 5:0, 6:0.25, 7:-0.23, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGTCACAGAATTAGGAATTGTAACTGATGTTAAACCAGAACAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.44%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-2.20,-2.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-19] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-60.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [765,535] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JIP02/86
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum JIP02/86
+//
+
+
+Array 3 1327110-1325548 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_009613-Flavobacterium psychrophilum JIP02/86 complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                               	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	==============================================	==============================	==================
+   1327109	    46	  71.7	    29	A.AA.T....A.ACC...CGGGT.......................	TTTTGTTTTCGTCAAATTCCCCATTTGTG 	T [1327105]
+   1327033	    46	 100.0	    30	..............................................	ATTAATGCGCTAATTATCGAAGGTAGCACT	
+   1326957	    46	 100.0	    30	..............................................	AGGACGATTATAAATTTATGCTAAATATTA	
+   1326881	    46	 100.0	    30	..............................................	AGATATATCTAATACTAGAGCGTACGACAG	
+   1326805	    46	 100.0	    30	..............................................	AAAAACAATATCGAAAAACTGAAAGAGAAT	
+   1326729	    46	 100.0	    30	..............................................	ATTTAATGTAATTGTACCCGAACCAGCTCC	
+   1326653	    46	 100.0	    30	..............................................	TATATCCGTGTTTGAATACACATTGCCACC	
+   1326577	    46	 100.0	    29	..............................................	CGTTTTCGCACGTGAAATCAAAGTACTAT 	
+   1326502	    46	 100.0	    30	..............................................	TTTTAAAAAATGGTTAAGTAGGAAAACTTA	
+   1326426	    46	 100.0	    30	..............................................	TCCAGTAAGCGAGATGTCGTATATCAAAGT	
+   1326350	    46	 100.0	    30	..............................................	AGCCAATGCCTTGTGTCCTGTTATGTGTTC	
+   1326274	    46	 100.0	    30	..............................................	AAAAGATTTAGCAACATAGATGATTGTTTT	
+   1326198	    46	 100.0	    29	..............................................	TTTTACTTTTTATTTAAAGCAACTGTAAT 	
+   1326123	    46	 100.0	    30	..............................................	TAATAAGTTGCTCGTTTCCGTTTATTCCGT	
+   1326047	    46	 100.0	    30	..............................................	AGTAGGTAATGTATTCACAATAGACACATT	
+   1325971	    46	 100.0	    29	..............................................	AAAACGAAATACATACAGCGCACGCATTC 	
+   1325896	    46	  97.8	    30	............................C.................	AGGCACTTCTTTAGACTTAAATAAGTCTTT	
+   1325820	    46	 100.0	    29	..............................................	AGTAATAGATGGGGGGTTTGAATGCCGTA 	
+   1325745	    46	 100.0	    30	..............................................	TCATCATCTGATGAAAATTGCTGTTCAATA	
+   1325669	    46	 100.0	    30	..............................................	AAGCAAAATAAAATAAAAGAAATATTTAGC	
+   1325593	    46	 100.0	     0	..............................................	|                             	
+==========	======	======	======	==============================================	==============================	==================
+        21	    46	  98.5	    30	GTTGTGAATTGCTTTCAAAATTGTATTTTAGCTTATAATTACCAAC	                              	       
+
+# Left flank :   TTTGCGTGGTACATCAAATTAGAAACGCTTGTAGATATGTGGTATGGAAAGACAAAAAACAATTTACAACCGATATGAAACTTGTTTATACAGCACCAACAAAACAAGCTGCCGCATTAGCTTTGGAAGATTTTGCTCAAAAATGGGAATCCAAATATGGTTATGCCATCAAATCCTGGAGAGAAAACTGGGACGAATTAACCGTGTTTTTCGACTTCCCGCTAGAAATTCGAAAAATAATCTATACTACAAATTTAATAGAAAATTTAAATGGAAAAATTAGAAAATACACTAAAAATAAAATGTCATTCCCTACTGATGATGCGGTTCTAAAATCAGTTTATTTAGCTTTAAAAGAAGCAACAAAAAAATGGTCAATGCCAATACAAAATTGGGGTATTGTTTTAAATCAATTTAATCTTATATTTGACAAAAGGCTCAGATTATAAAATCCAAGCCTAACTTTTTAACTTACACACTTTGCGGGATAGTGTCATCAA
+# Right flank :  ATACCGCGAGTTAATCGTTTGATATGTTGGTGGTTATATGCTTATTTTGAAATTAAAAAACAGTTCTGTTTGTGTGTTGATATTCTGGTAGGTCTAATATTTCTAAATCCTATTTTTCAAAAAAGTTCTAATTGTTGCGAAGGTTTGTCTGTTTCTACAGGTTTTTTTCCATAAAAAAGCTCCATCATACCAAATTGTTTATCGGTTATTTGCATTACTCCAATTTTGCCGTGTTCGGGCAAACTATTTCTTATTCTTTTGGTATGTACTTCGGCATTTTCTCTGCTGGCACAAAATCGTATATAGATCGAAAACTGAAACATAGAAAAACCATCGTCCAATAATTTCTTGCGAAATTCACTGGCAATTTTACGCTCTTTCCGCGTTTCGGTAGGTAAGTCAAAAAAAACTAATATCCACAAACTTCTATACTGGTTTAAACGGGTGTAATGTTCGTCATACATAAATAGGGTATAAAATTTTTCTTGCGGCTCCCGCAA
+
+# Questionable array : NO	 Score: 6.40
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.93, 5:0, 6:0.25, 7:0.22, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTGAATTGCTTTCAAAATTGTATTTTAGCTTATAATTACCAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.91%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-3.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-14] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [118,980] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : JIP02/86
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Flavobacterium.; Flavobacterium psychrophilum JIP02/86
+//
+
+

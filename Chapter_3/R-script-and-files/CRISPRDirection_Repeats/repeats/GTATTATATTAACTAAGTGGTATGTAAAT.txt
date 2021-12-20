@@ -1,0 +1,40 @@
+Array 1 17235-17524 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AVKP01000032-Clostridioides difficile F314 gcdF314.contig.31, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+     17235	    29	 100.0	    36	.............................	TGGTATTAGAAAGTTTGCTGATAGAATCTAGCATAC 	
+     17300	    29	 100.0	    36	.............................	TATAGTTGTAACCGCTGATTTTAAGGAATTAAACCC 	
+     17365	    29	  96.6	    37	............................G	CCAAGTTGAAAATTTAGAATCTATGTCTTTACACCAT	
+     17431	    29	  89.7	    37	.................CA.........G	ATGGGAGCATTAACTTTAGCATTTGGAGCATTAGCAG	
+     17497	    28	  86.2	     0	...............T....-.CT.....	|                                    	
+==========	======	======	======	=============================	=====================================	==================
+         5	    29	  94.5	    37	GTATTATATTAACTAAGTGGTATGTAAAT	                                     	       
+
+# Left flank :   GGAGGTACAAAGTCACTAGAAAACTTTCATCAAGAGTCCACAGATATTGAGGATTCTAAATCAAGTGATAATGTACAACAGGATGCCTAGTGAGATATTAAGAATTAAAGATGAATATACTTCTTTTTGTTTCGATGAAGCTTGTATGTTTTTAGTAGATGCTATAAAAAATGATAAAAAGCTTAAATTTGAAAATGATGAAAAGAAAACTATAGATAAAAATGAGAGAAAAACTTTTGTCCAAATAGCATTAGAGAAAAAGAAAAAAGTTAATAGGTAAAATATTCTAAATGAATAGAGTGAATTAATGTTAATTTATGATATAATGATAATATAGATATTTTGCAGTGTTCAATTTCTTATATACATTGGATGTAATCATTGAAAGTACTATGATATAAGCATATTTTGTGATATATCAAAAACACTACTGGTTACTCACTGCAATTTTAATATGGTTTTATATGTGTAAGGATTTAAAATGCTCAATTTATTTTGGG
+# Right flank :  TTTTGAACAAATACAGAAAACACTTATTTAAATAGTAAGTGTTTTTGTTGTGCTTAAATTTAATCAGTTATGTGAAATTATTATGGAATAATATTACAAATAATTAATGAAAAAATTATTAATATATTATATAATTGAACTAGAAAATACATTTAATTTATAGTGAAGGAGAATGTTATGGCATTATTTGGGGATAAAGTTGATAAAGAAGATAAAAAGAAATTAAAAGAGCAAGAAGAAATACAAAAATTCATGAATAAGTATCAATTACAAGATTTAAATGAAAAAGATTTAACTATTTTAAGAAGAATAGCAGATGATTTATTTGCAACTGGACTTATAAAAACAGGATTAGCATTGAGTTTTACAAAAATAGAAGAACAAACTAAAATAAATTATCTTAGTGCTTTAGTTGAGCAAAACTGGATGATAATTAGACAATTATCTCAATTGAATAGCAATATAGAAAAACTTGTAGAAGATAAAAAATAATGGACTGA
+
+# Questionable array : NO	 Score: 7.63
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.72, 5:0, 6:1, 7:1.19, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTATTATATTAACTAAGTGGTATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:78.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTTTATATTAACTAAGTGGTATGTAAAG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.20,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-78.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [222,178] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.91,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : F314
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.; Clostridioides difficile F314
+//
+
+

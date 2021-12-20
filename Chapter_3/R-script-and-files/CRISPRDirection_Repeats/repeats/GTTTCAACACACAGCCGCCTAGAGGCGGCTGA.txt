@@ -1,0 +1,84 @@
+Array 1 401-38 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ACEQ02000053-Neisseria lactamica ATCC 23970 N_lactamica-1.0.2_Cont52.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+       400	    32	 100.0	    34	................................	GGGACACTGGGGGGCGGTGCTTCCCCGTCTGTCG 	
+       334	    32	 100.0	    34	................................	GCCTCCAAGCCGTTGATGCTTCGGGCGTGCGTCT 	
+       268	    32	 100.0	    35	................................	GCTTGTTCATGTTTCTGCCTTTCAAAGGTTATTTT	
+       201	    32	 100.0	    34	................................	CCGATATGCCGCACACTCGTTGGTTGGTTTTGTT 	
+       135	    32	 100.0	    34	................................	TTATGCGTCGCCCCGATGCTCGATTGTATCTATT 	
+        69	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+         6	    32	 100.0	    34	GTTTCAACACACAGCCGCCTAGAGGCGGCTGA	                                   	       
+
+# Left flank :   TACCGTCTTTTTTATAGGAAGCGATATTCCGCCTTGGCAGCCGCATTGCCGCACCAACGGCGGGCTGGTTGACCGGCGTGGTTTCTTTAGAAGGTTTGGCAGGAGCCGGAGCGGGCTTATCCGCAGGATTGGACGGTTTGAAACCTGCCGGGGTTTGCTCGGTCGGCGTTGGTTCGGCAACAGGCTGCACGCCGAAATTGCCGCCGATACAAGATGCCAAAAGTAAGGGCAATAAGGCGATGCCGCCATAATTCGGTTTACACATCCCTACTATTTTCCATATTTGATTAATAATAATTATCATTATATTAATATGTGCAGATAACATCAAGCCGTTTTTTAACAAAGATATTCCCGATTAAAACAAAATGCCGTCTAAAACCAAGTTCAGACGGCATTTTTGCGTCGGCCCCGACAGGGTTTGAAGCCGTAGGGGAATCAGATTGTCCTTTAAAGGTTTACAAACCCAGTTCCCGCAGGAAGCGGATGTCGTCCTCGCC
+# Right flank :  ACTATGATAGGACAAATTCCGACTATAAATGGGACGTT
+
+# Questionable array : NO	 Score: 7.32
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.62, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACACACAGCCGCCTAGAGGCGGCTGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.90,-5.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [38.3-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [39,236] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 23970
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria lactamica ATCC 23970
+//
+
+
+Array 1 29-524 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ACEQ02000098-Neisseria lactamica ATCC 23970 N_lactamica-1.0.2_Cont99.1, whole		Array_Orientation: Unconfirmed
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+        29	    32	 100.0	    35	................................	GCCTTTAAAGACGCTTAAATCAACTTCTAGTGCTA	
+        96	    32	 100.0	    34	................................	GAACGCCGTATTTATCGAAAAAGGTTTTTTCATG 	
+       162	    32	 100.0	    35	................................	GTTTGCTGCGTATCTGTAACCGGTTTCTTCAATAC	
+       229	    32	 100.0	    34	................................	CAAATATTTCCGCCCGGCACCCATTCCCGCGCCG 	
+       295	    32	 100.0	    34	................................	CGCCCACCACTGCCAACATTGTTTGACTGGCAAA 	
+       361	    32	 100.0	    34	................................	TACCAAAGCCGCCGAGATAATTGTTGATTTCGTT 	
+       427	    32	 100.0	    34	................................	GTGGGCAGCGAGGCGGTGGTGGTATTTGTGGCGG 	
+       493	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+         8	    32	 100.0	    34	GTTTCAACACACAGCCGCCTAGAGGCGGCTGA	                                   	       
+
+# Left flank :   AACAGAGGACGACTACCGCCCCCGTATCG
+# Right flank :  CCCGTATTGAGCAACGCGCCACCGAACT
+
+# Questionable array : NO	 Score: 7.31
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.61, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTCAACACACAGCCGCCTAGAGGCGGCTGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.20,-5.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [18.3-18.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         NA [0.37,0.37   Confidence: NA] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 23970
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromACEQ02000098.FEATURES             Location/Qualifierssource          1..552/organism="Neisseria lactamica ATCC 23970"/mol_type="genomic DNA"/strain="ATCC 23970"/isolation_source="biological product [ENVO:02000043]"; Neisseria lactamica ATCC 23970
+//
+
+

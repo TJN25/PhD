@@ -1,0 +1,80 @@
+Array 1 76474-76262 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JDUI01000003-Bifidobacterium pullorum DSM 20433 contig3, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	========================	=======================================	==================
+     76473	    24	 100.0	    39	........................	TGGTGGTCCTGTTGAAAAGGTGGTGCCAAAAGGTCCGGC	
+     76410	    24	  91.7	    38	.................A.C....	AACCGTTACCGTTGAAAAGGTGGCGTCAGAGGGGCCGT 	
+     76348	    24	 100.0	    39	........................	TGGTGGTCCTGTTGAAAAGGTGGCGTCAGAAGGCCCGGC	
+     76285	    24	 100.0	     0	........................	|                                      	
+==========	======	======	======	========================	=======================================	==================
+         4	    24	  97.9	    39	TAAGCGCGTAAGTCAACGGTTGAA	                                       	       
+
+# Left flank :   ATTCGGGTTCCCCGCGTCTGTGGCGGCTGTCGAGGGCGCTCGCAGCGTAACCGTGTTACTCTGTGGACAGAGCTTTTCTGGCTCCCGGACGATGGTCAAGTACCCGGTGTGCGACAAGACTTGCCAGGAGTGTGTGCCATGTCATGGATTGTGCTGGTGGTGTCTGGAGTGTTCGAATCGGTGTGGGCCATCGCGTTGGACCATTCCGAAGGATTCACCAAGCCTGTTCCGGTCATTGTGTTCGTGGTTGCGCTGGTGCTGAGCATGGGCGGGCTGTCCTATGCGATGCGCGACATCGGCGTCGGCACGTCCTACGCCGTGTGGGTCGGTATCGGGGCCACGATTACGGTGTGCTACAGCATGATCACGGGGGCGGAATCGTTCTCGTGGGTCAAGATGCTGCTGATTCTCGGACTTGTCGGCTGTGTGGTCGGGCTGAAGCTGGCCGCCTGAGCCGCCAACTTTTCAACAGTTGAAGAGTTGGCGCCAGGAGGGGCCGT
+# Right flank :  CAGGTGAGGTCGGCCATCCGTCCGCCGGCCTCAGCCGCGGCGCTCGCGGCAGGTTTGGCCCAGGCGGCGGGAAAGAGCAATCGGGTCCAACAGGGCGTCCAACTGCTCCGCCGGCAGATCCGTGCGCTTACCGGCCACCTCGCGCACCGTGCGATTCGTCGCCACGGCCTCCTTGGCGATTGCCGACGCGCGTTCGTAGCCGATTGCGTCGTTCAGCGCCGCCGAGATGGACGGCGAGCCCTCCGCGTACCGGCGTCCGGTCTCCAGGTTCACCTCGATGCCCTCCACGCAGTTCTCGCGGAAGATGCGCATCGCGTTGTCCATCAGCTCCATGCCGGTCAGAATTTCGTGCGTCATCACCGGGTCGAACGCGTTGAGCTGCAGCTGCCCTTCGGCCGCCGCCCAGTTCACGGTCACGTCCATGCCGAAGATCACGAAGCAGCACTGGTCCACGCATTCGGGGATCACCGGGTTCACCTTAGCGGGCATGATGCTGGAAC
+
+# Questionable array : NO	 Score: 3.08
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.90, 5:0, 6:0.25, 7:0.53, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TAAGCGCGTAAGTCAACGGTTGAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.80,-1.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [23.3-36.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [32,48] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.64   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 20433
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium pullorum DSM 20433
+//
+
+
+Array 2 83642-83963 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JDUI01000003-Bifidobacterium pullorum DSM 20433 contig3, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	========================	=======================================	==================
+     83642	    23	  75.0	    22	CC.T.-.T..............G.	AGGTGGCGGAAACCACCCCGGT                 	A [83662] Deletion [83687]
+     83688	    24	  95.8	    39	......................G.	TAGTGGGACTGTTGAAAACCTTGCGCCCACGGCCCCATC	
+     83751	    24	  87.5	    39	.G.........AC...........	AAGCGGCCCTGTAGAAAAGGTTGCGGAAACAGGCATGGT	
+     83814	    24	 100.0	    39	........................	CAGTGGGACTGTAGGAAACCTTGCGCAAAGGACCCCATC	
+     83877	    24	  91.7	    39	.G.....A................	TAGTGAGGCTGTAGGAAACCTTGCGTCCAAAAGCACGCT	
+     83940	    24	 100.0	     0	........................	|                                      	
+==========	======	======	======	========================	=======================================	==================
+         6	    24	  91.7	    36	TACGCGCGTAAGTCAACAGTTGAA	                                       	       
+
+# Left flank :   ATCGGCGCCAGAATCACGCCGAAAACGAGCATCGCCGGATCATTGGCCATGGCCAAGTTGGCCACGCTGTTCTCCGCCGCGCCTCCGGACAGGACCGCCGACAGCACGGTGCCGATGATATTGCCTCCGTACATGATCGGCAGACACATCAGCAGCAACGTCACGAACCTGCCCGGGGTCATGCCGAACCTGCGGGTCGGCAGCTCCGGCACCGCCCGCATCAGCATCAGTCCCGCTGGCATGGCGATTAGATACAACGGACCGCTCGAGATGAGGAACATCAGCCACAGCGGCGCATTCGCCGCCCCCTCGCCCATTATCCGCACCAGTATCACGCTCAACGCCACGTTCAGCACCACCCACGCGGCCAGCATCACGCATGCGCCCGCGCCGATGCGGCCGAACCGCCACCGCGCCTGAGTCAGCCAATCCATTGCCGTTCCTTTCCCCAAAACGGTCCAGTCCAGCCCTAGTCTAACCTACGTCCCCTAAGCCGGCGT
+# Right flank :  ATAGTGGATGGCGGACCCGTCACCAGACCCCGGCCACCGGGGTGCCGCAATCCGGACAGACGCCAACCGTTTCGTCACCGCCATGGTTCCGGGACAACCGGTCCAGCTCGATCCGGTACCAGTCGCGTTGGATCAGCACGGCATGGCAGTCCGGGTTCGGGCAGACCGTCGCATCACCCTCACGATGGTGCACATTGCCGGTGTACACGTACCGCAGCCCTTCCTCCATCGCGATCCGCCGCGCCCGGATCAGCGTGTCCAGCGGCGTCGCCGGCACGTCCATCATCCGGTACGCCGGATGGAACGCGGAGAAGTGCAGCGGCACGTCCACGCCGCAGTGCTCGCGGATCCACACGCATTCGGCGTGCAACTGCGCATCGTCGTCATTGTGGCCCGGAATCAGCAGCGTCGTCAGTTCCACCCACGCCGGAGTCTCGACCACCGCATACTCGATCGTGTCCAGCACGTCCCGCAGGTGGGTGCCGGTCACCGACCAGTAG
+
+# Questionable array : NO	 Score: 2.92
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.75, 5:0, 6:0.25, 7:0.40, 8:0.6, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TACGCGCGTAAGTCAACAGTTGAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [4-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [40.0-30.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [114,19] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.45,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 20433
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae;Bifidobacterium.; Bifidobacterium pullorum DSM 20433
+//
+
+

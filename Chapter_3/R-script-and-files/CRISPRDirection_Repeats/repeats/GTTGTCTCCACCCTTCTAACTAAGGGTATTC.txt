@@ -1,0 +1,116 @@
+Array 1 33482-33710 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI260263-Porphyromonas gingivalis W4087 Scaffold692, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===============================	===================================	==================
+     33482	    31	 100.0	    35	...............................	CCAACCTCTTCCGTGTAATAGGTCCGGATGGTTAT	
+     33548	    31	 100.0	    35	...............................	CCAACTCAGACAAGTACAACAAACTACCAATATGT	
+     33614	    31	 100.0	    35	...............................	CCAACTCATAATCATCGCTGTTCTACTTGCATATA	
+     33680	    31	 100.0	     0	...............................	|                                  	
+==========	======	======	======	===============================	===================================	==================
+         4	    31	 100.0	    35	GTTGTCTCCACCCTTCTAACTAAGGGTATTC	                                   	       
+
+# Left flank :   CTCCCTCCACAATAGAAACATCGGCTTCACTGCCGTAGCGATCATAGAGTCGGGCGATATGCTCCCGACTCATCATGAAAGCATCCAGATTCACCGTTTCCGTTCCGCATGCAAGGCGGTGATACTTAGGATCGATATAGTCGGGACCGCATTTGAAAGGCTGCACTTTGAGACCGTGCCTTCGAAGCAATCGTAGCAATCCGAGCGTGAAAGAAGTCTTTCCACCACCCGATGAAGCAGCACTGATAAGGAGATGAGAGCGTTTGATAGGAACAGACAATTATATGAGTTAAGGAAATCGGGATTTACAGACAAAAGCCAAGGAAGAGAACGAAAGGCCTCCCGATCGAATGGATAGCTGCACACAAACACTGTCGGCTACAACCCTCTCCTCCGAACACGATCCCCCTATCCATTTTCCATCACTTTAGCGATCGCTAATTTAGGAATACTTCCCCATCAACAGCACAACTTCCCCTCTTTCTCCTTTCGGAATAATA
+# Right flank :  CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTCTCCACCCTTCTAACTAAGGGTATTCCCAACCGTAGCCCCTTGGAAACGTTTCGAAATACAGGTTGTCTCCACCCTTCTAACTAAGGGTATTCCCAACCAACGACCTGTGGGATAGCTTTGGATCTCCGTTGTCTCCACCCTTCTAACTAAACGCCAGTTCGATCTAAGCGAACATACCATAAAAATAACAAGTAGCTGTAAATCATACTCTTTTGTGATTCTCCGGCTGCATAATGATCGGGAAGATGGGGCGGCTTATAAGTCATTGGGCTTCAGATGTAGATAAAAAGCCATCTGAAAGCAATATAAGTGCCTGAAAAACGCTGTGTGGAAAATAAAACGCACTAATAACCAATGTGTTGTGCCATTCCTTTATATCGAACTCACATTAACTAAG
+
+# Questionable array : NO	 Score: 6.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:0.34, 7:1.05, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTCTCCACCCTTCTAACTAAGGGTATTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.84%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-5.30,-5.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [60.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [222,1043] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.27,0.18   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : W4087
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Porphyromonadaceae; Porphyromonas.; Porphyromonas gingivalis W4087
+//
+
+
+Array 2 34422-34184 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI260263-Porphyromonas gingivalis W4087 Scaffold692, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence             	Insertion/Deletion
+==========	======	======	======	======================================	============================	==================
+     34421	    38	 100.0	    28	......................................	AAAGACAGAAATGGAATGAAATTCCTCT	
+     34355	    38	 100.0	    28	......................................	TTACGAGGGTTTAGATAGTCATGAGCAA	
+     34289	    38	 100.0	    28	......................................	TCATTTCGTCTTTTGCTCGGTTATCGCA	
+     34223	    37	  81.6	     0	.T....................-.T....T..T.T..A	|                           	C,A,T [34191,34195,34197]
+==========	======	======	======	======================================	============================	==================
+         4	    38	  95.4	    28	TGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAAC	                            	       
+
+# Left flank :   CATTGAGGGATCTTCTGCCAAAGATCTGCCGGAAGGTAGTTCTCTGGTAGATTCATTATGGAAAAAATACGAAATGATAATTCGGAAAATTCTTCCGATTCTCGACCCTGAAAATAGATTTTTTGGAAAGCTTTTGAATAATATGTCTCAACCTATCAATGACTTATAAAGGGTCGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACCCCCTCGTATATTTCCTTGCCGTTTTTGTCGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACAAGATCCAATTCGGATATAAAATGATCCCGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGAATACCCTTAGTTAGAAGGGTGGAGACAACATCAAAGGCTTTATCTGTGATTAGGGGT
+# Right flank :  GGAATGGCACAACACATTGGTTATTAGTGCGTTTTATTTTCCACACAGCGTTTTTCAGGCACTTATATTGCTTTCAGATGGCTTTTTATCTACATCTGAAGCCCAATGACTTATAAGCCGCCCCATCTTCCCGATCATTATGCAGCCGGAGAATCACAAAAGAGTATGATTTACAGCTACTTGTTATTTTTATGGTATGTTCGCTTAGATCGAACTGGCGTTTAGTTAGAAGGGTGGAGACAACGGAGATCCAAAGCTATCCCACAGGTCGTTGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACCTGTATTTCGAAACGTTTCCAAGGGGCTACGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGAATACCCTTAGTTAGAAGGGTGGAGA
+
+# Questionable array : NO	 Score: 5.70
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.77, 5:0, 6:0.29, 7:0.04, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.63%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [924,332] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : W4087
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Porphyromonadaceae; Porphyromonas.; Porphyromonas gingivalis W4087
+//
+
+
+Array 3 34747-34579 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI260263-Porphyromonas gingivalis W4087 Scaffold692, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	=====================================	=============================	==================
+     34746	    37	  97.3	    29	G....................................	CCCCTCGTATATTTCCTTGCCGTTTTTGT	
+     34680	    37	 100.0	    28	.....................................	AAGATCCAATTCGGATATAAAATGATCC 	
+     34615	    37	  91.9	     0	..................................NNN	|                            	
+==========	======	======	======	=====================================	=============================	==================
+         3	    37	  96.4	    29	CGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAAC	                             	       
+
+# Left flank :   ACAAAGCTACGTTGGATGAAGTCAAGACTTTGTTGGGCGAATATGATCGCTGCCGCATCAAAATCTTCGATTGGGCATTTGCACTCGAAGGAGCCATCATGTCTGATCGCGACTTGAAGCCGTATTTGCACGAGTCGTCGAGCAGGGAGGGTAAGAGTGGAGAGCATTCTACACTGGTGAAGATGCTGGTGGAGAAGAAAGGCTGTCTGACTCCTGACGAAAGCCAATACCTGATTCTGATTCGCAACAAGGCTGCTCACAACCAATTTCCCTGCGCTGCAGAAATACCTCTTATTTACCGAGATGTGAGTGCAAAGGTCGGTAGCATTGAGGGATCTTCTGCCAAAGATCTGCCGGAAGGTAGTTCTCTGGTAGATTCATTATGGAAAAAATACGAAATGATAATTCGGAAAATTCTTCCGATTCTCGACCCTGAAAATAGATTTTTTGGAAAGCTTTTGAATAATATGTCTCAACCTATCAATGACTTATAAAGGGTC
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGAATACCCTTAGTTAGAAGGGTGGAGACAACATCAAAGGCTTTATCTGTGATTAGGGGTTGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACAAAGACAGAAATGGAATGAAATTCCTCTTGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACTTACGAGGGTTTAGATAGTCATGAGCAATGGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAACTCATTTCGTCTTTTGCTCGGTTATCGCATTGTTGGGAATACCCTTAGTTAATGTGAGTTCGATATAAAGGAATGGCACAACACATTGGTTATTAGTGCGTTTTATTTTCCACACAGCGTTTTTCAGGCACTTATATTGCTTTCAGATGGCTTTTTATCTACATCTGAAGCCCA
+
+# Questionable array : NO	 Score: 5.98
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.82, 5:0, 6:1, 7:0.07, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGTTGGGAATACCCTTAGTTAGAAGGGTGGAGACAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.35%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1319,7] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,1.05   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : W4087
+# Taxonomy hierarchy : Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales;Porphyromonadaceae; Porphyromonas.; Porphyromonas gingivalis W4087
+//
+
+

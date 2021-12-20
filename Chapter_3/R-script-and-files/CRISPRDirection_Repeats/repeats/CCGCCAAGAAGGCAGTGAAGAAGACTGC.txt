@@ -1,0 +1,166 @@
+Array 1 3187547-3187192 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007166-Xanthomonas oryzae pv. oryzae PXO86, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	============================	=============================	==================
+   3187546	    28	  96.4	     0	.......A....................	-                            	Deletion [3187519]
+   3187517	    26	  82.1	    11	-............C..C......G-...	CAAAAAGGCAA                  	Deletion [3187517]
+   3187480	    28	 100.0	    26	............................	TGTCAAGAAGACTGCAAAGAAGGCAG   	
+   3187426	    28	 100.0	    23	............................	GAAGAAGGCAACCAAGAAGACTG      	
+   3187375	    28	 100.0	    23	............................	AAAGAAGGCGACCAAGAAGACTG      	
+   3187324	    28	  96.4	    20	.........................C..	CAAGAAAGCCGTCAAGAAGA         	
+   3187276	    28	  75.0	    29	.......A........AGC.....AG.G	GACCAAGAAGTCCGCCACCAAGAAGACCG	
+   3187219	    28	  67.9	     0	.T.........C.G..CGC.....AG.T	|                            	
+==========	======	======	======	============================	=============================	==================
+         8	    28	  89.7	    19	CCGCCAAGAAGGCAGTGAAGAAGACTGC	                             	       
+
+# Left flank :   AAAACAGCGGAAAAGAAGTGCTTTTTTGAAAAAGCTGTTGGGCGAACATGCTTTTCGGTGAGGCGCGTACGCCGGTGCGCACGCTGTTTTGCTGCTCTGGATGCGGCACGCAGCGATGCTTGGCTAAAAAAAAAATGCAAAAGAGTGTTGACAGTAAAAAAAAGCGTGATTAGGTTTCGCCCAGCAGACATTGCTGCTGAAGAGAGTGAGCAAAATCGACATCGCGCCGACAAGCTTGTTCCGGATGTCCACCGAAGCGCCAACCACGGTGGAGTCGGGGCCGCTTCTCTCCAAAAAAGCAGCTGTCGTTCCGACTACGCACACGTGTCGCCGCTCGATGCGGGTGTTCCTGTATCCGTTCCGTCGCGCATTACCTGCGAACGGTTCCCGACGACGGCATGCCGTCGCTGGGTTTGGTTCAACTGGGCGTTACAACTCCATAGTTCACTGACGAGGAGCCAATTACATGGCCACTGCAAAAGCTGCGAAAAAGAAACCCA
+# Right flank :  CGCCAAGAAGAAGCCGGCCGCTCGCAAGAAGAAGGCCGTTCCGGTCGCGCTGCCCGCAACCCCGGCACCGCTGATCTGAATCTTGTAATACCCGATCGCCGTAAACATCGAGCTCTCTCCCCGACGCCCAGCGGGGAGGGAGCTTTTTTATGCGCCTGGCACTGGCGTGGTCAGTGTTGCGCGGAGCGTCGCTCGCCGGCAGGCGGCGTAGGTTTCATCATCGAAGCGACGTGGCTCATTCCAAGTTCTAGACGCTGTGGTGCCCATGGCATGCCGGCCGCCAGCGCGGATGCTGCCGCGAGATGGTTTGACTCTTCCGAGCAAGCTCAGACAACTGCACCAATGCTTTGGCGCGACGGCAAGAGGCGATAAGAAGGGCCGACACAAAGCGTCACGGCGCGTTATGCGATGCAGGTCGGCCTGAGTTGTTGGAGTGCCGGCACTGTATCGAGTCGGAGGGTAGAGACCGTGCGGTGGTCCAGGCCGAGAGACCTAGCGTT
+
+# Questionable array : NO	 Score: 2.81
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.64, 5:0, 6:1, 7:-1.28, 8:0.6, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CCGCCAAGAAGGCAGTGAAGAAGACTGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [8-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [38.3-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [660,392] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.05   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_011257743 [4222022-4222654]; Cas8c:WP_044757099 [4219295-4221139]; Endonuclease Cas2:WP_011257741 [4223706-4223996]; Helicase/endonuclease Cas3:WP_044757098 [4216205-4218496]; 
+# Array family : NA
+# Sequence source strain : PXO86
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;Xanthomonadaceae; Xanthomonas.; Xanthomonas oryzae pv. oryzae PXO86
+//
+
+
+Array 2 4224184-4229912 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP007166-Xanthomonas oryzae pv. oryzae PXO86, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	===============================	=====================================	==================
+   4224184	    31	 100.0	    35	...............................	AACTGGGCTAGCCCAAAGCAGCGGTCCGCCTTGCT  	
+   4224250	    31	 100.0	    34	...............................	TGGCCCTGTGCAATGACCCATTGCCACTGGCATC   	
+   4224315	    31	 100.0	    36	...............................	TGCAAGTCCGAGCCCTGTGGGTTGATCCCTGAGCCC 	
+   4224382	    31	 100.0	    34	...............................	GTGCTTATCCTCCGTGGCTCTTCCATAATCACAC   	
+   4224447	    31	 100.0	    35	...............................	GTGCAGTCACTTGTTGAGAGTGGCAAGCAGACTGA  	
+   4224513	    31	 100.0	    33	...............................	CTAAAAACAAGCTCAGGCTAGAGGGACGGCGGA    	
+   4224577	    31	 100.0	    35	...............................	AACTGGGCAAGTCCTAAGCAGAGGTCAGCGCTGTT  	
+   4224643	    31	 100.0	    34	...............................	CACCGTAACACACCCGTCAGGGGATCATAAGCCA   	
+   4224708	    31	 100.0	    34	...............................	TGGGTGCAGCATTTTTAGGGGATGTTGAGCACAA   	
+   4224773	    31	 100.0	    36	...............................	TTGGTTGGCGCCTTTGACCTGGCTGCGCAGATCTTT 	
+   4224840	    31	 100.0	    37	...............................	TCTGCTGCTTTCGGCGTGGATTACAACAGCCTCAGCG	
+   4224908	    31	 100.0	    34	...............................	GCGGGCAAGGCGCTGTGGCGGGAATGTCAGAAGG   	
+   4224973	    31	 100.0	    34	...............................	ACCTTGCAGCCCTTAGCTTTGCAATACCCCTCAT   	
+   4225038	    31	 100.0	    35	...............................	AGCACTGTGCTTGGCGGTATCGGCGGCGGTGCAGG  	
+   4225104	    31	 100.0	    34	...............................	GGTGGCAGAGTATATGCAGATATCCCACCCGATT   	
+   4225169	    31	 100.0	    36	...............................	TTCGGCGTCCCGCCGAGCATGATTGGGCACAGCAGT 	
+   4225236	    31	 100.0	    36	...............................	TGTTGGTGACGCGCCACCTTCCACGCCCGGTGATGG 	
+   4225303	    31	 100.0	    34	...............................	GTGCATTACTTCACCAAAGATCGCGCCGACCCCA   	
+   4225368	    31	 100.0	    36	...............................	CGGGGTCTTATAGCGATAACTGGACGATCGAGCAGG 	
+   4225435	    31	 100.0	    34	...............................	ACCTGTGGCGCGTGCGTATCACCGACCGCGACGG   	
+   4225500	    31	 100.0	    34	...............................	TCGCGAATAGGCGCGGTCCAGGGCCACGCAGTGG   	
+   4225565	    31	 100.0	    34	...............................	CCAGGTAGGTGCCAGTGGCCACAACTTGGAAGAT   	
+   4225630	    31	 100.0	    34	...............................	TGGTTACAGATGATCATGGGCGATCAGGCCGACA   	
+   4225695	    31	 100.0	    36	...............................	CGCAAACCAGATGGCAAGTGGCAGCGGGGCAGCAAC 	
+   4225762	    31	 100.0	    33	...............................	ACTAGCAGCCAGTTTGGCAGGCTGCTTTGCAGC    	
+   4225826	    31	 100.0	    34	...............................	AGGAAACGGTCGCCATTGGGCAAGCTGCGGCGCA   	
+   4225891	    31	 100.0	    34	...............................	TTGGGAGCCTATTAATAACATCTAGGACAACCCG   	
+   4225956	    31	 100.0	    33	...............................	CGTCAATTGTGGTGACAGTTGTTTGCAGGGCAC    	
+   4226020	    31	 100.0	    34	...............................	TTGCAAAAAAGCAGCCAAGCCGCCGGGAGTTTGT   	
+   4226085	    31	 100.0	    35	...............................	CCATTTACACCAAGGCCTGCCGGCGAGGTTGCATA  	
+   4226151	    31	 100.0	    34	...............................	TGACTATGACTCTGTCGCCCTGGCTGCGCCGTAT   	
+   4226216	    31	 100.0	    34	...............................	CGCCGACTCTAGGGCAATGCGCGTTGCTGGAGGG   	
+   4226281	    31	 100.0	    35	...............................	AAGCTTGATCTTGTTGGCATAGGACCAGCGCGGAA  	
+   4226347	    31	 100.0	    34	...............................	GTCTGGAATACACCACTTACCCGACTCATCCTGC   	
+   4226412	    31	 100.0	    35	...............................	CTTAATCCCGGAGATGTATACGCCACTTCGCCGGC  	
+   4226478	    31	 100.0	    35	...............................	CACGCCCGGTGATGGTGATGGCCACGGTGATGACC  	
+   4226544	    31	 100.0	    36	...............................	GCCTTGCTCATGCCGTTGGCGCTGTAGTCCCCGTAG 	
+   4226611	    31	 100.0	    34	...............................	CCAGATGCTTGACATGCATGAGCAGGGTGTGTTA   	
+   4226676	    31	  96.8	    35	T..............................	CGGATGTTCGCCGGCGTGCATGTTGTATGGCGCAC  	
+   4226742	    31	 100.0	    34	...............................	CTTGAGGACTCGTCGGGCCGCCAGCTGTCTGTCC   	
+   4226807	    31	  96.8	    34	...T...........................	TGCTGCATGCTTGCGTGCCAATGTAACCTGCACA   	
+   4226872	    31	 100.0	    34	...............................	ACGGTGGCTGTTAGCTCCAGTACTGTGCTTGCAG   	
+   4226937	    31	 100.0	    33	...............................	TGGCTGATCAGGCTGCTGGAGTAGATCCAGCTG    	
+   4227001	    31	 100.0	    34	...............................	ATATAGATACTGCCTGCACCTAGGCTACCCACTA   	
+   4227066	    31	 100.0	    34	...............................	TGCATCGCCTCGGCGAGCGCGATGATGAGCGCGC   	
+   4227131	    31	 100.0	    35	...............................	CCATTTACAGACAGACCTGAGGGCGAAGTGGCGTA  	
+   4227197	    31	 100.0	    33	...............................	CCAAATCGGAGGTCTGCACTGGCATATGCTGAC    	
+   4227261	    31	 100.0	    33	...............................	GTTAAGGAAGCTCATGCAGTTGCCCAGGCTCGT    	
+   4227325	    31	 100.0	    36	...............................	GTCCTGGGACGCCTCGCCGGCAGCGTCGCAGGCATG 	
+   4227392	    31	 100.0	    34	...............................	ACCTTCCCCGCGATGCGGCCGATGCGCTGCAGGC   	
+   4227457	    31	 100.0	    34	...............................	TATTTCGCACGAGATGCGTGCAGCACCTGCGATC   	
+   4227522	    31	 100.0	    35	...............................	AGCTGCGTTGGTCCGACCACTCTGGTGCGAGGTTA  	
+   4227588	    31	 100.0	    35	...............................	TCGGCGACGTGGAGCACAAGACCAGCAAGAGTGGC  	
+   4227654	    31	 100.0	    33	...............................	CCATGCGGCGAGGTTTCCACGCTGACACTCCCG    	
+   4227718	    31	 100.0	    34	...............................	AGCACTGTGTTAGGTGGTATTGGTGGCTCGGGAT   	
+   4227783	    31	 100.0	    34	...............................	TTAGCCACGATGGCATAAATGTCACTTGGCAGAT   	
+   4227848	    31	 100.0	    35	...............................	TGAGACTTGTCTCTGAGGCACCAGATATGCAGGTG  	
+   4227914	    31	 100.0	    34	...............................	ACATCGTTCGACAGGGTGATGGCGTTCGGTTGCA   	
+   4227979	    31	 100.0	    35	...............................	CGCGCCAAGGGGGCACCTGCCCGCTCCAACTCCTC  	
+   4228045	    31	 100.0	    35	...............................	TTCGTGCAGCTGGTTGGGTGATCTTCGCCATTGCC  	
+   4228111	    31	 100.0	    35	...............................	TCACGAATAGGCGCGGTCCAGGGCCACGCAGTGGC  	
+   4228177	    31	 100.0	    34	...............................	GCCAACGCGAAACCTCTGAAACGTTGCATTGCTG   	
+   4228242	    31	 100.0	    34	...............................	TCAGCGCGTGTGGAGCGTTATCCGTAGGGGCGCT   	
+   4228307	    31	 100.0	    36	...............................	CCGACGTTGGCCAGCCTCTACGAAGGCGCTGTAGCC 	
+   4228374	    31	 100.0	    34	...............................	AGGTGTTGCGCGCTGTCAAAGCGTCTGCACGCGT   	
+   4228439	    31	 100.0	    36	...............................	ACCAAAGATCGCGCCGACCCCAATAAGCCGGTGGCC 	
+   4228506	    31	 100.0	    35	...............................	AAGATTGGACCCTCGCTGGTGATGATCGGCGCGGC  	
+   4228572	    31	 100.0	    35	...............................	ATTTCATGAGCGCGCATGCGCAGATCAGCAAGCAA  	
+   4228638	    31	 100.0	    36	...............................	GTGATGGTGCTGGAACAGGCGTTGTCGGCTGTGCTG 	
+   4228705	    31	 100.0	    35	...............................	TAGATCGCCCACAAAGGACCGTGGATATGTGGACA  	
+   4228771	    31	 100.0	    34	...............................	TTTCGCGGCGTGATCACCTGGTCGGCGATTAACG   	
+   4228836	    31	 100.0	    33	...............................	TATACGGAGCGTGGAGGGTGATCTTAAGGTTGC    	
+   4228900	    31	 100.0	    34	...............................	ACCATCTGCGTTTCTGCATCGCTGAAAAGGCCGC   	
+   4228965	    31	 100.0	    34	...............................	ATCGTGCGGCATTGCCCAACGCCTGATGCGTTGC   	
+   4229030	    31	 100.0	    35	...............................	TGGATGCTGACGTTCGTGACTTGCGCGCCGCTGTC  	
+   4229096	    31	 100.0	    35	...............................	GGGCGCGGGGCGAGCGGGACGACCTGGATGCTCAT  	
+   4229162	    31	 100.0	    34	...............................	GTTCTATACGCGGAACGGCGCGGGCACGCTGCTG   	
+   4229227	    31	 100.0	    34	...............................	GTGGCCCACGTCGAGTCGCAGGCGAAACGACCGC   	
+   4229292	    31	 100.0	    35	...............................	ACGTTCAAGCCGCTCGCCCTGGGCGACCGGTGGGA  	
+   4229358	    31	 100.0	    35	...............................	CCGACCTCAAGGCGCGTTCCTCCGGTTCGATCCAA  	
+   4229424	    31	 100.0	    33	...............................	ATGGGTAGTAACGTATCCACGGCCCGTGAAGCG    	
+   4229488	    31	 100.0	    36	...............................	ACGTAGAACGAGCGCTTGTTATAGCGCTCGCGCCAC 	
+   4229555	    31	 100.0	    34	...............................	CTGCACATACTCAATCAGGGCGCTGTCGGTGCGA   	
+   4229620	    31	 100.0	    34	...............................	ACCGCATCCCGGAAGACCCACAATGTTGTCCGCC   	
+   4229685	    31	 100.0	    36	...............................	GCCCGACGGGTATGAGCAAGTCTTTGCTGGGATACC 	
+   4229752	    31	 100.0	    34	...............................	CGCGACGGGCTGGAGCTGGTAACCCCGTCGCAGA   	
+   4229817	    31	 100.0	    34	...............................	GAGTGCCCGGGGTCGGTGTCGGCGCAGGCTGGCC   	
+   4229882	    31	 100.0	     0	...............................	|                                    	
+==========	======	======	======	===============================	=====================================	==================
+        88	    31	  99.9	    35	GTCGCGTCCTCACGGGCGCGTGGATTGAAAC	                                     	       
+
+# Left flank :   GGAAGTAAGAGGACGCCCGCGCATGATGGTCTTGATCAGCTACGATGTCAGCACCAGCTCCCCGGGCGGCGAGAAACGCCTGCGCAAGGTCGCCAAAGCTTGCAGGGACCTTGGTCAGCGTGTCCAGTACTCGGTCTTCGAGGTTGAAGTGGAACCGGCGCAATGGGCCGAGCTTAGGCAACGCCTATGTGATCTGATTGATCCCAGCGTCGACAGCCTGCGCTTCTACCACCTCGGCGCAAAGTGGGAAGCCCGCGTAGAGCACGTCGGTGCCAAGCCAAGCCTGGACTTCAAGGGTCCGCTGATCTTCTGACGCGAACCCCAAGCGACTTGCGAAAGCCGGGCAGGCTCGCGAAATTTCCAAGTGATTGATTTTAAAATAAAATAACTTCACTTGCCATCGCGGGTGCTCATATTTGCAAGGCATGGAACCTGTTCGCGTTCCTGTTCGCGAAATGACGGGTTTTCCCTCAAGACGCGCAAGCACTTATGCTGGCGGC
+# Right flank :  CATGACGCGTCAGCATTACTCATAAGTCAGAAATATAGGCGACACTTGGATGCGTGAAGAACGAGCGCACCAATTCTGGTCGAGCTGCAATGTCGGACAACTGATCATGCACCCGATCGGCCAGCTTCTCGCCACTGCGCAGCGGGCTGCGCGCTACGCCCGTGCGCTTGGTGTAGCTCCACACCAACTCGTCGGGATTCAAGTCCGGCGCGTCACCCGGCAGGAAATGCAGCGTCAGCCTGCCCTTCAGGCTGTCCACGTCATCGCGCAAGCCACGGGTCTTGTGGGCAGGCAAACCATCACCTGATTAGCACGATCTTTCAGCACAGTCGCAGCCAGTGAGAGCCGACCGGTCGATGGTAGGACCGTCGCTCCACCGAGACCAGATCATGGCCATGAATCGTGTGCAGTTCCAAGCCGGGCTGTCGTTGCCGGCGTTCCTCAAGTGGTGCCCAGCTTGCTGGCCGCCGCAGCCGCCAGCAAGCCGTGGTCCGAGCGGG
+
+# Questionable array : NO	 Score: 10.95
+# 	Score Detail : 1:1, 2:3, 3:3, 4:1.00, 5:0, 6:0.34, 7:0.61, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCGTCCTCACGGGCGCGTGGATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [5,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTCGCGTCCTCACGGGCGCGTGGATTGAAAC with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-5.30,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [43.3-56.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [189,19] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [9.55,0.64   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_011257743 [4222022-4222654]; Cas8c:WP_044757099 [4219295-4221139]; Endonuclease Cas2:WP_011257741 [4223706-4223996]; Helicase/endonuclease Cas3:WP_044757098 [4216205-4218496]; 
+# Array family : I-C [Matched known repeat from this family],   
+# Sequence source strain : PXO86
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;Xanthomonadaceae; Xanthomonas.; Xanthomonas oryzae pv. oryzae PXO86
+//
+
+

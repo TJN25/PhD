@@ -1,0 +1,146 @@
+Array 1 42-669 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960336-Peptostreptococcus anaerobius strain KA00810 Scaffold288, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+        42	    30	 100.0	    36	..............................	TCATAAGCTAATATTTGAATGGATAGACTATAACAC 	
+       108	    30	 100.0	    36	..............................	CAATCCTTCCCAAATACGTATCAAGAATTTTAAACT 	
+       174	    30	 100.0	    37	..............................	AGACCGACAGTAAAAAAGACAATAACAGATATATCAC	
+       241	    30	 100.0	    37	..............................	ATTAGTTAGTGTTCCCATCCAAACCTTTATTTTACCT	
+       308	    30	 100.0	    36	..............................	TAAGGCCTCGTCAGTGGTGATTTTTTCACCTATCAA 	
+       374	    30	 100.0	    36	..............................	TATGTATATCTGCTATTTTCATAGTCCCACTCGTAT 	
+       440	    30	 100.0	    37	..............................	ATGTCTTAAAAGAAGTATATGGATCAGAGAATGTATC	
+       507	    30	 100.0	    36	..............................	AAAAATTGAAAGTAATATAAATTTTGAAAGTAATTA 	
+       573	    30	 100.0	    37	..............................	GTGATGTAAGTGTAAGCTATGATACATCTTTGGATAA	
+       640	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+        10	    30	 100.0	    37	ATTTACATTTCACTTTGATTCTATTACATC	                                     	       
+
+# Left flank :   TATTACCATCAACGCTATATATTATAGAGCCTTTAAATTTGA
+# Right flank :  CTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAATTTACATTTCACTTTGATTCTATTACATCTTACAAACAGGAGTTACATTTGTACAAAACATACTGCATTTACATTTCACTTTGATTCTATTACATCTCAAAAGCTTACATTAAGAAACCTAGTGGTAAAAGCATTTACATTTCACTTTGATTCTATTACATCTACGATAAAAAGGCATTACTAAAAGTTAGCAGTGCATATTTACATTTCACTTTTATTCTATTACATCCGCCATATTAAAACCTCGCTTTCTGTTGATTTTAAATTTACATTTCACTTTGATTCTATTACATCTTTAAGAGAAAAAAATAATCTGGTCATCAATCTATTTCATTTACATTTCACTTTGATTCTATTACATCGAATCTTTTTTTGAATACAACACCAAATTCATT
+
+# Questionable array : NO	 Score: 6.01
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:0.99, 7:1.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTTACATTTCACTTTGATTCTATTACATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:76.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [50.0-1.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [43,2560] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.27,0.18   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_060917037 [3229-3507]; Cas4:WP_060917052 [4518-4988]; Endoribonuclease Cas6:WP_081091912 [10876-11625]; Helicase/endonuclease Cas3:WP_060917039 [5026-7407]; 
+# Array family : NA
+# Sequence source strain : KA00810
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Peptostreptococcus.; Peptostreptococcus anaerobius
+//
+
+
+Array 2 1136-840 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960336-Peptostreptococcus anaerobius strain KA00810 Scaffold288, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+      1135	    30	 100.0	    38	..............................	GAAATAGATTGATGACCAGATTATTTTTTTCTCTTAAA	
+      1067	    30	 100.0	    35	..............................	TTAAAATCAACAGAAAGCGAGGTTTTAATATGGCG   	
+      1002	    30	  96.7	    37	.............A................	ATGCACTGCTAACTTTTAGTAATGCCTTTTTATCGTA 	
+       935	    30	 100.0	    36	..............................	GCTTTTACCACTAGGTTTCTTAATGTAAGCTTTTGA  	
+       869	    30	 100.0	     0	..............................	|                                     	
+==========	======	======	======	==============================	======================================	==================
+         5	    30	  99.3	    37	GATGTAATAGAATCAAAGTGAAATGTAAAT	                                      	       
+
+# Left flank :   TATCTGTCTATGATTGCTTATCTGCTTATACTTAAATGGGATGTAATAGAATCAAAGTGAAATGTAAATTATGCTCACTTGATAGAAGAAGGACATGAACTAGTAGATGTAATAGAATCAAAGTGAAATGTAAATTAGTAAAACTACTGTCTAAGCCTTTCCACAGTGCTGTGATGTAATAGAATCAAAGTGAAATGTAAATGAGTTATCAACCGTCATCATGTTATCTAAGATAAACGATGTAATAGAATCAAAGTGAAATGTAAATGTAATATATACAATAATATCTTGCCTATAGCAGCCATAGATGTAATAGAATCAAAGTGAAATGTAAATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGTAATAGAATCAAAGTGAAATGTAAATTCAAATGAATTTGGTGTTGTATTCAAAAAAAGATTC
+# Right flank :  GCAGTATGTTTTGTACAAATGTAACTCCTGTTTGTAAGATGTAATAGAATCAAAGTGAAATGTAAATTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAGATGTAATAGAATCAAAGTGAAATGTAAATTTATCCAAAGATGTATCATAGCTTACACTTACATCACGATGTAATAGAATCAAAGTGAAATGTAAATTAATTACTTTCAAAATTTATATTACTTTCAATTTTTGATGTAATAGAATCAAAGTGAAATGTAAATGATACATTCTCTGATCCATATACTTCTTTTAAGACATGATGTAATAGAATCAAAGTGAAATGTAAATATACGAGTGGGACTATGAAAATAGCAGATATACATAGATGTAATAGAATCAAAGTGAAATGTAAATTTGATAGGTGAAAAAATCACCACTGACGAGGCCT
+
+# Questionable array : NO	 Score: 5.73
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.96, 5:0, 6:0.99, 7:0.98, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GATGTAATAGAATCAAAGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:76.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-76.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [841,2094] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:WP_060917037 [3229-3507]; Cas4:WP_060917052 [4518-4988]; Endoribonuclease Cas6:WP_081091912 [10876-11625]; Helicase/endonuclease Cas3:WP_060917039 [5026-7407]; 
+# Array family : NA
+# Sequence source strain : KA00810
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Peptostreptococcus.; Peptostreptococcus anaerobius
+//
+
+
+Array 3 2978-1300 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ960336-Peptostreptococcus anaerobius strain KA00810 Scaffold288, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=============================	=======================================	==================
+      2977	    29	 100.0	    36	.............................	ACAACTAAGGCAAGAGTTGAGAGCATAGATGTCCAG   	
+      2912	    29	 100.0	    36	.............................	TCTAGTATAAATGTGACACAAGGTGTACAAAATGAC   	
+      2847	    29	 100.0	    37	.............................	CATACAAGTCTCTTTGATAATCTTCCATGCATGCTGT  	
+      2781	    29	 100.0	    36	.............................	TCATTTCATGAGTATTGTATAACAATTCTATTTCCA   	
+      2716	    29	 100.0	    36	.............................	ACTTTTTATATCAAATATATACTTACAAATATTTTT   	
+      2651	    29	 100.0	    37	.............................	AATTACTGTTCCCATCTGGTCAAAGGGAATCCAATGA  	
+      2585	    29	 100.0	    36	.............................	TATCATCATTATCAAGTTCAGATATAAACTCTCTCA   	
+      2520	    29	 100.0	    36	.............................	TTTTTACGTCAATCCAAGATGTGAAATGACAATCAA   	
+      2455	    29	 100.0	    35	.............................	GTTATTGCTCTTAGTTCATCTTCTGTATATTGATT    	
+      2391	    29	 100.0	    37	.............................	TAGCAAGAATACCAAGCTTAGTGACTGTCTGAGCCAT  	
+      2325	    29	 100.0	    36	.............................	ACTCTATGATAAACGAACCTACCCGCCTTTATCATG   	
+      2260	    29	 100.0	    36	.............................	TTTGGAATCATGATATAATATTAACATGATAATTAT   	
+      2195	    29	 100.0	    37	.............................	TCAAATATTATATAATTCATATTTTACCATCCTTTCA  	
+      2129	    29	 100.0	    36	.............................	AGGCATAGCAAACCAATGTGGTTGTGAGTTATAGAA   	
+      2064	    29	 100.0	    37	.............................	AAGACTAGATGATTTATTTAAAAATAGGCTAGTCGGG  	
+      1998	    29	  96.6	    38	............A................	TAGAAGTAAGTGCTACTGATACAATAGAAATAAATCAG 	
+      1931	    29	 100.0	    38	.............................	CATGGTGCTATAATTGTAAAGCTTGCAAATTCATCTGG 	
+      1864	    29	 100.0	    38	.............................	GCTTATTCTATATTTTCATTATACAACACAAGTGTTGG 	
+      1797	    29	 100.0	    38	.............................	AAAAGCGTTCCACTTTGCATTGTTTGAACCTGCCATCG 	
+      1730	    29	 100.0	    38	.............................	AAAGGGTTTGACGGGGTATTATTGCCTGAAAAATATGG 	
+      1663	    29	 100.0	    39	.............................	ATCTGTCTATGATTGCTTATCTGCTTATACTTAAATGGG	
+      1595	    29	 100.0	    37	.............................	TATGCTCACTTGATAGAAGAAGGACATGAACTAGTAG  	
+      1529	    29	 100.0	    38	.............................	TAGTAAAACTACTGTCTAAGCCTTTCCACAGTGCTGTG 	
+      1462	    29	 100.0	    37	.............................	GAGTTATCAACCGTCATCATGTTATCTAAGATAAACG  	
+      1396	    29	 100.0	    39	.............................	GTAATATATACAATAATATCTTGCCTATAGCAGCCATAG	
+      1328	    29	 100.0	     0	.............................	|                                      	
+==========	======	======	======	=============================	=======================================	==================
+        26	    29	  99.9	    37	ATGTAATAGAATCAAAGTGAAATGTAAAT	                                       	       
+
+# Left flank :   TCAGATGAAAGTTCATCAAAAGTACAAAGGAGAGTATTTACAACCTGTAAAAAATATCTTACTCATATTCAAAAGTCAGTTTTTGAAGGTGATATAACAAAATTGAAATTGATGGAGCTGGAGTATGAACTGAAAAAGCATATTAGACAGGATAGCGACTCTGTAATAATATTTAAAAGCAGGGATGAACGATGGTTGCAAAAAGATTTTATCGGCAAAGTTGATGATGCAACGAGCAGATTTTTCTGATTTTATATGATCCTATGTAAACTCTCATTCATATTAAAAAGAAAAAATAATACTGTCGAACCTAGATATATTTATAAAAACGATTGTATGACAGATGGTCAAACTTTGTACTGGATCAATAAATTTGAATGTATGCAGTATTGGTTAGGATTTAGGTCTTTGTGGCTTGATGAAAATAAGAGGTATGTTATATGTGGGTCGACAGTTTTGTGTGGTATAATATAGGTGTAGCAAGTGGTTTGTTGTTACGT
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGTAATAGAATCAAAGTGAAATGTAAATTCAAATGAATTTGGTGTTGTATTCAAAAAAAGATTCGATGTAATAGAATCAAAGTGAAATGTAAATGAAATAGATTGATGACCAGATTATTTTTTTCTCTTAAAGATGTAATAGAATCAAAGTGAAATGTAAATTTAAAATCAACAGAAAGCGAGGTTTTAATATGGCGGATGTAATAGAATAAAAGTGAAATGTAAATATGCACTGCTAACTTTTAGTAATGCCTTTTTATCGTAGATGTAATAGAATCAAAGTGAAATGTAAATGCTTTTACCACTAGGTTTCTTAATGTAAGCTTTTGAGATGTAATAGAATCAAAGTGAAATGTAAATGCAGTATGTTTTGTACAAATGTAACTCCTGTTTGTAAGAT
+
+# Questionable array : NO	 Score: 5.78
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.78, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATGTAATAGAATCAAAGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1301,252] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas2:WP_060917037 [3229-3507]; Cas4:WP_060917052 [4518-4988]; Endoribonuclease Cas6:WP_081091912 [10876-11625]; Helicase/endonuclease Cas3:WP_060917039 [5026-7407]; 
+# Array family : NA
+# Sequence source strain : KA00810
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Peptostreptococcus.; Peptostreptococcus anaerobius
+//
+
+

@@ -1,0 +1,41 @@
+Array 1 334-2 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV832492-Streptococcus sp. HMSC068F04 Scaffold86, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	===========================	==================================	==================
+       333	    27	  74.1	    34	.A....TA.T.A.A...A.........	CAACAAGTAAATCGTCATCTAGCGAAGAAGTCTA	
+       272	    27	  85.2	    34	....A..CT.................G	CCTGAAGAAGTACATGAGATAGGACGTAAAACTA	
+       211	    27	 100.0	    34	...........................	ACTTACAGATGGAATTTCTGGTTTAACAGGTTCA	
+       150	    27	  85.2	    34	.......C..T..A.....A.......	CATTTTGAAGATGCTGTCAAAATTTGCATCCGTA	
+        89	    27	 100.0	    34	...........................	CGTCGCTATGGGGGCTAAAGGCGATGACTACCGG	
+        28	    27	  96.3	     0	.......C...................	|                                 	
+==========	======	======	======	===========================	==================================	==================
+         6	    27	  90.1	    34	GGATCACTCCCGCGTGTGCGGGAAAAA	                                  	       
+
+# Left flank :   CCACTTACCACCATCATTTGAATGCCTAGCAATTGCCATTATATAAGCATCAATACCACCAGAATTAATCCTATCAGCCCAATTCTTTTTTAGATGTTGCCGTATTGAATCATACAGCCATCTTCAGTCAACAAATCTGGTGTGGATTCATAATCTTCAGTAAATACAAACGGATTAATGCCATAATCATATGTCATTCGATAGCATTAAACTTTTGTTTGTTTCTCCATCAAACTACTACTTTCTATATCTACAATCTTTAAAACTCCCGAAATAGATTAATTGTTTTTTTAACAATTGTACAATTAGAGATAATAACAAATGCTCCTATTCTCAAATCGAGCAATAACAATCCTTGATTACATCTGATCTACGTGCAAACAATTAACTATAGGATAAATGTAAATTGATTATTTTCCATAAAAAAACAAAAAATTCACTCTTAATTCAATTAAATTGTACCATACTGTTAGCTAAAGTCAGGCGTTTCCTAATTAATA
+# Right flank :  AC
+
+# Questionable array : NO	 Score: 6.03
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.50, 5:0, 6:0.28, 7:0.56, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATCACTCCCGCGTGTGCGGGAAAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.40,-8.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [3,462] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.78,0.82   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC068F04
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus sp. HMSC068F04
+//
+
+

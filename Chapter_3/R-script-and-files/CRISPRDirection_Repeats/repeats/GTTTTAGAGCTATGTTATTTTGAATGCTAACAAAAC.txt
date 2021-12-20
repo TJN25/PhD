@@ -1,0 +1,86 @@
+Array 1 830139-829788 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_003212-Listeria innocua Clip11262 complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                        	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=======================================	=======================================	==================
+    830138	    39	  92.3	    39	....T...............C......G...........	TTATACTACTCACACTCATAAACATGGCGCCCATATTTG	
+    830060	    39	 100.0	    39	.......................................	CTATACTACTCATACCCATAAACATGGCGCCCATATCTG	
+    829982	    39	 100.0	    39	.......................................	TTATACTTTTCAGATTCGCAAATAGGTAGTACATACTTC	
+    829904	    39	  87.2	    39	....T...CC......G................A.....	CTAAGGCTATCATTCCCTGAAACATGTACCTCATATCTG	
+    829826	    39	  89.7	     0	.A..............G................AG....	|                                      	
+==========	======	======	======	=======================================	=======================================	==================
+         5	    39	  93.8	    39	TCACATTTTTTGTATCAAAGTTACTGACATCTAGACTCT	                                       	       
+
+# Left flank :   AGTCAAGCCATTTACACTATATGTGATTTCATATTCACCAGGTGTCGTAGTATCTACGGATCCTGTTACTGTTACCAGCGGAAAATCAATTAGATTGAAATCTTTATCCGTTGCTGAAATAAAATTATCCTCAGCTTTCCAGTCATCACCTGAATAAATAGTAGAATCAATGGCTATGATATTATTTACAGCAGACCAATGATAATATCCATACATGGTTGCACCGTCGTATTTCATCGTTAAAGAGTCTGACAAAATTGTTCGTTTTGTACGAGGGTTCGTCCACGTTCCATTATAAGGTGCACTGCGGGGTGGATTAACAAGTTTTTCATACGTAGCCACAGTATAAAACTTTATTTTTTTTCCTAACTTAATGAGGGACAAATTATTGGCTCCGTCAAACATTAACTTCATTTCAGTTGTAGAACTATTCGTTTCAAAACTGCTTATATCTAAGCTTGTCAGACTTTCCGAATATCTAAACATGCTTGTCATATATG
+# Right flank :  TTACGCTTTTCAAACCATGAAACATAGCGGTCATAATTGTTACTTTTGACGTGTCCAAATAAGATAAATCGCATATTTCTTCTAAACTCTTGAATCCATCTCCCTCAAATAATCTAGTAGAATCTGATGGTGCATTTACCGGTTCTGTAAAAATAATTTTTTTAACTTCTGCGTCATCTGCTTTACTTATAATAAAACCGGTAGTGTTATACCAATTTGATAAATCTCCACCGCCTACTTTAAGTTCCCCAGTATCCTGATTATATTCATAAGGAGCTGTTCCCCATGATCCTTTGATTATTTCAGGATTTACATCTTTTTCTACATTAGATTTCTCTTTTGTAGCTTGTTCAGCACTTATTTCACTCTGGGTGTTAGTTGTCTCATTTGACTCCTTGCTAGACTCTTGTGTTTGAGAATGTTCCGTGCCTGTATTACTCTCAGTATCTTGACTTTTTTCATCCTGTATTTCTTGTTCCTCTATTTCTGTTTGATTTAAT
+
+# Questionable array : NO	 Score: 2.86
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.69, 5:0, 6:0.25, 7:0.40, 8:0.6, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCACATTTTTTGTATCAAAGTTACTGACATCTAGACTCT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.23%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.90,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [1005,3346] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.59   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Clip11262
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria innocua Clip11262
+//
+
+
+Array 2 2769688-2768993 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_003212-Listeria innocua Clip11262 complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   2769687	    36	 100.0	    30	....................................	CGTAGCGCTTTGGTAACTTTGCCTAGGATA	
+   2769621	    36	 100.0	    30	....................................	TGCAAAGTATTTCTTTATTTACTGCATTAT	
+   2769555	    36	 100.0	    30	....................................	AAGCATCTGTAAAATCTGTTAAATCGTCGA	
+   2769489	    36	 100.0	    30	....................................	GTCGCATATAATGCCATCTAACTCATTATA	
+   2769423	    36	 100.0	    30	....................................	TTTCTCACCAGTCCCAAACTCATAATAAAT	
+   2769357	    36	 100.0	    30	....................................	AATGGATAGAGGAACAACAAGAGAAGCAAG	
+   2769291	    36	 100.0	    30	....................................	AACAGTATAAAAGATGCAGCGCTCGGAAAA	
+   2769225	    36	 100.0	    30	....................................	TACAGAAAGGCAATCACCAAAATAATACAA	
+   2769159	    36	 100.0	    30	....................................	TAGCAACGATGCTGAATCTCTGTTCATGTT	
+   2769093	    36	 100.0	    30	....................................	ACAAGTGGAAACATTAGTATCTATGCAATA	
+   2769027	    35	  86.1	     0	..............C.....C....A....-...C.	|                             	
+==========	======	======	======	====================================	==============================	==================
+        11	    36	  98.7	    30	GTTTTAGAGCTATGTTATTTTGAATGCTAACAAAAC	                              	       
+
+# Left flank :   TTGATAAGCTGACTGCGACGATTAGCGAGTTGATTGGTTATGAGCTTCTGGAGCATGAACTGGATTTAGAGGAAGATGAAATTACAGTCATTGAATTATTCAAAGCTTTGGGTATCAAGATAGAGACAAAAAGTGATACCGTTTTTGAAAAATTAATTGAAATAGTACAAGTCTATAAATACTTATCAAAGAAAAAATTGTTGGTTTTTATTAATGTATGTGCCTATTTAACAGAAGATGAGTTACTAGAGCTAAGGCGCTATGTCTCGTTAAACCAAGTAAAAGTTTTATTTGTTGAACCTCGAAAAACAGAAGGATTTTCGCAGGTTATTCTAGATTCAGATTATTTTTTACAAGTTGAAAAAGGAATGTAGAGTTCAAATGATCTTTGAAAACTAAATAGATTTTATGTGAACCATAAAATAAGCATTCAAAATTGAAATCTTGCTATGGATGAATGGCGCGATTACGAAATCTAGGAGAATAAAAAATTCTACGAG
+# Right flank :  ACATCTCTCAATCTACTCCAGCTAGAAAGAGTTAAACCATTATGAAAGAGAGGTCCCAACACATGACACAATACCACTACCTCGCCTCAAAAGCAGCACTGAAAACTACGACACACGAAAATAAGACAGATTTTGTATATCAAAACGACTTAGATTTCCTGAGCTTGAATTTTGAAGAAAATATTGATGAGCGTACAAATGAAAAATTTTCCTACTCCAAATATTTTAACCCAACCTGCAATTTCCAAGTCGCTATAAGTGAAGGGAAATTGCCGTTAAAAGGTGAAGAGCAAAATAATGATTATGAATCTAAAAGTTTAAAAATACTACACGATTACATTAAAAAAGCTAGTAAAGAAAGTGATACCCTTGAACTATACACTTCATGGAACGGCGAAGAAAATTTCCCTCTGACGAATAAAACAGAATTAGCTATAGAAAATTTAACGCCAGAAAATTTGATTTTAAGAGACAGAGAACTATTAATAATTAAAAATAAG
+
+# Questionable array : NO	 Score: 7.24
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.30, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAGCTATGTTATTTTGAATGCTAACAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:72.22%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.50,-1.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [5-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-63.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [43,127] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Clip11262
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.; Listeria innocua Clip11262
+//
+
+

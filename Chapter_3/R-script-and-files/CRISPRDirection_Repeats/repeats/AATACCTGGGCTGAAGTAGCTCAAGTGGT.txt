@@ -1,0 +1,266 @@
+Array 1 1660899-1660572 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	====================================	=====================================	==================
+   1660898	    36	  80.6	    37	...A....A......ATG......C...C.......	GCACCATAATCAGCTCAAGCCTGCGCCCAGACCAAAA	
+   1660825	    36	 100.0	    37	....................................	ATGCACCAACCCCCTAAAGCCACAGCCCAGACCAAAA	
+   1660752	    36	  94.4	    37	........A..................A........	CCACCACAATCCACTCTAGCCACCGCCTAGCCCAAAT	
+   1660679	    36	  91.7	    36	.....................A..G.T.........	CCCCCACACCCCCTCAAGCCAAGGACCGCACCTAGA 	
+   1660607	    36	  75.0	     0	..........C....C..CA.A..G.T.C..C....	|                                    	
+==========	======	======	======	====================================	=====================================	==================
+         5	    36	  88.3	    37	TTCTCTACCCTAACTGCAAGAGAATGGGTAGTGAAT	                                     	       
+
+# Left flank :   TGGTGATAGCGTAAAAGAGTGACAGGGCCAGGACCCGGAGTGGCTTGATCAGTTGAATACTGGTCTTGCCAGCCATAAAATAAGCGGTCAAGAGGACAAAGAGATTGACCCCGATTATAGCCAGCGACTCCCCTAGATAGGTCAGGTAGTAATTGGCGGATCCTACTGTGGTTTGACTCAGCGCCCCACCCAGACTGCCATTGAAATAATGGAGGGCCACCACCATCACCATCGCCACCAAGCGAATCGCCTCAAAATTTGTCTGCCTTTCCTTTGCCATAGCCATCTCCCCCGCTCTAATTATATTTAGTGATTATACCATTCTAGGGGGCGCGCAGGAATTGAAATCTTGGCGGGCTTGTAAGGTGGAAAAGTCTGGACCGCGGTCCAGACTTTCAACTATCAAGCAAATTCATTGCTTGAGCCATTCACTACCCTATTTGGGCTAGATAGTGCAGTGATTATCTTTTAAATTGACGGAGCGAGCTAGCTCAGCTAAA
+# Right flank :  CGCCCAACCCTCTCCCCAGCACCAACATTCAAATCCACCCCAATCAAAATGAAAAAAGTCTGGACGTCGGTCCAGACTTTTCTTCTATATATATAACATCATTCTTCAATATCAACCGCCTGCCCTTGTAGTTTGACGTCTGCTTGCTCCAGGCGCAGCCGGCGCTGGCTGGATTCATCAAAGTAGGCGTTGAGCTGGGCGTAGTCATCATCCGCCAGGGCTTGCCGAATGCCCTGCAATTGCTCGGCGAAGGCGTCAATGACGGGCAGGAGCTGGTCTTTATTGGTCACAAACAGCTGGGTCCAGAGTTCGCCGTTGATCTTGGCAATCCGGGTCAGGTCGCGGTAGGAGTCGCCGACATAGCGGATGGTCTCGGCCTGGTTCTGGTCGGCGTTAATCAGGGCCACCGACAGGACGTGGCAGAGCTGGCTGGTGTAGGCGATCATGGCGTCGTGCTGGTGGGCACTGACTTGAGACACCCGCTTGAAGCCCAGGCTGTA
+
+# Questionable array : NO	 Score: 2.34
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.41, 5:-1.5, 6:1, 7:1.12, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCTCTACCCTAACTGCAAGAGAATGGGTAGTGAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.10%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-8.60,-9.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [20-10] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [51.7-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [100,204] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+
+Array 2 1754503-1754975 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	====================================	=====================================	==================
+   1754503	    36	  77.8	    37	G...A.......GC.A....GA........T.....	ATCGCAGTCGGTAGTCAACCTCATGGCATTTCATCTC	
+   1754576	    36	 100.0	    37	....................................	AGCTGAGTCAAAAGCTAATTTAACTAAATCTCGACGT	
+   1754649	    36	  94.4	    37	.................C................A.	ACTGTGCTCGGTAGCCAATCTCGAGGCATTCTATCTC	
+   1754722	    36	  86.1	    37	....A...........AA..T...T...........	AGCGGGGTCAAAAGCTAATTTAACTAAATCTCGACGT	
+   1754795	    36	  88.9	    37	.............C.A.........T....T.....	TACAAGCTCAACAGCTAGTTTCATAAATTTCCTGTTT	
+   1754868	    36	  91.7	    36	....................T.........T...A.	CCTGTGTCAAAAGTTAATTTGATTAAATCCCGATGT 	
+   1754940	    36	 100.0	     0	....................................	|                                    	
+==========	======	======	======	====================================	=====================================	==================
+         7	    36	  91.3	    37	TGAAGTAGCTTAAGTGGTGGAGTTAAGCTACTTGGA	                                     	       
+
+# Left flank :   GGCCGACCATCCCTTGGTCGCTGCTGAACGTAACCAAGGCCTGGAAATGGCCCGGCCCATTAAGCTAGGTGATAATGTCTGGTTGGGGGCGGATGTGACGGTTTTACCGGGCGTGACCATTGGCGCCGGTAGTGTTATCGGGGCTAAAAGTGTGGTGACCAAGGATATCCCAGCCGGGGTCCTGGCCCTGGGCAATCCCTGCCGGGTCGTCCGTGAAATCACCGACCAGGACAGCATCGGCGACTGGCAGGCGGAAGCATAATTGCGGGGTTAAAAAAGAGGCTGTGACAAAGGTCCTTTAGTGCTGAAGTCTTGGACCAAAAGTTGAATGATATTTGCAAGATAAGGATGGATTTTGAGAAACAACGCCAAGCTAGGGCGTTAGCCGTGGATCAGCCCTGGCTAGATTGATAATAGGCGAATAATAGCGAGAGCCTGGGATTTATCCCAGGCTCTTCTATTTTGACTGTTAGGTGGGCAACAGGTGGAGTTGCCACTAG
+# Right flank :  AACCTGGCTATGTTTCTAAAATGCGGATAATAGCAAGAGCCTGGGATTTATCCCAGGCTCTTTTGATTTATTTACTTGTTTCTAGTGCCCCAGTTCAAAGCGCTGGTCGTCGCACCCTTTAGTCGGGTTCGGTCTGGCAGAACTGAAGTCCTTTCATAAAATCCAATACAATATCTGCGATATTGATTGTCTTTTATTCCAAGGATTCAGTTCTAAGCGCCAGCCCTCACACCCTGTTTTAGTCGGGTTCGGCTTGGCAGGACTGAAGCCACTTCAGAAACTAGTCTCAATAGCTTGCAGCTATTGGCCTAATTCCTTCCAGTGGTTCATTCCTGAACGCCAAGCCTCACACCCTGTTTTAGTCGGGTTCGAAAAAGCAGACCTGGCGCTACTTCATAAAATCCGGCACATTATCTTTTAGATAATGACCGTATTTTATTCCAGTAGTCCATTTCTGAGCGCTTTTTCTCACACCCTGGTTAGTCGGGCTCCAAGAAGCT
+
+# Questionable array : NO	 Score: 3.90
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.56, 5:0, 6:1, 7:0.98, 8:0.8, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGAAGTAGCTTAAGTGGTGGAGTTAAGCTACTTGGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:58.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-6.80,-5.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [8-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-55.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [240,599] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+
+Array 3 1759252-1759799 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=====================================	====================================	==================
+   1759252	    37	 100.0	    36	.....................................	TGAGCTCTCTCGCCAGTCTGCCTACAGTTTACTAGT	
+   1759325	    37	  81.1	    36	..............C...GCG.T..G......T....	CATTCTAGACAACTTAATCAGGATGAGGCTAGGAGA	
+   1759398	    37	  89.2	    36	..............C....CG....A...........	TTCTCCCGCTAGCCAGTCTGCCAACAGATTACTAAC	
+   1759471	    37	  78.4	    36	..............C.CAG.G.G..G......T....	CATTCCAGAGCACTTAACCAGGATGAGGCTAGGGGG	
+   1759544	    37	 100.0	    36	.....................................	TGAGCCCTCTAGCCAGTCTGCCTACAGTTTACTAGT	
+   1759617	    37	  75.7	    35	.......G.A....C.CAG.G.G..G...........	CATTCCAGAAAACTTAATCAGGATGAGGCCAGGGC 	
+   1759690	    37	  86.5	    36	...........G..C....CG....A...........	TGTTCCCGCTAGCCAGTCCGCCTATAGTTTACTAGC	
+   1759763	    36	  67.6	     0	..........TA..C...-CG.GTTG......T...C	|                                   	G [1759779]
+==========	======	======	======	=====================================	====================================	==================
+         8	    37	  84.8	    36	ATTCACTACCCTAATTAGAGAAAAACGTGTAGAGAAT	                                    	       
+
+# Left flank :   CACCTTCGCCACAGAGTGTTTCAACAACCTTCTTAATACGGCGTGTTGAGACCCCATTAATATACATTTCGGTTAAAACAGCCACAAAGGCCTTGTCCATACGTTGATATTTATCGAATAGCTTGGTATCAAATTCTCCTGATCGTGTCCGAGGGACATCCAGTTCAACAGTCCCTACCTTTGTTTTAAAGTTTCTTTTATAGGAGCCATTACGATAATCTTTCCGGTCATCTGTGCGCTCATAGCGCTTAGCATTAATAAATTCCTCACGCTCTGCTTGCATATAGGCATTAAAGATGGTTACAGTTAGGGACTTCATCATCTGATCCATATCACTGTTTAGAACTGCCTCTGTAATTTCTTCTAAGTTTAGGGTAATATTTAGTTGAGCCATAATAATCTTCCTTTCAATGTGTTTTAGCCAATTACATTGTAACCAAAAAAGATTATTATGGTTTTTCTTTTTACACAATTATATGGACTTAATCGAGACTAGGGGG
+# Right flank :  CCACCTAGTCTAGGAAGCAAAAAGTTAAAAATCGATATAGGATAAGGGACTATTTTAGCTAGAAAGCCGGTTGCAACCTCCGTATCCCCATCATGCCGCTGATTAGCTAGCTTGGTTAATATGTCATGAATAGCTGGACAAAAACAGAACGTATGTTCTATAATATCCATAAGGAGGGACTATCATGCATTTAATCCAGCGGGCCAAGATCAAACGCCAGCCTTATGATATTGTCGCCTGGTTGACCAGCAAGGGCTATGTCTTCCACGATACCTTTATTAAAATTGGCGACTACAAGTTAGGGCGGGACTGGTGTGAGGCCTGGTCGGTCCATAAGCCGGCCGAGAATTTTATGTTTGAGAACTATGTTTTATTATTTACGGCTGACTATCTTTATGTGGTGGCGCCTGGCAAGGTGCTCATCAGCCCAGATAGTGTGGGGGAATACATTGACCAAGTTCTAGCCCCCAAGTTAGCCCAAGCGACTAGCTAGCCAGGGG
+
+# Questionable array : YES	 Score: 0.07
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.36, 5:0, 6:1, 7:1.15, 8:-3, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCACTACCCTAATTAGAGAAAAACGTGTAGAGAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.57%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [7-31] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [108,257] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+
+Array 4 1790486-1788934 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   1790485	    28	  82.1	    32	.A.....GT......G....A.......	TTCTTTTAATAAAAAAATTAAATTTAGCGACA 	
+   1790425	    28	 100.0	    33	............................	CCTGATTCGACCGTTACGTCCATGCGTAATTAG	
+   1790364	    28	  96.4	    33	....T.......................	AATGATGAAGGTATCAAAGAACTTGGAAAATCG	
+   1790303	    28	 100.0	    33	............................	TTTGCTCTCTCGGCTACTTCTTTTTGCGTTAAG	C [1790297]
+   1790241	    28	 100.0	    33	............................	GTCTATGATGATAGTTACCGAGATAACTCACTG	
+   1790180	    28	 100.0	    33	............................	TTACTTTTGGCAAATTTAAAGGCAAACATGCTA	
+   1790119	    28	 100.0	    32	............................	ATGGTATGATGGGTAATGAAGACCCTGCTAAA 	
+   1790059	    28	 100.0	    33	............................	TTTTAGGAGGTACGTATGCAAAGCGAAGTTAAG	
+   1789998	    28	 100.0	    33	............................	AAATGGTTACTAGTGGTTTTTTCAAAGAGCAGA	
+   1789937	    28	 100.0	    33	............................	CGGACTTTAATTTTCATTGTCAGCTTCCTCCTG	
+   1789876	    28	 100.0	    33	............................	GCATACGTTCCAGGTACTCAGTCATGGCTATAG	
+   1789815	    28	 100.0	    33	............................	ACTTCCTCAGTCACTGCGACTGGGGCTTGATTA	
+   1789754	    28	 100.0	    33	............................	CCTAGCTTGCCTGCTGATTGGATTGCTACCCCG	
+   1789693	    28	 100.0	    33	............................	CTGATTGATGCCATGATTTGATTAGGGTTATCG	
+   1789632	    28	 100.0	    33	............................	TATTTTAGAAGAGGTCAAAGAATTATGTAGAGA	
+   1789571	    28	 100.0	    33	............................	TTGAGAATGCACCGGTATTAGATACCGACCTAA	
+   1789510	    28	 100.0	    33	............................	TCAGAGAAATCATTGACGGCGTGTGGAATGGCA	
+   1789449	    28	 100.0	    33	............................	TTTTTTCGGCGTCAGGGTGCTGTCTGTCTATCG	
+   1789388	    28	 100.0	    33	............................	TCAGAGAAATCATTGACGGCGTGTGGAATGGCA	
+   1789327	    28	 100.0	    33	............................	AATATTAGATATATTGAGCGTGCTACCCTCGTA	
+   1789266	    28	  96.4	    33	.A..........................	GTACTCTTTAAGTTGGCCGTGACGTTTTCTCAG	
+   1789205	    28	 100.0	    33	............................	ACTTTTTCTATAGCAATCCCGCTGATAAGCTCA	
+   1789144	    28	 100.0	    33	............................	ATCAGCTGGCAGACTGTCTATGCTAGAGCCCAG	
+   1789083	    28	 100.0	    33	............................	ATAGCGGATGTAAAAAAAGGCGAAACTTATACA	
+   1789022	    28	 100.0	    33	............................	AACTATGCAAAGCACAAGGGCTTAATCCCTTTG	
+   1788961	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+        26	    28	  99.0	    33	GGATCACCCCCGCGTATGCGGGAAGAAG	                                 	       
+
+# Left flank :   AATTCATATTTATCTACAATCAAAAACGTTCTTCCTATTGCCGAATTATCATATGTGATTGCTTTCGAACTCAAAAAGGTTTCCATATCTACTTCTCTCCTACACTTAAAAGAGGACATGGAAACCTTTAATTTTTCTACATCTATATCTGCTTTGTCAGCGGATAACAAGTCAGATAAGGGATAAACTTCATATTCAATCACTTAGGTTAATGCTTTCCTTAGTAAATCTTTTCTATCTAATACACTTGTACGCTTAGACTTAAACTGGGTATCGATAGATTTTTTAGGACGGGTGGTCATTATTTTAACAAAAGATTCACTTTTTTGTCCGCTCACTTTAAAATTTTTAGTAAAACTTGTTGTAGCCATAACATTACCTCCTTTACATACACCAATAGGCTGTATACTACCTAAATAGTACAATCTGTGATTAATTTTGTCAACTTTTATAAATACCTCTAAGCAATTGCCCATTCTTTGATTAGTACTAATTAGTAA
+# Right flank :  ACTAAAAGATCCCATCCAAATCAAGCTTCTCAATATTCAAATGATCAAATTTATTTAGTTTGCTCATTAGTTTGAGATACAAGACTACATCCTCCTGGGCCCGGTGTACAACCTCATCCATGATATCATAACTCTTAAGTACAGTAGGTAATTTATAGTTATTTAAAAACATATTATCTTTTTTAACAATCTTCATTAAATCCTGCGTTTTATTATTAAACACTGGCTGTTGGCTAGCATTTAAATAGGCATTGATAAATTTAAGATCAAAATTGATGTTATAGCCGACTAAAACTGTATTTTCTATGAATAGTTTAAAATCTTGAATAGCGCTAGCAATACTGACCCCTTCATCAGACAGTATCTGGTTAGTTATACCTGTTAAATCTGTTATAGCAGCTGGTATTTGCTTGTCAACATTGACCAGCCTATGAAAAGGCTCGATACTAGCCTCATGAATTTTAACTGCAGCAATTTCGATAATTTGATCTCGCTTTTCG
+
+# Questionable array : NO	 Score: 7.44
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.49, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGATCACCCCCGCGTATGCGGGAAGAAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.90,-9.80] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [1-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [3,298] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+
+Array 5 1800140-1799740 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=====================================	====================================	==================
+   1800139	    37	  86.5	    35	.....G........G...............T..CC..	AGCCAATTCATAATGCTGAAGTAGCTTAATGGCTG 	
+   1800067	    37	 100.0	    36	.....................................	GGGCGATTTATGCTGCTAAAGTAGCTTTACTGGCCA	
+   1799994	    37	  89.2	    36	.......................GG.C.G........	TAACGATTCATGCCACTGAAGTAGCTTTACTTACCG	
+   1799921	    37	  97.3	    36	A....................................	GGGCGATTTATGCTGCTAAAGTAGCTTTACTGGCTA	
+   1799848	    37	  83.8	    34	.....G...............C.GG.G.G........	TAACGATTCATGCCACTGAAGTAGCTTACTGTCT  	
+   1799777	    37	  83.8	     0	.....G........GA..............T..CC..	|                                   	A [1799775]
+==========	======	======	======	=====================================	====================================	==================
+         6	    37	  90.1	    36	GGTTAAGCTATTTCAGAGCTGGTATCAGCGCAAGTTG	                                    	       
+
+# Left flank :   CCTTTTATCTAGCCACTGCAGGTGGTGGTGAAGCCCTGGACCTACCTATTGGCCAAATCGCCCCTGGTTTTGCCGGTGACCTGCAGGTGGTATCAACTAGTAAACTGCCTAACTTCGATATCTTCTCTGAACCAGAACATATCCTGCAACGGATTCTCTATCTATCTAACAAAGAAGATATTAAGGCCGTTTACTGCCAAGGTCGCTTGGTTCATGCTAAGGGTTAATTATATATAAATCCGGTCAAATAGTCGTAGTATTGCCGTAAAATGCTACATAATTGTCAAAAGCTAGTTTAGCTCCGCCGATAAGTTTAATTATCTGAAGCGGAAAGCGTAAACTAGCTTTTTTGTGTTACCAATAAAGGTTTTTAACTGCTAAACATGCAAGTATGGCTCAGAAATCATGATGGCTAAATCATTCGAGAAAAATAATTTTTAAATATCATCACAGCGCTTTTTCTAGCAGGAGTATTGGGGATAAAGTAGCTTAACCTGCTG
+# Right flank :  AGCCAATTCATAATGCTGAAGTAGCTTTACTTATCGGGTTAGGCTATTTCAGAGGCAATAAAAAAAGACCCAGACTGTTCGACGCCCCCAGATTTAAAGTTAGTCAGATAAGCACAAAAAAGGTTGAGACCTAGATCTCAACCTCAAATGATTTATGAATTTAAATCTAACTATTCAGCTACATATTGACTTTCATCTAAGTCACGCTCTAATTCGGCGACAATGATACCAGTGGAACCAGCTGCTTGCACATTAGTAGCGGTCCGTGCCATATCAGCCACAGCTGAGATTGGGGTCATCAAAATGACCATTTCTGCGGGTAAATCCAGACCCAGGAAGAAGGCAGTAGCCACAATTGTCGCAATACCTGGCACCCCCACTGTACCAATCGAAACCAGCAAGGCCATTAAAATCATGTAGGCGTAGAATGAGAAACTCACTTCTAGCCCTAGGGCATTAATGGTAAAGACAGCAATGGTAACTGGCCAAATCGCGGCACA
+
+# Questionable array : NO	 Score: 2.05
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.50, 5:-1.5, 6:1, 7:1.04, 8:0.6, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGTTAAGCTATTTCAGAGCTGGTATCAGCGCAAGTTG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.05%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-4.90,-4.90] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [13-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [172,274] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+
+Array 6 1819311-1819064 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP014163-Aerococcus urinaehominis strain CCUG42038B, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                             	Insertion/Deletion
+==========	======	======	======	=============================	============================================	==================
+   1819310	    29	  89.7	    43	.......................G..A.C	GGGGTTAAGCTACTTGGGACCAAGCTCAACAGCTAATCTCACG 	
+   1819238	    29	 100.0	    44	.............................	CGCGTTAAGCTACTTGGGACCAAGCTCAACGGCTAATCCCACGA	
+   1819165	    29	  96.6	    44	.....................T.......	CGAGTTAAGCTACTTGAGGACAAGGCCTCCAGCTAATCTCACGA	
+   1819092	    29	 100.0	     0	.............................	|                                           	
+==========	======	======	======	=============================	============================================	==================
+         4	    29	  96.6	    44	AATACCTGGGCTGAAGTAGCTCAAGTGGT	                                            	       
+
+# Left flank :   AAGGTGCCCCGGCCCTAGTCATTAACCAAAAGTATTTAATATCAGGCGCCCAGGACCAAGCCACGATCGAGGCCAACTTGGCTCAAATTGCCCAACAAGAAGGAGAGACCCTCATTGCTAAATTAGATCAAGTAGGCCAAAACGGACAGACCTGCCACTTTGAAAATGGCCAATGGCATTGTGACTAAACAAGGGTGAGAGGGCTGGATAGTTGGACCAAAAGCTAGCGAGGTCTGAAAGACATCGAAGGATTTGAGTCTAACGCAGGTCAGCCTTGACTTTTTGCTGTAGCCATAGCATTTTTAAATTGTACGGATATAGTATGCCTGCTCGAATCTAACTATACTGATAATATTCGTATAATAGCGAGATCCTGAGCATTAGTCCCAGGATTTTTACTTGCTTGGTAGGTGGGCAGCAGGTGGAATTATGCTCTAGGGAAGTAGCTTAAGTGGTCGAGTTAAGCTACTTGGGGACAAGCCCTACAGCTAATCTCACGA
+# Right flank :  GGGGCTAAGCTATTTGGACCCAGTTAAGATGCTCAAATCTCGGCAAAATAAGAGCGTGAAGGCTGGCACTGATGCCCCATGTTCTGGTTTAACCTAGTCTGCTTGGTCCAACCAGGTCTGCTGGCTAAGATAGTCATTGGGATACTGGGCCAGCATATCATTTAAAAATTTAATGACCGTCCCTTGGTCAATTTGGCCGGATTGGTAGTGGCTTAAGATATCTTGGTAACTGTTTCGCTCACTAGCATTGGCCTGATCCTTAAAATAGCCCCAGACATGCTGGGTGGCATTAACCACTGCCCCAGGGTCTTCAGCTAGGGCCTGGGCTTGGTCAATATAATCTTGAACCACTTGAGGGTCTACCGGGTCGGTCTTCAGATAATTGCGGATGTCTTGGTAAATCCGTTGCGACTTGGATAACACGAAATATTTGTTGGTAGCCCATAATTTTTGGGCTGCTTTTTTATTTTCTTTGACTTGATTCATGGTTTTATTTGTCC
+
+# Questionable array : NO	 Score: 3.34
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.83, 5:0, 6:1, 7:0.11, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AATACCTGGGCTGAAGTAGCTCAAGTGGT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:51.72%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.40,-6.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [95,313] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_067980727 [1779636-1782398]; 
+# Array family : NA
+# Sequence source strain : CCUG42038B
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae;Aerococcus.; Aerococcus urinaehominis
+//
+
+

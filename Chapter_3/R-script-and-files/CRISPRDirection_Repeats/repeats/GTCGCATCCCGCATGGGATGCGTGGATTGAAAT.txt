@@ -1,0 +1,48 @@
+Array 1 61-959 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV793114-Lactobacillus sp. HMSC08B12 Scaffold1331, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                  	Spacer_Sequence                                                                 	Insertion/Deletion
+==========	======	======	======	=================================	================================================================================	==================
+        61	    33	 100.0	    34	.................................	AGATTTACTACATTGAGGAACAAATAGAATTATA                                              	
+       128	    33	 100.0	    36	.................................	ATAGTAGTAAACAAAAGCATCCTGTCCATATCTATA                                            	
+       197	    33	 100.0	    34	.................................	ATATACTACACGGAAACAAACTCTTTGTATGATA                                              	
+       264	    33	  81.8	     8	...........................NNNNNN	NNNNNNNN                                                                        	Deletion [305]
+       305	    33	  81.8	    32	NNNNNN...........................	AATCACGGGGAAACTACCAAGACTGAAGAGAA                                                	
+       370	    33	 100.0	    34	.................................	GATCTGTGACATAGTCAAGGTGGTGGTCAGTTTG                                              	
+       437	    33	  97.0	    35	....T............................	GTTAGCACCGACAAAATCTGCAGCACTAACGCCAT                                             	
+       505	    33	  81.8	    76	...........................NNNNNN	NNNNNNNNNNNNNNCCCGCATGGGATGCGTGGATTGAAATATCGTCTCTCGCTGGCATGGTTACCGCCGTGATCTT    	
+       614	    33	 100.0	    34	.................................	ATTGCCGACCGCTGCCACGTAAACTGCGTCTTGA                                              	
+       681	    33	  90.9	    33	............................A.G.G	GCTGAAGGGAAAGTAGCAGCAGAAAGAAGAAGC                                               	
+       747	    33	  87.9	    80	.............................NNNN	NNNNNNNNNNNNNNNNCCCGCATGGGATGCGTGGATTGAAATATCGACGGTTAAGGGCCGCTCTTGGGCTTGCTGTGGTG	
+       860	    33	 100.0	    34	.................................	ATTTGCTGGTACAAAAGTAACAGAGTTACAACAA                                              	
+       927	    33	  81.8	     0	..........A...AA....T.....CC.....	|                                                                               	
+==========	======	======	======	=================================	================================================================================	==================
+        13	    33	  92.5	    39	GTCGCATCCCGCATGGGATGCGTGGATTGAAAT	                                                                                	       
+
+# Left flank :   TCCCGCATGGGATGCGTGGATTGAAATAGATCAAAAGGCAAACCTTTTTAAAACTTTTTTG
+# Right flank :  TATCGCTTAGATATGTGGATGCTTGATAGTCAAATTCCACTAAAAGCACTCCCTCGCGGGGTGCTTTTTAATATTTTGCTAAATCAAACGCTTCACCAAGCAAGCAGGAAAAGATTATAGTAAAATATACTGGTTATAAAAAAGCTGAGTCAAGCTCAGCATCCCCAAAACAAAACTTAGTTGAGGAGAACAAACACATGCAAGATATTTATATTGTTGCGGCCAAGCGAACTCCATTTGGCCGTTACCACAAGCAATTGGCTGACTTTTCCGCTATCGACCTGGGCCAAATCGCCCTGCGTGGCGCGTTAAAAGAAGCCGGCCTTGACGCCGAAGCCCTGGATGCTCTCTTCATGGGCAATGTCCTGTCTGCCGGCTTAGGCCAAAACATGGCCCGGCAAATTGCTTTAAACGCCGGGATGCGGCGGGACTCAGTCGCCGTGTCCATCAACGAAGTCTGCGGCTCCAGCCTCAAGGCTGCCCGCCTGGCTGAAGCCCAA
+
+# Questionable array : NO	 Score: 8.69
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.62, 5:0, 6:0.31, 7:-0.24, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCATCCCGCATGGGATGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     R [7,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-9.40,-9.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [6-19] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [63.3-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [62,197] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.18,0.55   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC08B12
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus sp. HMSC08B12
+//
+
+

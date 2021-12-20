@@ -1,0 +1,163 @@
+Array 1 83996-82994 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815229-Fusobacterium ulcerans ATCC 49185 supercont2.2, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                             	Insertion/Deletion
+==========	======	======	======	=============================	============================================================================================	==================
+     83995	    29	 100.0	    36	.............................	TTTAAAACTCCTTTTCAATCTCCTTTTTATCCATTC                                                        	G [83975]
+     83929	    29	 100.0	    36	.............................	AAAATACATGGAAAATATTTATGAATTAAAAAATAA                                                        	G [83909]
+     83862	    29	 100.0	     6	.............................	AAAATA                                                                                      	G [83843] Deletion [83828]
+     83863	    29	 100.0	    35	.............................	CAAGCAATTAAAAAACAAATTAAATCTTTATTAGG                                                         	G [83843]
+     83798	    29	 100.0	    36	.............................	CTCAAAGGATAGACTCCACGCTTTTTTTCAACTGTT                                                        	G [83778]
+     83732	    29	 100.0	    36	.............................	GAAGCTTTATGAATTTAGTATCTACTCCCTTAAATC                                                        	G [83712]
+     83666	    29	 100.0	    38	.............................	TCAGAGGAGATGCAGGAATTACTAGAAATAGCTTCAGT                                                      	G [83646]
+     83598	    29	 100.0	    36	.............................	TTGTTATCTTAATACTTCCATCTTCATTATAATGCA                                                        	G [83578]
+     83532	    29	  89.7	    36	...............G.AA..........	ATAGATCAAACTTTGAGAATAAGAGATCAATTTAGA                                                        	A [83515]
+     83466	    28	  79.3	    35	........TC...-.G.AA..........	GAAGTTGGGATGACCATAGCTGCAAGAGTTAAGCA                                                         	A [83451]
+     83402	    29	  75.9	    37	........TC...TGA.AA..........	GAAGGAACTAAAATAGTAGGGAGAAATCCTAGAAATT                                                       	
+     83336	    29	  75.9	    92	........TC...TGA.AA..........	AGTTCAAGTTCTCCAGTAAGTATATTGTAGCCTTTATTGAATATCAACTTTTAAATGGAGAAGGGGCAAGGGTGATGATGGATACTAACCCT	
+     83215	    29	  75.9	    35	........TC...TGA.AA..........	GCATTAGTTGGTAAAACTTTAAAATTAACTTCAGT                                                         	
+     83151	    29	  72.4	    34	........TC...TCA.AA.........C	AGATATAGCATGATTCCAAGTTATGTAATAACTC                                                          	
+     83088	    29	  75.9	    37	........TC...TGA.AA..........	ACCTTAGAAGAATCAAAAATTTTCTTAGTCTCTTTAA                                                       	
+     83022	    29	  75.9	     0	........TC...TCA.AA..........	|                                                                                           	
+==========	======	======	======	=============================	============================================================================================	==================
+        16	    29	  88.8	    38	ATTGAATAGTAACCTTTGGGTTTTTAAAT	                                                                                            	       
+
+# Left flank :   TAGAATTGTACTCTCCCTTTTCTCTCATCTCTCTAAATGTAGTTATTCCTATTATTGGTCTCAATTATTTTTCCTCCTCAACATCTCTTTGTTCTATTACATTCTACTATATAATATACTCTTTAGCGAAAGTTTTTACAACCTGCAATTATAAATTATCAGAAATCTCTTTTTTTAAAATATCCTGTATTTTTAAAATACTATATTTTTCATAAAAAAACAAACAAATTTTTTTTACCTTTTTAAAATTTCTCTGATATAGTCTGTAAATTACAGCACAATTATTCTGACATATAAAAAATAAATTAATTGTATATTTGGGTAATATATCTTTTTATTTTCCAAGTTAAAAATTGTATTTTATCAAATAATATTCTTTAAGATGTGATACTTTATAACATGGCTTTTTATCTATACTTGGTTGGAAAAAATCCATTAAATATGCTATAATTAGAATGTTAGAAAAGAATAAGGAATTATTAAAGTCTGAATTTATGACC
+# Right flank :  GATCAAGAAAGATTAAATAAAGTTGGAATTATGACTAATTGAATATCAACTCATAAGTTTTCTCCCTTTTTCAAATAAAAAAGAGAAGAACTGGATATTAGCTCATGACATTTTGCTATATCTACAACTTCTCTAAAATTTCAAATTCTTATTTTATTACATTCTTAATATTAATTATTAATTACTTATTGAATAAAATATCAAGCTCCATTAATAAGTCATTATATCTTTTTAATTCATGATTTTTTACCAGAATTAATGGGTTATAAATACAATGCTGAAGTACATCTGCATCTTTTAATAATTCATCATATTCTGAATCTATCCTTTCCTTATTACTATGGTTGTGAATAGCTGTACAGATTATATCAATTTCTGTAGAAGTTGCCACCTGTAATTTTTCTAATATTTCACGAGCCATAATTGCTCCTTTTTGTCCATGATCTTTTGAATATTCAAATTTATAAGTATATATATCATGTAACATTCCAGCCATAATT
+
+# Questionable array : NO	 Score: 5.52
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.95, 5:0, 6:1, 7:0.57, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTGAATAGTAACCTTTGGGTTTTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:75.86%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.30,-2.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [6-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [76.7-76.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [692,438] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.78   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas4:WP_005977425 [217901-218383]; Endonuclease Cas2:WP_005977429 [219395-219679]; Endoribonuclease Cas6:WP_005977415 [211091-211786]; Helicase/endonuclease Cas3:WP_005977423 [215302-217887]; Unclassified_Cas_protein:WP_005977419 [213592-214536]; 
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 2 209370-210885 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815229-Fusobacterium ulcerans ATCC 49185 supercont2.2, whole genome		Array_Orientation: Unconfirmed
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	=============================	====================================	==================
+    209370	    29	 100.0	    35	.............................	GGGGTAGAGGCACTTGGGAATGTTACAAGTGAAGA 	
+    209434	    29	 100.0	    36	.............................	TTGACTTCTATTGCATTTATAAACTTATATTCTCCA	
+    209499	    29	 100.0	    36	.............................	ATTAGGAACTTTGAACAATCCTGTAACATGGACTAA	
+    209564	    29	 100.0	    36	.............................	TTTCTATATCTGCTAGTTTATCTGGGGATATTACCC	
+    209629	    29	 100.0	    35	.............................	TTTTTAGTCTCTTAAATAATTATTTTATATTATTA 	
+    209693	    29	 100.0	    36	.............................	CTCCTTAATTTTTTTATAAATTTAATTTTTTAATAT	
+    209758	    29	 100.0	    36	.............................	CAAAGCCATTCATCATCATGTTTAATCTCTTTCATA	
+    209823	    29	 100.0	    36	.............................	GCCAAAGTTCTTTGCTGTCTTGATAACTTCTCTTCT	
+    209888	    29	 100.0	    36	.............................	AAACAAAATTCTGACAAATTAGAGAATCTAAAAGGT	
+    209953	    29	 100.0	    36	.............................	TTATTACTGGGGAAAAGAGAGAGAAAAAGCAAAAAA	
+    210018	    29	 100.0	    36	.............................	AAAAAATCTCCTATTGTCCTTACTGCTCCAGTAGCT	
+    210083	    29	 100.0	    36	.............................	GATTTTTTATATAAATAAACAAATCCTATTCCTAAC	
+    210148	    29	 100.0	    34	.............................	GTAGATACCTTTAAAATTTCGTTTATATCAGTTC  	
+    210211	    29	 100.0	    36	.............................	GAGAAAAAAAGTTCTGTTGAGAAAAAATTTGTAAAA	
+    210276	    29	 100.0	    36	.............................	ATGTATTTAGGGTAGAGTGTCCATGATTATTTCTCT	
+    210341	    29	 100.0	    35	.............................	TCTATAGCAACGGCCATGGCAAGTGGATCAATGAC 	
+    210405	    29	 100.0	    36	.............................	AAAAAGCTCTATGAAGTACTTTGGCTATGAGTACAC	
+    210470	    29	 100.0	    36	.............................	TATCTTTCCAGAAAGCTTTTTCGGAATTGTGAAGCA	
+    210535	    29	 100.0	    36	.............................	TGTGTTAACATTAAGCACTCTTGAAAGGCAGTTATT	
+    210600	    29	 100.0	    36	.............................	AAGTTTTAGAAGCTATCTCCTCTATTTTATAGAGGG	
+    210665	    29	 100.0	    34	.............................	TCGCTTATAGATTATTCTAGTAAATATGTAGCCA  	
+    210728	    29	 100.0	    36	.............................	TTCAATTCTTTATTAAAATTTTCTGAACTATAATTA	
+    210793	    29	 100.0	    35	.............................	TATATTCCAAATTCTAGATTTTTAAAAGCTTCTGA 	
+    210857	    29	 100.0	     0	.............................	|                                   	
+==========	======	======	======	=============================	====================================	==================
+        24	    29	 100.0	    36	GTAGAATATTAACTGAGTAGTTTTTAAAT	                                    	       
+
+# Left flank :   AGGATTATGGCTGGGAAGCTTTATTGCTAAATATATCTATATGAGAATAAAGTTTTTTATCAATAGAATAGGGAGCAAGGGAGAGCAAAAAGACTATAAAATTATAAAAATGATTATAGAGCAGAAAAAATATTTTAAAAAACCAGGAAGTAAATATTATATAAATTTTTACTATATGATAGCAGATGTAAATGGCGAGGAAGTAAAATTCCTTATTGAAAAGGATTTTTATGATAAATATTTAGGGAAAAAGACTATGAATATTAAGATAAAAAAAGGGTCACTAGGAATTATGTATGGAGTGAATTTAGTAGATTAAAAATAAAGAAGTTTCCAAGCTGGAAAATTGAATATTTTTTCTAAGGTATATTTTAAGAGCAATTTGGAAGGAAAAAATTATTTTATAAAAATTTTACTGCACTTGGAAAAAAAGAAGGAAAAGCTTGATAAAATCATGAATAGAGAGATTGATAAATATTGTGAAGTTTGATTTTATGAGC
+# Right flank :  TATACTTTAAGCAAAAACTTATTTGTAAAAAACAGCCAAATAGAATAGTAAAGAAAAAGTGTGAAACAATCTTTTTCACATTAAAAAATTTAAAATCAAAGGAGAGGATAAACCAAATAAAAAAAATTAAAATTTTCGAATTAAAGTCTATTATTTATCAAAAAATGAGGTATAATTATTATTGAGGACTAAAAGGGAGGGATTAAATGAAAAGTTGGATTCTAGAATTGAAAGTCTTTTTATTAGAAGATATAGAACCATATAAAACCATAGAAAAAATAGCTGCTTTTATAGATTCTACTTTTGATAAGGATGAGTACTGGAAAGAGTATCATAAAGATAGAAAAGTGAAAGAGTATTGTTTTAATTCTTTTTATCCAGTAAAAGTTAATACTAAAAAGTATAATGCTGGAGAAATATATACAATACAGATAAGAACTATTTCTGAAAAATTAAAAGAGCATTTTATGAAATATTTAAAAGATAATATAACGAAGGAA
+
+# Questionable array : NO	 Score: 5.95
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.95, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTAGAATATTAACTGAGTAGTTTTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [73.3-76.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [183,206] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         NA [0,0   Confidence: NA] 
+
+# Identified Cas genes:  Cas4:WP_005977425 [217901-218383]; Endonuclease Cas2:WP_005977429 [219395-219679]; Endoribonuclease Cas6:WP_005977415 [211091-211786]; Helicase/endonuclease Cas3:WP_005977423 [215302-217887]; Unclassified_Cas_protein:WP_005977419 [213592-214536]; 
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+
+Array 3 219850-220975 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH815229-Fusobacterium ulcerans ATCC 49185 supercont2.2, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	=============================	=====================================	==================
+    219850	    29	 100.0	    37	.............................	ATAATATTTTTAAAATGTGAAGTAAGATTATTTTCTA	
+    219916	    29	 100.0	    36	.............................	TTGGCATTTAAAAACTACTCAGTTAATATTCTACTA 	
+    219981	    29	 100.0	    36	.............................	ATTTTTCAGATATTTTAATTTCCACCTCTTCTGCTT 	
+    220046	    29	 100.0	    35	.............................	CAGAAATAATAAACTATATAAATTTAACTGTAAGG  	
+    220110	    29	 100.0	    35	.............................	CTTCTTGGAGCTTCTGCTTTAAAAAGCAGTGTAAA  	
+    220174	    29	 100.0	    37	.............................	AAGCATTTTCTTCAAGTTCTTTTTTACAAGTAACTAT	
+    220240	    29	 100.0	    36	.............................	CTTTTTTGGGGGAAAGAGGTTGGAAAATAAGACTTT 	
+    220305	    29	 100.0	    36	.............................	TTATCATTTTCAACTTCCCTTGAATTCTCTTCTCCA 	
+    220370	    29	 100.0	    37	.............................	TTATTTCTCCTTTCTATGCACTATGCAGCAAAATATC	
+    220436	    29	 100.0	    35	.............................	TAATCATCTATTGGAAGATATCCTTTGTGAAAATT  	
+    220500	    29	 100.0	    37	.............................	CTTCTGCTTCAGGATTCAGCATTATATCTATTCCTAA	
+    220566	    29	 100.0	    35	.............................	GACCGACAAAAAGGTAGGTATAGAGCTATGGTAAA  	
+    220630	    29	 100.0	    36	.............................	CTGTTGTTACCTCAGGACATTCAACTGGAAAGACTG 	
+    220695	    29	 100.0	    35	.............................	ATCATCTAGCTCATTTACATCTGTTTCTACTCCAA  	
+    220759	    29	 100.0	    36	.............................	CTTAAACATTTTAAAGTTACAGGTTTTTGAGATATA 	
+    220824	    29	 100.0	    35	.............................	GCAGCAGGAGCTGGGTCATCAGCACTTCTAATTTT  	
+    220888	    29	 100.0	    28	.............................	CCATTTGATCCACAAGAGTATATGCAGA         	Deletion [220945]
+    220945	    29	  96.6	     0	.........................T...	|                                    	TC [220969]
+==========	======	======	======	=============================	=====================================	==================
+        18	    29	  99.8	    35	GTATAACAGTAACTTTGAAGTTTTTAAAT	                                     	       
+
+# Left flank :   GAGGGAAAAGAGTTTGTTCCGTTCTCTATAAAGGAAAAGATGTAGATGAAAGGTAAAAACTATAACTATATATTTCTTTTCTATGATATAAATGAAAAGAGAGTAAATAAGGTTTTCAAAATATGTAAAAAATATTTGAGTCACCATCAAAGATCTGTATTTCGTGGAGAGATTACACCTAGTAATTTAATAAAACTACGTTTAGAATTGAAGGATATAATTGATAAAAAGGAAGATTTTATAAGCATTGTGAAACTGGTAAGTGAACATTATTTTGATGAGGAAATAATAGGAACACCTTGGAAAGATGATGAAAATATGTTTATATGATTTCCAAGTTAAAAAACAGATGAATTTATGAAGTGATGATTTTAAAGGAGAATGAGAAGAAAAAAATTAATTGCTGAATTTTTTCTCTCTCTTGGAAAAAAAGTGGTAAAAAATTCTTAAATTCTTTGTTAAGAATGGAAAAGAATAAATAAAATGCTTATTTGATGAAG
+# Right flank :  TAATGTTTATTATTTTTATCTACCCATATTAGCCTTATTATAATAATTATAGCAACTACTATTATTATTTGTAATGCTGGTGGGGCATTAAAAAAGAACAGGAGTTCTCCTAATCTTTGCAATAGGAATACCCATGCAAACCATAAGATTGCTAAACCTATCAATATATTTTTTAATAGTTTCATAATTTCACCTCTTTAAGGTATATTACCATAGTTTCAATAAATATGCTATTTTAAATCAACTAAAAAACTGCACTCTTTATCTTAGCCATCTAAGATTTTAGGTGCAGTATATTTTTATCCAGCTGAAATATTAGCAGTTCCTAAGAATTGATTTCTAAAAAACAAATACAAAATCTCAGTATCAAGAGGGCTGTATTTAACAATAACCTTTTTTCCTTCTAAAGTATTTAAAGAATTGTTAGTGTAGATAAAATTATTAAATCTCAAAGAAGATTTACTTATTTTTCTACTAGCTTCCTGAAGAAAAATATCAAG
+
+# Questionable array : NO	 Score: 5.83
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.84, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTATAACAGTAACTTTGAAGTTTTTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:79.31%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.30] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-80.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [172,301] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_005977425 [217901-218383]; Endonuclease Cas2:WP_005977429 [219395-219679]; Endoribonuclease Cas6:WP_005977415 [211091-211786]; Helicase/endonuclease Cas3:WP_005977423 [215302-217887]; Unclassified_Cas_protein:WP_005977419 [213592-214536]; 
+# Array family : NA
+# Sequence source strain : ATCC 49185
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.; Fusobacterium ulcerans ATCC 49185
+//
+
+

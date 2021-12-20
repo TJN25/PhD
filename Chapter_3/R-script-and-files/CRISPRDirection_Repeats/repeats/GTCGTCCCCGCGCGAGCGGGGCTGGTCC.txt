@@ -1,0 +1,84 @@
+Array 1 116221-116612 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSIF01000023-Actinophytocola xinjiangensis strain CGMCC 4.4663 contig23, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    116221	    28	 100.0	    33	............................	CGAATGTCCGCTGACAGCGACATCCCACCAGGC	
+    116282	    28	 100.0	    33	............................	CGACTGCGTGGTGTGCCACAGCCTGTGGATGAC	
+    116343	    28	 100.0	    33	............................	CCGCCATGTACCTCGGAACCCCCCTCCATCCCG	
+    116404	    28	 100.0	    33	............................	GACCGAGACGCTCAAGCAGATGGCGCTGGCGAT	
+    116465	    28	  96.4	    33	......T.....................	GGACAGCACCACTCGGCCGGTCGTCGAGGCCGC	
+    116526	    28	  96.4	    32	..T.........................	TGCGGGGTGCCGTTGACGAGGGCCCGGAGGTG 	T [116551]
+    116587	    26	  82.1	     0	..A.......-...-.G.........G.	|                                	
+==========	======	======	======	============================	=================================	==================
+         7	    28	  96.4	    33	GTCGTCCCCGCGCGAGCGGGGCTGGTCC	                                 	       
+
+# Left flank :   CCGGTTGCGTTCGCGTTCGATCAGCCCTGCTGACCCTGTTGACCAGCCCAAACGACTGTCATCGACCGTCATTCGCCGTCCCCGGCCGATCCGTGCCTGATTCGTCCTTGCCCCTCAGGTCTCGGGGATCCCCCCGATTTCCAGTCTAGTCGACTCGAACGGCGGGTTAGGCCAGTCGGCCGTGTCCTGTGGACAACTTCGGTCACGAGCGGATCCCGTCAGCGCTCGGGTCAACTCCCACGCATCGCGCTCGCTGTGCGGAGGTCACTATGCGCAACGCCGCCCCGGGCGCCAGGACCCTCAAGGTCATCCGCACAGAGCGTATGCCCGACCGCCATGAGCGGCATCCACCGGTCACGGCGCTGGCAGCCACTCCAATGACAAGCCCGACCGCCCACTGAACGACGACCGATGTCCCAGTGCAATTCAACATCCGAAGAGAAGATGTGAAAGTGAAGCTGAAACGGGGATTGAGGCCGTATCATCGCAGTTCAGGAAGT
+# Right flank :  CGGCCAGCTCTGGAAACAGGCAATCAGCCGATCCTGCCCACAGGTCTCCCGGCCGCCACGCAGGAGTGACCATCGGCCGGAGCGTCAGGGACATGAGGCCGAATGCCGTCAGATCAGGATCCGGGCATGTGCCACAGCCTGAGCATCCGGCGACCGATCCCGCCCAGCCACGGTCAGCGCCGGGCGGCGTCCAGGTGGTTTCGGGCGGCGGCCTCCAGGTGGGCGATGTCCGAGGCGATCGACGCGAACGTGAAGCCTTCGGCCAGTCGGCGGGCGGCTGTTTCGCCGTTCGGGGTGTGGATGCCGGCGGCGATGCCGGCGTTGGCGGCGGCCTCGCGGACGGTGGTCACGGCCTGTTCGAACTTGTCGCTGATGGCTGGGTCCAGGGGGAACGCGCCGCCGACGGCCAGGCTCAGGTCCGACGGTCCCACATAGACACCGTCGAGGCCCGGTGTCGCGCAGATGGCGTCCACTTCGGACAGGGCGCCGGGGGTCTCGAT
+
+# Questionable array : NO	 Score: 7.44
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.82, 5:0, 6:1, 7:0.62, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCCCCGCGCGAGCGGGGCTGGTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [1,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.90,-12.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-31.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [660,173] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.23,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CGMCC 4.4663
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae.; Actinophytocola xinjiangensis
+//
+
+
+Array 2 119694-119298 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MSIF01000023-Actinophytocola xinjiangensis strain CGMCC 4.4663 contig23, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+    119693	    29	  93.1	    32	........................A...G	TTCCAGTGCTCCTCATCCGGCGCGTCCGCGTG	
+    119632	    29	 100.0	    32	.............................	AACGGTGGCCTACATTGGTGGCATAGCAACGG	
+    119571	    29	 100.0	    32	.............................	TCCCAGAACGTGTCCGTCATCCGCTTGTGCCG	
+    119510	    29	  96.6	    32	............................G	ATGTGGTCGTGGTCGAACGCCAGACCCTGGAG	
+    119449	    29	 100.0	    32	.............................	CCGGCCCTCGCGGCACTCCGCGGGATCCGGCT	
+    119388	    29	 100.0	    32	.............................	GCCTCGCCCAGGCTGCTCTGGAACGCGATCTT	
+    119327	    29	  96.6	     0	................T............	|                               	T [119322]
+==========	======	======	======	=============================	================================	==================
+         7	    29	  98.0	    32	GTCGTCCCCGCGCGAGCGGGGCTGGTCCC	                                	       
+
+# Left flank :   GCCCATCCTCGGAGCCCCACCCGACCGACGACATCACCGTGACCTACGACGATCCGCGCGCCCGCTGGGTACGAGCGATCAACCTGGTGCGCCAACTACAGGAATGCACCCTCATCGACCCAGCAGACCTATGCCGAAACTGAACCGTGATCTCATCCGCGCGTGGCTGGAGGACAACAACTGGACCGTGGCCCGCCTCACCAGGGAATGTAACACCCTCACCGAGGACACCATCGCCGAAGGCACGATGCGCAACGTCACCAACGGCATCGACCCCATGCGACCGGGCCGGATCAAGGTCATCTGCAGAGTACTGGCCAAGTACGGAAACGGCCTACCGTACGAACAACTGATCCAACGACCCACCGAGGCACGACCAGCCACGCGCCACTGTGAACCCGCCACCCCAGCCGATTCCGAAGCAATTCAACACCCGAGGAAAAGTTGACAAAGTGAAGCCAGAACGGCAATTGAGGCCGTATCATCGCAGCTCAACAAGT
+# Right flank :  GAAAGGGGGCCGCGCAATCACGACCGCACACCCTCTCGGCGGTGCGGCTGGGTCACGAGTAGCGGGTGTTCTCCAGCAGGACGGTGATCAGGTCGCTCCGGCCGGCGAGGGTCTCGGGGTGGGTGGGGCCGAGGCACTGGCGCCGGCGGTGGACGACCTCCCGTAACTCCGTGGCGGCCTCGCGGAAGCGGCCCATGCCCATCAGCACCGCGGCGAGGTTGTGGCGGCTGATCAACGTGTCCGGGTGTTCGGGGCCCAGCACGCGCACGCACGCGGCCAGCTCCTCGCGGCTGGCCGCCAGGGCCTCGTCCTGGCGGCCCAGGTTGTTGAGGACCCGCGCGACGTTGTCGCGGCTGGTCAGGGTGTCGGGGTGTTCTCGGCCGAACAGTCGCGCGCGCACGGACAGGACGCCTCGGTGTTCGGTCAGCGCGGCCTCGTAGCGGCCCAGCGAGTTGAGGACGTTGCCGACGTTCGTGCGGGTGACGAGGGTGTCGGGGTGG
+
+# Questionable array : NO	 Score: 8.11
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:1.21, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCCCCGCGCGAGCGGGGCTGGTCCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,1] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.60,-12.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [2-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [30.0-53.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [54,358] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.78,0.82   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CGMCC 4.4663
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae.; Actinophytocola xinjiangensis
+//
+
+

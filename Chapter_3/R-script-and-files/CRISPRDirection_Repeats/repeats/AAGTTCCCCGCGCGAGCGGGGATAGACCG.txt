@@ -1,0 +1,95 @@
+Array 1 62481-62026 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBNA01000022-Citrobacter rodentium NBRC 105723, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     62480	    29	 100.0	    32	.............................	GAGTATGTTTAAACGTTTACTGGCGCGCCTGT	
+     62419	    29	 100.0	    32	.............................	TCATATGTTGCCGCGTTTCCAGACGTCATGTT	
+     62358	    29	 100.0	    32	.............................	TGTCGGATAATCCGCACTTTTTGGCGAATGAC	
+     62297	    29	  82.8	    32	GT.........AT...........A....	TATCGTTCCTTCGCGGATGTCGTCACGCAACA	
+     62236	    28	  86.2	    32	...........A....-.......A.T..	GAAGGTGATGAAATTAATCAGCGCAAACTGGA	
+     62176	    29	  89.7	    32	...........AG...........A....	ATATAGATAGCCATCAACAACACCGCTTGGAC	
+     62115	    29	  96.6	    32	........................A....	GGGCAGACGTTTGCCCGCTGGATGTAGCTATT	
+     62054	    29	  89.7	     0	.............C..........A.T..	|                               	
+==========	======	======	======	=============================	================================	==================
+         8	    29	  93.1	    32	AAGTTCCCCGCGCGAGCGGGGATAGACCG	                                	       
+
+# Left flank :   GTGCTATTAGCCGGTGAAATCGAGCCGCCGCAGCCCGCTCCGGATATGTTGCCCCCAGCGATACCAGAGCCGAAGCCGCTGGGGGATAACGGACATCGGGGACGTAGCGGATGAGCATGATGGTGGTTGTTACGGAAAATGTTCCTCCGCGTTTACGAGGGCGTCTTGCTATCTGGATGCTGGAAATTCGCGCTGGCGTTTATGTTGCAGATGTTTCGAAACGCATCCGGGAAATGATATGGCAGCAAGTCATTCAACTCGGTGGTGAGGGAAATGTTGTAATGGCATGGGCGACCAATACGGAGTCAGGTTTTGAATTTCAGACATGGGGTGAGAATCGTCGTATTCCCGTGGATTTGGATGGACTTCGTTTGGTCTCATTTCTTCCTGTTTAAAATCAAATAGTTGACTGATCTTTAAAAATGTGGATTTGTTGATTTTAAGTTGGTAGATTGTTGCCTTTGAAGAAAGTCTTTTAAAATCAGTCGGATATTTTTAGT
+# Right flank :  GGCTAATAAGGGTGCCCGGCACATGACACAATTGTTTCTATATTGTACCCATTTTTACTATCATTTCTTATGCTTCAGTTATACTGGTATTAACCAGAGTCCACAGAAAACTGGAGAAGGGTAAAGCCAGATTTGCTCGTTGATGTAAGCTCTCTTTTTGGATTTCAGAGATATAATAATATTAGCAATAAAACTTCCGAGGAAAAACAATACGCCTGACATGTCGTAAGCCAGACCACCGTAACCTGCATTCCGGCTCTTAATGTAAAGCAATATCATGGCTGTGACGGGATAAAGCATCAGCAGCAACGTCAATAATATCTGTTTTTTTAAGCGCATTTCCCTTGCAGACATTACGCAAAATATAATAAACAGAAACAGCCTGCCTGAATACCTGTATCTACCCATAAAAAATGAAAAGTCCGAAAGCATAGACATGAGTTGTTTAATCGATAGCGTTGTTTTACCCTTCATAACGTGATTGCCGGAGGCAATCACGT
+
+# Questionable array : NO	 Score: 7.52
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.65, 5:0, 6:1, 7:1.18, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAGTTCCCCGCGCGAGCGGGGATAGACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [3,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [60.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [80,106] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.92   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_024132857 [68833-71481]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : NBRC 105723
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Citrobacter.; Citrobacter rodentium NBRC 105723
+//
+
+
+Array 2 83556-82552 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBNA01000022-Citrobacter rodentium NBRC 105723, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+     83555	    29	  96.6	    32	...........................G.	GACTCTAACGCACTCAATCCACTTAATCCCAG	
+     83494	    29	  96.6	    32	...........................G.	AAACCACTGTAACCGCCTTCTAAGCGGTTTGC	
+     83433	    29	 100.0	    32	.............................	TCATTCCGGCGCACCAACTGGAATTGCTGGAA	
+     83372	    29	 100.0	    32	.............................	TAATAAACAAAAATCAACGCATCCTGGTGGCA	
+     83311	    29	 100.0	    32	.............................	CAGCTGGCAAGAACAAAATCGACTGGAGCGAC	
+     83250	    29	 100.0	    32	.............................	TTTCGGTGCCGGAATGACGTGTGAGCGTATTT	
+     83189	    29	 100.0	    32	.............................	ATCTGTTTATAGCTGGCTATAAAATTTATAAA	
+     83128	    29	 100.0	    32	.............................	TGGAAACGAACACCGCAGGGGTACGTGATTAC	
+     83067	    29	 100.0	    32	.............................	ACTACGGTTGATTTATAAGAGCTACCATCCGG	
+     83006	    29	 100.0	    32	.............................	TACGCGACATGTATTTTTTGCCGTGTTTCATG	
+     82945	    29	 100.0	    32	.............................	TTCATGGGGGGTCACGACCCAGCCGCCCAGCT	
+     82884	    29	 100.0	    32	.............................	TACCCCATTCAATACGGGCGATGCTGAATAGT	
+     82823	    29	  96.6	    32	............G................	TTAATAGCTGAAACAGGTAAACTCAACCGCGA	
+     82762	    29	  96.6	    32	............G................	GCGTAAACCCAGGGCTCGGCTTTTTTGTGAGT	
+     82701	    29	  96.6	    32	............T................	CCATTATCGAACGCCGCGCTGAACTCGCTGAT	
+     82640	    29	  96.6	    32	.............T...............	ACGCAACCATCATTGTTGCTGAGCACCACAAT	
+     82579	    28	  79.3	     0	.......T....AG......A.-.C....	|                               	
+==========	======	======	======	=============================	================================	==================
+        17	    29	  97.6	    32	GTGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   CTACACTGCCGTTATCTCTCACCGTTCTGGCGAAACTGAAGACGCGACCATCGCTGACCTGGCTGTTGGTACTGCTGCGGGCCAGATCAAAACCGGTTCTATGAGCCGTTCTGACCGCGTTGCTAAATACAACCAGCTGATTCGTATCGAAGAAGCGCTGGGTGAAAAAGCGCCGTACAACGGTCGTAAAGAGATCAAAGGTCAGGCGTAATCCTGTACTTTCGTTCTGATATAAAAACCCGCTTCGGCGGGTTTTTTGCTTTATATCATCCAGTGATTTTGACCCCGGTCGTTCTGTCTCGATCGTGAATTGAAATTTTCAATGGTGCGATAATCATCACACTGTTTTGGTAGATTTGAAGAAAGAATAGCTACCATCTTCTTTATCTTATTAAAATCAACAGATTAGTTGCTCTTTAAAAATGACTATTTGTAAGGATTAAGTTGGTAGAATGTTGTATTGATAGAAATTGCTTTATAAACAGTTGGTTGTATTTAGT
+# Right flank :  TAGTTTTGCCTGGCTATCTGCGATCTGCGATAATGCGCCCTCATAACCCCAGACAGAGACGATTATGCAGTACCCGATTAACGAGATGTTCCAGACCCTGCAAGGTGAAGGTTATTTCACCGGCGTCCCCGCCATTTTTATCCGTTTACAGGGATGCCCGGTTGGCTGTGCCTGGTGCGATACCAAACACACCTGGGATAAGCTTGAGGATCGGGAAGTCTCCCTGTTCAGCATCCTGGCGAAAACCAAAGAGAGTGATAAGTGGGGAGCGGCGAGCAGCGAAGATCTGCTGGCGGTAATCAATCGTCAGGGATATACCGCGCGTCATGTGGTGATTACCGGCGGCGAACCCTGCATCCACGATTTAATGCCGCTTACTGCGTTGCTGGAAAAAAACGGCTTCAGCTGCCAGATCGAAACCAGCGGTACCCATGAGGTGCGCTGTACGCCGAATACCTGGGTGACGGTATCTCCAAAAGTGAATATGCGTGGCGGCTATG
+
+# Questionable array : NO	 Score: 7.96
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.88, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [8-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [48.3-73.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [66,290] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,6.1   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_024132857 [68833-71481]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : NBRC 105723
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Citrobacter.; Citrobacter rodentium NBRC 105723
+//
+
+

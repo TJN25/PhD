@@ -1,0 +1,39 @@
+Array 1 66216-65983 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BBWZ01000024-Aneurinibacillus tyrosinisolvens strain LL-002, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	==============================	=======================================	==================
+     66215	    30	 100.0	    36	..............................	ATAATAATAAAAGCTGCATATACGACCGTTTTAAAG   	
+     66149	    30	  96.7	    38	........A.....................	TCTTTTCTCTTCGCCATTTTTATCACCTCCAATGTGTA 	
+     66081	    30	  96.7	    39	....A.........................	AGGAAGCACAAAATCAACTAAAAGAAAAAGACCGTCAAA	
+     66012	    30	  80.0	     0	....T...C........A.....ACA....	|                                      	
+==========	======	======	======	==============================	=======================================	==================
+         4	    30	  93.3	    38	GTTTGTATTGTACCTATGAGGAATTGAAAC	                                       	       
+
+# Left flank :   GATATTTCCTCTATCATTTATCATTCATAACCCTCCCTTTTTTCGAATATATGTTCTTATTTTACGACTAAAAAGGGATGGATGAAAAGTCCTGAGTTGAGAAAATTATGCAGCTGGATTACAAAATTTCTCAATAATAACTATTCCGAAACAAAATTCACCAGAAGAGTAAGTTAAAGTAGTTTTATTCTCTTGATTCAATAAGGAATGTAAAGGGACAAAAACGGATAGATATCATTTTAGATATCGAAATAAACATTTAAAAACGGATGTAATATCACATAACATTCGATAAGTGATATTTTGCAGTGGATAGGGGAAGAGGAGGGGAGACTTGGTGTTTTTGATGCTGAAAAGTGTCGTCAATCGGGAGTAATGTCAAATTCCTGGGAGATCGACGACAAACGAAAATCAGCATTCATGCCAATATTGTGGTTTTTTCCTTATTTTGTTATATTTAATGTGAAAATGAAAACGTTGATATTACGCTTTTGGAGTGG
+# Right flank :  AAAAGGTGTCACTTTTCGGTGACACCTTTTGTAATGAAAAAAAACTCTGACTTATAATTCAGAGTTGTTGGTATTGCGTCATAAGAGTTTCCTGTTCCTTCCTTACTTCTGCTTCTATTTTCGCTTTCTCCCGAATGGCTATACATCCTTGAATGATTTGTTCTACAGCTGCTTGTTCATCCGACATTTTTACAGCTTGCTCTCGAAGAGAAATCAGTCGATATGCTTCTGCAAGGGTAGGAAATAGCTCTTTTTTAGTAAGATCAATCCCTAGATAACCTTTAAGAGCTTCCGTTTCAGTTTTAGGAAAGCTATCCAAAGGTTTTTCAAACGGACGAGGTGTAAGGATTTTGTTACTCATACGAATTCTTGGCCAAATTTCATAAGAATCGATGTCTTTGAATCCTGTATAGTTTCGATGCGCGAAAGGATTTTCATAGATTCCTTCGCTTTTTAATTGGCTGATCGTTCGTGGATTACCATGAGGGTTCTCTTTAAGA
+
+# Questionable array : NO	 Score: 8.33
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.66, 5:-1.5, 6:0.99, 7:0.89, 8:0.6, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTGTATTGTACCTATGAGGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         R [matched GTTTTTATCGTACCTATGAGGAATTGAAAC with 94% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [7-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [60,477] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,9.59   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-B [Matched known repeat from this family],   
+# Sequence source strain : LL-002
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae;Aneurinibacillus group; Aneurinibacillus.; Aneurinibacillus tyrosinisolvens
+//
+
+

@@ -1,0 +1,163 @@
+Array 1 4331844-4332160 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM000736-Bacillus cereus F65185 chromosome, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	=============================	==================================	==================
+   4331844	    29	 100.0	    25	.............................	ATCAGTTGGGCCAATAGGTGCAACT         	
+   4331898	    29	  69.0	    34	.....AG....ACA...G..CCC......	ATTGAGAGGACCACAAGGAGAAACTGGAGCGACA	
+   4331961	    29	  96.6	    25	.....................T.......	TCCGATTGGTCCAACGGGAGCGACT         	
+   4332015	    29	  79.3	    34	..GG.A......A.A...........G..	ATTACAGGGGCCAATTGGAGCGACGGGACCTGAG	
+   4332078	    29	  79.3	    24	...........AA.A.....CG.C.....	GTTACCGGGTGTAACTGGTCCACA          	
+   4332132	    29	  79.3	     0	...ATA.....A.CA..............	|                                 	
+==========	======	======	======	=============================	==================================	==================
+         6	    29	  83.9	    29	GGACCTCAAGGTGTGCAAGGGATACAAGG	                                  	       
+
+# Left flank :   ATAGGGACGGAGACGAAGCTTTGTTTACAGCCGGGAGATTCGGTGACGACGACGTATACAAGGGGCACTCCTGCTGGTACTGTAACAGGAGCAAATATGGGGCAAAATGTAAATACATCGAGTATAGCGCAAGCTGTCCCTAATACAGATAATATGGATTCAATTGCAGGACTCCCTTAAGAAATTAAGGGAGTTTTTATTATTTAAAATAAAAATAGTCTTGGAAATTATTTTTGTAAATAGATTAAGAAGAGGCTTATTTATTATGAAAAAGATGGTTTGTAGGTGGTGAAAGTGTGAAGAATCGTGATAATAATCGGAAGCAAAATTCGTTAAGCTCTAATTTTAGAATTCCACCCGAACTTATTGGGCCTACTTTCCCCCCTGTTCCAACTGGGTTTACAGGTATAGGGATTACTGGTCCAACCGGTCCACAAGGCCCAACAGGACCTCAAGGACCAAGAGGATTACAAGGTCCGATGGGGGAGATGGGCCCGACA
+# Right flank :  GAACACAAGGACCGAGTGGAAATACAGGTGCAACCGGAGCAACTGGTCAGGGGATAACAGGCCCGACTGGAATAACAGGTCCAACTGGGATAACTGGACCATCTGGAGGACCTCCTGGTCCGACGGGGCCGACTGGTGCGACAGGTCCGGGCGGTGGACCGAGTGGAAGTACAGGTGCGACTGGAGCAACTGGGAATACTGGAGCTACAGGAAGTACAGGGGTAACAGGAGCAACGGGAAGTACAGGTCCGACTGGAAGCACGGGAGCACAGGGCTTGCAAGGAATCCAAGGGATTCAAGGGCCAATTGGGCCAACAGGTCCAGAAGGTCCGCAGGGTATTCAAGGTATTCCTGGTCCGACGGGAGTAACTGGTGAACAAGGAATACAAGGAGTTCAAGGTATTCAAGGGGCAACGGGAGCAACAGGAGATCAAGGTCCACAAGGTATACAGGGGGCTATAGGGCCTCAAGGGGCAACAGGGGCAACAGGAGATCAAGGT
+
+# Questionable array : NO	 Score: 2.08
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.20, 5:-1.5, 6:1, 7:-0.03, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGACCTCAAGGTGTGCAAGGGATACAAGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [9,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [9-18] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [41.7-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [322,3434] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas2:NA [5113484-5113594]; Cas7:WP_033667537 [5698806-5699030]; Endonuclease Cas2:WP_050427189 [5700845-5701081]; Helicase/endonuclease Cas3:WP_000220994 [5848667-5851096]; 
+# Array family : NA
+# Sequence source strain : F65185
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus cereus F65185
+//
+
+
+Array 2 5701251-5701480 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM000736-Bacillus cereus F65185 chromosome, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                   	Insertion/Deletion
+==========	======	======	======	================================	==================================	==================
+   5701251	    32	 100.0	    34	................................	GAAAAAGGTAATCTTATAAAACTTGCAAGAGCAA	
+   5701317	    32	 100.0	    34	................................	GAAAAAGGTAATCTTATAAAACTTGCAAGAGCAA	
+   5701383	    32	 100.0	    34	................................	TATAGGCTATAGCAAATACATCGGTGGAGGTTTT	
+   5701449	    32	  93.8	     0	....T................A..........	|                                 	
+==========	======	======	======	================================	==================================	==================
+         4	    32	  98.5	    34	GTCGCACCTTATATAGGTGCGTGGATTGAAAT	                                  	       
+
+# Left flank :   TAATTGGCCAAATAAACAAAACATACACCGAACACAACAAGGAACAGGTCCTTATTGATATAAAGGCCTTGATTATTCTCCATAAGTATTACTCATTTGGCGAAAAGTTTCGAAAACATGTCAAAATTATGGTCAACGAGTACAAAATTCAGTGTTTGAATGTGTTGTGGACGCAGCTCAATTTGCTACTTTAAAAATGGAATTAATTAAAATTATTGATGAGGATGAGGATAGTCTCAGATTTTATCAGTTAGGTAATAACTATAAAAATAAGGTTGAACATATAGGTATAAAGGAATCCGTTGATTTAGAAAGTCCTTTGATTTTTTAGGTGCGAATGTATAGCACACATGAAATTCCTCGTACATTCGCACCTGAATTTTCATAATTTATGAGTGAATTTTAATGTTTTTCATACAGATTCTCTTATTAAATAAAGAAATATGTATATTTTTGAACAGAATTAATGTATTTTTGTATGATTTTAAACAAAAATCGCT
+# Right flank :  TTGATAATGATAAAACTGTTGTTATTAAGTGTGAGGTCGCACCTTATATAGGTGCGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAATAATTGAGAGGAAAAAAGTAGAGGTAATTTGTGTGAAAATCTAAGTTTCAAGATAGAATTAAAATTTCAATGATTATAACAAAAAAGAACCATTGATAGGCTCTTTTTCATAGCTGGTAAATATGTTATCAACAATAGATGGCGATTAAGGTAGTAATTTAGATGCCTTTAAGTTAATCATCTGAATTTTGTAGGAAGAATTCTTTTTCCATACCTTAATGCTCAATGAAAAAGATATTTCATTTATTTGGGTGTTCTAGTGTATTTGGATCTTGCGCATTAACAAATTTTGTTTAGGGACAAAATGTATTTTCTTAATAATCAGAAAAATAACGCAGCAA
+
+# Questionable array : NO	 Score: 10.71
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.93, 5:0, 6:0.7, 7:0.68, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.10,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [171,463] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:NA [5113484-5113594]; Cas7:WP_033667537 [5698806-5699030]; Endonuclease Cas2:WP_050427189 [5700845-5701081]; Helicase/endonuclease Cas3:WP_000220994 [5848667-5851096]; 
+# Array family : NA
+# Sequence source strain : F65185
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus cereus F65185
+//
+
+
+Array 3 5844926-5844630 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM000736-Bacillus cereus F65185 chromosome, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===============================	===================================	==================
+   5844925	    31	  80.6	    35	......T..CT.GC....T............	TAACCAATCGAATATAAACGTGGGAAACCGAAAAT	
+   5844859	    31	 100.0	    35	...............................	TGTGACGGATATAGAGACAGGTGAAAAAACAAAAA	
+   5844793	    31	  96.8	    34	...................T...........	TCTTAAAGAATACTATGAAATTGAAAGAAGTACA 	GT [5844775]
+   5844726	    31	 100.0	    35	...............................	TAGTAATGATGTGGAGCAAGAAGGAATCAGTTTAT	
+   5844660	    31	  67.7	     0	.....................ANNNNNNNNN	|                                  	
+==========	======	======	======	===============================	===================================	==================
+         5	    31	  89.0	    35	GTCGCACCTTATATAGGTGCGTGGATTGAAA	                                   	       
+
+# Left flank :   TGATCCGATTGATATTACTAGTATGCAGATTACGAAAAGTGTAAATTCTGAGCCTGGGAAAGATAAAGGTTCAGATACGATGGGGATGAAGCATCGTGTTGATTTTGGAGTCTATGTTTTTTATGGAAGTATTAATACGCAATTAGCAGAAAAGACAGGTTTTACTAACGAAGATGCGGAGAAGATTAAAAATGCACTGGTTACATTGTTTGAAAATGATGCGTCGGCAGCACGCCCTGAAGGAAGTATAGAAGTACATAAAGTTTGTTGGTGGGATCATAATTCAAAACTTGGTCAATACTCTTCTGCAAAAGTACATCGTTTATTAGAGGTTAAACGGAATATTGACGAACCAAAAACAATCGATGATTACACTGTATTAGTACATGAATTAGATGATTTAAAAGTTGAGGTTATTAATGGAATGTAATAAAAAGCGTCAGAATAGTTGAACGAAAGTATCCTTATAAAGATATACTCTATCAATTTATTAAAGGAAA
+# Right flank :  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGGTATGTGTTGGGCGAGTCAGGACTTCGTTCGTATTTTAGAAAATGTAAAAGCTCGTGGTATCTTGCAATCTACTTTCTCCTATTTCTTCTTAGAACAAAATAAGATTGATAAGAAAAAGATCCAGGAGAACTTTAACTTAACTGCTGGGGAGCTTGATATTATTCTCAACAACCCTGGAAAAGGAGAAGGGATTTTCCGAGTAGGAGATAGTTCGGTTTGGATTCAAACTGATCCATCTGACAAAGAAATGATGTTCATTGAATCGAATGAAGCGGTACTACAAGAGCTTTTAAACAATATGAAGAAAGTACAAGGGTACGCAGGATAATAGTGTACTCTTAAAAAGGAAGGTGAAATTATGCTTGAGAAAATAGTAGAGTGGGTCGGAGGCTTAATTATTGCTATA
+
+# Questionable array : NO	 Score: 10.36
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.45, 5:0, 6:0.34, 7:0.85, 8:0.8, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGTGGATTGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.84%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.50,-3.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [0.0-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [93,71] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.55   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:NA [5113484-5113594]; Cas7:WP_033667537 [5698806-5699030]; Endonuclease Cas2:WP_050427189 [5700845-5701081]; Helicase/endonuclease Cas3:WP_000220994 [5848667-5851096]; 
+# Array family : NA
+# Sequence source strain : F65185
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus cereus F65185
+//
+
+
+Array 4 5851745-5851253 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CM000736-Bacillus cereus F65185 chromosome, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+   5851744	    32	 100.0	    34	................................	TCCAATGTGATGTGAATAAATACTTGGTATGAAT 	
+   5851678	    32	 100.0	    33	................................	GCCATGACTGTTAATAGTACAAACATGAGCCAT  	
+   5851613	    32	  93.8	    34	...........A...........A........	TACCTCGGGTTTATATTTATCTGGAACGCTCATA 	
+   5851547	    32	  96.9	    33	...................T............	ATAATATCACACTTTTGACAAAATTCAGTCATG  	
+   5851482	    32	  93.8	    34	A........C......................	TCTACTGAAAACTAAGTCATTATCTTCATAAGCT 	
+   5851416	    31	  87.5	    34	.........C.-.A.....T............	CAATGAGGGTTGCTGTTTTTGTAGACGTATACTA 	
+   5851351	    32	  96.9	    35	...........A....................	CAGCAACGGAACAAGGAGCTGTGAACGGATTAAAA	
+   5851284	    32	  93.8	     0	....................A..A........	|                                  	
+==========	======	======	======	================================	===================================	==================
+         8	    32	  95.3	    34	GTCGCACCTTATATAGGTGCGTGGATTGAAAT	                                   	       
+
+# Left flank :   TATCTAGTTATATATTAAAAGTTGAACACAAATAAAGAGAAGAATAATTAAAGTATTTGTGAGTTAGCAAAATAAATGAATTTTTAGTATTCAATATTCTTAAGAATGTTATATCATAAAAAAAGATCGAACGATGATATAAAGAATAAACTTGATAGGTGGATAGAGAGACAATATATAGTGAATTTTATTGTAAATTACGAATCAATATATTAAGGGTATTATGAAACTATACATTTTGGTTATTCAATTAGGTAATAGCTATGAAAATAAGGTCAAACATATTGGTGTAAAAGAATGAATTGATTTAGAAAGCCCTTTAATTTTTTAGGTGCGAATGTATAGCAAACATGAAATTCCTAGTACATTCGCACCTAGAATTCTCATGCTTTATGATGGGGATTTATGATTTTTATGCAAATTACTTTATTAAATAAAAACATTTGTATATTTTTGGATAAAACTAACGTATTTTTGGTTGATTTCGAACACAAATCGGT
+# Right flank :  TAGTAAGTGTGTTTAACATCACTGATTGAGGAGATGGAGTTTTTAGATAATACTTTAACTTCAAACAATCCTTAGTGTATTAGATGCTCAACTAGAAGTATCTATATCTGCAGTGTCTAATACAAAAGTAAAAAGTATAAAATGGAGGGAGATTAAATGACCTACATTGCTCATATACGCGAGAGTGACAGTCAAGTACAAACAGTCGAAGAGCATTTATTAGGAGTAAAAGAACTAGCTGAAACCTATGGAGAAAAAATTGGTATAAAACATTTAGCTGGTTTAGCCGGTATGCTCCATGATATGGGTAAATACACCAATGAGTTTAAAGAATATATATTGGAAGCAGTAAATAATCCTACTTCTTCACCTAAAAGGGGGAGTGTTGACCATTCAACTGCAGGGGGGAAATTGTTATATCAATTATTCCATACAGAAAATATGATTCCTTACAAAGGGATCATATCTGAGATAGTGGGAAATGCCATTATTTCTCACCA
+
+# Questionable array : NO	 Score: 10.49
+# 	Score Detail : 1:1, 2:3, 3:3, 4:0.76, 5:0, 6:0.7, 7:0.56, 8:1, 9:0.47,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGCACCTTATATAGGTGCGTGGATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:56.25%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-2.50,-3.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [7-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [70.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [158,285] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.28   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:NA [5113484-5113594]; Cas7:WP_033667537 [5698806-5699030]; Endonuclease Cas2:WP_050427189 [5700845-5701081]; Helicase/endonuclease Cas3:WP_000220994 [5848667-5851096]; 
+# Array family : NA
+# Sequence source strain : F65185
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;Bacillus cereus group.; Bacillus cereus F65185
+//
+
+

@@ -1,0 +1,420 @@
+Array 1 673434-672926 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	=========================	=========================================	==================
+    673433	    25	  96.0	    20	.................G.......	ACCGGCGGGGACCCCGGTGA                     	Deletion [673389]
+    673388	    25	  88.0	    29	..............CT......A..	GTGTTCACCAACAACGGCATCGGCGGCAA            	
+    673334	    25	  96.0	    11	....................C....	CCCAGCGGGGC                              	Deletion [673299]
+    673298	    25	  72.0	    41	......G.GT......GC....TC.	ACTTTCGGTGCGACCGGCTCAAGCAGCAGCATTCACGTCAA	
+    673232	    25	 100.0	    35	.........................	AACGGCGACCATGCCCTCAGCGGCAACGGCGCGGC      	
+    673172	    25	 100.0	    29	.........................	AACGGCAGCCTGCGCGGCAGCGGTGGGGC            	
+    673118	    25	  96.0	    35	.......C.................	AATGCCAGCAGGGGCATGGGCGGTGACGGCGGAAC      	
+    673058	    25	  76.0	    20	...T...GC......A....C...G	CAGATTGGCAACGGCGGAGC                     	Deletion [673014]
+    673013	    25	  84.0	    38	G........T.....AG........	ACCGGTAGTGACGGCAATCCCGGAGCCATTACCGGCAG   	
+    672950	    25	  88.0	     0	.......CG.......G........	|                                        	
+==========	======	======	======	=========================	=========================================	==================
+        10	    25	  89.6	    29	CGGCGGCAACGGCGGCAACGGCGGC	                                         	       
+
+# Left flank :   AGCAAAGGCCTGCCCGGTCTGGGCAGGCTCGGCAACCCCGGCCTGGATGGCGGCACCGGCGGAAACGGTGGGGCCGGTGGATCCGGCGGCGCCTGGGCGGGCAACGGTGGCACCGGCGGGGCCGGCGGCACCGGCGGCGTCGGCGGGACTGGAGGGTCCGGCAGCGACGGTGTCAACGGTTCCAGCGCGGGCGCGGACGGGCACCCCGGCGGCACCGGCGGAGTTGGCGGTACCGGCGGAAAAGGTGGGGACGGCGGGGACGGCGGGGCCGCACCCAACGGCGTCGCCGGCAGCCAAGGCCCCGGCGGTGCCGGCGGCGACGGTGGGACCGGCGGAGTTGGCGGTAACGGCGGCCGCGGCATTGACGGCGCCGACGGCGCCACCGCGGGTGCCCGCGGCCAGGATGGCGGCGCCGGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGCCGGCGGGCACAACCGGCAGCCAAGGCGC
+# Right flank :  GTAGGCGGGCAAGGTGGGAGCGTCGCCGNNNNNNNNNNNNNNNNNNNNNNNNNCGGGGCCGGCGGCACGGGCGGGACGGGCCTGCGGGGCACCACCGGCGCCACCGGTGCGACCGGCACATTCGACGCTGGCGCGGACGGTCACGGCGGTAACGGTGGCACCGGCGGGGTTGGCGGGACCGGCGGCGCCGGCGGNNNNNNNNNNNNNNGCGGGGCCGGCGGCAAAGCGCTGTCGCCAACGGGCAACAACGGCAGCCAAGGCGCCGGCGGAGATGGTGGGGCCGGTGGCGCCGGCGGCACCGGCGGCACCGGCGGCGACGGCGGCAGAGGTGCCCACGGCACTCTCTTCAGCAGCCTCGCTGGCACTGGCGGGACTGGCGGAAATGGCGGCACCGGCGGCACCGGCGGCACCGGTGGTGCCGGCGGTGCCGGCGGCACCGGTTCCACCCTGGGCGCGACCGGTGCGACAGGGGCGGCCGGCCGCGCCGGAAACGGTGGCGT
+
+# Questionable array : NO	 Score: 3.03
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.48, 5:0, 6:0.34, 7:-0.15, 8:1, 9:0.36,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGGCAACGGCGGCAACGGCGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [13-12] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [11.7-10.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [976,2398] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 2 926750-927177 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence        	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	=======================	===============================	==================
+    926750	    23	  91.3	    22	......T....T...........	TGGAGCCTTGCTGTTTGGGGCC         	
+    926795	    23	  87.0	    28	..T........T..A........	GTCCAGCGGGATTGGCGGGTTCGCCGCG   	
+    926846	    23	  87.0	    22	...........T...C....A..	GGCCGGTGGGCTGTTCAACGGC         	
+    926891	    23	 100.0	    31	.......................	GTCCGGCGTCAGCGNNNNNNNTGGCGGGGAG	
+    926945	    23	  95.7	    28	....................T..	CCTGTTCGCCGGTGGCGGGGCCGGCGGG   	
+    926981	    23	 100.0	    16	.......................	ATCGGGCAACAACGTC               	Deletion [927020]
+    927020	    23	  91.3	    21	..G.................T..	GGTCGGTGGGCTGTTCGGGGC          	
+    927065	    23	  91.3	    12	..............AT.......	CGGCGGTAGCGT                   	Deletion [927100]
+    927100	    23	  82.6	    31	T....C.A...T...........	CAACGCGGGCTTGCTCGCCCCCGGTCTCGCC	T [927102]
+    927155	    23	  87.0	     0	.....T........T.G......	|                              	
+==========	======	======	======	=======================	===============================	==================
+        10	    23	  91.3	    24	GGCGGGGCCGGCGGGGCCGGCGG	                               	       
+
+# Left flank :   CCGGGCTGATCGGCAACGGCGGCAACGGTGGCAGCGGCGGCACGTCGGTTGCCACCGGGGGGGCCGGGAACGGCGGTGCCGGCGGCGCCGGCGGCGGGGCCGGGCTGATCGGCAACGGCGGCAACGGCGGCAGTGGCGGAATGGGCGATGCCCCGGGCGGCACCGGCGTCGGCGGCATCGGTGGGCTGTTGTTGGGTTTGGACGGCGCCAACGCCCCGGCCAGCACCAACCCGCTGCACACCGCGCAGCAGCAGGCGTTGGCCGCAGTCAACGCGCCCATCCAGGCCGTGACCGGGCGCCCGCTGATCGGCAACGGCGCCAACGGCGCCCCGGGCAGCGGGGCCCCCGGCGGGCACGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGCGGGGCGGGCGGAGATGGCGGGGCCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGGGCCGTCACGGGAACCGGCGCCACC
+# Right flank :  GGCAGGGTTTTGACACCGGCGGGGCNNNNNNNNNNNNNNNNNNNNNNNNNNTGCTGGTCGGCTCCGGCGGGGTCGGAGGTGCCGGCGGATTCGGCCTCACTACGGGTGGGCCTGGGGCGGCCGGCGGCGACGCCGGCCTGCTGTTCGGCTCCGGCGGCGCTGGCGGGGCCGGNNNNNNNNNNNNNNNNNNNCTCGGCGGCGCTGGCGGGGCCGGCGGCAAGGCCGGGCTGATCGGCAACGGCGGTAACGGCGGGGCCGGCGGGGCCGGCGGGAACGGCGGCGGGGACGGCGGGCCCGGTGGAGCCGCCTTCGGGCTCGGTAACGGCGGCAACGGCGGCAACGGGGGGACCGGCACGTCCGCGGGCAGCCCCGGTGCCGGCGGCGCCGGTGGTTCGCTGATCGGCGCGGAGGGGCTGCCCGGGCTGCTGCCCTAGCCGGCCCGGTTGGACCACGTGATCGACGACCGTCACAAGTCGACACGCCGAACGTGCAACCACGGC
+
+# Questionable array : NO	 Score: 2.59
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.59, 5:0, 6:0.25, 7:-0.66, 8:1, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCGGGGCCGGCGGGGCCGGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [0,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-7.50,-6.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [8-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [8.3-16.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [1387,507] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.96,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 3 1618771-1618413 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                                                        	Insertion/Deletion
+==========	======	======	======	======================	=======================================================================	==================
+   1618770	    21	  81.8	    18	T..............-....CT	AGGCGCTGGCGGCATCGG                                                     	Deletion [1618732]
+   1618731	    22	 100.0	    71	......................	GCCGGTGGTACTGGCGGCACAGCTGGCATCGGCGGCAGCAGCGCCGGCGCCGGCGGCGCCGGCGGCGNNNN	
+   1618638	    22	  90.9	    44	N....C................	GGCAGCTCAATGATCGGCGGCAAAGGCGGTACCGGCGGCAACGG                           	
+   1618572	    22	  90.9	    53	.....T...T............	GCCAGCGCATTGACCATCGGCAATGGCAGCAGCGCCGGCGCCGGCGGCGCTGG                  	
+   1618497	    22	  90.9	    41	.....CA...............	ACCGGCGGCTATATCGAAAGCCTCGACGGCAAAGGCCAAGC                              	
+   1618434	    22	  90.9	     0	....A.........A.......	|                                                                      	
+==========	======	======	======	======================	=======================================================================	==================
+         6	    22	  90.9	    46	CGGCGACGGCGGCACCGGCGGC	                                                                       	       
+
+# Left flank :   TTGCTGTGGGGCAACGGCGGGAACGGCGGAGCCGGCGACGCCGCCCACCCCAACGGCGGCAACGGCGGGGATGCCGGAATGTTCGGTAACGGCGGGGCCGGCGGTGCCGGTTACAGCCCGGCGGCCGGAACCGGCGCGGCCGGTGGAGCCGGCGGCGCCGGTGGAGCCGGTGGCTGGCTAAGCGGCAACGGCGGCGCCGGCGGCAACGGCGGTACTGNNNNNNNNNNNGCCGACGGCGGCGGCGGCCTCCCCCCCGTCCCCGCCAGCCCTGACGGTAACGGCGGTGGCGGTGATGCCGGTGGTGCTGCTGGGATGTTCGGCACCGGCGGCGCCGGTGGGACCGGCGGGGACGGCGGCGCCGGNNNNNCCGGCGACAGTCCTAACAGCGGTGCCAACGGCGCCCGTGGCGGCGACGGCGGCAACGGCGCTGCGGGTGGGGCTGGTGGCCGGCTGTTCGGCAATGGCGNNNNNNNNGGCAACGGCGGCACCGCTGGCCAAGG
+# Right flank :  AACGGCGCCGCGGGTGGGGCAGGCNNNNNNGGCACCGGCGCCGGCGGTAACGGCGGCGCCGGCGGCAACGGCGGTGACGGCGGGCCCAGCCAAGGTGGCGGCAATCCCGGCTTTGGCGGCGACGGCGGCACCGGCGGACCTGGCGGCGTCGGTGTGCCCGACGGGATCGGCGGCGCCAATGGCGCGCAAGGAAAGCACGGGTGACCGGTCAGGCCGACTAACCACTGTTTCTGAGCGCGCTGGCCAGCCCGGTCATGGTCAGCAGAATCCTGCGCTGCACCAAGTCGTAATCGGCAATGAGCTACCGCTTCCCCCGGTCCGGTCGGCGGTAGCCGACCAGCGCTAGCGGTATTTGATGAGCAACGCCACGCCGATGATGGACACCAGCCAGATGCCGGTAACGAACAGCGTCAACCGGTCCAGGTTCTTCTCCACCACCGTCGAGCCGGACAGGCTTGACTGCACACCACCGCCGAACAGTGTCGATAGCCCGCCACCCT
+
+# Questionable array : YES	 Score: 0.34
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.64, 5:-1.5, 6:-0.25, 7:-0.86, 8:0.8, 9:0.51,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGACGGCGGCACCGGCGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.00,-2.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [4-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [13.3-20.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [96,1060] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 4 3120469-3119185 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                         	Insertion/Deletion
+==========	======	======	======	====================================	========================================	==================
+   3120468	    36	 100.0	    38	....................................	CTTCAGCACCACCATCATCCGGCGCCTCAGCTCAGCAT  	
+   3120394	    36	 100.0	    38	....................................	CCTTCGACGCCGGATTCGTGATCTCTTCCCGCGGATAG  	
+   3120320	    36	 100.0	    36	....................................	TGCCCCGGCGTTTAGCGATCACAACACCAACTAATG    	
+   3120248	    36	 100.0	    36	....................................	CAGCGAAATACAGGCTCCACGACACGACCACAACGC    	
+   3120176	    36	 100.0	    37	....................................	TCTTGACGATGCGGTTGCCCCGCGCCCTTTTCCAGCC   	
+   3120103	    36	 100.0	    37	....................................	AGGTTCGCGTCAGACAGGTTCGCGTCGATCAAGTCCG   	
+   3120030	    36	 100.0	    38	....................................	TTTATCACTCCCGACCAAATAGGTATCGGCGTGTTCAA  	
+   3119956	    36	 100.0	    37	....................................	ATTTTGAGCGCGAACTCGTCCACAGTCCCCCTTTCAG   	
+   3119883	    36	 100.0	    35	....................................	GCCCCGTGGATGGCGGATGCGTTGTGCGCGCAAGT     	
+   3119812	    36	 100.0	    40	....................................	CCGACGATGGCCAGTAAATCGGCGTGGGTAACCGATCCGG	
+   3119736	    36	 100.0	    38	....................................	TAGTACGCCATCTGTGCCTCATACAGGTCCAGTGCCCT  	
+   3119662	    36	 100.0	    35	....................................	CTGACGGCACGGAGCTTTCCGGCTTCTATCAGGTA     	
+   3119591	    36	 100.0	    36	....................................	CCTCATGGTGGGACATGGACGAGCGCGACTATCGGG    	
+   3119519	    36	  97.2	    37	......G.............................	TGGACGCAGAATCGCACCGGGTGCGGGAGGTGCAGCA   	
+   3119446	    36	 100.0	    40	....................................	GCATATCGCCCGCCACACCACAGCCACGCTACTGCTCCAT	
+   3119370	    36	  97.2	    40	...C................................	ACACCGCCGATGACAGCTATGTCCGAGTGACATCCTCCCA	
+   3119294	    36	  97.2	    38	..................A.................	TTGAACCGCCCTTCGCGCGGTGTTTCGGCCGTGCCCGA  	
+   3119220	    36	 100.0	     0	....................................	|                                       	
+==========	======	======	======	====================================	========================================	==================
+        18	    36	  99.5	    37	GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC	                                        	       
+
+# Left flank :   GGCCACCTCCATGGTCCTCGACGCGATCGAGCAAGCCATCTGGACCCGCCAACAAGAAAGCGTACTCGACCTGAAAGACGTTATCCACCATACGGATAGGGGATCTCAGTACACATCGATCCGGTTCAGCGAGCGGCTCGCCGAGGCAGGCATCCAACCGTCGGTCGGAGCGGTCGGAAGCTCCTATGACAATGCACTAGCCGAGACGATCAACGGCCTATACAAGACCGAGCTGATCAAACCCGGCAAGCCCTGGCGGTCCATCGAGGATGTCGAGTTGGCCACCGCGCGCTGGGTCGACTGGTTCAACCATCGCCGCCTCTACCAGTACTGCGGCGACGTCCCGCCGGTCGAACTCGAGGCTGCCTACTACGCTCAACGCCAGAGACCAGCCGCCGGCTGAGGTCTCAGATCAGAGAGTCTCCGGACTCACCGGGGCGGTTCACCCCGAGAGGGGACGGAAACTCGGGGAGCCGATCAGCGACCACCGCACCCTGTCA
+# Right flank :  TACGACGACTGGGTCGCCACCGCGTCTGTTGACCGGCATTCAGGATGAGCATGATGGCGGCGTTGACGGTGAGGACGTTTGGTCATGAAATGACCCCGCCGGGAGATGTCCGGCGGGGTCGGTGGTGTTCGGGGTGTCGGTGTGGTGTTCAGTCTGCCGTGACTTCGGCGATGGCGGTGCGGGTGGTGGATTCGTCGACGATGGCCTTGTCGGCGGCGAAGGCGGCGACGAGGGCTTGCAGGGCGAGGTTGTTGACCGCGCGGGGGTAGCCCCGGCTGGTCTGGTGGATCAACCCGATGGCGTCGTCGGAGAACAGGGCATCGTCGCGTCCGGCTAGCTTGAGGTGGTGGCGTAGGTAGCTGCCGGTGTTGGTGTCGGTCATGGGCGGCATGGCATATCGGAGTCCGATGCGCTGGTCAAGCGCGGCGAGCACGCCGAGTTTCATCCGCCGCCGCAGGGTGGGTTGGCCGATGAGCAGGCAGGCGAACGGGCTTGACGAG
+
+# Questionable array : NO	 Score: 8.63
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.97, 5:0, 6:1, 7:0.66, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,12] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.40,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [38.3-33.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [150,98] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 5 3123577-3121862 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                          	Insertion/Deletion
+==========	======	======	======	====================================	=========================================	==================
+   3123576	    36	 100.0	    38	....................................	TTAAAACCGTGTTGCACTGCAACCCGGAATTCTTGCAC   	
+   3123502	    36	 100.0	    41	....................................	CATAGAGGGTCGCCGGCTCTGGATCACGCTCCCCTAGTCGT	
+   3123425	    36	 100.0	    36	....................................	TTTTTGCCTCATGCTTGGGCGACAGCTTTTGACCAA     	
+   3123353	    36	 100.0	    34	....................................	TCGCAAGCGCCGTGCTTCCAGTGATCGCCTTCTA       	
+   3123283	    36	 100.0	    39	....................................	AACACCTCAGTAGCACGTCATACGCCGACCAATCATCAG  	
+   3123208	    36	 100.0	    35	....................................	TTTTCTGACCACTTGTGCGGGATTAGCGGGCTTAG      	
+   3123137	    36	 100.0	    37	....................................	ACCAATGCGTCGTCATTTCCGGCTTCAATTTCAGCCT    	
+   3123064	    36	 100.0	    38	....................................	CTGAGGAGAGCGAGTACTCGGGGCTGCCGTCTGCGCTG   	
+   3122990	    36	 100.0	    37	....................................	GCGTGAAACCGCCCCCAGCCTCGCCGGGGCCGCCTAG    	
+   3122917	    36	 100.0	    35	....................................	ACTCGGAATCCCATGTGCTGACAGCGGATTCGCAT      	
+   3122846	    36	 100.0	    37	....................................	CGGGCAGCGTTCGACACCCGCTCTAGTTGACTTCCGG    	
+   3122773	    36	 100.0	    41	....................................	CAGGTGAGCAACGGCGGCGGCAACCTGGCGGCCACGGGTCG	
+   3122696	    36	 100.0	    40	....................................	ATGGGATATCTGCTGCCCGCCCGGGGAGATGCTGTCCGAG 	
+   3122620	    36	 100.0	    36	....................................	TTCGTCGACCATCATTGCCATTCCCTCTCCCCACGT     	
+   3122548	    36	 100.0	    41	....................................	TTGCGCCAACCCTTTCGGTGTGATGCGGATGGTCGGCTCGG	
+   3122471	    36	 100.0	    24	....................................	CTTGAATAACGCGCAGTGAATTTC                 	Deletion [3122412]
+   3122411	    36	  94.4	    36	.CG.................................	ATTCGCACGAGTTCCCGTCAGCGTCGTAAATCGCCA     	A [3122407]
+   3122338	    36	 100.0	    37	....................................	CCGGCAACAATCGCGCCGGCCCGCGCGGATGACTCCG    	
+   3122265	    36	 100.0	    36	....................................	CGCANNNNNNNNNNNNNNNNNNNNNNNNNNNNGGAG     	
+   3122193	    36	 100.0	    36	....................................	TGGATTGCGCTAACTGGCTTGGCGCTGATCCTGGTG     	
+   3122121	    36	 100.0	    37	....................................	TTGGAGCGTGTCACCGCAGACGGCACGATTGAGACAA    	
+   3122048	    36	 100.0	    39	....................................	CCTCAGCTCAGCATCGCTGATGCGGTCCAGCTCGTCCGT  	
+   3121973	    36	 100.0	    40	....................................	CCAACCTCACCGCCTGCTGGGTGAGACGTGCTCGCCGCGA 	
+   3121897	    35	  75.0	     0	...................T..-.CC.CC...C.TG	|                                        	C [3121866]
+==========	======	======	======	====================================	=========================================	==================
+        24	    36	  98.7	    37	GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC	                                         	       
+
+# Left flank :   TTCAGTACGCCCTCGACTTGCAACTGCAAAGCCTCGTGCGTGTTATCGAAGCCGGGCACCCGTCGCGGCTCGTCGATATCGATATCACCTCCGAGCCATCCGGAGCCTAAATGCCCACTCGCAGCCGTGAGGAGTACTTCAATCTCCCGCTCAAAGTGGACGAGTCCAGCGGCACTATAGGCAAGATGTTCGTCCTCGTAATATACGACATCAGCGACAACCGGCGGCGGGCTTCACTTGCGAAGATCCTGGCCGGGTTTGGCTATCGCGTCCAAGAGTCCGCATTCGAAGCGATGCTGACGAAGGGCCAGCTCGCGAAACTAGTTGCACGTATCGACCGCTTCGCCATCGACTGCGACAACATCCGGATCTATAAGATAAGAGGTGTTGCGGCAGTTACGTTCTACGGAAGGGGACGGCTTGTCAGCGCAGAGGAGTTTGTGTTCTTTTGACATCATCAGCAGGCATTGTTACCACACGCTGGACGAATTGTCCATAGA
+# Right flank :  TCCGGAGACTCCAGTTCTTGGAAAGGATGGGGTCATGTCAGGTGGTTCATCGAGGAGGTACCCGCCGGAGCTGCGTGAGCGGGCGGTGCGGATGGTCGCAGAGATCCGCGGTCAGCACGATTCGGAGTGGGCAGCGATCAGTGAGGTCGCCCGTCTACTTGGTGTTGGCTGCGCGGAGACGGTGCGTAAGTGGGTGCGCCAGGCGCAGGTCGATGCCGGCGCACGGCCCGGGACCACGACCGAAGAATCCGCTGAGCTGAAGCGCTTGCGGCGGGACAACGCCGAATTGCGAAGGGCGAACGCGATTTTAAAGACCGCGTCGGCTTTCTTCGCGGCCGAGCTCGACCGGCCAGCACGCTAATTACCCGGTTCATCGCCGATCATCAGGGCCACCGCGAGGGCCCCGATGGTTTGCGGTGGGGTGTCGAGTCGATCTGCACACAGCTGACCGAGCTGGGTGTGCCGATCGCCCCATCGACCTACTACGACCACATCAACCG
+
+# Questionable array : NO	 Score: 8.52
+# 	Score Detail : 1:1, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:0.58, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGTCAGACCCAAAACCCCGAGAGGGGACGGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,12] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-6.40,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [14-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-55.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [36,49] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,1.15   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 6 3739416-3738558 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                               	Insertion/Deletion
+==========	======	======	======	========================	==============================================================================	==================
+   3739415	    24	  87.5	    33	A..............T.G......	CGACGGCGGTGGCGGCATTTCCTTAGGCGGCAA                                             	
+   3739358	    24	  91.7	    27	.......CT...............	CGTCTCCGAGACTGGGTTTGGCGGCGC                                                   	
+   3739307	    24	  95.8	    39	................T.......	TCCGGGAGGCCCCGAAGGCAATGGCGGCCTCGGCGGCAA                                       	
+   3739244	    24	  91.7	    30	.......GC...............	CGTCAGCACCACGGGCGGCGACGGCGGCGC                                                	
+   3739190	    24	  95.8	    39	.........G..............	CGACGGCGGGAACGTCGGTTTGGGCGGTGACGCCGGCTC                                       	
+   3739127	    24	  83.3	    33	.......GCG........T.....	TATCGGCACCGACGCGGGCGGTGCCGGAGGGGC                                             	
+   3739070	    24	  79.2	    18	...T...GCT.....T........	TAGCAGCAAAAGCACGAC                                                            	Deletion [3739029]
+   3739028	    24	  75.0	    12	.AC........C....TC...T..	TGCCGGCGGTAA                                                                  	Deletion [3738993]
+   3738992	    24	  70.8	     9	T..G....CT...CT........C	GGGCGGTGC                                                                     	Deletion [3738960]
+   3738959	    23	  79.2	    31	T.....GGC...........-...	GTGTCGCCGGCGTGTCCTTCGGCAACGCTGT                                               	
+   3738905	    24	  91.7	    39	G......G................	CAACGGCGGCCACGGCGGCGACGGCACGACGGGCGGCGC                                       	
+   3738842	    24	  91.7	    39	.........G............A.	CAGCGGTGCCGCCAGCGGCTCAGGCGTCGTCAACGTCAC                                       	
+   3738779	    24	  91.7	     3	..C....C................	CAA                                                                           	Deletion [3738753]
+   3738752	    24	  87.5	    78	T.....................TC	CGCGGGCGCCGGCGGCCAGGGCGGTGCCGGCGGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	
+   3738650	    24	 100.0	    45	........................	CAACTCCGGCAACAGCACCGGCGTCGCGNNNNNNNNNNNNNNNNN                                 	
+   3738581	    24	  75.0	     0	NNNN...GC...............	|                                                                             	
+==========	======	======	======	========================	==============================================================================	==================
+        16	    24	  86.7	    32	CGGCGGCAACGGCGGCAACGGCGG	                                                                              	       
+
+# Left flank :   ACCGACGGCATCACCCCCAACGGCGGTAACGGCGGCAATGGCGGCAACGGCGGCAAGGGCGGCACCGCCGGCAACGGGAGCGGCGCGNNNGGCGGCAACGGCGGCAACGGCGGCTCCGGCCTCAACGGCGGTGACGCCGGCAARGGCGGCAACGGCGGTGGGGCGCTGAACCAGGCCGGCTTCTTCGGCACGGGCGGCAAAGGCGGTAACGGCGGCAATGGCGGTGCCGGCATGATCAACGGCGGCCTCGGCGGCTTCGGCGGCGCCGGCGGTGGCGGCGCCGTTGACGTCGCCGCGACAACGGGCGGCGCTGGCGGCAATGGCGGTGCCGGCGGCTTCGCTAGCACCGGGTTGGGTGGCCCAGGCGGCGCCGGCGGTCCCGGCGGCGCGGGCGACTTTGCTAGCGGTGTTGGCGGTGTCGGCGGCGCCGGCNNNNNNNNNNNNNNNNNNNNNNNCGGCGGCTTCGGCGGCCAGGGCGGCATCGGCGGGGNNNNNNNCAC
+# Right flank :  CGGNNCTTCCAGCGCCGCCGGCCACGGCGGCAGCGGCGGCAGCGGTGGCAGCGGCACCACGGNNNNNNNNGGCGCGGCCGGCGGCAACGGCGGCGCCGGTGCTGGCGGGGGCAGCCTGAGCACAGGCCAGTCCGGCGGCCCACGGCGGCAGCGGTGGTGCCGGTGGCAACGGCGGCGCTGGCTCGGCCGGCAACGGNNNNNNNNNNNNNNNNNNNNNNNNNNNCGGTGCCGGCGGCAACGGTGGCGGTGGCGATGCCGGCAACGCCGGCTCAGGCGGCAATGGCGGCAAGGGCGGCGACGGTGTCGGCCCTGGCTCCACCGGCGGCGCGGGCGGCAAGGGCGGCGCTGGCGCCAACGGCGGTTCCAGCAACGGCAACGCTCGCGGTGGCAACGCCGGTAACGGCGGCCACGGCGGCGCCGGCGGCAGCGGCGACACGGGCGGCGCCGGCGGCGCAGGTGGCCAGGGTGGGTTCGGTGGCACCGGGGGCAGNNNNNNNGGC
+
+# Questionable array : YES	 Score: 0.67
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.34, 5:-1.5, 6:0.25, 7:-0.55, 8:1, 9:0.13,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGGCAACGGCGGCAACGGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [13-18] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [16.7-10.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [559,1230] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 7 3740124-3739539 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence         	Spacer_Sequence                                                                                 	Insertion/Deletion
+==========	======	======	======	========================	================================================================================================	==================
+   3740123	    24	  95.8	    96	.......G................	CGATGGCGGCAAAGCCGGTGACGGCGGGGCCGGCGAAAACGGCCTAAACAGCGGGGCCATGCTGCCGGGCGGCGGCACCGTAGGAAACCCCGGTAC	
+   3740003	    24	 100.0	    93	........................	CAACGCCGGCGTCGGCGGCACCGGAGGCAAGGCCGGCACCGGCTCCTTGACGGGCTTGGACGGCACCGACGGCATCACCCCCAACGGCGGTAA   	
+   3739886	    24	  95.8	    36	.........T..............	CAAGGGCGGCACCGCCGGCAACGGGAGCGGCGCGNN                                                            	
+   3739826	    24	  95.8	    21	N.......................	CTCCGGCCTCAACGGCGGTGA                                                                           	
+   3739781	    24	  91.7	    42	..C......R..............	TGGGGCGCTGAACCAGGCCGGCTTCTTCGGCACGGGCGGCAA                                                      	
+   3739715	    24	  87.5	     3	A.....T...........T.....	TGC                                                                                             	Deletion [3739689]
+   3739688	    24	  87.5	     3	....A...........CT......	CTT                                                                                             	TA,T [3739680,3739683] Deletion [3739662]
+   3739658	    24	  75.0	    21	.......GC......TGG.....C	CGTTGACGTCGCCGCGACAAC                                                                           	
+   3739613	    24	  79.2	    27	G......GCT........T.....	TGCCGGCGGCTTCGCTAGCACCGGGTT                                                                     	
+   3739562	    24	  70.8	     0	G..T...CCA......GC......	|                                                                                               	
+==========	======	======	======	========================	================================================================================================	==================
+        10	    24	  87.9	    38	CGGCGGCAACGGCGGCAACGGCGG	                                                                                                	       
+
+# Left flank :   GGTGCGACCGGCGCCGATGGCACCGCACCCACCAGCGGCGGTGACGGCGGCAACGGCGGCAACGGCGCCAGCCCCACCGTCGCGGGCGGCAACGGCGGTGACGGCNNNNNNGGCGGCAGCGGCGGGAATGTCGGCAATGGCGGCAATGGCGGGGCCGGCGGCAACGGCGCGGCCGGCCAAGCCGGTACGCCNNNCCCTACCAGCGGTGATTCCGGCACCTCGGGCACCGACGGTGGGGCTGGCGGCAACGGCGGGGCGGGCGGCGCCGGCGGAACACTGGCCGGCCACGGCGGCAACGGTGGTAAGGGTGGTAACGGCGGCCAGGGTGGCATCGGCGGCGCCGGCGAGAGAGGCGCCGACGGCGCCGGCCCCAATGCTAACGGCGCAAACGGCGAGAACGGCGGTAGCGGTGGTAACGGTGGCGACGGCGGCGCCGGCGGCAATGGCGGCGCGGGCGGCAAGGCGCAGGCNNNNNNNNNNNNNNNNNNNNNCACGGGCAC
+# Right flank :  TCCCGGCGGCGCGGGCGACTTTGCTAGCGGTGTTGGCGGTGTCGGCGGCGCCGGCNNNNNNNNNNNNNNNNNNNNNNNCGGCGGCTTCGGCGGCCAGGGCGGCATCGGCGGGGNNNNNNNCACAGGCGGCAACGGCGGTAGCGGCGGCGACGGCGGTGGCGGCATTTCCTTAGGCGGCAACGGCGGCCTCGGCGGCAACGGCGGCGTCTCCGAGACTGGGTTTGGCGGCGCCGGCGGCAACGGCGGCTACGGCGGTCCGGGAGGCCCCGAAGGCAATGGCGGCCTCGGCGGCAACGGCGGCGCCGGCGGCAACGGCGGCGTCAGCACCACGGGCGGCGACGGCGGCGCCGGCGGCAAGGGCGGCAACGGCGGCGACGGCGGGAACGTCGGTTTGGGCGGTGACGCCGGCTCCGGCGGCGCGGGCGGCAATGGCGGTATCGGCACCGACGCGGGCGGTGCCGGAGGGGCCGGTGGCGCTGGCGGTAACGGCGGTAGCAGCA
+
+# Questionable array : YES	 Score: 1.17
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.40, 5:0, 6:0.25, 7:-1.84, 8:1, 9:0.36,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGGCAACGGCGGCAACGGCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,-0.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [18-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [20.0-13.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [171,522] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.96   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 8 3927091-3927619 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                                           	Insertion/Deletion
+==========	======	======	======	===============================	==========================================================================	==================
+   3927091	    31	  90.3	    62	....C.G................T.......	GGTGGCTGTTCGGCGCCGGCGGCACCNNNNNNNNNNNNNGCACCGGTGCTCCCGGCGCCATG            	
+   3927184	    31	 100.0	    65	...............................	CGCTGCTGATCNNCGGCGGCGGCCTCGGCGGCGCCGGCGGCATGGGTGGCACCGGCGGCGGCACC         	
+   3927280	    31	 100.0	    74	...............................	CGCTGCTGATCGGCGCTGGTGGTGTCGGAGGTGCTGGCGGGATCGGTGGCCAGGGTACCGGCGCCGGCGGTGCC	
+   3927385	    31	  87.1	    32	.C....G.........C...G..........	GCGCCGGGGGGTTGTTCATGAACGGCGGCGAC                                          	Deletion [3927448]
+   3927448	    30	  87.1	    26	......G..........-......G....T.	CGGCCGGCGACGCGGCTGCCAGCGCC                                                	T [3927462] Deletion [3927504]
+   3927505	    31	  90.3	    53	.................A......C.A....	GCGACGGCGGCACCGGAGGGGCCGGCGGCGCAGGCCCAGTGCTGTTCGGCCAC                     	
+   3927589	    31	  83.9	     0	......G.........TG......C.A....	|                                                                         	
+==========	======	======	======	===============================	==========================================================================	==================
+         7	    31	  91.2	    52	GGCGGCACCGGCGGCAACGGCGGCAACGGCG	                                                                          	       
+
+# Left flank :   CGGAGACCGTGGCGGCGGTGGCCACGGATCTCAAGCGCATCGGCGCCTCGCTGGCCCACGAAAACGCGTCGGCGGCCGCTTCGACGACGGCGGTGGTCTCCGCGGCCGCCGACGAGGTATCGACGGCGGTCGCCGCTCTGTTCTCCCAACACGCCCAGGGCTACCAAGCGGCGGCCGCTCAGGTAGCAGCGTTTCATAGCCGGTTTGTGCAAGCCCTGACGGCCGGTGCCGGGGCGTACGCATTTGCCGAGGCGGCCAACGCGTCGCCGCTACAGTCAGCCATGGGTGCGGTAAGCGCGTCTGCGCAGACGCTGTTGTCGCGCCCGTTGATCGGCAATGGCGCCAATGCGACGACGCCGGGCGGTAACGGCGGCGACGGCGGATGGCTATTCGGCAGCGGCGGCAACGGCGCGCCCGGCGCGGCGGGCCAGTCCGGCGGTAACGGCGGGTCAGCCGGACTGTGGGGTNNNNNNNNNNCGGGTGGCGCCGGCGGCAGCGGC
+# Right flank :  GGCACCGGTGGAATGGGCGGCGCCGGCGGAGACGGCACCACCGTCATCGCGGCCGGTACCGGGGGGGAGGGCGGCACCGGCGGCNNGGCCGGCGCCGGCGGAGCCGCAGGCGCTCGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGGCGGCACCGGCGGCACCGGCGGTACCGGCGGCAACGGCGCTGACGCCGCTGCTGTGGTGGGCTTCGGCGCGAACGGCGACCCTGGCTTCGCTGGCGGCAAAGGCGGTAACGGCGGAATAGGTGGGGCCGCGGTGACAGGCGGGGTCGCCGGCGACGGCGGCACCGGCGGCAAAGGTGGCACCGGCGGTGCCGGCGGCGCCGGCAACGACGCCGGCAGCACCGGCAATCCCGGCGGTAAGGGCGGCGACGGCGGGATCGGCGGTGCCGGCGGGGCCNNNNGCGCGGCCGGCACCGGCAACGGCGGCCATGCCGGCAACACAGGTGACGGCGGCGACGGCGG
+
+# Questionable array : NO	 Score: 2.38
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.56, 5:0, 6:0.34, 7:-1.08, 8:1, 9:0.56,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCGGCACCGGCGGCAACGGCGGCAACGGCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,0] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.40,-5.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-17] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [16.7-23.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [694,3386] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.15,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+
+Array 9 3940366-3940566 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP009200-Mycobacterium tuberculosis 1821ADB37 genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence       	Spacer_Sequence                                         	Insertion/Deletion
+==========	======	======	======	======================	========================================================	==================
+   3940366	    22	  90.9	    56	NN....................	AACGGCGGTATCGGCGGAGCGGGCGGAACCGGCGGCGGAGCGGGCGGCACCGGTGG	
+   3940444	    22	  90.9	    56	.....C..C.............	GGTGGTGGTACCGGCGGCGCCGGCGGAATCGGTGGTGGCAACGGCGGGCACGGCGG	
+   3940522	    22	 100.0	     1	......................	A                                                       	Deletion [3940545]
+   3940543	    21	  81.8	     0	-........AC...G.......	|                                                       	CA,C [3940552,3940561]
+==========	======	======	======	======================	========================================================	==================
+         4	    22	  90.9	    38	CAACGGCGGGTGGCTGCTCGGC	                                                        	       
+
+# Left flank :   GCGGCCTCGTACATGTTGGCCGAGGCCACCAACGTCGAGCAAAATCTACTGAACCTCATCAACGCGCCGACCCAGACGCTGCTCGGGCGCCCGCTGATCGGAGACGGGGCCAACGCGACGACGCCGGGCGGGGCCGGCGGAGACGGCGGGCTGCTGTTTGGCAGCGGCGGCAACGGCGCGCCCGGTGCACCCGGCCAGGCTGGCGGTGCCGGTGGGTCTGCCGGGCTACTGGGCAACGGCGGGAGCGGCGGAGCCGGCGGGACGGGCGCGCCCGGCGGAAACGGCGGCAATGCCGGTTGGCTATACGGCCGCGGCGGAGTCGGCGGCGCCGGGGGAATCGGCGGCGGAACAGGCGGGGCCGGCGGGCACGCGTGGCTGTTCGGCCACGGGGGAACCGGCGGTATCGGTGGCGGGCCCGGCGGCAACGGCGGGTGGCTGCTCGGCAACGGCGGACATGGCGGCGCTGGCGGAATCGGTGGCGGCAGCGGCGGCGCTNNNNN
+# Right flank :  GCGGTGACGGTGACGGCGGTACTGGCGGCGGCCACGGCGGCAACGGCGGGAATCCCGGGTGGCTCTTGGGCACAGCCGGGGGTGGCGGCAACGGTGGCGCCGGCAGCACCGGTACTGCAGGTGGCGGCTCTGGGGGCACCGGCGGCGACGGCGGGACCGGCGGGCGTGGCGGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGGGGGTCAAGCCGCCCTGCTGTTCGGGCGCGGCGGCACCGGCGGAGCCAGCGGCTACGGCGGCGATGGCGGTGGCGGCGGTGACGGCTTCGACGGCACGATGGCCGGCCTGGGTGGTACCGGTGGCAGCGGCGGCACCGGCGGTGACGGCGGCGCCCCCGGCAACGGTGGCGCCGGGGGTGCCGGCCAGTTGTTGAGCCATAGCGGCGTGGCC
+
+# Questionable array : YES	 Score: 0.55
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.55, 5:0, 6:-0.25, 7:-2.15, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAACGGCGGGTGGCTGCTCGGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.30,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [4-7] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [20.0-21.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [1110,4529] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas1:WP_003414279 [3123967-3124983]; Endonuclease Cas2:WP_003414276 [3123625-3123966]; Endoribonuclease Cas6:WP_003899496 [3131770-3132714]; 
+# Array family : NA
+# Sequence source strain : 1821ADB37
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;Mycobacterium; Mycobacterium tuberculosis complex.; Mycobacterium tuberculosis 1821ADB37
+//
+
+

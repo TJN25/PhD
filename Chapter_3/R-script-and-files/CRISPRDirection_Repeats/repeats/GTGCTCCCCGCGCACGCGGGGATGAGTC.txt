@@ -1,0 +1,89 @@
+Array 1 43738-43407 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FQVN01000015-Streptoalloteichus hindustanus strain DSM 44523, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                                                                           	Insertion/Deletion
+==========	======	======	======	============================	==========================================================================================	==================
+     43737	    28	 100.0	    33	............................	CAGCTCGCGCGGCGGCGTTCGTTCAACATCCAC                                                         	
+     43676	    28	 100.0	    33	............................	CCTCGACATGAACGCGGCGACACCGGGGTGGCG                                                         	
+     43615	    28	 100.0	    90	............................	GCGTCGCGAGGTCGAGATCTCTTCGCTGCGCGCGTGCTCCGCGTGCGGGGATGAGTCGCTGGCGCTGGCCGAGATCATGACGCGGTCCGA	
+     43497	    28	  82.1	    33	...G.T.T....T.............C.	GTAGACCGGGGATGGGCACGCTCTCGAACGTGT                                                         	
+     43436	    28	  82.1	     0	...A..........A.T....G....C.	|                                                                                         	T,C [43418,43423]
+==========	======	======	======	============================	==========================================================================================	==================
+         5	    28	  92.8	    48	GTGCTCCCCGCGCACGCGGGGATGAGTC	                                                                                          	       
+
+# Left flank :   GGAGCCGGCAACCCGCCGAGGCGGCCGCCGCTGCTACGACGAAGCCGGCCTGCGCCGCCTCGCCCTCGTCCTGACATGGCAGCAGACCGGCCTGATGCGCCTCGCCGACATCCGCACCCTGGTCAACAACCCGGTCACCACCGGCGAGTGGCAGGACGTCCTCCAGGCCCGAATGGCCCAACTGAACCAGCAGATCGACCGCCTCCAGGAAGCCCGCCGCTACCTGGACCACCTGATGAGCTGCCCCCGCGACGACCCCGCCAACAAGTGCCCGTACCTGGCCAAGGAACTCCAGACCCAAGTGGACGCGGCGCTGAGCGACACCACCGACGAGACCGAACTCGACACCGAGTCCGACCGCCCCTCCCGTCGCCCACCCCTCGAAGAGTTCGCGTTCCCCTTCCTGGCGAACCCCGGCCGCCCAGCCGCAGGAGGATGATCACCCGACCCAACCTGTCCAGAAAGCGCCCCAGCCGCTACGTTGGCCCAGCTCGCGAAGG
+# Right flank :  AGGCGATTTGCCGGACTTCTGCGGGCGGACCGTCGCGATTCCCCCACACACGGGGAAAGCCCATGCCGATCTCGCGGTGCGTGGTCGGCCTGATGCGCTCCCGCGTACGCGGGGCGAGGCCCAGCCGGGGTTGACCTCGGAGCGAACCACGAGGGCTCGCATGCGGGGTGAGTCGAGGTTGCCGGAACAGAGAGGTAGCAAGAGGTGAAGGTCTCCACGTAGCGGTGGTGAGTCCCAGGGCGGCAGGATGGGACAAGATGCACCCTCGGTGTTCCGCGCGGGGGGATGAGTCGGATTTCTCGTTGGTACCGGCCAGCGGCATCGTGGTCCCCCGCGCAGCGGTGAGTTGCAGAGGGCTGCGACAGAAGCCGAAGGTTCTCCGTTTTTCCCGCGCGACGCGGGGGGTCAGCGCGCCGCCCCCGGGATGGCCCAAGGTATGAGCGGGTTGGCGGTCGTCTCACCTCCGCATGCGCAGGAACCACGCAGGCCCCAGAGGTTCC
+
+# Questionable array : NO	 Score: 5.46
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.64, 5:0, 6:1, 7:-0.98, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGCTCCCCGCGCACGCGGGGATGAGTC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-12.10,-12.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [12-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-31.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [847,62] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 44523
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Streptoalloteichus.; Streptoalloteichus hindustanus
+//
+
+
+Array 2 104985-105805 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_FQVN01000015-Streptoalloteichus hindustanus strain DSM 44523, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    104985	    28	 100.0	    33	............................	GGAACGTCCTGATGAGTCCCATGCAGGCGGCGT	
+    105046	    28	 100.0	    33	............................	CCCGCGCCAGCTCATGGGTCTCGACGGTGAGCA	
+    105107	    28	 100.0	    33	............................	CTCGCAGGTCCCGCAGCCACGCCGCTAGCCCGT	
+    105168	    28	 100.0	    33	............................	GCGCGACGTCCACACCGGACACGGCCGAGGCAC	
+    105229	    28	 100.0	    33	............................	CGCGGTCGGGAGCACGCTGAGCTGGCCGCCGGC	
+    105290	    28	 100.0	    33	............................	CGCGGCGGGCGCGAGCCTGCGGGAGCTGTCCCG	
+    105351	    28	  92.9	    33	...........A.G..............	GTTCAACGACGCCCTGTCGATCCTGCGGCAGTC	
+    105412	    28	  92.9	    33	...........A.G..............	GCCCTCATACTCGCGGACGGCGACGACGCGGAC	
+    105473	    28	  92.9	    33	...........A.G..............	CACCGTGGCACCTCGTGCTCGGCTGGCGGCATC	
+    105534	    28	  92.9	    33	...........A.G..............	GCCTCAACGTGGCGTAGGCGCGGTCCAGATCCA	
+    105595	    28	  92.9	    33	...........A.G..............	GTCCAGCCGCAGTGGAGGGTCCAACGGTGGCGG	
+    105656	    28	  96.4	    33	..........................T.	CACAGCACACCCCGAATTGGGGCAGAGGGGGCG	
+    105717	    28	 100.0	    33	............................	GCAACGAGGACACGCAGGAAATCCCGCCGGTGA	
+    105778	    28	  96.4	     0	..............T.............	|                                	
+==========	======	======	======	============================	=================================	==================
+        14	    28	  97.0	    33	GTCGGCCCCGCGCACGCGGGGATGAGCC	                                 	       
+
+# Left flank :   GCGCCGCCGAAACACCCCGCCCCGGCCACTTCCTGGAGAACCTGGCCCGCGACCAGCTCCGCGACACCACGCCCGAACCCTCCACGCGAGCCCTCGTGGCCAGCATCGCCTCCGGCGACTCAGTGACCACCACGGCCAACGCCCTGGGCCTGAGCACCCGCCAACTCCACCGCCGTTGCCTCCACGCCTTCGGCTACGGCCCCAAAACCCTCGCCCGCATCCTCCGCATGACCCGAGCACTCACCCTGGCCCGCTCCGGCACCCCGTTCGCCCAGGTAGCAGCCGAATCCGGCTACGCCGACCAAGCCCACCTGTCCCGCGAAGTCCGAGCCCTCGCCGGCATCCCCCTGACCCAACTCATCACCCCACCCCTCCGCCCCGCTGAGAGGAGCCGTGATCGTCACAACCGGTAGCGTTCCCACCAATGCACCAACACCACCACCCAAACCCAAGTGGTCAAAAACGGCCCATGCCGCTCCGATCACCGCAGGTCAAGAAGT
+# Right flank :  CCCGGCGATGCCCGCAGCGCTCCGGGACCAGTCAGGCCCGGCACGGCTTCTGCTGGTGCGGCCCCTGCTATCGGCATGCCGTGATCAGCTCCCCTCGACAGGGGTCGGGCGGAGCCCGCGCAGCTGGCAGGCTGTGCGGATTGCCCGACAGCGTGGAGGGGGAAGCAATGGGGATTTGGAAGGACGCCAAGGAGAAGTACGAGGCGAAGGTCGCGCAGCAGCGGCACGCCGCACTCCAGCAGCGGATGGAGGCTGTGGTTACTCAGGCCCGCGCCGCCCGGGCGCAGGGCCTGACCATCTTCCAGGTCACGCTGGAGATCGCGGAGAACGAGCGCACCATGCTCCCGTCCTCGCAAGGGTGGGATGGCTACAACACCCGAAGAGTCGAACACGGCGGCTCCTCGGAGATCCTGTCCGCAGTGCAGGCCGAGGGTTGGGAACTCGCCCACTTCAGCGCATCCGCGCTCCAGACCGGATCGGTCAGCCGGGACAAGTTCCTT
+
+# Questionable array : NO	 Score: 7.15
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:1, 7:0.45, 8:1, 9:0.85,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTCGGCCCCGCGCACGCGGGGATGAGCC
+# Alternate repeat :   GTCGGCCCCGCACGCGCGGGGATGAGCC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [3,2] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [43.3-23.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [89,167] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.42,0   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : DSM 44523
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;Streptoalloteichus.; Streptoalloteichus hindustanus
+//
+
+

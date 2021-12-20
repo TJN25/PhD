@@ -1,0 +1,77 @@
+Array 1 185794-185607 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMBY01000004-Bacillus sp. FJAT-25496 Scaffold4, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence          	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=========================	=================================	==================
+    185793	    25	 100.0	    27	.........................	GGCTTTTTCTGGCTACTCTCTCTCAAA      	
+    185741	    25	  92.0	    33	.....A.....A.............	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNT	
+    185683	    25	 100.0	    27	.........................	GGCTTTTTCTGGCTACTCTCTCTCAAA      	
+    185631	    25	  88.0	     0	.....A.....A............G	|                                	
+==========	======	======	======	=========================	=================================	==================
+         4	    25	  95.0	    29	TTTTCGCCTTTGATGGTCTATTTCA	                                 	       
+
+# Left flank :   ACGGCAAAATTCTGATTCTTTTTTGAATCGCATTTTAATTGTGTGCTCCACAGGCTTTTTGGTATTTAACTGGCTCGCATGTGCTGTTAGAGACTATTATTCTAACTTTTTTATTTTTAGGATCTATTTCGGGCTTTATTTGACCACACTCTCTCTTTTTTTCGCTTTTGATGGTCTATTCCGAGATTTTTCTGACCACTCTCTCTCTTTTTTTCACCTTTGATGGTCTATTTCAGGCTTTTTTTGACCACACTCTCTCTTTTTTTCACCTTTGATGGTCTATTTCGGGCTTTTTCTGACCACTCTCTCTCTTTTTTTCGCTTTTAATGGTCTATTCCAGGCTTTTTCTGACCACTCTCTCTCTTTTTTTCGCCTTTGATGGTCTATTCCGAGATTATTCTGGCCACTCTCTCTCTTTTTTTCACCTTTAATGGTCTATTTCGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNT
+# Right flank :  GGTTTTATTTGACCGTTATATCTCCTATCTTTACCTTTAATGGTCCCTAAACAAAGTTAATGTTTATTACTATTAAGCGGGGATAGAGCAATACCTACTCGCTATAACTCTTGTTTACAAAGGCAAAAGGACAAACATTCAGCTAATCCTACTCTTTTATTGTTTCAAAATTTGCCTATACTCTAACCGTTTCAGGCAGGTCCTGAAACCCCTCTTGATAGATTTTGCTAATAATGGATTCGATTTCAGGCTCTTCAACCGTTAAATCTTTAATGTTATGAGTCTTTGTAATTTGTGAAATCAAATCCGAGGCCGATACTTCATCACGGTTAAATTTGATCCAGAAGCGGCTGCCTTCTTCTTTAAAAATCTCTCCTCCAGTAAGATGAGGTCTTTGTTTAGATTCTTCTAAATCAACAATTAAGGTGCGTGTTTTCCCAAATCTCTCCTTCACTAACGCTATTTCACCATCATACATTTTCGTACCATGATCAATGAGC
+
+# Questionable array : NO	 Score: 2.60
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.75, 5:0, 6:0.34, 7:0.11, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTTCGCCTTTGATGGTCTATTTCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.00%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.50,-2.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [68.3-3.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [177,537] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.96   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FJAT-25496
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus sp. FJAT-25496
+//
+
+
+Array 2 250721-250881 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LMBY01000004-Bacillus sp. FJAT-25496 Scaffold4, whole genome shotgun sequence.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                  	Insertion/Deletion
+==========	======	======	======	==============================	=================================================	==================
+    250721	    30	 100.0	    22	..............................	GTGGTCCGAAAGAAAGCTAATA                           	
+    250773	    30	  96.7	    49	....................T.........	GTGGTCCGAAAGAAAGNNNNNNNNNNNNNNNNNNNNNNNNNNNCTAATA	
+    250852	    30	  66.7	     0	....................NNNNNNNNNN	|                                                	
+==========	======	======	======	==============================	=================================================	==================
+         3	    30	  87.8	    36	AGACCACTGAACCAGAGAAACCGAGAAAGA	                                                 	       
+
+# Left flank :   AGGTATCGCACAGGGAGCTCTAGATGCATCCGTTGAATATGCAAAGGAGCGCGTTCAGTTCGGCAAACCAATCGCTGCTCAGCAAGGAATTGGCTTTAAGCTTGCAGACATGGCAACAAGCATTGAGGCTTCTAGATTATTAACCTATCAAGCTGCATGGTTAGAATCCGAAGGGCTTCCATATGGAAAAGAATCGGCTATGTCCAAATTACTAGCTGGCGATACAGCCATGAAGGTAACGACAGATGCTGTACAAATTTTTGGCGGCTACGGCTATACGAAAGATTATCCTGTTGAACGCTTCATGCGTGATGCAAAAATCACACAGATTTATGAAGGAACACAAGAAATACAGCGACTCGTTATTTCTCGTATGCTAACAAAATAGGAGAGGATCTGTTCCTCTTTTAATTAAAGGACTGCTTTGGCAAACTTCTAAATGTTTATTAGACCATTAAACAAAGGAAAACAGCCAAAAGCGGTCCGAAAGCATTCGAAAG
+# Right flank :  NNNNNNNNNNCCGTAAAAGAGTGGTCAGAAAAAACCAGATAAGACCACTAAACCAAAGAAGCCAATAAATGTGGTCTCTATCTTTTACAACAATAGAGGGTGCGCTCAAAATAACAATCATAAACTGAATAAAGCATAAGAATGTATTAAGTCAAATTAGATGACTATTTAACTGAAGCGCCTCCCCCCTCGCAGAAGCAAGTTAATTGTTTAGAAAAGGCGCTAGCTCTTTTCCAAAATGGTGGTGTGAAATGAAAAAACGTGAAGTTCAGGCGTCTGTTAAGGACGAACGCCTTGTGAAAAAAAGACGTGATCAGATGATTAAGGGTGCGGTAACCCTTTTTATCCAAAAAGGATTTCATCGTACAACAACGAGAGAAATTGCAAAGGCAGCTGGTTTTAGTATCGGAACATTATACGAATACATCCGGACGAAGGAGGATGTATTATACCTTGTTTGTGATAGCATTTATGACCAGGTCAGCGAACGGCTTCAAAAG
+
+# Questionable array : NO	 Score: 1.77
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.39, 5:0, 6:0.99, 7:-0.70, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AGACCACTGAACCAGAGAAACCGAGAAAGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [0.00,-1.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [61.7-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [114,251] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.68,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : FJAT-25496
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.; Bacillus sp. FJAT-25496
+//
+
+

@@ -1,0 +1,38 @@
+Array 1 99429-99587 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNZZ01000001-Streptomyces californicus strain NRRL B-2098 contig1.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                              	Insertion/Deletion
+==========	======	======	======	==========================	=============================================	==================
+     99429	    26	 100.0	    45	..........................	TCGCCAGGTGTCGGCGCCGCGGGGGTGTCGCTGCCGCGCGGGCGC	
+     99500	    26	 100.0	    36	..........................	GCCACTGGTCGCCGGGGCTCGGCGGCGCGCTGCTAT         	
+     99562	    26	  88.5	     0	...T....G...............C.	|                                            	
+==========	======	======	======	==========================	=============================================	==================
+         3	    26	  96.2	    41	CGGCGTCGTGCGGGCGGCGGGCTCGG	                                             	       
+
+# Left flank :   CGTCAACTGCGCGGGTATCAACCTGCGGCCGCCCATGAGCGATCTCGGCGAGGACGTGTGGGACACCACCATGGCCGTGAACCTCAGGGCGCCCTTCCTGCTCGGGCAGCGGTTCGGGCCCGGGATGGCCGAGCGGGGGTACGGGCGGATCATCCACGTCAGTTCGCAGCAGGCCCACCGCGCCTTCGTGAGCAGCGGGGCGTACGGGGTGTCCAAGGGCGGGCTGGAGTCGCTGGCCCGGTCGCAGGCGGAGGCGTGGTCGCCGTACGGCGTCACCGTGAACACCCTGGTGCCCGGGTTCGTGCTGACCCCGCTGAACGCGCGCCTCCAGTCGGACCCGGAGAAGGTGGCGGCGCTCGCCGCCCGGACCATGGTCGGCCGCAACGGCCTCGCCGAGGATTTCGCGGGGGCCGCGGTGTTCCTGGCGGGCCGCTCCTCGGCGTACGTCACCGGGCAGTCGGTCTTCGTGGACGGCGGGTTCTCGGTGCACTGACGGCCGG
+# Right flank :  GCCGCCCGGCGTCGGTGCCGCGAGAGCCCGCCGTCCGCCTCGGCCCCTACTGGTGCAGGGCCTGGGCCGCCTCGGCCACCGCTCGCTCGACCGCGGCGGACACGGTCTCCTTCTCCAGGCCGAGGCCGGTCAGCACGCCGGAGCCGCCCTCGAACTCCAGCAGGGCGAGCAGGATGTGCTCGGTGCCCACGTAGTTGTGGCCCAGGCGGAGCGCCTCGCGGAAGGTCAGCTCCAGGACCTTGCGGGAGTCCGCGTCGTACGGGACGAGTTCGGGCGTCTCGTCCACGGCGGCGGGCAGCACGGCGGTCGCGGCCGTGCGCAGCGCGTCCGGTGTCACGCCCTGGCCGGTGAGGACGCGGGCGGCGACGGCCTCGGGCTCGGCGAGCAGACCGAGGACCAGGTGGGCGGGGACGATCTCGGCGTGCCGGGCCGTCCGGGCCTCGTTGTGGGAGGCGACCACCACGTTGCGGGCGCGCGGGGTGAAACGGTTGAAGCCCTCG
+
+# Questionable array : NO	 Score: 3.22
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.81, 5:0, 6:0.26, 7:1.06, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CGGCGTCGTGCGGGCGGCGGGCTCGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [0,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.00,-0.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [30.0-18.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [9,46] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : NRRL B-2098
+# Taxonomy hierarchy : Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;Streptomyces.; Streptomyces californicus
+//
+
+

@@ -1,0 +1,39 @@
+Array 1 58111-57862 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KV791809-Salmonella sp. HMSC13B08 Scaffold607, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================================	==================
+     58110	    30	 100.0	    54	..............................	CGACGGATGGCGGCGTAAGTGCCTTATCCGGCCTACGGGAGAGGGATTTTGTCA	
+     58026	    30	 100.0	    22	..............................	NNNNNNNNNNNNNNNNNNNNAG                                	Deletion [57975]
+     57974	    30	  96.7	    53	............................A.	CGCCGGATGGCGGCACAAACGCCTTATCCGGCCTACGGGAGTGAATCTTGTAG 	
+     57891	    30	 100.0	     0	..............................	|                                                     	
+==========	======	======	======	==============================	======================================================	==================
+         4	    30	  99.2	    43	GCCCGGTAAGCAAAGCGCCACCGGGCATGG	                                                      	       
+
+# Left flank :   TTGTA
+# Right flank :  CAGATTAACGAATGACCATCACCGGAATTTTCGCGTATCGCAAAATATTCGCCGCAGCCGAACCGAGCAAATGCGTTGCAATACCCGGCTTGCGCGAACCGATGATAATCATCTCGGCGTTATGCGCTTCTACCGCGTTATTTACTTCATCACGAATATTGCCATGACGGACTTCAAAACGAATATTCTCCAACGGCGTTTTGAATTTTCTCGCAAGGTTAAGCATTTTCTCTTGCGCATCATTCGTCATGTATTCCTCGTATTTTCTGATATCCGAGGCAAAACCACGCATTGGGGAGGTACCCAGTTTAGGGAACACATGCAGCAGATGGATCACGCCGTTTTCTTTGTCCACCATATGATCAGCGTAGGCAATGGCTTTGTCAGAAAGATCCATCGCCAGAATATCAACGGGCATTAAAATGACTTTATTCATGATGATTTCCTTAAGTTAGCTGACAGGCCAATCACATATCCCTGAAAAGACCTGGCAAGATTCA
+
+# Questionable array : NO	 Score: 2.50
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.96, 5:0, 6:0.99, 7:-0.85, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCCCGGTAAGCAAAGCGCCACCGGGCATGG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,7] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.70,-0.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [51.7-6.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [6,7] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.64,0.78   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : HMSC13B08
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella sp. HMSC13B08
+//
+
+

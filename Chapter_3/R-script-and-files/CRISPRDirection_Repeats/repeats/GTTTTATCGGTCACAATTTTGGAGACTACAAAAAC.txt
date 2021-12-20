@@ -1,0 +1,182 @@
+Array 1 358-40 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CAUK01000004-Streptococcus oralis subsp. dentisani 7747, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                           	Insertion/Deletion
+==========	======	======	======	==============================	==========================================	==================
+       357	    30	  93.3	    24	.....G.T......................	ACTGATTGGCTTGCACTGATTGAC                  	
+       303	    30	  96.7	    24	...................T..........	ACTGATTGGCTTGCACTGATTGAT                  	
+       249	    30	  90.0	    42	..G..T..................A.....	GCTAATTGGCTTGTGCTTGCTAATTGGCTCGCACTGATTGAG	
+       177	    30	 100.0	    24	..............................	GCTGATTGGCTCGCACTAATTGAA                  	
+       123	    30	  86.7	    24	..A.....A..........T...G......	GCTGATTCAGATGCACTGATTGAC                  	
+        69	    30	 100.0	     0	..............................	|                                         	
+==========	======	======	======	==============================	==========================================	==================
+         6	    30	  94.5	    28	GCTGACACGCTGTTGCTCAAGCTTGTGCTT	                                          	       
+
+# Left flank :   TTGCTGATTCAGATGCACTAATTGATGCAGATACGCTGTTGCTCAAGCTTGCTGAAGTACTTGCTGAAGTTGAGGCATCGCCTGAACCATTGCTTGTGCTTGTTGAACCTGAACCGCTACCTGAGTTGTTGCTTGCACTGATTGATGCAGACACGCTGTCACTCAAGCTTGCGCTTGTTGAGACTGACTCACTTGCGCTGATTGAGGCTGAAGTACTATCGCTCAATGATACACTTACTGACTTGCTGAGTGAAACTGACTCACTTGCACTTACTGATTCAAGGTAGCTAGGAAGGTTAAACTCTGGTTTAGACTCGCTTGTTGGTTCACCTTTACTATAGCTGAATGAGTTAGATTGTTGTGACGCACTTGTACTCAAGCTGCTTGAAGTGCTATCGCTAAGTGATGTAGATGTACTTACACTGTTACTCAATGATGCACTTGCTGATGCTGAAGCATTGCCTCCAGCATTACTTGCTGTTTCAGATGCACTGATTGAA
+# Right flank :  TGCTGATACTGAAGCACTAATTGAAGCAGATACGCTGTTA
+
+# Questionable array : YES	 Score: 0.03
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.72, 5:0, 6:0.99, 7:-0.37, 8:-3, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTGACACGCTGTTGCTCAAGCTTGTGCTT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [10,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.50,-2.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [4-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [38.3-55.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [41,1487] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.78,0.82   Confidence: LOW] 
+
+# Identified Cas genes:  Cas7:WP_038806211 [679772-680815]; Endonuclease Cas2:WP_001268300 [680812-681135]; 
+# Array family : NA
+# Sequence source strain : 7747
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus oralis subsp. dentisani 7747
+//
+
+
+Array 2 89074-89238 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CAUK01000004-Streptococcus oralis subsp. dentisani 7747, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	===================================	==============================	==================
+     89074	    35	 100.0	    30	...................................	GAGACCGTAGTCCAAGGCAAGGTAGTTAAA	
+     89139	    35	 100.0	    30	...................................	CCTTAGGAGAAATCCAATCCTTGGTCAAGA	
+     89204	    35	 100.0	     0	...................................	|                             	
+==========	======	======	======	===================================	==============================	==================
+         3	    35	 100.0	    30	GTTTTATCGGTCACAATTTTGGAGACTACAAAAAC	                              	       
+
+# Left flank :   TTAACCGTTACCGTGAGTTAATCAACTCTCTAGGACTTCGTCGTTAATCTTGCGTCTAAAACGTTTCTATACTTCGTTGCCTTCGCCTCGATGTACCATCAGTACAATCTTCGGCTTGTCGCCTAGTCTATAAACGTTTTATCCAGCAAGAATAAAGCTCTCTGATTTCAGAGGGCTTTTTATGTTGTCACCTTATCTCGATATACTCAAGTATAATCTTTGGTTACGGTTCCTAGCACTGTAAGGTAAAATAAACCAGATCATCTCCCTTCGGGGAGATTTTTTTGTTTTACTAACATTTTTGTACAATCTTCGCCTCGTCGCCTAGTCTATAAACGTTTTATCCAGCAAGAATCATGATGCTAAGGGCGTTAAAAATCCGTATGAAAATAGGGAAAGGAAACAGTGTTCGATGAACATAAGGAGTTTTATCTTTTTCACTAGGATTTTAGCCCGAGCTCAAATCAGCTCTCTGATATTCAGAGGGCTTTTTTATTGAG
+# Right flank :  CCTCAAATAGTATCAGCTAGTTACACCATAAAGGTGCGCATCTACTCGGCTTGAAAAGTCGAGTAGATGTCTGCAAGCCCCCTCGGAGAGCCCACACTTTACGAAGTAAAGTATAGTATGTTATACTTTACATGGAAGTAGTCACCGAATTTCAGTTAGAAATTACTTTATAACTACGTTTTGAGGAGGAGTAAAATGCTTTCCTACGTTCGACATTACCCACTAGCGATAGCTAAATTAATGTGTCTGTGCTCTCCTAAAATCTGCTGATTTATTACTGACTAATACAGGAGGCTTTTATGGGACAGACAATCATATCTGCTATTGGTGTTTATATTTCCACCAGTATCGATTATTTAATTATTTTAATTATTTTATTTGCACAGCTATCACAGAATAAACAGAAATGGCATATTTATGCGGGGCAATATCTAGGAACAGGCTTACTTGTAGGGGCGAGTTTAGTTGCTGCTTATGTCGTTAATTTCGTGCCTGAAGAA
+
+# Questionable array : NO	 Score: 4.33
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:0.39, 7:0.54, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATCGGTCACAATTTTGGAGACTACAAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-3.20,-1.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [455,299] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas7:WP_038806211 [679772-680815]; Endonuclease Cas2:WP_001268300 [680812-681135]; 
+# Array family : NA
+# Sequence source strain : 7747
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus oralis subsp. dentisani 7747
+//
+
+
+Array 3 677884-679701 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CAUK01000004-Streptococcus oralis subsp. dentisani 7747, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence                	Insertion/Deletion
+==========	======	======	======	====================================	===============================	==================
+    677884	    36	 100.0	    30	....................................	CTTCTGAGAATTTCTGTTTTACTGCTGGTG 	
+    677950	    36	 100.0	    29	....................................	AGAAAGCATATCTAAACGCTCTACAATAT  	
+    678015	    36	 100.0	    29	....................................	GCACGTCATCGCTTGCGTGGTCTTCATAG  	
+    678080	    36	 100.0	    30	....................................	GTTTGTACAATATTTCACTCAATGAAAGCG 	
+    678146	    36	 100.0	    30	....................................	CCTCTACCGATGCTAATATTGAATATTTTG 	
+    678212	    36	 100.0	    30	....................................	AGGAGCCTTTGATTGCTGGAAATTTTAGTG 	
+    678278	    36	 100.0	    30	....................................	GTTCCGGTCATTCATCGTCCTGATGCGGTC 	
+    678344	    36	 100.0	    30	....................................	GTCACTAGCAGGCGCCATCTCCCATCCGAA 	
+    678410	    36	 100.0	    30	....................................	CACTGATACCACCATGCTCCAAGAGAGCCG 	
+    678476	    36	 100.0	    30	....................................	CTCTCGCTTATAAGCAGCAATTTGGGAAAG 	
+    678542	    36	 100.0	    30	....................................	TTGTTTGTAATCCGTGTTGACTTCTCTTCA 	
+    678608	    36	 100.0	    30	....................................	TAGAAGCCCTCTCTGAAACAGGAGCAATCA 	
+    678674	    36	 100.0	    30	....................................	CCTATTATTAGAGAAGAAGCTGATAAAATG 	
+    678740	    36	 100.0	    30	....................................	CTAACGTTGATACATCCACAACGTGGATGA 	
+    678806	    36	 100.0	    30	....................................	TTGGAAAATAAAGGGTCTCGACGCTCCACT 	
+    678872	    36	 100.0	    30	....................................	CATGTAAAAATACATGGTTTGCAGGAAATG 	
+    678938	    36	 100.0	    30	....................................	AGGAGCCTTTGATTGCTGGAAATTTTAGTG 	
+    679004	    36	 100.0	    30	....................................	GTTCCGGTCATTCATCGTCCTGATGCGGTC 	
+    679070	    36	 100.0	    30	....................................	AAGAAACCCAAGATGCTATTTCTAATCTTT 	
+    679136	    36	 100.0	    30	....................................	CGATACCACGTGAAGACAATCCTCTAAGTG 	
+    679202	    36	 100.0	    30	....................................	AGCGTTACGGGGTGATAGAGTATGCGGATA 	
+    679268	    36	 100.0	    30	....................................	ATAACACTAACATCTTGTCTATGAAAAACA 	
+    679334	    36	 100.0	    30	....................................	TTCTTCAGGAGCGATTGAGCATAGCTTGGA 	
+    679400	    36	 100.0	    31	....................................	ATATTATAGATTATGAAGATGAATCAGCATA	
+    679467	    36	 100.0	    31	....................................	CAGATCAGGTATTTGAAACCAGAAATACCTA	
+    679534	    36	 100.0	    30	....................................	CCCAATCTATGTCCCTGCGCATCATATAAT 	
+    679600	    36	 100.0	    30	....................................	AGTTTTAGGGTCCAAACCGCAGCGGTTTTT 	
+    679666	    36	 100.0	     0	....................................	|                              	
+==========	======	======	======	====================================	===============================	==================
+        28	    36	 100.0	    30	GTTGTACAGTTACTTAAATCTTGAGAGTACAAAAAC	                               	       
+
+# Left flank :   GTCAGCATGCCTATCTTCTACCGCACTCCTGAAGAAATGGCTGACAAGGAAATCGTCAAGTGTATGTTTATCGATGAACCAGAGATTCTTGATGCTGCGATTGAAAAGATTCCAGCAGAATTTTACGAACGCTACTCCATCAACAAATCTGCTCCTTTCTACCTCGAACTCCTTAAAAAGAATGTAGACAAGGGTTCAGCTATTACCCATCTAGCTGAAAAACTAGGATTGAGCAAAGATGAAACCATGGCGATCGGGGACGAAGAAAATGACCGTGCCATGCTGGAAGTCGTTGGCAACCCCGTTGTTATGGAAAATGGAAATCCAAAACTCAAAAAAATCGCCAAATACATCACCAAAACAAATGATGAATCTGGCGTTGCCCATGCTATCCGTACGTGGGTATTGTAGCAAAAGGCAAGAATAGACGAAAACCGCTCTGGAGAGCGGTTTTTGTATGAATATATCACAATGAGAGTGAATCAATAAATTGAATTGCA
+# Right flank :  CCTCAAATTCGTCAATTTTGATTTTTGTGCCCTCAAAAACATTATAAAGCCTTAAATCTCACTCGTCAATACTATTCTTCCAAATATTTCAATAACATTGGATTGACTGATTCAATACGGAATTTTGTTTTTATTTTGTACTGATACAAATTATTCAAAATTTTTAATGCTACTTGATCTTCTACAGATAAACTCATGTGGAGAATGTCCGAGCTAAATAAATAGGATCCAATTTTTCTTAAAGAGGTTAAAAATTCTTGTTCATCAGGTATTTGATTTATTGGATACTGATTGGTAAAGCGATCATACATAAATTCTAGAGAATAAAAATGATCAACATAATCGGAAACAATATTGATTTCCTCTAAAACTTCTTTCGATACATGAAGATAACCTTCATTGGAAGGAAATGAAACAATATATAATGAATCGCTATGATTAATCAAAAACTCCATTTTCTCGCAACATTCAACAAAATCATTATAGGATAGAAAATCATC
+
+# Questionable array : NO	 Score: 8.25
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.25, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTACAGTTACTTAAATCTTGAGAGTACAAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:69.44%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.20,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [91,71] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.37,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas7:WP_038806211 [679772-680815]; Endonuclease Cas2:WP_001268300 [680812-681135]; 
+# Array family : NA
+# Sequence source strain : 7747
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus oralis subsp. dentisani 7747
+//
+
+
+Array 1 131857-131540 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JATS01000020-Streptococcus sp. CM6 ctg7180000005576, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                    	Spacer_Sequence                                      	Insertion/Deletion
+==========	======	======	======	===================================	=====================================================	==================
+    131856	    35	 100.0	    29	...................................	AAAACTATATTTAACTATGAACCCGTGGG                        	
+    131792	    35	 100.0	    53	...................................	TCATGTTCATCAATATCTCAATGCTCTTGCTCTTCCTCTTTGCGACGGTCACT	
+    131704	    35	 100.0	    30	...................................	ATAATCTCTTCCAGCTTTCGCTTCGAAAGT                       	
+    131639	    35	 100.0	    30	...................................	TAGGAAAATATAGACAAATTATAGATCTTT                       	
+    131574	    35	 100.0	     0	...................................	|                                                    	
+==========	======	======	======	===================================	=====================================================	==================
+         5	    35	 100.0	    36	GTTTTATCGGTCACAATTTTGGAGACTACAAAAAC	                                                     	       
+
+# Left flank :   GCAATCTCAAAAGAGAAAAAAAATGAAATCATCGCACAATATGCACGTCACGAAGGTGATACAGGTTCAGTAGAGGTTCAAGTTGCTGTCCTTACTTGGGAAATCAACCACCTTAACGAACACATCAAACAACACAAAAAAGACCACGCTACTTACCGTGGATTGATGAAGAAAATCGGTCGCCGTCGTAACTTACTTGCATACTTGCGTAAAAACGACGTTAACCGTTACCGTGAGTTAATCAACTCTCTAGGACTTCGTCGCTAATCTGCTTTATTTTCCACTTACATTGCGTTGTCACCTTACCTCGATATACTCAAGTATAATCTTCGGTTACGGTTCCTAGCACTGTAAGGTAAAATAAACCAGAATGATCTCCCTTCGGGGAGATTTTTTGTTTCACTAAAATTTTCGTACAATCTTTGGCTTGTCGCCTAGTCTATAAACGTTTTATCCAGCAAGAATAAAGCTCTCTGATTTCAGAGGGCTTTTTTATTGAG
+# Right flank :  CTCAAATAGTATCAGCTAATTACACCATAAAGGTGCGCATCTACTCGGCTTGAAAAGTCGAGTAGCTGTCTGCAAGCCCCCTCGGAGAGCCCACACTTTACGAAGTAAAGTATAGTATGTTATACTTTACATAGAAGTAGTCACCGAATTTCAGTTAGAAATTACTTTGTAACTACGTTTTGAGGAGGAGTAAAATGCTTTCCTACGTTCGACATTACCCACTAGCGATAGCTAAATTAATGTGTCTGTGCTCTCCTAAAATCTGCTGATTTATTACTGACTAATACAGGAGGTTTTTATGGGACAGACAATCATATCTGCTATTGGTGTTTATATTTCCACCAGTATCGATTATTTAATTATTTTAATTATTTTATTTGCACAGCTATCACAGAATAAACAGAAATGGCATATTTATGCGGGGCAATATCTAGGAACAGGCTTACTTGTAGGGGCGAGTTTAGTTGCTGCTTATGTCGTTAATTTCGTGCCTGAAGAAT
+
+# Questionable array : NO	 Score: 3.22
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.39, 7:0.03, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTATCGGTCACAATTTTGGAGACTACAAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:65.71%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.10,-3.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [300,234] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : CM6
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;Streptococcus.; Streptococcus sp. CM6
+//
+
+

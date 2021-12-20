@@ -1,0 +1,39 @@
+Array 1 21-334 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AEPN01000046-Paracoccus sp. TRP Paracoccus_TRP_Contig_46, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                                                                                                                       	Insertion/Deletion
+==========	======	======	======	=============================	======================================================================================================================================	==================
+        21	    29	 100.0	    32	.............................	GGCGGGGTTGAGCTCCATCCCGAAGCTACAGA                                                                                                      	
+        82	    29	 100.0	    32	.............................	CCCAAATCCCGGCCCCCGGCACCGACGAGGCC                                                                                                      	
+       143	    29	 100.0	   134	.............................	CGATTGCATAGACTCCATCCCGAAGCTACAGAGGCTCCCCCCCCCCCGCGGGGGGGGGGGAGCCATATTGGCGGACCCGACCAGGATGCTGCCCCCCCCCCCCCCCGGGGGGGGGGCCCCCCCCCCCCCCCGAT	
+       306	    29	 100.0	     0	.............................	|                                                                                                                                     	
+==========	======	======	======	=============================	======================================================================================================================================	==================
+         4	    29	 100.0	    66	GGCTCCCCCGCACCTGCGGGGATAGACCC	                                                                                                                                      	       
+
+# Left flank :   CTGGTCGGGTCCGCCAATATG
+# Right flank :  TGGATTTCCAGCGGCACGTCATCGGTGCGGTAGGCTCCCCCGC
+
+# Questionable array : NO	 Score: 3.60
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:-3, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGCTCCCCCGCACCTGCGGGGATAGACCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [4,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-12.70,-12.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [13.3-23.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.74,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : TRP
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;Rhodobacteraceae; Paracoccus.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAEPN01000046.FEATURES             Location/Qualifierssource          1..377/organism="Paracoccus sp. TRP"/mol_type="genomic DNA"/strain="TRP"/isolation_source="activated sludge"; Paracoccus sp. TRP
+//
+
+

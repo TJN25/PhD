@@ -1,0 +1,148 @@
+Array 1 784027-785014 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI914512-Pseudomonas aeruginosa BWHPSA042 adkfZ-supercont1.1, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    784027	    28	 100.0	    32	............................	CGGTAGAGACGTCGGTGAGCGCTGCGATCTGC	
+    784087	    28	 100.0	    32	............................	GCAATCGATCAGGCTATGACCGCCGAAGCCTA	
+    784147	    28	 100.0	    32	............................	TCGACGTTGCCGACCCGCGGCCGCGCCCGGTT	
+    784207	    28	 100.0	    32	............................	TCGGCCAAGGCTCCGGCATCGAGCACGATGCC	
+    784267	    28	 100.0	    32	............................	TTGAGGAACAGGCGCGCTACGTCCGCCGCGAA	
+    784327	    28	 100.0	    32	............................	TTGATGATGCCGTCCTGCTGTTTGCCGGCGAT	
+    784387	    28	 100.0	    32	............................	ATTCCGGCAGAGGTTCGCGAAGCGGACATTGA	
+    784447	    28	 100.0	    32	............................	TGTACCAACTGAGGTGCTACCTCAACCATGGC	
+    784507	    28	 100.0	    32	............................	AGGCCGATGGAGTAGCCGGACAGCACTGAGCC	
+    784567	    28	 100.0	    32	............................	TAGTGTGGAATTGATGTGCGCATCTTCTTAAA	
+    784627	    28	 100.0	    32	............................	TGTGCCGGGCAGGCTGGCCAGCGCCTCATTGA	
+    784687	    28	 100.0	    32	............................	GTCGGCCTGGAGTTTCGTCGGGCGTACATCAG	
+    784747	    28	  96.4	    32	.................T..........	CAAGCGGACGGTGACACGGACTATCAGACCGG	
+    784807	    28	 100.0	    32	............................	TCCGGCACGCTGTGCTGAGCCTGAGCTACAGG	
+    784867	    28	 100.0	    32	............................	TCGCGCAATGATTTCAGCCGCGGAGCGCATAG	
+    784927	    28	 100.0	    32	............................	ATAGATAACACGTGTGACCGCGACCACTACCG	
+    784987	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+        17	    28	  99.8	    32	GTTCACTGCCGTATAGGCAGCTAAGAAA	                                	       
+
+# Left flank :   GACATGTGTCCGCGTAGCGCCACCCTGTACGTGGACACCCATGCACTCCCCACGCACTTGTTCGACAACGCGAAAGTGCGCTTGAGGTCGGCGATCAACATCCTGGCCATGACCCGTTTGCTCGATGAGAAAGAAGAGCCCGGCGGCACCCTGGCCTACATCAACGGTGCGTTGCTGTCGCTGCTCAGCGATGCCTTGTCCGAAATCGAGGCGGGCCACCCGAGCCTGTAGCGCCGCTCCCTGGCGCGACGCCCCCGGCCTGGCCGGGGGCTTTGCGGCATCGCCATCACAAGACCTTTCGCGCCCGAACGGCACGCTTGATCGCCGTCCCGGTCCTCGCGAAACGGCCGCCAATTGCCCGAAGCTTCCGACCCTTTTTTCGGACGATTTCTTACGCCCTTATAAATCAGCAAGTTACGAGACCTCGAAAAAAGAGGGTTTCTGGCGGGAAAAACTCGGTATTTCTTTTTCCTTCAAATGGTTATAGGTTTTCGGGGCTA
+# Right flank :  ACTCAAGAAAGAGCAGAACGGCCAGCTTGCGCCGTTCATTGCCGTGTAGTCCCGTAGGGCGAATGCCGCCATAGGCGGTATCCGCCCTACGGATCGGGTTCCTGGCATCCACGAAGTGAGGCTTGCCCTCCAAGTGGTGGGGCGGCAAACCCGCCCCGTCAGGAGGCCGAGCGGAATCGTTGCGGAGGGGGACGAGTGGCAGGATGCCGCGAGAGCCGCCTCGGTCCACGAAGGACCGTGGCGGCGTGCCGCCGGGAGCAACGATGCAGCGAGGGCACCCCAGCCGAGAAGCGGCTGGGGCCGGATGCCGGGGCGAGTCTTTTGGTTCCTTTTGGACGCTTGCAAAAGGAACTCGCCTGGGAAGGCGAAACAAGAGGCCAAGGCAGGCACAGAAAATAGCTTGACCACCAAACATGACGCCCGCTCAAGCGCTAAGCAACAGCGCCCCCCTCACTGCCGTGTAGCTAAGAAATCGCGAGCGATATAGTCCCGTAGGGCGA
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTAAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTGTAGGCAGCTAAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [58.3-40.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [271,588] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.55,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_023084480 [3055126-3057798]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : BWHPSA042
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas aeruginosa BWHPSA042
+//
+
+
+Array 2 3049349-3048405 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI914512-Pseudomonas aeruginosa BWHPSA042 adkfZ-supercont1.1, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+   3049348	    29	 100.0	    32	.............................	AAGCTGTTGGCCGAGCATCGACACCGCGTAGA	
+   3049287	    29	 100.0	    32	.............................	GTTAACGTCGCTGGGGCTACCGTCCAAACCTG	
+   3049226	    29	 100.0	    32	.............................	TATCAGGGCAAGTCCTTTCGCTTCGGTGCTGA	
+   3049165	    29	 100.0	    32	.............................	GCAGCGAACGACAACGGACCACCGCCGCCAGT	
+   3049104	    29	 100.0	    32	.............................	GACCAGGCGCAGGCCGCCTGCAATTCGATTGC	
+   3049043	    29	 100.0	    32	.............................	AACGATACGACGGCCTGCCCGACTTCCTGGGG	
+   3048982	    29	 100.0	    32	.............................	CGGGATCGACCGGCCCCGAAAGGGGAAAACGA	
+   3048921	    29	 100.0	    32	.............................	CGGTCTATGGCACGTCGTCGAATGGGCCGGTG	
+   3048860	    29	 100.0	    32	.............................	GTCATGCAAAGACACAAGCGCGCCATTGCGTT	
+   3048799	    29	 100.0	    32	.............................	ATCGGCGCGCTGATGCAGCAGATAGTCGACTT	
+   3048738	    29	 100.0	    32	.............................	TAGTAGCGGAACCCGACCGTCTGTGCCTTCGG	
+   3048677	    29	 100.0	    32	.............................	ATCGCGGAGAGAAGGGCCTGGTCGAGACGGTA	
+   3048616	    29	 100.0	    32	.............................	TCGCCGGTGCGGCCGTGGGGCTACGAGCGGCC	
+   3048555	    29	 100.0	    32	.............................	GTGATGGAGCGGACCGCCCCGAGCACCGCAGA	
+   3048494	    29	  96.6	    32	........T....................	AAGGACCGCGTCCGCGTGCTGCTGGAGACGAT	
+   3048433	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+        16	    29	  99.8	    32	GTGTTCCCCACATGCGTGGGGATGAACCG	                                	       
+
+# Left flank :   TGACCCGCATCATTCCCACCATCGAAGAGGTACTGGCCGCCGGCGGCGTCGAACCTCCCAGCGCACCGCCCGAGTCGGTGCCGCCAGCCATTCCCAACCCGGAGGGAATCGGCGACCTCGGGCACAGGACGCAAGGGTGAGCTTCCTGGCCGTAGTGGTGGAAAACGTCCCGCCGCGCTTGCGCGGACGTCTGGCAATCTGGCTGCTGGAAGTCCGCGCGGGCGTCTATATCGGCGATGTATCGCGGCGTACCCGGGAAATGATCTGGCAGCAGCTGAGCGAGGGCTACGAGGAGGGCAACGTGGTAATGGCCTGGGCCGCCGCCAACGAATCCGGCTACGAGTTCCAGACCCTGGGCGTTAACCGTCGACATCCAGTGTTGTTCGACGGGCTGCAATTGGTGGCATTCCAGCCTCTGGATCGGACCACGGAATAGAGGATGAGGCGGTAGATTTTTCGAGGTGTTTTTTCTTCTTTAAAAACAATGCTGTACGGTAAGT
+# Right flank :  TGGAAGTACGCTCGCGCAGCGAGGATGCGATATATGCACGGGGCGAGCCGTTCACTTGAAAAGCCGACATTCCTGGCTGTCCTGTATTTCCCCTTTGGCATGGATAGAGCAGTCCCATAGGGCGAACGACGCCACCGGCGTCATTCGCCATGGCCGGGTCAACCGGAACGTCGAGCGGCTACCAGGCGCTGCTGCAGGCGCGTCAGGAAGGCCACTTCGAAGGCGGTCTTCTGCATCGGTGTGGGCAGGCTGTCGCGGCCGAAGGCGAAGGCGGTCCAGAGCTGGCCTTCGATCTGGTCGGCAAGCCAGTTCTCGGCCTGGCGGACGCCCTTGTCGATGGCGGGCTGGGCGGGAACCGGCCAGAGCAGGGAGAGACCGGGTTGCTGGTCGGCGGGGGGAATCTCGACCATCAGGTCCTTGTAGCGTTCGATGATTGCGTCGACGTGGGTCTTTTCCTTTTCATCCTTCGTCATGCTGGGTACTCCGTTTCTGAGAGTCAC
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCACATGCGTGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [6,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-10.60,-11.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [41.7-63.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [160,65] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.55,1.05   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_023084480 [3055126-3057798]; 
+# Array family : NA
+# Sequence source strain : BWHPSA042
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas aeruginosa BWHPSA042
+//
+
+
+Array 3 3059098-3058521 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KI914512-Pseudomonas aeruginosa BWHPSA042 adkfZ-supercont1.1, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                     	Insertion/Deletion
+==========	======	======	======	==========================	====================================	==================
+   3059097	    26	 100.0	    35	..........................	CATCCGAGGGATTCACCAGCCAGGCCATCATCGTG 	
+   3059036	    26	 100.0	    35	..........................	GACCGCAGTTGATCGAGCCTCAGCGCTCGGCCGTG 	
+   3058975	    26	 100.0	    36	..........................	TCTTGGCGGGGCATTGTGCAGTGGATTGCCGATGTG	
+   3058913	    26	 100.0	    35	..........................	GCGATCATCGAATGGCCGCACCGCATGGACCTGTG 	
+   3058852	    26	 100.0	    35	..........................	CTCAACGAGAAGAACATCCCGCGCAACATGATGTG 	
+   3058791	    26	 100.0	    35	..........................	CCTGCATCAGATGCGGCCTCCTTCACGCGGGCGTG 	
+   3058730	    26	 100.0	    35	..........................	CTGCTCCAGGGCAGCAATTCCAACGGACTGGGGTA 	G [3058722]
+   3058668	    26	 100.0	    35	..........................	ATGGAAGACCCAACCCGCGGCCAGGGGTGGGGGTG 	
+   3058607	    26	  88.5	    35	...........C..........G.T.	GTATCGACATCGATGGTGACCAGGCTGGTCCAATG 	
+   3058546	    25	  80.8	     0	........A..C.....-..A....T	|                                   	C [3058540]
+==========	======	======	======	==========================	====================================	==================
+        10	    26	  96.9	    35	TTCCCCACGGGTGTGGGGATGAACCG	                                    	       
+
+# Left flank :   ATCGTTGTACAGGGCGACGAATTCCGCGCCCCAGAACAGCACGATCTGCGCCTTGGCCGGCAGCAGCGTGGCCATCGTCGTCTTCAGGCTCGCCGACCAGGCGTCCGGCGGGCCGAGGGGCGAACTGGCCGCGTCGAGGCTGAGCAACAGTTTCCCGACCGCTCCTCCGTTGGCCAGGAAGGCCGGTGGATGGTCGAGGGTGTTCGGGTCCGGTTCGATGGTGAAAGGCTGTGCCATGTCTGCGGAGTCTTGCTCGGTTCCGGTTGAGGTGGTGGGTCGTATGGAACATAGGAGGGCGGTGGGTGCGCTTGCGTTCAATCAGCTTGGGGGACCGCGGGATCCCGATGCGGGTAGGTTTCGAATGGTCCCGAGGGAGCTGCCGGATTAGGCTGTGGGATGAGTACGGCCCTCATTTCCAGGAGCGGCGCGAGGGCCGCTTGGCCCGGTGGAATTTTGCTGTTGTTTTTCTTTTTTTAAAACAATGGGATACGGTAAGGGTG
+# Right flank :  GTCTACGCTCCTGCGGTTCGCCCCACCGCGCGGTATTTCCCACGGTGGGGCGAACCGCGCGGCACTACGACCAGTGGCGTGATCACCAGTGTCAGCCGCCAGTTGCGGAGACGCGGATCGCCCACCGTCCGGCAAGATCCTCTTTCAGGGCATGGAGTTTCCAACCAACCTGGTTCACGTCGCTGGGGATGCAGGCTTCGCTCAGCACGAATAACTGACGGCGCAGGCATTGGGCGGGGGCTGCCTGGATACCTTGCCCTTACCGGTCTCGAAGAAGGCTTCCAGCCCCCCTGTGGCGGAAGGAAATAGATTGTGAACAGGCGGCAAGTGAAGGTTGTTAGTGAGTTAGCGGAATGTCCGACGTTCGCTGTTGCACCATGGAGTTCCTGCTAATTTGGACAGGGTGGTCGGTCCGGTCCATATCCCTCCTGCGCTCCTTCGCTTGCTAAACGGGGGTGAACAGGCGCATCCCTCGCTGGCTGCTCCTTGACGAGCGTCAT
+
+# Questionable array : NO	 Score: 6.94
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.85, 5:0, 6:0.26, 7:0.83, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTCCCCACGGGTGTGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-0.90,-1.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [9-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [28.3-60.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [91,264] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,1.23   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_023084480 [3055126-3057798]; 
+# Array family : NA
+# Sequence source strain : BWHPSA042
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Pseudomonadaceae; Pseudomonas.; Pseudomonas aeruginosa BWHPSA042
+//
+
+

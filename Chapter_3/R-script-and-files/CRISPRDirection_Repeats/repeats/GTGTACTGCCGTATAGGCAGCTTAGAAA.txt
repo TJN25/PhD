@@ -1,0 +1,731 @@
+Array 1 68044-67536 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+     68043	    28	 100.0	    32	............................	TATCGGCGCAGGTGGTGCTTGAATAGCAAAAT	
+     67983	    28	 100.0	    32	............................	GATATTTGAGAATACACGAACACGAAAATAAT	
+     67923	    28	 100.0	    32	............................	TCAAAGAGAATCAAAAAGCGCTTTATGACTTA	
+     67863	    28	 100.0	    32	............................	AAATCATGTCACTAATGAATTAATTATGACAT	
+     67803	    28	 100.0	    32	............................	GCAACAGATAGCGCAGAAGATGTGACTCGCGT	
+     67743	    28	 100.0	    32	............................	ACTCTGCAAGCGTAATAACCAGCATCGGATTA	
+     67683	    28	 100.0	    32	............................	TTGCGGTTTGCTCGGTACCCACCCTGAAATAT	
+     67623	    28	 100.0	    32	............................	GGCATGTCTGCATTCTGATTGTGGAACACAAA	
+     67563	    28	  89.3	     0	.................T...C..A...	|                               	
+==========	======	======	======	============================	================================	==================
+         9	    28	  98.8	    32	GTGTACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TGTTGGTTAATGTTTATCAGCGACATTCTTTGTTGGAATAGACCAAATGCCCTTATGGCAAGTAGGGCAGTATTTTTGATTATTTGTAAAGTCGTCATGGCACGGTACACAAAACCAATCCATAACCTTTAAAATCGGTAAAACGGAATGAAATTACTGATTAAGTTTATACGTTGAATGAGTTAACAATAAGGGCCATTTTAATAGATACATTAAAATGGCCCTTATTGTAATAAGTTGATTAATCAAGCGAAGGTTAAAATGTCACTATTACTTTTGAAGAGATTGTTTTATCCGCAGCTTCTAATAAGGCTCTTTCTATCTCTTTTGATGTAAGAAGGGGAAGATGCGTGATAGTTATCTTATTTTACCTTCTATTTTTATTGAAATTTTATTCTGTTTAAAAACAAAGTGTTATGATGCCCTCTAAAAAATAAGGTATTTTGCACAAATTAGCCATAATTTATTGTTGCACGAAGGTTTTTTCCTGATAGTTTATA
+# Right flank :  TGATAAATGATTATCCTGTGCGCTTTCCAATAAGCTGCACAGGCTTCTTTTTTCGCTATTTTAAGATTAATAATTAGATTATATTTATTGAGATTTCTAGTTTATTAAAACAGTGCAATTCCTTTAAACAATAAAATTAATCGGTGAGGCAGGATGAAGCTGCTAAATAAAACAATCTATACGCTTATTGTGGCATTTATATCAACAGCGGCAATGGCAGAGGAGTGTATAGGTGATAGTACCTATCAAGCATGTACAAGATCGAGTACTAATGCACAAGGCGATAATATTATTGAATCGTATGATACTGACGGTAACTCATATTCAATAACATCTGGCTCAAGAGACTATGCGAATGGTTCATCTGAAGTCTTTTCAGTTGATAGTGAAGGCAATGAATACTCGATAAAAAGTTGGTGTGACAGCTCTGGATGCCATACATCTGATAGCGAAGGGAATACGTGCACAATAACAAATACTGGTGAGATGATAGGCTGTTA
+
+# Questionable array : NO	 Score: 8.09
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:1.15, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 96% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [61.7-71.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [155,522] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.73   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 2 2822915-2823303 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   2822915	    28	 100.0	    32	............................	CGTATCTCTTGCGGGTTTCTTTTTAAAATCAC 	
+   2822975	    28	 100.0	    32	............................	AAGCGAAATAACGTTGAGCCGATGATTGAAAA 	
+   2823035	    28	 100.0	    32	............................	TTATCTTCGTTTCTGTGTGCTACCTGAGTACC 	
+   2823095	    28	 100.0	    32	............................	TTTTATTCGTCCAGCCCTCGATTACAACCAAC 	
+   2823155	    28	 100.0	    32	............................	TTACCTCTTTTCGCATCACCGCAGGTTAGAAA 	
+   2823215	    28	 100.0	    33	............................	AAAGGAATTGCGTGATAGATGGCAAACTCCCCT	
+   2823276	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         7	    28	 100.0	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                 	       
+
+# Left flank :   AAATCAGCGTTAGATAAAATCTCAAATATTGAGTCGAAGCAGGGGTTGCAACTACAAGAAATTGATCAGTTAAACTTTCTAGCAGATACAAGAAGTATTCAAAATAGTCAGCGCATAAGTGAGTTGTTGGATACAAATTGGACTGGAGTCACAACAGACTATTATAAAGAAATGGCTATGTTCCAAGCATCGCAAGATATTTTTAAAGATTTAAATAGCATGTCATTATTTGGTGGTCGCTAAGACGTGTGCCAGTCTCAACTCATTTGAGGCTGGCGCAATTACCGTATCGTTATTTTTCCCTACAATTATTTTCTTTTCTCTTATCCTATATTGCATTTCTCTTAAGATGATTTACTCTTTATTTTACCCTTTGTTTTTGCTCTTTAAAAAATTAGCCAATAAAACAATAAGTTACTAAGTGTCATAAAAAAGAAGGTATTTTTCTAAAAAATAGGCTAACGAATTGTTATTTAGGGATTTTGTTTGGTAAGCTAATT
+# Right flank :  ATGAACGTTTCCAAAACAAACGCATTAAGCAAATTGATGAAGAAAGTAAGTCAATTTACTACGAAAACTACGAACCTGCGACGTTCCTGATTCACGTTGGATTGATATGCTTGTCGAAATGCCAAGTAATTTAATCTACAATCAGCGACAAGCAGAAGCAGAGCGATTAGCAAAAGAAGCAGCAAAGAGAGATGCTAAGCTTGAAGCTGCATCACAGATAGAGGACAATAAAAATTAATGCGCCATCTTGAGTAGTTGGCGCATGTGTATATTTATTCTTTAGGGTTTGAGCCAAATCGGTTGTTACCTGGGGTTCCATCAAGGCATGTAAACACAAAAATGACAAGACCACCAAAAGGTATAAATGTGAGCAAATACCACCAACCTGACTTATCTATGTCATGTAAGCGCCTAACAGTTACTGCAAGGCTAGGTATTAAAATAGCTACGCAATAAATCATCAGGAGGACTAGAGCTACGATCCCCAAACCATTTATATC
+
+# Questionable array : NO	 Score: 8.09
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [259,272] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.87,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 3 2836461-2837509 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   2836461	    28	  96.4	    32	...........T................	GGTCAGAAAAAAATCACTCATGACAGCAATCC 	
+   2836521	    28	  96.4	    32	...........T................	CGTTACCGAACTACATAATGGATATTAGATAT 	
+   2836581	    28	 100.0	    32	............................	TTACTCAGAGCATCTTGAAGCAGGGCGTTTTG 	
+   2836641	    28	 100.0	    32	............................	TGTATTAGCATGAGTAATACATATCCGATTAT 	
+   2836701	    28	 100.0	    32	............................	TACATCATAGAACATGCAGAACTACTTGCTGA 	
+   2836761	    28	 100.0	    32	............................	GATCAGAGCTGAAATAAGGAAGAAAGCAAGGG 	
+   2836821	    28	 100.0	    33	............................	AATGCTAAATAAATCACTAGGGGGGCTATTCCC	
+   2836882	    28	 100.0	    32	............................	ATTAGTACCAATTGTGTTAGCAAGACCAGTCA 	
+   2836942	    28	 100.0	    32	............................	TTGGCACAGGCGCTTCCTTCGTATTTGCTGGC 	
+   2837002	    28	 100.0	    32	............................	ATCAACCTGTACAGCTGGGAATAAAAACGTAT 	
+   2837062	    28	 100.0	    32	............................	TTCATTTATTCGCTTCTGCTCCATTAAATACA 	
+   2837122	    28	 100.0	    32	............................	TGTATTTGCATTCATACCGGCATATTTCATTG 	
+   2837182	    28	 100.0	    32	............................	ATCTTTATCCCACTTGCGTAGGACGACGACTT 	
+   2837242	    28	 100.0	    32	............................	ACGATTTGAACGTGTGATGAAACAGTATGAAT 	
+   2837302	    28	  96.4	    32	...........T................	TTAACTCTCTGTATGGAACCTAATTTATTTTC 	
+   2837362	    28	  96.4	    32	...........T................	CGCCCACTCTCACCGTCCAGCGAAGCCATAAG 	
+   2837422	    28	  96.4	    32	...........T................	ATCTCCCCGAGCAAAATAGGCACAGGGCGCCC 	
+   2837482	    28	  96.4	     0	...........T................	|                                	
+==========	======	======	======	============================	=================================	==================
+        18	    28	  98.8	    32	GTTCACTGCCGCATAGGCAGCTTAGAAA	                                 	       
+
+# Left flank :   ATTCAAACGGTGCCAGAGCATGCCACGCCAATTAGTTATGTGCGTCAACATGTAAAAGGTGCAAAGCGTTTTGAACTGGATAGGTATAAGAAAGCTCAATTGTATTCAGTAAAATCAGGGCAGCCTATTGAGGTCTGTTTAAGCGCAATAAAAGAGCCTCAAACGCGTAGTCGTTTACCTTTTATTTGGATGGAAAGTCAGCAAACAAAGTCTAAAACAGAAGGCGATGGGCATCGTCCATTTCCACTCTTTATTCGGTGTGTTGCTGCGAAGGAAGCAAAGGCAGGCACGTTTAATTGTTATGGGTTAAGTCAGTCTATGGGGAAAGGCGAAGAGGTTGCCACCGTTCCACATTTTTGACCTTTTTTACCCTTGTTTTTTTGCTCTTTAAAAATTAAACATAAAAACAATAAGTTGCAGCAGACTGTAAAAAAGAAGGTATTTTGATAAAAATAGCTTTAACTGTTTGTTGTGACTTATTTTTTATTTGATACGCTATA
+# Right flank :  AAATGAAACATCAACTTGATTTTATATATTTTTCAAGGTGACCATTTTGGCTTGTTTTATAAAATACAAAGGTCGCTTCTAATTCTTCATTTTCGTCCAAAGTCACCGATAATAAAGGCGAGGATTTATTAATCGACTTTGTAAATACAACTGGTTTATATGAGGTACTTTGCTCACGAAAAGAACCATATTAGTTAGCCCCAATCACTTAGACTTCATCTTTATGACCAATTTGATAACGATTATCAATTGAGTTCTGAGATAAGCATCCTACTGAAATAAAACAAATATTTCCTCAGTGCGAGTTTGAAGTTGAGTTAAGGCTTCAAGTATATCATCATGATTGAGTATGCGTTTAGGCTTCTTTTCCGTCCGTTAGATGGCCCATTATCCGGAGGAACACCTTGAGAACGCGTATTACCATTTATCCTGAACCAATTTTATCAATTCTAATGTGCGGCCTAAGCGTTTATTATCAACGATAGCCCTTGGTCAACCTC
+
+# Questionable array : NO	 Score: 7.98
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:1.04, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   GTTCACTGCCGTATAGGCAGCTTAGAAA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-75.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [142,10] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.42,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 4 2910211-2910838 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   2910211	    28	 100.0	    32	............................	ATGACAGAGTTCGTCATGATGCTAAAAGCTAA	
+   2910271	    28	 100.0	    32	............................	ATCGACTTTAATGCCATAATTGGTTTGGTAAC	
+   2910331	    28	 100.0	    32	............................	TAAAGGCCGAGGGATTTTAAATTCGAGGCTTT	
+   2910391	    28	 100.0	    32	............................	TTCGAGATATGCTCTATAGCTAGCGCCTCCCC	
+   2910451	    28	 100.0	    32	............................	ACGTTGTTTGGCCAACTTGGCATGCGTTGAAA	
+   2910511	    28	 100.0	    32	............................	ATTTAACCAAGCCCCATTTTATGGCGACTTTG	
+   2910571	    28	 100.0	    32	............................	ACGCACCGGAGATATCAGCCATTTTCGTCACA	
+   2910631	    28	 100.0	    32	............................	ACAACAATTAATGATTGTTTCTGGAAATGCTT	
+   2910691	    28	 100.0	    32	............................	TTTGATGTGTCGGGGAACCTTGCTATTGCATC	
+   2910751	    28	 100.0	    32	............................	AATACAATTATTGATATCGCAAGTAGCATAAA	
+   2910811	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+        11	    28	 100.0	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   GCAAACGACAAAAGGAATTAGGTGTGACTAAGATAGAGCTATTTCTTGGTGAACAGGGATTAGAGATTCTCCCAAGAAAGTGCGTAATATGTAGGTCAGGCAGGGAGCAGTACAACGTAGCCAACTATCTTTTTATGTGAGCATTGATGGCTGTTCATTGTGTCCGCTCGGTAGCGCTGAATAAAAAGTGTGTAAGGGAGGTAATGATCAGCTACTGATAGTTATTTAAGTGAGGCTCATAAATGCTGGGTAACTCATGGGTGACACGGGCTAAAATTGATGTCACAAAATCTCACAGATAGTTCAAATTTAACGTGTCACTATTAATTTTGATGGGTATAGAAGATGCACTGTTTTCCTCTTTTTTACCCTTTATTTTTTCACTTGAAATTTATTGATTAAAAATCAATGTGTTAAGAATCACTGAAATATAGAAGGTATTTTTCATAAAATCAGATGTAATTTATTGTTGAACATGGTTTTTTTCATGATAATTTATA
+# Right flank :  ACAGATAGCAGTGTGTGGTTACGTTAAATTCCTTGCTTACTACACCGATAATGATGATGCCCTCCAGTCAGCTACAGATGTTTATTTAGACGATGTAGCACAAAAACGTGCTCACAATATCCCAGCAACCAAATCCTTTGATGCTTTCCGCTATTGGGTAGTAGAGCAATCTGGCCGTTATGAAACGTTCGAAATGCCAGACGGTAGCCTACGCCGTGTCGCTAAATCAATCAGCTTTGCAAGAATGGATGACCTAGCTTTTGGCGAACTCTACAAAGCCACACTCGATGTGCTTTGGAACTTCATTCTATTCCGTAAATTTCCCACCCAACAAGCTGCTGAAAATGCAGCTGGCCAGCTATTGGATTTTACCTAGAGGCAAGACCAATGACCCAAAAACAAAGACCAAAGAAGAGAAGCAGTGGTTATCAGATGTAGCCGAACTTGGCTGTGTTTGCTGCCGCAATATGGGATATGGGGCAACTCCTGCGGAAATCCAT
+
+# Questionable array : NO	 Score: 8.12
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.12, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1049,4] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.32,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 5 2931630-2932558 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+   2931630	    28	 100.0	    32	............................	TGAATATAACAATGGTGACAATCTAAGCGAAA 	
+   2931690	    28	 100.0	    32	............................	TTGCCTGATTTACTGTCCTCAGGGTAAATCCA 	
+   2931750	    28	 100.0	    32	............................	TTGTTAGCGGGAATACCCACCAACACATCCAT 	
+   2931810	    28	 100.0	    32	............................	TTTAGCTCTACGTTTCTGTAGCGTTGCTTCTG 	
+   2931870	    28	 100.0	    33	............................	AAAGTATGCTTTAGCTGAGTTCGCTAGTTTTGT	
+   2931931	    28	 100.0	    32	............................	AAAAAGAACATCCGCAGCACTGCGAGCGTTTT 	
+   2931991	    28	 100.0	    33	............................	CAGCGCAAGCAGGCAGACGAAGAACAACAAAAT	
+   2932052	    28	 100.0	    32	............................	TTTCATCAAGAAAGGTTTATGTTGGTATTATT 	
+   2932112	    28	 100.0	    32	............................	AACCATCAACACCAACAACTGGAACTATTCCC 	
+   2932172	    28	 100.0	    32	............................	ACGTAAACCCGCTACGCTGAACGCTTGGCATG 	
+   2932232	    28	 100.0	    31	............................	ACGTAACAGAAAAGATGCTGGGGCATGAACT  	
+   2932291	    28	 100.0	    32	............................	TCATCTTTCATTCCTGTATATGTAAAAGGCCA 	
+   2932351	    28	 100.0	    32	............................	ATTAGCCTGCTTCCTTGCTCTGCAACTGAGTT 	
+   2932411	    28	 100.0	    32	............................	AGTGGCTTCATTTGTTCAACGGTATCACCCGC 	
+   2932471	    28	 100.0	    32	............................	AAATCCTTAATGGCGAATGAGAACGTGATTAC 	
+   2932531	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+        16	    28	 100.0	    32	GTGTACTGCCGCATAGGCAGCTTAGAAA	                                 	       
+
+# Left flank :   AGATGGGTTCTTAACATTAAGAACAGATAATATAATTTCTGTTTCATCAAAAGAACCGGAAGATAGTGAGGGAGAGCCCACTGAATGGGGGATAGGTGCTTTGCATTTAGCACCAAGAAATTCAGATCAATTTAATCAGCTAAAAGAGATCCAAGGTAAAAAGGTAGATATCACTTGTGACCTATACCATGCAACCAATATTCATCACAAAACTCCGGTTCTTTGCAGTGTTGAACATTATGTTTTGGTTAAGTAATTGGCAGTATGGCATAAAACTGAAAACATAAAGTATCGTAGAAAAATGAAATAGGGCAACCTGCTATTCGTTTGTGATGAGTGACTGAAGGTACGATATTTTTATCTTTTTTTACCCTTTATTTTTTGCTCAAAAAATTTCCCTTTAAAAATAATAAGTTATATTATATCGTAGAAATGAAGGTATTTTGCATAAAATCGTTGTAATTTATTGTTGCGCTAAGATTTTTTCCTGATAATTTATA
+# Right flank :  ATTGGCGATATCGCACTCATGGATGATTTTCTGGTGTACTCCGGATGCAACTCCCGCTATCGCTGGCAACACCAGAGGAAATTGTAAAACCAAAACAAATAGTGAAAGTAAAACAAATTATGCGGGAACCATATATTTGACATAACCTAAAACAGCAAAGTTTATCGATTATATTCGTGAAGCATTACACCATCAACATGCAAAAAGGCATCTCTTAGTATTCCCAATGATTGAAACTCATTTAACTTATGATAATACGTCGACTCTACCTGTTCACGGGTAAGGCCTGTGAGGTAATCACTTTGTTGATTTGTTTCCCAATAAATCTCACCTTTTCCTTTTATGAAGTATCCTCTTAAAAATCCAGGCCATTTATCACGCATGTTAGATATCAACAGAGAGTGGCTATCAGGCTGTGTTGCTTGAAATTCATGAAAAAAATCACCTCTAAAGATAAAAATATTATTGCATTTAGTACATTGATAGATATCTCTTACATA
+
+# Questionable array : NO	 Score: 7.93
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:0.93, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [246,161] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.01,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : NA
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 6 2939769-2940036 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_CP008920-Providencia stuartii strain ATCC 33672, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   2939769	    28	 100.0	    32	............................	CTTACGCCCCACTTCTAAGTGCCAAGCCGCAG	
+   2939829	    28	 100.0	    32	............................	TGACTAACTGCGAAAATACAATATCGTATTTA	
+   2939889	    28	 100.0	    32	............................	AGTCGCTCGATGTGTCTGTACGCAGTTGCACT	
+   2939949	    28	 100.0	    32	............................	ATAATCACCGCAATCAAAGAACCCTCCGTTTA	
+   2940009	    28	  92.9	     0	.C......................A...	|                               	
+==========	======	======	======	============================	================================	==================
+         5	    28	  98.6	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TTTTATATTTATGGATGACGCTCTAGCTAAAATATAAACACTATAGAATTTCTTTTCGATAAAAATCATTAGGGTAACTCTATTTTAATGCCATTAGTGTATAGCTGATGGTTATTTTATTTTTAATGGTGATGCAGAAAGGGCTAGGGGATAATTGGTCAATAGGTATGTTTAACTTTACTTATTTGGTTAACCGGGATTTTATTTTTTCTAAAAGGTAAAAAGCGACTTTCAGCTTAACTAATGATTTTATAGGGCCATCAAACTATCTGTTAGGTGTGTGTGAAATATTTATTTTAATAGTATTTAATGTATAAAAGGTTGGGTTAATTTTTTCGTCTAATCAGCAAGTGATTTTCCTTGTTTTTTACCCTTTAAATTTTTAAAGTTTTTATATCCTTTTAAAACAATAGGTTATGTTACCTGATAAAAAAGAAGGTATTTAAGGGGAAATTGTTATAATTTACTGTTGCATAAAGTTTTTTTACTGATAATTTATA
+# Right flank :  ATACGTTTTAATATAACTTAAAATTTCTACCTTATCCTTTCTAGCACACCCTTAATAAGATTTAGTGATTTTCACTTATCATGCAGAATAAAAGACTGTTAGCCTTGATGCGAAGTCAGAATAAGGCTTATGATATTTTGTACAGGGAGATTATTATAGGAATATTACCTATGGTGAGGAGGGGTGTTGATGTGTATTTTGAAAATACCAGCTCGGTGGAGGTATTTATATGAATAAGCTTTTTCGAATGTGCAACCTATTGCTATTAACTGCAAGCTTCTCAATGGTCTCTTTATCTTCCTATGCAGATCCCAATGGCGGTCATGGTCATGGGCAAGGAAAAGAGCATCAAAAAAATAAGCCTAACAAAGGTCATAATGGTAACGGAAAAGAAAAAGCAGATCATTTATCCTTAAATAAGAGTAATTCAATATCAGTATCATTAACTTACAATGAAGCAAGAGCACTCGCTTTAGACAGTGGTATTACAGGCTATCACG
+
+# Questionable array : NO	 Score: 8.08
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.93, 5:0, 6:1, 7:1.35, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-73.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [465,229] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.46,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_040133010 [2832433-2833704]; Csy3:WP_004918643 [2834651-2835676]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 33672
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii
+//
+
+
+Array 1 573175-573323 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    573175	    28	 100.0	    32	............................	TAAGCATCCCTACGGGCTACTAAGTCGCTATA 	
+    573235	    28	 100.0	    33	............................	TGAATAAACATGCCGTCCATACTGTTTTCTTCT	
+    573296	    28	 100.0	     0	............................	|                                	
+==========	======	======	======	============================	=================================	==================
+         3	    28	 100.0	    33	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                 	       
+
+# Left flank :   AAATCAGCGCTAGATAAAATCTCAAATATTGAGTCGAAGCAGGGGTTGCAGCTACAAGAAATTGATCAGTTAAACTTTCTAGCAGATACAAGAAGTATTCAAAATAGTCAGCGCATAAGTGAGTTGTTGGATACAAATTGGACTGGAGTCACAACAGACTATTATAAAGAAATGGCTATGTTCCAAGCATCGCAAGATATTTTTAAAGATTTAAATAGCATGTCATTATTTGGTGGTCGTTAAGACGTGTGCCAGTCTCAACTCATTTGAGGCTGGCGCAATTACCGTATCGTTATTTTTCCCTACAATTATTTTCTTTTCTCTTATCCTATATTGCATTTCTCTTAAGATGATTTACTCTTTATTTTACCCTTTGTTTTTGCTCTTTAAAAAATTAGCTAACAAAACAATAAGTTACTAAGCGTCATAAAAAAGAAGGTATTTTTCTAAAAAATAGGCTAACGAATTGTTATTTAGGGATTTTGTTTGGTAAGCTAATT
+# Right flank :  ATGAACGTTTCCAAAACAAACGCATTAAGCAAATTGATGAAGAAAGTAAGTCAATTTACTACGAAAACTACGAACCCTGCGACGTTCCTGATTCACGTTGGATTGATATGCTTGTCGAAATGCCAAGTAATTTAATCTACAATCAGCGATAAGCAGAAGCAGAGCGATTAGCAAAAGAAGCAGCAAAGAGAGATGCTAAGCTTGAAGCTGCATCACAGATAGAGGACAATAAAAATTAATGCGCCATCTCGAGTAGTTGGCGCATGTGTATATTTATTCTTTAGGGTTTGAGCCAAATCGGTTGTTACCTGGGGTTCCATCAAGGCATGTAAACACAAAAATGACAAGACCACCAAAAGGTATAAATGTGAGCAAATACCACCAACCTGACTTATCTATGTCATGTAAGCGCCTAACAGTTACTGCAAGGCTAGGTATTAAAATAGCTACGCAATAAATCATCAGGAGGACTAGAGCTACGATCCCCAAACCATTTATAT
+
+# Questionable array : NO	 Score: 7.83
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.43, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [259,272] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.87,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 2 586499-587426 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    586499	    28	 100.0	    32	............................	CAGATAAGTGAGGGCAGCAAATGCACGAGGAT	
+    586559	    28	 100.0	    32	............................	GCAGAGAATGACCGTAGGAAGCTGGCGCAAGG	
+    586619	    28	 100.0	    32	............................	AAACCTGACTTTGTACTCCTCAGCCATGCGAT	
+    586679	    28	 100.0	    32	............................	ATCGGGCAATGAACGGGAAGCTATGCCGCTTT	
+    586739	    28	 100.0	    32	............................	TTGCCAATGGCTGTGCGAATATCGGTAATCAA	
+    586799	    28	 100.0	    32	............................	CATTTGCTGGCTAGTGTTTCAGGTATTGAAAT	
+    586859	    28	 100.0	    32	............................	TTCAACTCAGGGATGATCTGGAGACAATGTGC	
+    586919	    28	 100.0	    32	............................	CATTGTACGCTTGCATCAGAATGCCATGTTTC	
+    586979	    28	 100.0	    32	............................	TGCAATAATGATATTACCCACACCGGTATGTG	
+    587039	    28	 100.0	    32	............................	AGTCAAATGAGGGCAGCAAATGCATGAAGATT	
+    587099	    28	 100.0	    32	............................	ATCAAGCAAGTTGCCCGTCCTTTTATTCGTCC	
+    587159	    28	 100.0	    32	............................	TGTGCCTTACCTTGAGTTTTTTAAGGGTGATC	
+    587219	    28	 100.0	    32	............................	ATATTAAGACGCCTTTATTAATTCATCAACAC	
+    587279	    28	 100.0	    32	............................	ATCACCGCCGCGCCCATCTGGAACTAATTCAT	
+    587339	    28	  96.4	    32	...........T................	ATATTCCGTTCCGTTGTTTGATTGACATAATC	
+    587399	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+        16	    28	  99.8	    32	GTTCACTGCCGCATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   ATTCAAGCGGTGCCAGAGCATGCCACGCCAATTAGTTATGTGCGTCAACATGTAAAAGGTGCAAAGCGTCTTGAACTGGATAGGTATAAGAAAGCTCAATTGTATTCAGTAAAATCAGGGCAGCCTATTGAGGTCTGTTTAAGCGCAATAAAAGAGCCTCAAACGCGTAGTCGTTTACCTTTTATTTGGATGGAAAGTCAGCAAACAAAGTCTAAAACAGAAGGCGATGGGCATCGTCCATTTCCACTCTTTATTCGGTGTGTTGCTGCGAAGGAAGCAAAGGCAGGCACGTTTAATTGTTATGGGTTAAGTCAGTCTATGGGGAAAGGCGAAGAGGTTGCCACCGTTCCACATTTTTGACCTTTTTTACCCTTGTTTTTTTGCTCTTTAAAAATTAAACATAAAAACAATAAGTTGCAGCAGACTGTAAAAAAGAAGGTATTTTGATAAAAATAGCTTTAACTGTTTGTTGTGACTTATTTTTTATTTGATACGCTATA
+# Right flank :  AAATGAAACATCTGCTTGATTTTATAATATTTTTCAAGGTGACCATTTTGGCTTGTTCTATAAAATACAAAGGTAGCTTCTAATTCTTTATTTTCGTCCAAAGTCACCGATAATAAAGGCGAGGATTTATCAATCGGCTTTGTAAATACAACTGGTTTATATGAGGCACTTTGCTCACGAAAAGAACCATATTAGTTAGCCCCAATCACTTAGACTTCATCTTTATGACCAATTTGATAACGATTATCAATTGAGTTCTGAGATAAGTATCCTACTGAAATAAAACAAATATTTCCTTGGTGCGAGTTTGAAGTTGAGTTAAGGCTTCAAGTATATCATCATGATTGAGTGTATGTTGTGGCTTCTTTTCTGTCGGTTAGATGGCCCATTATCCGGAGGAACACCTTGAGAACGCGTATTACCATTTATCCTGAACCAATTTTATCAATTCTAATGTGCGGCTTAAGCGTTTATTATCAACAATAGCCCCTTGGTCAACC
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.08, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [142,14] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.83,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 3 660236-660503 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    660236	    28	 100.0	    32	............................	TGTTGCTGGTTCAGGATGAATTTTATCGGCAT	
+    660296	    28	 100.0	    32	............................	TTCTCTATGGTGCCTAGCAATAATCTGTTCCA	
+    660356	    28	 100.0	    32	............................	TGATACACAAACCATTCGTGATTTAGTGTTGG	
+    660416	    28	 100.0	    32	............................	CGATAACGGTCATGTTCATGCTGATTTTAAGT	
+    660476	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         5	    28	 100.0	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   GCAAACGACAAAAGGAATTAGGTGTGACTAAGATAGAGTTATTTCTTGGTGAACAGGGATTAGAGATTCTCCCAAGAAAGTGCGTAATATGTAGGTCAGGCAGGGAGCAGTACAACGTAGCCAACTATCTTTTTATGTGAGCATTGATGGCTGTTCATTGTGTCCGCTCGGTAGCGCTGAATAAAAAATGTGTAAGGGAGGTAATGATCAGCTACTGATAGTTATTTAAGTGAGGCTCATAAATGCTGGGTAACTCATGGGTGACACGGGCTAAAATTGATGTCACAAAGTCTCACAGATAGTTCAAATTTAACGTGTCACTATTAATTTTGATGGGTATAGAAGATGCACTGTTTTCCTCTTTTTTACCCTTTATTTTTTCACTTGAAATTTATTGATTAAAAATCAATGTGTTAAGAATCACTGAAATATAGAAGGTATTTTTCATAAAATCAGATGTAATTTATTGTTGAACATGGTTTTTTTCATGATAATTTATA
+# Right flank :  ACAGATAGCAGTGCGTGTTTACGTTAAATTCCTTGCTTACTACACCGATAATGATGATGCCCTCCAGTCAGCTACAGATGTTTATTTAGACGGTGTAGCACAAAAACGCGCTCACAATATCCCAGCAACCAAATCCTTTGATGCTTTTGAAATGCCAGACGGTAGCCTACGCCGTGTCGCTAAATCAATTAGCTTTGCAAAAATGGATGATCTAGCCTTTGGCGAACTCTACAAATCAACTCTCGATGTGCTCTGGAACTTCATTCTATTCCGTAAATTTCCCACCCAACAAGCTGCTGAAAATGCAGCTGGCCAGCTATTGGATTTTACCTAGAGGCAAGACCAATGATCCAAAAATCGAAGATCAAAGAAGAGAAGCAGTGGTTATCAGATGTAGCCGAACTTGGCTGTGTTTGTTGTAGAAACATGGGATATGGGGCAACTCCTGCGGAAATCCATCATACACGAACAGGGCAGGGTATGGCGCAACGAGCTAGCCA
+
+# Questionable array : NO	 Score: 8.15
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.35, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [81.7-58.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1048,4] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.32,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 4 680582-681269 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	============================	=================================	==================
+    680582	    28	  96.4	    32	....................T.......	GCTGTCGGCTTCGTTCCCATCGTTTCAAGGTC 	
+    680642	    28	 100.0	    31	............................	ATAACTAGTTGGCGCACTGTCATGCTGAATT  	
+    680701	    28	 100.0	    32	............................	ATTGAGCGCAAAGCATCTTCTGCGGTCATGCT 	
+    680761	    28	 100.0	    32	............................	GCAGTTTTAGCAATCATCTCTATAACTGCATT 	
+    680821	    28	 100.0	    32	............................	ATAGGTCTAGGCATACCCTCTGGTGTAAGAAT 	
+    680881	    28	 100.0	    32	............................	AGCGTTTGACCATTTTTCCCCTGTTGGCTTAA 	
+    680941	    28	  96.4	    32	.........T..................	GGCATCAACTGGAACAATCAGTACCATGACGC 	
+    681001	    28	 100.0	    32	............................	ATAAACATTTGTAGTTCTCCGCGCTTACCTGC 	
+    681061	    28	 100.0	    32	............................	TAACAAGAAATGCCGCGTGATCCCGTTCCAGT 	
+    681121	    28	 100.0	    33	............................	CTGAAACTATCAGCTATTTAAAGCGACAGGGAT	
+    681182	    28	 100.0	    32	............................	ACGACTGTGGAGATGAAACAAAAATAATCCAA 	
+    681242	    28	  96.4	     0	...........T................	|                                	
+==========	======	======	======	============================	=================================	==================
+        12	    28	  99.1	    32	GTGTACTGCCGCATAGGCAGCTTAGAAA	                                 	       
+
+# Left flank :   AGATGGGTTCTTAACATTAAGAACAGATAATATAATTTCTGTCTCATCAAAAGAACCGGAAGATAGTGAGGGAGAGCCCACTGAATGGGGGATAGGTGCTTTGCATTTAGCACCAAGAAATTCAGATCAATTTAATCAGCTAAAAGAGATCCAAGGTAAAAAGGTAGATATCACTTGTGACCTATACCATGCAACCAATATTCATCACAAAACTCCGGTTCTTTGCAGTGTTGAACATTATGTTTTGGCCAAGTAATTGGCAGTATGGCATAAAACTGAAAACATAAAGTATCGTAGAAAAATGAAATAGGGCAACCTGCTATTCGTTTGTGATGAGTGACTGAAGGTACGATATTTTTATCTTTTTTTACCCTTTATTTTTTGCTCAAAAAATTTCCCTTTAAAAATAATAAGTTATATTATGTCGTAGAAATGAAGGTATTTTGCATAAAATCGTTGTAATTTATTGTTGCGCTAAGATTTTTTCCTGATAATTTATA
+# Right flank :  ATTGGCGATATCGCACTCATGGATGATTTTTTGGTGTACTCCGGATGCAACTCCCGCTATCGCTGGCAACACCAGAGGAAATTGTAAAACCAAAACAAATAGTGAAAGTAAAACAAATTATGCGGGAACCATATATTTGACATAACCTAAAACAGCAAAGTTTATCGATTATATTCGTGAAGCATTACACCATCAACATGCAAAAAGGCATCTCTTAGTATTCCCAATGATTGAAACTCATTTAACTTATGATAATACGTCGACTCTACCTGTTCACGGGTAAGGCCTGTGAGGTAATCACTTTGTTGATTTGTTTCCCAATAAATCTCACCTTTTCCTTTTATGAAGTATCCTCTTAAAAATCCAGGCCATTTATCACGCATGTTAGATATCAACAGAGAGTGGCTATCAGGCTGTGTTGCTTGAAATTCATGAAAAAAATCACCTCTAAAGATAAAAATATTATTGCATTTAGTACATTGATAGATATCTCTTACATA
+
+# Questionable array : NO	 Score: 7.91
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:0.96, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [1-1] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [246,161] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.01,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : NA
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 5 687110-687316 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    687110	    28	 100.0	    32	............................	AGAATTGCTAATGACCTTCTTGAGGCTGCTAT	
+    687170	    28	 100.0	    32	............................	AATTTCAGATGAATCAAATTACATCATCCCTA	
+    687230	    28	 100.0	    32	............................	ATTGCTATAATTCGACCGAAATCATCTGGGTA	
+    687290	    27	  89.3	     0	.C........A.............-...	|                               	
+==========	======	======	======	============================	================================	==================
+         4	    28	  97.3	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TTTATATTTATGGATGACGCTCTAGCTAAAATATAAACACTATAGAATTTCTTTTCGATAAAAATCATTTGGGTAACTCTATTTTAATGCCATTAGTGTATAGCTGATGGTTATTTTATTTTTAATGGTGATGCAGAAAGGGCTAGGGGATAATTGGTCAATAGGTATGTTTAACTTTACTTATTTGGTTAACCGGGATTTTATTTTTTCTAAAAGGTAAAAAGCGACTTTCAGCTTAACTAATGATTTTATAGGGCCATCAAACTATCTGTTAGGTGTGTGTGAAATATTTATTTTAATAGGTATTTAATGTATAAAAGGTTGGGTTAATTTTTTCGTCTAATCAGCAAGTGATTTTCCTTGTTTTTTACCCTTTAAATTTTTAAAGTTTTTATATCCTTTTAAAACAATAGGTTATGTTACCTGATAAAAAAGAAGGTATTTAAGGGGAAATTGTTATAATTTACTGTTGCATAAAGTTTTTTTACTGATAATTTATA
+# Right flank :  AATACGTTTTAATATAACTTAAAATTTCTACCTTATCCTTTCTAGCACACCCTCAATAAGATTTAGTGATTTTCACTTATCATGCAGAATAAAAGACTGCTATCCTTGATACGAAGTCAGAATAAGGCTTATGATATTTTGTACATGGAGGCTATTATAGGAATATTACCTATGGTGAGGAGGGGCGTTGATGTGTATTTTGAAAATACCAGCTCGGTGGAGGTATTTATATGAATAAGCTTTTTCGAATGTGCAACCTATTGCTATTAACTGCAAGCTTCTCAGTGGTTTCTTTATCTTCCTATGCAGATCCCAATGGCGGTCATGGTCATAGGCAAGGAAAAGAGCATCAAAAAAATAAGCCTAACAAAGGTCATAATGGTAACGGAAAAGAAAAAGCAGATCATTTATCCTTAAATAAGAGTAATTCAATATCAGTATCATTAACTTACAATGAAGCAAGAGCACTCGCTTTAGACAGTGGTATTACAGGCTATCAC
+
+# Questionable array : NO	 Score: 7.97
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.86, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.17%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [466,229] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.46,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 6 2035016-2034748 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_DS607663-Providencia stuartii ATCC 25827 Scfld_02_30, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   2035015	    28	 100.0	    32	............................	TAGAAGCGGGATTTCATATCTTCCCGCTGTAC	
+   2034955	    28	 100.0	    32	............................	ATAAAGCATGGGGAATCAAGGAAAAAGGAGAG	
+   2034895	    28	 100.0	    32	............................	AGAATTAAAAGACACCACTGGTAAATCACTGT	
+   2034835	    28	 100.0	    32	............................	TACAGGAACAGTAACTAAACTTAGGATATAAC	
+   2034775	    28	  89.3	     0	.................T...C..A...	|                               	
+==========	======	======	======	============================	================================	==================
+         5	    28	  97.9	    32	GTGTACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   AGGTTAATGTTTATCAGCGACATTCTTTGTTGGAATAGACCAAATGCCCTTATGGCAAGTAAGGCAGTATTTTTGATTATTTGTAAAGTCGTCATGGCACGGTACACAAAACCAATCCATAACCTTTAAAATCGGTAAAACGGAATGAAATTACTGATTAAGTTTATACGTTGAATGAGTTAACAATAAGGGCCATTTTAATAGATACATTAAAATGGCCCTTATTGTAATAAGTTGATTAATCAAGCGAAGGTTAAAATGTCACTATTACTTTTGAAGAGATTGTTTTATCCGCAGCTTCTAATAAGGCTCTTTCTATCTCTTTTGATGTAAGAAGGGGGGGAAGATGCGTGATAGTTATCTTATTTTACCTTCTATTTTTATTGAAATTTTATTCTGTTTAAAAACAAAGTGTTATGATACCCTCTAAAAAATAAGGTATTTTGCACAAATTAGCCATAATTTATTGTTGCACGAAGGTTTTTTCCTGATAGTTTATA
+# Right flank :  TGATAAATGATTATCCTGTGTGCTTTCCAATAAGCTGCACAGGCTTCTTTTTTCGCTATTTTAAGATTAATAATTAGATTATATTTATTGAGATTTCTAGTTTATTAAAACAGTGCAATTCCTTTAAATAATAAAATTAATCGGTGAGGCAGGATGAAGCTGCTAAATAAAACAATCTATACGCTTATTGTGGCATTTATATCAACAGCGGCAATGGCAGAGGAGTGTATAGGTGATAGTACCTATCAAGCATGTACAAGATCGAGTACTAATGCACAAGGCGATAATATTATTGAATCGTATGATACTGAAGGTAACTCATATTCAATAACATCTGGCTCAAGAGACTATGCGGATGGTTCATCTGAAGTCTTTTCAGTTGATAGTGAAGGCAATGAATACTCGATAAAAAGTTGGTGTGACAGCTCTGGATGCCATACATCTGATAGCGAAGGGAATACGTGCACAATAACAAATACTGGCGAGATGATAGGCTGTTA
+
+# Questionable array : NO	 Score: 8.05
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:1, 7:1.35, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 96% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [155,525] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_004918641 [582471-583742]; Csy3:WP_004918643 [584689-585714]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : ATCC 25827
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii ATCC 25827
+//
+
+
+Array 1 926811-926663 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017731-Providencia stuartii MRSN 2154, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    926810	    28	 100.0	    32	............................	ACAACTCAGCGTTATGGGAAAGGCTCATAGTT	
+    926750	    28	 100.0	    32	............................	AGTCGCAATTCTCGACGATATGTCCGTACAGC	
+    926690	    28	  92.9	     0	.....................C..A...	|                               	
+==========	======	======	======	============================	================================	==================
+         3	    28	  97.6	    32	GTGTACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TGGTTAATGTTTATCAGCGACATTCTTTGTTGGAATAGACCAAATGCCCTTATGGCAAGTAGGGCAGTATTTTTGATTATTTGTAAAGTCGTCATGGCACGGTACACAAAACCAATCCATAACCTTTAAAATCGGTAAAACGGAATGAAATTACTGATTAAGTTTATACGTTGAATGAGTTAACAATAAGGGCCATTTTAATAGATACATTAAAATGGCCCTTATTGTAATAAGTTGATTAATCAAGCGAAGGTTAAAATGTCACTGTTACTTTTGAAGAGATTGTTTTATCCGTAGCTTCTAATAAGGCTCTTTCTATCTCTTTTGATGTAAGAAGGGGGGGAAGATGCGTGATAGTTATCTTATTTTACCTTCTATTTTTATTGAAATTTTATTCTGTTTAAAAACAAAGTGTTATGATACCCTCTAAAAAATAAGGTATTTTGCACAAATTAGCCATAATTTATTGTTGCACGAAGGTTTTTTCCTGATAGTTTATA
+# Right flank :  TGATAAATGATTATCCTGTGTGCTTTCCAATAAGCTGCACAGGCTTCTTTTTTCGCTATTTTAAGATTAATAATTAGATTATATTTATTGAGATTTCTAGTTTATTAAAACAGTGCAATTCCTTTAAACAATAAAATTAATCGGTGAGGCAGGATGAAACTGCTAAATAAAACAATCTATACGCTTATTGTGGCATTTATATCAACAGCGGCAATGGCAGAGGAGTGTATAGGTGATAGTACCTATCAAGCATGTACAAGATCGAGTACTAATGCACAAGGCGATAATATTATTGAATCGTATGATACTGACGGTAACTCATATTCAATAACATCTGGCTCAAGAGACTATGCGGATGGTTCATCTGAAGTCTTTTCAGTTGATAGTGAAGGCAATGAATACTCGATAAAAAGTTGGTGTGACAGCTCTGGATGCCATACATCTGATAGCGAAGGGAATACGTGCACAATAACAAATACTGGTGAGATGATAGGCTGTTA
+
+# Questionable array : NO	 Score: 7.99
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.88, 5:0, 6:1, 7:2.02, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         R [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 96% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-7.70,-8.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [2-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [155,525] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.46   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_014658069 [3848823-3850094]; Csy3:WP_004918643 [3851041-3852066]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : MRSN 2154
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii MRSN 2154
+//
+
+
+Array 2 3839179-3839686 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017731-Providencia stuartii MRSN 2154, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3839179	    28	 100.0	    32	............................	ATTAGATTCAATGGCTATAAGTTTATATTCTT	
+   3839239	    28	 100.0	    32	............................	AATTAGAGAAAGGCGATTTAAAGAAAGCCAAG	
+   3839299	    28	 100.0	    32	............................	TTAGCTAAGTCACGAACGCCTACACCTAGTTC	
+   3839359	    28	 100.0	    32	............................	TTTTATTCGTCCAGCCCTCGATTACAACCAAC	
+   3839419	    28	 100.0	    32	............................	AATTAGAAGCCCACTTTATAATTGACCAGGGT	
+   3839479	    28	 100.0	    32	............................	AAAAGTGTCAGCGCTAAAGCCGATTTGTGTAA	
+   3839539	    28	  96.4	    32	....................T.......	AAACATGACGAAAATTATGCGTTGGCTAAGAG	
+   3839599	    28	 100.0	    32	............................	CAAAAATGACAAAGCGCAGTTGGAACAATAAC	
+   3839659	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         9	    28	  99.6	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   AAATCAGCGTTAGATAAAATCTCAAATATTGAGTCGAAGCAGGGGTTGCAACTACAAGAAATTGATCAGTTAAACTTTCTAGCAGATACAAGAAGTATTCAAAATAGTCAGCGCATAAGTGAGTTGTTGGATACAAATTGGACTGGAGTCACAACAGACTATTATAAAGAAATGGCTATGTTCCAAGCATCGCAAGATATTTTTAAAGATTTAAATAGCATGTCATTATTTGGTGGTCGCTAAGACGTGTGCCAGTCTCAACTCATTTGAGGCTGGCGCAATTACCGTATCGTTATTTTTCCCTACAATTATTTTCTTTTCTCTTATCCTATATTGCATTTCTCTTAAGATGATTTACTCTTTATTTTACCCTTTGTTTTTGCTCTTTAAAAAATTAGCCAATAAAACAATAAGTTACTAAGTGTCATAAAAAAGAAGGTATTTTTCTAAAAAATAGGCTAACGAATTGTTATTTAGGGATTTTGTTTGGTAAGCTAATT
+# Right flank :  ATGAACGTTTCCAAAACAAACGCATTAAGCAAATTGATGAAGAAAGTAAGTCAATTTACTACGAAAACTACGAACCCTGCGACGTTCCTGATTCACGTTGGATTGATATGCTTGTCGAAATGCCAAGTAATTTAATCTACAATCAGCGACAAGCAGAAGCAGAGCGATTAGCAAAAGAAGCAGCAAAGAGAGATGCTAAGCTTGAAGCTGCATCACAGATAGAGGACAATAAAAATTAATGCGCCATCTCGAGTAGTTGGCGCATGTGTATATTTATTCTTTAGGGTTTGAGCCAAATCGGTTGTTACCTGGGGTTCCATCAAGGCATGTAAACACAAAAATGACAAGACCACCAAAAGGTATAAATGTGAGCAAATACCACCAACCTGACTTATCTATGTCATGTAAGCGCCTAACAGTTACTGCAAGGCTAGGTATTAAAATAGCTACGCAATAAATCATCAGGAGGACTAGAGCTACGATCCCCAAACCATTTATAT
+
+# Questionable array : NO	 Score: 8.13
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.98, 5:0, 6:1, 7:1.15, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [75.0-70.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [259,273] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.28,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_014658069 [3848823-3850094]; Csy3:WP_004918643 [3851041-3852066]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : MRSN 2154
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii MRSN 2154
+//
+
+
+Array 3 3852851-3853058 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017731-Providencia stuartii MRSN 2154, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3852851	    28	 100.0	    32	............................	TTTAACATTGCATCTGCCGTGGTGGAGTTATT	
+   3852911	    28	 100.0	    32	............................	TTTTGAGAAGCAAGAATGTAGTCCTTTTTAGC	
+   3852971	    28	 100.0	    32	............................	AAAAGCCTGAACACATCTAGCCTCAAAGTCTT	
+   3853031	    28	 100.0	     0	............................	|                               	
+==========	======	======	======	============================	================================	==================
+         4	    28	 100.0	    32	GTTCACTGCCGCATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   ATTCAAGCGGTGCCAGAGCATGCCACGCCAATTAGTTATGTGCGTCAACATGTAAAAGGTGCAAAGCGTCTTGAACTGGATAGGTATAAGAAAGCTCAACTGTATTCAGTAAAATCAGGGCAGCCTATTGAAGTCTGTTTAAGCGCAATAAAAGAGCCTCAAACGCGTAGTCGTTTACCTTTTATTTGGATGGAAAGTCAGCAAACAAAGTCTAAAACAGAAGGCGATGGGCATCGTCCATTTCCACTCTTTATTCGGTGTGTTGCTGCGAAGGAAGCAAAGGCAGGCACGTTTAATTGTTATGGGTTAAGTCAGTCTATGGGGAAAGGCGAAGAGGTTGCCACCGTTCCACATTTTTGACCTTTTTTACCCTTGTTTTTTTGCTCTTTAAAAATTAAACATAAAAACAATAAGTTGCAGCAGACTGTAAAAAAGAAGGTATTTTGATAAAAATAGCTTTAACTGTTTGTTGTGACTTATTTTTTATTTGATACGCTATA
+# Right flank :  AAATGAAACATCTGCTTGATTTTATAATATTTTTCAAGGTGACCATTTTGGCTTGTTCTATAAAATACAAAGGTAGCTTCTAATTCTTTATTTTCGTCCAAAGTCACCGCTAATAGAGGCGAGGATTTATCAATCGGCTTTGTAAATACAACTGGTTTATATGAGGTACTTTGCTCACGAAAAGAACCATATTAGTTAGCCTCAATCACTTAGACTTCATCTTTATGACCAATTTGATAACGATTATCAATTGAGTTCTGAGATAAGCATCCTACTGAAATAAAACAAATATTTCCTCAGTGCGAGTTTGAAGTTGAGTTAAGGCTTCAAGTATATCATCATGATTGAGTATGCGTTTAGGCTTCTTTTCCGTCCGTTAGATGGCCCATTATCCGGAGGAACACCTTGAGAACGCGTATTACCATTTATCCTGAACCAATTTTATCAATTCTAATGTGCGGCCTAAGCGTTTATTATCAACAATAGTCCCTTGGTCAACT
+
+# Questionable array : NO	 Score: 8.11
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:1, 7:1.51, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 93% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [78.3-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [142,14] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.42,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_014658069 [3848823-3850094]; Csy3:WP_004918643 [3851041-3852066]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : MRSN 2154
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii MRSN 2154
+//
+
+
+Array 4 3957641-3957788 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017731-Providencia stuartii MRSN 2154, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3957641	    28	 100.0	    32	............................	AATACGACCCCGAATAAAGCACACATGATCTG	
+   3957701	    28	 100.0	    32	............................	ATTAATCTCCTTATCGATGCTATTGACGTACC	
+   3957761	    28	  96.4	     0	...........T................	|                               	
+==========	======	======	======	============================	================================	==================
+         3	    28	  98.8	    32	GTGTACTGCCGCATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   AGATGGGTTCTTAACATTAAGAACAGATAATATAATTTCTGTCTCATCAAAAGAACCGGAAGATAGTGAGGGAGAGCCCACTGAATGGGGGATAGGTGCTTTGCATTTAGCACCAAGAAATTCAGATCAATTTAATCAGCTAAAAGAGATCCAAGGTAAAAAGGTAGATATCACTTGTGACCTATACCATGCAACCAATATTCATCACAAAACTCCGGTTCTTTGCAGTGTTGAACATTATGTTTTGGTTAAGTAATTGGCTGTATGGCATAAAACTGAAAACATAAAGTATCGTAGAAAAATGAAATAGGGCAACCTGCTATTCGTTTGTGATGAGTGACTGAAGGTACGATATTTTTATCTTTTTTTACCCTTTATTTTTTGCTCAAAAAATTTCCCTTTAAAAATAATAAGTTATATTCTGTCGTAGAAATGAAGGTATTTTGCATAAAATCGTTGTAATTTATTGTTGCGCTAAGATTTTTTCCTGATAATTTATA
+# Right flank :  ATTGGCGATATCGCACTCATGGATGATTTTCTGGTGTACTCCGGATGCAACTCCCGCTATCGCTGGCAACACCAGAGAAAATTGTAAAACCAAAACAAATAGTGAAAGTAAAACAAATTATGCGGGAACCATATATTTGACATAACCTAAAACAGCAAAGTTTATCGATTATATTCGTGAAGCATTACACCATCAACATGCAAAAAGGCATCTCTTAGTATTCCCAATGATTGAAACTCATTTAACTTATGATAATACGTCGACTCTACCTGTTCACGGGTAAGGCCTGTGAGGTAATCATTTTGTTGATTTGTTTCCCAATAAATCTCACCTTTTCCTTTTATGAAGTATCCTCTTAAAAATCCAGGCCATTTATCACGCATGTTAGATATCAACAGAGAGTGGCTATCAGGCTGTGTTGCTTGAAATTCATGAAAAAAATCACCTCTAAAGATAAAAATATTATTGCATTTAGTACATTGATAGATATCTCTTACATA
+
+# Questionable array : NO	 Score: 8.05
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.94, 5:0, 6:1, 7:2.02, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTACTGCCGCATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-50.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [246,161] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.42,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_014658069 [3848823-3850094]; Csy3:WP_004918643 [3851041-3852066]; 
+# Array family : NA
+# Sequence source strain : MRSN 2154
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii MRSN 2154
+//
+
+
+Array 5 3963734-3964061 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_017731-Providencia stuartii MRSN 2154, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+   3963734	    28	 100.0	    32	............................	AGAATTGCTAATGACCTTCTTGAGGCTGCTAT	
+   3963794	    28	 100.0	    32	............................	GATTGGCAGAATACGAAAGTAGGTAATACCGT	
+   3963854	    28	 100.0	    32	............................	AAGAACAACGCTCGTCCACTCTGACTGATTCC	
+   3963914	    28	 100.0	    32	............................	CTAGCTGGAAAGAAGATATGATAGGGGATGGT	
+   3963974	    28	 100.0	    32	............................	ATTGCTATAATTCGACCGAAATCATCTGGGTA	
+   3964034	    28	  89.3	     0	.C........A.............A...	|                               	
+==========	======	======	======	============================	================================	==================
+         6	    28	  98.2	    32	GTTCACTGCCGTATAGGCAGCTTAGAAA	                                	       
+
+# Left flank :   TTTTATATTTATGGATGACGCTCTAGCTAAAATATAAACACTATAGAATTTCTTTTCGATAAAAATCATTTGGGTAACTCTATTTTAATGCCATTAGTGTATAGCTGATGGTTATTTTATTTTTAATGGTGATGCAGAAAGGGCTAGGGGATAATTGGTCAATAGGTATGTTTAACTTTACTTATTTGGTTAACCGGGATTTTATTTTTTCTAAAAGGTAAAAAGCGACTTTCAGCTTAACTAATGATTTTATAGGGCCATCAAACTATCTGTTAGGTGTGTGTGAAATATTTATTTTAATAGTATTTAATGTATAAAAGGTTGGGTTAATTTTTTCGTCTAATCAGCAAGTGATTTTCCTTGTTTTTTACCCTTTAAATTTTTAAAGTTTTTATATCCTTTTAAAACAATAGGTTATGTTACCTGATAAAAAAGAAGGTATTTAAGGGGAAATTGTTATAATTTACTGTTGCATAAAGTTTTTTTACTGATAATTTATA
+# Right flank :  ATACGTTTTAATATAACTTAAAATTTCTACCTTATCCTTTCTAGCACACCCTCAATAAGATTTAGTGATTTTCACTTATCATGCAGAATAAAAGACTGCTATCCTTGATACGAAGTCAGAATAAGGCTTATGATATTTTGTACATGGAGGCTATTATAGGAATATTACCTATGGTGAGGAGGGGCGTTGATGTGTATTTTGAAAATACCAGCTCGGTGGAGGTATTTATATGAATAAGCTTTTTCGAATGTGCAACCTATTGCTATTAACTGCAAGCTTCTCAGTGGTTTCTTTATCTTCCTATGCAGATCCCAATCCCAATGGCGGTCATGGTCATAGGCAAGGAAAAGAGCATCAAAAAAATAAGCCTAACAAAGGTCATAATGGTAACGGAAAAGAAAAAGCAGATCATTTATCCTTAAATAAGAGTAATTCAATATCAGTATCATTAACTTACAATGAAGCAAGAGCACTCGCTTTAGACAGTGGTATTACAGGCT
+
+# Questionable array : NO	 Score: 8.17
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.91, 5:0, 6:1, 7:1.26, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTCACTGCCGTATAGGCAGCTTAGAAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:53.57%AT]
+# 	Reference repeat match prediction:         F [matched GTTCACTGCCGTACAGGCAGCTTAGAAA with 97% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-8.00,-7.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [80.0-71.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [465,229] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.46,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Csy1:WP_014658069 [3848823-3850094]; Csy3:WP_004918643 [3851041-3852066]; 
+# Array family : I-F [Matched known repeat from this family],   
+# Sequence source strain : MRSN 2154
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Morganellaceae; Providencia.; Providencia stuartii MRSN 2154
+//
+
+

@@ -1,0 +1,94 @@
+Array 1 385-20 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ACEQ02000069-Neisseria lactamica ATCC 23970 N_lactamica-1.0.2_Cont68.1, whole		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+       384	    32	 100.0	    35	................................	CAGAAAAAAGAGAAATAATCAATAACATTTTCAAG	
+       317	    32	 100.0	    35	................................	AGTAGTAGAGCTGCCAAATGCGTTGCCTTGGGAGC	
+       250	    32	 100.0	    34	................................	TTAGGGACGAAATATATAAGATACTACTTTAATT 	
+       184	    32	 100.0	    35	................................	AATTTTAGCCGCCCCGCAAACCTAGAGGAGCAAGC	
+       117	    32	 100.0	    34	................................	TATAGATTGGTTGTCATTCACGATGCACGAAGAT 	
+        51	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+         6	    32	 100.0	    35	TCAGCCGCCTCTAGGCGGCTGTGTGTTGAAAC	                                   	       
+
+# Left flank :   CATGGAGGGACAAGAAAATGCTGATGTTGATAACTTATGATATTTCGTTGGAAAATGCCGAAGGGCAGGCAAGGCTGCGGCGCGTAGCGAAACTGTGCCAAGACTACGGCGTGCGCGTGCAGTATTCCGTGTTCGAATGCGACATCGCACCCGACCAATGGGTAGTTTTAAAAGACAAACTTTTAAAAACCTACAACCCCGAAACAGACAGCCTGCGCTTTTACCACCTGGGCAGCAAATGGCGGCGCAAAGTGGAGCATCACGGCGCAAAACCGGCGGTCGATATATTTAAGGACACGCTGATTGTGTGAATCGCCAACCTGTTGTTCCCATAAAAATGCGGCAGGGTTGGCGAATCTGGGTTGTTCTTTAACAATCAGGATATTGCAAATGTGGATATGGCGGATAAGGCTGTGCTATACTCATGTTTGTGCTTTTTTCGGGAGTTTGGCGAAGTCGGGGCTGCGAAGCCTGATGTAGTAAGGCTTTCGGAAGAGGCT
+# Right flank :  CCGCCAGCAGTTCGGTGGCG
+
+# Questionable array : NO	 Score: 8.45
+# 	Score Detail : 1:1, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.75, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCAGCCGCCTCTAGGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [8,5] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-5.20,-5.90] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [8.3-41.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [21,190] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.82   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_003714710 [574-867]; 
+# Array family : NA
+# Sequence source strain : ATCC 23970
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.; Neisseria lactamica ATCC 23970
+//
+
+
+Array 1 48-1187 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_ACEQ02000077-Neisseria lactamica ATCC 23970 N_lactamica-1.0.2_Cont76.1, whole		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                 	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	================================	===================================	==================
+        48	    32	 100.0	    34	................................	ATCAAGCCCTATATCCAAGAAACAATAAACCACT 	
+       114	    32	 100.0	    34	................................	ACACATGCAAAGCAGCTTGTAGCCTATCTAGGAC 	
+       180	    32	 100.0	    35	................................	AAAAAACCATACCGACCCCCACGGCGCAGCAGGAA	
+       247	    32	 100.0	    34	................................	AGTTGACGGCGTATGCCCCGAACCTAAAAGCGTA 	
+       313	    32	 100.0	    35	................................	CTTGTCTTAATAGTAACAACTGCATTGAGACCGTA	
+       380	    32	 100.0	    33	................................	TTTTGAACAACGTTTTAAAACAACAGAGCAGGA  	
+       445	    32	 100.0	    34	................................	CGTCTTCGCCGCGCTGAAAAACGCTTATTTCGCC 	
+       511	    32	 100.0	    35	................................	CATAATCGGCGGTTTTGTTCGATGCTCCGCTTGGA	
+       578	    32	 100.0	    34	................................	GTTCCGTGGTCGGCAATCTGTCCCTGATTGTAGA 	
+       644	    32	 100.0	    34	................................	GTCCCATTTATAGTCGGAATTTGTCCTATCATAG 	
+       710	    32	 100.0	    34	................................	AATAGATACAATCGAGCATCGGGGCGACGCATAA 	
+       776	    32	 100.0	    34	................................	AACAAACCAACCAACGAGTGTGCGGCATATCGGG 	
+       842	    32	 100.0	    22	................................	AAAATAACCTTTGAAAGGCAGA             	Deletion [896]
+       896	    32	 100.0	    34	................................	AGCGCAGCCGTAGTCAACGCAGCGGCAGCCAAGG 	
+       962	    32	 100.0	    34	................................	ATCAAGCCCTATATCCAAGAAACAATAAACCACT 	
+      1028	    32	 100.0	    34	................................	ACACATGCAAAGCAGCTTGTAGCCTATCTAGGAC 	
+      1094	    32	 100.0	    30	................................	AAAACCATACGACCCACGGCGCAGCAGGAA     	
+      1156	    32	 100.0	     0	................................	|                                  	
+==========	======	======	======	================================	===================================	==================
+        18	    32	 100.0	    33	TCAGCCGCCTCTAGGCGGCTGTGTGTTGAAAC	                                   	       
+
+# Left flank :   TGTGTGTTGAAACAGCGCAGCCGTAGTCAACGCAGCGGCAGCCAAGGT
+# Right flank :  AGT
+
+# Questionable array : NO	 Score: 7.15
+# 	Score Detail : 1:0, 2:3, 3:0, 4:1.00, 5:0, 6:0.7, 7:0.45, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCAGCCGCCTCTAGGCGGCTGTGTGTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,8] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-5.90,-5.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [31.7-3.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 23970
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Neisseriaceae; Neisseria.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromACEQ02000077.FEATURES             Location/Qualifierssource          1..1190/organism="Neisseria lactamica ATCC 23970"/mol_type="genomic DNA"/strain="ATCC 23970"/isolation_source="biological product [ENVO:02000043]"; Neisseria lactamica ATCC 23970
+//
+
+

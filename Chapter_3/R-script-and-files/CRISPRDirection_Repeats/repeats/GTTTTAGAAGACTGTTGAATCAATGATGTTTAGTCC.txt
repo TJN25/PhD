@@ -1,0 +1,187 @@
+Array 1 5379-5724 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AZEY01000105-Lactobacillus diolivorans DSM 14421 NODE_224, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                 	Spacer_Sequence                                            	Insertion/Deletion
+==========	======	======	======	================================================	===========================================================	==================
+      5379	    48	 100.0	    59	................................................	TAAGGGTGATTCGCAGTCAGCAAACAATATTCCTGGTTTGGGAATATTGTTTGCGGGGG	
+      5486	    48	  79.2	    36	....................GGTTGC...........CA....GA...	CAGGGAGATTTACAGTTAAAAAGCTCAAAACGAAGC                       	Deletion [5570]
+      5570	    48	 100.0	    59	................................................	TAAGGGGGATTCGCAGTTAGCAAACAATATTCCTGGTTTGGGAATATTGTTTGTGGGGG	
+      5677	    48	  97.9	     0	.......................................G........	|                                                          	
+==========	======	======	======	================================================	===========================================================	==================
+         4	    48	  94.3	    52	CTTATATGGCCGGAAGCTGCTCGGCTTTTGCACGTTTTGACTAAGTAA	                                                           	       
+
+# Left flank :   TCATAAAATCGATGTGGTTGAAAAAGGGTTGGCAAAATGGCAGCCGGATCCAACTGATGGTTTAGACGTTTTAAGTAAAGTTGGCGGTTTTGAAATTGGTGCAAAGGCTGGCGCAATGATTTGTGCGGCGGCGCATCATGTCCCACTCATTATGGATGGTTTTATTTCGTATGCTGCCTTGGCTTTGGCTGAAGCGATGTGTCCGGGAATCCAGAGGTATGTGATTGCATCGCACGCAACGCGGCAGGCAGGAACCAAAGCAATTTTGAAGAAGCTGGGAGTCACACCAATGTTTAATCTGGGAATGGCAACCGGAGAAGGTAGTGGCGCGGTGGTAACGTTGGCTTTGATTGACGATATCCAGTCAGTATTGAAAAATATGACGACTTTGGAGGATATGGGGGTGAATTTCACGGCGTAGAGTGCAAAACCGAGCGTTTAGCTTCCAGAATATAAGGCACTTAAACCCAGATTCTTGTTTTGAATCTGGGTTTAAGTGC
+# Right flank :  ACAAGGGTGATTCGCAGTCAGCAAACAATATTCCTGGTTTGGGAATATTGTTTGCGGGGGCTTATATGGCCGGAAGCTGTCCCTTTTTACACGTTACACACGTTGATCATAATATTTTAACGTTAAGGTTTCGACGACATTTCGATACGACAGGCAGAGATAAAGAATGATTAAAACTCGTGTGGTGCTAAACGTAAAGTGAATGGGGATGAAGACGCTCATAATTCCGATAATTGAGACAATCAATAGTAAAAAGTCATCGTATTTTTGAGTTATCGTATTTGATTTTGCCAAAACGTAATTCCAGCGCTCGTCATTTTGATACTTTATCCCTTGGTCTGCCTTATATTTTGCAAGATAAAGGGTGAAGAAGAGTGAAACTAGAACTAAACATACGATGATAATTTGATCCATGGCTATACCTCCGCTTTATAAAAGATGTCAGTGATAGAAACGTCAAACGCCACTGCAATATCAAACGCCAATTCCAGGGATGGTGT
+
+# Questionable array : NO	 Score: 2.26
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.71, 5:0, 6:-0.25, 7:-0.60, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CTTATATGGCCGGAAGCTGCTCGGCTTTTGCACGTTTTGACTAAGTAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:54.17%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-9.40,-5.20] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [10-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [61.7-51.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [81,93] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.64,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_057866116 [136307-136603]; 
+# Array family : NA
+# Sequence source strain : DSM 14421
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus diolivorans DSM 14421
+//
+
+
+Array 2 50203-50408 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AZEY01000105-Lactobacillus diolivorans DSM 14421 NODE_224, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                       	Insertion/Deletion
+==========	======	======	======	==================================	======================================================	==================
+     50203	    34	 100.0	    50	..................................	CCTATTTCTGGGTCTGAATATTAGGTTGGGAGGCTTATATGGCCGGGAGC    	
+     50287	    34	  94.1	    54	.......T............A.............	TCCAAGATCTCCAGTTTCAGAATATCTGGTTGAAGTACTTATATGGCCGGGGTT	
+     50375	    34	 100.0	     0	..................................	|                                                     	
+==========	======	======	======	==================================	======================================================	==================
+         3	    34	  98.0	    52	TGCTTGGCTTCACACGTTTCGGCTAGGTAGCCAG	                                                      	       
+
+# Left flank :   GGTGGCTATGTTTGGATTCGGTATGATGATATTAAGCGGTTCATTACGGATGCGGATTATTTAAAGATTATTGATCAATTCGTTAAGGTAAATAAAGCGGCTAAGAACTTTGCGTTACCGGTATTAAATGCAGACCGAGCATTTGACAACGCTGATGATATCTTGGTTCATGTCTTAACGCAGGCAATTCAGTATCATCGCTTGATTAGATTCGAAATGACCAACCAGGATAATTTTGTTGGTTATCCAACAAATTTTGATTTTGCGAGTGGTCTGGTAACGGTGGAGTTGCTGGATGTGGATGAGCAGGACGAAGAATTGACAAGAAAAATCGGTGTGGAATCTATCAGAGAAATGGCTTTTGATTACTTTAGGGCTTATTTGGTGGAGAATAATGTATAAAGAGTGGGAAACCAAGCGGTTAGCTCCCAGAATATAAGCCTCTCAACCTAATATTCTGGGTCTGAATATTAGGTTGAGAGGCTTATATGGCCGGGAGC
+# Right flank :  GTCTATTTCTGGTTTTGAATATTTGATTGGTGGGCTTATATGGCCGGGAACTGCTGGGCTTTCAAGCGCTTTCAGTCTAATCAGCTATTATTTAATGTGTCGGTTTTTGGGATAACCACTTAAGAAGGGAGACATAGAAGACCATGCCAAAGAAAACCAATTCTCGTTTACCAAAGTGGTTAAGGGACACCTTACAAACAGCCACCTTAATTGTTGTTTTGATGGTTTTATATAACTTGATAGGGCCACTTGTGTACAAAAACGGCTCGTATTTTCCATGGTGGACGGTTCCTTATTCGATTGTCAGTGTTTATTTAATAATCGGTGCTTGGAACTTTATGGTGGCAAAATTGAAGGCAACCAACCAGAAATTGGTTGATGAAGAGAATCGCCAAAAGCAAAAGCAGGTCGAACTGCGTCAACAAAATGCCGCTAAGCAACAGGGTGAGGCTGAAAAACGTCGCCAACGTAATCAGCAGCATCAGACTAAATCGAGGTAA
+
+# Questionable array : NO	 Score: 2.45
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.90, 5:0, 6:0.26, 7:-0.80, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGCTTGGCTTCACACGTTTCGGCTAGGTAGCCAG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [5,10] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.40,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [100,143] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_057866116 [136307-136603]; 
+# Array family : NA
+# Sequence source strain : DSM 14421
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus diolivorans DSM 14421
+//
+
+
+Array 3 137299-142214 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AZEY01000105-Lactobacillus diolivorans DSM 14421 NODE_224, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+    137299	    36	 100.0	    30	....................................	TGGCAAACCGGTTTCTGCTTTCAAAACTGC	
+    137365	    36	 100.0	    30	....................................	CCTCAAGATTCGAATATTTTCCATCATACC	
+    137431	    36	 100.0	    30	....................................	CTGACGATAATGATGGTAATACTTACTTAG	
+    137497	    36	 100.0	    30	....................................	ACTAACCAGCTTAAAAGAGGGTCAGTGGAC	
+    137563	    36	 100.0	    30	....................................	GGCATCGCAGCCATTTTCTTCAAATGCATG	
+    137629	    36	 100.0	    30	....................................	TGATCAAATTAGTGATGACGCGTTAGCAAG	
+    137695	    36	 100.0	    30	....................................	CAATACGTCAACTTTAGTGTTGCGGTTAGA	
+    137761	    36	 100.0	    30	....................................	AAAAGATTGACGATAAGAAGCTGAGTGAAT	
+    137827	    36	 100.0	    30	....................................	ATAGAAGTGCTTATTGGCCCGGTTATGATC	
+    137893	    36	 100.0	    30	....................................	TCCTTATCTGTTGATTTTGTCGTTAATAAT	
+    137959	    36	 100.0	    30	....................................	GAAAAGAAAGTTACGGGTAATCAATCACCA	
+    138025	    36	 100.0	    30	....................................	AACATCACTAATAAACTCGGCAAATTCAGC	
+    138091	    36	 100.0	    30	....................................	TTCGCTTCCGTGTGATTTTTGGGTGTACAC	
+    138157	    36	 100.0	    30	....................................	ATGAGCCATTTGTGCATAATACGGAGGTAG	
+    138223	    36	 100.0	    30	....................................	TTTCTCCAGAGGAAATGGCCTCTGGAGGCG	
+    138289	    36	 100.0	    30	....................................	AACCGGACTGCTTAAAAAGCCATCTGGCAA	
+    138355	    36	 100.0	    30	....................................	AAACAACTCGTGCACCTGGTGTAGAGCATC	
+    138421	    36	 100.0	    30	....................................	AATCTATTTATGTAACAAAAAAGCAGTCTT	
+    138487	    36	 100.0	    30	....................................	ATGATGTTTCTGGTGCAATGGTCAAGCTAA	
+    138553	    36	 100.0	    30	....................................	TGACCAGATTTAGCCATTCCTGTTAGCTTA	
+    138619	    36	 100.0	    30	....................................	ACGATATGAAGCAAGGCTTAATCAAAACAT	
+    138685	    36	 100.0	    30	....................................	TATTCCTCCTAAAAATCAACTTTGTAAGCT	
+    138751	    36	 100.0	    30	....................................	GCCGTTGTCGTCCATAAAAACAGTGCCTTC	
+    138817	    36	 100.0	    30	....................................	AATATTTTAGCAATTCTTCCATCTCTGCTG	
+    138883	    36	 100.0	    30	....................................	TTAGTGAACATTAATATTGCTGAATTGCTT	
+    138949	    36	 100.0	    30	....................................	GAAAGTTGTTAATAATATAACTAAAATAAG	
+    139015	    36	 100.0	    30	....................................	CAAGCTTGTCCGCAACATAAGCGGCAGTAA	
+    139081	    36	 100.0	    30	....................................	CAAGACGTTTATCACAGTATGGATTCTGCA	
+    139147	    36	 100.0	    30	....................................	AACGTGAGAAAGATGCCCTCAACGCTGCTA	
+    139213	    36	 100.0	    30	....................................	ATCTGTTGTATCTGGTGTGTTAGTGTCTTT	
+    139279	    36	 100.0	    30	....................................	ATGGGAAAGTTTCTAATCAATCTGGCAAGA	
+    139345	    36	 100.0	    30	....................................	GCAGACCGGGTTCACTACAGCCAGCGAAAC	
+    139411	    36	 100.0	    30	....................................	AGATTTAAAGATTCAAGAAGCAGAGTTAGA	
+    139477	    36	 100.0	    30	....................................	GTAAGCAAATAGCATAATTGTATTCCAGCT	
+    139543	    36	 100.0	    30	....................................	TTCTCATTTTTGATAATTGGAATCTGTTCA	
+    139609	    36	 100.0	    30	....................................	CCTCAAATGCCAATGAGATTGTTTCACTGA	
+    139675	    36	 100.0	    30	....................................	AATATAGGTATTGACTGGTAGTTAATGTAC	
+    139741	    36	 100.0	    30	....................................	AAAGGTCAGGTGAATTGTAGAGCGACGTTA	
+    139807	    36	 100.0	    30	....................................	AGTTCGGCAAGATTTAACTGTTGGCTTACC	
+    139873	    36	 100.0	    30	....................................	CTTATCGGACATAGAATTCACCACCCTTAA	
+    139939	    36	 100.0	    30	....................................	TTAAATCTGCAATCATCGGATGGCACCCAA	
+    140005	    36	 100.0	    30	....................................	ACGGAAAAGAGTGATCCAAATGCCTAAACT	
+    140071	    36	 100.0	    30	....................................	TTAAATATAAAAAAACAACTTCATCTGCCA	
+    140137	    36	 100.0	    30	....................................	GAGCAGAAGATTCGTGCCATTGCATTCCCA	
+    140203	    36	 100.0	    30	....................................	ATTGGTGCTGGTAGTCCGATAAGAACTTTA	
+    140269	    36	 100.0	    30	....................................	TTTGGTTTTCAGACATTTTTCTTACTTCAC	
+    140335	    36	 100.0	    30	....................................	AGTAACCAATGTGGATAAGGAGGTGTCACG	
+    140401	    36	 100.0	    30	....................................	AGTGGAGTGTTGCTTGATTCAATTACATTA	
+    140467	    36	 100.0	    30	....................................	AAATGTCAATTTAGTTTGAGTAAAATGCCG	
+    140533	    36	 100.0	    30	....................................	AGTCGAAGAATTGCCATGCTTAGTATCCTT	
+    140599	    36	 100.0	    30	....................................	GCTGCCCTTTTTATTTTTGGCTATGGGGTA	
+    140665	    36	 100.0	    30	....................................	AAGACAATTCTGATGAGTTAACTCCCCAAC	
+    140731	    36	 100.0	    30	....................................	GTGGTGAAAATGTTGGTTAAAAACGTGATT	
+    140797	    36	 100.0	    30	....................................	GAATATCATCTGGGATACCAACGTATATCT	
+    140863	    36	 100.0	    30	....................................	CATTAATATCTTCGCCAACAAAAACACGTG	
+    140929	    36	 100.0	    28	....................................	TCATGTGGGACTATCCAGTGCCACCAGC  	
+    140993	    36	 100.0	    30	....................................	GTTTTGGACAATTACAGCAACAAAAAGAGG	
+    141059	    36	 100.0	    30	....................................	GAGAAACGTTGCTTGAGGATCCCAGAGTTG	
+    141125	    36	 100.0	    30	....................................	ACTGATGATATTAATCAAGCTATCTTCATT	
+    141191	    36	 100.0	    30	....................................	GGTCAGCACACTATTTACTATCATATCTGA	
+    141257	    36	 100.0	    30	....................................	TGCTAGTGGTTTCGGGTCGGCTTGCGGTGC	
+    141323	    36	 100.0	    30	....................................	AAGTAAAGCAAGGGTTCCTAAGTAACGATT	
+    141389	    36	 100.0	    30	....................................	CGATCCTTGAAATATAATCATAGTCCTTTA	
+    141455	    36	 100.0	    30	....................................	TCGAACCAATTATCGAAGTGGCGGAGAATG	
+    141521	    36	 100.0	    30	....................................	AGGCAGACGCACTCGCTTTGGCCGACATCA	
+    141587	    36	 100.0	    30	....................................	AAAAAAGCCATGGAAGAAAATACCAAGGCG	
+    141653	    36	 100.0	    30	....................................	AGTGGTCTAGGAACAGTTGTCGGGGTTGTT	
+    141719	    36	 100.0	    30	....................................	CTAAGGATAACGACATTAGTTCATTCTCTA	
+    141785	    36	 100.0	    30	....................................	TCATTTATTAAAATGGCGACTAATGACGAC	
+    141851	    36	 100.0	    30	....................................	CCCGCTTTGACAATGATGCTGTCATTACGT	
+    141917	    36	 100.0	    30	....................................	CTTAATGGCTAATAGACTTACCGATCGCCA	
+    141983	    36	 100.0	    30	....................................	ACCTCAGCACTCCAGCACGTGCATCCGGAA	
+    142049	    36	 100.0	    30	....................................	AGTGTAAGCCATATGAATTACTCAAACCAA	
+    142115	    36	 100.0	    29	....................................	TTTTCAATAAAAAATTAGGTTATCAGAAT 	
+    142180	    35	  83.3	     0	..A..........A.C........A.......-A..	|                             	
+==========	======	======	======	====================================	==============================	==================
+        75	    36	  99.8	    30	GTTTTAGAAGACTGTTGAATCAATGATGTTTAGTCC	                              	       
+
+# Left flank :   CTTCAGAAAATCTGACCGAGCAATATGGCTCATTATTAATGAAACAACTTGAGAAAACGTTAACTGATGATCAGCGTAAAACACTTAGCGATCTAAATGACAAATTGTATACGGCAGTTCAAGAGTCGCTGTTTATGATTGATTTACCACTAGAAGTCAAAAAAGATGATGACCTAAAACGAATGTTCAAATATTGCAAAATTCACTTTAACGCTGATGCAATGCGGGATCCCTATGCTATAATTGAATCAATTCTAAAGGTTCACTTGGAGTGCGGCGAAAAGTCATGTATCGGATTAACTAATGTCGCTCATTATCTTAATCAGGATAAGATGCATGATCTGGATACACTCATTAGCACAGTAAAAATTCCAGTGATTATGATAGAATTCACAGAAATGAAGTTTCAGACGCTTTATGGAAATGCTGAATTCTACTACTTCGACGAAGACTTCGTTGATTGGCATTCTTGATTCTTAAAATACGATTATAAAAAATCG
+# Right flank :  CAGTCGGTTTAGCGAACCGATATTTAGAAGTAAAAGTACCATTTCATTTATTTTCAACCAAATTCATTCCATCCGAGGCCACACCCATGAAAAAAATCATCCAAGCCATCCTACTAACAACAATCACCATACTATCAATCATCCTCACAGCCACCACCACCCACGCCGCCAATCTCCAACCCTACATGATCCACGACCAACGCCACATTCTCACGCCAGTCCAAAAGCAACAAATCATCCAACAGAATGAGCAATGGTCTCATCAGCGTCGGCGCCAGCAAATCTGGGTTTACACGTTTAAGCAGATGCCAAGTACCATCAAGGATGACCTCAGCGACGATGATAGTACGGGCGAAATTTCAGACGATGTTTCCACGTCAATTCTGACCAAAGCCGTTAAAAGTTATACACCGGCCGATGGTGATTATGATCGGGACACAATGATCGATCAGCGGCTTTCATCTCTAACCAATCAAGTCTCAATCTTGGTGGTTTATCCA
+
+# Questionable array : NO	 Score: 5.26
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.27, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTTAGAAGACTGTTGAATCAATGATGTTTAGTCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.30,-0.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-68.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [29,86] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.18   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_057866116 [136307-136603]; 
+# Array family : NA
+# Sequence source strain : DSM 14421
+# Taxonomy hierarchy : Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;Lactobacillus.; Lactobacillus diolivorans DSM 14421
+//
+
+

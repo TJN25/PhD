@@ -1,0 +1,82 @@
+Array 1 517-57 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH414490-Desulfitobacterium hafniense DP7 Scfld684, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                                                         	Insertion/Deletion
+==========	======	======	======	==============================	========================================================================	==================
+       516	    30	 100.0	    36	..............................	GATTCAATCTCGCCGCTCAAGCGGCAATGTGGTTCA                                    	
+       450	    30	 100.0	    36	..............................	GACGCATGCCCCGGTGAGGTGCTGAACGCTGTCGAA                                    	
+       384	    30	 100.0	    35	..............................	GAGTGTAGTCAGGCCCCCAGCCAGATTCAGCATTT                                     	
+       319	    30	 100.0	    72	..............................	ATCTTAAGGCCAGCAGCGCGGGAATGGCAGATGATAGGTTGTTAGCTTACCTATAAGGAATTGANNNNNNNN	
+       217	    30	  93.3	    36	NN............................	TGAAATCACTGCTGATGAGTACAACACCCTCACCAT                                    	
+       151	    30	 100.0	    35	..............................	TGTTGTGGAGGAGTACGAGGGCAAGGTTAAAAAGA                                     	
+        86	    30	 100.0	     0	..............................	|                                                                       	
+==========	======	======	======	==============================	========================================================================	==================
+         7	    30	  99.0	    42	GTTGTTAGCTTACCTATAAGGAATTGAAAC	                                                                        	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTGTTAGCTTACCTATAAGGAATTGAAACTAACCTCCTGCAATATTATTTTATTTTCTGTTATGGTTGTTAGCTTACCTATAAGGAATTGAAACTCTTTAGGGCTATCCTGTTTTGGGTTAGGTGGTTCTTGTTGTTAGCTTACCTATAAGGAATTGAAACTCATGTTTCGCCTTTCACTCAGGCACTCTTTCCACAGTTGTTAGCTTACCTATAAGGAATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTAGCTTACCTATAAGGAATTGAAACGCGCTGAAGATTGCCCTTTTATACGCACTATTACCCG
+# Right flank :  CTTCACTTCAGCGTTGGTTAACTTTTTACCTCCTTGTAAGATAGATATTGGGTTAAG
+
+# Questionable array : NO	 Score: 10.35
+# 	Score Detail : 1:0, 2:3, 3:3, 4:0.95, 5:0, 6:0.99, 7:0.41, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTTAGCTTACCTATAAGGAATTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:66.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [60.0-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [58,1233] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,4.68   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_005816131 [3387-4082]; Cas7:WP_035214550 [4122-5072]; 
+# Array family : NA
+# Sequence source strain : DP7
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae;Desulfitobacterium.; Desulfitobacterium hafniense DP7
+//
+
+
+Array 2 1112-764 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JH414490-Desulfitobacterium hafniense DP7 Scfld684, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                                                                          	Insertion/Deletion
+==========	======	======	======	===============================	=========================================================================================	==================
+      1111	    31	 100.0	    34	...............................	TCGTTGCGTGCGCGGAACAGAAGCGTACTCAGTC                                                       	
+      1046	    31	  93.5	    89	.............................NN	NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN	
+       926	    31	  96.8	    34	N..............................	AACCTCCTGCAATATTATTTTATTTTCTGTTATG                                                       	
+       861	    31	 100.0	    36	...............................	CTTTAGGGCTATCCTGTTTTGGGTTAGGTGGTTCTT                                                     	
+       794	    31	 100.0	     0	...............................	|                                                                                        	
+==========	======	======	======	===============================	=========================================================================================	==================
+         5	    31	  98.1	    48	GTTGTTAGCTTACCTATAAGGAATTGAAACT	                                                                                         	       
+
+# Left flank :   TAAGAATTTAAAGCTTGGTACGGGGAGGCTATACGTGGCTGGCAGGAGGTCCAATCCCTAATCCAGCCATCTTCTGTCATTTAACCCAGAGCGGATGCGATAGCATGGAGAGGCTTTGAGGAGAACTAGTTAGTGAAGGTATAAAAATGGAGAGGGAGCCAACCAAGGTGATGGTGAGTGCTTGAAGGATTTTATCTTTGCTTTCAGCGTTCTATATGCTAACATGATCAGGAAGGGTAGAAATTGATAGCCTGATGTCGAAGTGGGTTAGATAGGACTAGTAAGTCTATACAATAGTAAAAAAGGCGATAAATATAAAAATTACGAGTTATTCAGAGTCAGGATTTCAGCATGTATTTTGTCGTCGATGTGCAGTAAGGTAAAAACCCCTGGAGACCGACGACAAAGAATAGGGCCAAGTAAGCGGATTGAGGAGCAAAGATCAGTTTGGATAAATTCGGGTGCTTGCCGAAGATGCTGATTTAATGCGGGTAAAATGG
+# Right flank :  CATGTTTCGCCTTTCACTCAGGCACTCTTTCCACAGTTGTTAGCTTACCTATAAGGAATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTAGCTTACCTATAAGGAATTGAAACGCGCTGAAGATTGCCCTTTTATACGCACTATTACCCGGTTGTTAGCTTACCTATAAGGAATTGAAACGATTCAATCTCGCCGCTCAAGCGGCAATGTGGTTCAGTTGTTAGCTTACCTATAAGGAATTGAAACGACGCATGCCCCGGTGAGGTGCTGAACGCTGTCGAAGTTGTTAGCTTACCTATAAGGAATTGAAACGAGTGTAGTCAGGCCCCCAGCCAGATTCAGCATTTGTTGTTAGCTTACCTATAAGGAATTGAAACATCTTAAGGCCAGCAGCGCGGGAATG
+
+# Questionable array : NO	 Score: 5.31
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.90, 5:0, 6:0.34, 7:-0.73, 8:0.8, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGTTAGCTTACCTATAAGGAATTGAAACT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         R Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:67.74%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.20,-0.60] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [58.3-56.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [765,638] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,4.5   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas5:WP_005816131 [3387-4082]; Cas7:WP_035214550 [4122-5072]; 
+# Array family : NA
+# Sequence source strain : DP7
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae;Desulfitobacterium.; Desulfitobacterium hafniense DP7
+//
+
+

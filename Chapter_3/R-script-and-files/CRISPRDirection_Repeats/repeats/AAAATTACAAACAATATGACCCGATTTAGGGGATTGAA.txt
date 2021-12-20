@@ -1,0 +1,97 @@
+Array 1 103617-103433 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MJLS01000003-Campylobacter sp. S0112 .11826_7_59.3, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	======================================	===================================	==================
+    103616	    38	 100.0	    35	......................................	ATAATATTTCTTGAGAGGCTTTCAGGTTGTCCCTA	
+    103543	    38	 100.0	    35	......................................	TTAAACTTATTGATAAATCATCCACTAATTCTTTT	
+    103470	    38	  92.1	     0	..T.........G......................C..	|                                  	
+==========	======	======	======	======================================	===================================	==================
+         3	    38	  97.4	    36	AAAATTACAAACAATATGACCCGATTTAGGGGATTGAA	                                   	       
+
+# Left flank :   TTATCAATTTAAAGAAAAATTAATAGATTTAGATTATAACTAATGCAATAAAAATAGTAGCCAAATAAGCTTTATAACATAAAAATAAAATTATTAATAAAATTTAATTTTTAAATTATTTTTAACATAATATTTGATAATATTTTTGATTGTTTTTAGGATGGGATTTGGCTAGGCTATTTTTATTAATTTCACATACATTATCACCTGAGCAGATTAATGATGCTAGAATTAGCCTTGGGGTTAGTAAGATTATCAAATTTGACAAAGAGCTAATGGCTAAATGGATGAATATTCCGCCTAAGATTAGTGATTTGAGCGAGTATTTAGCTGAGTTTAGAGAAGCTTTATTGTCATGTAAAGCTGGGGATTTTATCTTAATACAAGGGGAATTTGGCGCTACATATCATATGGTAAATTATGCCAAAAGTATAGGATTAAAACCAATATACGCTACTACTGCTAAGGATTCTAAAGAGCTAATTCAAGATGGAGTAACT
+# Right flank :  ACTCATATTAATCATTGTTGCTATATAATAGATAAGGGAGCAAATTATGATATTTATATTCAAATTACTATTTTTTTATTGTTACTAGTAGCTATTTTAAATAAAATTTTTATGATAGATATAGATTTAGCACAATATATAGCTATAGGCTTGATGGTTTTTTATTACTTTTTTTTATTATCTTTTTTGTTATTTATACCAAAAAGAGTTAAAAAGAGCCAAGCAAGATAAGATAAAAAAAGCATATGATTACTCAAAAATAGTAATCTAATTGCTATTTATCCTTAGCGCTATCTCGCAAATAATATAAGCCAATTTAAAAGATTAAAACTATTCTTATATTAGTTTATCAATATGATGAGTATTAGAGCCTTATGTGGCTCTAAGGTTATTTAGCATCCCAGGCTAAGACTGTATTACCAAAAGTATCGCTTAAAACATCACCCATACCCATGATATTATACCCAGCATCTACATAATGCACTTCACCAGTTACACCA
+
+# Questionable array : NO	 Score: 4.65
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.87, 5:0, 6:0.29, 7:1.40, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     AAAATTACAAACAATATGACCCGATTTAGGGGATTGAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:68.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.60,-5.10] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [3-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [78.3-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [390,576] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.27,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Cas4:WP_086247327 [109233-109799]; Endonuclease Cas1:WP_086247325 [108006-108962]; Endonuclease Cas2:WP_086247326 [108963-109232]; 
+# Array family : NA
+# Sequence source strain : S0112
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;Campylobacteraceae; Campylobacter.; Campylobacter sp. S0112
+//
+
+
+Array 2 110010-111723 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MJLS01000003-Campylobacter sp. S0112 .11826_7_59.3, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                      	Spacer_Sequence                        	Insertion/Deletion
+==========	======	======	======	=====================================	=======================================	==================
+    110010	    37	 100.0	    37	.....................................	TATTTGATTGAGTTCCAAATACGCTTTGAGTTGTAGA  	
+    110084	    37	 100.0	    34	.....................................	CCATCTGCAAAGGCTAACTGCATAGCTTCATCTA     	
+    110155	    37	 100.0	    36	.....................................	TATAAGGGGCTTGGGTTTCAATTGCTATAAAATAAA   	
+    110228	    37	 100.0	    34	.....................................	ATAAAGCACTGGACTATCTAAAGTGCTATGAGTA     	
+    110299	    37	 100.0	    39	.....................................	TCAGCCATATCTTTTACCTTGACTAAAACACCCACTAAA	
+    110375	    37	 100.0	    34	.....................................	TCACTTGTCTTATGGCTTGATTGCTTTTTGCTAT     	
+    110446	    37	 100.0	    37	.....................................	ACGCAAGTAGCACTTCAAGCCCAAGTAACAGTTAGCA  	
+    110520	    37	 100.0	    35	.....................................	TTAGTTTTTATTAATTTTTATTGTATATAATTAAA    	
+    110592	    37	 100.0	    36	.....................................	ATTGTTTTAGGCATTTTTGAAATATTCAAGAGTATC   	
+    110665	    37	 100.0	    38	.....................................	ATGGCTCTGTGAGCTATGATCAAGGGTTTGGCAGTTTT 	
+    110740	    37	 100.0	    36	.....................................	TTATGGCAATGCCTAAAAGCGGTAATAACTCTAATA   	
+    110813	    37	 100.0	    39	.....................................	TCATTGACAATTTAGGCAGAAAGCAAAATGCAACTTTTA	
+    110889	    37	 100.0	    33	.....................................	TTAAAATACAGTGTATCAGTTTCCTCTAAGTCA      	
+    110959	    37	 100.0	    36	.....................................	TCATCTAAAACCATCTATATTTTAGCTGGGACTGCA   	
+    111032	    37	 100.0	    35	.....................................	ATTTGGCTATGAAGCACTAAGCAACTCTAAGCTAG    	
+    111104	    37	 100.0	    38	.....................................	AAATATTCTAGGGATACTCGCCCCATCGGTAGTATACT 	
+    111179	    37	 100.0	    37	.....................................	TCAGAGATTATCTTATTAAGATATAGATTTTTATTTT  	
+    111253	    37	 100.0	    35	.....................................	TTTCAAGATTTGTATTCTAATATGGTAAATTTTAT    	
+    111325	    37	 100.0	    35	.....................................	GTTAGCGTTCGAGTTTAATGCTTTATTAGATGAGT    	
+    111397	    37	 100.0	    35	.....................................	TTAGAGAAAATTATAGTTTTATAATTTATCTTGAC    	
+    111469	    37	 100.0	    34	.....................................	AAGATTGCGGTTTAGTCTTTGTTTTATATAAAAA     	
+    111540	    37	 100.0	    36	.....................................	TTAAAGCATTTTTATTCAATTAAAGGTAAAAAAACC   	
+    111613	    37	 100.0	    37	.....................................	AGCCTCTCTCTAAGCTCATCTATTCTTTGAATTTGCG  	
+    111687	    37	  97.3	     0	....................................A	|                                      	
+==========	======	======	======	=====================================	=======================================	==================
+        24	    37	  99.9	    36	GTTGCAAATTATACCACAAACCAACTCGGTTTGAAAC	                                       	       
+
+# Left flank :   AAAATCAAACCAAGCCAATACTAAATAAAGGGACTAAAATGCAACTTATAGCCTACTCAAAACTAGCAAGCAAACATTTTAATAAGCCATTTTCTAAGATAATGCTAATTTGCGGTAATAATCTTAAATTTAAGATATTTGATATAAAAAACGATGATTTAGCTCAATTTGATAACATAATAAACAAGATTGATAAAATGCTAAATCAAGAGCTATTTCCACAAAGTTGTGCTAGTATAGCTGCTTGTATGCAGTGTGAATTTAAGAACTACTGTGATGATAGAGAGTAATACCGGGGGTGCCAAAGGCAGTTGCCCCGATCTGTTAACACCTTTAGGTGATTTCAAACGCTAAAGAGTTAATCTGTAGTATAATTTGCATTTGTATTATAGCTAAATTTTCCCACAAATTCGCTATTTTTAGCATTTTTTTTCAAAGTGGAAAAATTAATACTTCTAAACCATAGCCAAACGCCCATAAAATAGACTAAATTTGGCTCT
+# Right flank :  ACAAATCTAAACATCTAATCAAATTTAAATATAATCTACTATTATATTTAAATTTATTATCAAAATAGATTAGCTAGTTAAAGATATAATTTTATAAATTTATTTTTGCAATAATATTAAAATCCCTCAAGAAGGATAAAATATAGCTCTTTAATCTGCGAATCACTCAAATGAGCAGTCGAAGAAGTGCTAAGAAATCGAATAATACTATCTTTATTTAATGCATTTTTGCCAATACAAGCAGGATGAGCGATCAAAAACGCCCTACCTACACCAATCTCATTACCTAGCTTTCCATCACAAATAAAACAACTCATATCTAAATGCAATCGCCCTTCAAACTGCAAAATCATAGCATAAGCCTCAAGCACGACTCTAATAGGATTTTGGCGGTGGAATTTTTTCGCACAATTTTCTAATAAGTTATAATAAAACTCATCGCTATCTTCTACATCTCGCAAATGATCAGCTAAAAGACGCATAAAATTTTGCCAAATTAA
+
+# Questionable array : NO	 Score: 5.70
+# 	Score Detail : 1:1, 2:0, 3:0, 4:1.00, 5:0, 6:1, 7:0.70, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGCAAATTATACCACAAACCAACTCGGTTTGAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:62.16%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-3.20,-3.40] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: R [68.3-86.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [212,116] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.27   Confidence: LOW] 
+
+# Identified Cas genes:  Cas4:WP_086247327 [109233-109799]; Endonuclease Cas1:WP_086247325 [108006-108962]; Endonuclease Cas2:WP_086247326 [108963-109232]; 
+# Array family : NA
+# Sequence source strain : S0112
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;Campylobacteraceae; Campylobacter.; Campylobacter sp. S0112
+//
+
+

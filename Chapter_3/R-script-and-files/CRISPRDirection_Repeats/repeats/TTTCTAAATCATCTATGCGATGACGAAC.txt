@@ -1,0 +1,103 @@
+Array 1 121174-121678 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_BCMA01000005-Acinetobacter baylyi strain GTC 3695, whole genome shotgun		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+    121174	    28	 100.0	    32	............................	GAGCGATCTTAACGGTCATGGCTTTTACTGCT	
+    121234	    28	 100.0	    32	............................	ATACACTCTAACGAAGAATTGGCAGCGTGTGT	
+    121294	    28	 100.0	    32	............................	GCTTTACGAACAGCCTTAATAGTATTTCAATC	
+    121354	    28	 100.0	    32	............................	TGACTGATGTTGCTGTGGTTCCTGCACCATCA	
+    121414	    28	  96.4	    32	...........................T	GTAAATCCCTCATTGGGCAGGATCAGGTGCAT	
+    121474	    28	 100.0	    32	............................	ATGGCGGAAGTTAAAAAACGGCGTGTTCAGCT	
+    121534	    28	 100.0	    32	............................	AATGGTGCAGTTGACCTACGCACAGGCGATCT	
+    121594	    28	 100.0	    32	............................	ACGCTGCAATCGACTAATCCTGATTACATTTG	
+    121654	    25	  89.3	     0	.........................---	|                               	
+==========	======	======	======	============================	================================	==================
+         9	    28	  98.4	    32	TTTCTAAATCATCTATGCGATGACGAAC	                                	       
+
+# Left flank :   ATCGGGCTTTAAGTTGGGCTTAAAGCAATGGTTTGCAGACATTAAAAAAGACAAAGACAATAAAAAACGTATGAGCTGTACTTACTCTACCTCGACACAGCAACTTCAGTTAATTCTTTTGACCCCTTGGCAAGATGATTTAAGCACGACCAAAAATTATCTGGTGCAAATCAAAATTTCCAGTACAGCATTGAGTATAGAAGATATTTTAAAATACTGCCCGCAATTGACTCAACGTGAAGCCGAAGTATCGCATTGGCTTGCACTGGGTAAAACCAATAAAGACATTGCCGAGATTTTGGAATTAAGCCCAAGAACGGTGAATAAACATTTAGAACATATTTTTGAAAAGCTTTGTGTCGAAAACCGTACTGCTGCGGTGGCATATATGAATAGTTTAGTACAAGATCAGAGTCTGTAAAAAAATTTGAAGTAAAGTTAGTTTTGAATCAACTTTTGATAGTTTGGACAGCTAGATCTTATCGATGTTGCTTTTAATA
+# Right flank :  |
+
+# Questionable array : NO	 Score: 8.07
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.92, 5:0, 6:1, 7:1.15, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTCTAAATCATCTATGCGATGACGAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-3.80,-4.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-0.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [81,1] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.86,0.37   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : GTC 3695
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter baylyi
+//
+
+
+Array 1 1465-57 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JAPY01000042-Acinetobacter soli TCM341 contig_42, whole genome shotgun sequence.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	============================	================================	==================
+      1464	    28	 100.0	    32	............................	GTGAATGCTTATATGCACGACGTTCAGGTGAA	
+      1404	    28	 100.0	    32	............................	GCTACAAATCCCAAAAATGAAGCACTCCCGCT	
+      1344	    28	 100.0	    32	............................	TTGTCAGCTTGAGTTTGCTTGTCTTCATCTTT	
+      1284	    28	  96.4	    32	..............G.............	CAATTCGGTTATGTGGTCGGAACAACTATAAC	
+      1224	    28	 100.0	    32	............................	AAAAACGGTAAATATTTAGCTTATACACAACA	
+      1164	    28	 100.0	    32	............................	TAGATAAAGCATCAGAAGGTATTAAATCTTTA	
+      1104	    28	 100.0	    32	............................	CACCTCGTAGCTCTGTTAAAAAGATACGGTCA	
+      1044	    28	 100.0	    32	............................	GAAGAATGCCAGAACCGAAGCAGATCGACTAA	
+       984	    28	  96.4	    32	........................A...	ACTGTACTTATCATAAGTGCCCCATACCTTCG	
+       924	    28	  96.4	    32	........................A...	TCTATTCGATTTGGTGGCATTGTTCGCGTTAA	
+       864	    28	 100.0	    32	............................	AAAATGCCAATAATAAAGTGTTCGCGCCCTGC	
+       804	    28	 100.0	    32	............................	GTTGAAACTTGATTAATTCAAATAGATTTGTT	
+       744	    28	  96.4	    32	........................A...	CATACACGTTTGGTGTGCAAAAAGATTATGAC	
+       684	    28	 100.0	    32	............................	ACAATCAGTCCGCCAACGATACACTCGACTAC	
+       624	    28	 100.0	    32	............................	TTTCCTCAAACTAAAAGTTACACTTATTTATG	
+       564	    28	 100.0	    32	............................	GATGGTTTTGAGCGCCTGGTCTTAGATATGTT	
+       504	    28	 100.0	    32	............................	TTCGAGTTGCCGTGGCTGGTGACACCACCGAT	
+       444	    28	  96.4	    32	........................A...	CTATTACTCTGGATGAAGTATCTGCCGAGTTT	
+       384	    28	  96.4	    32	........................A...	AGAAGCTGCGCGTAAACGGGTTTTAGAGGATT	
+       324	    28	 100.0	    32	............................	GAGCATGTCGGCCACACCTTCGGCCAGTTTGT	
+       264	    28	 100.0	    32	............................	CTTCCGCAGCCGGATTGGTATCTTCCGCAGCC	
+       204	    28	 100.0	    32	............................	AGTAAATCACATCAAGCGCGGCTTTGCCCTCT	
+       144	    28	 100.0	    32	............................	GCCAATATCATTTAAAGAAATTGCAAGTGAGT	
+        84	    28	  96.4	     0	........................A...	|                               	
+==========	======	======	======	============================	================================	==================
+        24	    28	  99.0	    32	TTTCTAAATCATCTATGCGATGACGAAC	                                	       
+
+# Left flank :   GGAAAATTGCATGGACCACAGAAAAAGCCAATATTTTGCTGAACCAGTATTTGCAAGATCGTGAACGCTTTGAAACTGGTTTAACACAGTGGTTTGCCGAAATTAAACGCGATAAAGACAATAAAAAGATAATGAGTTGCACCTATTCTAGTGCATCACATCAACTGCAACTTATTTTACTTACGCCATGGCACGATCAACCCGTGGGTCACGCAACTTATCTGGTGCAAATTAAAATGTCTGCTCCGGCTTTGGGCGTTGAGGAGATTTTAAAATATTGCCCGCAACTGACCCAGCGAGAGGCGGAAGTTTCGCATTGGCTGGCATTGGGTAAAACCAATAAAGATATTGCCGAGATATTAGAGCTCAGCCCAAGAACTGTAAATAAGCATCTTGAGCATATTTTTGAAAAACTCTGTGTAGAAAACCGTACAGCAGCCGTGGCTTATATGAATAGTTTGGTGCAGGAAAATACCATGTGAGGAGGGGTATTTTTAGCC
+# Right flank :  CATGGTCTAAGCATGGAACAGAATTAGCTAAATTTTCTAAATCATCTATGCGATGAC
+
+# Questionable array : NO	 Score: 8.01
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.95, 5:0, 6:1, 7:1.06, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TTTCTAAATCATCTATGCGATGACGAAC
+# Alternate repeat :   TTTCTAAATCATCTATGCGATGACAAAC
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.70,-3.80] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [58,19] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.37,0.41   Confidence: LOW] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : TCM341
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;Moraxellaceae; Acinetobacter.; Acinetobacter soli TCM341
+//
+
+

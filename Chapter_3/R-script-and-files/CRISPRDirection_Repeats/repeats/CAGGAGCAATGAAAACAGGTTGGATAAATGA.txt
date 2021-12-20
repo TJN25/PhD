@@ -1,0 +1,40 @@
+Array 1 85014-85287 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AOIF01000035-Clostridium saccharoperbutylacetonicum N1-4(HMT) strain ATCC 27021		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence              	Insertion/Deletion
+==========	======	======	======	===============================	=============================	==================
+     85014	    31	  90.3	    29	......T.....G...T..............	TAGTGGAACCTGGTACTTTACAGATACAA	
+     85074	    31	 100.0	    29	...............................	CAGAGGAGCTTGGTATTTTGCCGATGGGT	
+     85134	    31	 100.0	    29	...............................	TAAAGGGACTTGGTATTTTACAAATACAT	
+     85194	    31	  80.6	    26	....G......C....T....A.T.G.....	TGGAAAAGTATATTCTCTTGCATCAT   	A,GT [85214,85223]
+     85254	    31	  80.6	     0	...........C....T...AA.T..G....	|                            	A,T,A [85274,85281,85285]
+==========	======	======	======	===============================	=============================	==================
+         5	    31	  90.3	    28	CAGGAGCAATGAAAACAGGTTGGATAAATGA	                             	       
+
+# Left flank :   ATGGTTAGTAGACGGAAAAGAAGTTTATAGAGCAACTAAAAATATTCCATCACATCCTGGTAAAATCATGATGAATTTATGGCCAGGAACAGGTGTAGATTCATGGTTAGGTGCTTATAATGGAGTAACTCCAATTAATGCATATTATGATTGGGCAGCGTATGATCCTCAGTAGAAATATATGGTTAGCTATAGAAAGCTGGTTTTGAAGTATGACAAATTATGAATTTTTAAATTAAAATTTATAAGCGAGTAATCATAAGCAATTAATGAAAACACAAAAAAGTACGAAGGAGAATTATCATAGATGAAGAAAGTTAAATTGAGAAAAGTTATAGCTGCAGTAGTTGCAACAAGCATAATCCCAGCAATCTTATCAAGTGGTGCAAGTGCTGAATGGAAGCAGTTGTCGGAAAATGGTACTTGGAGTTATATAGATAATAATGAATTAGCAACAAATTGGAAGTTAATAGATGGAATTTGGTATAATTTTGATTCAT
+# Right flank :  ATAATAAAGAATATAACTTTAGTAATAATGGAGATGCTATTGGAGAAATACCAAAGGTGTCTAAAGCATTTGATGGCAAAGGAGCTACTGTTACTAAACAAGCTGATAAACCAGCAAATACTGAGACTTTACTAAGTAGTACAGCAACTAAAAAATCATCGTCAAATAGATCGTCATCGGGAAATGCATCCTCTGGTAATTCAGGATCAAATGTTGGAAATGCTAATCAAGAACAGGATAAGTGGAAAATGGTGTGGAGCGATGAATTTAATGGGGATAACTTAGATACTAATAAATGGAGTTATCAATATGGAAATGGTACTGAATATAATGCAGTAGATTGGGGAAATAATGAAAAAGAATTCTATACTGATAAGAATACGAAAGTTGAAGATGGAAACCTTATTATAGAAGCAAGAAAAGAAGAAACGCCAATTAAATATGGTGATAAAGAATATAAATATTCGTCAGCCAGAATCAGAACCTTGGGTAAATATAGT
+
+# Questionable array : NO	 Score: 2.64
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.64, 5:0, 6:0.34, 7:0.06, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGGAGCAATGAAAACAGGTTGGATAAATGA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:61.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-1.40,0.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [3-9] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [76.7-65.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [327,3370] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [1.05,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : ATCC 27021
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;Clostridium.; Clostridium saccharoperbutylacetonicum N1-4(HMT)
+//
+
+

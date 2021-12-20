@@ -1,0 +1,146 @@
+Array 1 701-1 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_MYZK01000003-Salmonella enterica subsp. enterica serovar Blockley strain 86-0206		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+       700	    29	 100.0	    32	.............................	GAGTTTCATAAATAATAAAGCCCCGTCTTTTA	
+       639	    29	 100.0	    32	.............................	CTCGGGTTCGGTTTATACAAGGAAGATCAGAC	
+       578	    29	 100.0	    32	.............................	TTACCTGCACTGCGCCAGCGATTTTCTATTAA	
+       517	    29	 100.0	    32	.............................	ACTTATTCGACGGGAAAAGCATTGATGTTACT	
+       456	    29	 100.0	    32	.............................	GAGCCAGCCCTGCCAGCTTTAACATGCGCTGA	
+       395	    29	 100.0	    32	.............................	CTGCCCGTCTCGTTGTTAATCGGGTTACCGTA	
+       334	    29	 100.0	    32	.............................	ATCTGGCTGTACTGGCTGGCGGTGATTTCCTC	
+       273	    29	 100.0	    32	.............................	CCCGCCCAATATCATTCCCATTCGGGTACAAC	
+       212	    29	  96.6	    32	...............T.............	ACATGCGCGAGGGTGAGCGCCTTTGCCGCACT	
+       151	    29	 100.0	    32	.............................	GCACGGATATGGTTGACTGCATTTCGCTGAAC	
+        90	    29	 100.0	    32	.............................	GATGCGATCAGGCTGGCGATCAAGCAGATGTC	
+        29	    29	 100.0	     0	.............................	|                               	
+==========	======	======	======	=============================	================================	==================
+        12	    29	  99.7	    32	GTATTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   GAAATCAAGCATCCCGTTGGGCGAGTTCGTGATATTGAGGCGCTGGATGAACTGTTAGCCACGTTGAGCGATGATAAACCGCGCGTGATTGCTTTGCAGCCCATTAGCCAGAAAGAAGACGCGACGCGTCTGTGTATTGAAACTTGTATTGCACGTAACTGGCGGCTGTCTATGCAAACGCATAAATATTTAAATATCGCCTGATGCATTACTAATCTTACAGACGGCCTGCCGATGCCGTCTGTGACTCATCCATTACCTTGCATTGTTTATTTTCTCTATGTGAATTTCGATGAGTGTATAAAAGCGCTGATAAATTTTTCCATAGCGATGCACGGATCACGCTATTTTGGTAAATTTAAAGAAAAAATCATTCTATGAACTTTTTTGCATCAAAATCAGCAAATTAGCTGTTCTTTAATAATTTAAATTGTTGCGATTATGTTGGTAGAATGTGGTGCTGATAAAAAGTAGTTTATAAACAATGACATACGTTTAGT
+# Right flank :  G
+
+# Questionable array : NO	 Score: 8.10
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.11, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTATTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [4,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         R [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  R [-12.00,-13.50] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      R [1-0] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [0.0-0.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [2,297] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,5.83   Confidence: HIGH] 
+
+# Identified Cas genes:  NA
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : 86-0206
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Blockley
+//
+
+
+Array 1 141023-141844 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LXWM01000026-Salmonella enterica subsp. enterica serovar Minnesota strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+    141023	    29	 100.0	    32	.............................	AAAACGAGGGATCTGATCTCGCTGTTCGGCGC 	
+    141084	    29	 100.0	    32	.............................	CAGGCGAAGAAAATTAACATTACGCATAATCC 	
+    141145	    29	 100.0	    32	.............................	AACATCTCCTGTGCGATAACTTCTGTCATTCA 	
+    141206	    29	 100.0	    32	.............................	TTGATCCGGGCATTTGAATATTGGGCTAAAGA 	
+    141267	    29	 100.0	    32	.............................	CCTGCAATCACAGTCGGAACATACTGCATTCA 	
+    141328	    29	 100.0	    32	.............................	CAATTGCGTTCTTGCTTATGCCCAGCGACTTA 	
+    141389	    29	  96.6	    32	..G..........................	ATTTCAAACACTCCGGGTCTGCCAGCGCCTCA 	
+    141450	    29	  96.6	    33	..G..........................	CCGAGTTTAGGTATTGAAAGATCAGAGTTTAGA	
+    141512	    29	  96.6	    32	..G..........................	CGGAAACAAACAAAGTTTTGCGCGATTCCACC 	
+    141573	    29	  96.6	    32	..G..........................	GCGAAATTCCCCAGATACCGCGCATCGGCACT 	
+    141634	    29	  93.1	    32	..G.........T................	TTGCCACAACCACAATGGATCAGGAGCAATTA 	
+    141695	    29	  93.1	    32	..G.........T................	GACGAGTTCTGGAAATGGTTAGCTGATAAAGA 	
+    141756	    29	  93.1	    32	..G..........T...............	CCGGATGAAAACGCCTACCCGGAAGACTACGA 	
+    141817	    28	  89.7	     0	..G....................-.G...	|                                	
+==========	======	======	======	=============================	=================================	==================
+        14	    29	  96.8	    32	GTATTCCCCGCGCCAGCGGGGATAAACCG	                                 	       
+
+# Left flank :   GAAATCAAGCATCCCGTTGGGCGAGTTCGTGATATTGAGGCGCTGGATGAACTGTTAGCCACGCTGAGCGATGATAAACCGCGCGTGATTGCTTTGCAGCCCATTAGCCAGAAAGAAGACGCGACGCGTCTGTGTATTGAAACTTGTATTGCGCGTAACTGGCGTTTGTCGATGCAAACACATAAATATTTAAATATTGCCTGATGCATTACTAATTTTACGGACGGCCTGCCGATGCCGTCTGTGAGTCATCCATTACCTCGCCTTGTTTATTTTCTCTATGTGAATTTCGATGAGTGTATAAAAGCGCTGATAAATTTTTCCATAGCGATGCACGGATCACGCTATTTTGGTAAATTTAAAGAAAAAATCATTCTATGAACTTTTTTGCATCAAAATCAGCAAATTAGCTGTTCTTTAATAATTTAAATTGTTGCGATTATGTTGGTAGAATGTGGTGCTGATAAAAAGTAGTTTATAAACAATGACATACGTTTAGT
+# Right flank :  GTTGCATAATCATAATCTGTGTACCAGTAATGGCTGGTACACACCTGTAAAGTAAAAAGGCCGCGTTTTTCCGGGGAGGCTTTTATACAGGAGAAGGCCATGGCGTTAAGGATCAGGGTATTGCTCGAAAATCATAAGGGAGCTGGAGCGGATAAATCATTGAAGGCCCGGCCAGGATTAAGCCTGTTGGTCGAGGATGAGTCTACGTCGATCTTGTTCGATACCGGCCCTGATGACAGTTTTATGCAAAACGCGTCGGCGATGGGGATCGACCTGTCCGATGTGTCTGCTGTGGTGCTTTCGCATGGTCATTACGATCATTGCGGCGGCGTGCCGTGGCTTCCTGATAACAGTCGAATCATCTGCCATCCCGATATTGCGCGTGAACGTTATGCGGCAATGACTTTTCTCGGTATTACCCGAAAAATAAAAAAATTGTCATGTGAAGTGGACTATTCACGCTACCGAATGATGTACACGCGTGACCCCCTGCCGATTGG
+
+# Questionable array : NO	 Score: 7.57
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.84, 5:0, 6:1, 7:1.04, 8:1, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTATTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-3.90,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [68.3-61.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [301,99] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.83,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas7:WP_000606120 [154804-155868]; Helicase/endonuclease Cas3:WP_065348339 [149372-152071]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : SAL65505
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Minnesota
+//
+
+
+Array 2 158605-159488 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_LXWM01000026-Salmonella enterica subsp. enterica serovar Minnesota strain		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                 	Insertion/Deletion
+==========	======	======	======	=============================	================================	==================
+    158605	    29	 100.0	    32	.............................	GCAGGTATGGTTCTGGGATGATGATTGTAATG	
+    158666	    29	 100.0	    32	.............................	AGCATGGAATGCTGTCGGTGATGCGGCGAAGT	
+    158727	    29	 100.0	    32	.............................	GGAACGTGAAAGTGTCCACCGGCACGACCTAT	
+    158788	    29	 100.0	    32	.............................	CGGATTCAGCCCTGATAATATGCTTTCCCCCT	
+    158849	    29	 100.0	    32	.............................	CGTATTTTTGAACTGGCCAGCGCCACCGATGC	
+    158910	    29	 100.0	    32	.............................	GGTTACGCGGGCGTCTGTTAAAGAGTCCTCGT	
+    158971	    29	 100.0	    32	.............................	CGCCAGCGCTGAGGTGAATTTTAACGGTGTCA	
+    159032	    29	 100.0	    32	.............................	AAACAACTCTGTCTATTTTATGAATAGTTAAA	
+    159093	    29	 100.0	    32	.............................	ATTTAACGCGTTTTTTGGGTTTTCCCCTTATG	
+    159154	    29	 100.0	    32	.............................	TTGACCGGACTCGCGGTTATTCAACTAACCGT	
+    159215	    29	 100.0	    32	.............................	GTACGTTGCCAGATTGCTTTCAATGATGGCGT	
+    159276	    29	 100.0	    32	.............................	GCCGGGGTTTCCCGGAGGCATTCTGATGAAAG	
+    159337	    29	 100.0	    32	.............................	GTGAGCTCGGTTTTAATTTCGTCGCTAAGGTG	
+    159398	    29	 100.0	    32	.............................	CAAAAGGCCGACAGTGTGTACACCTCTAAAAA	
+    159459	    29	  96.6	     0	............T................	|                               	A [159486]
+==========	======	======	======	=============================	================================	==================
+        15	    29	  99.8	    32	GTGTTCCCCGCGCCAGCGGGGATAAACCG	                                	       
+
+# Left flank :   CTTATTGAAGATGTTCTCGCGGCAGGGGAAATTCAACCGCCGTTACCTCCTGAAGATTCACAACCCATAGCGATCCCTCTTCCTGTTGCGTTGGGAGATTCCGGTCATCGGAGTACCTAACGATGAGTATGCTGGTTGTCGTTACCGAAAATGTTCCTCCTCGTCTGCGGGGGAGGCTGGCCGTCTGGTTACTGGAAATTCGAGCTGGTGTGTATGTTGGTGATGTTTCCGCAAAGATCCGCGAGATGATATGGCAACAGGTTTCCGTTCTGGCAGATGAGGGAAATGTTGTTATGGCGTGGGCGACAAATACAGAATCAGGTTTTGAGTTTCAGACTTTTGGTGAAAATCGACGTATTCCGGTAGATCTTGATGGACTGCGATTGGTGTCGTTTCTACCTGTTGAAAATCAATAATTTAGAGATCTTTAAAAATTAGGAAAAGTTGGTGGTTTTTTTGTGCGCTAAAAAAGTATTTAAATTCAATTGGGTAGATTTAGA
+# Right flank :  GTTTCACCAGCTTATCAGGACGTTTTTTCCGCCTTCGCCAGCTCTTTTACCAACGGCAGCATTATCCGCACTACATCGCGGCTACGGCGCTCAATTCGCCCAGGCAGCGCCTTGTCAATATGCTGTTGATTATCAAGCCGTACGTCGTGCCAGCTATTGCCGTTCGGGAAGGATGCATTTTTCACGCGTTGCTGGTATCCGTCTTTTTTACCCAGATTCCAGTTCGTCGCCTCAACAGAAAGCACCGATATTCCCGCTTTATCGAAAACCTCCGCATCATTACAGCAACCCGTTCCTTTGGGGTAGGATGGATTGCGTCCCGGATTGGTGTTGGCGGCGATACCATAACGGCGCGCAATCGCTAATGCCCGATCGTGGGTCAGTGTACGCACCGCTTCCGGCGTATTTTTCCCGCTATTAAAATAGAGCTTGTCGCCAACAATCAGGTTATCGAGATTAATGACCAGCAGTGTATTTTTCTTCTCAGCGTCACTCATTCG
+
+# Questionable array : NO	 Score: 8.08
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.09, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGTTCCCCGCGCCAGCGGGGATAAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-2] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [71.7-48.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [86,15] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [6.1,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas7:WP_000606120 [154804-155868]; Helicase/endonuclease Cas3:WP_065348339 [149372-152071]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : SAL65505
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;Enterobacteriaceae; Salmonella.; Salmonella enterica subsp. enterica serovar Minnesota
+//
+
+

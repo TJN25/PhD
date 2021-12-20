@@ -1,0 +1,330 @@
+Array 1 296276-295938 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                       	Spacer_Sequence       	Insertion/Deletion
+==========	======	======	======	======================================	======================	==================
+    296275	    38	  71.1	    22	....T.....C..A....AG.AG......A..ACC...	GGCAAGAACAAGTATTACTTCA	
+    296215	    38	  73.7	    22	......C...T.......AG.AG......A..ACC...	AGCAAGAAGACGTATTACTTCA	
+    296155	    38	  76.3	    22	....G.C...T.......AG.AGA........C.....	AGCAAGAAGTGGTACTATCTGG	
+    296095	    38	  81.6	    22	.A........C..A.A..AG............C.....	AGCAAGAAGTGGTACTATCTGG	
+    296035	    38	  89.5	    22	.A..G.....C........C..................	AGCAAGAAGTGGTTTTACTTCG	
+    295975	    38	 100.0	     0	......................................	|                     	
+==========	======	======	======	======================================	======================	==================
+         6	    38	  82.0	    22	GTACAGACGGAGTGATGCGTACCGGCTGGCAGGAGATC	                      	       
+
+# Left flank :   GGATTCCACAGGAGCGTGTGTGACCGGTACCCTGCAGCTGGATGATATGATCTATACCTTCAGTGAGGCGGGAACGCTGATCTCCAGCGAACCGGTAAACCAGAATCCGGGAGATAACCCGGGAGACAACCCGGGAGATAACCCGGGAGACAACCCGGGAGACAATCCGGGAGACAATCCGGGAGACAATCCGGGAGATAACCCGGGAGACAATCCGGGAGATAACCCGGGAGATAACCCGGGAGACAATCCGGGAGATAACCCGGGAGATAACCCGGGAGACAATCCGGGAGATAACCCGGGAGATAACCCCGGAGACACCCCCGGTGGAGACACCCTCTACACCGGCTGGAAGACGGAAAGCGGAAAGACCTGCTATTATGTAGACGGAAATGTGGTGACCGGCTGGAAGACCATCGGTTCCGGAAAGTATTATTTCCTGACAGACGGGACCATGACCACCGGCTGGAAGACCATCGGTTCCGGAAAGTATTATTTCG
+# Right flank :  GCAAAGAAATGGTACTTCTTCAAGAAGGATGGCTCCATGGCGGCAAATGAGTATTGCCAGGGCTACTTCCTGAACAAGGACGGTACCTGGACCTACAAGGCAAAGGCTTCCTGGAAGCAGGACAAGACCGGCTGGTATTTCATCGATACCAAGGGCTGGTATGCGAAGAACACGACGCTCACCATCGACGGAGTGAAGTATAAATTCAACTCCAAGGGCTATCTGGTGAAATGATCCTTCATCATGAACACCGAGAGATCATGAAACTGTGAACTACGAAGAAACAGGAAAGGACCATAGGATGAAAAAAGGAATCAGAACTCTGGGATATGTGATGGCAGGGGCAGTGCTCTCTGCGGGTCTGATGTTCACCTCGCTTGGAAATGCGATCCTGCCGGAACGGACAGCAGAGGTTTGTGAGGCGGATACCCTGAACGGCTTCCAGACCTTTAACGGCGTGACCTATTACTATGTGAACGGTCAGAAGAAGTATAATCTGT
+
+# Questionable array : YES	 Score: 0.15
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.10, 5:-1.5, 6:0.29, 7:-0.75, 8:0.6, 9:0.41,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTACAGACGGAGTGATGCGTACCGGCTGGCAGGAGATC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [6,9] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-2.90,-3.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [4-30] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [303,2080] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 2 678029-678684 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Unconfirmed
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence           	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==========================	=====================================	==================
+    678029	    26	  69.2	    37	GTG..A.A........AC..T.....	TTGGTTATCATAACAACGCAACCATAGAAGTGCTTCA	
+    678092	    26	  88.5	    37	A............TG...........	CCGGTTATTATGGCAATCTAAATCAAATAAAGATTCA	
+    678155	    26	  80.8	    37	......T...TG.T......A.....	TTGGTTGGAAGAGCAGTAGATCGTATCAAGCGATGTA	
+    678218	    26	  88.5	    37	..G.T...............T.....	CTGATTGCCCGAGCAATAGATCGATTCAAGTAATGCG	
+    678281	    26	  88.5	    37	..G..........T..A.........	TTGATTATTATAACAAAACAAGTTTGTCAGCGACTCA	
+    678344	    26	 100.0	    37	..........................	TTTGTTGTAATCGCATTCGAGATTTGTCAGCGACGCG	
+    678407	    26	  92.3	    37	................A...T.....	GTCGTCAGCATAACAAGTCAGATCTGTCAACGAATCA	
+    678470	    26	 100.0	    37	..........................	TTGATTGCTATGACAATCTATATTAACAAGTGGTGTA	
+    678533	    26	  88.5	    37	........T....T...........T	CTGGTTGCTAAAGCATTCCAACGACTGAAGGTATTTA	
+    678596	    26	  73.1	    37	...TT..C..G......ACT......	ATAATTGTTATCACACTTCAAACTCTCAAGTGATATA	
+    678659	    25	  76.9	     0	...-A.T...GG......C.......	|                                    	T [678665]
+==========	======	======	======	==========================	=====================================	==================
+        11	    26	  86.0	    37	CATCCGCTCACATCCAGTTCCGTCAA	                                     	       
+
+# Left flank :   TACCAAAATAGAACCACTTTCCGTCTAAGGTCAGCCAGCCGGTCTGCATGGCTCCGTTCTTCTCAGGATTAAAATAGTACACACCGTCAGATGTTTTGATCACGCCTGTCTGCAGCGCTCCCTTGCCGTTAAAATAATAATTCTTCTTGCCGACCGTCACAATGCCCGTCTGCATTGCACCGGTCTCGGGATCGAAATAGTAGATCTTTCCGCCGCGTTTCAGAACACCTGTCCGCATAACACCATTCGCATCGAAGAAATAAATCTCATTGTCGATGGTCTGCACACCGGTCAGATATTCTCCGTTCTCACCGACATAATACTTCTTGCCTTCAATCTCCTGCCAGCCGGCCTGGATTTTCTCTGTGATCAGTTTTGTGTTCAAATCATATTGAAGATTAGGATTATAATCATAACCATAATAGTAATAATTCTTTCCTGTTTCCTCATCATAGAGAACTGCCTGATCATAATATTCTATTACACTCCCTATAATCCGG
+# Right flank :  ATTGGTTGTGATCGCACTTCAAACTCTTAAGTGATTCACATATAGCCAAATTTAATACCTTCAACTTATTGGAACTACAATTCAGTTCTATCAACGATACACAGTTACTCAGATTCAAGTACGTCAATTGACCGGATTCACAATCCAAAGATGTAAGCGATACACAATTGCACGCTGCCAATTTTTCCACTGAACAATCATCGAGGTATACTTCAGTCAGGCTAAGATGGTTACTTAAATCCAGGACTTCCATACTGCTATGTTTAAACCTAAAAACCTTAAGTTCGGTATTCTTACTTAGATTCAGTTGGGGTTGGGAGTAGTTAGAGATTTCCAATGTGTTAAGTTTTTCAAATAACTCTATCCCCTGCAGCGAATCAACATTAGTTGCGTCTAAATTAATCTCTGTAACCGCATCCAACTCCGCCTGAGACAGACTTCCATTCTTATCCTTATCACAGTTATCCTTAACATAGCTTCGAAATTCTTCATCCGGGAAA
+
+# Questionable array : NO	 Score: 3.75
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.30, 5:0, 6:0.26, 7:0.87, 8:1, 9:0.32,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CATCCGCTCACATCCAGTTCCGTCAA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [6,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [19-19] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: NA [61.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [933,720] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         NA [0,0   Confidence: NA] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 3 680190-680976 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                   	Spacer_Sequence                                                                              	Insertion/Deletion
+==========	======	======	======	==================================	=============================================================================================	==================
+    680190	    34	  82.4	    26	..........A......A...A..TG.....A..	CCGCAAGTGACGGAACACCTGACAGA                                                                   	CC,A [680219,680223]
+    680253	    34	  79.4	    29	........G....G.......TC.TG.....A..	AGGTATCAAACGAATCACCCCCACCCAAA                                                                	
+    680316	    34	  79.4	    29	.......GTT...........A.G..G....C..	CTTCTCGAAGCGATCCAGGGCTGCTCACA                                                                	
+    680379	    34	 100.0	    29	..................................	GAACCTCCAGAAAAAAGCAATCATGCACA                                                                	
+    680442	    34	  91.2	    29	.............................G.CA.	ACGTCCGAAGTTCCCGGCAACTGCGCAAA                                                                	
+    680505	    34	  91.2	    29	.....AC........................C..	ATGTCAGAAGGATATAACAGTCTTGTAAA                                                                	
+    680568	    34	  70.6	    89	.T.....G.C.......A..TTT.T.G....A..	TTTCCTCCAGTTTTGTTGGACACAAAACCAAATTCCACAACCAGTTGTCATAGCACCTCAAAGATTTAAGTTCTTCGCATGTACTCAGA    	
+    680691	    34	  91.2	    29	.....G.........C.......T..........	GAACCTCAAGCAATCTGCAGTCATTCACT                                                                	
+    680754	    34	  91.2	    29	.T..............CA................	ACTGCTCAAGCATTTCACATGAACTCACA                                                                	
+    680817	    33	  70.6	    93	.......GAC...G..C......TTGG.-.....	AAAGTAATAAGAGTTGTACATCCTCTCACATCTATATAGTTTATTTCGTTGGAAGGGCAATACAGATTTTGAAGTGAGTCAAATCCGGACAAC	
+    680943	    34	  82.4	     0	....A.CG.....G............G.....T.	|                                                                                            	
+==========	======	======	======	==================================	=============================================================================================	==================
+        11	    34	  84.5	    41	TCCAGTTCCGTCAATTGGTTGGAAGAACAATTCA	                                                                                             	       
+
+# Left flank :   ACTTTCCTTCTAAGGACAGCCAGCCGGTCTGCATCGCCCCTTTCTTCTCAGGGTTAAAATAGTACACACCGTCTGATGTTCTTATCACACCCGTCTGCAGAACTCCTTTGCTGTTGAAATAAAACTTCTTCTTACCAATCGTCACGATGCCCGTCTGCATTGCCCCGGTCTCGGGATCGAAATAGTAGATCTTTCCACCGCGTTTCAGAACTCCTGTCTGCATAACGCCGTTCTTATCGAAGAAATATATCTCATCGTCGATCTTCTGCACGCCGGTCAGATATTCTCCGTCTTCACCGACATAGTATTTCTTACCGTCAATCTCCTGCCAGCCAGATTGTATTATTTCTGTAATCAGCTTTGTATTTACGTCATAGGAAAGATCCGGTGCTTCCTCGTCACCACCGTAATAATAATACGTCTCTCCTGTATCAGGATCTGTGAGGCTTCCTCTGAGACAGTCATCTATCAATATCAGGATTGCCTTGTTGTATCCCACA
+# Right flank :  AACTGTTCAAGTGCTCTGCATCCACTCACATCCAGGTCAAGCAACCGGTTGGACTGGCAGAACAGAAAACGAAGTGATGTACATTCACTCACGTCCAAATACTGCAACTCGTTGGACTGGCAATACAGGCTTTGCAGATTCTCAAAGTACCCTACACCCTTCAATGTTGAAATATCCATACCGGACACATCTATTGATGTAACCGCATCCCTTTCCTGCCGAGACAGACTTCCATTCTCATCCGTATCATAAAGGCGCCTGATATACTCCTGAAAAAATATATCCGGAAAATTATCTTCCGAGATGGCAATCTCCGTCCCTGCCGCATCCACATCAGTCGGAACGGCAAATGCCATCCCGCCGGCCAAAACTGCCGCAGCGATCCCTAATTTCCAAAAACGTCTCACCTTTCGCATTGCCTCCTCCTTCTCAAAATAAACCCTATACAGACTATCATAGACAGCATGATAGTGAACCCGTCCCTTTGTCACATCACAGCT
+
+# Questionable array : YES	 Score: 0.18
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.24, 5:-1.5, 6:0.26, 7:-1.04, 8:1, 9:0.22,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCCAGTTCCGTCAATTGGTTGGAAGAACAATTCA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:58.82%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-2.90,-1.70] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [14-32] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [55.0-46.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [955,492] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 4 1517164-1516862 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                               	Insertion/Deletion
+==========	======	======	======	=============================	==============================================	==================
+   1517163	    29	  93.1	    46	...C.......C.................	CGCCGGATATCAACCGGAACAGGCCGCACAGCAGGCAGAGCCGGTA	
+   1517088	    29	  93.1	    37	...C....T....................	ATTCGGATATCAGCAGGATCCGAATATGCAGACTGCA         	
+   1517022	    29	 100.0	    37	.............................	AGCCGGATATCAGCCGGATCCGAATATGCAGACTGCA         	
+   1516956	    29	 100.0	    37	.............................	AATCGGATATCAGCCGGATCCGAATATGCAGCCCGCG         	
+   1516890	    29	  82.8	     0	...T....T..C.A..............G	|                                             	
+==========	======	======	======	=============================	==============================================	==================
+         5	    29	  93.8	    40	CAGGCGACCTATCCGCCGCAGGGAGGAGC	                                              	       
+
+# Left flank :   TGCCGGAGGAACCGGTGAAGCCCTTCGTACCGGAAGAGCCGGTGAAGCCCTTCGTGCCGGAAGAGCCGGTGAAGCCCTTCGTACCGGAGGAACCGGTGAAGCCCTTCGTGCCGGAGGAACCGGTAAAGCCCTTCGTGCCGGAAGAGCCGGTAAAGCCCTTCGTACCGGAGGAACCGGTGAAGCCCTTCGTGCCGGAGGAACCGGTAAAGCCCTTCGTGCCGGAAGAGCCGGTAAAGCCCTTCGTACCGGAGGAACCGGTGAAGCCCTTCGTGCCGGAGGAACCGGTGAAGCCCTTCGTGCCGGAGGAACCGGTAAAGCCCTTCGTGCCGGAAGAGCCGGTGAAGTCCTTCGTGCCGGAGGAACCGGCAACGGTACAGATTCGACCGGAAGCAGTGGAGAGTACACAGATTCCACAGGAAGAACCTGCAACGGTACAGATACGTCCGGCAGATTCTGTCGAGTATCATCCGGAGCAGGCTGCACAGCAGGCAAATCCTGAG
+# Right flank :  AGCCGGATATCAGCCGGATCCGAATGCGCAACCGGATTACAGTACAGATGCCAGACAGTATGCGGTTCATAACGATGCATCCGTCATGAGTGGAATGGAAAAGGCTGCGGTTGGTGTCCTGATCGGAGTGATCGTCGTAGCTGTCGTAGTCGGAATACTTTCCATCTGCAAAGTATTCTAAGTCAGATTCCCATGCAGGCTTGGCCATCAGGCTCATTGCCTGCGAAAATAAAGAACCCCCGACTCACCTGGCACAGCGCCGGGATCGTGAGTCGGGGGTTTTACTGAGTGTTTTTTACTTTGCTGTCAGGCTTTCTCCATCCGGACCTTGAAGGCAATGTAACGCTCGGTGGGCTGGTTGTCGAACTTCACTTCGTAGGCCTGCATGTCCATATCATGGCCGAGGATGGTTCCGTATCCGAAAACGATGTGCTTCACCCGGGTATCCACCGGAAGGAGCGGAGCCGTATCTTCCACAAGGAAGCCTTTATTCACGGTGT
+
+# Questionable array : YES	 Score: 1.40
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.69, 5:0, 6:1, 7:0.79, 8:-3, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     CAGGCGACCTATCCGCCGCAGGGAGGAGC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [2,6] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-2.10,-2.20] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [5-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [46.7-41.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         F [308,62] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.18,0.78   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 5 1772977-1773760 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	============================	===================================	==================
+   1772977	    28	  85.7	    35	..................A.G.A....G	AAATGGCAACGAAAAAGTGAAAGAGATAGATTACT	
+   1773040	    28	  85.7	    35	...............C..C....C...T	TCTTGGCAACATAAGGATTCGAGCGATGCGCATTC	
+   1773103	    28	 100.0	    35	............................	TCAAAGCAACTCAAGGATCTTAATGATGTGCATGT	
+   1773166	    28	  78.6	    35	.........T....TC.....A.A...T	TGATTGCATTTTAATCTCTCAAGTGATGCGCAACC	
+   1773229	    28	  75.0	    35	.G......T.....TC..C.....AG..	GTGTCGCATTCCAAATCCATAAGCGAGGTACATCC	
+   1773292	    28	  75.0	    35	A..............CT.C..A.T...G	TTAAAGCAGCTCAGATCTTCAAGCGGTGCAATCTT	
+   1773355	    28	  71.4	    35	.......A......TC..C..GCA...G	AAAGAGCACCTCAAAACTGATAATGATATGCATGT	
+   1773418	    28	  85.7	    35	...............C..C..AA.....	TCAGAACACACCAATTTTTCAAGCATTGCGCAACC	
+   1773481	    28	  92.9	    35	..................C........G	CTGCCACAAAAAAAAGATACAAGTTGTTTATTCTT	
+   1773544	    28	  85.7	    35	....G.........T...C........G	TCATAACATTCCAGCCAATCAAGCGATGTGCATGA	
+   1773607	    28	  82.1	    35	...T.T.........C..C........T	TCATAACAACTCAATGATAAAAGTGATGTGCAACC	
+   1773670	    28	  82.1	    35	.........T....TC..C........G	ACGCAACAATTTAAATATACAAGCTCTGTATTTTT	
+   1773733	    28	  82.1	     0	...............C......CC..CT	|                                  	
+==========	======	======	======	============================	===================================	==================
+        13	    28	  83.2	    35	GCTCACATCCAATTCTGTTAATTGGTTA	                                   	       
+
+# Left flank :   TAGTAGGTTTTGGTGCCGGATTTCACAATGCCTGTCTGCATCACGCCTTTCTTATTGAAGTAGTAGTACTTTTTGCCGATCTTCTTAACTCCGGTCACCATGATACCGTTCGTTCCAAAGTAGAGTTTTTTTCCACCAGAGGACAACCATCCCGTCTGCATCGCTCCATTCTTCTTCGGGTTGAAATAGTACGTGCCTTTGGAGGTTTTGAACACGCCAGTCTGTAGTACGCCAGACTTATTGAAGTAATATTTCTCGTCATCGATCGTCTGCAGACCGGTAAGATAATTCCCGTCTTCACCGACATAGTATTTCTTGCCATCAATTTCCTGCCAGCCAGATTGAGTTTTTTCTGTAATGAGTTTAACATTCGTGTCATGGGTAAAAAAATCGAATATCGGGTCATCATAGTAGTAAAAGAAGAATGACCTTCCAGTAGCTGGTTCCGTATCTGTTTCTTTTTGCCAATGATCAACCATCTTCAATATTTGCGGATTATT
+# Right flank :  TTCTATGCATTCCAGCCTTTTCAGCTTCGAAAAAAACTCTATGCCTTCCAATGACTCCATCTTTTCATAGCTTATATTAAGCTTGGTTACTGCACCTCTCTCTGTCTGGGACAAGCTTCCATTCCCATCCGTATCAAAGTTGTTCGCAACATAGCTTCGAAAAATATCATCTGGGAAGTTTTCTTCCGAGATGGCAATTTCCTCTTCTTCTGCTGCATCAACATTCATTGGTATGGCAAATGTTAATCCACCTGCCAGAATTGCTGCAGCAACCCCGATTTTCCAGCTGCTCTTCATTTTTCACATCGCCTCCCCATCTAATAATTCGGCATCCGATTATGAACACTACGTTATCTGTTGCGTTTCAAACATGCCTCTATGCAGACTATATCATAGCCCAATAGTGAAATACAAGCATCTTACGAGTGTGATGCAGGGGGTTTTACATGAAGGTCCGTTCCGGTATTTGTAAAGTATGTCAAAAAACGGAGATAAATAGC
+
+# Questionable array : NO	 Score: 2.59
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.16, 5:-1.5, 6:1, 7:0.76, 8:1, 9:0.17,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GCTCACATCCAATTCTGTTAATTGGTTA
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:64.29%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [14-25] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [65.0-58.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [1119,646] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0   Confidence: MEDIUM] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 6 1971375-1973648 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                     	Spacer_Sequence               	Insertion/Deletion
+==========	======	======	======	====================================	==============================	==================
+   1971375	    36	 100.0	    30	....................................	TTATGTATGTTACATAATTCGAATTTGTTT	
+   1971441	    36	 100.0	    30	....................................	CATCATCTCCGTATATATCAACGGCCTGAT	
+   1971507	    36	 100.0	    29	....................................	TAAAAACGGTATCGGAACATGGCTTTATA 	
+   1971572	    36	 100.0	    29	....................................	ATATCATCGGAAAAGTGGTAGAACTCAGG 	
+   1971637	    36	 100.0	    30	....................................	CAACACCCAGAGCATTGATGAAATTCCAGT	
+   1971703	    36	 100.0	    30	....................................	ACAATGACTGAAGGAAAGAAAGAGACTGCT	
+   1971769	    36	 100.0	    29	....................................	AAGCAGGACTGGGATACCGAAGACCTGCT 	
+   1971834	    36	 100.0	    29	....................................	CCCCGGCGGACTTCGTGGGGCAAATGTGG 	
+   1971899	    36	 100.0	    30	....................................	CCGGAAGATTTTGATTCTTACTTACAATAT	
+   1971965	    36	 100.0	    30	....................................	ATATAGGGGGTGATTGGTATGGGGAAAGCC	
+   1972031	    36	 100.0	    30	....................................	CTTCGACCCCATGCCATTTATAAAGCCCTG	
+   1972097	    36	 100.0	    29	....................................	TAGATGGTGAACTTGTGGTCAATCCATAT 	
+   1972162	    36	 100.0	    30	....................................	GCCCTCATGTATCCCCAATCCGAATTATCC	
+   1972228	    36	 100.0	    30	....................................	TCCATTCATTCGCAACCCGTGTCATGTACT	
+   1972294	    36	 100.0	    29	....................................	TCAAAATGTATTTATACATAGATGGTTTA 	
+   1972359	    36	 100.0	    30	....................................	CTATTGCGCCCACGAACAAACCAACGATAA	
+   1972425	    36	 100.0	    30	....................................	CATCAAAGCGACCGGAGCCACTGGAGAGTC	
+   1972491	    36	 100.0	    30	....................................	TATGATGGCGCTACTGCTAACCTTGCCGGA	
+   1972557	    36	 100.0	    30	....................................	CCGGACTATGACGAACCGGAACCGGATCCG	
+   1972623	    36	 100.0	    30	....................................	CTCGATGGTGTCAGGTGTCTGAACGCTGTT	
+   1972689	    36	 100.0	    30	....................................	GCCGGACAGGTCCTGATGGTTAATGCACAG	
+   1972755	    36	 100.0	    30	....................................	GGAGGGGATCCGATATGCAGCAATACACGG	
+   1972821	    36	 100.0	    29	....................................	TGAAATCAGCATGATTATCGAGGTCGCAT 	
+   1972886	    36	 100.0	    30	....................................	GCTGGATCTCGAGACGGAGCTGGAGAGACG	
+   1972952	    36	 100.0	    30	....................................	TGAGCTGAAACGGTTGCTGAATCATCTGGT	
+   1973018	    36	 100.0	    30	....................................	TCTACAAAGAAGAAAAGTCGATGTTAACGG	
+   1973084	    36	 100.0	    30	....................................	TGGCTTGACGGGATCTGTTTTGAGGATCTG	
+   1973150	    36	 100.0	    30	....................................	CCGATGGATTGAGGGGACGAAACTTGCGTA	
+   1973216	    36	 100.0	    30	....................................	ATCACCGGAGTGTTTGAAGAATGGGAGGTA	
+   1973282	    36	 100.0	    30	....................................	CGAAGAACCGACAGTATGCCTCAAATTATT	
+   1973348	    36	 100.0	    30	....................................	CAAGATAACAGGTTTTACATGGAATAATAA	
+   1973414	    36	 100.0	    30	....................................	GGAAAGAAGAACGCAGCGCCCTTGCTTGCA	
+   1973480	    36	 100.0	    30	....................................	TCAGCTTTGCCGGCTGTATAATCTGAACAG	
+   1973546	    36	 100.0	    30	....................................	CGACGCGAGAGTGAACATGGTGGCCATCGT	
+   1973612	    36	  94.4	     0	......................A............T	|                             	G [1973643]
+==========	======	======	======	====================================	==============================	==================
+        35	    36	  99.8	    30	GTTTGAGAGTAGTGTGAATCCAGAGGGCTCCAAAAC	                              	       
+
+# Left flank :   TTTAGACGGTGATCATTACAATGACACTATGAGACTTTTAGCTGAAATTGAGAAGTATGTTAATTCAATAGCTGGATATTTCCCTTTTCCGATAGTTTGTCAGGGGATAAATGCAAATTCTTTGATAAAGATGTGTAGTGTCATGATCGAGGATGATGGAGTAAATGATATTGACAGAGTATTAAACTATATTTCGATCATTAATGATTTATTTGGGGACAGACTATTCGTGTTGATCAATATGACGATGTTTTTTACCGACGAGGATATACAAGGATTTATTACAACATGTAATGTGCATAAATATCAGGTGCTTCTTATAGATGGTGTTGAAAGCAATGAGTACAAAGGTGCGCGGAGGTTGATAATTGACAAAGATCTATGCACAATTTAAGCATTGGGATTCATCCTTTGGGGTTTGCACGCCAGGAATCGTAGGGCTGGTTATTTCAAATGATACATCTTATTTCTTTTCGCAGAGACGGGATTTGAGGTTTGAG
+# Right flank :  TGGGGCGTTTGGGTGAAGATGGTGATTTGATGTTTACAGTCCTCTTGGAGTATGTGTACAAAACAAAGAGGAGGAAGACAGGATTGCTGTTGTCTTCCTCCTCGATTACGTTTAGTAGTTCTCCGCATGTACCTCGAAGAAGCTCTGCGGGTGATTGCAAACCGGGCATACATCCGGTGCCTTTGTGCCGACCACGATGTGTCCGCAGTTTCTGCACTCCCAGATCTTGACCTCGCTCTTCTCGAATACCTGCTGCATTTCCACGTTGTTCAGAAGGGCACGGTAGCGTTCCTCATGGTGCTTCTCGATCTCGGCAACGCCGCGGAACTTGGCTGCCAACTCGGGGAAGCCCTCCTCCTCTGCGGTCTTTGCGAAGCCTTCATACATATCGGTCCACTCGTAGTTCTCACCCTCGGCAGCAGCCTTCAGGTTGTCGGCGGTAGAACCGATCCCCTTCAGCTCCTTGAACCAGAGCTTTGCATGCTCCTTCTCATTTTCGG
+
+# Questionable array : NO	 Score: 5.22
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.99, 5:0, 6:1, 7:0.23, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTTGAGAGTAGTGTGAATCCAGAGGGCTCCAAAAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:52.78%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  F [-4.10,-1.60] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [63.3-55.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [108,112] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.78,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+
+Array 7 2634541-2634754 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JNLK01000001-Lachnospiraceae bacterium AC2029		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================	======================================	==================
+   2634541	    28	 100.0	    38	............................	ATAGAGGAGCCGGCGGAAGCGCCGGAGGAAGAGCCGTC	
+   2634607	    28	  96.4	    38	......G.....................	GCGGAAGAGTCGGCGGAAAAGCCGGAGCAGAAACCGTC	
+   2634673	    28	  89.3	    26	...T........T..T............	GTGGAAGAGCCGGGGCAGGAACCATC            	
+   2634727	    28	 100.0	     0	............................	|                                     	
+==========	======	======	======	============================	======================================	==================
+         4	    28	  96.4	    34	GGGCGTAGTGGACGCCATCTCCGAGCCG	                                      	       
+
+# Left flank :   ATGGCAGGAAAGATCATCCTTGAAGTTACAAAGGGAGAGCTGGCAGGAAAGACCTATGAATACGAAGAACCGGACCGGGTCTTTGTGGGTCGGAAGGAGGACTGTGGGATCGTCCTCCCGGAGAATACGGTTTCCAGATATCACTGTCTGCTGGATATCAATCCTCCGATGATCCAAATGCAGGATTTCGGAAGCCTGAACGGTACATTTCTGAATGACGAGAAGATCGGGCAGCGGGACAGGGACCGGTCCTGGGAGGAAGCGAAGAGCGATGAGCATGAAGCCTACGAGCTCCATGACGGAGACAGGATCCGTCTCGGTAAACGCTGCGAGCTTACCTGTACGATAGTCCGGGCGGAGCAGACAGATGAATACGGAACTGTGGCGGAGGAGGACGATCTGCCGGAGAGCACGGCGGATGCAGTCTCTGAGCCGGCAGAGCCGTCGGATGCCGAGGAAGCTGTTTCCGAGCCGGCAGAAACGCCGGAGCAGGAACCGGT
+# Right flank :  GATAGAGGAGCCGGCAGAAGAACCGGAGTCGGAACCGGCTGTGGAGGAATCTGAGCAGGAGCCGGCAGAAGAAGAACCGGAGTCAGAACCGGAAGAAGAACCGGAGTCGGAATCGGCTGCGGAAGAGTCGGACGCGGACTCCGAGGATTACTCCGTCTCCGTCGGAGAGCAGAAGGTCTGCGGTGCCTGCGGAAATCTCTTCCCGCCCACATCTCCGGATGACACGCTCTGTGCGGAATGTCGTCAGGATCGGGACAATATGCTGGGAGCGATCCTGGCTGCACTGATCGGCGGAGCGCTGAGAGAGGAACCCGCCGGTCCTTCGGCAGTGAAGGGCTTTGACAAGGTTGCCCTTCTCGGAAGAGGAGGAATGGGTGAGGTCTGGAAGGTGAAGGAGCAGAAGACCGGAAAAACCTATGCGCTGAAAACACTGCTTCCCAAGGTGGCAGCAGATGAAAAGGCGAAGGCACTCTTTCTCCGTGAGGCAAAGCTTACGGAAT
+
+# Questionable array : NO	 Score: 4.58
+# 	Score Detail : 1:1, 2:0, 3:0, 4:0.82, 5:0, 6:1, 7:0.36, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GGGCGTAGTGGACGCCATCTCCGAGCCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [4,4] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  R [-1.60,-2.30] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [1-3] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [33.3-40.0]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA [732,1242] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [0.41,0.37   Confidence: LOW] 
+
+# Identified Cas genes:  Endonuclease Cas2:WP_034235197 [1970301-1970606]; 
+# Array family : NA
+# Sequence source strain : AC2029
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae.; Lachnospiraceae bacterium AC2029
+//
+
+

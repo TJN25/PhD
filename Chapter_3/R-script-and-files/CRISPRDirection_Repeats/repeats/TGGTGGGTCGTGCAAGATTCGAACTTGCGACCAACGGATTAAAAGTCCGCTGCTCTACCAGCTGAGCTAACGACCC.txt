@@ -1,0 +1,141 @@
+Array 1 328848-328546 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016002-Pseudogulbenkiania sp. NH8B DNA, complete genome.		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                                                             	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	============================================================================	======================================	==================
+    328847	    76	  85.5	    36	............AGT.GC......ACT.....T.........G.................A...............	AGAACGGCACTACGCGATATAAACTTCAGAAACAAC  	
+    328735	    76	 100.0	    38	............................................................................	AACTTCTCGGCATCCCTCCCAACGGCATTCTGTCAGGG	
+    328621	    76	 100.0	     0	............................................................................	|                                     	
+==========	======	======	======	============================================================================	======================================	==================
+         3	    76	  95.2	    38	TGGTGGGTCGTGCAAGATTCGAACTTGCGACCAACGGATTAAAAGTCCGCTGCTCTACCAGCTGAGCTAACGACCC	                                      	       
+
+# Left flank :   CCGCGGCAGCCGACGCTTCGCCCACTTCCTTCTCGCGCCGCTGCAGTTCGTTCTGGGCGTCCGCCAGCCGCGCCTCGGCCAGCTTTTTGGCTTGCTGTGCCGCGTCCAGACGCCGCTGCGCCGCGTCGGCGCTGCGGCTCACCTGCTGGTACGCCATCTGGGCCGACAGCACCTCCTCTTCCGGCGTCTGGGCCCAGACCAGTCCAGACAACAACAACAGGCAGCCAGCAGTGCGCTTCAACATGACAACTCTCTCTAATGGGAATATCGGGGAATTATGCGGCACTAGCCAATGGCATAACAATGGCAAGGAACAGCACTGCGGCGTTATGCTCAGACAAAAGAGCCCACACACCAAACGGCCGGCGACAATGCCAAGCGGAGACGAGGGACGGATCTGCTGTCCTGCATGGCGGGTGGTAACCCCATACCCGGCTATGCCGCGGCGGGAAAAACAAAAAGCCCAGTCGGTTTGACTGGGCTTTATTGTTTACATATTC
+# Right flank :  CCGAGAGATCGACACTATAAATACACAGCCACGCACTGTCAACGACTTTCTGGCTGTTATCAGAAAGATTCTGCAATTTCATCCTGTTGGCAAGGACCACCCGCCACGCCACGCCGTCACGTTCCGTGCGGCCCCGTACTTGAAAGAACCTCCCCTGCCACCCATGTTAAATAAGCGGGCAGGCCGCGGGCGACGTCGCAGGCCACAATTTCCGGTACCTCGTAAGGATGCAGCTCCACCAGCCGACGTTCCAGCCCGGCATAAGCCTGCTGTGTGGTCTTGACGAGCAGCGGCACCTCGCTCGCCTCTTCGATCCGCCCTTGCCAGCGGTACAGCGACTGCACCGCGGGCAGAATGTTGACGCAGGCGGCCAGTTGTTCCTCCACCAACTGCCTGGCGATCCGGCTGGCGGTGGCATGGTCGGGCGTGTTACATAACACCAGCAAGCATTTATTTTCTGACATAAGTTGAACTCGATGCGCGGACTCTTACTGTTACTA
+
+# Questionable array : YES	 Score: 2.32
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.76, 5:0, 6:-1, 7:1.47, 8:0.4, 9:0.69,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TGGTGGGTCGTGCAAGATTCGAACTTGCGACCAACGGATTAAAAGTCCGCTGCTCTACCAGCTGAGCTAACGACCC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     R [16,19] Score: 0.37/0.37
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-21.00,-21.10] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [0-11] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [53.3-53.3]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         R [118,257] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0.41,0.55   Confidence: LOW] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_014086011 [695064-697838]; 
+# Array family : NA
+# Sequence source strain : NH8B
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Chromobacteriaceae; Pseudogulbenkiania.; Pseudogulbenkiania sp. NH8B
+//
+
+
+Array 2 704586-708701 		**** Predicted by CRISPRDetect 2.2 *** 
+>NC_016002-Pseudogulbenkiania sp. NH8B DNA, complete genome.		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence              	Spacer_Sequence                  	Insertion/Deletion
+==========	======	======	======	=============================	=================================	==================
+    704586	    29	 100.0	    32	.............................	TCGCTGCCGCGGACTACATCGTCACGGCTGGC 	
+    704647	    29	 100.0	    32	.............................	TCGCGGTCCTGGTGCGCGGTCCACGTGCTGGC 	
+    704708	    29	 100.0	    32	.............................	GTGAAGAGCGACGACATCGCCATCGTGGACTA 	
+    704769	    29	 100.0	    32	.............................	TAGCGCGTCATCGTCTAACCGCTCGCCCTTGT 	
+    704830	    29	 100.0	    32	.............................	CCCCCGCCGCAGCGAATCCCGTCCCTCACCTA 	
+    704891	    29	 100.0	    32	.............................	GACGCGCCGCAGTACGCCGGACCGGCAGGGCA 	
+    704952	    29	 100.0	    32	.............................	TCATTTCCGAACCCACCACGACCGCCCAGTCC 	
+    705013	    29	 100.0	    32	.............................	CCAATGGCAAAAGTTGCATAGGGCGACAGCAC 	
+    705074	    29	 100.0	    32	.............................	ACCGACGCCATGATGCGCAAGTTTGCCGAGCA 	
+    705135	    29	 100.0	    32	.............................	GCACCACCCGCCGCGCCCGGCGTCGCCACCTC 	
+    705196	    29	 100.0	    32	.............................	CCGATCGGCTTGCTATAGAACCGGCTGAACTT 	
+    705257	    29	 100.0	    32	.............................	GTGTGCCGGGTCTGGTACTGATTTCGATAGCG 	
+    705318	    29	 100.0	    32	.............................	CTCTATGATCTGATGGCACGGCTCCGTGAGGC 	
+    705379	    29	 100.0	    32	.............................	GCTGCCCCAGTTGGTGCCATCGGCTGTCCCCT 	
+    705440	    29	 100.0	    32	.............................	CTGATCCAGTACCCGGTATCGTCGGCCGCCTC 	
+    705501	    29	 100.0	    32	.............................	TCGTTGGCCGACGTGGCGGCATCGACGAGCGG 	
+    705562	    29	 100.0	    32	.............................	CGTTCCCTTGATAAAGAGGTTGATTGGGCGGT 	
+    705623	    29	 100.0	    32	.............................	TTCTTCGAGCAGCAACGTTTGGTAGAGCGATG 	
+    705684	    29	 100.0	    32	.............................	ACTTATCCACAGGGTTATCAACAGGATGCCCA 	
+    705745	    29	 100.0	    32	.............................	TTGGACGAGATACAGCGGGCGCTCGCCAATAA 	
+    705806	    29	 100.0	    32	.............................	ACACCACGTGTTGTTTGGCGGACTGGAGCGGC 	
+    705867	    29	 100.0	    32	.............................	CACTGCGTCTACAGCATGGACTCGCCGCATGA 	
+    705928	    29	 100.0	    32	.............................	ACGTGGCGGAACACGCAGGTGGCCTTCTCGCC 	
+    705989	    29	 100.0	    32	.............................	TCGCGTTGTTCGGTCGCCAGCAGAATCCGATC 	
+    706050	    29	 100.0	    32	.............................	TTCACGTTCCACTTCCGAGCCGCGTTGTTGAT 	
+    706111	    29	 100.0	    32	.............................	TGGTTCGGCCTGATCGACAAAGACCAGACCCT 	
+    706172	    29	 100.0	    32	.............................	ATTTGTGTTTCCGTCTATCGAACGTATGTCTC 	
+    706233	    29	 100.0	    32	.............................	CAGTACGACAGCACCGGGGCCAAGATCGCGGC 	
+    706294	    29	 100.0	    32	.............................	GACGCCGCCAAAGCCACCGGCGTGAAGTTCTT 	
+    706355	    29	 100.0	    32	.............................	GCGGCGGCGACGTGATCAACAAGGACGCCGAG 	
+    706416	    29	 100.0	    32	.............................	TAGCGGCCCACCTCGCACAAGGCCCACGTGGT 	
+    706477	    29	 100.0	    32	.............................	TTCAGCCGGCCCTCGCTGTCGAACGTGGGCTT 	
+    706538	    29	 100.0	    32	.............................	GCGCTGGAACCGTCCGCCGGGCATGGCGCCAT 	
+    706599	    29	 100.0	    32	.............................	TTGTCGGCGGTCGGGCGGGATGAGTCGTATCA 	
+    706660	    29	 100.0	    32	.............................	TCACCCAACGACGGGACGGGCATCGCAAGGGG 	
+    706721	    29	 100.0	    32	.............................	CGGGCACAAATGATGCTGTTCCGATGACACCG 	
+    706782	    29	 100.0	    32	.............................	CCAGAGCAGCATTCCAGGCCTGGTCGGAGTCA 	
+    706843	    29	 100.0	    32	.............................	GCGACAGACAGCAGAAAGCCCCCAGTGATCGG 	
+    706904	    29	 100.0	    32	.............................	TTTGTCCGCCATCCTGGCGCTCGCGGGAGGAG 	
+    706965	    29	 100.0	    32	.............................	GCGCCGTGGACAATTGAGCCGTCCACTCCCCA 	
+    707026	    29	 100.0	    32	.............................	TTGGCCATGCAGCGCGGCATGTACGGCGCGGT 	
+    707087	    29	 100.0	    32	.............................	TCGCGCTGCCGAACAGCTCGAAAATCTACTAC 	
+    707148	    29	 100.0	    32	.............................	CCCAACAGGTGCAGGCGCTGGCCGATCAAGCC 	
+    707209	    29	  96.6	    32	............................C	CCCGCACTCGCAACGGTAAAAACCGCGAATCT 	
+    707270	    29	 100.0	    32	.............................	TATACGGGTCAATATTTCTATGGCTGGTCGTG 	
+    707331	    29	 100.0	    32	.............................	ACTTGGCAGCCATGCATGGCCACTATGGCTAT 	
+    707392	    29	 100.0	    32	.............................	ATCGTGCGCGAAGGGCTGCAGGGTGGCTGGAT 	
+    707453	    29	 100.0	    32	.............................	CCGCCGCCCGGCTTCGGCGCGGTGCGCTGACG 	
+    707514	    29	 100.0	    32	.............................	ACGACGTCGGCGAGCTGATCAAGCGCTGGCAG 	
+    707575	    29	 100.0	    32	.............................	CCATCTGAGGCCAGCTTGTGGACCCTATTCGC 	
+    707636	    29	 100.0	    32	.............................	TAACATCGAGGTAACTTAGAGGTAATCAGGTT 	
+    707697	    29	 100.0	    32	.............................	GAGGAGGCCCGCCAGAAGCGCCTGACGCTGGA 	
+    707758	    29	 100.0	    32	.............................	CGGTATGGCGATCGACGCGCACGACCCCCAAT 	
+    707819	    29	  96.6	    32	............................C	GTATGACACGCAAAAACTCTTTGGGGCTGGTG 	
+    707880	    29	 100.0	    32	.............................	TGGTGCAGCAACTCGGCAAGGTCGCTGGTGTT 	
+    707941	    29	 100.0	    32	.............................	CCCTATCGGGTCGCCCTCGGCCTCCTCAAGTG 	
+    708002	    29	 100.0	    32	.............................	CCGTAGGCGTCGATTTCGTATAGCTTTAGAAC 	
+    708063	    29	 100.0	    32	.............................	TTCCAGCCCGATGCGCACTACAAGCAGCGGCT 	
+    708124	    29	 100.0	    32	.............................	ACAACGAAATCCCCGCCCAAGTTGTCGACCAG 	
+    708185	    29	 100.0	    32	.............................	GTAAGTGCGCAGTCCCTAATTAAATTATTGCC 	
+    708246	    29	 100.0	    32	.............................	TGGAAGCGAAACATGCAAGAGGCTCAGCAAAA 	
+    708307	    29	 100.0	    32	.............................	CTTGACAAGACCTCAGGCGTACAGGGCGCGTA 	
+    708368	    29	 100.0	    33	.............................	TAGCCAACGGCGGCCATCAGCATCTTGGTGTAG	
+    708430	    29	 100.0	    32	.............................	AACAGGACGGGCAACGGTCATGCGACTAGGCC 	
+    708491	    29	 100.0	    32	.............................	CCGTTCGCCATCCTGTCAGGGATCTGCGCCGT 	
+    708552	    29	 100.0	    32	.............................	GGCGAGACGGACCAGCGCTTTGCCGAGCAGGC 	
+    708613	    29	 100.0	    32	.............................	ATGAAGCGCTTCCAGCCACGTGAGGAAGTACG 	
+    708674	    28	  89.7	     0	A.....................-...G..	|                                	
+==========	======	======	======	=============================	=================================	==================
+        68	    29	  99.7	    32	GTGATCCCCGCGCCAGCGGGGATGAACCG	                                 	       
+
+# Left flank :   CCCGACATCGAGGCCATGCTGGATGCAGGCGGACTGGAAAAACCGGTCCCCGAAGGCGTGGTCGATGCCGCCATTCCCAACGAGGAGAGCCTGGGCGATGCTGGTCATCGTGCTTGAAAATGCCCCTCCGCGTCTGCGCGGCCGCTTGGCCATCTGGCTGCTGGAGATCCGTGCCGGCGTTTACGTGGGCAACTACAACCGCCGCATCCGTGATTACCTCTGGCAACAGGTGGAGGAGGGGATAGAGGACGGTAACGCCGTCATCGCTTGGCAAGCTCCCACCGAAGCCGGTTTCGACTTCATGACGTTAGGTGAAAACCGGCGTATCCCGGCCGAATTCGACGGTGCCAAACTGGTGTCCTTCCTGCCGCTGGACGACGCCGACACCGCTTGAATCTCCCTTCTTTAACAATCTGAAATTCGGCTTGAAAACCGGAGGAAAAAGCGGTAGATTTTTGCCTCCCCGAATAAGCCTTATGGTTCAAAGGTTTATTTTTGGT
+# Right flank :  GTGGATCGCCTTGCAAAAGGTCTACCATACCGGGTGCCGCATTCCCCCACGGTCTTGAACAGGCGCAACAGGCGGAGGTACATCGCTGACCCGGGCGAGGGAGTGTGTCTTGCTGATGGGTGAGTAAAATCAAAACTGAACGTAAGAAGAATGTGATTTAACTCGCCTTGCAGCTTGGTGCAAGCTAGGCACCGCTTCTTCCACTTCCTGTGCCACTTTACCGTTTCGGGAGCCGTGCCATGAATTCCCCCCAGCCTGCCGTTCCGCCTGTCGCCGCCGGTCTCGATCTGCGTGCGCACTGGATGCCGTTCACCGCCAACCGCAATTTCCAACGCGACCCGCGCCTGATCGTCGCCGCCAGCGGCAACTACCTGACCGACGCCGATGGCCGCCAGATCTTCGACAGCCTGTCGAGCCTGTGGTGTAGCGGTGCCGGCCATGCCCGCAAGGAAATCGCCGAGGCGGTGTACCAGCAGCTCGGCACGCTGGACTACTCCCCG
+
+# Questionable array : NO	 Score: 8.01
+# 	Score Detail : 1:0, 2:3, 3:0, 4:0.99, 5:0, 6:1, 7:1.02, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTGATCCCCGCGCCAGCGGGGATGAACCG
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     F [5,3] Score: 0.37/0.37
+# 	Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 96% identity] Score: 4.5/4.5
+# 	Secondary Structural analysis prediction:  F [-13.50,-12.00] Score: 0.37/0.37
+# 	Array degeneracy analysis prediction:      F [0-4] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [61.7-43.3]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         R [108,239] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.92,0.18   Confidence: HIGH] 
+
+# Identified Cas genes:  Helicase/endonuclease Cas3:WP_014086011 [695064-697838]; 
+# Array family : I-E [Matched known repeat from this family],   
+# Sequence source strain : NH8B
+# Taxonomy hierarchy : Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;Chromobacteriaceae; Pseudogulbenkiania.; Pseudogulbenkiania sp. NH8B
+//
+
+

@@ -1,0 +1,98 @@
+Array 1 38735-39224 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ955376-Anaerococcus hydrogenalis strain MJR7738A Scaffold73, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                      	Insertion/Deletion
+==========	======	======	======	==============================	=====================================	==================
+     38735	    30	 100.0	    36	..............................	CACCTTAATAAAAGATAGAAACCATAATAAGAAAGC 	
+     38801	    30	 100.0	    34	..............................	GATAAGGAGTTTTTAAATTACAAATTGAGTAATG   	
+     38865	    30	 100.0	    35	..............................	CTTTATTAAGAGTGAACGCACTGCTAAAGTCTTTA  	
+     38930	    30	 100.0	    36	..............................	AATCGACAATCAGTATAATTTATGTTATATATTTCA 	
+     38996	    30	 100.0	    35	..............................	TAACTATGAGGTCGTATCCCATATATTTCTTTTGT  	
+     39061	    30	 100.0	    37	..............................	TCTATTATCTCCACTGGTAATGCTCCACCATCTTTAG	
+     39128	    30	 100.0	    37	..............................	ATATATACATTGTAAATATATACAATAAACCAATTTT	
+     39195	    30	 100.0	     0	..............................	|                                    	
+==========	======	======	======	==============================	=====================================	==================
+         8	    30	 100.0	    36	GTTGATTGCTAACATTAGATGTATTGAAAT	                                     	       
+
+# Left flank :   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATGTTGATTGCTAACATTAGATGTATTGAAATTCTGGCATTGTAAAAAATCAGCTACGGGAGCAATAGGTTGATTGCTAACATTAGATGTATTGAAATTACAAATACACCCCACAAGGTACCAATATAATACTTAGTTGATTGCTAACATTAGATGTATTGAAATTTAATAAATTATACATAATCCCTCCTAACTTAATAAGTTGATTGCTAACATTAGATGTATTGAAATATATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGTTGATTGCTAACATTAGATGTATTGAAATAATTCTTGTTTAACAAGAGATGCAAACCCGTCTTT
+# Right flank :  TANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTGATTGCTAACATTAGATGTATTGAAATATATTTTCTATTTTTAAAAGTTTTTTAGGGTCATATTGTTGATTGCTAACATTAGATGTATTGAAATGTTGTACTTCCGTCTTCATTTTTAATTTCTACATTTGTTGATTGCTAACATTAGATGTATTGAAATAATGATTATTTATATCTACCTAAAAAAGAAAATTTAGTTGATTGCTAACACTAGATGTATTGAAATATAATAAAATTCATTTTATCCTCCAAATTTATCATGTTGATTGCTAACATTAGATGTATTGAAATTCATTATAAGACATTATTGTCCTCCTCAATAAAATGTTGATTACTAACATTAGATGTATTGAAATATAAATTTCATAAACTGTACATCAGCATTTTCACTATGT
+
+# Questionable array : NO	 Score: 8.89
+# 	Score Detail : 1:1, 2:0, 3:3, 4:1.00, 5:0, 6:0.99, 7:0.90, 8:1, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGATTGCTAACATTAGATGTATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:73.33%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: F [70.0-1.7]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA [936,1791] Score: 0/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [4.77,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:WP_049690002 [37519-37800]; Cas4:WP_049690004 [36027-36512]; Cas6:WP_060802751 [29372-30058]; Helicase/endonuclease Cas3:WP_049690005 [33508-36030]; Unclassified_Cas_protein:WP_060802753 [31826-32779]; 
+# Array family : NA
+# Sequence source strain : MJR7738A
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Anaerococcus.; Anaerococcus hydrogenalis
+//
+
+
+Array 2 39393-40665 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_KQ955376-Anaerococcus hydrogenalis strain MJR7738A Scaffold73, whole genome		Array_Orientation: Forward
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence               	Spacer_Sequence                       	Insertion/Deletion
+==========	======	======	======	==============================	======================================	==================
+     39393	    30	  96.7	    36	.......G......................	GTTGTACTTCCGTCTTCATTTTTAATTTCTACATTT  	
+     39459	    30	  96.7	    36	.......G......................	AATGATTATTTATATCTACCTAAAAAAGAAAATTTA  	
+     39525	    30	  93.3	    35	.......G......C...............	ATAATAAAATTCATTTTATCCTCCAAATTTATCAT   	
+     39590	    30	  96.7	    35	.......G......................	TCATTATAAGACATTATTGTCCTCCTCAATAAAAT   	
+     39655	    30	 100.0	    37	..............................	ATAAATTTCATAAACTGTACATCAGCATTTTCACTAT 	
+     39722	    30	 100.0	    34	..............................	TGAATATTCTTCAGTTTCTTTTGATGTTGGTAGG    	
+     39786	    30	 100.0	    35	..............................	TATACACTATCATAGTGGATACTTTGTCCCACTCC   	
+     39851	    30	 100.0	    37	..............................	AGGCAAGCTTCTTGTAACTATGGTATAGGTAATGATA 	
+     39918	    30	 100.0	    36	..............................	TTTATTTCTGCAAAATCTAATATTTGCTTATAACTT  	
+     39984	    30	 100.0	    38	..............................	ATTTCCATTAGAATGGTGCCTTTTCTAATGCTTCAAAT	
+     40052	    30	 100.0	    35	..............................	TAGACTTCTTTTTGCTTCAAAAAATCCTTATTTCT   	
+     40117	    30	 100.0	    33	..............................	AAATACGGGGCCCCCCTAGACCCCCAAATTTTG     	
+     40180	    30	 100.0	    34	..............................	AAGCTAGATGATGATATATTTTTAATCTTATTAT    	
+     40244	    30	 100.0	    35	..............................	TAATATTTAAAATCTGGCGTATATTCAGCTTTTCT   	
+     40309	    30	 100.0	    35	..............................	AAAGGGAGCTTTTAAAAATCTGAATAGTGCCATAG   	
+     40374	    30	  93.3	    36	.......GA.....................	TCATCTCCAGAAATCTTTTCAGCAAGCTTTAAAGGC  	
+     40440	    30	  93.3	    35	.......GA.....................	TTATAAGACATTTATATCCTCCTCTACATAATTAT   	
+     40505	    30	  93.3	    36	.......GA.....................	ACGCTATAATAATGCAAGTGATTTTATAGTGTCAAC  	
+     40571	    30	  90.0	    35	.......GA...A.................	TATTAGGACTATCCTTATAAAACTTTAACTGTAAG   	
+     40636	    30	  93.3	     0	........A......C..............	|                                     	
+==========	======	======	======	==============================	======================================	==================
+        20	    30	  97.3	    35	GTTGATTACTAACATTAGATGTATTGAAAT	                                      	       
+
+# Left flank :   ATCTTTATTAAGAGTGAACGCACTGCTAAAGTCTTTAGTTGATTGCTAACATTAGATGTATTGAAATAATCGACAATCAGTATAATTTATGTTATATATTTCAGTTGATTGCTAACATTAGATGTATTGAAATTAACTATGAGGTCGTATCCCATATATTTCTTTTGTGTTGATTGCTAACATTAGATGTATTGAAATTCTATTATCTCCACTGGTAATGCTCCACCATCTTTAGGTTGATTGCTAACATTAGATGTATTGAAATATATATACATTGTAAATATATACAATAAACCAATTTTGTTGATTGCTAACATTAGATGTATTGAAATANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTGATTGCTAACATTAGATGTATTGAAATATATTTTCTATTTTTAAAAGTTTTTTAGGGTCATATT
+# Right flank :  TGTGTTTCCAAATTTTTTGATTTGGTGCGGGATAAAGGAGTCGAACTAATTATTTTATTTAGAGATATTTTATCAATAAATAATAAAAATCCCTAATATTATCGATTTGGTATATTTCATAAGAAAATGCAAGAAAAATTTTGAAATCCAATAAATAATCTTATAGATAGTATCAAAAATCCATAAAATCTCAATTATAATCAATAAAAAGATCTTGATATATAAATTAACATCAAGACCTTTTTTGTTGTAAAAATATTGAAAATTTTATTTATATCAAAATTTGAAATCGTAATTGATTTTGAATTTTTTTAATTTCTATAATAAAAATATTTACACCATAAAACCAACTAAATCAATCCTTTTTCCTTTAAATAATAATAAATCCCATCATCATCTACGCTTTTACACACATCATAGGAAATATTTTTTAAATCATCTGATCCGTTTTCCATGCAAATTCCGTATTTTACTGCTTCAAACATTTCTAAATCGTTGTT
+
+# Questionable array : NO	 Score: 8.55
+# 	Score Detail : 1:1, 2:0, 3:3, 4:0.86, 5:0, 6:0.99, 7:0.78, 8:1, 9:0.92,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     GTTGATTACTAACATTAGATGTATTGAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         F Score: 4.5/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:76.67%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      F [3-5] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: F [80.0-70.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         F [1594,350] Score: 0.18/0.18
+# 	----------------------------------------------------------------------------
+# 	Final direction:         F [5.36,0   Confidence: HIGH] 
+
+# Identified Cas genes:  Cas2:WP_049690002 [37519-37800]; Cas4:WP_049690004 [36027-36512]; Cas6:WP_060802751 [29372-30058]; Helicase/endonuclease Cas3:WP_049690005 [33508-36030]; Unclassified_Cas_protein:WP_060802753 [31826-32779]; 
+# Array family : NA
+# Sequence source strain : MJR7738A
+# Taxonomy hierarchy : Bacteria; Firmicutes; Tissierellia; Tissierellales;Peptoniphilaceae; Anaerococcus.; Anaerococcus hydrogenalis
+//
+
+

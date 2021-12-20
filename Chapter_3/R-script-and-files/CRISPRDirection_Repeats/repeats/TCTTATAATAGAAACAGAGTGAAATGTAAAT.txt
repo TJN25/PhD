@@ -1,0 +1,39 @@
+Array 1 262-35 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_JAAG01000378-Fusobacterium necrophorum BFTR-2 contig0392, whole genome shotgun		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence                	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===============================	===================================	==================
+       261	    31	 100.0	    35	...............................	GGTAATTCAGCAGACACAATAGGATTCTGTTCTGT	
+       195	    31	 100.0	    34	...............................	ATTCAAACAACAAATTCTGAGCTGTCAACTATTA 	
+       130	    31	 100.0	    34	...............................	AAGAAGCCTCTCTGCGACTGTTACCAATCGTAGA 	
+        65	    31	 100.0	     0	...............................	|                                  	
+==========	======	======	======	===============================	===================================	==================
+         4	    31	 100.0	    35	TCTTATAATAGAAACAGAGTGAAATGTAAAT	                                   	       
+
+# Left flank :   ATAATAGAAACAGAGTGAAATGTAAATTGTTCATATTATGTTTTGCGAAAGAAAGTTAGA
+# Right flank :  TCGCTTCTCATTTTAGACGAGTGTTGGTTTGTATT
+
+# Questionable array : NO	 Score: 3.74
+# 	Score Detail : 1:0, 2:0, 3:0, 4:1.00, 5:0, 6:0.34, 7:0.80, 8:0.6, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     TCTTATAATAGAAACAGAGTGAAATGTAAAT
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:77.42%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [0.00,0.00] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      NA [0-0] Score: 0/0.41
+# 	AT richness analysis in flanks prediction: R [35.0-75.0]%AT Score: 0.27/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.27   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : BFTR-2
+# Taxonomy hierarchy : Bacteria; Fusobacteria; Fusobacteriales; Fusobacteriaceae;Fusobacterium.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromJAAG01000378.FEATURES             Location/Qualifierssource          1..322/organism="Fusobacterium necrophorum BFTR-2"/mol_type="genomic DNA"/strain="BFTR-2"/isolation_source="foot rot"; Fusobacterium necrophorum BFTR-2
+//
+
+

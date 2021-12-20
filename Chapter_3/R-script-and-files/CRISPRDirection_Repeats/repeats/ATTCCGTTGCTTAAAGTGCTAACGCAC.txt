@@ -1,0 +1,38 @@
+Array 1 371-220 		**** Predicted by CRISPRDetect 2.2 *** 
+>NZ_AVLE01000017-Clostridioides difficile Y307 gcdY307.contig.24, whole genome		Array_Orientation: Reverse
+
+  Position	Repeat	   %id	Spacer	Repeat_Sequence            	Spacer_Sequence                    	Insertion/Deletion
+==========	======	======	======	===========================	===================================	==================
+       370	    27	 100.0	    35	...........................	CACGTCAACGAACAACCTTCGTATTCACTCAGATT	
+       308	    27	  96.3	    35	........A..................	AGCGCCAACAAACAAACTTCACATGCGTTCAGTTT	
+       246	    27	  92.6	     0	....T..................A...	|                                  	
+==========	======	======	======	===========================	===================================	==================
+         3	    27	  96.3	    36	ATTCCGTTGCTTAAAGTGCTAACGCAC	                                   	       
+
+# Left flank :   TCATTAAGCTATGTATTCACTTAATGATACTTAGACATTACTCTAAGTGAGTTTCCTCATTCGGAAATCTTCGGATCAAAGTTTACGTGCAACTCCCCGAAGCTTATCGCAGCTTATCACGTCCTTCATCGGCTCCTAGTGCCAAGGCATCCGCCCTGCACCCTTAATAACTTGACCAGTTAAAAAGGTTTGATAGATTAGAAGCTATCAACTTCGATAATTTTAAAAAGTTATCAGCTTTATATATTACAAATTAGATGTCATATCACTAAATATATATATGCAATTTTCAAAGTGCTAAAGCACGGCGCCAACGAATA
+# Right flank :  CAAAGCTTGTATAAATTTAAGCTATAAGTGCATTGTAAGAGGCTACTAAGTAAATCAAAGATTTAAGTAATATACTCTTAAATGGTGGAGATGAGGAGAGTCGAACTCCTGACCCCTTGCTTGCAAGGCAAGTGCTCTCCCAACTGAGCTACACCCCCATATATAAAGTTCGTAAAGAACTTTCAAAATTAAACAGTAGGCAATTCTCCTTAGAAAGGAG
+
+# Questionable array : NO	 Score: 2.39
+# 	Score Detail : 1:0, 2:0, 3:0, 4:0.81, 5:-1.5, 6:0.28, 7:1.40, 8:0.4, 9:1,
+# 	Score Legend : 1: cas, 2: likely_repeat, 3: motif_match, 4: overall_repeat_identity, 5: one_repeat_cluster, 6: exp_repeat_length, 7: exp_spacer_length, 8: spacer_identity, 9: log(total repeats) - log(total mutated repeats),
+# Primary repeat :     ATTCCGTTGCTTAAAGTGCTAACGCAC
+# Alternate repeat :   NA
+
+# Directional analysis summary from each method:
+# 	Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# 	A,T distribution in repeat prediction:     NA [Repeat is AT rich:55.56%AT]
+# 	Reference repeat match prediction:         NA 
+# 	Secondary Structural analysis prediction:  NA [-0.40,-0.70] Score: 0/0.37
+# 	Array degeneracy analysis prediction:      R [2-1] Score: 0.41/0.41
+# 	AT richness analysis in flanks prediction: NA [71.7-66.7]%AT Score: 0/0.27
+# 	Longer leader analysis prediction:         NA 
+# 	----------------------------------------------------------------------------
+# 	Final direction:         R [0,0.41   Confidence: MEDIUM] 
+
+# Identified Cas genes:  NA
+# Array family : NA
+# Sequence source strain : Y307
+# Taxonomy hierarchy : Bacteria; Firmicutes; Clostridia; Clostridiales;Peptostreptococcaceae; Clostridioides.COMMENT     REFSEQ INFORMATION: The reference sequence was derived fromAVLE01000017.FEATURES             Location/Qualifierssource          1..691/organism="Clostridioides difficile Y307"/mol_type="genomic DNA"/strain="Y307"/db_xref="taxon:1151386"; Clostridioides difficile Y307
+//
+
+
