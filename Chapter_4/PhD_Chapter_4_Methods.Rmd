@@ -247,9 +247,6 @@ cat GCA*.fna >> ${fasta_file}
 single_fasta_files.py -i seqs_predicted/${group}/${fasta_file} -f seqs_predicted/${group}/single_seqs/
 ```
 
--------
-
-# need to check this section
 
 ## Build models
 
@@ -268,9 +265,7 @@ run_sRNA_nhmmer.sh -d RNASeq/srna_seqs/seqs_predicted/${group}/predicted*.fna -f
 ```
 
 ```{bash remove_duplicates_from_nhmmer, eval=F}
-
 ##done in ~/phd/RNASeq/srna_seqs/version_1/seqs_predicted/${group}/alignments
-
 group="predicted"
 cd ~/phd/RNASeq/srna_seqs/version_1/seqs_predicted/${group}/alignments
 
@@ -324,12 +319,6 @@ group="predicted"
 cd ~/phd/RNASeq/srnas/${group}
 run_sRNA_nhmmer.sh -d ~/phd/RNASeq/representative_genomes.fna -f initial_alignments/ -o large_alignments/ -e stk -E 1e-5
 ```
-
-
-
---------
-
-
 
 # Known sRNAs{#known_srna}
 

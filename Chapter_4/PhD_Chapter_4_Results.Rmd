@@ -570,9 +570,9 @@ save(featuresSelected, file="~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/f
 
 ```{r plot_probabilities, eval=T}
 
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/predDat.Rda")
+load("~/bin/PhD/Chapter_4/chapter_4_files/predDat.Rda")
 
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/validatation2.Rda")
+load("~/bin/PhD/Chapter_4/chapter_4_files/validatation2.Rda")
 
 probDat <- predDat %>% select(probability, ID, group, srna.counts.2) %>% bind_rows(validation2 %>% select(probability, ID, group, srna.counts.2)) %>% dplyr::rename(max_dist = probability)
 
@@ -589,7 +589,7 @@ p + theme_classic()
 
 write_data <- T
 if(write_data){
-ggsave(filename = "~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_svgs/probabilites_rf_log_gz.svg", plot = p, width = 178, height = 155, units = "mm")
+ggsave(filename = "~/bin/PhD/Chapter_4/chapter_4_files/probabilites_rf_log_gz.svg", plot = p, width = 178, height = 155, units = "mm")
 }
 ```
 
@@ -653,7 +653,7 @@ probDatExpanded %>% filter(group == "Predicted", probability > 0.81) %>% select(
 ```
 
 ```{r cumulative_distributions, eval=T}
-load("chapter_3_files/featuresSelected_gz.Rda")
+load("~/bin/PhD/Chapter_4/chapter_4_files/featuresSelected_gz.Rda")
 ##function written using max_dist as column name so each variable needs to  be renamed to this before using cumulativeDistribution()
 
 dat <- featuresSelected %>% dplyr::rename(max_dist = distance) 
