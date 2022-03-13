@@ -17,7 +17,7 @@ library(randomForest)
 library(ggpubr)
 library(gplots)
 library(ROSE)
-setwd("~/bin/PhD_Chapters_Code/Chapter 3/")
+setwd("~/bin/PhD/Chapter_4/")
 ```
 
 
@@ -161,79 +161,79 @@ return(dat)
 
 # Process scores
 ```{r read_depths_setup, eval=F, include=T}
-pcRDepth <- readDepthsSetup(file_path = "chapter_3_files/positive_control_read_depths_summary.txt")
-ncRDepth <- readDepthsSetup("chapter_3_files/negative_control_read_depths_summary.txt")
-predRDepth <- readDepthsSetup("chapter_3_files/predicted_read_depths_summary.txt")
+pcRDepth <- readDepthsSetup(file_path = "chapter_4_files/positive_control_read_depths_summary.txt")
+ncRDepth <- readDepthsSetup("chapter_4_files/negative_control_read_depths_summary.txt")
+predRDepth <- readDepthsSetup("chapter_4_files/predicted_read_depths_summary.txt")
 
-save(ncRDepth, file = "chapter_3_files/ncRDepth.Rda")
-save(pcRDepth, file = "chapter_3_files/pcRDepth.Rda")
-save(predRDepth, file = "chapter_3_files/predRDepth.Rda")
+save(ncRDepth, file = "chapter_4_files/ncRDepth.Rda")
+save(pcRDepth, file = "chapter_4_files/pcRDepth.Rda")
+save(predRDepth, file = "chapter_4_files/predRDepth.Rda")
 
 ```
 
 ```{r rscape_setup, eval = F, include=T}
-pcCov<- rscapeCovarianceSetup("chapter_3_files/pc.cov")
-ncCovRNA <- rscapeCovarianceSetup("chapter_3_files/nc.cov")
-predCovRNA <- rscapeCovarianceSetup("chapter_3_files/pred.cov")
+pcCov<- rscapeCovarianceSetup("chapter_4_files/pc.cov")
+ncCovRNA <- rscapeCovarianceSetup("chapter_4_files/nc.cov")
+predCovRNA <- rscapeCovarianceSetup("chapter_4_files/pred.cov")
 
 
-save(pcCov, file = "chapter_3_files/pcCovariation.Rda")
-save(ncCovRNA, file = "chapter_3_files/ncCovariation.Rda")
-save(predCovRNA, file = "chapter_3_files/predCovariation.Rda")
+save(pcCov, file = "chapter_4_files/pcCovariation.Rda")
+save(ncCovRNA, file = "chapter_4_files/ncCovariation.Rda")
+save(predCovRNA, file = "chapter_4_files/predCovariation.Rda")
 
 ```
 
 ```{r gc_content_setup, eval = F}
-predGC <- gcSetup(file_path = "chapter_3_files/predicted_gc_reference.txt")
-pcGC <- gcSetup(file_path = "chapter_3_files/positive_control_gc_reference.txt")
-ncGC <- gcSetup(file_path = "chapter_3_files/negative_control_gc_reference.txt")
+predGC <- gcSetup(file_path = "chapter_4_files/predicted_gc_reference.txt")
+pcGC <- gcSetup(file_path = "chapter_4_files/positive_control_gc_reference.txt")
+ncGC <- gcSetup(file_path = "chapter_4_files/negative_control_gc_reference.txt")
 
-save(pcGC, file= "chapter_3_files/pcGC.Rda")
-save(ncGC, file= "chapter_3_files/ncGC.Rda")
-save(predGC, file= "chapter_3_files/predGC.Rda")
+save(pcGC, file= "chapter_4_files/pcGC.Rda")
+save(ncGC, file= "chapter_4_files/ncGC.Rda")
+save(predGC, file= "chapter_4_files/predGC.Rda")
 
 ```
 
 ```{r z_score_setup, eval = F}
-pcAlifold<- alifoldSetup("chapter_3_files/positive_control.alifold")
-ncAlifold<- alifoldSetup("chapter_3_files/negative_control.alifold")
-predAlifold<- alifoldSetup("chapter_3_files/predicted.alifold")
+pcAlifold<- alifoldSetup("chapter_4_files/positive_control.alifold")
+ncAlifold<- alifoldSetup("chapter_4_files/negative_control.alifold")
+predAlifold<- alifoldSetup("chapter_4_files/predicted.alifold")
 
-save(pcAlifold, file = "chapter_3_files/pcAlifold.Rda")
-save(ncAlifold, file = "chapter_3_files/ncAlifold.Rda")
-save(predAlifold, file = "chapter_3_files/predAlifold.Rda")
+save(pcAlifold, file = "chapter_4_files/pcAlifold.Rda")
+save(ncAlifold, file = "chapter_4_files/ncAlifold.Rda")
+save(predAlifold, file = "chapter_4_files/predAlifold.Rda")
 ```
 
 ```{r MFE_setup, eval = F, echo=T}
-predMFE <- read.table("chapter_3_files/predicted_mfe.txt")
-pcMFE <- read.table("chapter_3_files/positive_control_mfe.txt")
-ncMFE <- read.table("chapter_3_files/negative_control_mfe.txt")
+predMFE <- read.table("chapter_4_files/predicted_mfe.txt")
+pcMFE <- read.table("chapter_4_files/positive_control_mfe.txt")
+ncMFE <- read.table("chapter_4_files/negative_control_mfe.txt")
 
 colnames(pcMFE) <- c("mfe.score", "ID")
 colnames(ncMFE) <- c("mfe.score", "ID")
 colnames(predMFE) <- c("mfe.score", "ID")
 
-save(pcMFE, file= "chapter_3_files/pcMFE.Rda")
-save(ncMFE, file= "chapter_3_files/ncMFE.Rda")
-save(predMFE, file= "chapter_3_files/predMFE.Rda")
+save(pcMFE, file= "chapter_4_files/pcMFE.Rda")
+save(ncMFE, file= "chapter_4_files/ncMFE.Rda")
+save(predMFE, file= "chapter_4_files/predMFE.Rda")
 
 ```
 
 ```{r motifs_setup, eval=F}
-pcMotif <- motifSetup("chapter_3_files/positive_control.rmfam")
-ncMotif <- motifSetup("chapter_3_files/negative_control.rmfam")
-predMotif <- motifSetup("chapter_3_files/predicted.rmfam")
+pcMotif <- motifSetup("chapter_4_files/positive_control.rmfam")
+ncMotif <- motifSetup("chapter_4_files/negative_control.rmfam")
+predMotif <- motifSetup("chapter_4_files/predicted.rmfam")
 
-save(pcMotif, file = "chapter_3_files/pcMotif.Rda")
-save(ncMotif, file = "chapter_3_files/ncMotif.Rda")
-save(predMotif, file = "chapter_3_files/predMotif.Rda")
+save(pcMotif, file = "chapter_4_files/pcMotif.Rda")
+save(ncMotif, file = "chapter_4_files/ncMotif.Rda")
+save(predMotif, file = "chapter_4_files/predMotif.Rda")
 
 ```
 
 ```{r alifold_covariance_setup, eval = F, include=T}
-ncAliCov <- read.table("chapter_3_files/negative_control_alifold_covariation.txt")
-pcAliCov <- read.table("chapter_3_files/positive_control_alifold_covariation.txt")
-predAliCov <- read.table("chapter_3_files/predicted_alifold_covariation.txt")
+ncAliCov <- read.table("chapter_4_files/negative_control_alifold_covariation.txt")
+pcAliCov <- read.table("chapter_4_files/positive_control_alifold_covariation.txt")
+predAliCov <- read.table("chapter_4_files/predicted_alifold_covariation.txt")
 
 
 colnames(ncAliCov) <- c("alifold_cov_score", "ID")
@@ -241,15 +241,15 @@ colnames(pcAliCov) <- c("alifold_cov_score", "ID")
 colnames(predAliCov) <- c("alifold_cov_score", "ID")
 
 
-save(pcAliCov, file = "chapter_3_files/pcCovAli.Rda")
-save(ncAliCov, file = "chapter_3_files/ncCovAli.Rda")
-save(predAliCov, file = "chapter_3_files/predAliCov.Rda")
+save(pcAliCov, file = "chapter_4_files/pcCovAli.Rda")
+save(ncAliCov, file = "chapter_4_files/ncCovAli.Rda")
+save(predAliCov, file = "chapter_4_files/predAliCov.Rda")
 ```
 
 ```{r alifold_score_setup, eval=F, echo=T}
-pcAlifoldScore <- read.table("chapter_3_files/positive_control_alifold_score.txt")
-ncAlifoldScore <- read.table("chapter_3_files/negative_control_alifold_score.txt")
-predAlifoldScore <- read.table("chapter_3_files/predicted_alifold_score.txt")
+pcAlifoldScore <- read.table("chapter_4_files/positive_control_alifold_score.txt")
+ncAlifoldScore <- read.table("chapter_4_files/negative_control_alifold_score.txt")
+predAlifoldScore <- read.table("chapter_4_files/predicted_alifold_score.txt")
 
 colnames(pcAlifoldScore) <- c("alifold.score", "ID")
 colnames(ncAlifoldScore) <- c("alifold.score", "ID")
@@ -259,9 +259,9 @@ ncAlifoldScore <- ncAlifoldScore %>% group_by(ID) %>% summarise(alifold.score = 
 pcAlifoldScore <- pcAlifoldScore %>% group_by(ID) %>% summarise(alifold.score = min(alifold.score))
 predAlifoldScore <- predAlifoldScore %>% group_by(ID) %>% summarise(alifold.score = min(alifold.score))
 
-save(pcAlifoldScore, file= "chapter_3_files/pcAlifoldScore.Rda")
-save(ncAlifoldScore, file= "chapter_3_files/ncAlifoldScore.Rda")
-save(predAlifoldScore, file= "chapter_3_files/predAlifoldScore.Rda")
+save(pcAlifoldScore, file= "chapter_4_files/pcAlifoldScore.Rda")
+save(ncAlifoldScore, file= "chapter_4_files/ncAlifoldScore.Rda")
+save(predAlifoldScore, file= "chapter_4_files/predAlifoldScore.Rda")
 ```
 
 
@@ -271,26 +271,26 @@ save(predAlifoldScore, file= "chapter_3_files/predAlifoldScore.Rda")
 ### make rf_classifier
 
 ```{r combined_data_setup, eval=T}
-load("chapter_3_files/max_dists_pc.Rda")
-load("chapter_3_files/max_dists_nc.Rda")
-load("chapter_3_files/pcRDepth.Rda")
-load("chapter_3_files/ncRDepth.Rda")
-load("chapter_3_files/pcCovariation.Rda") 
-load("chapter_3_files/ncCovariation.Rda")
-load("chapter_3_files/pcGC.Rda")
-load("chapter_3_files/ncGC.Rda")
-load("chapter_3_files/pcAlifold.Rda")
-load("chapter_3_files/ncAlifold.Rda")
-load("chapter_3_files/pcMFE.Rda")
-load("chapter_3_files/ncMFE.Rda")
-load("chapter_3_files/pcMotif.Rda")
-load("chapter_3_files/ncMotif.Rda")
-load("chapter_3_files/pcCovAli.Rda")
-load("chapter_3_files/ncCovAli.Rda")
-load("chapter_3_files/pcAlifoldScore.Rda")
-load("chapter_3_files/ncAlifoldScore.Rda")
-pcSRNACounts <- read.table("chapter_3_files/positive_control_snra_counts.txt")
-ncSRNACounts <- read.table("chapter_3_files/negative_control_snra_counts.txt")
+load("chapter_4_files/max_dists_pc.Rda")
+load("chapter_4_files/max_dists_nc.Rda")
+load("chapter_4_files/pcRDepth.Rda")
+load("chapter_4_files/ncRDepth.Rda")
+load("chapter_4_files/pcCovariation.Rda") 
+load("chapter_4_files/ncCovariation.Rda")
+load("chapter_4_files/pcGC.Rda")
+load("chapter_4_files/ncGC.Rda")
+load("chapter_4_files/pcAlifold.Rda")
+load("chapter_4_files/ncAlifold.Rda")
+load("chapter_4_files/pcMFE.Rda")
+load("chapter_4_files/ncMFE.Rda")
+load("chapter_4_files/pcMotif.Rda")
+load("chapter_4_files/ncMotif.Rda")
+load("chapter_4_files/pcCovAli.Rda")
+load("chapter_4_files/ncCovAli.Rda")
+load("chapter_4_files/pcAlifoldScore.Rda")
+load("chapter_4_files/ncAlifoldScore.Rda")
+pcSRNACounts <- read.table("chapter_4_files/positive_control_snra_counts.txt")
+ncSRNACounts <- read.table("chapter_4_files/negative_control_snra_counts.txt")
 colnames(pcSRNACounts) <- c("srna.counts", "ID")
 colnames(ncSRNACounts) <- c("srna.counts", "ID")
 
@@ -325,13 +325,13 @@ dat <- replaceNAs(dat = dat)
 dat <- dat %>% 
   unique() %>% 
   mutate(motif.sum = motif.mean.score*motif_count)
-save(dat, file = "chapter_3_files/randomForestDat.Rda")
+save(dat, file = "chapter_4_files/randomForestDat.Rda")
 ```
 
 ### correlation_heat_map
 
 ```{r correlation_heat_map, eval=T}
-load("chapter_3_files/randomForestDat.Rda")
+load("chapter_4_files/randomForestDat.Rda")
 
 dat <- dat %>% select(-ID) %>% unique() %>% mutate(cov.min.eval = -log(cov.min.eval), z_mean = -z_mean,
                                                                z_max = -z_max,
@@ -397,7 +397,7 @@ dev.off()
 ### more rf_stuff
 
 ```{r random_forest_goldilocks, eval = F}
-load("chapter_3_files/randomForestDat.Rda")
+load("chapter_4_files/randomForestDat.Rda")
 
 dat <- dat %>% select(-ID) %>% unique() %>% select(read.max.score, read.counts, distance, cov.min.eval, z_max, alifold_cov_score, mfe.score, gc.score, srna.counts, motif.sum, group)
 set.seed(101)
@@ -418,19 +418,19 @@ indexes <- sample(1:nrow(randomForestDat), size = data_set_size)
 
 training <- randomForestDat[indexes,]
 validation <- randomForestDat[-indexes,]
-save(indexes, file = "chapter_3_files/indexes_gz.Rda")
-save(training, file = "chapter_3_files/training_gz.Rda")
-save(validation, file = "chapter_3_files/validation_gz.Rda")
+save(indexes, file = "chapter_4_files/indexes_gz.Rda")
+save(training, file = "chapter_4_files/training_gz.Rda")
+save(validation, file = "chapter_4_files/validation_gz.Rda")
 
 rf_classifier = randomForest(group ~ ., data=training, ntree=1000, importance=TRUE)
 rf_classifier
 
-save(rf_classifier, file = "chapter_3_files/rf_classifier_gz.Rda")
+save(rf_classifier, file = "chapter_4_files/rf_classifier_gz.Rda")
 ```
 
 ```{r random_forest_gz_res, eval = T}
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/rf_classifier_gz.Rda")
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/validation_gz.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/rf_classifier_gz.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/validation_gz.Rda")
 
 varImpPlot(rf_classifier)
 colGroupNum <- match(x = "group", table = colnames(validation))
@@ -450,9 +450,9 @@ dev.off()
 ```
 
 ```{r validation_set_all, eval=T}
-load("chapter_3_files/randomForestDat.Rda")
-load("chapter_3_files/indexes_gz.Rda")
-load("chapter_3_files/rf_classifier_gz.Rda")
+load("chapter_4_files/randomForestDat.Rda")
+load("chapter_4_files/indexes_gz.Rda")
+load("chapter_4_files/rf_classifier_gz.Rda")
 
 ##recreate validation where the reads data is kept
 validation <- dat[-indexes,]
@@ -470,13 +470,13 @@ prediction_for_roc_curve <- predict(rf_classifier,validation[,-c(colIDNum, colGr
 validation$probability <- prediction_for_roc_curve[,2]
 
 ##get the number of times each ID was found expressed before redundancy was removed
-redundacy_counts_pc <- read.table("chapter_3_files/pc_counts.txt")
+redundacy_counts_pc <- read.table("chapter_4_files/pc_counts.txt")
 colnames(redundacy_counts_pc) <- c("ID", "srna.counts.2")
 
 validation <- validation %>% left_join(redundacy_counts_pc, by = "ID")
 validation <- validation %>% select(read.max.score, distance, cov.min.eval, z_max, motif.max.score, alifold_cov_score, mfe.score, gc.score, srna.counts.2, motif.sum, group, ID, random, probability)
 
-redundacy_counts_nc <- read.table("chapter_3_files/negative_control_counts.txt")
+redundacy_counts_nc <- read.table("chapter_4_files/negative_control_counts.txt")
 colnames(redundacy_counts_nc) <- c("srna.counts.3", "ID")
 
 ##adds the same counts data for the negative controls to validation that was added for the positive controls
@@ -484,24 +484,24 @@ validation <- validation %>% left_join(redundacy_counts_nc, by = "ID")
 validation2 <- validation %>% mutate(srna.counts.2 = ifelse(is.na(srna.counts.2), srna.counts.3, srna.counts.2)) %>% select(-srna.counts.3)
 
 
-save(validation2, file = "chapter_3_files/validatation2.Rda")
+save(validation2, file = "chapter_4_files/validatation2.Rda")
 ```
 
 
 ```{r random_forest_predicted_data, eval=T}
-load("chapter_3_files/rf_classifier_gz.Rda")
-load("chapter_3_files/randomForestDat.Rda")
-load("chapter_3_files/max_dists_pred.Rda")
-load("chapter_3_files/predRDepth.Rda")
-load("chapter_3_files/predCovariation.Rda") 
-load("chapter_3_files/predGC.Rda")
-load("chapter_3_files/predAlifold.Rda")
-load("chapter_3_files/predMFE.Rda")
-load("chapter_3_files/predMotif.Rda")
-load("chapter_3_files/predAlifoldScore.Rda")
-load("chapter_3_files/predAliCov.Rda")
+load("chapter_4_files/rf_classifier_gz.Rda")
+load("chapter_4_files/randomForestDat.Rda")
+load("chapter_4_files/max_dists_pred.Rda")
+load("chapter_4_files/predRDepth.Rda")
+load("chapter_4_files/predCovariation.Rda") 
+load("chapter_4_files/predGC.Rda")
+load("chapter_4_files/predAlifold.Rda")
+load("chapter_4_files/predMFE.Rda")
+load("chapter_4_files/predMotif.Rda")
+load("chapter_4_files/predAlifoldScore.Rda")
+load("chapter_4_files/predAliCov.Rda")
 
-predSRNACounts <- read.table("chapter_3_files/predicted_snra_counts.txt")
+predSRNACounts <- read.table("chapter_4_files/predicted_snra_counts.txt")
 colnames(predSRNACounts) <- c("srna.counts", "ID")
 
 predDat <- predMFE %>%
@@ -519,7 +519,7 @@ predDat <- predMFE %>%
 
 
 ##indicates how many ids have been merged into the current id
-redundacy_counts_pred <- read.table("chapter_3_files/predicted_counts.txt")
+redundacy_counts_pred <- read.table("chapter_4_files/predicted_counts.txt")
 colnames(redundacy_counts_pred) <- c("srna.counts.2", "ID")
 
 predDat <- predDat %>% left_join(redundacy_counts_pred, by = "ID")
@@ -553,7 +553,7 @@ prediction_for_predcited_data <- predict(rf_classifier,predRfDat, type = 'respon
 prob_for_predcited_data <- predict(rf_classifier,predRfDat, type = 'prob')
 predDat$probability <- prob_for_predcited_data[,2]
 
-save(predDat, file = "chapter_3_files/predDat.Rda")
+save(predDat, file = "chapter_4_files/predDat.Rda")
 
 ##filters for features that are used in the analysis
 featuresSelected <- dat %>% mutate(motif.sum = motif.mean.score*motif_count) %>% unique() %>% mutate(motif.sum = motif.mean.score*motif_count) %>% select(read.max.score, distance, cov.min.eval, z_max, motif.max.score, alifold_cov_score, mfe.score, gc.score, motif.sum, group)
@@ -562,7 +562,7 @@ featuresSelected <- dat %>% mutate(motif.sum = motif.mean.score*motif_count) %>%
 featuresSelected <- predDat %>% select(read.max.score, distance, cov.min.eval, z_max, motif.max.score, alifold_cov_score, mfe.score, gc.score, srna.counts, motif.sum, group) %>% bind_rows(featuresSelected) %>%
   filter(!is.na(group))
 
-save(featuresSelected, file="~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/featuresSelected_gz.Rda")
+save(featuresSelected, file="~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/featuresSelected_gz.Rda")
 
 ```
 
@@ -594,9 +594,9 @@ ggsave(filename = "~/bin/PhD/Chapter_4/chapter_4_files/probabilites_rf_log_gz.sv
 ```
 
 ```{r score_values, eval=TRUE}
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/predDat.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/predDat.Rda")
 
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/validatation2.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/validatation2.Rda")
 
 probDat <- predDat %>% bind_rows(validation2)
 ##This works out the values for sens/spec/precision
@@ -752,8 +752,8 @@ ggsave(filename = "~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_svgs/all_distribu
 ```
 
 ```{r read_depths_roc, eval=T}
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/ncRDepth.Rda")
-load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_3_files/pcRDepth.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/ncRDepth.Rda")
+load("~/bin/PhD_Chapters_Code/Chapter 3/chapter_4_files/pcRDepth.Rda")
 
 pcRDepth <- pcRDepth %>% mutate(response = 1)
 ncRDepth <- ncRDepth %>% mutate(response = 0)
@@ -772,8 +772,8 @@ dev.off()
 ```
 
 ```{r distance_roc, eval=T}
-load(file = "chapter_3_files/max_dists_pc.Rda")
-load(file = "chapter_3_files//max_dists_nc.Rda")
+load(file = "chapter_4_files/max_dists_pc.Rda")
+load(file = "chapter_4_files//max_dists_nc.Rda")
 max_dists_pc <- max_dists_pc  %>% mutate(response = 1)
 max_dists_nc <- max_dists_nc  %>% mutate(response = 0)
 
@@ -790,8 +790,8 @@ dev.off()
 ```
 
 ```{r rscape_roc, eval=T}
-load("chapter_3_files/pcCovariation.Rda")
-load("chapter_3_files/ncCovariation.Rda")
+load("chapter_4_files/pcCovariation.Rda")
+load("chapter_4_files/ncCovariation.Rda")
 
 pcCov <- pcCov %>% mutate(response = 1)
 ncCov <- ncCovRNA%>% mutate(response = 0)
@@ -815,8 +815,8 @@ dev.off()
 ```
 
 ```{r gc_roc, eval=T}
-load("chapter_3_files/pcGC.Rda")
-load("chapter_3_files/ncGC.Rda")
+load("chapter_4_files/pcGC.Rda")
+load("chapter_4_files/ncGC.Rda")
 
 pcGC <- pcGC %>% mutate(response = 1)
 ncGC <- ncGC %>% mutate(response = 0)
@@ -839,8 +839,8 @@ dev.off()
 ```
 
 ```{r mfe_roc, eval=T}
-load("chapter_3_files/pcMFE.Rda")
-load("chapter_3_files/ncMFE.Rda")
+load("chapter_4_files/pcMFE.Rda")
+load("chapter_4_files/ncMFE.Rda")
 
 pcMFE <- pcMFE %>% mutate(response = 1)
 ncMFE <- ncMFE %>% mutate(response = 0)
@@ -863,8 +863,8 @@ dev.off()
 ```
 
 ```{r alicov_roc, eval=T}
-load("chapter_3_files/pcCovAli.Rda")
-load("chapter_3_files/ncCovAli.Rda")
+load("chapter_4_files/pcCovAli.Rda")
+load("chapter_4_files/ncCovAli.Rda")
 
 pcAliCov <- pcAliCov %>% mutate(response = 1)
 ncAliCov <- ncAliCov %>% mutate(response = 0)
@@ -887,8 +887,8 @@ dev.off()
 ```
 
 ```{r motifs_roc, eval=T}
-load("chapter_3_files/pcMotif.Rda")
-load("chapter_3_files/ncMotif.Rda")
+load("chapter_4_files/pcMotif.Rda")
+load("chapter_4_files/ncMotif.Rda")
 
 pcMotif <- pcMotif %>% mutate(response = 1)
 ncMotif <- ncMotif %>% mutate(response = 0)
@@ -911,8 +911,8 @@ dev.off()
 ```
 
 ```{r zscore_roc, eval=T}
-load("chapter_3_files/pcAlifold.Rda")
-load("chapter_3_files/ncAlifold.Rda")
+load("chapter_4_files/pcAlifold.Rda")
+load("chapter_4_files/ncAlifold.Rda")
 
 pcAlifold <- pcAlifold %>% mutate(response = 1)
 ncAlifold <- ncAlifold %>% mutate(response = 0)
